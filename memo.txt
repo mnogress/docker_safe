@@ -47,3 +47,18 @@ winpty docker run --rm -it --name docker_jekyll \
     -w //work \
     docker_jekyll \
     bundle exec jekyll serve -H 0.0.0.0
+
+
+
+winpty docker run --rm -it --name docker_jekyll \
+    -v /$PWD/_config.yml://work/_config.yml \
+    -v /$PWD/index.html://work/index.html \
+    -v /$PWD/_data/://work/_data/ \
+    -v /$PWD/_posts/://work/_posts/ \
+    -v /$PWD/_site/://work/_site/ \
+    -v /$PWD/images/://work/images/ \
+    -v /$PWD/assets/://work/assets/ \
+    -w //work \
+    -e JEKYLL_ENV=production \
+    docker_jekyll \
+    bundle exec jekyll build
