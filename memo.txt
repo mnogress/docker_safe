@@ -62,3 +62,9 @@ winpty docker run --rm -it --name docker_jekyll \
     -e JEKYLL_ENV=production \
     docker_jekyll \
     bundle exec jekyll build
+
+winpty docker run --rm \
+  --volume="/$PWD://srv/jekyll:Z" \
+  --publish [::1]:4000:4000 \
+  jekyll/jekyll \
+  jekyll serve  -H 0.0.0.0
