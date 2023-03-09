@@ -40,7 +40,8 @@ with codecs.open("WA_Fn-UseC_-HR-Employee-Attrition.csv", mode ="r", encoding ="
 ### sqlite DB を定義する
 
 SQliteDBを作成します。DB名は`HR_Employee_Attrition.db`としています。以下のCode でDBを作成します。
-ここでは、コメントにもあるとおりHR_Employee_Attrition.db`という名前のDBがなければ作成しますが、すでに存在する場合はそれに接続して使えるようにします。
+ここでは、コメントにもあるとおりHR_Employee_Attrition.db`という名前のDBがなければ作成し、接続して使えるようにします。
+すでに存在する場合は接続して使えるようにします。
 
 {% highlight python linenos %}
 
@@ -56,10 +57,10 @@ cur = conn.cursor()
 {% endhighlight %}
 
 
-### SQlite DBにテーブルを定義し、データフレームをテーブルの中身とする 
+### SQlite DBにテーブルを定義し、データフレームの中身をテーブルに流し込む 
 
-DB名はHR_Employee_Attrition.dbでその情報はconnectionオブジェクト conn から引き継がれます。
-DB内のテーブル名は`HR_Employee_Attrition_tab`としています。
+DB名はHR_Employee_Attrition.dbでその情報はconnectionオブジェクト `conn` で引き継がれます。
+DB内のテーブル名は`HR_Employee_Attrition_tab`と定義します。
 
 {% highlight python linenos %}
 # tableのnameを"HR_Employee_Attrition_tab"とし、読み込んだcsvファイルをsqlに書き込む
@@ -69,6 +70,19 @@ df.to_sql('HR_Employee_Attrition_tab', conn, if_exists='replace', index=False)
 
 1. `if_exists='replace`でテーブルが既に存在していた場合、上書きします。
 2. データフレームが持つIndexはテーブルには書き込ませません。SQLite DB は独自にIndexを持ちますので、不要です。
+
+{% highlight python %}
+ ドライブ D のボリューム ラベルは ボリューム です
+ ボリューム シリアル番号は C64A-8xx です
+
+ D:\jupyter\sqliteDB のディレクトリ
+
+2023/03/0x  14:35    <DIR>          .
+2023/03/0x  14:35    <DIR>          ..
+2023/03/0x  14:35           217,088 HR_Employee_Attrition.db
+               1 個のファイル             217,088 バイト
+               2 個のディレクトリ  212,100,857,856 バイトの空き領域
+{% endhighlight %}
 
 ### 関数を適用する
 
