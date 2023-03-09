@@ -71,6 +71,8 @@ df.to_sql('HR_Employee_Attrition_tab', conn, if_exists='replace', index=False)
 1. `if_exists='replace`でテーブルが既に存在していた場合、上書きします。
 2. データフレームが持つIndexはテーブルには書き込ませません。SQLite DB は独自にIndexを持ちますので、不要です。
 
+ls コマンドでファイルを確認すると、217,088 バイトの大きさで`HR_Employee_Attrition.db`というDBが作成されています。
+
 {% highlight python %}
  ドライブ D のボリューム ラベルは ボリューム です
  ボリューム シリアル番号は C64A-8xx です
