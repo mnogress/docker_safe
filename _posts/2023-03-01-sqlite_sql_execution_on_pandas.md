@@ -69,7 +69,7 @@ df.to_sql('HR_Employee_Attrition_tab', conn, if_exists='replace', index=False)
 {% endhighlight %}
 
 1. `if_exists='replace`でテーブルが既に存在していた場合、上書きします。
-2. データフレームが持つIndexはテーブルには書き込ませません。SQLite DB は独自にIndexを持ちますので、不要です。
+2. データフレームが持つIndexはテーブルには書き込ませません。SQLite DB は独自にIndexを持ちますので、不要ですので、`index=False`を指定します。
 
 ls コマンドでファイルを確認すると、217,088 バイトの大きさで`HR_Employee_Attrition.db`というDBが作成されています。
 
@@ -86,65 +86,73 @@ ls コマンドでファイルを確認すると、217,088 バイトの大きさ
                2 個のディレクトリ  212,100,857,856 バイトの空き領域
 {% endhighlight %}
 
-### 関数を適用する
+### SQLite DB にアクセスしてSQL文を実行する
 
-関数を適用した結果は、列名「結果」という新しい列に内容を追加します。
+作成したSQlite DBにJupyter Notebook からアクセス（接続）し、SELECT文を使ってテーブルの中身を抽出します。
+抽出したデータは、Pandas データフレームとして取り込みます。
+以下のSELECT文では、テーブル全体すなわち、DBのデータ全部をデータフレームとして読み込むこととなります。
 
 {% highlight python linenos %}
 
-`df['結果'] = df.apply(func_row_check, axis=1)`
+dbname = "HR_Employee_Attrition.db"
+conn = sqlite3.connect(dbname)
+cur = conn.cursor()
+
+# dbをpandasで読み出す。
+df = pd.read_sql('SELECT * FROM HR_Employee_Attrition_tab', conn)
+
+cur.close()
+conn.close()
 
 {% endhighlight %}
 
-
-### データフレームで内容を確認します。
+Jupyter Notebook から内容を確認します。
  
-![fnction]({{ "assets/img/2020_08_15/fig6.png" | relative_url}})<br>
+![data_frame]({{ "assets/img/2020_08_15/fig31011.png" | relative_url}})<br>
 
 
 ---
 
-### サンプルコード
+### Here Document でSELECT文の見通しの良さをアップする
 
-サンプルコードでは、データフレームの作成から、関数の定義と適用、結果の確認までを紹介していますので、お手元の
-Python 環境(Jupyrt Notebook 等)でお確かめくださいませ。
-
+SELECT文等でクエリを組み込みますが、以下のとおり、「`"""`」で囲んでQuery を独立させ、見通しを良くさせます。 
+このQueryでは、抽出するカラムを"Department", "Age", "Attrition", "BusinessTravel", "DailyRate"のみを抽出します。
+また、条件として、"BusinessTravel"="Travel_Frequently"　かつ、"DailyRate" < 1350　かつ "Age" > 36に絞ります。
 
 {% highlight python linenos %}
 
-# 必要なモジュールをインポートします
-import numpy as np
-import pandas as pd
-# 演習用のデータフレームを作成します。
-df = pd.DataFrame({ '社員番号': ['01285679', '01340788', '02123782', '03541976', '04297411', '13299899', '30144450', '47339981'],
-                   '記録 列A':   [4,3,2,1,4,2,3,8],
-                   '報告 列B': [4,3,2,2,4,0,3,8]},
-                    index=[0, 1, 2, 3, 4, 5, 6,7])
-# オリジナルのデータフレームを表示
-display(df)
-# 関数を定義
-def func_row_check(row):
-    """
-    列間を比較する
-
-    引数:
-        row['col1']: 比較したい列名 col1
-        row['col2']: 比較したいもう一つの列名 col2
-
-    Returns:
-        1 : 一致
-        9 : 不一致
-    """
-    if row['記録 列A'] == row['報告 列B']:
-        return 1
-    else:
-        return 9
-# 関数を適用
-df['結果'] = df.apply(func_row_check, axis=1)
-# 結果のデータフレームを表示
-display(df)
+query = """
+    SELECT 
+          "Department", 
+          "Age", 
+          "Attrition", 
+          "BusinessTravel", 
+          "DailyRate"
+    FROM  "HR_Employee_Attrition_tab" 
+    WHERE "BusinessTravel"="Travel_Frequently" 
+    AND   "DailyRate" < 1350
+    AND   "Age" > 36
+  """
 
 {% endhighlight %}
+
+このQuery を実行するコードは以下のとおりです。　すでに、DB名は`dbname = "HR_Employee_Attrition.db"`で定義していますので
+その部分は省略していますので、注意してください。
+
+{% highlight python linenos %}
+conn = sqlite3.connect(dbname)
+cur = conn.cursor()
+
+# 変数Queryで定義したSQL 文を使ってpandas　Dataframeで読み出す。
+df = pd.read_sql(query, conn)
+
+{% endhighlight %}
+
+内容を確認します。
+
+![data_frame]({{ "assets/img/2020_08_15/fig31012.png" | relative_url}})<br>
+
+
 
 
 >
