@@ -1,7 +1,7 @@
 ---
 layout: splash
-title: データフレーム内の列間の値を比較する
-feature-img: "assets/img/2020_08_15/flowers-g500bc7407_640.jpg"
+title: Pands データフレームをsqlite3でSQL文で操作する
+feature-img: "assets/img/2020_08_15/cat-gf45769994_640.png"
 tags: [Python, sqlite3, SQL ]
 excerpt_separator: <!--more-->
 ---
@@ -10,10 +10,16 @@ excerpt_separator: <!--more-->
 
 SQLiteは、軽量なディスク上のデータベースを提供する C ライブラリです。
 別のサーバプロセスを用意する必要なく、 SQLクエリー言語（SQL文）を使用してデータベースにアクセスできます。アプリケーションは内部データ保存に SQLite を使えます。SQLite を使ってアプリケーションのプロトタイプを作り、その後そのコードを PostgreSQL や Oracle 等の大規模データベースに移植することができるため、アプリ開発での定番のSQL DBです。
-[sqlite3](https://docs.python.org/ja/3.5/library/sqlite3.html){:target="_blank"}モジュールは、データセットをSQL DBとして格納しSQL文でアクセスできるインターフェイスを提供します。今回は、Jupyter Notebook でデータ分析をする際にデータの読み込み、抽出の操作をsqlite3で提供されるSQL文を利用する方法にまとめました。
+
+[DB Browser for SQLite](https://sqlitebrowser.org/){:target="_blank"}は、SQLiteのデータベースを管理できるソフトです。 上述のSQLiteのデータベースを作成・閲覧・編集できるほか、肥大化したデータベースを最適化してファイルサイズを小さくすることも可能で、USBドライブから起動するポータブル版もあったりして、SQLiteをより身近にさせるもので、こちらのソフトの方が使ったことがある方も少なくないと思います。
+
+
+[sqlite3](https://docs.python.org/ja/3.5/library/sqlite3.html){:target="_blank"}モジュールは、Python 上でデータセットをSQL DBとして格納しSQL文でアクセスできるインターフェイスを提供します。このモジュールで、SQLite 上の操作をPython で行うことを可能にします。
+
+今回は、Jupyter Notebook でデータ分析を前提に、データの読み込み、抽出の操作をsqlite3で提供されるSQL文を利用する方法にまとめました。
 
 <!--more-->
-PythonプログラムでのSQLの取り込みに活用頂ければ幸いです。
+このブログがPythonプログラムでのSQLの取り込みに活用頂ければ幸いです。
 
 ---
 
@@ -157,8 +163,7 @@ df = pd.read_sql(query, conn)
 
 >
 `[ここがポイント！]`{:style="color: blue; font-size: 1.3em; background-color: #ffe3e2"} 
-`df['結果'] = df.apply(func_row_check, axis=1)` で`axis=1`{:style="background: #ffebf6"}の指定をしないと
-デフォルトでは、`axis=0`のため`KeyErro`で例外となってしまい関数が上手く働きません。
+sqlite3 モジュールで作成したDBは、DB Browser for SQLiteから操作可能です。SQL文の練習には、Python 上のsqlite3を使うだけでなく、DB Browser for SQLiteを使ってみるのも、環境のセットアップ等を考えると効率的に行えます。sqlite3と一緒にDB Browser for SQLiteをPCにインストールして一緒に遊んでみるのも、いいかもしれません
 {:style="background-color: #ffe3e2; border-left: #ffe3e2; font-size: 1.0em"}
 
 ---
@@ -167,7 +172,7 @@ df = pd.read_sql(query, conn)
 ### 参照ページ一覧
 このブログを作成するにあたり、以下のページを参考にしています。併せてご覧ください。
 >
-1) [先頭のゼロが抜け落ちた番号をzfillを使って修復する](https://www.so-wi.com/2021/02/27/filling_zeros_right.html){:target="_blank"}<br>
-2) [任意の列の計算結果を新しい列に格納 lambda](https://www.so-wi.com/portfolio/lambda-if-new){:target="_blank"}<br>
-3) [df.value_counts() の結果をパワポ用にビジュアル化する](https://www.so-wi.com/2022/03/11/df_value_counts_visualization.html){:target="_blank"}<br>
+1) [サンプルデータセットの説明](https://www.so-wi.com/2019/06/01/reference_data.html){:target="_blank"}<br>
+2) [UnicodeDecodeErrorで csv ファイルが読み込みエラーになる](https://www.so-wi.com/portfolio/csv-read-error){:target="_blank"}<br>
+3) [DB Browser for SQLite](https://sqlitebrowser.org/){:target="_blank"}<br>
 {:style="border-color: #5f564d; border-top-color: #5f564d; font-size: 1.0em; background-color: #f5f5dc;"}
