@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Pands データフレームをsqlite3でSQL文で操作する
+title: Pandsデータフレームをsqlite3のSQL文で操作する
 feature-img: "assets/img/2020_08_15/cat-gf45769994_640.png"
 tags: [Python, sqlite3, SQL ]
 excerpt_separator: <!--more-->
@@ -8,7 +8,7 @@ excerpt_separator: <!--more-->
 
 ### layout: post
 
-SQLiteは、軽量なディスク上のデータベースを提供する C ライブラリです。
+[SQLite](https://www.sqlite.org/index.html){:target="_blank"}は、軽量なディスク上のデータベースを提供する C ライブラリです。
 別のサーバプロセスを用意する必要なく、 SQLクエリー言語（SQL文）を使用してデータベースにアクセスできます。SQLiteを使ってアプリケーションのプロトタイプを作り、その後そのコードを PostgreSQLやOracle等の大規模データベースに移植することができるため、アプリ開発でのマストアイテム的なSQL DBツールです。
 
 [DB Browser for SQLite](https://sqlitebrowser.org/){:target="_blank"}は、SQLiteのデータベースを管理できるソフトです。 上述のSQLiteのデータベースを作成・閲覧・編集できるほか、肥大化したデータベースを最適化してファイルサイズを小さくすることも可能で、USBドライブから起動するポータブル版もあったりして、SQLiteをより身近にさせるもので、こちらのソフトの方が使ったことがある方も少なくないと思います。
@@ -121,9 +121,10 @@ Jupyter Notebook から内容を確認します。
 
 ### Here Document でSELECT文の見通しの良さをアップする
 
-SELECT文等でクエリを組み込みますが、以下のとおり、「`"""`」で囲んでQuery を独立させ、見通しを良くさせます。 
-このQueryでは、抽出するカラムを"Department", "Age", "Attrition", "BusinessTravel", "DailyRate"のみを抽出します。
-また、条件として、"BusinessTravel"="Travel_Frequently"　かつ、"DailyRate" < 1350　かつ "Age" > 36に絞ります。
+SELECT文等でクエリを組み込みますが、Pythonでは、区切り文字として引用符を3つ続ける「`"""`」文字列リテラル（いわゆる、ベタ打ち文字列）を持つことができます。　改行できるため、抜き出すカラム名で改行させかつ、Query として独立させ、全体を見通しを良くさせます。 
+
+このQueryでは、抽出するカラムを"Department", "Age", "Attrition", "BusinessTravel", "DailyRate"のみを抽出しますが、それ毎に改行しています。
+また、条件として、"BusinessTravel"="Travel_Frequently"　かつ、"DailyRate" < 1350　かつ "Age" > 36に絞りますが、これも見やすくするため改行しています。
 
 {% highlight python linenos %}
 
