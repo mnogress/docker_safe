@@ -37,15 +37,15 @@ with codecs.open("WA_Fn-UseC_-HR-Employee-Attrition.csv", mode ="r", encoding ="
 
 今回は、データクリーニング前のRaw Data の読み込みを前提としているため、
 [UnicodeDecodeErrorで csv ファイルが読み込みエラーになる](https://www.so-wi.com/portfolio/csv-read-error){:target="_blank"}でもご紹介している方法でCSV形式のファイルを読み込みます。
-1. `mode ="r"` 読み込みモードを指定します。
-2. `encoding ="utf-8"` インターネットからダウンロードした場合は、`utf-8` を指定します。Windows PC（Excel）で操作したデータを使う場合は、`shift-jis`を指定します。
-3. `errors="ignore"`を指定してデコードできない文字が含まれていた場合に無視(ignore)するを指定します。
-4. CSVファイルをデータフレームとして読み込むにあたり`delimiter =","` CSVファイルなのでカンマを区切り文字にします。　
-5. `header=0`最初の行をヘッダーとして扱います。
+1. `mode ="r"`{:style="background: #ffebf6"} 読み込みモードを指定します。
+2. `encoding ="utf-8"`{:style="background: #ffebf6"} インターネットからダウンロードした場合は、`utf-8`{:style="background: #ffebf6"} を指定します。Windows PC（Excel）で操作したデータを使う場合は、`shift-jis`{:style="background: #ffebf6"}を指定します。
+3. `errors="ignore"`{:style="background: #ffebf6"}を指定してデコードできない文字が含まれていた場合に無視(ignore)するを指定します。
+4. CSVファイルをデータフレームとして読み込むにあたり`delimiter =","`{:style="background: #ffebf6"} CSVファイルなのでカンマを区切り文字にします。　
+5. `header=0`{:style="background: #ffebf6"}最初の行をヘッダーとして扱います。
 
 ### sqlite DB を定義する
 
-SQliteDBを作成します。DB名は`HR_Employee_Attrition.db`としています。以下のCode でDBを作成します。
+SQliteDBを作成します。DB名は`HR_Employee_Attrition.db`{:style="background: #ffebf6"}としています。以下のCode でDBを作成します。
 ここでは、コメントにもあるとおりHR_Employee_Attrition.db`という名前のDBがなければ作成し、接続して使えるようにします。
 すでに存在する場合は接続して使えるようにします。
 
@@ -65,8 +65,8 @@ cur = conn.cursor()
 
 ### SQlite DBにテーブルを定義し、データフレームの中身をテーブルに流し込む 
 
-DB名はHR_Employee_Attrition.dbでその情報はconnectionオブジェクト `conn` で引き継がれます。
-DB内のテーブル名は`HR_Employee_Attrition_tab`と定義します。
+DB名はHR_Employee_Attrition.dbでその情報はconnectionオブジェクト `conn`{:style="background: #ffebf6"} で引き継がれます。
+DB内のテーブル名は`HR_Employee_Attrition_tab`{:style="background: #ffebf6"}と定義します。
 
 {% highlight python linenos %}
 # tableのnameを"HR_Employee_Attrition_tab"とし、読み込んだcsvファイルをsqlに書き込む
@@ -74,10 +74,10 @@ DB内のテーブル名は`HR_Employee_Attrition_tab`と定義します。
 df.to_sql('HR_Employee_Attrition_tab', conn, if_exists='replace', index=False)
 {% endhighlight %}
 
-1. `if_exists='replace`でテーブルが既に存在していた場合、上書きします。
-2. データフレームが持つIndexはテーブルには書き込ませません。SQLite DB は独自にIndexを持ちますので、不要ですので、`index=False`を指定します。
+1. `if_exists='replace`{:style="background: #ffebf6"}でテーブルが既に存在していた場合、上書きします。
+2. データフレームが持つIndexはテーブルには書き込ませません。SQLite DB は独自にIndexを持ちますので、不要ですので、`index=False`{:style="background: #ffebf6"}を指定します。
 
-ls コマンドでファイルを確認すると、217,088 バイトの大きさで`HR_Employee_Attrition.db`というDBが作成されています。
+ls コマンドでファイルを確認すると、217,088 バイトの大きさで`HR_Employee_Attrition.db`{:style="background: #ffebf6"}というDBが作成されています。
 
 {% highlight python %}
  ドライブ D のボリューム ラベルは ボリューム です
@@ -123,8 +123,8 @@ Jupyter Notebook から内容を確認します。
 
 SELECT文等でクエリを組み込みますが、Pythonでは、区切り文字として引用符を3つ続ける「`"""`」文字列リテラル（いわゆる、ベタ打ち文字列）を持つことができます。　改行できるため、抜き出すカラム名で改行させかつ、Query として独立させ、全体を見通しを良くさせます。 
 
-このQueryでは、抽出するカラムを"Department", "Age", "Attrition", "BusinessTravel", "DailyRate"のみを抽出しますが、それ毎に改行しています。
-また、条件として、"BusinessTravel"="Travel_Frequently"　かつ、"DailyRate" < 1350　かつ "Age" > 36に絞りますが、これも見やすくするため改行しています。
+このQueryでは、抽出するカラムを`"Department", "Age", "Attrition", "BusinessTravel", "DailyRate"`{:style="background: #ffebf6"}のみを抽出しますが、それ毎に改行しています。
+また、条件として、`"BusinessTravel"="Travel_Frequently"`{:style="background: #ffebf6"}　かつ、`"DailyRate" < 1350`{:style="background: #ffebf6"}　かつ `"Age" > 36`{:style="background: #ffebf6"}に絞りますが、これも見やすくするため改行しています。
 
 {% highlight python linenos %}
 
@@ -143,7 +143,7 @@ query = """
 
 {% endhighlight %}
 
-このQuery を実行するコードは以下のとおりです。　すでに、DB名は`dbname = "HR_Employee_Attrition.db"`で定義していますので
+このQuery を実行するコードは以下のとおりです。　すでに、DB名は`dbname = "HR_Employee_Attrition.db"`{:style="background: #ffebf6"}で定義していますので
 その部分は省略していますので、注意してください。
 
 {% highlight python linenos %}
