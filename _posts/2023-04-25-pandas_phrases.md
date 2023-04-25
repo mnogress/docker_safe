@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: PyPDF2を使ったPDFからのテキストファイルの抽出
+title: Pandas, Python 慣用句
 classes:
   - landing
   - dark-theme
