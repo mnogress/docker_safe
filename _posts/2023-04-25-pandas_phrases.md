@@ -10,7 +10,8 @@ classes:
 {% highlight python linenos %}
 
 
-df_overview = pd.DataFrame([[i, len(df[i].unique()), df[i].dtypes, df[i].isnull().sum()] for i in df.columns], columns=['Feature', 'Unique Values', 'dtypes', 'NaN'])
+df_overview = pd.DataFrame([[i, len(df[i].unique()), df[i].dtypes, df[i].isnull().sum()] 
+    for i in df.columns], columns=['Feature', 'Unique Values', 'dtypes', 'NaN'])
 
 df_overview
 
@@ -273,7 +274,7 @@ conn.close()
 {% endhighlight %}
 
 
-##### Read EXCEL file ファイル名とシート名とIndexとするカラムを指定する。
+##### Read EXCEL file ファイル名とシート名とIndexとするカラムを指定する。 EXCELにインデクスがない場合は　`index_col=None` を指定する
 
 {% highlight python linenos %}
 
@@ -334,3 +335,88 @@ with codecs.open("WA_Fn-UseC_-HR-Employee-Attrition.csv", mode ="r", encoding ="
 
 {% endhighlight %}
 
+##### Count Plot サンプル
+
+{% highlight python linenos %}
+
+import numpy as np
+import pandas as pd
+import seaborn as sns
+# matplotlibのグラフをRetinaの高解像度で表示する
+%config InlineBackend.figure_formats = {'png', 'retina'}
+# Jupyter Notebookの中で作図した画像を表示させる
+%matplotlib inline
+# matplotlib をインポートする
+import matplotlib.pyplot as plt
+# 図のサイズを12inch x 12inch = 864px X 864px にする
+plt.rcParams['figure.figsize'] = 12, 12
+# 日本語タイトルのため、japanizeをインポートする
+import japanize_matplotlib
+plt.rcParams['font.family'] = 'IPAexGothic'
+
+col_name = 'YearsAtCompany'
+sns.countplot(x=col_name, data=df, palette='hls')
+#seaborn countplotを設定し、変数axとしてAnnotationを上書できるようにする
+ax = sns.countplot(x = col_name, 
+                   data = df)
+# Annotation を設定する
+for p in ax.patches:
+    ax.annotate(format(p.get_height(), '.0f'), 
+                   (p.get_x() + p.get_width() / 2., 
+                    p.get_height()), 
+                    ha = 'center', 
+                    va = 'center', 
+                    xytext = (0, 9), 
+                    textcoords = 'offset points',
+                    fontsize = 8,
+                    color = 'blue')
+
+{% endhighlight %}
+
+![countplot]({{ "assets/img/2020_08_15/countplot1.png" | relative_url}})<br>
+
+
+##### Openpyxl でExcel file のシート名を確認する
+{% highlight python linenos %}
+
+# ライブラリを読み込む
+import openpyxl as xl
+import win32com.client
+import os
+
+filename = '61_matching_lisr_winner_1221_v2.xlsx'
+wb = xl.load_workbook(filename)
+wb.sheetnames
+{% endhighlight %}
+
+
+##### データフレーム df, dt を横に結合させる
+{% highlight python  %}
+df = pd.concat([df, dt], axis = 1)
+{% endhighlight %}
+
+
+##### 都道府県番号；都道府県名を一つの要素としてカラム名「都道府県」部分を、<br>「都道府県番号」と「都道府県名」に分割した新しいデータフレーム「dt」を作成する
+
+{% highlight python linenos %}
+
+df['new'] = df['都道府県'].str.split(':')
+np_array = df['new'].values
+np_list = np_array.tolist()
+dt = pd.DataFrame(np_list)
+cols = ['都道府県番号', '都道府県名']
+dt.columns = cols
+display(dt.head())
+
+{% endhighlight %}
+
+##### カラム名「name」をインデクスに変える
+
+{% highlight python %}
+df = df.set_index('name')
+{% endhighlight %}
+
+##### 元のインデクス値をインデクスに戻す（リセットする）
+{% highlight python %}
+df = df.reset_index()
+{% endhighlight %}
