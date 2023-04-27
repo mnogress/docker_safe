@@ -312,7 +312,7 @@ df = df.sort_values(["mean"], ascending = False)
 
 ##### カラム名　産業大分類名で構成比を成型して表示する
 
-{% highlight python %}
+{% highlight python linenos %}
 
 col_name = '産業大分類名'
 tab = df[col_name].value_counts()
@@ -327,7 +327,7 @@ display(tab.style.format(format_dict))
 
 ##### CSV file read
 
-{% highlight python %}
+{% highlight python linenos %}
 
 import codecs
 with codecs.open("WA_Fn-UseC_-HR-Employee-Attrition.csv", mode ="r", encoding ="utf-8", errors="ignore") as file:
@@ -419,4 +419,43 @@ df = df.set_index('name')
 ##### 元のインデクス値をインデクスに戻す（リセットする）
 {% highlight python %}
 df = df.reset_index()
+{% endhighlight %}
+
+
+##### 列間を比較し、その結果を 1\9 で出す
+{% highlight python linenos %}
+
+# 必要なモジュールをインポートします
+import numpy as np
+import pandas as pd
+# 演習用のデータフレームを作成します。
+# ２番目の北海道と宮城県の顧客番号はint型でその他はstr型でデータフレームを作成
+df = pd.DataFrame({ '社員番号': ['01285679', '01340788', '02123782', '03541976', '04297411', '13299899', '30144450', '47339981'],
+                   '記録 列A':   [4,3,2,1,4,2,3,8],
+                   '報告 列B': [4,3,2,2,4,0,3,8]},
+                    index=[0, 1, 2, 3, 4, 5, 6,7])
+# データフレームを表示します
+display(df)
+
+def func_row_check(row):
+    """
+    列間を比較する
+
+    引数:
+        row['col1']: 比較したい列名 col1
+        row['col2']: 比較したいもう一つの列名 col2
+
+    Returns:
+        1 : 一致
+        9 : 不一致
+    """
+    if row['記録 列A'] == row['報告 列B']:
+        return 1
+    else:
+        return 9
+
+df['結果'] = df.apply(func_row_check, axis = 1)
+
+display(df)
+
 {% endhighlight %}
