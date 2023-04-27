@@ -459,3 +459,36 @@ df['結果'] = df.apply(func_row_check, axis = 1)
 display(df)
 
 {% endhighlight %}
+
+##### カテゴリ毎に人数出して、整形する
+{% highlight python linenos %}
+
+cat = df[col4].value_counts()
+cat = pd.DataFrame(cat)
+cat = cat.rename_axis(col4)
+cat.rename(columns={col4: '人数'}, inplace = True)
+
+display(cat)
+
+{% endhighlight %}
+
+![str_number]({{ "assets/img/2020_08_15/str_num1.png" | relative_url}})<br>
+
+##### カテゴリ集計を円グラフにする
+
+{% highlight python linenos %}
+
+tot = cat.sum()
+print(tot)
+sizes = cat['人数']
+labels = cat.index.tolist()
+fix1, ax1 = plt.subplots()
+colors = sns.color_palette('pastel')[0:9]
+ax1.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=0, colors=colors)
+
+ax1.axis('equal')
+ax1.set_title('申し込み者属性', pad=4, fontsize=12, color='black')
+plt.show()
+
+{% endhighlight %}
+
