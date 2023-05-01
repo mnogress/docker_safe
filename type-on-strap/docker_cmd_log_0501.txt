@@ -1,0 +1,515 @@
+/work # echo "source \"https://rubygems.org\"" >> Gemfile
+/work #
+/work # echo "gem 'type-on-strap'" >> Gemfile
+/work # bundle install
+Your RubyGems version (3.1.2) has a bug that prevents `required_ruby_version` from working for Bundler. Any scripts that use `gem install bundler` will break as soon as Bundler drops support for your Ruby version. Please upgrade RubyGems to avoid future breakage and silence this warning by running `gem update --system 3.2.3`
+Fetching gem metadata from https://rubygems.org/.............
+Resolving dependencies...
+Using rake 13.0.6
+Using public_suffix 5.0.1
+Using bundler 2.4.12
+Using google-protobuf 3.22.3 (x86_64-linux)
+Using rexml 3.2.5
+Using rb-fsevent 0.11.2
+Using eventmachine 1.2.7
+Using rouge 3.30.0
+Using forwardable-extended 2.6.0
+Using colorator 1.1.0
+Using webrick 1.8.1
+Using mercenary 0.4.0
+Using http_parser.rb 0.8.0
+Using sass-embedded 1.58.3
+Using ffi 1.15.5
+Using kramdown 2.4.0
+Using em-websocket 0.5.3
+Using jekyll-sass-converter 3.0.0
+Using rb-inotify 0.10.1
+Using addressable 2.8.4
+Using liquid 4.0.4
+Using safe_yaml 1.0.5
+Using pathutil 0.16.2
+Using unicode-display_width 2.4.2
+Using concurrent-ruby 1.2.2
+Using terminal-table 3.0.2
+Using i18n 1.13.0
+Using listen 3.8.0
+Using jekyll-paginate 1.1.0
+Using jekyll-watch 2.2.1
+Using kramdown-parser-gfm 1.1.0
+Using jekyll 4.3.2
+Using jekyll-feed 0.15.1
+Using jekyll-seo-tag 2.7.1
+Using type-on-strap 2.4.4
+Bundle complete! 1 Gemfile dependency, 35 gems now installed.
+Bundled gems are installed into `/usr/local/bundle`
+/work # gem update --system 3.2.3
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7
+Ignoring ffi-1.12.2 because its extensions are not built. Try: gem pristine ffi --version 1.12.2
+Ignoring http_parser.rb-0.6.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.6.0
+Ignoring sassc-2.2.1 because its extensions are not built. Try: gem pristine sassc --version 2.2.1
+Updating rubygems-update
+Fetching rubygems-update-3.2.3.gem
+Successfully installed rubygems-update-3.2.3
+Installing RubyGems 3.2.3
+Ignoring eventmachine-1.2.7 because its extensions are not built. Try: gem pristine eventmachine --version 1.2.7
+Ignoring ffi-1.12.2 because its extensions are not built. Try: gem pristine ffi --version 1.12.2
+Ignoring http_parser.rb-0.6.0 because its extensions are not built. Try: gem pristine http_parser.rb --version 0.6.0
+Ignoring sassc-2.2.1 because its extensions are not built. Try: gem pristine sassc --version 2.2.1
+  Successfully built RubyGem
+  Name: bundler
+  Version: 2.2.3
+  File: bundler-2.2.3.gem
+Bundler 2.2.3 installed
+RubyGems 3.2.3 installed
+Regenerating binstubs
+Regenerating plugins
+
+=== 3.2.3 / 2020-12-22
+
+Enhancements:
+
+* Fix misspellings in default API key name. Pull request #4177 by hsbt
+
+Bug fixes:
+
+* Respect `required_ruby_version` and `required_rubygems_version`
+  constraints when looking for `gem install` candidates. Pull request #4110
+  by deivid-rodriguez
+
+=== 3.2.2 / 2020-12-17
+
+Bug fixes:
+
+* Fix issue where CLI commands making more than one request to
+  rubygems.org needing an OTP code would crash or ask for the code twice.
+  Pull request #4162 by sonalkr132
+* Fix building rake extensions that require openssl. Pull request #4165 by
+  deivid-rodriguez
+* Fix `gem update --system` displaying too many changelog entries. Pull
+  request #4145 by deivid-rodriguez
+
+=== 3.2.1 / 2020-12-14
+
+Enhancements:
+
+* Added help message for gem i webrick in gem server command. Pull request
+  #4117 by hsbt
+
+Bug fixes:
+
+* Added the missing loading of fileutils same as load_specs. Pull request
+  #4124 by hsbt
+* Fix Resolver::APISet to always include prereleases when necessary. Pull
+  request #4113 by deivid-rodriguez
+
+=== 3.2.0 / 2020-12-07
+
+Enhancements:
+
+* Do not override Kernel#warn when there is no need. Pull request #4075 by
+  eregon
+* Update endpoint of gem signin command. Pull request #3840 by sonalkr132
+* Omit deprecated commands from command help output. Pull request #4023 by
+  landongrindheim
+* Suggest alternatives in `gem query` deprecation. Pull request #4021 by
+  landongrindheim
+* Lazily load `time`, `cgi`, and `zlib`. Pull request #4010 by
+  deivid-rodriguez
+* Don't hit the network when installing dependencyless local gemspec. Pull
+  request #3968 by deivid-rodriguez
+* Add `--force` option to `gem sources` command. Pull request #3956 by
+  andy-smith-msm
+* Lazily load `openssl`. Pull request #3850 by deivid-rodriguez
+* Pass more information when comparing platforms. Pull request #3817 by
+  eregon
+
+Bug fixes:
+
+* Use better owner & group for files in rubygems package. Pull request
+  #4065 by deivid-rodriguez
+* Improve gem build -C flag. Pull request #3983 by bronzdoc
+* Handle unexpected behavior with URI#merge and subpaths missing trailing
+  slashes. Pull request #3123 by drcapulet
+* Add missing `fileutils` require in rubygems installer. Pull request
+  #4036 by deivid-rodriguez
+* Fix `--platform` option to `gem specification` being ignored. Pull
+  request #4043 by deivid-rodriguez
+* Expose `--no-minimal-deps` flag to install the latest version of
+  dependencies. Pull request #4030 by deivid-rodriguez
+* Fix "stack level too deep" error when overriding `Warning.warn`. Pull
+  request #3987 by eregon
+* Append '.gemspec' extension only when it is not present. Pull request
+  #3988 by voxik
+* Install to correct plugins dir when using `--build-root`. Pull request
+  #3972 by deivid-rodriguez
+* Fix `--build-root` flag under Windows. Pull request #3975 by
+  deivid-rodriguez
+* Fix `typo_squatting?` false positive for `rubygems.org` itself. Pull
+  request #3951 by andy-smith-msm
+* Make `--default` and `--install-dir` options to `gem install` play nice
+  together. Pull request #3906 by deivid-rodriguez
+
+Deprecations:
+
+* Deprecate server command. Pull request #3868 by bronzdoc
+
+Performance:
+
+* Don't change ruby process CWD when building extensions. Pull request
+  #3498 by deivid-rodriguez
+
+=== 3.2.0.rc.2 / 2020-10-08
+
+Enhancements:
+
+* Make --dry-run flag consistent across rubygems commands. Pull request
+  #3867 by bronzdoc
+* Disallow downgrades to too old versions. Pull request #3566 by
+  deivid-rodriguez
+* Added `--platform` option to `build` command. Pull request #3079 by nobu
+* Have "gem update --system" pass through the `--silent` flag. Pull
+  request #3789 by duckinator
+* Add writable check for cache dir. Pull request #3876 by xndcn
+* Warn on duplicate dependency in a specification. Pull request #3864 by
+  bronzdoc
+* Fix indentation in `gem env`. Pull request #3861 by colby-swandale
+* Let more exceptions flow. Pull request #3819 by deivid-rodriguez
+* Ignore internal frames in RubyGems' Kernel#warn. Pull request #3810 by
+  eregon
+
+Bug fixes:
+
+* Add missing fileutils require. Pull request #3911 by deivid-rodriguez
+* Fix false positive warning on Windows when PATH has
+  `File::ALT_SEPARATOR`. Pull request #3829 by deivid-rodriguez
+* Fix Kernel#warn override to handle backtrace location with nil path.
+  Pull request #3852 by jeremyevans
+* Don't format executables on `gem update --system`. Pull request #3811 by
+  deivid-rodriguez
+* `gem install --user` fails with `Gem::FilePermissionError` on the system
+  plugins directory. Pull request #3804 by nobu
+
+Performance:
+
+* Avoid duplicated generation of APISpecification objects. Pull request
+  #3940 by mame
+* Eval defaults with frozen_string_literal: true. Pull request #3847 by
+  casperisfine
+* Deduplicate the requirement operators in memory. Pull request #3846 by
+  casperisfine
+* Optimize Gem.already_loaded?. Pull request #3793 by casperisfine
+
+=== 3.2.0.rc.1 / 2020-07-04
+
+Enhancements:
+
+* Test TruffleRuby in CI. Pull request #2797 by Benoit Daloze.
+* Rework plugins system and speed up rubygems. Pull request #3108 by David
+  Rodríguez.
+* Specify explicit separator not to be affected by $;. Pull request #3424
+  by Nobuyoshi Nakada.
+* Enable `Layout/ExtraSpacing` cop. Pull request #3449 by David Rodríguez.
+* Rollback gem deprecate. Pull request #3530 by Luis Sagastume.
+* Normalize heredoc delimiters. Pull request #3533 by David Rodríguez.
+* Log messages to stdout in `rake package`. Pull request #3632 by David
+  Rodríguez.
+* Remove explicit `psych` activation. Pull request #3636 by David
+  Rodríguez.
+* Delay `fileutils` loading to fix some warnings. Pull request #3637 by
+  David Rodríguez.
+* Make sure rubygems/package can be directly required reliably. Pull
+  request #3670 by Luis Sagastume.
+* Make sure `tmp` folder exists before calling `Dir.tmpdir`. Pull request
+  #3711 by David Rodríguez.
+* Add Gem.disable_system_update_message to disable gem update --system if
+  needed. Pull request #3720 by Josef Šimánek.
+* Tweaks to play nice with ruby-core setup. Pull request #3733 by David
+  Rodríguez.
+* Remove explicit require for auto-loaded constant. Pull request #3751 by
+  Karol Bucek.
+* Test files should not be included in spec.files. Pull request #3758 by
+  Marc-André Lafortune.
+* Remove TODO comment about warning on setting instead of pushing. Pull
+  request #2823 by Luis Sagastume.
+* Add deprecate command method. Pull request #2935 by Luis Sagastume.
+* Simplify deprecate command method. Pull request #2974 by Luis Sagastume.
+* Fix Gem::LOADED_SPECS_MUTEX handling for recursive locking. Pull request
+  #2985 by MSP-Greg.
+* Add `funding_uri ` metadata field to gemspec. Pull request #3060 by
+  Colby Swandale.
+* Updates to some old gem-signing docs. Pull request #3063 by Tieg
+  Zaharia.
+* Update the gem method for Gem::Installer. Pull request #3137 by Daniel
+  Berger.
+* Simplify initial gem help output. Pull request #3148 by Olivier Lacan.
+* Resolve latest version via `gem contents`. Pull request #3149 by Dan
+  Rice.
+* Install suggestions. Pull request #3151 by Sophia Castellarin.
+* Only rescue the errors we actually want to rescue. Pull request #3156 by
+  David Rodríguez.
+
+Bug fixes:
+
+* Accept not only /usr/bin/env but also /bin/env in some tests. Pull
+  request #3422 by Yusuke Endoh.
+* Skip a test that attempts to remove the current directory on Solaris.
+  Pull request #3423 by Yusuke Endoh.
+* Fix race condition on bundler's parallel installer. Pull request #3440
+  by David Rodríguez.
+* Fix platform comparison check in #contains_requirable_file?. Pull
+  request #3495 by Benoit Daloze.
+* Improve missing spec error. Pull request #3559 by Luis Sagastume.
+* Fix hidden bundler template installation from rubygems updater. Pull
+  request #3674 by David Rodríguez.
+* Fix gem update --user-install. Pull request #2901 by Luis Sagastume.
+* Correct conflict list when uninstallation is prevented. Pull request
+  #2973 by David Rodríguez.
+* Fix error when trying to find bundler with a deleted "working directo….
+  Pull request #3090 by Luis Sagastume.
+* Fix -I require priority. Pull request #3124 by David Rodríguez.
+* Fix `ruby setup.rb` for new plugins layout. Pull request #3144 by David
+  Rodríguez.
+
+Deprecations:
+
+* Set deprecation warning on query command. Pull request #2967 by Luis
+  Sagastume.
+
+Breaking changes:
+
+* Remove ruby 1.8 leftovers. Pull request #3442 by David Rodríguez.
+* Minitest cleanup. Pull request #3445 by David Rodríguez.
+* Remove `builder` gem requirement for `gem regenerate_index`. Pull
+  request #3552 by David Rodríguez.
+* Remove modelines for consistency. Pull request #3714 by David Rodríguez.
+* Stop using deprecated OpenSSL::Digest constants. Pull request #3763 by
+  Bart de Water.
+* Remove Gem module deprecated methods. Pull request #3101 by Luis
+  Sagastume.
+* Remove ubygems.rb. Pull request #3102 by Luis Sagastume.
+* Remove Gem::Commands::QueryCommand. Pull request #3104 by Luis
+  Sagastume.
+* Remove dependency installer deprecated methods. Pull request #3106 by
+  Luis Sagastume.
+* Remove Gem::UserInteraction#debug method. Pull request #3107 by Luis
+  Sagastume.
+* Remove options from Gem::GemRunner.new. Pull request #3110 by Luis
+  Sagastume.
+* Remove deprecated Gem::RemoteFetcher#fetch_size. Pull request #3111 by
+  Luis Sagastume.
+* Remove source_exception from Gem::Exception. Pull request #3112 by Luis
+  Sagastume.
+* Requiring rubygems/source_specific_file is deprecated, remove it. Pull
+  request #3114 by Luis Sagastume.
+
+=== 3.1.4 / 2020-06-03
+
+Enhancements:
+
+* Deprecate rubyforge_project attribute only during build
+  time. Pull request #3609 by Josef Šimánek.
+* Update links. Pull request #3610 by Josef Šimánek.
+* Run CI at 3.1 branch head as well. Pull request #3677 by Josef Šimánek.
+* Remove failing ubuntu-rvm CI flow. Pull request #3611 by
+  Josef Šimánek.
+
+=== 3.1.3 / 2020-05-05
+
+Enhancements:
+
+* Resolver: require NameTuple before use. Pull request #3171 by Olle
+  Jonsson.
+* Use absolute paths with autoload. Pull request #3100 by David Rodríguez.
+* Avoid changing $SOURCE_DATE_EPOCH. Pull request #3088 by Ellen Marie
+  Dash.
+* Use Bundler 2.1.4. Pull request #3072 by Hiroshi SHIBATA.
+* Add tests to check if Gem.ruby_version works with ruby git master.
+  Pull request #3049 by Yusuke Endoh.
+
+Bug fixes:
+
+* Fix platform comparison check in #contains_requirable_file?. Pull
+  request #3495 by Benoit Daloze.
+* Improve gzip errors logging. Pull request #3485 by David Rodríguez.
+* Fix incorrect `gem uninstall --all` message. Pull request #3483 by David
+  Rodríguez.
+* Fix incorrect bundler version being required. Pull request #3458 by
+  David Rodríguez.
+* Fix gem install from a gemdeps file with complex dependencies.
+  Pull request #3054 by Luis Sagastume.
+
+
+------------------------------------------------------------------------------
+
+RubyGems installed the following executables:
+        /usr/local/bin/gem
+        /usr/local/bin/bundle
+
+RubyGems system software updated
+/work # bundle exec jekyll s
+Configuration file: /work/_config.yml
+            Source: /work
+       Destination: /work/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(20em, 16) or calc(20em / 16)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+12 │ $fa-fw-width:          (20em / 16);
+   │                         ^^^^^^^^^
+   ╵
+    /work/_sass/external/font-awesome/_variables.scss 12:25  @import
+    /work/_sass/external/_font-awesome.scss 6:9              @import
+    type-on-strap.scss 10:9                                  @import
+    /work/assets/css/main.scss 1:9                           root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(4em, 3) or calc(4em / 3)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │   font-size: (4em / 3);
+  │               ^^^^^^^
+  ╵
+    /work/_sass/external/font-awesome/_larger.scss 6:15  @import
+    /work/_sass/external/_font-awesome.scss 9:9          @import
+    type-on-strap.scss 10:9                              @import
+    /work/assets/css/main.scss 1:9                       root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(3em, 4) or calc(3em / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+7 │   line-height: (3em / 4);
+  │                 ^^^^^^^
+  ╵
+    /work/_sass/external/font-awesome/_larger.scss 7:17  @import
+    /work/_sass/external/_font-awesome.scss 9:9          @import
+    type-on-strap.scss 10:9                              @import
+    /work/assets/css/main.scss 1:9                       root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($fa-li-width * 5, 4) or calc($fa-li-width * 5 / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │   margin-left: $fa-li-width * 5/4;
+  │                ^^^^^^^^^^^^^^^^^^
+  ╵
+    /work/_sass/external/font-awesome/_list.scss 6:16  @import
+    /work/_sass/external/_font-awesome.scss 11:9       @import
+    type-on-strap.scss 10:9                            @import
+    /work/assets/css/main.scss 1:9                     root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($padding-x-small, 2) or calc($padding-x-small / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+3 │   padding: $padding-x-small/2 0 $padding-x-small/4 0;
+  │            ^^^^^^^^^^^^^^^^^^
+  ╵
+    /work/_sass/includes/_share_buttons.scss 3:12  @import
+    type-on-strap.scss 26:9                        @import
+    /work/assets/css/main.scss 1:9                 root stylesheet
+Warning: 2 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    done in 9.639 seconds.
+ Auto-regeneration: enabled for '/work'
+    Server address: http://127.0.0.1:4000/Type-on-Strap/
+  Server running... press ctrl-c to stop.
+^C/work # bundle exec jekyll serve -H 0.0.0.0
+Configuration file: /work/_config.yml
+            Source: /work
+       Destination: /work/_site
+ Incremental build: disabled. Enable with --incremental
+      Generating...
+       Jekyll Feed: Generating feed for posts
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(20em, 16) or calc(20em / 16)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+   ╷
+12 │ $fa-fw-width:          (20em / 16);
+   │                         ^^^^^^^^^
+   ╵
+    /work/_sass/external/font-awesome/_variables.scss 12:25  @import
+    /work/_sass/external/_font-awesome.scss 6:9              @import
+    type-on-strap.scss 10:9                                  @import
+    /work/assets/css/main.scss 1:9                           root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(4em, 3) or calc(4em / 3)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │   font-size: (4em / 3);
+  │               ^^^^^^^
+  ╵
+    /work/_sass/external/font-awesome/_larger.scss 6:15  @import
+    /work/_sass/external/_font-awesome.scss 9:9          @import
+    type-on-strap.scss 10:9                              @import
+    /work/assets/css/main.scss 1:9                       root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div(3em, 4) or calc(3em / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+7 │   line-height: (3em / 4);
+  │                 ^^^^^^^
+  ╵
+    /work/_sass/external/font-awesome/_larger.scss 7:17  @import
+    /work/_sass/external/_font-awesome.scss 9:9          @import
+    type-on-strap.scss 10:9                              @import
+    /work/assets/css/main.scss 1:9                       root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($fa-li-width * 5, 4) or calc($fa-li-width * 5 / 4)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+6 │   margin-left: $fa-li-width * 5/4;
+  │                ^^^^^^^^^^^^^^^^^^
+  ╵
+    /work/_sass/external/font-awesome/_list.scss 6:16  @import
+    /work/_sass/external/_font-awesome.scss 11:9       @import
+    type-on-strap.scss 10:9                            @import
+    /work/assets/css/main.scss 1:9                     root stylesheet
+Deprecation Warning: Using / for division outside of calc() is deprecated and will be removed in Dart Sass 2.0.0.
+
+Recommendation: math.div($padding-x-small, 2) or calc($padding-x-small / 2)
+
+More info and automated migrator: https://sass-lang.com/d/slash-div
+
+  ╷
+3 │   padding: $padding-x-small/2 0 $padding-x-small/4 0;
+  │            ^^^^^^^^^^^^^^^^^^
+  ╵
+    /work/_sass/includes/_share_buttons.scss 3:12  @import
+    type-on-strap.scss 26:9                        @import
+    /work/assets/css/main.scss 1:9                 root stylesheet
+Warning: 2 repetitive deprecation warnings omitted.
+Run in verbose mode to see all warnings.
+                    done in 7.005 seconds.
+ Auto-regeneration: enabled for '/work'
+    Server address: http://0.0.0.0:4000/Type-on-Strap/
+  Server running... press ctrl-c to stop.
+[2023-05-01 06:52:48] ERROR `/' not found.
+[2023-05-01 06:52:48] ERROR `/' not found.
+^A
