@@ -18,17 +18,6 @@ winpty docker run --rm -it --name type-on-strap \
     type-on-strap \
     bundle exec jekyll serve -H 0.0.0.0
 
-echo "source \"https://rubygems.org\"" >> Gemfile
-echo "gem 'type-on-strap', '>= 2.2.4', '< 3.0'" >> Gemfile
-echo "gemspec 'type-on-strap.gemspec'" >> Gemfile
-
-echo "source \"https://rubygems.org\"" >> Gemfile
-echo "gem 'type-on-strap'" >> Gemfile
-echo "gemspec" >> Gemfile
-
-echo "source \"https://rubygems.org\"" >> Gemfile
-echo "gemspec" >> Gemfile
-
 ### Operated 
 echo "source \"https://rubygems.org\"" >> Gemfile
 echo "gem 'type-on-strap'" >> Gemfile
@@ -41,3 +30,6 @@ bundle exec jekyll serve -H 0.0.0.0
 
 
 http://localhost:4000/Type-on-Strap/
+
+
+docker build -t type-on-strap .

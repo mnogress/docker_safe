@@ -9,6 +9,7 @@ RUN echo "Adding the Gemfile" >> cat Gemfile
 
 # Install the theme
 RUN gem update bundler
+RUN gem update --system 3.2.3
 RUN bundle update
 RUN bundle install
 
