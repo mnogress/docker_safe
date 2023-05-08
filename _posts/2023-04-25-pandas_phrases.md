@@ -353,7 +353,8 @@ plt.rcParams['figure.figsize'] = 12, 12
 # 日本語タイトルのため、japanizeをインポートする
 import japanize_matplotlib
 plt.rcParams['font.family'] = 'IPAexGothic'
-
+# 列を縦にする
+# plt.xticks(rotation=90)
 col_name = 'YearsAtCompany'
 sns.countplot(x=col_name, data=df, palette='hls')
 #seaborn countplotを設定し、変数axとしてAnnotationを上書できるようにする
