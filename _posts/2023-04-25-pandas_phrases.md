@@ -493,3 +493,13 @@ plt.show()
 
 {% endhighlight %}
 
+
+
+#### SPSS データの読み取り　カテゴリカルデータでデータフレームを作成
+SPSS データは、ラベル名付きとラベル名なし（数値）の二種類をシートを分割して表示している
+
+{% highlight python %}
+
+df = pd.read_spss('SPSSデータ20230405.sav', usecols=None, convert_categoricals=True)
+
+{% endhighlight %}
