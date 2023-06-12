@@ -140,6 +140,6 @@ display(tab.style.format(format_dict))
 このブログを作成するにあたり、以下のページを参考にしています。併せてご覧ください。
 >
 1) [サンプルデータセットの説明](https://www.so-wi.com/2019/06/01/reference_data.html){:target="_blank"}<br>
-2) [https://www.so-wi.com/2022/03/11/df_value_counts_visualization.html](https://www.so-wi.com/2022/03/11/df_value_counts_visualization.html){:target="_blank"}<br>
+2) [df.value_counts() の結果をパワポ用にビジュアル化する](https://www.so-wi.com/2022/03/11/df_value_counts_visualization.html){:target="_blank"}<br>
 3) [クロス集計表とヒートマップでデータセットを理解する](https://www.so-wi.com/2020/12/22/cross_tab_heat_map.html){:target="_blank"}<br>
 {:style="border-color: #5f564d; border-top-color: #5f564d; font-size: 1.0em; background-color: #f5f5dc;"}
