@@ -1,13 +1,13 @@
 ---
 layout: splash
-title: データセットを理解するためのコマンド＆スクリプト10選
+title: データセットを理解するためのスクリプト4選
 classes:
   - landing
   - dark-theme
 ---
 
 データセットの準備は、データセットの理解で始まり、クレンジングで終わると言えます。このブログではデータ分析の一丁目一番地である
-データセットの理解のためのコマンド、スクリプト１０選をご紹介いたします。
+データセットの理解のためのスクリプト4選をご紹介いたします。
 
 ----
 
@@ -15,7 +15,13 @@ classes:
 
 データセットを利用しながら、説明をした方が分かりやすいと思いますので、今回は
 [Sample Dataset](https://www.so-wi.com/2019/06/01/reference_data.html){:target="_blank"}で紹介した、HRデータ（データセット3）の一部のカラムで
-10選コマンド、スクリプトを紹介いたします。　
+4選スクリプトを紹介いたします。　
+
+このデータセットは、Attrition に影響する従業員の属性について分析するためのものです。
+「Attrition（アトリション）」は、組織や企業において従業員の離職や退職のことを指す言葉です。従業員の流出や離脱とも訳されます。
+企業や組織は、Attritionの影響を最小限に抑えるために、離職率や離職原因の分析、従業員の定着策やキャリア開発プログラムの実施などの対策を取ることがあります。また、Attritionの率や傾向は、組織の人材計画や採用戦略にも影響を与える重要な指標となります。
+
+今回は、Attrition 影響分析として提供されたデータセットがどんな内容なのかを理解するために利用したいスクリプトをご紹介いたします。
 
 
 ##### No.1 データフレームの各列の列名、ユニーク数、型、NaNの数の一覧表作成(Script)
@@ -47,320 +53,93 @@ df_overview
 また、その上のEmployeeCountですが、これは全て同じ値です。これも、説明変数としては不適となります（一種類では説明変数とはならないため）。これも
 説明変数から外します。
 
-##### 21人以上にフィルタリングする
-{% highlight python linenos %}
+----
+##### No.2 ユニークな値の全部または一部を一覧表示する
 
-   print(df.shape)
-   df = df[df['労働者総数'] >= 21]
-   print(df.shape)
+各カラム毎のユニークな値の総数が分かりましたので、その中身について全部または一部を一覧表示し、特性を理解するのに役に立つスクリプトが以下になります。
 
-{% endhighlight %}
-
-
-##### NaNの行を取る
-{% highlight python linenos %}
-
-   print(df.shape)
-   df = df[df['会社数'].isnull() == False]
-   print(df.shape)
-
-{% endhighlight %}
-
-##### データフレームをCSVファイルで書き出す。インデックス値は不要
-{% highlight python %}
-
-   df.to_csv('61_法人番号_dup.csv', encoding='utf-8',  index=False)
-
-{% endhighlight %}
-
-##### 適用事業所番号の列の桁数をチェックする。　最初がゼロの場合、Excel 通してゼロになっている場合があるため 桁数が 10桁のところがあるので、全てを11桁に統一させる 先頭の2桁を抜き出す
-{% highlight python linenos %}
-
-   df['適用事業所番号']=df['適用事業所番号'].astype(str)
-   df['length']=list(map(len,df['適用事業所番号']))
-   df['length'].value_counts()
- 
-   s = df['適用事業所番号']
-   df['適用事業所番号']=pd.DataFrame(s.str.zfill(11))
-
-{% endhighlight %}
-
- 
-##### 先頭の2桁を抜き出す　この場合、string なので、それをnumeric に変換する  抜き出した都道府県番号が47個あるか確認する
-{% highlight python linenos %}
-
-  df['都道府県番号'] = df['適用事業所番号'].str[:2]
-  df['都道府県番号'] = pd.to_numeric(df['都道府県番号'],errors = 'coerce' )
-
-{% endhighlight %}
-
-##### s.str[2:6]で6桁の申請日のうち、3,4,5,6 を取り出す。　これが mmdd である
-{% highlight python %}
-
-  df['日月'] = df['申請日'].str[2:6]
-
-{% endhighlight %}
-
-##### 列名 length は不要なので、その列を drop する
-{% highlight python %}
-
- df = df.drop(columns=['length'])
-
-{% endhighlight %}
-
-##### 列名「法人番号」を「会社数」に変更する
-{% highlight python %}
-
- df.rename(columns={'法人番号': '会社数'}, inplace = True)
-
-{% endhighlight %}
-
- 
-##### 列名を指定してデータフレームを再編成する
-{% highlight python %}
-
-  df = df.loc[:, ['法人番号', '適用事業所番号','法人名', '住所', '労働者総数レンジ', '都道府県名', '産業大分類名']]
-
-{% endhighlight %}
-
-##### 列名「法人名かな」に含まれる全角をなくす 
-{% highlight python %}
-
-  df['法人名かな']=df['法人名かな'].str.replace("　", "")
-
-{% endhighlight %}
-
-##### オリジナル６１データに含まれていた列 Unnamed 130 から　139 までを削除する
-{% highlight python linenos %}
-
-df=df.drop(columns=[
-    'Unnamed: 130',
-    'Unnamed: 131',
-    'Unnamed: 132',
-    'Unnamed: 133',
-    'Unnamed: 134',
-    'Unnamed: 135',
-    'Unnamed: 136',
-    'Unnamed: 137',
-    'Unnamed: 138',
-    'Unnamed: 139'
-                   ])
-
-{% endhighlight %}
-
-##### データフレームの列名を縦にリストする
-{% highlight python linenos %}
-
-pd.options.display.max_rows = 220
-columns = df.columns
-columns = pd.DataFrame(columns)
-columns.head(220)
-
-{% endhighlight %}
-
-##### 抜き出した都道府県番号が47個あるか確認する
-
-{% highlight python %}
-
-df['都道府県番号'].nunique()
-
-{% endhighlight %}
-
-##### 法人番号の列内のNaNの総数を出す
-{% highlight python %}
-
-df['法人番号'].isnull().sum()
-
-{% endhighlight %}
-
-##### NaN を 9999 で埋める　fillna(9999) で行う
-{% highlight python %}
-
-df['法人番号']=df['法人番号'].fillna(9999)
-
-{% endhighlight %}
-
-##### 申請日の列の型をdatetime 型　dtype('<M8[ns]')にする
-{% highlight python %}
-
-df['申請日']=pd.to_datetime(df['申請日'])
-
-{% endhighlight %}
-
-##### 法人番号で重複排除する
-{% highlight python linenos %}
-
-print(df.shape)
-df.drop_duplicates(subset='法人番号', keep='first', inplace=True)
-print(df.shape)
-
-{% endhighlight %}
-
-##### 法人名の処理する前にオリジナルのデータを取っておく
-
-{% highlight python %}
-
-df['法人名オリジナル']=df['法人名'].copy()
-
-{% endhighlight %}
-
-##### 法人名についている空白を埋める
-
-{% highlight python %}
-
-df['法人名']=df['法人名'].str.replace("　", "")
-
-{% endhighlight %}
-
-##### SQL DB名：r3_61_227052by137_emp_num_r4.db  <br> SQL Table名： r3_61_227052by137_tab を作成する
 
 {% highlight python linenos %}
 
-dbname = 'r3_61_227052by137_emp_num_r4.db'
-conn = sqlite3.connect(dbname)
-cur = conn.cursor()
-df.to_sql('r3_61_227052by137_tab', conn, if_exists='replace')
+   for col in df.columns:
+    print(col, len(df[col].unique()), df[col].unique())
 
 {% endhighlight %}
 
-##### SQL ヒアドキュメントサンプル
+結果は以下のとおりです。
 
-{% highlight sql linenos %}
+>
+<br>
+![data_frame]({{ "assets/img/2020_08_15/fig061202.png" | relative_url}})<br>
+{:style="background-color: white;"}
 
-query = """
-    SELECT 
-            "法人名", 
-            "都道府県名",
-            "労働者総数",
-            "産業大分類名",
-            "法人番号"
-    FROM    "r3_61_227052by137_tab"
-    WHERE   "法人名" 
-    IN      (    
-            '北海道信用金庫',
-            '株式会社エスピー工研'
-            )
-  """
+<dl>
+<dt>Age</dt>
+<dd>年齢は、43種類でどうやら18から60歳まで存在しているようです。どんな分布かを次に知りたいところです。</dd>
 
-{% endhighlight %}
+<dt>Attrition</dt>
+<dd>退職した(Yes)またはとどまっているか(No)かの二種類です。このデータセットではこのカラムを目的変数として分析をしますので、True/False の0/1 への変換が必要となることが分かります。</dd>
 
-##### SQL ヒアドキュメントメインQuery
+<dt>BusinessTravel(3種類),DistanceFromHome(3種類), EducationField(6種類)</dt> <dd>すべてカテゴリカルデータ（質的データ）ですので、分析を行うにはダミー変数(one hop encoding)化して、各データに対して0/1の値で横並びに変換する必要があります。</dd>
 
-{% highlight sql linenos %}
+<dt>DistanceFromHome, Education</dt> 
+<dd>順序変数と考えられます。順序変数は、データの値に順序があることを示しますが、値の間隔や比率には意味がないとされます。</dd>
 
-query = """
-    SELECT 
-            "法人名", 
-            "適用事業所番号",
-            "法人番号", 
-            "住所",
-            "定年有無" ,
-            "定年年齢", 
-            "継続雇用-希望者最低年齢", 
-            "労働者総数レンジ", 
-            "産業大分類名", 
-            "都道府県名"
-    FROM    "r3_61_227052by137_tab"
-    WHERE   "定年有無" == 2 OR
-            "定年年齢" >= 70 OR
-            "継続雇用-希望者最低年齢" >= 70 AND
-            "産業中分類コード" <> 94 AND
-            "産業中分類コード" <> 97 AND
-            "産業中分類コード" <> 98  
-  """
-{% endhighlight %}
+<dt>Gender</dt>
+<dd>性別を'Female' 'Male'でデータ化されていますので、これを分析に使うであれば、0/1 に変換したいと思います。</dd>
+</dl>
 
+----
+##### No.3 度数分布図で可視化する
 
-
-
-##### display df のフォーマットを指定する
+度数分布表で可視化してどんな分布かをクイックに理解するためのスクリプトです。
+ここでは、seaborn ライブラリを使っています。
 
 {% highlight python linenos %}
 
-format_dict = { 'str%': '{:.1%}',
-               '法人番号': '{:.0f}', 
-               '定年到達者総数-65歳未満': '{:.0f}',
-               '定年退職者数（継続雇用希望なし）-65歳未満': '{:.0f}',
-               '継続雇用者数-65歳未満': '{:.0f}'
-              }
-df.style.format(format_dict)
+import seaborn as sns
+col_name = 'Age'
+sns.countplot(x=col_name, data=df, palette='hls')
+ax = sns.countplot(x = col_name, 
+                   data = df)
 
 {% endhighlight %}
 
+結果は、以下のとおりです。　可視化することで、一目瞭然ですね。　seaborn ライブラリを使うと、色合いが簡単に設定できるため、見栄えもよくそのままプレゼン資料に転用も可能です。
+
+![data_frame]({{ "assets/img/2020_08_15/fig061203.png" | relative_url}})<br>
 
 
-##### SQL query サンプル
+----
+##### No.4 各度数と構成比% をデータフレーム形式で表示する
 
-{% highlight sql linenos %}
+このスクリプトは、別のブログで紹介したものですが、Gender カラムように可視化せずとも、度数と割合で十分な場合も多々あります。このスクリプトを利用すればカラム名を指定するだけで、度数（今回は人数としています）と構成比を簡単に表示してくれます。
 
-dbname = dbname
-conn = sqlite3.connect(dbname)
-cur = conn.cursor()
-df = pd.read_sql(query, conn)
-cur.close()
-conn.close()
-
-{% endhighlight %}
-
-
-##### Read EXCEL file ファイル名とシート名とIndexとするカラムを指定する。
 
 {% highlight python linenos %}
 
-xlsx = pd.ExcelFile('基準データ2023.xlsx')
-df = pd.read_excel(xlsx, 'data_2023', index_col='idx', header=0)
-
-{% endhighlight %}
-
-##### 読み込んだdfからヒートマップを作成
-
-{% highlight python linenos %}
-
-plt.rcParams['figure.figsize'] = 12, 12
-sns.heatmap(df, annot=True, cmap='BuGn')
-plt.savefig('employment1.png')
-
-{% endhighlight %}
-
-##### インデックスJoin
-
-{% highlight python %}
-
-df12 = df1.join(df2, rsuffix='_2')
-
-{% endhighlight %}
-
-##### カラム"mean" の値の大きい順 ascending = False でソートする
-
-{% highlight python %}
-
-df = df.sort_values(["mean"], ascending = False)
-
-{% endhighlight %}
-
-
-##### カラム名　産業大分類名で構成比を成型して表示する
-
-{% highlight python %}
-
-col_name = '産業大分類名'
+col_name = 'Gender'
 tab = df[col_name].value_counts()
 tab = pd.DataFrame(tab)
 tab = tab.rename_axis(col_name)
 tab['構成比']=(tab[col_name] / tab[col_name].sum())
-tab.rename(columns={col_name: '会社数'}, inplace = True)
+tab.rename(columns={col_name: '人数'}, inplace = True)
 format_dict = {'構成比': '{:.1%}'}
 display(tab.style.format(format_dict))
 
 {% endhighlight %}
 
-##### CSV file read
 
-{% highlight python %}
+結果は以下のとおりです。パーセント表示は小数点1位までにしています。
 
-import codecs
-with codecs.open("WA_Fn-UseC_-HR-Employee-Attrition.csv", mode ="r", encoding ="utf-8", errors="ignore") as file:
-    df = pd.read_csv(file, delimiter =",", header=0)
 
-{% endhighlight %}
+![data_frame]({{ "assets/img/2020_08_15/fig061204.png" | relative_url}})<br>
 
+----
+### 参照ページ一覧
+このブログを作成するにあたり、以下のページを参考にしています。併せてご覧ください。
+>
+1) [サンプルデータセットの説明](https://www.so-wi.com/2019/06/01/reference_data.html){:target="_blank"}<br>
+2) [https://www.so-wi.com/2022/03/11/df_value_counts_visualization.html](https://www.so-wi.com/2022/03/11/df_value_counts_visualization.html){:target="_blank"}<br>
+3) [クロス集計表とヒートマップでデータセットを理解する](https://www.so-wi.com/2020/12/22/cross_tab_heat_map.html){:target="_blank"}<br>
+{:style="border-color: #5f564d; border-top-color: #5f564d; font-size: 1.0em; background-color: #f5f5dc;"}
