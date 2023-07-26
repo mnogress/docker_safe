@@ -92,4 +92,38 @@ user@KENKYU01:~$ cd example-app && ./vendor/bin/sail up
  ✔ Container example-app-redis-1         Created                                                                                         0.0s
  ✔ Container example-app-selenium-1      Created                                                                                         0.0s
  ✔ Container example-app-laravel.test-1  Recreated                                                                                       3.5s
-Attaching to example-app-laravel.test-1, example-app-mailpit-1, example-app-meilisearch-1, example-app-mysql-1, example-app-redis-1, example-app-selenium-1
+Attaching to example-app-laravel.test-1, example-app-mailpit-1, example-app-meilisearch-1, example-app-mysql-1, example-app-redis-1,
+ example-app-selenium-1
+
+
+
+
+user@KENKYU01:~$ cp /mnt/c/Users/tkjyoke/code_1.80.1-1689183569_amd64.deb ./
+user@KENKYU01:~$ ls
+code_1.80.1-1689183569_amd64.deb  example-app
+user@KENKYU01:~$
+
+
+
+user@KENKYU01:~$ cp /mnt/c/Users/tkjyoke/code_1.80.1-1689183569_amd64.deb ./
+user@KENKYU01:~$ ls
+code_1.80.1-1689183569_amd64.deb  example-app
+
+user@KENKYU01:~$ ls -la /mnt/c/Users/tkjyoke
+total 135276
+drwxrwxrwx 1 root root     4096 Jul 26 14:11  .
+dr-xr-xr-x 1 root root     4096 Oct 14  2022  ..
+drwxrwxrwx 1 root root     4096 May 10 11:18  .IBM
+drwxrwxrwx 1 root root     4096 Jul 24 11:21  .aws
+drwxrwxrwx 1 root root     4096 Jul 24 11:21  .azure
+-rwxrwxrwx 1 root root    66730 May  1 16:34  .bash_history
+drwxrwxrwx 1 root root     4096 Sep 12  2022  .conda
+-rwxrwxrwx 1 root root       25 Sep 12  2022  .condarc
+drwxrwxrwx 1 root root     4096 Sep 12  2022  .continuum
+drwxrwxrwx 1 root root     4096 Jul 26 09:03  .docker
+-rwxrwxrwx 1 root root      152 May  2 15:42  .gitconfig
+drwxrwxrwx 1 root root     4096 Oct 19  2022  .ipynb_checkpoints
+drwxrwxrwx 1 root root     4096 Nov  1  2021  .ipython
+drwxrwxrwx 1 root root     4096 Dec 17  2021  .jupyter
+drwxrwxrwx 1 root root     4096 Oct 14  2022  .matplotlib
+drwxrwxrwx 1 root root     4096 Jul  1  2022  .ms-ad
