@@ -1,0 +1,95 @@
+
+The stream or file "/var/www/html/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied The exception occurred while attempting to log: The stream or file "/var/www/html/storage/logs/laravel.log" could not be opened in append mode: Failed to open stream: Permission denied 
+The exception occurred while attempting to log: The stream or file
+
+
+root user で実行が原因　ちゃんと　use を追加すること
+
+
+dockerコマンド実行時にエラー"Got permission denied while trying to connect to the Docker daemon socket"が出るとき
+
+$ docker ps
+Got permission denied while trying to connect to the Docker daemon 
+socket at unix:///var/run/docker.sock: 
+Get http://%2Fvar%2Frun%2Fdocker.sock/v1.39/containers/json: 
+dial unix /var/run/docker.sock: connect: permission denied
+
+
+# dockerグループへユーザを追加
+$ sudo gpasswd -a USER_NAME docker
+
+# グループの追加ができたことを確認
+$ id USER_NAME
+
+# 一回ログアウトして再ログインする
+$ exit
+
+user@KENKYU01:~$ sudo gpasswd -a user sudo
+[sudo] password for user:
+Sorry, try again.
+[sudo] password for user:
+Adding user user to group sudo
+
+
+user@KENKYU01:~$ docker images
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/json": dial unix /var/run/docker.sock: connect: permission denied
+user@KENKYU01:~$ sudo chgrp docker /var/run/docker.sock
+user@KENKYU01:~$ docker images
+permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.24/images/json": dial unix /var/run/docker.sock: connect: permission denied
+
+
+user@KENKYU01:~$ id user
+uid=1000(user) gid=1000(user) groups=1000(user),27(sudo),1001(docker)
+user@KENKYU01:~$ exit
+logout
+
+
+user@KENKYU01:~$ docker images
+REPOSITORY                   TAG       IMAGE ID       CREATED        SIZE
+sail-8.2/app                 latest    2da9f782a773   46 hours ago   941MB
+axllent/mailpit              latest    603da0cfccf3   2 weeks ago    25.7MB
+redis                        alpine    c1dc010e6f24   2 weeks ago    30.2MB
+selenium/standalone-chrome   latest    f4b5bc14d2cc   5 weeks ago    1.31GB
+getmeili/meilisearch         latest    724edee8d442   7 weeks ago    89.4MB
+type-on-strap                latest    7d01f45e19a4   2 months ago   565MB
+<none>                       <none>    c484690b6fdc   2 months ago   540MB
+mnogressn/w_cloud            3.7       d823a1d246c1   4 months ago   2.22GB
+w_cloud_python3              latest    8eaad60d024d   4 months ago   1.96GB
+docker_jekyll                latest    04798433a787   5 months ago   1.09GB
+local_jekyll                 latest    04798433a787   5 months ago   1.09GB
+laravelsail/php82-composer   latest    278039c7a819   5 months ago   532MB
+mysql/mysql-server           8.0       1d9c2219ff69   6 months ago   496MB
+jekyll/jekyll                latest    3c7afda80cab   8 months ago   829MB
+jekyll/jekyll                3.8       f68afd75b4c4   3 years ago    457MB
+
+
+user@KENKYU01:~$ curl -s https://laravel.build/example-app | bash
+latest: Pulling from laravelsail/php82-composer
+Digest: sha256:37549f980be6146efcb16b0dc352644edfc5cca32b9862494631eb197ef89737
+Status: Image is up to date for laravelsail/php82-composer:latest
+
+   _                               _
+  | |                             | |
+  | |     __ _ _ __ __ ___   _____| |
+  | |    / _` | '__/ _` \ \ / / _ \ |
+  | |___| (_| | | | (_| |\ V /  __/ |
+  |______\__,_|_|  \__,_| \_/ \___|_|
+
+
+In NewCommand.php line 468:
+
+
+Please provide your password so we can make some final adjustments to your application's permissions.
+
+[sudo] password for user:
+
+Thank you! We hope you build something incredible. Dive in with: cd example-app && ./vendor/bin/sail up
+user@KENKYU01:~$ cd example-app && ./vendor/bin/sail up
+[+] Running 6/6
+ ✔ Container example-app-mailpit-1       Created                                                                                         0.0s
+ ✔ Container example-app-meilisearch-1   Created                                                                                         0.0s
+ ✔ Container example-app-mysql-1         Created                                                                                         0.0s
+ ✔ Container example-app-redis-1         Created                                                                                         0.0s
+ ✔ Container example-app-selenium-1      Created                                                                                         0.0s
+ ✔ Container example-app-laravel.test-1  Recreated                                                                                       3.5s
+Attaching to example-app-laravel.test-1, example-app-mailpit-1, example-app-meilisearch-1, example-app-mysql-1, example-app-redis-1, example-app-selenium-1
