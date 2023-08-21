@@ -1,6 +1,8 @@
-FROM ruby:2.6.3-stretch
+# FROM ruby:2.7.7-slim-bullseye
 
-# WORKDIR /work
+FROM ruby:2.7.1-buster
+
+WORKDIR /work
 
 COPY Gemfile /work/Gemfile
 
