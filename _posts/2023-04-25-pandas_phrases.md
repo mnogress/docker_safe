@@ -1,12 +1,13 @@
 ---
 layout: splash
 title: Pandas, Python 慣用句
+toc: true
+toc_label: "Unique Title"
+toc_icon: "heart" 
 classes:
   - landing
   - dark-theme
 ---
-* table
-{.toc}
 
 ### データフレームの各列の列名、ユニーク数、型、NaNの数の一覧表を作成する
 {% highlight python linenos %}
