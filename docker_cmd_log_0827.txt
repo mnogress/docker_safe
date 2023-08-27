@@ -64,3 +64,16 @@ To use retry middleware with Faraday v2.0+, install `faraday-retry` gem
 [branch "main"]
         remote = origin
         merge = refs/heads/main 
+
+user@DESKTOP-L7J0P2V MINGW64 ~/sdocker_mysimple (main)
+$ git remote show -n origin
+* remote origin
+  Fetch URL: git@github.com:mnogress/sdocker_mysimple.git
+  Push  URL: git@github.com:mnogress/sdocker_mysimple.git
+  HEAD branch: (not queried)
+  Remote branch: (status not queried)
+    main
+  Local branch configured for 'git pull':
+    main merges with remote main
+  Local ref configured for 'git push' (status not queried):
+    (matching) pushes to (matching)
