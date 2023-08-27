@@ -33,7 +33,7 @@ Python 3.6.1
 
 
 # create docker image name of jekyll_serve
- docker build -t local_jekyll .
+ docker build -t docker_jekyll .
 
 winpty docker run --rm -it --name docker_jekyll \
     -v /$PWD/_config.yml://work/_config.yml \
