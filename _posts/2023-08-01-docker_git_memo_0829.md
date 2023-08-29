@@ -15,7 +15,7 @@ GitとDocker いつも分からなくなるので、ここでまとめておき�
 home directory でClone する。その配下にdirectory を作成して
 `git@githun.com:`{:style="background: #ffebf6"} 以下をGit Hub ページからClone したいRepository　に入って操作する
 
-{% highlight python linenos %}
+{% highlight vb linenos %}
 
 user@DESKTOP-L7J0P2V MINGW64 ~
 $ git clone git@github.com:mnogress/sdocker_mysimple.git
@@ -35,7 +35,7 @@ $ git clone git@github.com:mnogress/sdocker_mysimple.git
 
 #### SSH Key が無い場合、それをGit Hubに登録する。
 
-{% highlight python linenos %}
+{% highlight console linenos %}
 
 user@DESKTOP-L7J0P2V MINGW64 ~
 $ ls -al ~/.ssh
@@ -55,7 +55,7 @@ Your identification has been saved in /c/Users/user/.ssh/id_rsa
 Your public key has been saved in /c/Users/user/.ssh/id_rsa.pub
 The key fingerprint is:
 SHA256:vk67Bt2D+DcFB9/Tubuyeo3g6pLceM1xE5kgRo8JsdE your_email@example.com
-The key's randomart image is:
+The keys randomart image is:
 +---[RSA 4096]----+
 |       ++.       |
 |        +E=.     |
@@ -84,6 +84,25 @@ user@DESKTOP-L7J0P2V MINGW64 ~/docker_jekyll (master)
 $ clip < ~/.ssh/id_rsa.pub
 
 {% endhighlight %}
+
+
+#### Docker が立ち上がらない時の解決方法
+
+`wsl --status`{:style="background: #ff0044; color: white"} で状況を確認する。　以下の結果であれば大丈夫なはず。
+
+{% highlight console linenos %}
+
+C:\Users\usr>wsl --status
+既定のディストリビューション: Ubuntu
+既定のバージョン: 2
+
+C:\Users\usr>
+{% endhighlight %}
+
+Start > Windows システムツール　> コントロールパネルでコントロールパネルを呼び出す
+
+![win_control_panel]({{ "assets/img/2020_08_15/wsl_status.png" | relative_url}})<br>
+
 
 
 >
