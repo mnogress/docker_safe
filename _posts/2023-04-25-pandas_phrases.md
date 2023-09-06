@@ -481,7 +481,6 @@ display(cat)
 ### カテゴリ集計を円グラフにする
 
 {% highlight python linenos %}
-
 tot = cat.sum()
 print(tot)
 sizes = cat['人数']
@@ -620,5 +619,25 @@ cur = conn.cursor()
 df = pd.read_sql(query, conn)
 cur.close()
 conn.close()
+
+{% endhighlight %}
+
+#### ２つのデータフレームをIndexをKeyにmerge する。
+
+Merge するキー列をIndexにするため、df.set_index('キー列名')をする
+
+{% highlight python linenos %}
+
+df = df.set_index("事業所番号")
+da = df
+
+df = df.set_index("事業所番号")
+dfb = df
+
+
+df = pd.merge(dfa, dfb, how = 'inner', on = '事業所番号')
+OR
+df = pd.merge(dfa, dfb, how = 'outer', on = '事業所番号')
+
 
 {% endhighlight %}
