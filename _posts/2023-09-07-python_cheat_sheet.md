@@ -18,17 +18,34 @@ classes:
 
 ### Table
 
-|左寄せ|真ん中|右寄せ|
-|:-----|:----:|-----:|
-|1-1|1-2|1-3|
-|2-1|2-2|2-3|
-
 {% highlight python linenos %}
 |左寄せ|真ん中|右寄せ|
 |:-----|:----:|-----:|
 |1-1|1-2|1-3|
 |2-1|2-2|2-3|
 {% endhighlight %}
+
+
+|左寄せ|真ん中|右寄せ|
+|:-----|:----:|-----:|
+|1-1|1-2|1-3|
+|2-1|2-2|2-3|
+
+### 文字の強調
+
+{% highlight python linenos %}
+　`ascending = False`{:style="background: #ff0044; color: white; font-size: 180%"}
+{% endhighlight %}
+
+180% で白抜き文字、赤背景
+
+　`ascending = False`{:style="background: #ff0044; color: white; font-size: 180%"}
+
+
+:::note info
+インフォメーション
+infoは省略可能です。
+:::
 
 
 ### データフレームの各列の列名、ユニーク数、型、NaNの数の一覧表を作成する
@@ -86,7 +103,10 @@ df_overview
 {% endhighlight %}
 
  
-### 先頭の2桁を抜き出す　この場合、string なので、それをnumeric に変換する  抜き出した都道府県番号が47個あるか確認する
+### 先頭の2桁を抜き出す　
+
+string なので、それをnumeric に変換する  抜き出した都道府県番号が47個あるか確認する。
+
 {% highlight python linenos %}
 
   df['都道府県番号'] = df['適用事業所番号'].str[:2]
@@ -331,6 +351,9 @@ df12 = df1.join(df2, rsuffix='_2')
 {% endhighlight %}
 
 ### カラム"mean" の値の大きい順 ascending = False でソートする
+
+値の大きい順、日付けの新しい順　`ascending = False`{:style="background: #ff0044; color: white; font-size: 180%"}
+
 
 {% highlight python %}
 
