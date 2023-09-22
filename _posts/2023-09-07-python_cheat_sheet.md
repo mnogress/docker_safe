@@ -10,9 +10,10 @@ classes:
 ---
 
 
-**目次**<br><br>
-[21人以上にフィルタリングする](#21人以上にフィルタリングする)<br>
-[データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)<br>
+**目次**<br>
+1. [文字の強調](#文字の強調)
+2. [21人以上にフィルタリングする](#21人以上にフィルタリングする)<br>
+3. [データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)<br>
 
 
 
@@ -40,6 +41,12 @@ classes:
 150% で白抜き文字、赤背景
 
 　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
+
+{% highlight python linenos %}
+`git@githun.com:`{:style="background: #f5e964; font-size: 120%"} 
+{% endhighlight %}
+
+  `git@githun.com:`{:style="background: #f5e964; font-size: 120%"} 
 
 
 :::note info
