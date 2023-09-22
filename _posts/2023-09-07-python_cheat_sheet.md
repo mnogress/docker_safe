@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: Pandas, Python 慣用句
+title: Pandas Python 慣用句
 toc: true
 toc_label: "Unique Title"
 toc_icon: "heart" 
@@ -42,11 +42,16 @@ classes:
 
 　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
 
+#f5e964 : 黄色
+#ff0044 : コバルトブルー
+
 {% highlight python linenos %}
-`git@githun.com:`{:style="background: #f5e964; font-size: 120%"} 
+`git@github.com:`{:style="background: #f5e964; font-size: 120%"} 
+`git@github.com:`{:style="background: #64f5eb; font-size: 120%"} 
 {% endhighlight %}
 
-  `git@githun.com:`{:style="background: #f5e964; font-size: 120%"} 
+  `git@github.com:`{:style="background: #f5e964; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #64f5eb; font-size: 120%"} 
 
 
 :::note info
