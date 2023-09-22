@@ -9,10 +9,10 @@ classes:
   - dark-theme
 ---
 
-### 目次の書き方
 
-[目次の書き方(ページ内リンク)](#目次の書き方ページ内リンク)<br>
-[21人以上にフィルタリングする](#21人以上にフィルタリングする)
+**目次**<br><br>
+[21人以上にフィルタリングする](#21人以上にフィルタリングする)<br>
+[データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)<br>
 
 
 
@@ -34,12 +34,12 @@ classes:
 ### 文字の強調
 
 {% highlight python linenos %}
-　`ascending = False`{:style="background: #ff0044; color: white; font-size: 180%"}
+　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
 {% endhighlight %}
 
-180% で白抜き文字、赤背景
+150% で白抜き文字、赤背景
 
-　`ascending = False`{:style="background: #ff0044; color: white; font-size: 180%"}
+　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
 
 
 :::note info
