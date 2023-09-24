@@ -13,8 +13,7 @@ GitとDocker いつも分からなくなるので、ここでまとめておき�
 #### PC間でrepository を共有するため、git clone する。
 
 home directory で`git clone git@github.com:mnogress/sdocker_mysimple.git`{:style="background: #ff0044; color: white; font-size: 100%"} する。
-すると、フォルダごとダウンロードされるので、その配下にdirectory を作成して
-`git@githun.com:`{:style="background: #ffebf6"} 以下をGit Hub ページからClone したいRepository　に入って操作する
+すると、フォルダごとダウンロードされるので、そのフォルダにdirectory を移動して、作業をする。
 
 {% highlight vb linenos %}
 
