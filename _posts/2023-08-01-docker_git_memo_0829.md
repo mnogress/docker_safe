@@ -140,3 +140,10 @@ The key's randomart image is:
 
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/yKVUAMvglGcXbwgOBHRYu7da3gPSx80ujOKH4x4LHQ8qHRqoiDB6tei40ZXFcPRqfEKyPWVFmG2isai3VLwNBJ1uFq2H1RIb6cZDe+ccdXxQ9S3tOLZJdRXaVrviGGwFpXfx797r/aksO1gZTE1cp9Xr7mRcWXEcO/iLk+MVfeDd4g5J/iLlezryXqnemSzFMwEEZHHObyV0jesKkiUqH5VZnJItIbjA3clCaUSdVekHNePUTaI12sF7/6zqMsBVkDu7+u6E4Kw3fuNP6E0B40kxlSU5KIoCccccccciap0N0OHzTuftjC7KugwgoECdEtFz6/oItCZyCCWkTDpV/pLE1NPUchxTtpRdC5nzl1jGIBfSOcLSTm0UYB4R5ItA7EOMDunAX4PW/j/TA6DbX3ujAMecN7zhwPtzWuS+APaOjDQSpHbD2pbTrFLaPaYTiEV8bEDQMrBxUh7p+cEXiiTBt6y9fjfj0= ccc@cccc
+
+
+tkjyoke@KENKYU01 MINGW64 ~/.ssh
+$ ssh-keygen -R github.com
+# Host github.com found: line 1
+/c/Users/tkjyoke/.ssh/known_hosts updated.
+Original contents retained as /c/Users/tkjyoke/.ssh/known_hosts.old
