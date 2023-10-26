@@ -32,6 +32,65 @@ classes:
 |1-1|1-2|1-3|
 |2-1|2-2|2-3|
 
+### 枠で囲む
+
+{% highlight python linenos %}
+　<div style="padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
+   ここにテキストはいる
+　</div>
+
+{% endhighlight %}
+
+<div style="padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
+   ここにテキストはいる　border: 3px solid #DF1452; border-radius: 8px;
+</div>
+<div style="padding: 20px; margin-bottom: 10px; border: 3px solid #092CDB; border-radius: 12px;">
+   ここにテキストはいる　border: 3px solid #092CDB; border-radius: 12px;
+</div>
+<div style="padding: 20px; margin-bottom: 10px; border: 7px dashed #DF8914; border-radius: 5px;">
+   ここにテキストはいる　 border: 7px dashed #DF8914; border-radius: 5px;
+</div>
+<div style="padding: 20px; margin-bottom: 10px; border: 3px double #14DF20; border-radius: 5px; border-width: thick;">
+   ここにテキストはいる　 border: 3px double #14DF20; border-radius: 5px; border-width: thick;
+</div>
+
+
+### 見出し
+
+{% highlight python linenos %}
+
+<div style=
+  "position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
+  border: 3px solid #000;">
+ここにテキストはいる
+</div>
+
+{% endhighlight %}
+
+<div style=
+  "position: relative;
+  padding: 1rem 2rem;
+  text-align: center;
+  border: 3px solid #000;">
+ここにテキストはいる
+</div>
+
+<div style=
+ "font-size: 15px;
+  font-size: 1.5rem;
+  position: absolute;
+  top: -24px;
+  left: -3px;
+  height: 24px;
+  padding: 0 1em;
+  content: 'POINT';
+  color: #fff;
+  background: #000;">
+  ここにテキストはいる
+</div>
+
 ### 文字の強調
 
 {% highlight python linenos %}
