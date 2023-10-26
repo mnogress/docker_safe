@@ -118,6 +118,41 @@ classes:
 infoは省略可能です。
 :::
 
+### Git Remote の変更
+
+{% highlight python linenos %}
+
+tkjyoke@KENKYU01 MINGW64 ~/docker_jekyll (main)
+$ git remote -v
+origin  https://github.com/mnogress/sdocker_mysimple.git (fetch)
+origin  https://github.com/mnogress/sdocker_mysimple.git (push)
+
+tkjyoke@KENKYU01 MINGW64 ~/docker_jekyll (main)
+$ git push origin main
+remote: Repository not found.
+fatal: repository 'https://github.com/mnogress/sdocker_mysimple.git/' not found
+
+
+tkjyoke@KENKYU01 MINGW64 ~/docker_jekyll (main)
+$ git remote set-url origin git@github.com:mnogress/docker_jekyll.git
+
+tkjyoke@KENKYU01 MINGW64 ~/docker_jekyll (main)
+$ git push origin main
+Enumerating objects: 345, done.
+Counting objects: 100% (345/345), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (315/315), done.
+Writing objects: 100% (345/345), 12.41 MiB | 277.00 KiB/s, done.
+Total 345 (delta 167), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (167/167), done.
+To github.com:mnogress/docker_jekyll.git
+ * [new branch]      main -> main
+
+{% endhighlight %}
+
+
+
+
 
 ### データフレームの各列の列名、ユニーク数、型、NaNの数の一覧表を作成する
 {% highlight python linenos %}
