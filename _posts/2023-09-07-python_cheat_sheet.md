@@ -16,6 +16,75 @@ classes:
 3. [データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)<br>
 
 
+###　Point で強調したBox
+
+{% highlight python linenos %}
+
+<div class="box28">
+    <span class="box-title">ここにタイトル</span>
+    <p>ここに文章</p>
+</div>
+
+<style>
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FFC107;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box28 p {
+    margin: 0; 
+    padding: 0;
+}
+</style>
+{% endhighlight %}
+
+
+
+<div class="box28">
+    <span class="box-title">ここにタイトル</span>
+    <p>ここに文章</p>
+</div>
+
+<style>
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 2px #FFC107;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box28 p {
+    margin: 0; 
+    padding: 0;
+}
+</style>
+
 
 ### Table
 
@@ -55,42 +124,6 @@ classes:
 </div>
 
 
-### 見出し
-
-{% highlight python linenos %}
-
-<div style=
-  "position: relative;
-  padding: 1rem 2rem;
-  text-align: center;
-  border: 3px solid #000;">
-ここにテキストはいる
-</div>
-
-{% endhighlight %}
-
-<div style=
-  "position: relative;
-  padding: 1rem 2rem;
-  text-align: center;
-  border: 3px solid #000;">
-ここにテキストはいる
-</div>
-
-<div style=
- "font-size: 15px;
-  font-size: 1.5rem;
-  position: absolute;
-  top: -24px;
-  left: -3px;
-  height: 24px;
-  padding: 0 1em;
-  content: 'POINT';
-  color: #fff;
-  background: #000;">
-  ここにテキストはいる
-</div>
-
 ### 文字の強調
 
 {% highlight python linenos %}
@@ -113,10 +146,46 @@ classes:
   `git@github.com:`{:style="background: #64f5eb; font-size: 120%"} 
 
 
-:::note info
-インフォメーション
-infoは省略可能です。
-:::
+### Style  before擬似要素の使い方 h1 が"◆"から開始される。
+
+{% highlight html linenos %}
+
+<style>
+h1:before {
+content: "◆";
+color: #326693;
+}
+/*p:before {
+content: "★";
+color: #b20000;
+}*/
+</style>
+
+<h1>before擬似要素の使い方</h1>
+<p>特定のセレクタにbefore擬似要素を追加します。</p>
+<p></p>
+
+{% endhighlight %}
+
+
+
+
+<style>
+h1:before {
+content: "◆";
+color: #326693;
+}
+/*p:before {
+content: "★";
+color: #b20000;
+}*/
+</style>
+
+<h1>before擬似要素の使い方</h1>
+<p>特定のセレクタにbefore擬似要素を追加します。</p>
+<p></p>
+
+
 
 ### Git Remote の変更
 
