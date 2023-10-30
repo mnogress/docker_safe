@@ -30,7 +30,7 @@ classes:
     position: relative;
     margin: 2em 0;
     padding: 25px 10px 7px;
-    border: solid 2px #FFC107;
+    border: solid 3px #DF8914;
 }
 .box28 .box-title {
     position: absolute;
@@ -38,16 +38,16 @@ classes:
     top: -2px;
     left: -2px;
     padding: 0 9px;
-    height: 25px;
-    line-height: 25px;
-    font-size: 17px;
-    background: #FFC107;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #DF8914;
     color: #ffffff;
     font-weight: bold;
 }
 .box28 p {
     margin: 0; 
-    padding: 0;
+    padding: 1em;
 }
 </style>
 {% endhighlight %}
@@ -64,7 +64,7 @@ classes:
     position: relative;
     margin: 2em 0;
     padding: 25px 10px 7px;
-    border: solid 2px #FFC107;
+    border: solid 3px #DF8914;
 }
 .box28 .box-title {
     position: absolute;
@@ -72,16 +72,16 @@ classes:
     top: -2px;
     left: -2px;
     padding: 0 9px;
-    height: 25px;
-    line-height: 25px;
-    font-size: 17px;
-    background: #FFC107;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #DF8914;
     color: #ffffff;
     font-weight: bold;
 }
 .box28 p {
     margin: 0; 
-    padding: 0;
+    padding: 1em;
 }
 </style>
 
