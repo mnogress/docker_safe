@@ -865,3 +865,38 @@ df = pd.merge(dfa, dfb, how = 'outer', on = '事業所番号')
 
 
 {% endhighlight %}
+
+#### 練習データフレーム
+
+{% highlight python linenos %}
+# 演習用のデータフレームを作成します。
+df = pd.DataFrame({ '顧客番号': ['01285679', '01340788', '02123782', '10541976', '12297411', 
+                             '13299899', '30144450', '47339981'],
+                   '都道府県名': ["北海道","北海道",'青森県','群馬県','千葉県','東京都','和歌山県','沖縄県'],
+                  'メールアドレス':   ["nabe@example.net","hiro@example.net","aatsu@example.net",
+                               "hi106@example.org","im_to@example.co.jp","ka713@example.org",
+                               "sato@example.com","oka_h@example.net"]},
+                    index=[0, 1, 2, 3, 4, 5, 6,7])
+# オリジナルのデータフレームを表示
+
+{% endhighlight %}
+
+
+<style type="text/css">
+
+img.example1 { zoom: 1.5; }
+img.example2 { zoom: 70%; }
+
+</style>
+
+<p><img src="fig_1107_01.png" alt="［写真］" class="example1"> 1.5倍に拡大</p>
+
+<p><img src="rainbow.jpg" alt="［写真］" class="example2"> 70%に縮小</p>
+
+![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:zoom="1.5"}<br>
+
+
+![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:height="300px" width="300px"}<br>
+
+![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}})<br>
+
