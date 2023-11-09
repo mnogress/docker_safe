@@ -881,6 +881,83 @@ df = pd.DataFrame({ '顧客番号': ['01285679', '01340788', '02123782', '105419
 
 {% endhighlight %}
 
+### Point 枠の応用
+
+{% highlight python html %}
+
+<div class="box28">
+    <span class="box-title">Point</span>
+    <p style="font-size: 130%; color: blue;">df = df[df['メールアドレス'].str.contains('@example.org')]　<strong>含む</strong>で抽出<br>
+    df = df[~df['メールアドレス'].str.contains('@example.org')]　<strong>含まない</strong>で抽出</p>
+</div>
+
+<style>
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 5px #FFC107;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box28 p {
+    margin: 0; 
+    padding: 0;
+}
+</style>
+
+{% endhighlight %}
+
+<details>
+    <summary>Point 枠の応用Coding結果</summary>
+    <div class="box28">
+    <span class="box-title">Point</span>
+    <p style="font-size: 130%; color: blue;">df = df[df['メールアドレス'].str.contains('@example.org')]　<strong>含む</strong>で抽出<br>
+    df = df[~df['メールアドレス'].str.contains('@example.org')]　<strong>含まない</strong>で抽出</p>
+    </div>
+</details>
+
+<style>
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 5px #FFC107;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 17px;
+    background: #FFC107;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box28 p {
+    margin: 0; 
+    padding: 0;
+}
+</style>
+
+
+
+
+
 
 <style type="text/css">
 
@@ -896,7 +973,23 @@ img.example2 { zoom: 70%; }
 ![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:zoom="1.5"}<br>
 
 
-![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:height="300px" width="300px"}<br>
+## 画像の拡大
+
+{% highlight python linenos %}
+
+![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:height="500px" width="500px"}<br>
+
+{% endhighlight %}
+
+結果
+![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:height="500px" width="500px"}<br>
+
+
+{% highlight python linenos %}
 
 ![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}})<br>
 
+{% endhighlight %}
+
+結果：原寸大
+![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}})<br>
