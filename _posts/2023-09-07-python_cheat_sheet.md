@@ -11,12 +11,21 @@ classes:
 
 
 **目次**<br>
-1. [文字の強調](#文字の強調)
-2. [21人以上にフィルタリングする](#21人以上にフィルタリングする)<br>
-3. [データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)<br>
+1. [文字の強調](#文字の強調){:style="font-size: 75%"}
+2. [21人以上にフィルタリングする](#21人以上にフィルタリングする){:style="font-size: 75%"}<br>
+3. [データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す){:style="font-size: 75%"}<br>
+
+|Python|CSS 他|
+|:-----|:----|
+|[21人以上にフィルタリングする](#21人以上にフィルタリングする)|[文字の強調](#文字の強調)|
+|[データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)|[Point枠の応用](#point-枠の応用)|
+|[nanの行を取る](#nanの行を取る)|[before擬似要素の使い方h1 が”◆”から開始される](#style--before擬似要素の使い方-h1-がから開始される)|
+|[#２つのデータフレームをindexをkeyにmergeする](#２つのデータフレームをindexをkeyにmerge-する)|[画像の拡大](#画像の拡大)|
 
 
-###　Point で強調したBox
+---
+
+### Point で強調したBox
 
 {% highlight python linenos %}
 
@@ -104,17 +113,17 @@ classes:
 ### 枠で囲む
 
 {% highlight python linenos %}
-　<div style="padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
+　<div style="font-size: 130%; padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
    ここにテキストはいる
 　</div>
 
 {% endhighlight %}
 
-<div style="padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
-   ここにテキストはいる　border: 3px solid #DF1452; border-radius: 8px;
+<div style="font-size: 130%; padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
+   ここにテキストはいる　font-size: 130%; border: 3px solid #DF1452; border-radius: 8px;
 </div>
-<div style="padding: 20px; margin-bottom: 10px; border: 3px solid #092CDB; border-radius: 12px;">
-   ここにテキストはいる　border: 3px solid #092CDB; border-radius: 12px;
+<div style="font-size: 80%; padding: 20px; margin-bottom: 10px; border: 3px solid #092CDB; border-radius: 12px;">
+   ここにテキストはいる　font-size: 80%; border: 3px solid #092CDB; border-radius: 12px;
 </div>
 <div style="padding: 20px; margin-bottom: 10px; border: 7px dashed #DF8914; border-radius: 5px;">
    ここにテキストはいる　 border: 7px dashed #DF8914; border-radius: 5px;
@@ -601,7 +610,7 @@ for p in ax.patches:
 
 {% endhighlight %}
 
-![countplot]({{ "assets/img/2020_08_15/countplot1.png" | relative_url}})<br>
+![countplot]({{ "assets/img/2020_08_15/countplot1.png" | relative_url}}){:height="500px" width="500px"}<br>
 
 
 ### Openpyxl でExcel file のシート名を確認する
@@ -885,11 +894,14 @@ df = pd.DataFrame({ '顧客番号': ['01285679', '01340788', '02123782', '105419
 
 {% highlight python html %}
 
-<div class="box28">
+<details>
+    <summary>Point 枠の応用Coding結果</summary>
+    <div class="box28">
     <span class="box-title">Point</span>
     <p style="font-size: 130%; color: blue;">df = df[df['メールアドレス'].str.contains('@example.org')]　<strong>含む</strong>で抽出<br>
     df = df[~df['メールアドレス'].str.contains('@example.org')]　<strong>含まない</strong>で抽出</p>
-</div>
+    </div>
+</details>
 
 <style>
 .box28 {
@@ -958,21 +970,6 @@ df = pd.DataFrame({ '顧客番号': ['01285679', '01340788', '02123782', '105419
 
 
 
-
-<style type="text/css">
-
-img.example1 { zoom: 1.5; }
-img.example2 { zoom: 70%; }
-
-</style>
-
-<p><img src="fig_1107_01.png" alt="［写真］" class="example1"> 1.5倍に拡大</p>
-
-<p><img src="rainbow.jpg" alt="［写真］" class="example2"> 70%に縮小</p>
-
-![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:zoom="1.5"}<br>
-
-
 ## 画像の拡大
 
 {% highlight python linenos %}
@@ -993,3 +990,20 @@ img.example2 { zoom: 70%; }
 
 結果：原寸大
 ![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}})<br>
+
+
+
+{% highlight python linenos %}
+
+<style type="text/css">
+
+img.example1 { zoom: 1.5; }
+img.example2 { zoom: 70%; }
+
+</style>
+
+<p><img src="fig_1107_01.png" alt="［写真］" class="example1"> 1.5倍に拡大</p>
+
+<p><img src="rainbow.jpg" alt="［写真］" class="example2"> 70%に縮小</p>
+
+{% endhighlight %}
