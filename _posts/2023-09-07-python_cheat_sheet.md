@@ -1007,3 +1007,77 @@ img.example2 { zoom: 70%; }
 <p><img src="rainbow.jpg" alt="［写真］" class="example2"> 70%に縮小</p>
 
 {% endhighlight %}
+
+
+#### エクセルファイル「youtube_forum_12_06_v1_forum_final222.xlsx」のSheet 名を確認する
+
+> file名を変数filename で定義する
+
+{% highlight python linenos %}
+
+import openpyxl as xl
+filename = 'youtube_forum_12_06_v1_forum_final222.xlsx'
+wb = xl.load_workbook(filename)
+wb.sheetnames
+
+{% endhighlight %}
+
+![countplot]({{ "assets/img/2020_08_15/wbsheets_01.png" | relative_url}}){:height="400px" width="400px"}<br>
+
+#### エクセルファイル; 変数名filnenameのSheet 名; mail_list を読み込み、excel というDF名とする
+
+`header=0`     最初の行をヘッダーとする
+`header=None`  最初の行からデータとする（ヘッダーなし）
+
+
+{% highlight python linenos %}
+
+xlsx = pd.ExcelFile(filename)
+excel = pd.read_excel(xlsx, 'mail_list', header=0)
+
+{% endhighlight %}
+
+### filename というexcel名変数のexcelファイルにexcelというデータフレームをsheet名`mail_list6`で追加する
+
+{% highlight python linenos %}
+
+with pd.ExcelWriter(filename,engine='openpyxl', mode='a') as writer:
+    excel.to_excel(writer, sheet_name='mail_list6')
+
+{% endhighlight %}
+
+> 追加されたか確認する
+
+![countplot]({{ "assets/img/2020_08_15/wbsheets_02.png" | relative_url}}){:height="550px" width="500px"}<br>
+
+### `"output.csv"` というcsv ファイルの中身をクリアする
+
+{% highlight python linenos %}
+
+with open("output.csv", "w") as f:
+    pass
+
+{% endhighlight %}
+
+
+### データフレーム内の特定の要素値があるか無いかを探す
+
+{% highlight python linenos %}
+
+dt[dt.isin(['探したい値：完全形で入れること'])]
+
+{% endhighlight %}
+
+![countplot]({{ "assets/img/2020_08_15/wbsheets_03.png" | relative_url}}){:height="550px" width="700px"}<br>
+
+> `dt[dt[0].isin(['探したい値：完全形で入れること'])]` とすれば、カラム名0のみを探す
+
+
+### Mail Address の`";"`で連結した塊の作成
+
+> Outlook のメールアドレスは複数の場合は、`";"`　で連結する必要がある。
+> Bcc で複数人に送る場合はまず`";"`　で連結された塊を作成する
+
+
+
+
