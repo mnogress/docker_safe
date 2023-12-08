@@ -1073,11 +1073,54 @@ dt[dt.isin(['探したい値：完全形で入れること'])]
 > `dt[dt[0].isin(['探したい値：完全形で入れること'])]` とすれば、カラム名0のみを探す
 
 
+
 ### Mail Address の`";"`で連結した塊の作成
 
 > Outlook のメールアドレスは複数の場合は、`";"`　で連結する必要がある。
 > Bcc で複数人に送る場合はまず`";"`　で連結された塊を作成する
 
+`STEP 1`{:style="background: #ff0044; color: white; font-size: 130%"}  <strong>N列のデータフレームの作成</strong>
+{% highlight python linenos %}
+
+df = df_oct.loc[:, ['メールアドレス']]
+
+# convert ndarry, then list
+np_array = df['メールアドレス'].values
+np_list = np_array.tolist()
+# splited into 5
+N = 5 
+splited_df = [np_list[i:i+N] for i in range(0, len(df), N)]
+# convert into a dataframe
+dt = pd.DataFrame(splited_df)
+
+{% endhighlight %}
+
+<div style="font-size: 110%; padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
+   上記の例は、5分割。データフレーム内のカラム名は 0,1,2,3,4
+</div>
 
 
+`STEP 2`{:style="background: #ff0044; color: white; font-size: 130%"}  <strong>output.csvに塊を作成する</strong>
 
+{% highlight python linenos %}
+# initialize "output.csv"
+with open("output.csv", "w") as f:
+    pass
+
+# define variable for 'output.csv'
+out_csv = 'output.csv'
+
+# connect with ";" from col 0 to 4 then print to file
+for i in range(5):
+    k = ";".join(dt[i])
+    print(k, "," , file=codecs.open('out_csv', 'a', 'utf-8'))
+
+# read csv as df
+import codecs
+with codecs.open("out_csv", mode ="r", encoding ="utf-8", errors="ignore") as file:
+    df = pd.read_csv(file, delimiter =",", header=None)
+
+# drop second column
+df = df.drop(columns=[1])
+
+{% endhighlight %}
