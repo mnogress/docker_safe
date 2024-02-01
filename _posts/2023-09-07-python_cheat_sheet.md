@@ -15,12 +15,12 @@ classes:
 2. [21人以上にフィルタリングする](#21人以上にフィルタリングする){:style="font-size: 75%"}<br>
 3. [データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す){:style="font-size: 75%"}<br>
 
-|Python|CSS 他|
-|:-----|:----|
-|[21人以上にフィルタリングする](#21人以上にフィルタリングする)|[文字の強調](#文字の強調)|
-|[データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)|[Point枠の応用](#point-枠の応用)|
-|[nanの行を取る](#nanの行を取る)|[before擬似要素の使い方h1 が”◆”から開始される](#style--before擬似要素の使い方-h1-がから開始される)|
-|[#２つのデータフレームをindexをkeyにmergeする](#２つのデータフレームをindexをkeyにmerge-する)|[画像の拡大](#画像の拡大)|
+| Python                                                                                        | CSS 他                                                                                             |
+| :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
+| [21人以上にフィルタリングする](#21人以上にフィルタリングする)                                 | [文字の強調](#文字の強調)                                                                          |
+| [データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)               | [Point枠の応用](#point-枠の応用)                                                                   |
+| [nanの行を取る](#nanの行を取る)                                                               | [before擬似要素の使い方h1 が”◆”から開始される](#style--before擬似要素の使い方-h1-がから開始される) |
+| [#２つのデータフレームをindexをkeyにmergeする](#２つのデータフレームをindexをkeyにmerge-する) | [画像の拡大](#画像の拡大)                                                                          |
 
 
 ---
@@ -98,17 +98,17 @@ classes:
 ### Table
 
 {% highlight python linenos %}
-|左寄せ|真ん中|右寄せ|
-|:-----|:----:|-----:|
-|1-1|1-2|1-3|
-|2-1|2-2|2-3|
+| 左寄せ | 真ん中 | 右寄せ |
+| :----- | :----: | -----: |
+| 1-1    |  1-2   |    1-3 |
+| 2-1    |  2-2   |    2-3 |
 {% endhighlight %}
 
 
-|左寄せ|真ん中|右寄せ|
-|:-----|:----:|-----:|
-|1-1|1-2|1-3|
-|2-1|2-2|2-3|
+| 左寄せ | 真ん中 | 右寄せ |
+| :----- | :----: | -----: |
+| 1-1    |  1-2   |    1-3 |
+| 2-1    |  2-2   |    2-3 |
 
 ### 枠で囲む
 
@@ -243,6 +243,20 @@ df_overview
 
 {% endhighlight %}
 
+### 一件、一行で日付けのあるデータ、申し込み等々を月次で集計する
+{% highlight python linenos %}
+df['count']=1　　
+df = df.set_index('申請日')
+df = df.loc[:, ['count']]
+df = df.resample('1M').sum()
+{% endhighlight %}
+
+All 1 の列'count'を作成して、日付けをSet Index してサンプリングする<br>
+`df = df.resample('1M').sum()`{:style="background: #ff0044; color: white; font-size: 110%"} が`肝`で結果が以下のとおり
+
+![countplot]({{ "assets/img/2020_08_15/2024-02-01 152844.png" | relative_url}}){:height="250px" width="180px"}<br>
+
+
 
 ### 21人以上にフィルタリングする
 {% highlight python linenos %}
@@ -252,6 +266,21 @@ df_overview
    print(df.shape)
 
 {% endhighlight %}
+
+### 関数で yyyymmdd を　yyyy-mm-dd の文字列に変える
+{% highlight python linenos %}
+
+def yyyymmdd(orgstr):
+    return orgstr[:4] + '-' + orgstr[4:6] + '-' + orgstr[6:]
+
+df['yyyy-mm-dd'] = df['yyyymmdd'].apply(yyyymmdd)
+
+#ついでにdatetime 型式に変更する
+df['申請日']=pd.to_datetime(df['yyyy-mm-dd'])
+
+{% endhighlight %}
+
+![countplot]({{ "assets/img/2020_08_15/2024-02-01 151621.png" | relative_url}}){:height="350px" width="250px"}<br>
 
 
 ### NaNの行を取る
@@ -285,6 +314,21 @@ df_overview
    df['適用事業所番号']=pd.DataFrame(s.str.zfill(11))
 
 {% endhighlight %}
+
+
+### ラベルインデックス列に名前をつける
+{% highlight python linenos %}
+
+　df = df.rename_axis('申請月')
+　df
+
+{% endhighlight %}
+
+<br>
+
+![countplot]({{ "assets/img/2020_08_15/2024-02-01 150553.png" | relative_url}}){:height="450px" width="300px"}<br>
+
+
 
  
 ### 先頭の2桁を抜き出す　
