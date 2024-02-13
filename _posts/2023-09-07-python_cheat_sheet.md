@@ -243,6 +243,18 @@ df_overview
 
 {% endhighlight %}
 
+### float64 で読んでしまった INT 列を　INTに戻す
+{% highlight python linenos %}
+
+for p in df.columns:
+    if p == '最新更新日' or p == '最新確認日' or df[p].dtypes == 'object' or  df[p].dtypes == 'int64' or df[p].dtypes == 'datetime64[ns]':
+        continue
+    df[p] = df[p].fillna(0).astype(np.int64)
+
+{% endhighlight %}
+
+
+
 ### 一件、一行で日付けのあるデータ、申し込み等々を月次で集計する
 {% highlight python linenos %}
 df['count']=1　　
@@ -297,23 +309,10 @@ df['申請日']=pd.to_datetime(df['yyyy-mm-dd'])
 インデックス値は不要
 {% highlight python %}
 
-   df.to_csv('61_法人番号_dup.csv', encoding='utf-8',  index=False)
+   df.to_csv('dup.csv', encoding='utf-8',  index=False)
 
 {% endhighlight %}
 
-### 適用事業所番号の列の桁数をチェックする。　
-
-最初がゼロの場合、Excel 通してゼロになっている場合があるため 桁数が 10桁のところがあるので、全てを11桁に統一させる 先頭の2桁を抜き出す
-{% highlight python linenos %}
-
-   df['適用事業所番号']=df['適用事業所番号'].astype(str)
-   df['length']=list(map(len,df['適用事業所番号']))
-   df['length'].value_counts()
- 
-   s = df['適用事業所番号']
-   df['適用事業所番号']=pd.DataFrame(s.str.zfill(11))
-
-{% endhighlight %}
 
 
 ### ラベルインデックス列に名前をつける
@@ -367,7 +366,7 @@ string なので、それをnumeric に変換する  抜き出した都道府県
 ### 列名を指定してデータフレームを再編成する
 {% highlight python %}
 
-  df = df.loc[:, ['法人番号', '適用事業所番号','法人名', '住所', '労働者総数レンジ', '都道府県名', '産業大分類名']]
+  df = df.loc[:, ['番号', '事業所','法人名', '住所', '総数レンジ', '都道府県名', '産業大分類名']]
 
 {% endhighlight %}
 
@@ -378,20 +377,12 @@ string なので、それをnumeric に変換する  抜き出した都道府県
 
 {% endhighlight %}
 
-### オリジナル６１データに含まれていた列 Unnamed 130 から　139 までを削除する
+### オリジナルデータに含まれていた列 Unnamed 130 から　139 までを削除する
 {% highlight python linenos %}
 
 df=df.drop(columns=[
     'Unnamed: 130',
-    'Unnamed: 131',
-    'Unnamed: 132',
-    'Unnamed: 133',
-    'Unnamed: 134',
-    'Unnamed: 135',
-    'Unnamed: 136',
-    'Unnamed: 137',
-    'Unnamed: 138',
-    'Unnamed: 139'
+    'Unnamed: 131'
                    ])
 
 {% endhighlight %}
@@ -460,64 +451,16 @@ df['法人名']=df['法人名'].str.replace("　", "")
 
 {% endhighlight %}
 
-### SQL DB名：r3_61_227052by137_emp_num_r4.db  <br> SQL Table名： r3_61_227052by137_tab を作成する
+### SQL DB名：137.db  <br> SQL Table名： 137_tab を作成する
 
 {% highlight python linenos %}
 
-dbname = 'r3_61_227052by137_emp_num_r4.db'
+dbname = '137.db'
 conn = sqlite3.connect(dbname)
 cur = conn.cursor()
-df.to_sql('r3_61_227052by137_tab', conn, if_exists='replace')
+df.to_sql('137_tab', conn, if_exists='replace')
 
 {% endhighlight %}
-
-### SQL ヒアドキュメントサンプル
-
-{% highlight sql linenos %}
-
-query = """
-    SELECT 
-            "法人名", 
-            "都道府県名",
-            "労働者総数",
-            "産業大分類名",
-            "法人番号"
-    FROM    "r3_61_227052by137_tab"
-    WHERE   "法人名" 
-    IN      (    
-            '北海道信用金庫',
-            '株式会社エスピー工研'
-            )
-  """
-
-{% endhighlight %}
-
-### SQL ヒアドキュメントメインQuery
-
-{% highlight sql linenos %}
-
-query = """
-    SELECT 
-            "法人名", 
-            "適用事業所番号",
-            "法人番号", 
-            "住所",
-            "定年有無" ,
-            "定年年齢", 
-            "継続雇用-希望者最低年齢", 
-            "労働者総数レンジ", 
-            "産業大分類名", 
-            "都道府県名"
-    FROM    "r3_61_227052by137_tab"
-    WHERE   "定年有無" == 2 OR
-            "定年年齢" >= 70 OR
-            "継続雇用-希望者最低年齢" >= 70 AND
-            "産業中分類コード" <> 94 AND
-            "産業中分類コード" <> 97 AND
-            "産業中分類コード" <> 98  
-  """
-{% endhighlight %}
-
 
 
 
@@ -526,10 +469,10 @@ query = """
 {% highlight python linenos %}
 
 format_dict = { 'str%': '{:.1%}',
-               '法人番号': '{:.0f}', 
-               '定年到達者総数-65歳未満': '{:.0f}',
-               '定年退職者数（継続雇用希望なし）-65歳未満': '{:.0f}',
-               '継続雇用者数-65歳未満': '{:.0f}'
+               '番号': '{:.0f}', 
+               '総数-65未満': '{:.0f}',
+               '退職者数65歳未満': '{:.0f}',
+               '雇用者数65歳未満': '{:.0f}'
               }
 df.style.format(format_dict)
 
@@ -753,7 +696,6 @@ display(cat)
 
 {% endhighlight %}
 
-![str_number]({{ "assets/img/2020_08_15/str_num1.png" | relative_url}})<br>
 
 ### カテゴリ集計を円グラフにする
 
@@ -788,37 +730,17 @@ df = pd.read_spss('SPSSデータ20230405.sav', usecols=None, convert_categorical
 {% highlight sql %}
 
 query = """
-    SELECT "法人名", "適用事業所番号","定年年齢", "継続雇用制度","労働者総数","労働者総数レンジ", 
-            "継続雇用-希望者最低年齢", "継続雇用-基準最高年齢", "60〜64歳", "65〜69歳", "70歳以上", 
-            "都道府県名", "都道府県番号","産業大分類名","産業大分類コード","事業具体的内容"
-    FROM   r4_61_235875by137_tab
-    WHERE  "適用事業所番号" 
+    SELECT "法人名",
+    FROM   r137_tab
+    WHERE  "適号" 
     IN (    
-        '07040018408',
-        '38046133551',
-        '19041009509',
-        '24031041347',
-        '28050009587',
-        '03010054500',
-        '23090023395',
-        '35030028271',
-        '47020004572',
-        '45032017649',
-        '20040019386',
-        '41061002192',
-        '20040026435',
-        '26071017321',
-        '23066143807',
-        '23044415753',
-        '17010005343',
-        '17020009844',
-        '08011007115',
-        '14015254513',
-        '13086280459'
+        '09040018408',
+        '48046133551',
+        '53086280459'
         )
  """
 
-#dbname = 'r4_61_235875by137_0118r5.db'
+#dbname = 'r137.db'
 conn = sqlite3.connect(dbname)
 cur = conn.cursor()
 
@@ -866,38 +788,6 @@ logout
 
 {% endhighlight %}
 
-
-### SQL 文　条件追加 and/or/not
-
-{% highlight sql %}
-
-
-format_dict = { 'str%': '{:.1%}',
-               '法人番号': '{:.0f}' ,
-               '定年到達者総数-65歳未満': '{:.0f}',
-               '定年退職者数（継続雇用希望なし）-65歳未満': '{:.0f}',
-               '継続雇用者数-65歳未満': '{:.0f}' }
-
-query = """
-    SELECT "法人名", "適用事業所番号","法人番号", "住所","定年有無" ,"定年年齢", "継続雇用-希望者最低年齢", "労働者総数レンジ", "労働者総数" ,"産業大分類名", "都道府県名"
-    FROM "r3_61_227051by137_tab"
-    WHERE "定年有無" == 2 OR
-    "定年年齢" >= 70 OR
-    "継続雇用-希望者最低年齢" >= 70 AND
-    "産業中分類コード" <> 94 AND
-    "産業中分類コード" <> 97 AND
-    "産業中分類コード" <> 98
-  """
-
-dbname = dbname
-conn = sqlite3.connect(dbname)
-cur = conn.cursor()
-# dbをpandasで読み出す。
-df = pd.read_sql(query, conn)
-cur.close()
-conn.close()
-
-{% endhighlight %}
 
 #### ２つのデータフレームをIndexをKeyにmerge する。
 
