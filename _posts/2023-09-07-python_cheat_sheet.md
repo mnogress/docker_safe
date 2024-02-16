@@ -229,8 +229,40 @@ To github.com:mnogress/docker_jekyll.git
 {% endhighlight %}
 
 
+### テキストファイルの Read/Write
 
+{% highlight python linenos %}
 
+f = open('社会の実現に向け２.txt', 'r', encoding='UTF-8')
+
+data = f.read()
+
+f.close()
+
+{% endhighlight %}
+
+{% highlight python linenos %}
+
+f = open('data3.txt', 'w', encoding='UTF-8')
+
+f.write(data)
+
+f.close()
+
+{% endhighlight %}
+
+### テキストの不要文字の削除
+{% highlight python linenos %}
+
+data=data.replace("　", "")
+
+data=data.replace(" ", "")
+
+data=data.replace('\n', '')
+
+data=data.replace("[\u3000 \t]", "")
+
+{% endhighlight %}
 
 ### データフレームの各列の列名、ユニーク数、型、NaNの数の一覧表を作成する
 {% highlight python linenos %}
