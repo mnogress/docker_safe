@@ -1,9 +1,10 @@
 ---
-layout: splash
+layout: single
 title: PyPDF2を使ったPDFからのテキストファイルの抽出
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 
 ##### データフレームの各列の列名、ユニーク数、型、NaNの数の一覧表を作成する

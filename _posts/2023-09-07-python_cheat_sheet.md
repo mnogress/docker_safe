@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: Pandas Python 慣用句
 toc: true
 toc_label: "Unique Title"
@@ -7,6 +7,7 @@ toc_icon: "heart"
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 
 
@@ -94,21 +95,6 @@ classes:
 }
 </style>
 
-
-### Table
-
-{% highlight python linenos %}
-| 左寄せ | 真ん中 | 右寄せ |
-| :----- | :----: | -----: |
-| 1-1    |  1-2   |    1-3 |
-| 2-1    |  2-2   |    2-3 |
-{% endhighlight %}
-
-
-| 左寄せ | 真ん中 | 右寄せ |
-| :----- | :----: | -----: |
-| 1-1    |  1-2   |    1-3 |
-| 2-1    |  2-2   |    2-3 |
 
 ### 枠で囲む
 

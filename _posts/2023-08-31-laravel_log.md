@@ -1,9 +1,10 @@
 ---
-layout: splash
+layout: single
 title: Laravel on Win Docker Desktop Installation Memo
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 Laravel を Docker Sail で導入した際のログになります。
 

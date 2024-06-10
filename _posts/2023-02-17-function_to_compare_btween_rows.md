@@ -1,9 +1,13 @@
 ---
-layout: splash
+layout: single
 title: データフレーム内の列間の値を比較する
 feature-img: "assets/img/2020_08_15/flowers-g500bc7407_640.jpg"
 tags: [Python, 関数, データフレーム操作 ]
 excerpt_separator: <!--more-->
+classes:
+  - landing
+  - dark-theme
+  - wide
 ---
 
 ### layout: post

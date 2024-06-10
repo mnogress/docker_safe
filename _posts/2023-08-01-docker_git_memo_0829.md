@@ -1,9 +1,10 @@
 ---
-layout: splash
+layout: single
 title: Docker and Git command memo
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 GitとDocker いつも分からなくなるので、ここでまとめておきます。　定期的にUpdateしたいですね。
 

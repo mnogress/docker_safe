@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: vite_study_javascript_build_tool
 toc: true
 toc_label: "Unique Title"
@@ -7,6 +7,7 @@ toc_icon: "heart"
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 
 ---

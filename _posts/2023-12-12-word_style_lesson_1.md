@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: MS Word スタイル変更・追加
 toc: true
 toc_label: "Unique Title"
@@ -7,6 +7,7 @@ toc_icon: "heart"
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 
 "Word スタイル"は、テキストや段落の書式設定を一括で管理するための機能です。

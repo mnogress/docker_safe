@@ -1,9 +1,10 @@
 ---
-layout: splash
+layout: single
 title: pivot で縦持ちから横持ちにデータフレームを変換する
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 
 縦持ちのデータセット（これは、DB担当者からデータをもらう場合、大体この形です）を横持ちにして分析用にデータセットを加工することは

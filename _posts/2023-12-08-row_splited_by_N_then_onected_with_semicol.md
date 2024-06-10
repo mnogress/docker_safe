@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: Pandas, 列内のデータをN分割して、それぞれをセミコロンで連結した新しい列を作成する
 toc: true
 toc_label: "Unique Title"
@@ -7,6 +7,7 @@ toc_icon: "heart"
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 
 

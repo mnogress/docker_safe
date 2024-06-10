@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: single
 title: データセットを理解するためのスクリプト4選
 feature-img: "assets/img/2020_08_15/flowers-g500bc7407_640.png"
 tags: [Python, sqlite3, SQL ]
@@ -7,6 +7,7 @@ excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
+  - wide
 ---
 
 データセットの準備は、データセットの理解で始まり、クレンジングで終わると言えます。このブログではデータ分析の一丁目一番地である
