@@ -1,6 +1,9 @@
 ---
 layout: single
 title: pivot で縦持ちから横持ちにデータフレームを変換する
+toc: true
+toc_label: "目次"
+toc_icon: "heart" 
 classes:
   - landing
   - dark-theme

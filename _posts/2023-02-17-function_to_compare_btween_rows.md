@@ -4,13 +4,16 @@ title: データフレーム内の列間の値を比較する
 feature-img: "assets/img/2020_08_15/flowers-g500bc7407_640.jpg"
 tags: [Python, 関数, データフレーム操作 ]
 excerpt_separator: <!--more-->
+toc: true
+toc_label: "目次"
+toc_icon: "heart" 
 classes:
   - landing
   - dark-theme
   - wide
 ---
 
-### layout: post
+### はじめに
 
 二つ以上のデータフレームを結合し、データをクリーニングする際、よく必要となる
 データフレーム内の異なる列間で値の一致、不一致を調べる関数を紹介します。

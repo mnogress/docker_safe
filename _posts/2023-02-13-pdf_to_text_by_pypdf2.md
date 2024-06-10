@@ -1,6 +1,9 @@
 ---
 layout: single
 title: PyPDF2を使ったPDFからのテキストファイルの抽出
+toc: true
+toc_label: "目次"
+toc_icon: "heart" 
 classes:
   - landing
   - dark-theme

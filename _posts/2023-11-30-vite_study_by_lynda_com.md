@@ -2,7 +2,7 @@
 layout: single
 title: vite_study_javascript_build_tool
 toc: true
-toc_label: "Unique Title"
+toc_label: "目次"
 toc_icon: "heart" 
 classes:
   - landing

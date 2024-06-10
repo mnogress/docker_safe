@@ -1,6 +1,9 @@
 ---
 layout: single
 title: Docker and Git command memo
+toc: true
+toc_label: "目次"
+toc_icon: "heart" 
 classes:
   - landing
   - dark-theme

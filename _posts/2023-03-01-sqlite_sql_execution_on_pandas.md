@@ -4,13 +4,16 @@ title: Pandsデータフレームをsqlite3のSQL文で操作する
 feature-img: "assets/img/2020_08_15/cat-gf45769994_640.png"
 tags: [Python, sqlite3, SQL ]
 excerpt_separator: <!--more-->
+toc: true
+toc_label: "目次"
+toc_icon: "heart" 
 classes:
   - landing
   - dark-theme
   - wide
 ---
 
-### layout: post
+### はじめに
 
 <!--
 [SQLite](https://www.sqlite.org/index.html){:target="_blank"}は、軽量なディスク上のデータベースを提供する C ライブラリです。

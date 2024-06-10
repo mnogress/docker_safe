@@ -1,6 +1,9 @@
 ---
 layout: single
 title: Laravel on Win Docker Desktop Installation Memo
+toc: true
+toc_label: "目次"
+toc_icon: "heart" 
 classes:
   - landing
   - dark-theme

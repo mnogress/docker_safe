@@ -4,6 +4,9 @@ title: glob によるfile 連続操作する
 feature-img: "assets/img/2020_08_15/flowers-g500bc7407_640.png"
 tags: [Python, sqlite3, SQL ]
 excerpt_separator: <!--more-->
+toc: true
+toc_label: "目次"
+toc_icon: "heart" 
 classes:
   - landing
   - dark-theme

@@ -2,8 +2,9 @@
 layout: single
 title: SQL Command Reference
 toc: true
-toc_label: "Unique Title"
+toc_label: "目次"
 toc_icon: "heart" 
+excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme

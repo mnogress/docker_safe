@@ -2,7 +2,7 @@
 layout: single
 title: Pandas, 列内のデータをN分割して、それぞれをセミコロンで連結した新しい列を作成する
 toc: true
-toc_label: "Unique Title"
+toc_label: "目次"
 toc_icon: "heart" 
 classes:
   - landing

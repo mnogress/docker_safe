@@ -2,13 +2,18 @@
 layout: single
 title: html table Reference
 toc: true
-toc_label: "Unique Title"
+toc_label: "目次"
 toc_icon: "heart" 
+excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
   - wide
 ---
+
+
+[SQLite](https://www.sqlite.org/index.html){:target="_blank"}は、軽量なディスク上のデータベースを提供する C ライブラリです。
+別のサーバプロセスを用意する必要なく、<!--more--> SQLクエリー言語（SQL文）を使用してデータベースにアクセスできます。SQLiteを使ってアプリケーションのプロトタイプを作り、その後そのコードを PostgreSQLやOracle等の大規模データベースに移植することができるため、アプリ開発でのマストアイテム的なSQL DBツールです。
 
 
 ### 問題の所在
@@ -129,8 +134,14 @@ HTML Table の作成方法のベーシックをまとめました。
 | 2-1    |  2-2   |    2-3 |
 {% endhighlight %}
 
-
 | 左寄せ | 真ん中 | 右寄せ |
 | :----- | :----: | -----: |
+| 1-1    |  1-2   |    1-3 |
+| 2-1    |  2-2   |    2-3 |
+
+
+
+| 左寄せ | 真ん中 | 右寄せ |
+| :-----{.width="120"} | :----:{.width="120"} | -----:{.width="420"} |
 | 1-1    |  1-2   |    1-3 |
 | 2-1    |  2-2   |    2-3 |

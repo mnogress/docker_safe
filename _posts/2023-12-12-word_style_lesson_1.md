@@ -2,7 +2,7 @@
 layout: single
 title: MS Word スタイル変更・追加
 toc: true
-toc_label: "Unique Title"
+toc_label: "目次"
 toc_icon: "heart" 
 classes:
   - landing
