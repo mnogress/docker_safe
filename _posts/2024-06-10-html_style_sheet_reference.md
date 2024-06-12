@@ -9,6 +9,8 @@ classes:
   - landing
   - dark-theme
   - wide
+sidebar:
+  nav: "docs"
 ---
 
 HTML/Markdown のStyle sheet reference になります。 <!--more-->

@@ -11,6 +11,9 @@ classes:
   - landing
   - dark-theme
   - wide
+sidebar:
+  nav: "docs"
+
 ---
 
 二つ以上のデータフレームを結合し、データをクリーニングする際、よく必要となる

@@ -9,6 +9,8 @@ classes:
   - landing
   - dark-theme
   - wide
+sidebar:
+  nav: "docs"
 ---
 
 vite_study_javascript_build_tool<!--more--> 

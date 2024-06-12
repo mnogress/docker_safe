@@ -9,6 +9,8 @@ classes:
   - landing
   - dark-theme
   - wide
+sidebar:
+  nav: "docs"
 ---
 
 Pandas Python 慣用句<!--more-->

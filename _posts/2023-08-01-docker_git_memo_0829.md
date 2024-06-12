@@ -9,6 +9,8 @@ classes:
   - landing
   - dark-theme
   - wide
+sidebar:
+  nav: "docs"
 ---
 GitとDocker いつも分からなくなるので、ここでまとめておきます。<!--more-->　定期的にUpdateしたいですね。
 

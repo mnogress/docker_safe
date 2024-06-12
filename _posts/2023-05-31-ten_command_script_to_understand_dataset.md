@@ -11,6 +11,8 @@ classes:
   - landing
   - dark-theme
   - wide
+sidebar:
+  nav: "docs"
 ---
 
 データセットの準備は、データセットの理解で始まり、クレンジングで終わると言えます。<!--more-->このブログではデータ分析の一丁目一番地である
