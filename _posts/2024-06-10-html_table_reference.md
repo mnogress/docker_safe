@@ -12,13 +12,7 @@ classes:
 ---
 
 
-[SQLite](https://www.sqlite.org/index.html){:target="_blank"}は、軽量なディスク上のデータベースを提供する C ライブラリです。
-別のサーバプロセスを用意する必要なく、<!--more--> SQLクエリー言語（SQL文）を使用してデータベースにアクセスできます。SQLiteを使ってアプリケーションのプロトタイプを作り、その後そのコードを PostgreSQLやOracle等の大規模データベースに移植することができるため、アプリ開発でのマストアイテム的なSQL DBツールです。
-
-
-### 問題の所在
-
-HTML Table の作成方法のベーシックをまとめました。
+HTML Table の作成方法のベーシックをまとめました。 <!--more-->
 
 ### html table
 

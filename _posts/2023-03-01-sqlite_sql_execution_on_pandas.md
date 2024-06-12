@@ -15,10 +15,9 @@ classes:
 
 ### はじめに
 
-<!--
-[SQLite](https://www.sqlite.org/index.html){:target="_blank"}は、軽量なディスク上のデータベースを提供する C ライブラリです。
+
+[SQLite](https://www.sqlite.org/index.html){:target="_blank"}は、軽量なディスク上のデータベースを提供する C ライブラリです。<!--more-->
 別のサーバプロセスを用意する必要なく、 SQLクエリー言語（SQL文）を使用してデータベースにアクセスできます。SQLiteを使ってアプリケーションのプロトタイプを作り、その後そのコードを PostgreSQLやOracle等の大規模データベースに移植することができるため、アプリ開発でのマストアイテム的なSQL DBツールです。
-more-->
 
 [DB Browser for SQLite](https://sqlitebrowser.org/){:target="_blank"}は、SQLiteのデータベースを管理できるソフトです。 上述のSQLiteのデータベースを作成・閲覧・編集できるほか、肥大化したデータベースを最適化してファイルサイズを小さくすることも可能で、USBドライブから起動するポータブル版もあったりして、SQLiteをより身近にさせるもので、こちらのソフトの方が使ったことがある方も少なくないと思います。
 

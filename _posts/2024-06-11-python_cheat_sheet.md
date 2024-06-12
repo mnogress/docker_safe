@@ -4,182 +4,14 @@ title: Pandas Python 慣用句
 toc: true
 toc_label: "目次"
 toc_icon: "heart" 
+excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
   - wide
 ---
 
-
-**目次**<br>
-1. [文字の強調](#文字の強調){:style="font-size: 75%"}
-2. [21人以上にフィルタリングする](#21人以上にフィルタリングする){:style="font-size: 75%"}<br>
-3. [データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す){:style="font-size: 75%"}<br>
-
-| Python                                                                                        | CSS 他                                                                                             |
-| :-------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------- |
-| [21人以上にフィルタリングする](#21人以上にフィルタリングする)                                 | [文字の強調](#文字の強調)                                                                          |
-| [データフレームをCSVファイルで書き出す](#データフレームをcsvファイルで書き出す)               | [Point枠の応用](#point-枠の応用)                                                                   |
-| [nanの行を取る](#nanの行を取る)                                                               | [before擬似要素の使い方h1 が”◆”から開始される](#style--before擬似要素の使い方-h1-がから開始される) |
-| [#２つのデータフレームをindexをkeyにmergeする](#２つのデータフレームをindexをkeyにmerge-する) | [画像の拡大](#画像の拡大)                                                                          |
-
-
----
-
-### Point で強調したBox
-
-{% highlight python linenos %}
-
-<div class="box28">
-    <span class="box-title">ここにタイトル</span>
-    <p>ここに文章</p>
-</div>
-
-<style>
-.box28 {
-    position: relative;
-    margin: 2em 0;
-    padding: 25px 10px 7px;
-    border: solid 3px #DF8914;
-}
-.box28 .box-title {
-    position: absolute;
-    display: inline-block;
-    top: -2px;
-    left: -2px;
-    padding: 0 9px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 20px;
-    background: #DF8914;
-    color: #ffffff;
-    font-weight: bold;
-}
-.box28 p {
-    margin: 0; 
-    padding: 1em;
-}
-</style>
-{% endhighlight %}
-
-
-
-<div class="box28">
-    <span class="box-title">ここにタイトル</span>
-    <p>ここに文章</p>
-</div>
-
-<style>
-.box28 {
-    position: relative;
-    margin: 2em 0;
-    padding: 25px 10px 7px;
-    border: solid 3px #DF8914;
-}
-.box28 .box-title {
-    position: absolute;
-    display: inline-block;
-    top: -2px;
-    left: -2px;
-    padding: 0 9px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 20px;
-    background: #DF8914;
-    color: #ffffff;
-    font-weight: bold;
-}
-.box28 p {
-    margin: 0; 
-    padding: 1em;
-}
-</style>
-
-
-### 枠で囲む
-
-{% highlight python linenos %}
-　<div style="font-size: 130%; padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
-   ここにテキストはいる
-　</div>
-
-{% endhighlight %}
-
-<div style="font-size: 130%; padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
-   ここにテキストはいる　font-size: 130%; border: 3px solid #DF1452; border-radius: 8px;
-</div>
-<div style="font-size: 80%; padding: 20px; margin-bottom: 10px; border: 3px solid #092CDB; border-radius: 12px;">
-   ここにテキストはいる　font-size: 80%; border: 3px solid #092CDB; border-radius: 12px;
-</div>
-<div style="padding: 20px; margin-bottom: 10px; border: 7px dashed #DF8914; border-radius: 5px;">
-   ここにテキストはいる　 border: 7px dashed #DF8914; border-radius: 5px;
-</div>
-<div style="padding: 20px; margin-bottom: 10px; border: 3px double #14DF20; border-radius: 5px; border-width: thick;">
-   ここにテキストはいる　 border: 3px double #14DF20; border-radius: 5px; border-width: thick;
-</div>
-
-
-### 文字の強調
-
-{% highlight python linenos %}
-　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
-{% endhighlight %}
-
-150% で白抜き文字、赤背景
-
-　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
-
-#f5e964 : 黄色
-#ff0044 : コバルトブルー
-
-{% highlight python linenos %}
-`git@github.com:`{:style="background: #f5e964; font-size: 120%"} 
-`git@github.com:`{:style="background: #64f5eb; font-size: 120%"} 
-{% endhighlight %}
-
-  `git@github.com:`{:style="background: #f5e964; font-size: 120%"} <br>
-  `git@github.com:`{:style="background: #64f5eb; font-size: 120%"} 
-
-
-### Style  before擬似要素の使い方 h1 が"◆"から開始される。
-
-{% highlight html linenos %}
-
-<style>
-h1:before {
-content: "◆";
-color: #326693;
-}
-/*p:before {
-content: "★";
-color: #b20000;
-}*/
-</style>
-
-<h1>before擬似要素の使い方</h1>
-<p>特定のセレクタにbefore擬似要素を追加します。</p>
-<p></p>
-
-{% endhighlight %}
-
-
-
-
-<style>
-h1:before {
-content: "◆";
-color: #326693;
-}
-/*p:before {
-content: "★";
-color: #b20000;
-}*/
-</style>
-
-<h1>before擬似要素の使い方</h1>
-<p>特定のセレクタにbefore擬似要素を追加します。</p>
-<p></p>
-
+Pandas Python 慣用句<!--more-->
 
 
 ### Git Remote の変更
@@ -1010,6 +842,16 @@ with open("output.csv", "w") as f:
     pass
 
 {% endhighlight %}
+
+
+### 特定の行をインデックス番号を指定して削除する
+
+{% highlight python linenos %}
+
+df = df.drop(df.index[[0,1]])
+
+{% endhighlight %}
+
 
 
 ### データフレーム内の特定の要素値があるか無いかを探す

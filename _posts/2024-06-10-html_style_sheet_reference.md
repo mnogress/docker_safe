@@ -1,0 +1,347 @@
+---
+layout: single
+title: HTML/Markdown style sheet reference
+toc: true
+toc_label: "目次"
+toc_icon: "heart" 
+excerpt_separator: <!--more-->
+classes:
+  - landing
+  - dark-theme
+  - wide
+---
+
+HTML/Markdown のStyle sheet reference になります。 <!--more-->
+
+### コメントBox28(#DF8914;)
+
+<div class="box28">
+    <span class="box-title">ここにタイトル</span>
+    <p>ここに文章</p>
+</div>
+
+<style>
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #DF8914;
+    border-radius: 6px;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #DF8914;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box28 p {
+    margin: 0; 
+    padding: 1em;
+}
+</style>
+
+{% highlight python linenos %}
+
+<div class="box28">
+    <span class="box-title">ここにタイトル</span>
+    <p>ここに文章</p>
+</div>
+
+<style>
+.box28 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 3px #DF8914;
+}
+.box28 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #DF8914;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box28 p {
+    margin: 0; 
+    padding: 1em;
+}
+</style>
+{% endhighlight %}
+
+
+### コメントBox33(#0366fc;)
+
+<div class="box33">
+    <span class="box-title">ここにタイトル</span>
+    <p>ここに文章</p>
+</div>
+
+<style>
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0366fc;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0366fc;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
+}
+</style>
+
+{% highlight python linenos %}
+
+<div class="box33">
+    <span class="box-title">ここにタイトル</span>
+    <p>ここに文章</p>
+</div>
+
+<style>
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0366fc;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0366fc;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
+}
+</style>
+
+{% endhighlight %}
+
+
+### Box11(#DF1452;)
+
+<div class="box11">
+    <span class="box-title">ここにタイトル</span>
+    <p>ここに文章</p>
+</div>
+
+<style>
+.box11 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 3px #DF1452;
+}
+.box11 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #DF1452;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box11 p {
+    margin: 0; 
+    padding: 1em;
+}
+</style>
+
+{% highlight python linenos %}
+
+<div class="box11">
+    <span class="box-title">ここにタイトル</span>
+    <p>ここに文章</p>
+</div>
+
+<style>
+.box11 {
+    position: relative;
+    margin: 2em 0;
+    padding: 25px 10px 7px;
+    border: solid 3px #DF1452;
+}
+.box11 .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -2px;
+    left: -2px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #DF1452;
+    color: #ffffff;
+    font-weight: bold;
+}
+.box11 p {
+    margin: 0; 
+    padding: 1em;
+}
+</style>
+
+{% endhighlight %}
+
+### 枠で囲む
+
+{% highlight python linenos %}
+　<div style="font-size: 130%; padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
+   ここにテキストはいる
+　</div>
+
+{% endhighlight %}
+
+<div style="font-size: 130%; padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
+   ここにテキストはいる　font-size: 130%; border: 3px solid #DF1452; border-radius: 8px;
+</div>
+<div style="font-size: 80%; padding: 20px; margin-bottom: 10px; border: 3px solid #092CDB; border-radius: 12px;">
+   ここにテキストはいる　font-size: 80%; border: 3px solid #092CDB; border-radius: 12px;
+</div>
+<div style="padding: 20px; margin-bottom: 10px; border: 7px dashed #DF8914; border-radius: 5px;">
+   ここにテキストはいる　 border: 7px dashed #DF8914; border-radius: 5px;
+</div>
+<div style="padding: 20px; margin-bottom: 10px; border: 3px double #14DF20; border-radius: 5px; border-width: thick;">
+   ここにテキストはいる　 border: 3px double #14DF20; border-radius: 5px; border-width: thick;
+</div>
+
+
+### 文字の強調
+
+{% highlight python linenos %}
+　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
+{% endhighlight %}
+
+150% で白抜き文字、赤背景
+
+　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
+
+#f5e964 : 黄色<br>
+#ff0044 : コバルトブルー<br>
+#696969 : dimgray<br>
+#e6e6fa : lavender<br>
+#008080 : teal<br>
+#dc143c : crimson<br>
+
+
+{% highlight python linenos %}
+`git@github.com:`{:style="background: #f5e964; font-size: 120%"} 
+`git@github.com:`{:style="background: #64f5eb; font-size: 120%"} 
+`git@github.com:`{:style="background: #696969; font-size: 120%"} 
+`git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} 
+`git@github.com:`{:style="background: #008080; font-size: 120%"} 
+`git@github.com:`{:style="background: #dc143c; font-size: 120%"} 
+
+
+{% endhighlight %}
+
+  `git@github.com:`{:style="background: #f5e964; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #64f5eb; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #696969; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #008080; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #dc143c; font-size: 120%"} <br>
+
+
+
+
+### Style  before擬似要素の使い方 h1 が"◆"から開始される。
+
+{% highlight html linenos %}
+
+<style>
+h1:before {
+content: "◆";
+color: #326693;
+}
+/*p:before {
+content: "★";
+color: #b20000;
+}*/
+</style>
+
+<h1>before擬似要素の使い方</h1>
+<p>特定のセレクタにbefore擬似要素を追加します。</p>
+<p></p>
+
+{% endhighlight %}
+
+
+<style>
+h1:before {
+content: "◆";
+color: #326693;
+}
+/*p:before {
+content: "★";
+color: #b20000;
+}*/
+</style>
+
+<h1>before擬似要素の使い方</h1>
+<p>特定のセレクタにbefore擬似要素を追加します。</p>
+<p></p>
+
+
+### Box シャドー
+
+{% highlight python linenos %}
+<div style="padding: 20px; margin-bottom: 10px; border: 2px solid rgb(80, 80, 255); 
+ border-radius: 10px; text-align: center; background-color: rgb(80, 80, 255);
+ box-shadow: 6px 6px 6px rgba( 128, 128, 128, 1.0);">
+ <strong style="color: rgb(255, 255, 255); 
+ font-size: 24px;">無料でご参加いただけます。以下のリンクから申し込みできます。</strong>
+</div>
+
+{% endhighlight %}
+
+
+
+<div style="padding: 20px; margin-bottom: 10px; border: 2px solid rgb(80, 80, 255); 
+ border-radius: 10px; text-align: center; background-color: rgb(80, 80, 255);
+ box-shadow: 6px 6px 6px rgba( 128, 128, 128, 1.0);">
+ <strong style="color: rgb(255, 255, 255); 
+ font-size: 24px;">無料でご参加いただけます。以下のリンクから申し込みできます。</strong>
+</div>
+

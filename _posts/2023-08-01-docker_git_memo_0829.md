@@ -4,12 +4,13 @@ title: Docker and Git command memo
 toc: true
 toc_label: "目次"
 toc_icon: "heart" 
+excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
   - wide
 ---
-GitとDocker いつも分からなくなるので、ここでまとめておきます。　定期的にUpdateしたいですね。
+GitとDocker いつも分からなくなるので、ここでまとめておきます。<!--more-->　定期的にUpdateしたいですね。
 
 ----
 

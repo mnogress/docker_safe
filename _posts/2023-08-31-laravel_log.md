@@ -4,12 +4,13 @@ title: Laravel on Win Docker Desktop Installation Memo
 toc: true
 toc_label: "目次"
 toc_icon: "heart" 
+excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
   - wide
 ---
-Laravel を Docker Sail で導入した際のログになります。
+Laravel を Docker Sail で導入した際のログになります。<!--more-->
 
 ----
 

@@ -3,14 +3,15 @@ layout: single
 title: vite_study_javascript_build_tool
 toc: true
 toc_label: "目次"
-toc_icon: "heart" 
+toc_icon: "heart"
+excerpt_separator: <!--more--> 
 classes:
   - landing
   - dark-theme
   - wide
 ---
 
----
+vite_study_javascript_build_tool<!--more--> 
 
 ### CLI Log
 
