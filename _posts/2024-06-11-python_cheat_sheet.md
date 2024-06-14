@@ -2,6 +2,7 @@
 layout: single
 title: Pandas Python 慣用句
 toc: true
+toc_sticky: true
 toc_label: "目次"
 toc_icon: "heart" 
 excerpt_separator: <!--more-->
@@ -11,6 +12,7 @@ classes:
   - wide
 sidebar:
   nav: "docs"
+category: Reference
 ---
 
 Pandas Python 慣用句<!--more-->

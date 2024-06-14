@@ -1,0 +1,19 @@
+# /_data/authors.yml
+
+Author:
+  name        : "Author"
+  bio         : "What do you want, jewels? I am a very extravagant man."
+  url         : "https://www.so-wi.com"
+  #avatar      : "/assets/images/bio-photo-2.jpg"
+  location    : "Chiba, Japan"
+  links:
+  #  - label: "Email"
+  #    icon: "fas fa-fw fa-envelope-square"
+  #    url: "mailto:billyrick@rick.com"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://www.so-wi.com"
+  #  - label: "Twitter"
+  #    icon: "fab fa-fw fa-twitter-square"
+  #    url: "https://twitter.com/extravagantman"
+
