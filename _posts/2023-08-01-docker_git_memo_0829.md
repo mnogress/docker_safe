@@ -38,8 +38,6 @@ $ git clone git@github.com:mnogress/sdocker_mysimple.git
 {% endhighlight %}
 
 
-#### PC間でrepository を共有するため、git clone する。
-
 #### SSH Key が無い場合、それをGit Hubに登録する。
 
 {% highlight console linenos %}
@@ -112,45 +110,3 @@ Start > Windows システムツール　> コントロールパネルでコン�
 
 
 
->
-`[ここがポイント！]`{:style="color: blue; font-size: 1.3em; background-color: #ffe3e2"} 
-sqlite3 モジュールで作成したDBは、DB Browser for SQLiteから操作可能です。SQL文の練習には、Python 上のsqlite3を使うだけでなく、DB Browser for SQLiteを使ってみるのも、環境のセットアップ等を考えると効率的に行えます。sqlite3と一緒にDB Browser for SQLiteをPCにインストールして一緒に遊んでみるのも、いいかもしれません　　`axis=1`{:style="background: #ff0044; color: white"}
-テスト
-{:style="background-color: #ffe3e2; border-left: #ffe3e2; font-size: 1.0em"}
-
-
-{% highlight console linenos %}
-
-$ ssh-keygen
-Generating public/private rsa key pair.
-Enter file in which to save the key (/c/Users/tkjyoke/.ssh/id_rsa):
-Enter passphrase (empty for no passphrase):
-Enter same passphrase again:
-Your identification has been saved in /c/Users/tkjyoke/.ssh/id_rsa
-Your public key has been saved in /c/Users/tkjyoke/.ssh/id_rsa.pub
-The key fingerprint is:
-SHA256:PvwECi13XZsI1eL07/ZA2esvT/K8oRozpyXX3iRbkeA ccc@mmm
-The key's randomart image is:
-+---[RSA 3072]----+
-|          ..     |
-|         .o .    |
-|        .o o..   |
-|     .   o.ooo.o.|
-|    o o S o oEoo.|
-|     + = .   .o o|
-|      . + .= =+++|
-|         +  X B@o|
-|          .o.o.BX|
-+----[SHA256]-----+
-
-{% endhighlight %}
-
-
-ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC/yKVUAMvglGcXbwgOBHRYu7da3gPSx80ujOKH4x4LHQ8qHRqoiDB6tei40ZXFcPRqfEKyPWVFmG2isai3VLwNBJ1uFq2H1RIb6cZDe+ccdXxQ9S3tOLZJdRXaVrviGGwFpXfx797r/aksO1gZTE1cp9Xr7mRcWXEcO/iLk+MVfeDd4g5J/iLlezryXqnemSzFMwEEZHHObyV0jesKkiUqH5VZnJItIbjA3clCaUSdVekHNePUTaI12sF7/6zqMsBVkDu7+u6E4Kw3fuNP6E0B40kxlSU5KIoCccccccciap0N0OHzTuftjC7KugwgoECdEtFz6/oItCZyCCWkTDpV/pLE1NPUchxTtpRdC5nzl1jGIBfSOcLSTm0UYB4R5ItA7EOMDunAX4PW/j/TA6DbX3ujAMecN7zhwPtzWuS+APaOjDQSpHbD2pbTrFLaPaYTiEV8bEDQMrBxUh7p+cEXiiTBt6y9fjfj0= ccc@cccc
-
-
-tkjyoke@KENKYU01 MINGW64 ~/.ssh
-$ ssh-keygen -R github.com
-# Host github.com found: line 1
-/c/Users/tkjyoke/.ssh/known_hosts updated.
-Original contents retained as /c/Users/tkjyoke/.ssh/known_hosts.old
