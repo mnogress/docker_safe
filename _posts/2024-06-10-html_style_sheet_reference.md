@@ -12,6 +12,7 @@ classes:
 sidebar:
   nav: "docs"
 category: Reference
+tag: ["HTML", "Markdown", "css"]
 ---
 
 HTML/Markdown のStyle sheet reference になります。 <!--more-->
@@ -269,12 +270,13 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 
 
 {% highlight python linenos %}
-`git@github.com:`{:style="background: #f5e964; font-size: 120%"} 
-`git@github.com:`{:style="background: #64f5eb; font-size: 120%"} 
-`git@github.com:`{:style="background: #696969; font-size: 120%"} 
-`git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} 
-`git@github.com:`{:style="background: #008080; font-size: 120%"} 
-`git@github.com:`{:style="background: #dc143c; font-size: 120%"} 
+`git@github.com:`{:style="background: #f5e964; font-size: 120%"} <br> 
+`git@github.com:`{:style="background: #64f5eb; font-size: 120%"} <br> 
+`git@github.com:`{:style="background: #696969; font-size: 120%"} <br> 
+`git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} <br> 
+`git@github.com:`{:style="background: #008080; font-size: 120%; color: white"} <br> 
+`git@github.com:`{:style="background: #dc143c; font-size: 120%; color: white"} <br>
+
 
 
 {% endhighlight %}
@@ -283,8 +285,8 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
   `git@github.com:`{:style="background: #64f5eb; font-size: 120%"} <br>
   `git@github.com:`{:style="background: #696969; font-size: 120%"} <br>
   `git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} <br>
-  `git@github.com:`{:style="background: #008080; font-size: 120%"} <br>
-  `git@github.com:`{:style="background: #dc143c; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #008080; font-size: 120%; color: white"} <br>
+  `git@github.com:`{:style="background: #dc143c; font-size: 120%; color: white"} <br>
 
 
 
@@ -432,22 +434,22 @@ color: #b20000;
 
 {% highlight python linenos %}
 
-![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:height="500px" width="500px"}<br>
+![image]({{ "/images/200by200.png" | relative_url}}){:height="500px" width="500px"}<br>
 
 {% endhighlight %}
 
 結果
-![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}}){:height="500px" width="500px"}<br>
+![image]({{ "/images/200by200.png" | relative_url}}){:height="500px" width="500px"}<br>
 
 
 {% highlight python linenos %}
 
-![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}})<br>
+![image]({{ "/images/200by200.png" | relative_url}})<br>
 
 {% endhighlight %}
 
 結果：原寸大
-![countplot]({{ "assets/img/2020_08_15/fig_1107_01.png" | relative_url}})<br>
+![image]({{ "/images/200by200.png" | relative_url}})<br>
 
 
 
@@ -455,13 +457,31 @@ color: #b20000;
 
 <style type="text/css">
 
+img.example0 { zoom: 1.0; }
 img.example1 { zoom: 1.5; }
 img.example2 { zoom: 70%; }
 
 </style>
 
-<p><img src="fig_1107_01.png" alt="［写真］" class="example1"> 1.5倍に拡大</p>
+<p><img src="/images/200by200.png" alt="［写真］" class="example0"> 等倍200pxby200px</p>
 
-<p><img src="rainbow.jpg" alt="［写真］" class="example2"> 70%に縮小</p>
+<p><img src="/images/200by200.png" alt="［写真］" class="example1"> 1.5倍に拡大</p>
+
+<p><img src="/images/200by200.png" alt="［写真］" class="example2"> 70%に縮小</p>
 
 {% endhighlight %}
+
+
+<style type="text/css">
+
+img.example0 { zoom: 1.0; }
+img.example1 { zoom: 1.5; }
+img.example2 { zoom: 70%; }
+
+</style>
+
+<p><img src="/images/200by200.png" alt="［写真］" class="example0"> 等倍200pxby200px</p>
+
+<p><img src="/images/200by200.png" alt="［写真］" class="example1"> 1.5倍に拡大</p>
+
+<p><img src="/images/200by200.png" alt="［写真］" class="example2"> 70%に縮小</p>
