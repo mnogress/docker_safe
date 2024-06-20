@@ -15,6 +15,7 @@ category: Reference
 tag: ["Pandas", "Function"]
 ---
 
+振り分け関数とPandasへの適用サンプル<!--more-->
 
 ### 産業中分類番号から産業大分類番号に振り分ける関数
 
