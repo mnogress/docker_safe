@@ -78,3 +78,11 @@ wb.sheetnames
 # リスト型式で出力される。
 
 {% endhighlight %}
+
+>
+**Notice** 注意{:.notice}
+>
+
+```
+**Notice** 注意{:.notice}
+```
