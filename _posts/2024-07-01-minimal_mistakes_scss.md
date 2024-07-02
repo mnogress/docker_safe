@@ -20,9 +20,9 @@ Minimal mistakes の文字の大きさ変更のためのscss<!--more-->
 ### Minimal Mistakes の文字の大きさをコントロールする
 
 >
-場所　C:\Users\usr\project_name\_sass\minimal-mistakes<br>
-            _sass\minimal-mistakes\_base.scss<br>
-            _sass\minimal-mistakes\_variables.scss<br>  
+場所<br>C:\Users\usr\project_name\\_sass\minimal-mistakes<br>
+            _sass\minimal-mistakes\\_base.scss<br>
+            _sass\minimal-mistakes\\_variables.scss<br>  
 >
 
 #### <p> の文字サイズとして、$type-size-5 を指定する
@@ -56,10 +56,10 @@ $type-size-1: 2.20em !default; // ~39.056px
 $type-size-2: 1.553em !default; // ~31.248px
 $type-size-3: 1.01em !default; // ~25.008px
 $type-size-4: 0.99em !default; // ~20px
-$type-size-5: 0.88em !default; // ~16px
-$type-size-6: 0.72em !default; // ~12px
-$type-size-7: 0.6175em !default; // ~11px
-$type-size-8: 0.6100em !default; // ~10px
+$type-size-5: 0.88em !default; // ~16px   <== Key Parameter!!
+$type-size-6: 0.75em !default; // ~12px
+$type-size-7: 0.72em !default; // ~11px
+$type-size-8: 0.68em !default; // ~10px
 
 /* headline scale */
 $h-size-1: 1.363em !default; // ~25.008px
