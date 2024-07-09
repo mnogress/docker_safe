@@ -1,7 +1,7 @@
 ---
 title: "Terms and Conditions"
 permalink: /terms_and_conditions/
-layout: single
+layout: splash
 author_profile: false
 ---
 

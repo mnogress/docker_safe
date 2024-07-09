@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Def Function Apply to Pandas/Python
+title: 産業大分類番号と分類名変換
 toc: true
 toc_label: "目次"
 toc_icon: "heart" 
