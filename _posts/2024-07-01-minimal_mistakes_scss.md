@@ -70,3 +70,101 @@ $h-size-5: 1.0125em !default; // ~16.5px
 $h-size-6: 0.9em !default; // ~16px
 
 {% endhighlight %}
+
+#### page で指定する<p>の相対サイズを'0.9em'に指定する
+
+
+{% highlight css linenos  %}
+# _sass\minimal-mistakes\_page.scss
+
+.page__content {
+  h2 {
+    padding-bottom: 0.5em;
+    border-bottom: 1px solid $border-color;
+  }
+
+	h1, h2, h3, h4, h5, h6 {
+		.header-link {
+			position: relative;
+			inset-inline-start: 0.5em;
+			opacity: 0;
+			font-size: 0.8em;
+			-webkit-transition: opacity 0.2s ease-in-out 0.1s;
+			-moz-transition: opacity 0.2s ease-in-out 0.1s;
+			-o-transition: opacity 0.2s ease-in-out 0.1s;
+			transition: opacity 0.2s ease-in-out 0.1s;
+		}
+
+		&:hover .header-link {
+			opacity: 1;
+		}
+	}
+
+  p,
+  li,
+  dl {
+    font-size: 0.9em;  <== 1.0em to 0.9em changed!
+  }
+
+  /* paragraph indents */
+  p {
+    margin: 0 0 $indent-var;
+
+    /* sibling indentation*/
+    @if $paragraph-indent == true {
+      & + p {
+        text-indent: $indent-var;
+        margin-top: -($indent-var);
+      }
+    }
+  }
+
+  a:not(.btn) {
+    &:hover {
+      text-decoration: underline;
+
+      img {
+        box-shadow: 0 0 10px rgba(#000, 0.25);
+      }
+    }
+  }
+
+  :not(pre) > code {
+    padding-top: 0.1rem;
+    padding-bottom: 0.1rem;
+    font-size: 0.8em;
+    background: $code-background-color;
+    border-radius: $border-radius;
+
+    &::before,
+    &::after {
+      letter-spacing: -0.2em;
+      content: "\00a0"; /* non-breaking space*/
+    }
+  }
+
+  dt {
+    margin-top: 1em;
+    font-family: $sans-serif;
+    font-weight: bold;
+  }
+
+  dd {
+    margin-inline-start: 1em;
+    font-family: $sans-serif;
+    font-size: $type-size-6;
+  }
+
+  .small {
+    font-size: $type-size-6;
+  }
+
+  /* blockquote citations */
+  blockquote + .small {
+    margin-top: -1.5em;
+    padding-inline-start: 1.25rem;
+  }
+}
+
+{% endhighlight %}
+
