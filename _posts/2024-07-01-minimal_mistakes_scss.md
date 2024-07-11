@@ -17,7 +17,7 @@ tag: ["scss", "minimal_mistakes"]
 
 Minimal mistakes の文字の大きさ変更のためのscss<!--more-->
 
-### Minimal Mistakes の文字の大きさをコントロールする
+#### Minimal Mistakes の文字の大きさをコントロールする
 
 >
 場所<br>C:\Users\usr\project_name\\_sass\minimal-mistakes<br>
@@ -62,16 +62,16 @@ $type-size-7: 0.72em !default; // ~11px
 $type-size-8: 0.68em !default; // ~10px
 
 /* headline scale */
-$h-size-1: 1.363em !default; // ~25.008px
-$h-size-2: 1.15em !default; // ~20px
-$h-size-3: 1.025em !default; // ~18px
-$h-size-4: 1.0125em !default; // ~17px
-$h-size-5: 1.0125em !default; // ~16.5px
-$h-size-6: 0.9em !default; // ~16px
+$h-size-1: 1.3em !default; // ~25.008px
+$h-size-2: 1.2em !default; // ~20px
+$h-size-3: 1.1em !default; // ~18px
+$h-size-4: 1.0em !default; // ~17px
+$h-size-5: 0.9em !default; // ~16.5px
+$h-size-6: 0.8em !default; // ~16px
 
 {% endhighlight %}
 
-#### page で指定する<p>の相対サイズを'0.9em'に指定する
+#### page で指定する<p>の相対サイズを'0.8em'に指定する
 
 
 {% highlight css linenos  %}
@@ -103,7 +103,7 @@ $h-size-6: 0.9em !default; // ~16px
   p,
   li,
   dl {
-    font-size: 0.9em;  <== 1.0em to 0.9em changed!
+    font-size: 0.8em;  <== 1.0em to 0.8em changed!   <== Key Parameter!!
   }
 
   /* paragraph indents */

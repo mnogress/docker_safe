@@ -5,13 +5,22 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
-  - title: "Conditions"
-    url: /terms_and_conditions/
-  - title: "External Link"
-    url: https://google.com 
-    target: _blank
+
 
 docs:
+  - title: よく読まれている記事
+    children:
+      - title: "Jupyter NotebookでPandas 使う際の必須Coding集"
+        url: /reference/Jupyter_Notebook_Essensial_Notebook_Essensial/
+      - title: "HTML/Markdown style sheet reference"
+        url: /reference/html_style_sheet_reference/
+      - title: "Minimal mistakes の文字の大きさ変更のための SCSS"
+        url: /reference/minimal_mistakes_scss/
+      - title: "Authors"
+        url: /docs/authors/
+      - title: "Layouts"
+        url: /docs/layouts/
+
   - title: 関連記事
     children:
       - title: "カテゴリ"
@@ -20,38 +29,9 @@ docs:
         url: /tags/
       - title: "About"
         url: /about/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Conditions"
+        url: /terms_and_conditions/
+      - title: "External Link"
+        url: https://google.com 
+        target: _blank
 
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
