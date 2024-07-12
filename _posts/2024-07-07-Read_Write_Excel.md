@@ -18,8 +18,6 @@ tag: ["Pandas", "Function"]
 Excelファイルの読み書き<!--more-->
 
 
-## Excel File の読込み、書き込み、シート名の確認
-
 #### シート名の確認
 
 {% highlight python linenos  %}
@@ -41,18 +39,53 @@ wb.sheetnames
 {% endhighlight %}
 
 
-{% highlight python %}
-
-['Sheet1_name', 'Sheet2_name']
+{% highlight python linenos  %}
 
 # リスト型式で出力される。
 
+['Sheet1_name', 'Sheet2_name']
+
 {% endhighlight %}
+
+#### Excel シートを読み込み、結果をデータフレームとする
+
+{% highlight python  linenos %}
+
+# Sheet2_nameのシートをcol1のデータをIndex に、
+# 最初の行をタイトル行とするデータフレームとして読み込む
+
+xlsx = pd.ExcelFile(filename)
+df = pd.read_excel(xlsx, 'Sheet2_name', index_col="col1", header=0)
+
+# Sheet1_nameのシートをそのまま、最初の行をタイトル行とするデータフレームとして読み込む
+df = pd.read_excel(xlsx, 'Sheet1_name', header=0)
+
+
+{% endhighlight %}
+
+#### データフレーム(df)をExcel ファイルとして保存する
+
+{% highlight python  linenos %}
+
+# データフレームをファイル名"excel_false_index.xlsx"で保存する
+# データフレームのインデックスはExcel ファイルには持たせない。
+
+df.to_excel("excel_false_index.xlsx", index=False)
+
+# データフレームをファイル名"excel_true_index.xlsx"で保存する
+# データフレームのインデックスはExcel ファイル列「A」の値として持たせる
+
+df.to_excel("excel_true_index.xlsx")
+
+{% endhighlight %}
+
 
 >
 **Notice** 注意{:.notice}
 >
 
 ```
+>
 **Notice** 注意{:.notice}
+>
 ```

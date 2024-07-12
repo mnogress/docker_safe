@@ -17,7 +17,7 @@ tag: ["Pandas", "Function"]
 
 振り分け関数とPandasへの適用サンプル<!--more-->
 
-### 産業中分類番号から産業大分類番号に振り分ける関数
+#### 産業中分類番号から産業大分類番号に振り分ける関数
 
 {% highlight python linenos  %}
 
@@ -76,7 +76,7 @@ df['産業大分類コード']=df['産業中分類コード'].apply(func_ind_fur
 
 {% endhighlight %}
 
-### 産業大分類番号から産業大分類名を割り当てる関数
+#### 産業大分類番号から産業大分類名を割り当てる関数
 
 
 {% highlight python linenos  %}
