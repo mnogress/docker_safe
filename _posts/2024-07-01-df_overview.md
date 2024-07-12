@@ -39,3 +39,15 @@ df_overview
 
 ![image]({{ "/images/2024-07150340.png" | relative_url}}){:height="500px" width="500px"}<br>
 
+
+#### データフレームのインデックス番号、インデックス名を指定してその行を削除する
+
+{% highlight python linenos  %}
+
+# データフレームの2行目にもタイトルの残骸があり、その行は無効なの
+# 行を指定して削除する
+# index[0] はデータフレームとしては最初の行だが、無効なため削除する
+
+df = df.drop(df.index[[0]])
+
+{% endhighlight %}
