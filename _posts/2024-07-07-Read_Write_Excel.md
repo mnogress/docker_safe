@@ -1,14 +1,17 @@
 ---
 layout: single
 title: Excelファイルの読み書き
-toc: true
+header:
+  overlay_image: images/header.jpg
+toc: True
 toc_label: "目次"
 toc_icon: "heart" 
+toc_sticky: True
 excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  - wide
+  #- wide
 sidebar:
   nav: "docs"
 category: Reference
@@ -79,13 +82,3 @@ df.to_excel("excel_true_index.xlsx")
 
 {% endhighlight %}
 
-
->
-**Notice** 注意{:.notice}
->
-
-```
->
-**Notice** 注意{:.notice}
->
-```

@@ -1,14 +1,17 @@
 ---
 layout: single
 title: 都道府県名と都道府県番号の相互変換
-toc: true
+header:
+  overlay_image: images/header.jpg
+toc: True
 toc_label: "目次"
 toc_icon: "heart" 
+toc_sticky: True
 excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  - wide
+  #- wide
 sidebar:
   nav: "docs"
 category: Reference

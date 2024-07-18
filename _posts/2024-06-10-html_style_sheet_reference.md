@@ -1,14 +1,17 @@
 ---
 layout: single
 title: HTML/Markdown style sheet reference
-toc: true
+header:
+  overlay_image: images/header.jpg
+toc: True
 toc_label: "目次"
-toc_icon: "heart" 
+toc_icon: "heart"
+toc_sticky: True 
 excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  - wide
+  #- wide
 sidebar:
   nav: "docs"
 category: Reference
@@ -430,7 +433,7 @@ color: #b20000;
 
 
 
-## 画像の拡大
+### 画像の拡大
 
 {% highlight python linenos %}
 

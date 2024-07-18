@@ -1,14 +1,17 @@
 ---
 layout: single
 title: Minimal mistakes の文字の大きさ変更のためのscss
-toc: true
+header:
+  overlay_image: images/header.jpg
+toc: True
 toc_label: "目次"
 toc_icon: "heart" 
+toc_sticky: True
 excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  - wide
+  #- wide
 sidebar:
   nav: "docs"
 category: Reference

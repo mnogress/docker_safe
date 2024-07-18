@@ -1,14 +1,17 @@
 ---
 layout: single
 title: html table Reference
-toc: true
+header:
+  overlay_image: images/header_1.png
+toc: True
 toc_label: "目次"
 toc_icon: "heart" 
+toc_sticky: True
 excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  - wide
+  #- wide
 sidebar:
   nav: "docs"
 category: Reference
@@ -136,9 +139,3 @@ HTML Table の作成方法のベーシックをまとめました。 <!--more-->
 | 1-1    |  1-2   |    1-3 |
 | 2-1    |  2-2   |    2-3 |
 
-
-
-| 左寄せ | 真ん中 | 右寄せ |
-| :-----{.width="120"} | :----:{.width="120"} | -----:{.width="420"} |
-| 1-1    |  1-2   |    1-3 |
-| 2-1    |  2-2   |    2-3 |

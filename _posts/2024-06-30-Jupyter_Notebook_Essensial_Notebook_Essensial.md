@@ -1,14 +1,17 @@
 ---
 layout: single
 title: Jupyter NotebookでPandas 使う際の必須Coding集
-toc: true
+header:
+  overlay_image: images/header.jpg
+toc: True
 toc_label: "目次"
 toc_icon: "heart" 
+toc_sticky: True
 excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  - wide
+  #- wide
 sidebar:
   nav: "docs"
 category: Reference
@@ -55,10 +58,12 @@ from datetime import datetime
 
 #### おまけ
 
->
-**Notice** 注意{:.notice}
->
 
-```
-**Notice** 注意{:.notice}
-```
+**Notice** 注意!
+{: .notice--danger}
+
+
+{% highlight python linenos  %}
+**Notice** 注意!
+{: .notice--danger}
+{% endhighlight %}
