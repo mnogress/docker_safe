@@ -3,6 +3,8 @@ layout: single
 title: html table Reference
 header:
   overlay_image: images/header_1.png
+  overlay_filter: rgba(255, 0, 0, 0.25)
+  #overlay_color: "#333"
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 

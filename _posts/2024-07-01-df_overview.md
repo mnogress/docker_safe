@@ -3,6 +3,7 @@ layout: single
 title: df_overview スクリプト
 header:
   overlay_image: images/header.jpg
+  overlay_filter: rgba(255, 0, 0, 0.25)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
