@@ -42,6 +42,7 @@ wb.sheetnames
 
 {% endhighlight %}
 
+#### 結果
 
 {% highlight python linenos  %}
 
@@ -75,7 +76,7 @@ df = pd.read_excel(xlsx, 'Sheet1_name', header=0)
 {% highlight python  linenos %}
 
 # データフレームをファイル名"excel_false_index.xlsx"で保存
-# データフレームのインデックスはExcel には読み込まない
+# データフレームのインデックスはExcelには読み込まない
 
 df.to_excel("excel_false_index.xlsx", index=False)
 
