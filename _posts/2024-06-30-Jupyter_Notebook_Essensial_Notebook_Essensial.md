@@ -3,6 +3,7 @@ layout: single
 title: Jupyter NotebookでPandas 使う際の必須Coding集
 header:
   overlay_image: images/header.jpg
+  overlay_filter: rgba(205, 239, 154, 0.30)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 

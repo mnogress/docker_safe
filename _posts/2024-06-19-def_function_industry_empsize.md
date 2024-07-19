@@ -2,7 +2,8 @@
 layout: single
 title: 産業大分類番号と分類名変換
 header:
-  overlay_image: images/header.jpg
+ overlay_image: images/header.jpg
+ overlay_filter: rgba(205, 239, 154, 0.30)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 

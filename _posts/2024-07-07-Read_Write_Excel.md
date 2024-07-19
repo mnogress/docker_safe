@@ -3,6 +3,7 @@ layout: single
 title: Excelファイルの読み書き
 header:
   overlay_image: images/header.jpg
+  overlay_filter: rgba(205, 239, 154, 0.30)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
@@ -54,13 +55,16 @@ wb.sheetnames
 
 {% highlight python  linenos %}
 
-# Sheet2_nameのシートをcol1のデータをIndex に、
-# 最初の行をタイトル行とするデータフレームとして読み込む
+# Sheet2_nameのシートを選択
+# col1のデータをIndex にする
+# 最初の行がタイトル行のデータフレームとして読み込む
 
 xlsx = pd.ExcelFile(filename)
 df = pd.read_excel(xlsx, 'Sheet2_name', index_col="col1", header=0)
 
-# Sheet1_nameのシートをそのまま、最初の行をタイトル行とするデータフレームとして読み込む
+# Sheet1_nameのシートをそのまま全部
+# 最初の行がタイトル行のデータフレームとして読み込む
+
 df = pd.read_excel(xlsx, 'Sheet1_name', header=0)
 
 
