@@ -66,7 +66,26 @@ Left aligned text.
 **Notice:** This is an important info notice.
 {: .notice--danger}
 
-### Capture Notice
+### Capture Notice (Liquid Version)
+
+{% highlight python linenos %}
+{% raw %}
+{% capture notice-1 %}{% endraw %}
+**Extended notice box**:
+* You can include lists
+* and even fenced code blocks:
+
+```html
+<html>
+  <body>Some body.<body>
+</html>
+```
+{% raw %}
+{% endcapture %}
+{% endraw %}
+{% endhighlight %}
+
+### Result
 
 {% capture notice-1 %}
 **Extended notice box**:
@@ -84,7 +103,7 @@ Left aligned text.
 
 
 
-
+### Capture Notice (HTML Version)
 
 {% highlight python linenos %}
 <div class="notice--danger" markdown="1">
@@ -100,6 +119,7 @@ Left aligned text.
 
 {% endhighlight %}
 
+### Result
 
 <div class="notice--danger" markdown="1">
 <span style="font-size:1.25em;">**Primary Notice with code block:** Some Text...</span><br>
@@ -113,8 +133,22 @@ Left aligned text.
 </div>
 
 
+### 文字装飾_リンク付け
 
-**Some custom styled text with a [_link_](#text-alignment-and-styling).**
+
+{% highlight python linenos %}
+
+**Some custom styled text with a [_link_](#文字装飾_リンク付け).**
+{: style="text-align: center; font-size:1.75em; color: #f78c6c;"}
+
+This is *red*{: style="color: red"}.
+
+{% endhighlight %}
+
+
+### 結果
+
+**Some custom styled text with a [_link_](#文字装飾_リンク付け).**
 {: style="text-align: center; font-size:1.75em; color: #f78c6c;"}
 
 This is *red*{: style="color: red"}.
