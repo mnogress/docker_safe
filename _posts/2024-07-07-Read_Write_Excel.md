@@ -74,13 +74,13 @@ df = pd.read_excel(xlsx, 'Sheet1_name', header=0)
 
 {% highlight python  linenos %}
 
-# データフレームをファイル名"excel_false_index.xlsx"で保存する
-# データフレームのインデックスはExcel ファイルには持たせない。
+# データフレームをファイル名"excel_false_index.xlsx"で保存
+# データフレームのインデックスはExcel には読み込まない
 
 df.to_excel("excel_false_index.xlsx", index=False)
 
 # データフレームをファイル名"excel_true_index.xlsx"で保存する
-# データフレームのインデックスはExcel ファイル列「A」の値として持たせる
+# データフレームのインデックスはExcel列「A」の値として読み込む
 
 df.to_excel("excel_true_index.xlsx")
 
