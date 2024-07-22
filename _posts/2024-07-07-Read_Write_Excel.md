@@ -2,8 +2,8 @@
 layout: single
 title: Excelファイルの読み書き
 header:
-  overlay_image: images/header.jpg
-  overlay_filter: rgba(205, 239, 154, 0.30)
+  overlay_image: images/header_4.png
+  overlay_filter: rgba(44, 82, 207, 0.40)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 

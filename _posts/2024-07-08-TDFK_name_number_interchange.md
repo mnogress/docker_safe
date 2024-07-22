@@ -2,7 +2,8 @@
 layout: single
 title: 都道府県名と都道府県番号の相互変換
 header:
-  overlay_image: images/header.jpg
+  overlay_image: images/header_4.png
+  overlay_filter: rgba(107, 74, 43, 0.40)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
