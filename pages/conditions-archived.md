@@ -1,8 +1,11 @@
 ---
 title: "Terms and Conditions"
+header:
+  overlay_image: images/header_4.png
+  overlay_filter: rgba(107, 74, 43, 0.40)
 permalink: /terms_and_conditions/
 layout: splash
-author_profile: false
+author_profile: False
 ---
 
 1. **免責について**<br>
