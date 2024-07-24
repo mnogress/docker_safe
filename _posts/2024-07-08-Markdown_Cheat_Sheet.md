@@ -39,32 +39,31 @@ This is <span style="color:#FF33AB">my **custom** _colored_</span> text, using a
 
 {% highlight python linenos %}
 
-*Center aligned text.*
+中央
 {: style="text-align: center; color: blue;"} 
-Right aligned text.
+右寄せ
 {: style="text-align: right; color: red"} 
-Left aligned text.
+左寄せ
 {: style="text-align: left;"} 
 
 
 {% endhighlight %}
 
-*Center aligned text.*
+中央
 {: style="text-align: center; color: blue;"} 
-Right aligned text.
+右寄せ
 {: style="text-align: right; color: red"} 
-Left aligned text.
+左寄せ
 {: style="text-align: left;"} 
 
 
 {% highlight python linenos %}
 
-**Notice:** This is an important info notice.
+**Notice:** 重要なNoticeです。
 {: .notice--danger}
 {% endhighlight %}
 
-
-**Notice:** This is an important info notice.
+**Notice:** 重要なNoticeです。
 {: .notice--danger}
 
 ### Capture Notice (Liquid Version)
