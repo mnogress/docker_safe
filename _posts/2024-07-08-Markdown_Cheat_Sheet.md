@@ -26,36 +26,41 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 
 {% highlight python linenos %}
 
-This is <span style="color:blue">my *blue*</span> text.<br>
-This is <span style="color:#FF33AB">my **custom** _colored_</span> text, using a hex color code.
+これは<span style="color:green">my *green*</span> text.<br>
+これは<span style="color:#FF44AB">my **カスタム** _colored_</span> 16進コード
 
 {% endhighlight %}
 
-This is <span style="color:blue">my *blue*</span> text.<br>
-This is <span style="color:#FF33AB">my **custom** _colored_</span> text, using a hex color code.
+これは<span style="color:green">my *green*</span> text.<br>
+これは<span style="color:#FF33AB">my **カスタム** _colored_</span> 16進コード
 
+---
 
 ### 強制的に文字を左右中央に配置する
 
 {% highlight python linenos %}
 
 中央
-{: style="text-align: center; color: blue;"} 
-右寄せ
-{: style="text-align: right; color: red"} 
+{: style="text-align: center; color: blue; font-weight: bold;"} 
+Right[^1]
+{: style="text-align: right; color: red; font-style: italic;"} 
 左寄せ
-{: style="text-align: left;"} 
+{: style="text-align: left; color: green; font-size:1.10em;"} 
 
+[^1]: イタリックは主に英語で使用する
 
 {% endhighlight %}
 
 中央
-{: style="text-align: center; color: blue;"} 
-右寄せ
-{: style="text-align: right; color: red"} 
+{: style="text-align: center; color: blue; font-weight: bold;"} 
+Right[^1]
+{: style="text-align: right; color: red; font-style: italic;"} 
 左寄せ
-{: style="text-align: left;"} 
+{: style="text-align: left; color: green; font-size:1.10em;"} 
 
+[^1]: イタリックは主に英語で使用する
+
+---
 
 {% highlight python linenos %}
 
@@ -65,43 +70,79 @@ This is <span style="color:#FF33AB">my **custom** _colored_</span> text, using a
 
 **Notice:** 重要なNoticeです。
 {: .notice--danger}
+
+**Notice:** {: .notice}
+{: .notice}
+
+**Primay Notice:** {: .notice--primary}
+{: .notice--primary}
+
+**Info Notice:** {: .notice--info}
+{: .notice--info}
+
+**Warning Notice:** {: .notice--warning}
+{: .notice--warning}
+
+**Danger Notice:** {: .notice--danger}
+{: .notice--danger}
+
+**Success Notice:** {: .notice--success}
+{: .notice--success}
 
 ### Capture Notice (Liquid Version)
 
 {% highlight python linenos %}
 {% raw %}
 {% capture notice-1 %}{% endraw %}
-**Extended notice box**:
-* You can include lists
-* and even fenced code blocks:
-
-```html
-<html>
-  <body>Some body.<body>
-</html>
+**Notice Box**:
+* リスト表示できます
+* Code Blockも可能
+```python
+import numpy as np
+import pandas as pd
+import seaborn as sns
 ```
-{% raw %}
-{% endcapture %}
-{% endraw %}
+{% raw %}{% endcapture %}{% endraw %}
+{% raw %}<div class="notice">{{ notice-1 | markdownify }}</div>{% endraw %}
+
 {% endhighlight %}
 
-### Result
+
+
+### Result1
+
+---
 
 {% capture notice-1 %}
-**Extended notice box**:
-* You can include lists
-* and even fenced code blocks:
+**Notice Box**:
+* リスト表示できます
+* Code Blockも可能
 
-```html
-<html>
-  <body>Some body.<body>
-</html>
+```python
+import numpy as np
+import pandas as pd
+import seaborn as sns
 ```
 {% endcapture %}
-
 <div class="notice">{{ notice-1 | markdownify }}</div>
 
 
+
+### Result2
+
+{% capture notice-1 %}
+**Notice Box**:
+* リスト表示できます
+* Tableも可能
+
+| 左寄せ | 真ん中 | 右寄せ |
+| :----- | :----: | -----: |
+| 1-1    |  1-2   |    1-3 |
+| 2-1    |  2-2   |    2-3 |
+{% endcapture %}
+<div class="notice">{{ notice-1 | markdownify }}</div>
+
+---
 
 ### Capture Notice (HTML Version)
 
@@ -141,7 +182,7 @@ This is <span style="color:#FF33AB">my **custom** _colored_</span> text, using a
 **Some custom styled text with a [_link_](#文字装飾_リンク付け).**
 {: style="text-align: center; font-size:1.75em; color: #f78c6c;"}
 
-This is *red*{: style="color: red"}.
+これは*red*{: style="color: red"}.
 
 {% endhighlight %}
 
@@ -151,4 +192,4 @@ This is *red*{: style="color: red"}.
 **Some custom styled text with a [_link_](#文字装飾_リンク付け).**
 {: style="text-align: center; font-size:1.75em; color: #f78c6c;"}
 
-This is *red*{: style="color: red"}.
+これは*red*{: style="color: red"}.
