@@ -26,12 +26,12 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 
 {% highlight python linenos %}
 
-これは<span style="color:green">my *green*</span> text.<br>
+これは<span style="color:green">my *green*</span> テキスト.<br>
 これは<span style="color:#FF44AB">my **カスタム** _colored_</span> 16進コード
 
 {% endhighlight %}
 
-これは<span style="color:green">my *green*</span> text.<br>
+これは<span style="color:green">my *green*</span> テキスト.<br>
 これは<span style="color:#FF33AB">my **カスタム** _colored_</span> 16進コード
 
 ---
@@ -148,27 +148,29 @@ import seaborn as sns
 
 {% highlight python linenos %}
 <div class="notice--danger" markdown="1">
-<span style="font-size:1.25em;">**Primary Notice with code block:** Some Text...</span><br>
-<span style="font-size:1.25em;">Some more text....</span>
-
+<span style="font-size:1.25em;">**Primary Notice with code block:**</span><br>
+<span style="font-size:1.25em;">いくつかの テキスト...</span><br>
+<span style="font-size:1.25em;">いくつかの more テキスト....</span>
 ```html
 <html>
-  <body>Some body.<body>
+  <body>いくつかの body.<body>
 </html>
 ```
 </div>
 
 {% endhighlight %}
 
-### Result
+### Result3
 
 <div class="notice--danger" markdown="1">
-<span style="font-size:1.25em;">**Primary Notice with code block:** Some Text...</span><br>
-<span style="font-size:1.25em;">Some more text....</span>
-
+<span style="font-size:1.25em;">**Primary Notice with code block:**</span><br>
+<ul>
+<span style="font-size:1.25em;">いくつかの テキスト...</span><br>
+<span style="font-size:1.25em;">いくつかの more テキスト....</span>
+</ul>
 ```html
 <html>
-  <body>Some body.<body>
+  <body>いくつかの body.<body>
 </html>
 ```
 </div>
@@ -179,8 +181,8 @@ import seaborn as sns
 
 {% highlight python linenos %}
 
-**Some custom styled text with a [_link_](#文字装飾_リンク付け).**
-{: style="text-align: center; font-size:1.75em; color: #f78c6c;"}
+**いくつかの custom styled テキスト with a [_link_](#文字装飾_リンク付け).**
+{: style="テキスト-align: center; font-size:1.4em; color: #f78c6c;"}
 
 これは*red*{: style="color: red"}.
 
@@ -189,7 +191,7 @@ import seaborn as sns
 
 ### 結果
 
-**Some custom styled text with a [_link_](#文字装飾_リンク付け).**
-{: style="text-align: center; font-size:1.75em; color: #f78c6c;"}
+**いくつかの custom styled テキスト with a [_link_](#文字装飾_リンク付け).**
+{: style="テキスト-align: center; font-size:1.75em; color: #f78c6c;"}
 
 これは*red*{: style="color: red"}.
