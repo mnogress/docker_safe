@@ -3,7 +3,7 @@ layout: single
 title: Minimal mistakes の文字の大きさ変更のためのscss
 header:
   overlay_image: images/header_4.png
-  overlay_filter: rgba(107, 74, 43, 0.40)
+  overlay_filter: rgba(70, 209, 36, 0.30)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 

@@ -2,8 +2,8 @@
 layout: single
 title: Markdown Cheat Sheet
 header:
-  overlay_image: images/header_4.png
-  overlay_filter: rgba(107, 74, 43, 0.40)
+  overlay_image: images/header_C.png
+  overlay_filter: rgba(58, 129, 242, 0.20)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
@@ -26,13 +26,14 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 
 {% highlight python linenos %}
 
-これは<span style="color:green">my *green*</span> テキスト.<br>
-これは<span style="color:#FF44AB">my **カスタム** _colored_</span> 16進コード
+これは、<span style="color:green"> *green*</span> 色。<br>
+これは、<span style="color:#FF44AB"> **カスタム** </span>色(16進コード)。
 
 {% endhighlight %}
 
-これは<span style="color:green">my *green*</span> テキスト.<br>
-これは<span style="color:#FF33AB">my **カスタム** _colored_</span> 16進コード
+これは、<span style="color:green"> *green*</span> 色。<br>
+これは、<span style="color:#FF33AB"> **カスタム** </span>色(16進コード)。
+
 
 ---
 
@@ -71,6 +72,10 @@ Right[^1]
 **Notice:** 重要なNoticeです。
 {: .notice--danger}
 
+---
+
+### Color Variation
+
 **Notice:** {: .notice}
 {: .notice}
 
@@ -89,12 +94,16 @@ Right[^1]
 **Success Notice:** {: .notice--success}
 {: .notice--success}
 
-### Capture Notice (Liquid Version)
+---
+
+
+### Capture Notice 1 (Liquid Version)
 
 {% highlight python linenos %}
 {% raw %}
 {% capture notice-1 %}{% endraw %}
 **Notice Box**:
+* capture と　endcapture で囲む
 * リスト表示できます
 * Code Blockも可能
 ```python
@@ -103,18 +112,18 @@ import pandas as pd
 import seaborn as sns
 ```
 {% raw %}{% endcapture %}{% endraw %}
-{% raw %}<div class="notice">{{ notice-1 | markdownify }}</div>{% endraw %}
+{% raw %}<div class="notice--warning"><span style="font-size:1.25em;">{{ notice-1 | markdownify }}</span></div>
+{% endraw %}
 
 {% endhighlight %}
 
 
-
 ### Result1
 
----
 
 {% capture notice-1 %}
 **Notice Box**:
+* capture と　endcapture で囲む
 * リスト表示できます
 * Code Blockも可能
 
@@ -124,74 +133,134 @@ import pandas as pd
 import seaborn as sns
 ```
 {% endcapture %}
-<div class="notice">{{ notice-1 | markdownify }}</div>
+<div class="notice--info"><span style="font-size:1.25em;">{{ notice-1 | markdownify }}</span></div>
 
+---
+### Capture Notice 2
+
+{% highlight python linenos %}
+{% raw %}
+{% capture notice-1 %}{% endraw %}
+**Notice Box**:
+1. リスト表示できます
+2. Tableも可能
+
+| 左寄せ | 真ん中 | 右寄せ |
+| :----- | :----: | -----: |
+| 1-1    |  1-2   |    1-3 |
+| 2-1    |  2-2   |    2-3 |
+{% raw %}{% endcapture %}{% endraw %}
+{% raw %}<div class="notice--warning"><span style="font-size:1.25em;">{{ notice-1 | markdownify }}</span></div>
+{% endraw %}
+
+{% endhighlight %}
 
 
 ### Result2
 
-{% capture notice-1 %}
+{% capture notice-4 %}
 **Notice Box**:
-* リスト表示できます
-* Tableも可能
+1. リスト表示できます
+2. Tableも可能
 
 | 左寄せ | 真ん中 | 右寄せ |
 | :----- | :----: | -----: |
 | 1-1    |  1-2   |    1-3 |
 | 2-1    |  2-2   |    2-3 |
 {% endcapture %}
-<div class="notice">{{ notice-1 | markdownify }}</div>
+<div class="notice--warning"><span style="font-size:1.25em;">{{ notice-4 | markdownify }}</span></div>
 
 ---
-
-### Capture Notice (HTML Version)
+### Capture Notice 3
 
 {% highlight python linenos %}
-<div class="notice--danger" markdown="1">
-<span style="font-size:1.25em;">**Primary Notice with code block:**</span><br>
-<span style="font-size:1.25em;">いくつかの テキスト...</span><br>
-<span style="font-size:1.25em;">いくつかの more テキスト....</span>
-```html
-<html>
-  <body>いくつかの body.<body>
-</html>
-```
-</div>
+{% raw %}
+{% capture notice-1 %}{% endraw %}
+**Notice Box**:
+* capture と　endcapture で囲む
+* リスト表示できます
+* Quoteも可能
+>
+import numpy as np<br>
+import pandas as pd<br>
+import seaborn as sns<br>
+>{:style="font-size:1.25em;"}
+{% raw %}{% endcapture %}{% endraw %}
+{% raw %}<div class="notice--warning"><span style="font-size:1.25em;">{{ notice-1 | markdownify }}</span></div>
+{% endraw %}
 
 {% endhighlight %}
 
+
 ### Result3
 
+{% capture notice-5 %}
+**Notice Box**:
+* capture と　endcapture で囲む
+* リスト表示できます
+* Quoteも可能
+>
+import numpy as np<br>
+import pandas as pd<br>
+import seaborn as sns<br>
+>{:style="font-size:1.25em;"}
+{% endcapture %}
+<div class="notice--info"><span style="font-size:1.25em;">{{ notice-5 | markdownify }}</span></div>
+
+---
+
+### Capture Notice 4 (HTML Version)
+
+{% highlight python linenos %}
 <div class="notice--danger" markdown="1">
-<span style="font-size:1.25em;">**Primary Notice with code block:**</span><br>
-<ul>
-<span style="font-size:1.25em;">いくつかの テキスト...</span><br>
-<span style="font-size:1.25em;">いくつかの more テキスト....</span>
-</ul>
+<span style="font-size:1.25em;">**Notice-Danger w/ コードブロック**</span>
+<ol>
+<li><span style="font-size:1.25em;">テキスト文１...</span></li>
+<li><span style="font-size:1.25em;">テキスト文２....</span></li>
+</ol>
 ```html
 <html>
-  <body>いくつかの body.<body>
+  <body>テキストBody<body>
+</html>
+```
+</div>
+{% endhighlight %}
+
+---
+
+### Result4
+
+<div class="notice--danger" markdown="1">
+<span style="font-size:1.25em;">**Notice-Danger w/ コードブロック**</span>
+<ol>
+<li><span style="font-size:1.25em;">テキスト文１...</span></li>
+<li><span style="font-size:1.25em;">テキスト文２....</span></li>
+</ol>
+```html
+<html>
+  <body>テキストBody<body>
 </html>
 ```
 </div>
 
+---
 
 ### 文字装飾_リンク付け
 
 
 {% highlight python linenos %}
 
-**いくつかの custom styled テキスト with a [_link_](#文字装飾_リンク付け).**
+**Custom styled  [_link_](#文字装飾_リンク付け)付きテキスト**
 {: style="テキスト-align: center; font-size:1.4em; color: #f78c6c;"}
 
-これは*red*{: style="color: red"}.
+これは、*red*{: style="color: red; font-weight: bold;"}.
 
 {% endhighlight %}
 
 
 ### 結果
 
-**いくつかの custom styled テキスト with a [_link_](#文字装飾_リンク付け).**
+**Custom styled  [_link_](#文字装飾_リンク付け)付きテキスト**
 {: style="テキスト-align: center; font-size:1.75em; color: #f78c6c;"}
 
-これは*red*{: style="color: red"}.
+これは、*red*{: style="color: red; font-weight: bold;"}.
