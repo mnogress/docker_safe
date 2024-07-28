@@ -1,10 +1,10 @@
 # /_data/authors.yml
 
 Author:
-  name        : "Author"
-  bio         : "What do you want, jewels? I am a very extravagant man."
+  name        : "サイト作成者"
+  bio         : "I am a very extravagant man."
   url         : "https://www.so-wi.com"
-  #avatar      : "/assets/images/bio-photo-2.jpg"
+  avatar      : "images/200by200_dog.png"
   location    : "Chiba, Japan"
   links:
   #  - label: "Email"
