@@ -19,124 +19,38 @@ category: Reference
 ---
 
 
-HTML Table の作成方法のベーシックをまとめました。 <!--more-->
-
-### html table
-
-{% highlight html linenos  %}
-
-<style>
-@media screen and (max-width:1280px){
-	.p_table {width:100%;overflow:scroll;}
-	.p_table table {width:1153px;}
-}
-@media screen and (max-width:750px){
-  .resp_table {width:100% !important;}
-  .resp_table th ,.resp_table td{padding:10px !important;}
-}
-</style>
+Markdown Table の作成方法のベーシックをまとめました。 <!--more-->
 
 
-<table class="resp_table">
-    <caption>表示例</caption>
-    <thead>
-      <tr>
-        <th width="120">th_1</th>
-        <th width="120">th_2</th>
-        <th width="600">th_3</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>td_1_1</td>
-        <td>td_1_2</td>
-        <td>td_1_3</td>
-      </tr>
-      <tr>
-        <td>td_2_1</td>
-        <td>td_2_2</td>
-        <td>td_2_3</td>
-      </tr>
-      <tr>
-        <td colspan="3">td_3</td>
-      </tr>
-      <tr>
-        <td rowspan="2">td_4_1</td>
-        <td>td_4_2</td>
-        <td>td_4_3</td>
-      </tr>
-      <tr>
-        <td>td_5_2</td>
-        <td>td_5_3</td>
-      </tr>
-    </tbody>
-  </table>
-
-{% endhighlight %}
+#### Table by Markdown
 
 
-
-
-
-<style>
-@media screen and (max-width:1280px){
-	.p_table {width:100%;overflow:scroll;}
-	.p_table table {width:1153px;}
-}
-@media screen and (max-width:750px){
-  .resp_table {width:100% !important;}
-  .resp_table th ,.resp_table td{padding:10px !important;}
-}
-</style>
-
-
-<table class="resp_table">
-    <caption>表示例</caption>
-    <thead>
-      <tr>
-        <th width="120">th_1</th>
-        <th width="120">th_2</th>
-        <th width="600">th_3</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>td_1_1</td>
-        <td>td_1_2</td>
-        <td>td_1_3</td>
-      </tr>
-      <tr>
-        <td>td_2_1</td>
-        <td>td_2_2</td>
-        <td>td_2_3</td>
-      </tr>
-      <tr>
-        <td colspan="3">td_3</td>
-      </tr>
-      <tr>
-        <td rowspan="2">td_4_1</td>
-        <td>td_4_2</td>
-        <td>td_4_3</td>
-      </tr>
-      <tr>
-        <td>td_5_2</td>
-        <td>td_5_3</td>
-      </tr>
-    </tbody>
-  </table>
-
-
-### Table by Markdown
 
 {% highlight python linenos %}
-| 左寄せ | 真ん中 | 右寄せ |
-| :----- | :----: | -----: |
-| 1-1    |  1-2   |    1-3 |
-| 2-1    |  2-2   |    2-3 |
+
+
+| 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
+| :-----    | :----: | -----: |
+| td_1-1    |  td_1-2   |  td_1-3 |
+| td_2-1    |  td_2-2   |  td_2-3 |
+|----
+| td_3-1                      |  
+| td_4-1    |  td_4-2   |  td_4-3 |  
+|====
+| footer    |  ft_1-2   |  ft_1-3 |
+{% raw %}{: style="font-size:1.15em;"}{% endraw %}
 {% endhighlight %}
 
-| 左寄せ | 真ん中 | 右寄せ |
-| :----- | :----: | -----: |
-| 1-1    |  1-2   |    1-3 |
-| 2-1    |  2-2   |    2-3 |
+#### Result
 
+
+| 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
+| :-----    | :----: | -----: |
+| td_1-1    |  td_1-2   |  td_1-3 |
+| td_2-1    |  td_2-2   |  td_2-3 |
+|----
+| td_3-1                      |  
+| td_4-1    |  td_4-2   |  td_4-3 |  
+|====
+| footer    |  ft_1-2   |  ft_1-3 |
+{: style="font-size:1.15em;"}
