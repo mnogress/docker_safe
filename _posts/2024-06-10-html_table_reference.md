@@ -19,38 +19,207 @@ category: Reference
 ---
 
 
-Markdown Table の作成方法のベーシックをまとめました。 <!--more-->
+Markdown Table の作成と装飾についてまとめました。 <!--more-->
+マークダウンは簡単にテーブルを作成できますが、セルがマージできないなど
+制限もあります。<br>css での装飾、リスト表示、footer の追加方法についてまとました。
 
+#### Base Table by Markdown and CSS
 
-#### Table by Markdown
+main.css のtableクラスを取り込み、それを利用して「**このページのみ有効**」とする装飾を
+アレンジしたベーステーブルを作成する。　手順は以下のとおりです。
 
+>
+Base CSSをmain.cssから引用する。<br>
+font-sizeを変更<br>
+tfootを追加し、backgroud-colorを"#afeeee"とする<br>
+{: class="table"}で明示的に指定<br>
+>{: style="font-size:0.88em;"} 
 
+{% highlight css linenos %}
 
-{% highlight python linenos %}
+<style type="text/css">
+table {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 0.65em;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+table + table {
+  margin-top: 1em;
+}
+thead {
+  background-color: #e6e6fa;
+  border-bottom: 2px solid #9b9b9d;
+}
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: start;
+}
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #9b9b9d;
+}
+tfoot {
+  background-color: #afeeee;
+  padding: 0.5em;
+  border-bottom: 1px solid #9b9b9d;
+}
 
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+</style>
 
 | 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
-| :-----    | :----: | -----: |
+| :-----       | :----:         | -----:       |
 | td_1-1    |  td_1-2   |  td_1-3 |
 | td_2-1    |  td_2-2   |  td_2-3 |
 |----
 | td_3-1                      |  
-| td_4-1    |  td_4-2   |  td_4-3 |  
-|====
+| td_4-1   | td_4-21<br>td_4-22<br>  |  td_4-3 |  
+|====                                     
 | footer    |  ft_1-2   |  ft_1-3 |
-{% raw %}{: style="font-size:1.15em;"}{% endraw %}
+{% raw %}{: class="table"}{% endraw %}
 {% endhighlight %}
 
-#### Result
+### Base Result
+
+<style type="text/css">
+
+table {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 0.65em;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+table + table {
+  margin-top: 1em;
+}
+
+thead {
+  background-color: #e6e6fa;
+  border-bottom: 2px solid #9b9b9d;
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: start;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #9b9b9d;
+}
+
+tfoot {
+  background-color: #afeeee;
+  padding: 0.5em;
+  border-top: 2px solid #9b9b9d;
+  border-bottom: 2px solid #9b9b9d;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
+</style>
+
+
 
 
 | 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
-| :-----    | :----: | -----: |
+| :-----       | :----:         | -----:       |
 | td_1-1    |  td_1-2   |  td_1-3 |
 | td_2-1    |  td_2-2   |  td_2-3 |
 |----
 | td_3-1                      |  
-| td_4-1    |  td_4-2   |  td_4-3 |  
-|====
+| td_4-1   | td_4-21<br>td_4-22<br>  |  td_4-3 |  
+|====                                     
 | footer    |  ft_1-2   |  ft_1-3 |
-{: style="font-size:1.15em;"}
+{: class="table"}
+
+
+#### class(例:example) を設定して字の色と太字に変更する
+
+{% highlight css linenos %}
+
+<style type="text/css">
+  table.example { color: cadetblue; font-weight: bold;}
+</style>
+
+| 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
+| :-----       | :----:         | -----:       |
+| td_1-1    |  td_1-2   |  td_1-3 |
+| td_2-1    |  td_2-2   |  td_2-3 |
+|----
+| td_3-1                      |  
+| td_4-1   | td_4-21<br>td_4-22<br>  |  td_4-3 |  
+|====                                      < == table footer 開始
+| footer    |  ft_1-2   |  ft_1-3 |
+{% raw %}{: class="example"}{% endraw %}
+{% endhighlight %}
+
+
+#### Result 2
+
+
+<style type="text/css">
+  table.example { color: cadetblue; font-weight: bold;}
+</style>
+
+| 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
+| :-----       | :----:         | -----:       |
+| td_1-1    |  td_1-2   |  td_1-3 |
+| td_2-1    |  td_2-2   |  td_2-3 |
+|----
+| td_3-1                      |  
+| td_4-1   | td_4-21<br>td_4-22<br>  |  td_4-3 |  
+|====                                     
+| footer    |  ft_1-2   |  ft_1-3 |
+{: class="example"}
+
+
+#### styleを直接設定して字の大きさ変更する
+
+
+{% highlight css linenos %}
+
+| 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
+| :-----       | :----:         | -----:       |
+| td_1-1    |  td_1-2   |  td_1-3 |
+| td_2-1    |  td_2-2   |  td_2-3 |
+|----
+| td_3-1                      |  
+| td_4-1   | td_4-21<br>td_4-22<br>  |  td_4-3 |  
+|====                                     
+| footer    |  ft_1-2   |  ft_1-3 |
+{% raw %}{: style="font-size:1.1em;"}{% endraw %}
+{% endhighlight %}
+
+
+
+#### Result 3
+
+
+| 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
+| :-----       | :----:         | -----:       |
+| td_1-1    |  td_1-2   |  td_1-3 |
+| td_2-1    |  td_2-2   |  td_2-3 |
+|----
+| td_3-1                      |  
+| td_4-1   | td_4-21<br>td_4-22<br>  |  td_4-3 |  
+|====                                     
+| footer    |  ft_1-2   |  ft_1-3 |
+{: style="font-size:1.1em;"}
