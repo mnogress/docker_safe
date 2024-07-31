@@ -19,9 +19,11 @@ category: Reference
 tag: ["Pandas", "Function"]
 ---
 
-日付の新しいものを残す重複排除<!--more-->
+日付の新しいものを残す重複排除<!--more-->する方法をまとめました。重複排除するルールとして、❶新しいものを残す。❷古い方を残す。といった一工夫が必要な場合があります。そのステップをまとめました。
 
-#### Step 1：ソートする日付の列をdatetime オブジェクトにする
+#### Step 1：datetime オブジェクトの確認
+
+日付の列でソートするには、その列がdatetime オブジェクトでなければなりません。まず、ソートする列のデータ型を確認します。
 
 {% highlight python linenos  %}
 # データ型を確認する
@@ -34,7 +36,7 @@ df['date'].dtypes
 >> dtype('float64') ---> NG  datetime 型式にする必要ある
 {% endhighlight %}
 
-<< NGの場合 >>
+NGの場合には、datetime オブジェクトにします。
 
 {% highlight python linenos  %}
 # データ型をdatetime にする
@@ -76,7 +78,5 @@ df = df.sort_values(["date"], ascending = False)
 print(df.shape)
 df.drop_duplicates(subset='社員番号', keep='first', inplace=True)
 print(df.shape)
-
-{: .notice--danger}
 
 {% endhighlight %}
