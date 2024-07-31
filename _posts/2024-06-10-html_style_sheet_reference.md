@@ -489,3 +489,17 @@ img.example2 { zoom: 70%; }
 <p><img src="/images/200by200.png" alt="［写真］" class="example1"> 1.5倍に拡大</p>
 
 <p><img src="/images/200by200.png" alt="［写真］" class="example2"> 70%に縮小</p>
+
+
+#### test
+
+| 左寄せ(Left) | 真ん中(Cebter) | 右寄せ(Right) |
+| :-----       | :----:         | -----:       |
+| td_1-1    |  td_1-2   |  td_1-3 |
+| td_2-1    |  td_2-2   |  td_2-3 |
+|----
+| td_3-1                      |  
+| td_4-1   | td_4-21<br>td_4-22<br>  |  td_4-3 |  
+|====                                     
+| footer    |  ft_1-2   |  ft_1-3 |
+{: style="font-size:0.8em;"}

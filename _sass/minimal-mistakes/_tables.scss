@@ -37,3 +37,11 @@ td,
 th {
   vertical-align: middle;
 }
+
+tfoot {
+  padding: 0.5em;
+  background-color: #65c3f6;
+  border-bottom: 2px solid mix(#000000, $border-color, 25%);
+  border-top: 2px solid mix(#000000, $border-color, 25%);
+
+}
