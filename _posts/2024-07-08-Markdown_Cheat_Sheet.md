@@ -19,7 +19,8 @@ category: Reference
 tag: ["HTML", "Markdown", "css"]
 ---
 
-HTML/Markdown のStyle sheet reference になります。 <!--more-->
+HTML/Markdown のStyle sheet reference になります。 <!--more--> 前提はKarmdownで、
+Jekyll Minimal Mistakes がテーマです。
 
 ### 文字に色をつける
 
@@ -62,6 +63,8 @@ Right[^1]
 [^1]: イタリックは主に英語で使用する
 
 ---
+
+### Notice Box
 
 {% highlight python linenos %}
 
