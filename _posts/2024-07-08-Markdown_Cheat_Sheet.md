@@ -115,7 +115,7 @@ import pandas as pd
 import seaborn as sns
 ```
 {% raw %}{% endcapture %}{% endraw %}
-{% raw %}<div class="notice--warning"><span style="font-size:1.25em;">{{ notice-1 | markdownify }}</span></div>
+{% raw %}<div class="notice--info"><span style="font-size:1.15em;">{{ notice-1 | markdownify }}</span></div>
 {% endraw %}
 
 {% endhighlight %}
@@ -136,7 +136,7 @@ import pandas as pd
 import seaborn as sns
 ```
 {% endcapture %}
-<div class="notice--info"><span style="font-size:1.25em;">{{ notice-1 | markdownify }}</span></div>
+<div class="notice--info"><span style="font-size:1.15em;">{{ notice-1 | markdownify }}</span></div>
 
 ---
 ### Capture Notice 2
@@ -189,7 +189,7 @@ import pandas as pd<br>
 import seaborn as sns<br>
 >{:style="font-size:1.25em;"}
 {% raw %}{% endcapture %}{% endraw %}
-{% raw %}<div class="notice--warning"><span style="font-size:1.25em;">{{ notice-1 | markdownify }}</span></div>
+{% raw %}<div class="notice--success"><span style="font-size:1.15em;">{{ notice-1 | markdownify }}</span></div>
 {% endraw %}
 
 {% endhighlight %}
@@ -208,7 +208,7 @@ import pandas as pd<br>
 import seaborn as sns<br>
 >{:style="font-size:1.25em;"}
 {% endcapture %}
-<div class="notice--info"><span style="font-size:1.25em;">{{ notice-5 | markdownify }}</span></div>
+<div class="notice--success"><span style="font-size:1.15em;">{{ notice-5 | markdownify }}</span></div>
 
 ---
 

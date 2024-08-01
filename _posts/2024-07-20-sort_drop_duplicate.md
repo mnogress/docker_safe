@@ -19,7 +19,44 @@ category: Reference
 tag: ["Pandas", "Function"]
 ---
 
-日付の新しいものを残す重複排除<!--more-->する方法をまとめました。重複排除するルールとして、❶新しいものを残す。❷古い方を残す。といった一工夫が必要な場合があります。そのステップをまとめました。
+日付の新しいものを残す重複排除<!--more-->する方法をまとめました。重複排除するルールとして、❶新しいものを残す。❷古い方を残す。といった一工夫が必要な場合があります。そのステップをまとめました。 概要は以下のとおりです。
+
+<div class="box33">
+    <span class="box-title">概要</span>
+    <ol>
+      <li><strong>keep='first'</strong> でデータフレームを上から下へ重複チェックするとして、最初のものを残す</li>
+      <li>新しいものが最初にチェックされるよう降順に並べ替える</li>
+    </ol> 
+</div>
+
+<style>
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0366fc;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0366fc;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
+}
+</style>
+
 
 #### Step 1：datetime オブジェクトの確認
 
@@ -57,6 +94,7 @@ df = df.sort_values(["date"], ascending = False)
 
 列名**date**で新しい順に並び替えておく。
 
+#### *ascending = False* >> 降順 >> 新しいものから古いもの
 
 <dl><strong>ascending の意味：上昇</strong>
 <dt>ascending = True</dt> 
