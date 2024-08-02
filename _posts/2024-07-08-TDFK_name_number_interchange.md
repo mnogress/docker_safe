@@ -6,7 +6,7 @@ header:
   overlay_filter: rgba(107, 74, 43, 0.20)
 toc: True
 toc_label: "目次"
-toc_icon: "heart" 
+toc_icon: "club" 
 toc_sticky: True
 excerpt_separator: <!--more-->
 classes:
@@ -19,7 +19,8 @@ category: Reference
 tag: ["Pandas", "Function"]
 ---
 
-都道府県名から都道府県番号及びその反対変換<!--more-->
+都道府県名から都道府県番号に変換及びその反対変換<!--more-->を[**jp_pref.prefectureモジュール**](https://pypi.org/project/jp-pref/){:target="_blank"}の
+*name2code, code2name*をPandas データフレームに対して利用する関数とその適用方法を紹介します。
 
 #### モジュールをインポートと関数定義
 
@@ -42,6 +43,24 @@ def get_prefecture_number(prefecture_name):
         return df_pref[df_pref["都道府県名"] == prefecture_name]["都道府県番号"].values[0]
     except IndexError:
         return None  # 該当する都道府県名がない場合は None を返す
+{% endhighlight %}
+
+
+<dl><strong>定義した関数</strong>
+<dt>get_prefecture_name(prefecture_number)</dt> 
+<dd>都道府県番号　==> 都道府県名</dd>
+<dt>get_prefecture_number(prefecture_name)</dt>
+<dd>都道府県名　==> 都道府県番号</dd>
+</dl>
+{: .notice--info}
+
+#### df_pref を関数参照用に操作する
+
+df_pref が定義した上記の関数が参照するデータフレームですが、そのままでは使えません。
+都道府県番号をインデックスから列名'都道府県番号'に変更するなどの操作が必要です。
+詳細は、以下のコードのとおりです。
+
+{% highlight python linenos  %}
 
 # df_pref データフレームを関数に合わせて
 # インデックスから列にリセットし、列名を変更する
@@ -54,7 +73,7 @@ df_pref.rename(columns={'code': '都道府県番号',
 {% endhighlight %}
 
 
-#### 関数の適用
+#### 関数のPandas Pandas データフレームへの適用
 
 {% highlight python linenos  %}
 

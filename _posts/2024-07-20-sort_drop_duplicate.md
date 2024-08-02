@@ -102,7 +102,7 @@ df = df.sort_values(["date"], ascending = False)
 <dt>ascending = False</dt>
 <dd>降順　新しいものから古いものへ　大きいものから小さいものへ</dd>
 </dl>
-{: .notice--danger}
+{: .notice--success}
 
 
 #### Step 3：列A（例：社員番号）の重複排除の基準として新しいものを残す

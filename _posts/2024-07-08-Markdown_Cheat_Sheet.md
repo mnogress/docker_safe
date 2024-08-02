@@ -152,6 +152,8 @@ import seaborn as sns
 | :----- | :----: | -----: |
 | 1-1    |  1-2   |    1-3 |
 | 2-1    |  2-2   |    2-3 |
+|====                                     
+| footer | ft_1-2 | ft_1-3 |
 {% raw %}{% endcapture %}{% endraw %}
 {% raw %}<div class="notice--warning"><span style="font-size:1.25em;">{{ notice-1 | markdownify }}</span></div>
 {% endraw %}
@@ -170,6 +172,8 @@ import seaborn as sns
 | :----- | :----: | -----: |
 | 1-1    |  1-2   |    1-3 |
 | 2-1    |  2-2   |    2-3 |
+|====                                     
+| footer | ft_1-2 | ft_1-3 |
 {% endcapture %}
 <div class="notice--warning"><span style="font-size:1.25em;">{{ notice-4 | markdownify }}</span></div>
 

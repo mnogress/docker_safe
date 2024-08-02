@@ -55,16 +55,3 @@ from pytz import timezone
 from datetime import datetime
 
 {% endhighlight %}
-
-
-#### おまけ
-
-
-**Notice** 注意!
-{: .notice--danger}
-
-
-{% highlight python linenos  %}
-**Notice** 注意!
-{: .notice--danger}
-{% endhighlight %}
