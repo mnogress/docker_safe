@@ -54,6 +54,11 @@ tag: ["Pandas", "Function"]
 .box33 p {
     margin: 0; 
     padding: 1em;
+    font-size: 1.2em;
+}
+.box33 li {
+    margin: 0; 
+    font-size: 1.05em;
 }
 </style>
 

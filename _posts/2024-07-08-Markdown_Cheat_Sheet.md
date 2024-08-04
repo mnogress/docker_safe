@@ -19,8 +19,8 @@ category: Reference
 tag: ["HTML", "Markdown", "css"]
 ---
 
-HTML/Markdown のStyle sheet reference になります。 <!--more--> 前提はKarmdownで、
-Jekyll Minimal Mistakes がテーマです。
+HTML/Markdown のStyle sheet reference になります。 <!--more--> 前提は[*Karmdown*](https://kramdown.gettalong.org/){:target="_blank"}で、
+[*Jekyll Minimal Mistakes*](https://github.com/mmistakes/minimal-mistakes){:target="_blank"} がテーマです。
 
 ### 文字に色をつける
 
