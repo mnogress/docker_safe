@@ -1,6 +1,9 @@
 ---
 title: "Posts by Tag"
-permalink: /tags/
 layout: tags
-author_profile: true
+header:
+  overlay_image: "/images/header_5.png"
+  overlay_filter: rgba(12, 99, 100, 0.15)  
+permalink: /tags/
+author_profile: True
 ---
