@@ -2,8 +2,8 @@
 layout: single
 title: 日付の新しいものを残す重複排除
 header:
-  overlay_image: images/header_6.png
-  overlay_filter: rgba(44, 82, 207, 0.65)
+  overlay_image: images/header_F.png
+  overlay_filter: rgba(44, 82, 207, 0.25)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
