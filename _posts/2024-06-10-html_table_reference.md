@@ -1,6 +1,6 @@
 ---
 layout: single
-title: html table Reference
+title: Markdown Table Reference
 header:
   overlay_image: images/header_E.png
   #overlay_filter: rgba(107, 74, 43, 0.40)
