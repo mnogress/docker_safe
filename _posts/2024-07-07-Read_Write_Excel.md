@@ -17,6 +17,8 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["Pandas", "Function"]
+date: 2024-08-01
+last_modified_at : 2024-08-01 15:00:00
 ---
 
 Excelファイルの読み書きをPandas データフレーム上で行なう<!--more-->基本事項をまとめました。

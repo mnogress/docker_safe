@@ -17,6 +17,8 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["Github"]
+date: 2024-06-11
+last_modified_at : 2024-06-11 15:00:00
 ---
 
 Git repository 作成方法のベーシックをまとめました。 <!--more-->

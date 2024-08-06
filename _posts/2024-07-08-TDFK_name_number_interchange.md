@@ -17,6 +17,8 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["Pandas", "Function"]
+date: 2024-07-25
+last_modified_at : 2024-07-25 15:00:00
 ---
 
 都道府県名から都道府県番号に変換及びその反対変換<!--more-->を[**jp_pref.prefectureモジュール**](https://pypi.org/project/jp-pref/){:target="_blank"}の
