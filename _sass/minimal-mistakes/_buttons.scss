@@ -20,6 +20,10 @@
   border-radius: $border-radius;
   cursor: pointer;
 
+
+
+
+
   .icon {
     margin-inline-end: 0.5em;
   }
@@ -95,3 +99,28 @@
     font-size: $type-size-7;
   }
 }
+
+/* ボタン全体 */
+.page_top_btn {
+  width: 100px;
+  height: 100px;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background: #e25407;
+  opacity: 0.6;
+  border-radius: 50%;
+  }
+  
+  /* Font Awesome */
+  .page_top_btn::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f062';
+  font-size: 50px;
+  color: #ffffff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  }
