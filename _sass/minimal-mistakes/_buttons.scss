@@ -116,11 +116,24 @@
   .page_top_btn::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
-  content: '\f062';
+  content: '\f102';
   font-size: 50px;
   color: #ffffff;
   position: absolute;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
+  }
+
+  #page_top::after {
+    content: 'TOP';
+    font-size: 13px;
+    color: #fff;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    top: 30%;
+    left: 50%;
+    translate: -50%;
   }
