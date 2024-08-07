@@ -107,7 +107,7 @@
   position: fixed;
   right: 10px;
   bottom: 10px;
-  background: #e25407;
+  background: #3448e0;
   opacity: 0.6;
   border-radius: 50%;
   }
@@ -120,20 +120,21 @@
   font-size: 50px;
   color: #ffffff;
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   translate: -50% -50%;
   }
 
-  .page_top::after {
+  .page_top_btn::after {
     content: 'TOP';
-    font-size: 13px;
-    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
     position: absolute;
     margin: auto;
     text-align: center;
     width: 100%;
-    top: 30%;
+    top: 5%;
     left: 50%;
     translate: -50%;
   }
