@@ -1,6 +1,24 @@
 <!-- start custom head snippets -->
 <!--<a href="#page_top" class="page_top_btn"></a>
-<div id="page_top"></div>-->
+<div id="page_top"></div>--><!-- thi is for css nly top scroll-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<p class="pagetop"><a href="#wrap">▲</a></p>
+<script>
+    $(document).ready(function() {
+      var pagetop = $('.pagetop');
+        $(window).scroll(function () {
+           if ($(this).scrollTop() > 100) {
+                pagetop.fadeIn();
+           } else {
+                pagetop.fadeOut();
+                }
+           });
+           pagetop.click(function () {
+               $('body, html').animate({ scrollTop: 0 }, 500);
+                  return false;
+       });
+    });
+    </script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TN6XXL3XL8"></script>
 <script>
