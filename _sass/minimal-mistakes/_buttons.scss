@@ -111,6 +111,20 @@
   opacity: 0.6;
   border-radius: 50%;
   }
+  /*-- ①　ウィンドウ幅が広い時（1201px以上） --*/
+@media screen and (min-width:1201px){
+.page_top_btn{
+    left:50%;
+    margin-left:525px; /*コンテンツの中心からボタンまでの距離*/
+  }
+}
+/*-- ②　ウィンドウ幅が狭い時（1200px以下） --*/
+@media screen and (max-width:1200px){
+.page_top_btn{
+    right:0;
+    margin-left:0;
+  }
+}
   
   /* Font Awesome */
   .page_top_btn::before {
