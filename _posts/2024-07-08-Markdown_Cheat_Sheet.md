@@ -2,7 +2,7 @@
 layout: single
 title: Markdown Cheat Sheet
 header:
-  overlay_image: images/header_C.png
+  overlay_image: images/header_U.png
   overlay_filter: rgba(58, 129, 242, 0.20)
 toc: True
 toc_label: "目次"
@@ -17,6 +17,8 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["HTML", "Markdown", "css"]
+date: 2024-07-27
+last_modified_at : 2024-07-27 15:23:00
 ---
 
 HTML/Markdown のStyle sheet reference になります。 <!--more--> 前提は[*Karmdown*](https://kramdown.gettalong.org/){:target="_blank"}で、
