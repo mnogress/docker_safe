@@ -15,4 +15,4 @@ HTML/CSS、JavaScript、Photoshop、IllustratorからAWS・IBM Cloudまで、い
 
 このサイトでは、私のこれまでのIT仕事歴で出会った数々の技術のうち、50代を過ぎてリスキリングで得たPythonによるデータ分析の実際を易しく解説したいと思います。どうぞよろしくお願いします。
 
-Thank You for reading!
+*Thank You for reading!*{: style="color: blue; font-weight: bold; font-size: 1.5em;"}
