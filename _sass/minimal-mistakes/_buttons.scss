@@ -100,7 +100,7 @@
   }
 }
 
-/* ボタン全体 */
+/* ボタン全体 CSS コントロール */
 .page_top_btn {
   width: 100px;
   height: 100px;
@@ -111,15 +111,15 @@
   opacity: 0.6;
   border-radius: 50%;
   }
-  /*-- ①　ウィンドウ幅が広い時（60em以上） --*/
+/*-- ①　ウィンドウ幅が広い時（60em以上） --*/
 @media screen and (min-width:60empx){
 .page_top_btn{
-    left:25%;
-    margin-left:30em; /*コンテンツの中心からボタンまでの距離*/
+    left: 5%;
+    margin-left:1em; /*コンテンツの中心からボタンまでの距離*/
   }
-}
-/*-- ②　ウィンドウ幅が狭い時（59em以下） --*/
-@media screen and (max-width:59.5em){
+} 
+/*-- ②　ウィンドウ幅が狭い時（59.9em以下） 消える--*/
+@media screen and (max-width:59.9em){
 .page_top_btn{
     display: none;
     right:0;
@@ -131,7 +131,7 @@
   .page_top_btn::before {
   font-family: 'Font Awesome 5 Free';
   font-weight: 900;
-  content: '\f102';
+  content: '\f102'; /*＾が二つ*/
   font-size: 50px;
   color: #ffffff;
   position: absolute;
@@ -154,7 +154,7 @@
     translate: -50%;
   }
 
-  .pagetop {
+.pagetop {
     display: none;
     position: fixed;
     bottom: 30px;
