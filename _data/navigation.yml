@@ -1,7 +1,7 @@
 main:
   - title: "Top"
     url: /
-  - title: "Categories"
+  - title: "カテゴリ"
     url: /categories/
   - title: "Tags"
     url: /tags/
@@ -30,6 +30,8 @@ docs:
 
   - title: 関連記事
     children:
+      - title: "Top"
+        url: /  
       - title: "カテゴリ"
         url: /categories/
       - title: "TAGs"

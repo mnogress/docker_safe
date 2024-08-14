@@ -103,6 +103,8 @@ df2 = pd.read_excel(xlsx, 'Sheet1_name', header=None)
 |skipfooter= *int*| データ下部の何行を読み飛ばすか指定|
 |usecol = [ 1, 2, 6, 7, 8 ]| 読み込む列番号を*int*で指定|
 |usecol = "A, C:F"|読み込む列名を文字列で指定、リスト型式ではなく単体の文字列として与えること|
+|==== 
+| 補足*int* の意味 | 整数値　0,1,2,3... |
 {: .notice}
 
 
