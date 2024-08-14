@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["Pandas", "Function"]
-date: 2024-08-12
-last_modified_at : 2024-08-12 15:00:00
+date: 2024-08-14
+last_modified_at : 2024-08-14 15:00:00
 ---
 
 Excelファイルの読み書きをPandas データフレーム上で行なう<!--more-->基本事項をまとめました。
@@ -49,8 +49,7 @@ wb.sheetnames
 
 #### 確認結果
 
-以下のとおり、読み込むExcelファイルには **'Sheet1_name'**、 **'Sheet2_name'** 2つのシートがあることが分かりました。いずれか一方のみか
-それとも両方を2つのデータフレームとして読み込むか。ここで、Excelファイルの中身の確認が必要になります。
+以下のとおり、読み込むExcelファイルには **'Sheet1_name'**、 **'Sheet2_name'** 2つのシートがあることが分かりました。このように、複数のシートが存在することが分かりましたので、この時点でExcelファイルの中身の確認が必要になります。
 
 {% highlight python linenos  %}
 
@@ -62,7 +61,7 @@ wb.sheetnames
 
 #### Excel シートを読み込み、結果をデータフレームとする
 
-データフレームdf1 は、'Sheet2_name'から読込み、col1列をインデックスにして
+データフレームdf1 は、**'Sheet2_name'**から読込み、col1列をインデックスにして
 最初の行はタイトル（ヘッダー行）とします。
 
 
@@ -78,8 +77,8 @@ df1 = pd.read_excel(xlsx, 'Sheet2_name', index_col="col1", header=0)
 {% endhighlight %}
 
 
-データフレームdf2 は、'Sheet1_name'からすべての列を列として読み込みます。
-最初の行もデータです。
+データフレームdf2 は、**'Sheet1_name'**のすべてのExcel列をデータフレームの列として読み込みます。
+最初の行もデータで、タイトル行はありません。
 
 {% highlight python  linenos %}
 
@@ -91,6 +90,21 @@ df2 = pd.read_excel(xlsx, 'Sheet1_name', header=None)
 
 
 {% endhighlight %}
+
+#### read_excel() でよく使われる引数のまとめ
+
+
+| パラメータ(引数) | 説明 |
+| :----- | :---- |
+|sheet_name= *"sheet_name"* or *int*| 読み込むシート名、最初のシートを*0*として整数で指定|
+|index_col = *"column_name"*　or *None* |データフレームでIndexとする列名の指定、*None* は無し|
+|header= *0* or *None*| タイトル行の指定、*0*は先頭行、*None* は無し|
+|skiprows = *int*| 上部の何行を読み飛ばすか指定|
+|skipfooter= *int*| データ下部の何行を読み飛ばすか指定|
+|usecol = [ 1, 2, 6, 7, 8 ]| 読み込む列番号を*int*で指定|
+|usecol = "A, C:F"|読み込む列名を文字列で指定、リスト型式ではなく単体の文字列として与えること|
+{: .notice}
+
 
 #### データフレーム(df)をExcel ファイルとして保存する
 

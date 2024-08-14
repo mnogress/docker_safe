@@ -107,8 +107,8 @@
   position: fixed;
   right: 10px;
   bottom: 10px;
-  background: #3448e0;
-  opacity: 0.6;
+  background: #0092ca;
+  opacity: 0.55;
   border-radius: 50%;
   }
 /*-- ①　ウィンドウ幅が広い時（60em以上） --*/
@@ -162,7 +162,7 @@
     }
   } 
   /*-- ②　ウィンドウ幅が狭い時（59.9em以下） 消える--*/
-  @media screen and (max-width:59.9em){
+@media screen and (max-width:59.9em){
   .pagetop{
       display: none;
       right:0;
