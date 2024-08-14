@@ -154,6 +154,23 @@
     translate: -50%;
   }
 
+/*-- ①　ウィンドウ幅が広い時（60em以上） --*/
+@media screen and (min-width:60empx){
+  .pagetop{
+      left: 5%;
+      margin-left:1em; /*コンテンツの中心からボタンまでの距離*/
+    }
+  } 
+  /*-- ②　ウィンドウ幅が狭い時（59.9em以下） 消える--*/
+  @media screen and (max-width:59.9em){
+  .pagetop{
+      display: none;
+      right:0;
+      margin-left:0;
+    }
+  }
+
+
 .pagetop {
     display: none;
     position: fixed;
