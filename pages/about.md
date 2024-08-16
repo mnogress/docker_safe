@@ -4,41 +4,8 @@ title: "About me"
 layout: single
 author_profile: false
 ---
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<style>
-#myBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 30px;
-  z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  padding: 15px;
-  border-radius: 4px;
-}
-
-#myBtn:hover {
-  background-color: #555;
-}
-
-</style>
-</head>
-<body>
-
-
-<body>
-
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
-<div style="background-color:black;color:white;padding:1.3em">管理人の SouthWiseMan です。</div>
-<div style="background-color:lightgrey;padding:1.3em 1.3em 35em">
+<div style="background-color:black;color:white;padding:1.3em;opacity: 0.52;">管理人の SouthWiseMan です。</div>
+<div style="background-color:paleturquoise;padding:1.3em 1.3em 12em;opacity: 0.75;">
 
 <p>新卒で某外資系のITベンダーに入社し、その会社で60歳の定年を迎えました。法の定めにより、会社が用意した「継続雇用」は選ばず、数ヶ月の浪人を経験しましたが、現在の職場に再就職し、最初は3ヶ月で辞めるかと思いつつ、今年で7年目となり、IT歴46年になりました。</p>
 
