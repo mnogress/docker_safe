@@ -1,25 +1,31 @@
 <!-- start custom head snippets -->
-<a href="#page_top" class="page_top_btn"></a>
-<div id="page_top"></div> <!-- thi is for css nly top scroll-->
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+<!--<a href="#page_top" class="page_top_btn"></a>
+<div id="page_top"></div>--> <!-- thi is for css nly top scroll-->
 <!--<a href="#wrap" class="pagetop"></a>-->
 <!--<script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.js" ></script>
 <p class="pagetop"><a href="#top">▲</a></p>-->
 <script>
-    $(document).ready(function() {
-      var pagetop = $('.pagetop');
-        $(window).scroll(function () {
-           if ($(this).scrollTop() > 100) {
-                pagetop.fadeIn();
-           } else {
-                pagetop.fadeOut();
-                }
-           });
-           pagetop.on("click",function () {
-               $('body, html').animate({ scrollTop: 0 }, 500);
-                  return false;
-                                        });
-    });
-    </script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TN6XXL3XL8"></script>
 <script>

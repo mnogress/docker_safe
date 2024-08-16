@@ -8,11 +8,6 @@ author_profile: false
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <style>
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
-
 #myBtn {
   display: none;
   position: fixed;
@@ -37,14 +32,13 @@ body {
 </head>
 <body>
 
-<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <body>
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
 <div style="background-color:black;color:white;padding:1.3em">管理人の SouthWiseMan です。</div>
-<div style="background-color:lightgrey;padding:1.3em 1.3em 15em">
+<div style="background-color:lightgrey;padding:1.3em 1.3em 35em">
 
 <p>新卒で某外資系のITベンダーに入社し、その会社で60歳の定年を迎えました。法の定めにより、会社が用意した「継続雇用」は選ばず、数ヶ月の浪人を経験しましたが、現在の職場に再就職し、最初は3ヶ月で辞めるかと思いつつ、今年で7年目となり、IT歴46年になりました。</p>
 
@@ -79,5 +73,3 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 </script>
-
-</body>
