@@ -1,6 +1,6 @@
 ---
 layout: single
-title: 日付の新しいものを残す重複排除
+title: 日付の新しい方を残す重複排除
 header:
   overlay_image: images/header_F.png
   overlay_filter: rgba(44, 82, 207, 0.25)
@@ -17,11 +17,11 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["Pandas", "Function"]
-date: 2024-07-26
-last_modified_at : 2024-08-14 15:23:00
+date: 2024-08-18
+last_modified_at : 2024-08-18 15:23:00
 ---
 
-日付の新しいものを残す重複排除<!--more-->の方法をまとめました。重複排除するルールとして、❶新しいものを残す。❷古い方を残す。といった一工夫が必要な場合があります。そのステップをまとめました。 概要は以下のとおりです。
+日付の新しい方を残す重複排除やり方をまとめました。<!--more-->重複排除するルールとして、❶新しいものを残す。❷古い方を残す。といった一工夫が必要な場合があります。そのステップをまとめました。 概要は以下のとおりです。
 
 <div class="box33">
     <span class="box-title">概要</span>
