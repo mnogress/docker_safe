@@ -7,9 +7,9 @@ Author:
   avatar      : "images/200by200_dog.png"
   location    : "Chiba, Japan"
   links:
-  #  - label: "Email"
-  #    icon: "fas fa-fw fa-envelope-square"
-  #    url: "mailto:billyrick@rick.com"
+    - label: "About Me"
+      icon: "fa fa-user"
+      url: "https://southwiseman.blog/about/"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://southwiseman.blog"
