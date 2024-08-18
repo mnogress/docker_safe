@@ -211,7 +211,7 @@
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: rgb(199, 103, 13);
+  background-color: rgba(199, 103, 13, 0.44);
   color: white;
   cursor: pointer;
   padding: 15px;
@@ -219,5 +219,5 @@
 }
 
 #myBtn:hover {
-  background-color: #555;
+  background-color: rgba(9, 26, 80, 0.44);
 }
