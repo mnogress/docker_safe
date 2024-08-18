@@ -338,22 +338,22 @@ color: #b20000;
 ### Box シャドー
 
 {% highlight python linenos %}
-<div style="padding: 20px; margin-bottom: 10px; border: 2px solid rgb(80, 80, 255); 
- border-radius: 10px; text-align: center; background-color: rgb(80, 80, 255);
+<div style="padding: 20px; margin-bottom: 10px; border: 2px solid rgb(0, 146,202); 
+ border-radius: 10px; text-align: center; background-color: rgb(0, 146,202);
  box-shadow: 6px 6px 6px rgba( 128, 128, 128, 1.0);">
  <strong style="color: rgb(255, 255, 255); 
- font-size: 24px;">無料でご参加いただけます。以下のリンクから申し込みできます。</strong>
+ font-size: 24px;">東京の中心部に位置するこのレストランは、伝統的な日本料理とモダンなアレンジを融合させた独自のメニューで知られています。</strong>
 </div>
 
 {% endhighlight %}
 
 
 
-<div style="padding: 20px; margin-bottom: 10px; border: 2px solid rgb(80, 80, 255); 
- border-radius: 10px; text-align: center; background-color: rgb(80, 80, 255);
+<div style="padding: 20px; margin-bottom: 10px; border: 2px solid rgb(0, 146,202); 
+ border-radius: 10px; text-align: center; background-color: rgb(0, 146,202);
  box-shadow: 6px 6px 6px rgba( 128, 128, 128, 1.0);">
  <strong style="color: rgb(255, 255, 255); 
- font-size: 24px;">無料でご参加いただけます。以下のリンクから申し込みできます。</strong>
+ font-size: 24px;">東京の中心部に位置するこのレストランは、伝統的な日本料理とモダンなアレンジを融合させた独自のメニューで知られています。</strong>
 </div>
 
 ### Point 枠の応用
