@@ -36,7 +36,7 @@ last_modified_at : 2024-08-18 15:23:00
     position: relative;
     margin: 2em 0;
     padding: 15px 10px 7px;
-    border: solid 2px #0366fc;
+    border: solid 2px #0092ca;
     border-radius: 6px;
 }
 .box33 .box-title {
@@ -48,7 +48,7 @@ last_modified_at : 2024-08-18 15:23:00
     height: 35px;
     line-height: 35px;
     font-size: 20px;
-    background: #0366fc;
+    background: #0092ca;
     color: #ffffff;
     font-weight: bold;
     border-radius: 6px;
@@ -103,13 +103,15 @@ df = df.sort_values(["date"], ascending = False)
 
 #### *ascending = False* >> 降順 >> 新しいものから古いもの
 
+<div class="box33">
+<span class="box-title">Point!</span>
 <dl><strong>ascending の意味：上昇</strong>
 <dt>ascending = True</dt> 
 <dd>昇順　古いものから新しいものへ　小さいものから大きいものへ</dd>
 <dt>ascending = False</dt>
 <dd>降順　新しいものから古いものへ　大きいものから小さいものへ</dd>
 </dl>
-{: .notice--success}
+</div>
 
 
 #### Step 3：列A（例：社員番号）の重複排除の基準として新しいものを残す

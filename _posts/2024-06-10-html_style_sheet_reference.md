@@ -93,7 +93,7 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 {% endhighlight %}
 
 
-### コメントBox33(#0366fc;)
+### コメントBox33(#0092ca;)
 
 <div class="box33">
     <span class="box-title">ここにタイトル</span>
@@ -105,7 +105,7 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
     position: relative;
     margin: 2em 0;
     padding: 15px 10px 7px;
-    border: solid 2px #0366fc;
+    border: solid 2px #0092ca;
     border-radius: 6px;
 }
 .box33 .box-title {
@@ -117,7 +117,7 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
     height: 35px;
     line-height: 35px;
     font-size: 20px;
-    background: #0366fc;
+    background: #0092ca;
     color: #ffffff;
     font-weight: bold;
     border-radius: 6px;
@@ -140,7 +140,7 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
     position: relative;
     margin: 2em 0;
     padding: 15px 10px 7px;
-    border: solid 2px #0366fc;
+    border: solid 2px #0092ca;
     border-radius: 6px;
 }
 .box33 .box-title {
@@ -152,7 +152,7 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
     height: 35px;
     line-height: 35px;
     font-size: 20px;
-    background: #0366fc;
+    background: #0092ca;
     color: #ffffff;
     font-weight: bold;
     border-radius: 6px;
@@ -246,8 +246,8 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 <div style="font-size: 130%; padding: 20px; margin-bottom: 10px; border: 3px solid #DF1452; border-radius: 8px;">
    ここにテキストはいる　font-size: 130%; border: 3px solid #DF1452; border-radius: 8px;
 </div>
-<div style="font-size: 80%; padding: 20px; margin-bottom: 10px; border: 3px solid #092CDB; border-radius: 12px;">
-   ここにテキストはいる　font-size: 80%; border: 3px solid #092CDB; border-radius: 12px;
+<div style="font-size: 80%; padding: 20px; margin-bottom: 10px; border: 3px solid #0092ca; border-radius: 12px;">
+   ここにテキストはいる　font-size: 80%; border: 3px solid #0092ca; border-radius: 12px;
 </div>
 <div style="padding: 20px; margin-bottom: 10px; border: 7px dashed #DF8914; border-radius: 5px;">
    ここにテキストはいる　 border: 7px dashed #DF8914; border-radius: 5px;
