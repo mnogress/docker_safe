@@ -267,17 +267,21 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 
 　`ascending = False`{:style="background: #ff0044; color: white; font-size: 150%"}
 
-#f5e964 : 黄色<br>
-#ff0044 : コバルトブルー<br>
-#696969 : dimgray<br>
-#e6e6fa : lavender<br>
-#008080 : teal<br>
-#dc143c : crimson<br>
+### 早見表
+
+| 16進コード | rgbコード    |色味 |
+| :-----    | :-----   |:---- |
+|#f5e964     |  rgb(245, 233, 100)   |黄色|
+|#00ffee     |  rgb(0, 255, 238)   |コバルトブルー|
+|#696969     |  rgb(105, 105, 105)   |dimgray|
+|#e6e6fa     |  rgb(230, 230, 250)   |lavender|
+|#008080     |  rgb(0, 128, 128)   |teal|
+|#dc143c     |  rgb(220, 20, 60)   |crimson|
 
 
 {% highlight python linenos %}
 `git@github.com:`{:style="background: #f5e964; font-size: 120%"} <br> 
-`git@github.com:`{:style="background: #64f5eb; font-size: 120%"} <br> 
+`git@github.com:`{:style="background: #00ffee; font-size: 120%"} <br> 
 `git@github.com:`{:style="background: #696969; font-size: 120%"} <br> 
 `git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} <br> 
 `git@github.com:`{:style="background: #008080; font-size: 120%; color: white"} <br> 
@@ -288,7 +292,7 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 {% endhighlight %}
 
   `git@github.com:`{:style="background: #f5e964; font-size: 120%"} <br>
-  `git@github.com:`{:style="background: #64f5eb; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #00ffee; font-size: 120%"} <br>
   `git@github.com:`{:style="background: #696969; font-size: 120%"} <br>
   `git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} <br>
   `git@github.com:`{:style="background: #008080; font-size: 120%; color: white"} <br>

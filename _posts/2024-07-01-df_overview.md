@@ -17,9 +17,19 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["Pandas", "Function"]
+date: 2024-07-04
+last_modified_at : 2024-08-19 15:23:00
 ---
 
-データフレームの概要理解する  "df_overview" スクリプト<!--more-->
+データフレームの概要理解する  "df_overview" スクリプト<!--more-->を紹介します。
+
+
+>
+**参照したWebページ**<br> 
+[「データセットを理解するためのスクリプト4選」](https://www.so-wi.com/2023/05/31/four_command_script_to_understand_dataset){:target="_blank"}<br>
+**so-wi.com**  -  *May,2023*
+>
+
 
 #### スクリプトの内容
 
@@ -42,6 +52,8 @@ df_overview
 #### 結果
 
 ![image]({{ "/images/2024-07150340.png" | relative_url}}){:height="500px" width="500px"}<br>
+
+
 
 
 #### データフレームのインデックス番号、インデックス名を指定してその行を削除する

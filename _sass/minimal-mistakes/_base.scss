@@ -109,18 +109,22 @@ abbr[data-original-title] {
 /* blockquotes */
 
 blockquote {
-  margin-block: 2em;
-  margin-inline-end: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.1em;
+  padding-right: 5em;
+  margin-block: 0em;
+  margin-inline-end: 10em;
   padding-inline: 1em;
   font-style: oblique;
   border-inline-start: 0.25em solid $primary-color;
+  background-color: rgb(222, 228, 240); opacity: 1.0;
 
   cite {
     font-style: italic;
 
     &::before {
       content: "\2014";
-      padding-inline-end: 5px;
+      padding-inline-end: 5em;
     }
   }
 }
@@ -338,4 +342,25 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+blockquote2 {
+  padding-top: 0.5em;
+  padding-bottom: 0.1em;
+  padding-right: 5em;
+  margin-block: 0em;
+  margin-inline-end: 10em;
+  padding-inline: 1em;
+  font-style: oblique;
+  border-inline-start: 0.25em solid $primary-color;
+  background-color: rgb(0, 255, 238); opacity: 1.0;
+
+  cite {
+    font-style: italic;
+
+    &::before {
+      content: "\2014";
+      padding-inline-end: 5em;
+    }
+  }
 }

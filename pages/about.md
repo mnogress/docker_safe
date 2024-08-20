@@ -5,7 +5,7 @@ layout: single
 author_profile: false
 ---
 <div style="background-color:black;color:white;padding:1.3em;opacity: 0.88;">管理人の SouthWiseMan です。</div>
-<div style="background-color:#0092ca;color:white;padding:1.3em 1.3em 12em;opacity: 1.0;">
+<div style="background-color:#0092ca;color:white;padding:1.3em 1.3em 9em;opacity: 1.0;">
 
 <p>新卒で某外資系のITベンダーに入社し、その会社で60歳の定年を迎えました。法の定めにより、会社が用意した「継続雇用」は選ばず、数ヶ月の浪人を経験しましたが、現在の職場に再就職し、最初は3ヶ月で辞めるかと思いつつ、今年で7年目となり、IT歴46年になりました。</p>
 
@@ -17,26 +17,5 @@ author_profile: false
   
 <p><strong>Thank You for reading!</strong></p>
   
-  </div>
+</div>
 
-<script>
-// Get the button
-let mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
-</script>
