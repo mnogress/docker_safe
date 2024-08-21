@@ -27,8 +27,8 @@ last_modified_at : 2024-08-19 15:23:00
 >
 **参照したWebページ**<br> 
 [「データセットを理解するためのスクリプト4選」](https://www.so-wi.com/2023/05/31/four_command_script_to_understand_dataset){:target="_blank"}<br>
-**so-wi.com**  -  *May,2023*
->
+**so-wi.com**  -  *May, 2023*
+>{: style="font-size: 0.9em;"} 
 
 
 #### スクリプトの内容
