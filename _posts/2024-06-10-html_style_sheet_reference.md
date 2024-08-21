@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["HTML", "Markdown", "css"]
-date: 2024-06-11
-last_modified_at : 2024-06-11 16:00:00
+date: 2024-08-20
+last_modified_at : 2024-08-21 16:00:00
 ---
 
 HTML/Markdown のStyle sheet reference になります。 <!--more-->
