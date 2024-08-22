@@ -16,8 +16,8 @@ classes:
 sidebar:
   nav: "docs"
 category: Reference
-date: 2024-08-05
-last_modified_at : 2024-08-06 15:23:00
+date: 2024-08-22
+last_modified_at : 2024-08-22 13:23:00
 ---
 
 
@@ -30,12 +30,17 @@ Markdown Table の作成と装飾についてまとめました。 <!--more-->
 main.css のtableクラスを取り込み、それを利用して「**このページのみ有効**」とする装飾を
 アレンジしたベーステーブルを作成する。　手順は以下のとおりです。
 
->
-Base CSSをmain.cssから引用する。<br>
-font-sizeを変更<br>
-tfootを追加し、backgroud-colorを"#afeeee"とする<br>
-{: class="table"}で明示的に指定<br>
->{: style="font-size:0.88em;"} 
+
+| Line# | 概要    |備考 | 
+| :-----    | :-----   |:---- | 
+| **1 to 38**    | main.css のtableクラスを取り込む  | \<style type="text/css">と</style>で囲みこのページ独自のCSSを作成する |
+| **2 to 10**     | クラス名を"table"とする  |table {}で囲む|
+| **7**     | font-sizeを変更  |font-size: 0.65em;と指定する|
+| **27 to 31**   | tfootを追加し、backgroud-colorを別の色に変更  |background-color: #afeeee;と指定する|
+| **49**   |  {: class="table"}を最後に付加する |これで設定したCSSが効くようになる　|
+
+
+
 
 {% highlight css linenos %}
 
