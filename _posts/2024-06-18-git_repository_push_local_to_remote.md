@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Github command reference
+title: error　remote origin already exists. の解決方法
 header:
   overlay_image: images/header_L.png
   overlay_filter: rgba(107, 74, 43, 0.40)
@@ -21,9 +21,10 @@ date: 2024-06-11
 last_modified_at : 2024-06-11 15:00:00
 ---
 
-Git repository 作成方法のベーシックをまとめました。 <!--more-->
+git remote add に対してerror: remote origin already exists. の解決方法<!--more-->
+についてまとめました。 
 
-### error: remote origin already exists. の解決方法
+### error: remote origin already exists. のエラーログ
 
 {% highlight diff linenos  %}
 
@@ -31,6 +32,17 @@ user@user MINGW64 ~/docker_xxx (main)
 $ git remote add origin git@github.com:hoge/docker_xxx.git
 error: remote origin already exists.
 
+{% endhighlight %}
+
+*error: remote origin already exists.* で怒られました。
+{: .notice--danger}
+
+>
+1. git remote rm origin を投入
+2. 再度、git remote add originを投入
+>{: style="font-size:1.1em;"}
+
+{% highlight diff linenos  %}
 user@user MINGW64 ~/docker_xxx (main)
 $ git remote rm origin
 
