@@ -269,19 +269,19 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 
 ### 早見表
 
-| 16進コード | rgbコード    |なまえ | 見本|
+| 16進コード | rgbコード    |color name | サンプル|
 | :-----    | :-----   |:---- | :----: |
-|#f5e964     |  rgb(245, 233, 100)   |黄色| `　`{:style="background: #f5e964"}　|
-|#00ffee     |  rgb(0, 255, 238)   |コバルトブルー|`　`{:style="background: #00ffee"}　|
-|#696969     |  rgb(105, 105, 105)   |dimgray|`　`{:style="background: #696969"}　|
-|#e6e6fa     |  rgb(230, 230, 250)   |lavender|`　`{:style="background: #e6e6fa"}　|
-|#008080     |  rgb(0, 128, 128)   |teal|`　`{:style="background: #008080"}　|
-|#dc143c     |  rgb(220, 20, 60)   |crimson|`　`{:style="background: #dc143c"}　|
+|#ffd700     |  rgb(255, 215, 0)   |Gold| `　　`{:style="background: #ffd700"}　|
+|#40e0d0     |  rgb(0, 255, 238)   |Turquoise|`　　`{:style="background: #40e0d0"}　|
+|#696969     |  rgb(105, 105, 105)   |dimgray|`　　`{:style="background: #696969"}　|
+|#e6e6fa     |  rgb(230, 230, 250)   |lavender|`　　`{:style="background: #e6e6fa"}　|
+|#008080     |  rgb(0, 128, 128)   |teal|`　　`{:style="background: #008080"}　|
+|#dc143c     |  rgb(220, 20, 60)   |crimson|`　　`{:style="background: #dc143c"}　|
 
 
 {% highlight python linenos %}
-`git@github.com:`{:style="background: #f5e964; font-size: 120%"} <br> 
-`git@github.com:`{:style="background: #00ffee; font-size: 120%"} <br> 
+`git@github.com:`{:style="background: #ffd700; font-size: 120%"} <br> 
+`git@github.com:`{:style="background: #40e0d0; font-size: 120%"} <br> 
 `git@github.com:`{:style="background: #696969; font-size: 120%"} <br> 
 `git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} <br> 
 `git@github.com:`{:style="background: #008080; font-size: 120%; color: white"} <br> 
@@ -291,8 +291,8 @@ HTML/Markdown のStyle sheet reference になります。 <!--more-->
 
 {% endhighlight %}
 
-  `git@github.com:`{:style="background: #f5e964; font-size: 120%"} <br>
-  `git@github.com:`{:style="background: #00ffee; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #ffd700; font-size: 120%"} <br>
+  `git@github.com:`{:style="background: #40e0d0; font-size: 120%"} <br>
   `git@github.com:`{:style="background: #696969; font-size: 120%"} <br>
   `git@github.com:`{:style="background: #e6e6fa; font-size: 120%"} <br>
   `git@github.com:`{:style="background: #008080; font-size: 120%; color: white"} <br>
