@@ -38,7 +38,7 @@ main.css のtableクラスを取り込み、それを利用して「**このペ�
 | **7**     | font-sizeを変更  |font-size: 0.65em;と指定する|
 | **27 to 31**   | tfootを追加し、backgroud-colorを別の色に変更  |background-color: #afeeee;と指定する|
 | **49**   |  {: class="table"}を最後に付加する |これで設定したCSSが効くようになる　|
-
+{: .notice}
 
 
 
