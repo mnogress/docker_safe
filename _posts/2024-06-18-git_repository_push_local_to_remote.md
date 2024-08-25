@@ -31,7 +31,7 @@ last_modified_at : 2024-08-21 15:00:00
 <div class="box33">
     <span class="box-title">前提</span>
     <ol>
-      <li>新しくリモートリポジトリを追加するには、<strong>git remote add</strong>が必要です</li>
+      <li>新しくリモートリポジトリを追加するには、<strong>git remote add</strong>が必要です(以下、原文)</li>
       <li>To add a new remote, use the git remote add command on the terminal, in the directory your repository is stored at.</li>
     </ol> 
 </div>
