@@ -2,7 +2,7 @@
 layout: single
 title: カテゴリカルデータの個数、構成比率、トータル行を集計、整形する
 header:
-  overlay_image: images/header_6.png
+  overlay_image: images/header_A5.png
   overlay_filter: rgba(44, 82, 207, 0.35)
 toc: True
 toc_label: "目次"
@@ -75,9 +75,9 @@ df = pd.DataFrame({ 'ID': ['01285679', '01340788', '02123782', '10541976', '1229
 
 ![image]({{ "/images/fig_1.png" | relative_url}}){:height="300px" width="300px"}<br>
 
-
+--> 部門別に集計します。
 {% endcapture %}
-<div class="notice--info"><span style="font-size:1.15em;">{{ notice-1 | markdownify }}</span></div>
+<div class="notice"><span style="font-size:1.15em;">{{ notice-1 | markdownify }}</span></div>
 
 
 #### スクリプトの結果

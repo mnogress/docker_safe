@@ -10,6 +10,8 @@ main:
 docs:
   - title: よく読まれている記事
     children: 
+      - title: "カテゴリカルデータの個数、構成比率、トータル行を集計、整形する"
+        url: /reference/df_velue_counts_formatting/
       - title: "日付の新しいものを残す重複排除"
         url: /reference/sort_drop_duplicate/
       - title: "Markdown Cheat Sheet"
