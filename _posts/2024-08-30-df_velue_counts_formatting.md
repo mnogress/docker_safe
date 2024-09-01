@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: Reference
 tag: ["Pandas", "Function"]
-date: 2024-08-14
-last_modified_at : 2024-08-14 15:00:00
+date: 2024-09-01
+last_modified_at : 2024-09-01 11:00:00
 ---
 
 カテゴリカルデータの個数、構成比率、トータル行を集計、整形する<!--more-->方法をまとめました。
@@ -65,15 +65,33 @@ df = pd.DataFrame({ 'ID': ['01285679', '01340788', '02123782', '10541976', '1229
                                "首都圏営業部","研究開発"]},
                     index=[0, 1, 2, 3, 4, 5, 6,7])
 # オリジナルのデータフレームを表示
-display(df)
 
 {% endhighlight %}
 
+{% capture notice-1 %}
+**サンプルデータフレームを表示**:
+
+`>> display(df)`{:style="background: #f5e964; font-size: 120%"} 
+
 ![image]({{ "/images/fig_1.png" | relative_url}}){:height="300px" width="300px"}<br>
+
+
+{% endcapture %}
+<div class="notice--info"><span style="font-size:1.15em;">{{ notice-1 | markdownify }}</span></div>
+
 
 #### スクリプトの結果
 
+{% capture notice-1 %}
+**'部門'で集計結果を表示**:
+
+`>> format_dict = {'構成比': '{:.1%}', '件数' : '{:n}'}`{:style="background: #f5e964; font-size: 120%"} <br>`>> display(tab.style.format(format_dict))`{:style="background: #f5e964; font-size: 120%"} 
+
 ![image]({{ "/images/fig_2.png" | relative_url}}){:height="300px" width="300px"}<br>
+
+{% endcapture %}
+<div class="notice"><span style="font-size:1.15em;">{{ notice-1 | markdownify }}</span></div>
+
 
 
 
