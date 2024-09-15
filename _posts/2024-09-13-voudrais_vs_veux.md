@@ -49,6 +49,6 @@ last_modified_at : 2024-09-13 11:00:00
 | :-----  | :----  |  
 | I would like a coffee with milk. | Je voudrais un café au lait. <br> ジュ　ブトレ　アン　カフェオレ|  
 | I would like a carafe of water.  | Je voudrais une carafe d'eau[^1]. <br> ジュ　ブトレ　アン　カラフェ・ドー |  
-| I would like to eat something.   | Je voudrais manger quelque chose. <br> ジュ　ブトレ　モンジュ　ケルクショー |  
+| I would like to eat something.   | Je voudrais manger quelque chose. <br> ジュ　ブトレ　モンジュエ　ケルクショーズ |  
 
 [^1]: フランスでは、水を提供する際にカラフェを使うのが一般的です。カラフェ・ドー（*une carafe d'eau*「水のカラフェ」）を注文することは、有料のボトル入り飲料水ではなく、水道水を（無料で）提供することを要求することになります。
