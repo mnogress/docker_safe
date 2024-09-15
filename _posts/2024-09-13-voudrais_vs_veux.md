@@ -21,7 +21,7 @@ date: 2024-09-13
 last_modified_at : 2024-09-13 11:00:00
 ---
 
-フランス語会話の最初に覚えないといけない「欲しい: *want* ->**veux**」と「欲しいのですが: *would like to* ->**voudrais**」
+挨拶の次にレストラン等でフランス語会話の第一歩として覚えるべき「欲しい: *want* ->**veux**」と「欲しいのですが: *would like to* ->**voudrais**」
 の使い分け<!--more-->についてまとめました。
 
 #### veux vs voudrais
@@ -47,5 +47,8 @@ last_modified_at : 2024-09-13 11:00:00
 
 | English | French | 
 | :-----  | :----  |  
-| I would like a coffee with milk. | Je voudrais un cofe au lait. |  
-| I would like a carafe of water.  | Je voudrais une carafe d'eau.  |  
+| I would like a coffee with milk. | Je voudrais un café au lait. <br> ジュ　ブトレ　ウン　カフェオレ|  
+| I would like a carafe of water.  | Je voudrais une carafe d'eau[^1]. <br> ジュ　ブトレ　アン　カラフェ・ドー |  
+| I would like to eat something.   | Je voudrais manger quelque chose. <br> ジュ　ブトレ　モンジュ　ケルクショー |  
+
+[^1]: フランスでは、水を提供する際にカラフェを使うのが一般的です。カラフェ・ドー（*une carafe d'eau*「水のカラフェ」）を注文することは、有料のボトル入り飲料水ではなく、水道水を（無料で）提供することを要求することになります。
