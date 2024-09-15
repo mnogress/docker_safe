@@ -47,7 +47,7 @@ last_modified_at : 2024-09-13 11:00:00
 
 | English | French | 
 | :-----  | :----  |  
-| I would like a coffee with milk. | Je voudrais un café au lait. <br> ジュ　ブトレ　ウン　カフェオレ|  
+| I would like a coffee with milk. | Je voudrais un café au lait. <br> ジュ　ブトレ　アン　カフェオレ|  
 | I would like a carafe of water.  | Je voudrais une carafe d'eau[^1]. <br> ジュ　ブトレ　アン　カラフェ・ドー |  
 | I would like to eat something.   | Je voudrais manger quelque chose. <br> ジュ　ブトレ　モンジュ　ケルクショー |  
 
