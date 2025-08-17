@@ -33,7 +33,7 @@ last_modified_at : 2024-09-13 11:00:00
       <li>「～が欲しい want 」は「je veux...」</li>
       <li>「～が欲しいのですが would like to 」 は「je voudrais...」</li>
       <li>voudrais は、veux と比較して、何かをしたいという願望を表現する丁寧で大人の表現方法</li>
-      <li>je voudrais... ジュ　ブトレイ　をまず覚える</li>
+      <li>je voudrais... ジュ　ヴドゥレ　をまず覚える</li>
     </ol> 
 </div>
 
@@ -47,8 +47,15 @@ last_modified_at : 2024-09-13 11:00:00
 
 | English | French | 
 | :-----  | :----  |  
-| I would like a coffee with milk. | Je voudrais un café au lait. <br> ジュ　ブトレ　アン　カフェオレ|  
-| I would like a carafe of water.  | Je voudrais une carafe d'eau[^1]. <br> ジュ　ブトレ　アン　カラフェ・ドー |  
-| I would like to eat something.   | Je voudrais manger quelque chose. <br> ジュ　ブトレ　モンジュエ　ケルクショーズ |  
+| I would like a coffee with milk. | Je voudrais un café au lait. <br> ジュ　ヴドゥレ　アン　カフェオレ|  
+| I would like a carafe of water.  | Je voudrais une carafe d'eau[^1]. <br> ジュ　ヴドゥレ　アン　カラフェ・ドー |  
+| I would like to order a pitcher of white wine. | Je voudrais commander un pichet[^2] de vin blanc. <br> ジュ　ヴドゥレ　コマンデ　アン　ピシェ　デュ・ヴァン　ブラン |  
+| I would like to eat something.   | Je voudrais manger quelque chose. <br> ジュ　ヴドゥレ　モンジュエ　ケルクショーズ |  
+| I would like to go to the airport.   | Je voudrais aller à l'aéroport. <br> ジュ ヴドゥレ アレ ア ラエロポール|  
+| I would like to buy the tickets.   | Je voudrais acheter des billets. <br> ジュ ヴドゥレ アシュテ デ ビイエ|  
+
+
 
 [^1]: フランスでは、水を提供する際にカラフェを使うのが一般的です。カラフェ・ドー（*une carafe d'eau*「水のカラフェ」）を注文することは、有料のボトル入り飲料水ではなく、水道水を（無料で）提供することを要求することになります。
+
+[^2]: pichet 男性名詞  decanter, jug (英語) 
