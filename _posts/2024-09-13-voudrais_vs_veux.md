@@ -15,7 +15,7 @@ classes:
   #- wide
 sidebar:
   nav: "docs"
-category: Reference
+category: français
 tag: ["French", "フランス語学習"]
 date: 2024-09-13
 last_modified_at : 2024-09-13 11:00:00
