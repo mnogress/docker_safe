@@ -1,5 +1,9 @@
+---
 layout: single
 title: フランス語の母音字発音ガイド（初級者向け）
+header:
+  overlay_image: images/header_E.png
+  #overlay_filter: rgba(107, 74, 43, 0.40)
 toc: true
 toc_label: "目次"
 toc_icon: "heart"
@@ -9,16 +13,16 @@ classes:
 - dark-theme
 - wide
 sidebar:
-nav: "docs"
-category: Reference
+  nav: "docs"
+category: Francaise
+date: 2025-08-17
+last_modified_at : 2025-08-18 10:23:00
 ---
-フランス語の発音は美しく魅力的ですが、初めて学ぶ方にとっては少し難しく感じるかもしれません。特に母音字の読み方には独特のルールがあります。このガイドでは、初心者の方がつまずきやすい母音字の発音や必須発音
+フランス語の発音は美しく魅力的ですが、初めて学ぶ方にとっては少し難しく感じるかもしれません。特に母音字の読み方には独特のルールがあります。<!--more-->このガイドでは、初心者の方がつまずきやすい母音字の発音や必須発音
 を、わかりやすく例とともに紹介します。
+ 
 
-
-フランス語の発音のレファレンスです <!--more-->
-
-### 発音ガイド Guide de prononciation
+### 発音規則 Regle de prononciation
 
 
 <style>
@@ -94,6 +98,28 @@ n<span class="rouge">ou</span>veau / n<span class="rouge">ou</span>velle「ヌ�
 <td>ain</td>
 <td><span class="bleu">アン</span> </td>
 <td>la p<span class="rouge">ain</span>「ラ・パン」(パン)<br>le tr<span class="rouge">ain</span>「ル・トラン」(電車)</td>
+</tr>
+<tr>
+<td>aim</td>
+<td><span class="bleu">アン</span> </td>
+<td>avoir f<span class="rouge">aim</span>「アヴォワ　ファン」(お腹が空いている)</td>
+</tr>
+<tr>
+<td>ein</td>
+<td><span class="bleu">アン</span> </td>
+<td>le p<span class="rouge">ein</span>tre「ル・パントゥル」(画家)<br>pl<span class="rouge">ein</span>「プラン㊚」(いっぱいの)</td>
+</tr>
+<tr>
+<td>il</td>
+<td><span class="bleu">イユ</span> </td>
+<td>la f<span class="rouge">il</span>le「ラ・フィーユ」(娘)<br>la feu<span class="rouge">il</span>le「ラ・フイユ」(葉)</td>
+</tr>
+<tr>
+<td>ail</td>
+<td><span class="bleu">アイユ</span> </td>
+<td>le trav<span class="rouge">ail</span>le「ル・トラバイユ」(仕事)<br>le m<span class="rouge">ail</span>lot「ル・マイヨ」(ジャージ、水着)<br>
+la t<span class="rouge">ail</span>le「ラ・タイユ」(サイズ)
+</td>
 </tr>
 </tbody>
 </table>
