@@ -14,15 +14,16 @@ classes:
 - wide
 sidebar:
   nav: "docs"
-category: Francaise
+tag: ["French", "フランス語学習"]
+category: français
 date: 2025-08-17
-last_modified_at : 2025-08-18 10:23:00
+last_modified_at : 2025-08-19 11:23:00
 ---
 フランス語の発音は美しく魅力的ですが、初めて学ぶ方にとっては少し難しく感じるかもしれません。特に母音字の読み方には独特のルールがあります。<!--more-->このガイドでは、初心者の方がつまずきやすい母音字の発音や必須発音
 を、わかりやすく例とともに紹介します。
  
 
-### 発音規則 Regle de prononciation
+### 発音規則: Règles de prononciation
 
 
 <style>
@@ -66,18 +67,20 @@ g<span class="rouge">au</span>che「ゴーシュ」 (左)</td>
 <tr>
 <td>eau</td>
 <td><span class="bleu">オ</span> </td>
-<td> b<span class="rouge">eau</span>coup 「ボクー」(たくさんの)<br> b<span class="rouge">eau</span> / b<span class="rouge">eau</span>x「ボ」(美しい：㊚)</td>
+<td> b<span class="rouge">eau</span>coup 「ボクー」(たくさんの)<br> b<span class="rouge">eau</span> / b<span class="rouge">eau</span>x「ボ」(美しい㊚ 単/複)</td>
 </tr>
 <tr>
 <td>ou</td>
 <td><span class="bleu">ウ</span> </td>
 <td>beauc<span class="rouge">ou</span>p 「ボクー」(たくさんの)<br> bonj<span class="rouge">ou</span>r「ボンジュール」(こんにちは)<br>
-n<span class="rouge">ou</span>veau / n<span class="rouge">ou</span>velle「ヌーボー㊚・ / ヌーベル㊛」(新しい)</td>
+n<span class="rouge">ou</span>veau / n<span class="rouge">ou</span>velle「ヌーボー㊚ / ヌーベル㊛」(新しい)</td>
 </tr>
 <tr>
 <td>oi</td>
 <td><span class="bleu">ワ</span> </td>
-<td>v<span class="rouge">oi</span>là「ヴォワラ」(ほら)<br> au rev<span class="rouge">oi</span>r「オー・ルヴォワール」(さようなら)</td>
+<td>v<span class="rouge">oi</span>là「ヴォワラ」(ほら)<br> au rev<span class="rouge">oi</span>r「オー・ルヴォワール」(さようなら)<br>
+fr<span class="rouge">oi</span>d / fr<span class="rouge">oi</span>de「フロワ㊚ / フロワド㊛」(寒い)
+</td>
 </tr>
 <tr>
 <td>ei</td>
