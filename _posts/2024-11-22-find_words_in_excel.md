@@ -83,8 +83,8 @@ main.css のtableクラスを取り込み、それを利用して「**このペ�
 
 import openpyxl as xl
 import os
-PATHS = [r'C:\\Users\\tkjyoke\\PycharmProjects\\project\\find_test\\']
-KEYS = ["人","雇用力評価", "1"]
+PATHS = [r'C:\\Users\\usrs\\PycharmProjects\\project\\find_test\\']
+KEYS = ["人","評価", "1"]
 for key_ in KEYS:
     for path_ in PATHS:
         for fn in os.listdir(path_):

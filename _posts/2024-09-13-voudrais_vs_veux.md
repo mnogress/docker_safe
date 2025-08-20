@@ -18,7 +18,7 @@ sidebar:
 category: Reference
 tag: ["French", "フランス語学習"]
 date: 2024-09-13
-last_modified_at : 2024-09-13 11:00:00
+last_modified_at : 2025-08-17 11:00:00
 ---
 
 挨拶の次にレストラン等でフランス語会話の第一歩として覚えるべき「欲しい: *want* ->**veux**」と「欲しいのですが: *would like to* ->**voudrais**」
