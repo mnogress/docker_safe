@@ -2,8 +2,8 @@
 layout: single
 title: HTML/Markdown style sheet reference
 header:
-  overlay_image: images/header_M.png
-  overlay_filter: rgba(107, 74, 43, 0.18)
+  overlay_image: images/header_G.png
+  overlay_filter: rgba(70, 209, 36, 0.15)
 toc: True
 toc_label: "目次"
 toc_icon: "heart"

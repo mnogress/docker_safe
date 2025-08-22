@@ -2,8 +2,8 @@
 layout: single
 title: つづりと発音の規則
 header:
-  overlay_image: images/header_A4.png
-  overlay_filter: rgba(97, 24, 92, 0.22)
+  overlay_image: images/header_G.png
+  overlay_filter: rgba(70, 209, 36, 0.15)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
@@ -18,7 +18,7 @@ sidebar:
 category: Reference
 tag: ["French", "フランス語学習"]
 date: 2025-08-20
-last_modified_at : 2025-08-20 15:30:00
+last_modified_at : 2025-08-22 8:30:00
 ---
 フランス語の単語や文を正しく発音するための鉄板ルール（その１）<!--more-->
 
@@ -29,7 +29,7 @@ table {
   margin-bottom: 1em;
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.65em;
+  font-size: 0.75em;
   border-collapse: collapse;
   overflow-x: auto;
 }
@@ -86,6 +86,14 @@ font-weight: bold;
 font-family: inherit;
 letter-spacing: inherit;
 }
+.petit {
+font-size: 0.80em;
+color: black;
+font-family: inherit;
+line-height: 1.1;
+display: inline-block;
+letter-spacing: inherit;
+}
 </style>
 
 ### １．フランス語では末尾の子音字は原則発音しない。
@@ -114,11 +122,11 @@ letter-spacing: inherit;
 | ave<span class="rouge">c</span>   |アヴェク|〜ともに|
 | par<span class="rouge">c</span>   |パルク|公園|
 | sa<span class="rouge">c</span>   |サック|かばん|
-| acti<span class="rouge">f</span>   |アクティフ|活発な<br> *活用の一覧は以下です*<br> ・男性単数形:actif(アクティフ)<br>・男性複数形:actifs(アクティフ)<br>・女性単数形:active(アクティヴ)<br>・女性複数形:actives(アクティヴ)|
+| acti<span class="rouge">f</span>   |アクティフ|活発な<br> <span class="petit">*活用の一覧;<br> ・男性単数形: actif(アクティフ)<br>・男性複数形: actifs(アクティフ)<br>・女性単数形: active(アクティヴ)<br>・女性複数形: actives(アクティヴ)*</span>|
 | che<span class="rouge">f</span>   |シェフ|上司|
 | péri<span class="rouge">l</span>   |ぺリル|危険|
 | se<span class="rouge">l</span>   |セル|塩|
- che<span class="rouge">r</span>   |シェール|効果な<br> *活用の一覧は以下です*<br> ・男性単数形:cher(シェール)<br>・男性複数形:chers(シェール)<br>・女性単数形:chere(シェール)<br>・女性複数形:cheres(シェール)|
+ che<span class="rouge">r</span>   |シェール|高価な<br> <span class="petit">*活用の一覧;<br> ・男性単数形: cher(シェール)<br>・男性複数形: chers(シェール)<br>・女性単数形: chere(シェール)<br>・女性複数形: cheres(シェール)*</span>|
 | me<span class="rouge">r</span>   |メール|海|
 | o<span class="rouge">r</span>   |オール|金、ゴールド|
 | bu<span class="rouge">s</span>   |ブゥス|バス|
@@ -131,31 +139,33 @@ letter-spacing: inherit;
 | 単数形 | 複数形 |
 | :-----       | :----       | 
 |- ami (アミ 男性形)「男友達」<br>- amie(アミ 女性形)「女友達」|amis (アミ)「友達たち」|
-|- mon ami(モナミ)「私の恋人(男性)」<br>- mon amie(モナミ)「私の恋人(女性)」|mes amis (メザミ)「私のすべての友達たち」|
+|- mon ami(モナミ)「私の恋人(男性)」<br>- mon[^1] amie(モナミ)「私の恋人(女性)」|mes amis (メザミ)「私のすべての友達たち」|
 |- un ami(アンナミ)「一人の男友達」<br>- une amie(ユナミ)「一人の女友達」|des amis (デザミ)「友達たち」|
 
+[^1]: ma amie だと母音字が重(母音字衝突)なるのを避けるため mon amie となる。
 
 ### ４．h は発音しない
 
 h 自体は、どのような場合でも発音しない。
+英語やローマ字の習慣があると、つい「h」を発音しようとしてしまいます。「homme（男）」は「オム」と発音され、「h」は完全に無視されます。英語の「home」やローマ字の「ほむ」といった読み方に慣れていると、「h」を読まないことに戸惑いが生じるのは自然なことです。
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
 |hotel| オテル|ホテル|l'hotel (ロテル) 「そのホテル」|
-|homme|オム|男のひと|l'homme 「総称としての人間、人類」|
-|rhume|リュム|風邪||
+|homme|オム|男のひと|l'homme (ロム)「総称としての人間、人類」|
+|rhume|リューム|風邪|j'ai un rhume (ジェ・アン・リューム)「風邪をひいている」|
 |huile|ユイル|油||
 |heure|ウール|時間|une heure (ユンヌー)「1時」<br> à l'heure (アラー)「時間通りに」|
-|horaire|オレール|時間割||
-|hier|イエール|昨日||
+|horaire|オレール|時間割|les horaires de travail (レゾレール・ドゥ・トラバイ)「労働時間」|
+|hier|イエール|昨日|depuis hier (ドゥピュイ・イエール)「昨日から」|
 |habiter|アビテ|住む|j'habite à (ジャビテ・ア)「私は~に住んでいます」|
 |habitude|アビテュド|習慣|d'habitude (ダビチュード) 「普段通りに」|
 |huit|ユイット|８||
-|haut / haute|オー / オート|高い|sauter haut (ソテ　オー)「高く飛ぶ」|
+|haut / haute|オー / オート|高い|sauter haut (ソテ・オー)「高く飛ぶ」|
 |habiller|アビエ|着せる||
 |heureusement|ウルーズマン|運よく||
-|hiver|イヴェール|冬||
-|dehors|ドゥオール|外に，外で||
+|hiver|イヴェール|冬|sports d'hiver (スポール・ディヴェール)「ウインタースポーツ」|
+|dehors|ドゥオール|外に，外で|dinner dehors (ディネ・ドゥオール)「外食する」|
 |aujourd'hui|オジュルデュイ|今日||
 |histoire|イストワール|歴史|faire de l'histoire (フェア・ドゥ・リストワール)「歴史学を研究する」|
 
