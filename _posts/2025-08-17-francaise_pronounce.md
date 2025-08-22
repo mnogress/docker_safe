@@ -17,7 +17,7 @@ sidebar:
 tag: ["French", "フランス語学習"]
 category: français
 date: 2025-08-17
-last_modified_at : 2025-08-19 11:23:00
+last_modified_at : 2025-08-22 13:00:00
 ---
 フランス語の発音は美しく魅力的ですが、初めて学ぶ方にとっては少し難しく感じるかもしれません。特に母音字の読み方には独特のルールがあります。<!--more-->このガイドでは、初心者の方がつまずきやすい母音字の発音や必須発音
 を、わかりやすく例とともに紹介します。
@@ -85,12 +85,13 @@ fr<span class="rouge">oi</span>d / fr<span class="rouge">oi</span>de「フロワ
 <tr>
 <td>ei</td>
 <td><span class="bleu">エ</span> </td>
-<td>la m<span class="rouge">ei</span>rie「ラ・メリ」(市役所)<br> la bout<span class="rouge">ei</span>lle「ラ・ブティユ」(ボトル)</td>
+<td>la m<span class="rouge">ei</span>rie「ラ・メリ」(市役所)<br> la n<span class="rouge">ei</span>ge「ラ・ネージェ」(雪)</td>
 </tr>
 <tr>
 <td>in</td>
 <td><span class="bleu">アン</span> </td>
-<td>le v<span class="rouge">in</span>「ル・ヴァン」(ワイン)<br>le mat<span class="rouge">in</span>「ル・マタン」(朝)</td>
+<td>le v<span class="rouge">in</span>「ル・ヴァン」(ワイン)<br>le mat<span class="rouge">in</span>「ル・マタン」(朝)<br>
+l<span class="rouge">in</span>ge à laver「ラーンジェ・ア・ラヴェ」(洗濯物)</td>
 </tr>
 <tr>
 <td>im</td>
@@ -113,6 +114,13 @@ fr<span class="rouge">oi</span>d / fr<span class="rouge">oi</span>de「フロワ
 <td>le p<span class="rouge">ein</span>tre「ル・パントゥル」(画家)<br>pl<span class="rouge">ein</span>「プラン㊚」(いっぱいの)</td>
 </tr>
 <tr>
+<td>om</td>
+<td><span class="bleu">オン</span> </td>
+<td>c<span class="rouge">om</span>bien「コンビヤン」(いくら)<br>c<span class="rouge">om</span>prendre「コンプラーンドル」(理解する)<br>
+t<span class="rouge">om</span>ber「トンベ」(倒れる)
+</td>
+</tr>
+<tr>
 <td>il</td>
 <td><span class="bleu">イユ</span> </td>
 <td>la f<span class="rouge">il</span>le「ラ・フィーユ」(娘)<br>la feu<span class="rouge">il</span>le「ラ・フイユ」(葉)</td>
@@ -122,6 +130,13 @@ fr<span class="rouge">oi</span>d / fr<span class="rouge">oi</span>de「フロワ
 <td><span class="bleu">アイユ</span> </td>
 <td>le trav<span class="rouge">ail</span>le「ル・トラバイユ」(仕事)<br>le m<span class="rouge">ail</span>lot「ル・マイヨ」(ジャージ、水着)<br>
 la t<span class="rouge">ail</span>le「ラ・タイユ」(サイズ)
+</td>
+</tr>
+<tr>
+<td>eil</td>
+<td><span class="bleu">エイユ</span> </td>
+<td>la bout<span class="rouge">ei</span>lle「ラ・ブティユ」(ボトル)<br>par<span class="rouge">eil</span>「パレイユ」(同様な)<br>
+somm<span class="rouge">eil</span>le「ソメイユ」(眠い)
 </td>
 </tr>
 </tbody>

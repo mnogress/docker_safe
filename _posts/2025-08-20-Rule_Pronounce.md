@@ -153,19 +153,19 @@ h 自体は、どのような場合でも発音しない。
 | :-----       | :----       | :-----       | :-----      |
 |hotel| オテル|ホテル|l'hotel (ロテル) 「そのホテル」|
 |homme|オム|男のひと|l'homme (ロム)「総称としての人間、人類」|
-|rhume|リュム|風邪||
+|rhume|リューム|風邪|j'ai un rhume (ジェ・アン・リューム)「風邪をひいている」|
 |huile|ユイル|油||
 |heure|ウール|時間|une heure (ユンヌー)「1時」<br> à l'heure (アラー)「時間通りに」|
-|horaire|オレール|時間割||
-|hier|イエール|昨日||
+|horaire|オレール|時間割|les horaires de travail (レゾレール・ドゥ・トラバイ)「労働時間」|
+|hier|イエール|昨日|depuis hier (ドゥピュイ・イエール)「昨日から」|
 |habiter|アビテ|住む|j'habite à (ジャビテ・ア)「私は~に住んでいます」|
 |habitude|アビテュド|習慣|d'habitude (ダビチュード) 「普段通りに」|
 |huit|ユイット|８||
-|haut / haute|オー / オート|高い|sauter haut (ソテ　オー)「高く飛ぶ」|
+|haut / haute|オー / オート|高い|sauter haut (ソテ・オー)「高く飛ぶ」|
 |habiller|アビエ|着せる||
 |heureusement|ウルーズマン|運よく||
-|hiver|イヴェール|冬||
-|dehors|ドゥオール|外に，外で||
+|hiver|イヴェール|冬|sports d'hiver (スポール・ディヴェール)「ウインタースポーツ」|
+|dehors|ドゥオール|外に，外で|dinner dehors (ディネ・ドゥオール)「外食する」|
 |aujourd'hui|オジュルデュイ|今日||
 |histoire|イストワール|歴史|faire de l'histoire (フェア・ドゥ・リストワール)「歴史学を研究する」|
 
