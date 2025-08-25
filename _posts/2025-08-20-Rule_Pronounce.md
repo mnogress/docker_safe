@@ -1,6 +1,6 @@
 ---
 layout: single
-title: つづりと発音の規則
+title: フランス語つづりと発音の規則
 header:
   overlay_image: images/header_G.png
   overlay_filter: rgba(70, 209, 36, 0.15)
