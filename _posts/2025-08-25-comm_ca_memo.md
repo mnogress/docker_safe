@@ -2,7 +2,7 @@
 layout: single
 title: そのまま覚えるフランス語の文例
 header:
-  overlay_image: images/header_A.png
+  overlay_image: images/header_J.png
   overlay_filter: rgba(97, 24, 92, 0.22)
 toc: True
 toc_label: "目次"
@@ -177,7 +177,7 @@ letter-spacing: inherit;
 </tr>
 <tr>
     <td>過去分詞</td>
-    <td><span class="bleu">allé</span></td>
+    <td><span class="bleu">allé/allée</span></td>
     <td><span class="noir">行く</span></td>
     <td><span class="noir">アレ</span></td>
     <td></td>
@@ -207,19 +207,19 @@ letter-spacing: inherit;
         <td><span class="bleu">Vous allez en France?</span></td>
         <td><span class="noir">あなたはフランスに行くのですか？</span></td>
         <td><span class="noir">ヴザレ・アン・フランス？</span></td>
-        <td></td>
+        <td>女性名詞の国は「en」</td>
     </tr>
     <tr>
         <td><span class="bleu">Vous allez au Japon?</span></td>
         <td><span class="noir">あなたは日本に行くのですか？</span></td>
         <td><span class="noir">ヴザレ・オ・ジャポン？</span></td>
-        <td></td>
+        <td>子音から始まる男性名詞の国は「au」</td>
     </tr>
     <tr>
         <td><span class="bleu">Non, je vais aux Etats-Unis.</span></td>
         <td><span class="noir">いいえ、アメリカに行きます。</span></td>
         <td><span class="noir"> ノン、ジュ・ヴェ・オゼタズュニ</span></td>
-        <td></td>
+        <td>複数形の国は「aux」</td>
     </tr>
     <tr>
         <td><span class="bleu">On va au cinema?</span></td>
@@ -261,6 +261,12 @@ letter-spacing: inherit;
         <td><span class="bleu">Nous allons aller dans mon restaurant préféré.</span></td>
         <td><span class="noir">私のお気に入りのレストランに行きましょう</span></td>
         <td><span class="noir">ヌザロン・アレ・ダン・モンレストラン・プリフェレ</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Elle est allée à la boulangerie.</span></td>
+        <td><span class="noir">彼女はパン屋へ行った。</span></td>
+        <td><span class="noir">エレ・タレア・ラ・ブランジュリー</span></td>
         <td></td>
     </tr>
 </tbody>
