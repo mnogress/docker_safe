@@ -136,7 +136,7 @@ la t<span class="rouge">ail</span>le「ラ・タイユ」(サイズ)
 <td>eil</td>
 <td><span class="bleu">エイユ</span> </td>
 <td>la bout<span class="rouge">ei</span>lle「ラ・ブティユ」(ボトル)<br>par<span class="rouge">eil</span>「パレイユ」(同様な)<br>
-somm<span class="rouge">eil</span>le「ソメイユ」(眠い)
+somm<span class="rouge">eil</span>e「ソメイユ」(眠い)
 </td>
 </tr>
 </tbody>
