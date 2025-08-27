@@ -245,6 +245,24 @@ letter-spacing: inherit;
         <td><span class="noir">アロンジィ・アンサンブル</span></td>
         <td></td>
     </tr>
+    <tr>
+        <td><span class="bleu">Qu'allons-nous faire demain?</span></td>
+        <td><span class="noir">明日は何をしよう？</span></td>
+        <td><span class="noir">カロンヌ・フェア・ドゥマン</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Je vais vous emmener à l'hôtel.</span></td>
+        <td><span class="noir">ホテルに連れて行きます。</span></td>
+        <td><span class="noir">ジュヴァ・ヴゾムネ・アロテル</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Nous allons aller dans mon restaurant préféré.</span></td>
+        <td><span class="noir">私のお気に入りのレストランに行きましょう</span></td>
+        <td><span class="noir">ヌザロン・アレ・ダン・モンレストラン・プリフェレ</span></td>
+        <td></td>
+    </tr>
 </tbody>
 </table>
 
