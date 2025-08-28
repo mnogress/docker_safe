@@ -2,8 +2,8 @@
 layout: single
 title: フランス語の母音字発音ガイド（初級者向け）
 header:
-  overlay_image: images/header_E.png
-  #overlay_filter: rgba(107, 74, 43, 0.40)
+  overlay_image: images/header_L.png
+  overlay_filter: rgba(107, 74, 43, 0.40)
 toc: true
 toc_label: "目次"
 toc_icon: "heart"
@@ -136,7 +136,7 @@ la t<span class="rouge">ail</span>le「ラ・タイユ」(サイズ)
 <td>eil</td>
 <td><span class="bleu">エイユ</span> </td>
 <td>la bout<span class="rouge">ei</span>lle「ラ・ブティユ」(ボトル)<br>par<span class="rouge">eil</span>「パレイユ」(同様な)<br>
-somm<span class="rouge">eil</span>le「ソメイユ」(眠い)
+somm<span class="rouge">eil</span>「ソメイユ」(眠り)
 </td>
 </tr>
 </tbody>
