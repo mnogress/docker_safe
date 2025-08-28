@@ -1,9 +1,9 @@
 ---
 layout: single
-title: フランス語つづりと発音の規則
+title: つづりと発音の規則
 header:
-  overlay_image: images/header_G.png
-  overlay_filter: rgba(70, 209, 36, 0.15)
+  overlay_image: images/header_A4.png
+  overlay_filter: rgba(97, 24, 92, 0.22)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
@@ -15,10 +15,10 @@ classes:
   #- wide
 sidebar:
   nav: "docs"
-category: Reference
+category: français
 tag: ["French", "フランス語学習"]
 date: 2025-08-20
-last_modified_at : 2025-08-22 8:30:00
+last_modified_at : 2025-08-27 8:30:00
 ---
 フランス語の単語や文を正しく発音するための鉄板ルール（その１）<!--more-->
 
