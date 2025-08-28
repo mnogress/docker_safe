@@ -15,10 +15,10 @@ classes:
   - wide
 sidebar:
   nav: "docs"
-category: Reference
+category: français
 tag: ["French", "フランス語学習"]
 date: 2025-08-20
-last_modified_at : 2025-08-22 8:30:00
+last_modified_at : 2025-08-28 8:30:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集<!--more-->
 
@@ -136,7 +136,7 @@ letter-spacing: inherit;
     <td><span class="bleu">je vais</span></td>
     <td><span class="noir">私は、行く</span></td>
     <td><span class="noir">ジュ・ヴァ</span></td>
-    <td></td>
+    <td rowspan="3">vais, vas, va とも発音は同じ「ヴァ」</td>
 </tr>
 <tr>
     <td><span class="bleu">tu vas</span></td>
@@ -268,6 +268,12 @@ letter-spacing: inherit;
         <td><span class="noir">彼女はパン屋へ行った。</span></td>
         <td><span class="noir">エレ・タレア・ラ・ブランジュリー</span></td>
         <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Je ne vais pas faire de tennis.</span></td>
+        <td><span class="noir">私はテニスをするつもりはありません。</span></td>
+        <td><span class="noir">ジュ・ヌ・ヴァパ・フェアドゥ・テニス</span></td>
+        <td>近接未来：allerの活用＋動詞の不定詞</td>
     </tr>
 </tbody>
 </table>

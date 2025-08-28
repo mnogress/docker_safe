@@ -15,10 +15,10 @@ classes:
   #- wide
 sidebar:
   nav: "docs"
-category: Reference
+category: français
 tag: ["French", "フランス語学習"]
 date: 2025-08-20
-last_modified_at : 2025-08-22 8:30:00
+last_modified_at : 2025-08-27 8:30:00
 ---
 フランス語の単語や文を正しく発音するための鉄板ルール（その１）<!--more-->
 
