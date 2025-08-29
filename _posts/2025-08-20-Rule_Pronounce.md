@@ -86,6 +86,18 @@ font-weight: bold;
 font-family: inherit;
 letter-spacing: inherit;
 }
+.rouge2 {
+color: red;
+font-weight: normal;
+font-family: inherit;
+letter-spacing: inherit;
+}
+.bleu2 {
+color: blue;
+font-weight: normal;
+font-family: inherit;
+letter-spacing: inherit;
+}
 .petit {
 font-size: 0.80em;
 color: black;
@@ -169,3 +181,32 @@ h 自体は、どのような場合でも発音しない。
 |aujourd'hui|オジュルデュイ|今日||
 |histoire|イストワール|歴史|faire de l'histoire (フェア・ドゥ・リストワール)「歴史学を研究する」|
 
+### e「ウー」 の後に子音字が二つ並べば「エ」と読む
+
+|つづり字 |発音 |日本語訳 |コメント |
+| :-----       | :----       | :-----       | :-----      |
+|m<span class="rouge2">e</span><span class="bleu2">tt</span>re|メットル|置く||
+|le v<span class="rouge2">e</span><span class="bleu2">rr</span>e|ル・ヴェール|グラス、コップ||
+|b<span class="rouge2">e</span><span class="bleu2">ll</span>e|ベール|美しい（女性形）||
+|<span class="rouge2">e</span><span class="bleu2">ll</span>|エル|彼女||
+|une f<span class="rouge2">e</span><span class="bleu2">mm</span>e|ウヌ・ファム|一人の女性|**例外**|
+
+### e「ウー」 の後に子音字が一つだけなら「ウ」と読む
+
+|つづり字 |発音 |日本語訳 |コメント |
+| :-----       | :----       | :-----       | :-----      |
+|p<span class="rouge2">e</span><span class="bleu2">t</span>it|プティ|小さい||
+|un m<span class="rouge2">e</span><span class="bleu2">l</span>on|アン・ムロン|一つのメロン|「メロン」ではない|
+|d<span class="rouge2">e</span><span class="bleu2">m</span>i|ドゥミ|半分||
+|v<span class="rouge2">e</span><span class="bleu2">n</span>ir|ヴニール|来る||
+|mercr<span class="rouge2">e</span><span class="bleu2">d</span>i|メルクルディ|水曜日||
+
+
+### e「ウー」のあとに子音字が置かれ、それが最後の音節だと「エ」と読む
+
+|つづり字 |発音 |日本語訳 |コメント |
+| :-----       | :----       | :-----       | :-----      |
+|le obj<span class="rouge2">e</span><span class="bleu2">t</span>|ル・ オブジェ|物体||
+|le proj<span class="rouge2">e</span><span class="bleu2">t</span>|ル・プロジェ|計画・プロジェクト|「プロジェット」ではない|
+|le ball<span class="rouge2">e</span><span class="bleu2">t</span>|ル・バレ|バレエ（踊りの）||
+|vous chant<span class="rouge2">e</span><span class="bleu2">z</span>|ヴ・シャンテ|あなたは、歌います|***vous の活用語尾***|
