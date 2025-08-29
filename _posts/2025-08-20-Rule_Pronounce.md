@@ -129,19 +129,19 @@ letter-spacing: inherit;
 
 <span class="rouge">朱字</span>が発音**する**語尾の子音字になります。
 
-| つづり字 | 発音 | 日本語訳 |
-| :-----       | :----       | :-----       | 
-| ave<span class="rouge">c</span>   |アヴェク|〜ともに|
-| par<span class="rouge">c</span>   |パルク|公園|
-| sa<span class="rouge">c</span>   |サック|かばん|
-| acti<span class="rouge">f</span>   |アクティフ|活発な<br> <span class="petit">*活用の一覧;<br> ・男性単数形: actif(アクティフ)<br>・男性複数形: actifs(アクティフ)<br>・女性単数形: active(アクティヴ)<br>・女性複数形: actives(アクティヴ)*</span>|
-| che<span class="rouge">f</span>   |シェフ|上司|
-| péri<span class="rouge">l</span>   |ぺリル|危険|
-| se<span class="rouge">l</span>   |セル|塩|
- che<span class="rouge">r</span>   |シェール|高価な<br> <span class="petit">*活用の一覧;<br> ・男性単数形: cher(シェール)<br>・男性複数形: chers(シェール)<br>・女性単数形: chere(シェール)<br>・女性複数形: cheres(シェール)*</span>|
-| me<span class="rouge">r</span>   |メール|海|
-| o<span class="rouge">r</span>   |オール|金、ゴールド|
-| bu<span class="rouge">s</span>   |ブゥス|バス|
+| つづり字 | 発音 | 日本語訳 | 補足|
+| :-----       | :----       | :-----       |  | :-----       |
+| ave<span class="rouge">c</span>   |アヴェク|〜ともに||
+| par<span class="rouge">c</span>   |パルク|公園||
+| sa<span class="rouge">c</span>   |サック|かばん||
+| acti<span class="rouge">f</span>   |アクティフ|活発な |・男性単数形: actif(アクティフ)<br>・男性複数形: actifs(アクティフ)<br>・女性単数形: active(アクティヴ)<br>・女性複数形: actives(アクティヴ)|
+| che<span class="rouge">f</span>   |シェフ|上司||
+| péri<span class="rouge">l</span>   |ぺリル|危険||
+| se<span class="rouge">l</span>   |セル|塩||
+ che<span class="rouge">r</span>   |シェール|高価な|・男性単数形: cher(シェール)<br>・男性複数形: chers(シェール)<br>・女性単数形: chere(シェール)<br>・女性複数形: cheres(シェール)|
+| me<span class="rouge">r</span>   |メール|海||
+| o<span class="rouge">r</span>   |オール|金、ゴールド||
+| bu<span class="rouge">s</span>   |ブゥス|バス||
 
 
 ### ３．複数形の 「s」 は例外なく発音しない
