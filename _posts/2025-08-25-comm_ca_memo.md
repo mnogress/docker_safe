@@ -1,6 +1,6 @@
 ---
 layout: single
-title: そのまま覚えるフランス語の文例
+title: そのまま覚えるフランス語の文例 (aller)
 header:
   overlay_image: images/header_J.png
   overlay_filter: rgba(97, 24, 92, 0.22)
@@ -18,9 +18,9 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-08-20
-last_modified_at : 2025-08-28 8:30:00
+last_modified_at : 2025-09-03 8:30:00
 ---
-フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集<!--more-->
+フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集(aller)<!--more-->
 
 <style type="text/css">
 
@@ -120,7 +120,7 @@ letter-spacing: inherit;
     <th width="100">つづり</th>
     <th width="200">訳</th>
     <th width="200">読み方</th>
-    <th width="200">コメント</th>
+    <th width="160">コメント</th>
 </tr>
 </thead>
 <tbody>
@@ -142,11 +142,13 @@ letter-spacing: inherit;
     <td><span class="bleu">tu vas</span></td>
     <td><span class="noir">君は、行く</span></td>
     <td><span class="noir">チュ・ヴァ</span></td>
+    <td></td>
 </tr>
 <tr>
     <td><span class="bleu">il/elle/on va</span></td>
     <td><span class="noir">彼／彼女／私たちは、行く</span></td>
     <td><span class="noir">イル／エル／オン・ヴァ</span></td>
+    <td></td>
 </tr>
 <tr>
     <td><span class="bleu">nous allons</span></td>
@@ -176,7 +178,7 @@ letter-spacing: inherit;
 <tr>
     <td>過去分詞</td>
     <td><span class="bleu">allé/allée</span></td>
-    <td><span class="noir">行く</span></td>
+    <td><span class="noir">行った</span></td>
     <td><span class="noir">アレ</span></td>
     <td></td>
 </tr>
@@ -235,13 +237,13 @@ letter-spacing: inherit;
         <td><span class="bleu">On y va ensemble.</span></td>
         <td><span class="noir">一緒に行こうよ</span></td>
         <td><span class="noir">オニヴァ・アンサンブル</span></td>
-        <td></td>
+        <td>英:Shall we go?</td>
     </tr>
     <tr>
         <td><span class="bleu">Allons-y ensemble.</span></td>
         <td><span class="noir">一緒に行こうよ</span></td>
         <td><span class="noir">アロンジィ・アンサンブル</span></td>
-        <td></td>
+        <td>英:Let's go.</td>
     </tr>
     <tr>
         <td><span class="bleu">Qu'allons-nous faire demain?</span></td>
@@ -272,6 +274,30 @@ letter-spacing: inherit;
         <td><span class="noir">私はテニスをするつもりはありません。</span></td>
         <td><span class="noir">ジュ・ヌ・ヴァパ・フェアドゥ・テニス</span></td>
         <td>近接未来：allerの活用＋動詞の不定詞</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Va-t'en!</span></td>
+        <td><span class="noir">出て行け！</span></td>
+        <td><span class="noir">ヴァ・タン</span></td>
+        <td>英:Go away!</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">allez-y</span></td>
+        <td><span class="noir">さあ、どうぞ</span></td>
+        <td><span class="noir">アレジィ</span></td>
+        <td>英：Go right ahead. </td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Vous allez y aller?</span></td>
+        <td><span class="noir">行きますか？</span></td>
+        <td><span class="noir">ヴ・ザレ・イ・アレ</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Il veut y aller.</span></td>
+        <td><span class="noir">彼はそこに行きたい</span></td>
+        <td><span class="noir">イル・ヴー・イ・アレ</span></td>
+        <td></td>
     </tr>
 </tbody>
 </table>
