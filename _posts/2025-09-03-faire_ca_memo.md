@@ -102,9 +102,9 @@ letter-spacing: inherit;
 }
 </style>
 
-### aller の基本事項
+### faire の基本事項
 
-「aller」のような重要な動詞は、口頭練習と並行して活用の基本を押さえることで、理解と応用力がぐっと深まります。
+「faire」のような重要な動詞は、口頭練習と並行して活用の基本を押さえることで、理解と応用力がぐっと深まります。
 以下が活用表です。ここでは、不定詞・現在形・現在分詞・過去分詞を紹介します。　ポイントは以下になります。
 
 1. 現在形は日常会話で最もよく使われるので、まずはここを重点的に。
@@ -142,13 +142,11 @@ letter-spacing: inherit;
     <td><span class="bleu">tu fais</span></td>
     <td><span class="noir">君は、する</span></td>
     <td><span class="noir">チュ・フェ</span></td>
-    <td></td>
 </tr>
 <tr>
     <td><span class="bleu">il/elle/on fait</span></td>
     <td><span class="noir">彼／彼女／私たちは、する</span></td>
     <td><span class="noir">イル／エル／オン・フェ</span></td>
-    <td></td>
 </tr>
 <tr>
     <td><span class="bleu">nous faisons</span></td>
