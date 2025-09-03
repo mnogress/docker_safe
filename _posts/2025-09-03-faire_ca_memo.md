@@ -299,6 +299,7 @@ letter-spacing: inherit;
         <td><span class="noir">週に一度、掃除を行います。</span></td>
         <td><span class="noir">ヌ・フロン・ル・メナジェ・ウヌ・フォア・パー・スメヌ</span></td>
         <td>英：We will clean once a week.</td>
+    </tr>
 </tbody>
 </table>
 
