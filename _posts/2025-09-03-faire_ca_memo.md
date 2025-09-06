@@ -208,7 +208,7 @@ letter-spacing: inherit;
 <tr>
     <td><span class="bleu">vous ferez</span></td>
     <td><span class="noir">あなたは、するだろう</span></td>
-    <td><span class="noir">ブ・フェット</span></td>
+    <td><span class="noir">ブ・フレ</span></td>
     <td></td>
 </tr>
 <tr>
