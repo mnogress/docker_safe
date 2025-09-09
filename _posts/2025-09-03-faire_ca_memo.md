@@ -1,6 +1,6 @@
 ---
 layout: single
-title: そのまま覚えるフランス語の文例 (faire)
+title: そのまま覚えるフランス語の文例 ～ faire ～
 header:
   overlay_image: images/header_N.png
   overlay_filter: rgba(97, 24, 92, 0.22)
@@ -20,7 +20,7 @@ tag: ["French", "フランス語学習"]
 date: 2025-09-03
 last_modified_at : 2025-09-03 11:30:00
 ---
-フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集(faire)<!--more-->
+フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ faire ～<!--more-->
 
 <style type="text/css">
 
@@ -102,9 +102,9 @@ letter-spacing: inherit;
 }
 </style>
 
-### aller の基本事項
+### faire の基本事項
 
-「aller」のような重要な動詞は、口頭練習と並行して活用の基本を押さえることで、理解と応用力がぐっと深まります。
+「faire」のような重要な動詞は、口頭練習と並行して活用の基本を押さえることで、理解と応用力がぐっと深まります。
 以下が活用表です。ここでは、不定詞・現在形・現在分詞・過去分詞を紹介します。　ポイントは以下になります。
 
 1. 現在形は日常会話で最もよく使われるので、まずはここを重点的に。
@@ -142,13 +142,11 @@ letter-spacing: inherit;
     <td><span class="bleu">tu fais</span></td>
     <td><span class="noir">君は、する</span></td>
     <td><span class="noir">チュ・フェ</span></td>
-    <td></td>
 </tr>
 <tr>
     <td><span class="bleu">il/elle/on fait</span></td>
     <td><span class="noir">彼／彼女／私たちは、する</span></td>
     <td><span class="noir">イル／エル／オン・フェ</span></td>
-    <td></td>
 </tr>
 <tr>
     <td><span class="bleu">nous faisons</span></td>
@@ -210,7 +208,7 @@ letter-spacing: inherit;
 <tr>
     <td><span class="bleu">vous ferez</span></td>
     <td><span class="noir">あなたは、するだろう</span></td>
-    <td><span class="noir">ブ・フェット</span></td>
+    <td><span class="noir">ブ・フレ</span></td>
     <td></td>
 </tr>
 <tr>
@@ -299,7 +297,45 @@ letter-spacing: inherit;
         <td><span class="noir">週に一度、掃除を行います。</span></td>
         <td><span class="noir">ヌ・フロン・ル・メナジェ・ウヌ・フォア・パー・スメヌ</span></td>
         <td>英：We will clean once a week.</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Faites comme chez vous.</span></td>
+        <td><span class="noir">どうぞごゆっくり</span></td>
+        <td><span class="noir">フェット ・コム・ シェ ヴ</span></td>
+        <td>英：make yourself at home</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Ne faites pas tant de bruit.</span></td>
+        <td><span class="noir">そんなにうるさくしないで．</span></td>
+        <td><span class="noir">ヌフェㇳ・パタン・ドゥ・ブリュイ</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Est-ce que ça fait mal?</span></td>
+        <td><span class="noir">それは痛いの</span></td>
+        <td><span class="noir">エスク・サ・フェマル</span></td>
+        <td>英：Does it hurt?</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Faites attention!</span></td>
+        <td><span class="noir">気を付けてくださ！</span></td>
+        <td><span class="noir">フェット・ アトンシオン</span></td>
+        <td>英：Be careful!</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">N’importe quel jour fera l’affaire.</span></td>
+        <td><span class="noir">どの日でも構いません。</span></td>
+        <td><span class="noir">ナンポルト・ケル・ジュール・フェ・ラ・フェール</span></td>
+        <td>英：Any day will do. </td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Ça fait combien en tout? </span></td>
+        <td><span class="noir">全部でいくらですか</span></td>
+        <td><span class="noir">サ・フェ・コンビヤン・アン・トゥ</span></td>
+        <td>英：How much is it in total?</td>
+    </tr>
 </tbody>
 </table>
+
 
 

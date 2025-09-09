@@ -16,6 +16,16 @@ author_profile: false
 <p>このサイトでは、私のこれまでのIT仕事歴で出会った数々の技術のうち、50代を過ぎてリスキリングで得たPythonによるデータ分析の実際を易しく解説したいと思います。どうぞよろしくお願いします。</P>  
   
 <p><strong>Thank You for reading!</strong></p>
+
+<p>Après avoir obtenu mon diplôme, j'ai rejoint un fournisseur informatique étranger et j'y ai travaillé jusqu'à l'âge de 60 ans, âge légal de la retraite. Conformément à la loi, je n'ai pas choisi l'option de « maintien dans l'emploi » proposée par l'entreprise et j'ai connu plusieurs mois de chômage. J'ai ensuite retrouvé un emploi dans mon entreprise actuelle. Au départ, je pensais démissionner au bout de trois mois, mais cela fait maintenant sept ans que j'y travaille et j'ai 46 ans d'expérience dans le domaine informatique.</p>
+
+<p>Je maîtrise tout ce qui touche au web, du HTML/CSS, JavaScript, Photoshop et Illustrator à AWS et IBM Cloud. De plus, dans mon emploi actuel, j'utilise quotidiennement Python (apprentissage automatique), SPSS et Excel (VBA).</p>
+
+<p>Dans mon nouvel emploi, ma première tâche a été de refondre le site web. Jusqu'alors, nous avions simplement créé un site web avec WordPress, mais en recherchant des techniques de construction de sites web statiques plus sécurisées, j'ai découvert Jekyll. J'ai également abandonné WordPress pour mon site personnel et l'ai créé avec Jekyll en utilisant le thème Minimal Mistakes.</P>
+
+<p>Sur ce site, je souhaite expliquer de manière simple l'analyse de données avec Python, une technologie que j'ai apprise grâce à une reconversion professionnelle après 50 ans, parmi les nombreuses technologies que j'ai rencontrées au cours de ma carrière dans l'informatique. Je vous remercie de votre attention.</p>
+
+<p><strong>Merci de votre lecture !</strong></p>
   
 </div>
 

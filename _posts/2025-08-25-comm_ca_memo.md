@@ -1,6 +1,6 @@
 ---
 layout: single
-title: そのまま覚えるフランス語の文例 (aller)
+title: そのまま覚えるフランス語の文例 ～ aller ～
 header:
   overlay_image: images/header_J.png
   overlay_filter: rgba(97, 24, 92, 0.22)
@@ -20,7 +20,7 @@ tag: ["French", "フランス語学習"]
 date: 2025-08-20
 last_modified_at : 2025-09-03 8:30:00
 ---
-フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集(aller)<!--more-->
+フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ aller ～<!--more-->
 
 <style type="text/css">
 
@@ -297,6 +297,12 @@ letter-spacing: inherit;
         <td><span class="bleu">Il veut y aller.</span></td>
         <td><span class="noir">彼はそこに行きたい</span></td>
         <td><span class="noir">イル・ヴー・イ・アレ</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Va te changer, tu vas te salir.</span></td>
+        <td><span class="noir">着替えて、汚れるよ</span></td>
+        <td><span class="noir">ブァ・テ・シャンジェ　チュ・ヴァ・テ・サリ</span></td>
         <td></td>
     </tr>
 </tbody>
