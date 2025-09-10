@@ -10,6 +10,10 @@ main:
 docs:
   - title: よく読まれている記事
     children: 
+      - title: "そのまま覚えるフランス語の文例 ～ faire ～"
+        url: /français/faire_ca_memo/
+      - title: "そのまま覚えるフランス語の文例 ～ aller ～"
+        url: /français/comm_ca_memo/
       - title: "カテゴリカルデータの個数、構成比率、トータル行を集計、整形する"
         url: /reference/df_velue_counts_formatting/
       - title: "日付の新しいものを残す重複排除"
@@ -24,12 +28,7 @@ docs:
         url: /reference/html_style_sheet_reference/
       - title: "Excelファイルの読み書き"
         url: /reference/Read_Write_Excel/
-      - title: "都道府県名と都道府県番号の相互変換"
-        url: /reference/TDFK_name_number_interchange/
-      - title: "df_overview スクリプト"
-        url: /reference/df_overview/
         
-
   - title: 関連記事
     children:
       - title: "Top"
