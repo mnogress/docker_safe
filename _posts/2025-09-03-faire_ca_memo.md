@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-09-03
-last_modified_at : 2025-09-03 11:30:00
+last_modified_at : 2025-09-10 11:30:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ faire ～<!--more-->
 
@@ -333,6 +333,24 @@ letter-spacing: inherit;
         <td><span class="noir">全部でいくらですか</span></td>
         <td><span class="noir">サ・フェ・コンビヤン・アン・トゥ</span></td>
         <td>英：How much is it in total?</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Comment on fait pour y aller?</span></td>
+        <td><span class="noir">どうやってそこに行くのですか？</span></td>
+        <td><span class="noir">コモン・オン・フェ・ポーイ・アレ</span></td>
+        <td>英：How do we get there?</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Puis-je faire ça?</span></td>
+        <td><span class="noir">これをしていいですか？</span></td>
+        <td><span class="noir">プィージュ・フェア・サ</span></td>
+        <td>倒置の疑問文では、peux-jeではなく、puis-jeを用いる</td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Quand je faisais la cuisine, elle etait au lit.</span></td>
+        <td><span class="noir">私が料理をしている間、彼女はベッドにいた。</span></td>
+        <td><span class="noir">カァン・ジュ・フゼ・ラ・キュイズィヌ　エル・エテ・オリ</span></td>
+        <td>faisais　半過去</td>
     </tr>
 </tbody>
 </table>
