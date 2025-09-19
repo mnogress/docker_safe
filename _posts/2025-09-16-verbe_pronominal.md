@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-09-17
-last_modified_at : 2025-09-18 11:30:00
+last_modified_at : 2025-09-19 11:30:00
 ---
 フランス語の決まり文句や重要フレーズを文法といっしょに覚える文例集 ～ 代名動詞 ～<!--more-->
 
@@ -296,7 +296,7 @@ letter-spacing: inherit;
     <tr>
         <td><span class="bleu">Ils se sont parlé comme des adultes. </span></td>
         <td><span class="noir">彼らは大人としてお互いに話しました。</span></td>
-        <td><span class="noir">イル・ス・ソン・パルレ・コモン・デ・アデュルト</span></td>
+        <td><span class="noir">イル・ス・ソン・パルレ・コモン・デザデュルト</span></td>
         <td></td>
     </tr>
     <tr>
@@ -339,6 +339,18 @@ letter-spacing: inherit;
         <td><span class="bleu">Nous nous sommes bien amusés à Montréal.</span></td>
         <td><span class="noir">私たちはモントリオールで楽しみました。</span></td>
         <td><span class="noir">ヌ・ヌーソンム・ビエン・アミュゼ・ア・モンレアル</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Va te changer, tu vas te salir.</span></td>
+        <td><span class="noir">着替えて、汚れるよ</span></td>
+        <td><span class="noir">ブァ・テ・シャンジェ　チュ・ヴァ・テ・サリ</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Peut-etre vont-ils se revoir.</span></td>
+        <td><span class="noir">彼らはたぶん再会するでしょう</span></td>
+        <td><span class="noir">プテト・ヴォンティル・ス・ルヴォア</span></td>
         <td></td>
     </tr>
 </tbody>
