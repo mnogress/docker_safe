@@ -2,8 +2,8 @@
 layout: single
 title: 文法から覚えるフランス語の文例 ～ 代名動詞 ～
 header:
-  overlay_image: images/header_U.png
-  overlay_filter: rgba(97, 24, 92, 0.22)
+  overlay_image: images/header_W_1280by336.png
+  overlay_filter: rgba(97, 24, 92, 0.42)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
