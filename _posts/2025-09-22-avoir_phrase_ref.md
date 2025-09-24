@@ -383,7 +383,7 @@ letter-spacing: inherit;
     <tr>
         <td><span class="bleu">Le produit a un défaut</span></td>
         <td><span class="noir">その製品には欠陥があります。</span></td>
-        <td><span class="noir">ル・プロデュイ・ア・デフォー</span></td>
+        <td><span class="noir">ル・プロデュイ・ア・ウン・デフォー</span></td>
         <td></td>
     </tr>
     <tr>
@@ -396,7 +396,7 @@ letter-spacing: inherit;
         <td><span class="bleu">J'ai besoin d'un nouveau micro-ondes.</span></td>
         <td><span class="noir">新しい電子レンジが必要です。</span></td>
         <td><span class="noir">ジェイ・ブズワン・ドゥ・ヌーボ・ミクロオンド</span></td>
-        <td>avoir besoin de ～：～が必要です。</td>
+        <td>avoir besoin de ～：～が必要です</td>
     </tr>
     <tr>
         <td><span class="bleu">J'en ai marre de cette situation.</span></td>
