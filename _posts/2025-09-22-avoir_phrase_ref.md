@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-09-22
-last_modified_at : 2025-09-22 11:30:00
+last_modified_at : 2025-09-23 10:20:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ avoir ～<!--more-->
 
@@ -225,6 +225,80 @@ letter-spacing: inherit;
     <td><span class="noir">イルゾロン／エルゾロン</span></td>
     <td></td>
 </tr>
+<tr>
+    <td rowspan="6">半過去</td>
+    <td><span class="bleu">j'avais</span></td>
+    <td><span class="noir">私は、持った</span></td>
+    <td><span class="noir">ジャヴェ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td><span class="bleu">tu avais</span></td>
+    <td><span class="noir">君は、持った</span></td>
+    <td><span class="noir">チュ・アヴェ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td><span class="bleu">il/elle/on avait	</span></td>
+    <td><span class="noir">彼／彼女／私たちは、持った</span></td>
+    <td><span class="noir">イラヴェ／エラヴェ／オナヴェ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td><span class="bleu">nous avions</span></td>
+    <td><span class="noir">私たちは、持った</span></td>
+    <td><span class="noir">ヌザヴィオン</span></td>
+    <td></td>
+    </tr>
+<tr>
+    <td><span class="bleu">vous aviez</span></td>
+    <td><span class="noir">あなたは、持った</span></td>
+    <td><span class="noir">ヴザヴィエ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td><span class="bleu">ils/elles avaient</span></td>
+    <td><span class="noir">彼ら／彼女らは、持った</span></td>
+    <td><span class="noir">イルザヴェ／エルザヴェ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td rowspan="6">複合過去</td>
+    <td><span class="bleu">j'ai eu</span></td>
+    <td><span class="noir">私は、持った</span></td>
+    <td><span class="noir">ジェイ・ユ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td><span class="bleu">tu as eu</span></td>
+    <td><span class="noir">君は、持った</span></td>
+    <td><span class="noir">チュア・ユ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td><span class="bleu">il/elle/on a eu</span></td>
+    <td><span class="noir">彼／彼女／私たちは、持った</span></td>
+    <td><span class="noir">イラ・ユ／エラ・ユ／オナ・ユ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td><span class="bleu">nous avons eu</span></td>
+    <td><span class="noir">私たちは、持った</span></td>
+    <td><span class="noir">ヌザヴォン・ユ</span></td>
+    <td></td>
+    </tr>
+<tr>
+    <td><span class="bleu">vous avez eu</span></td>
+    <td><span class="noir">あなたは、持った</span></td>
+    <td><span class="noir">ヴザヴェ・ユ</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td><span class="bleu">ils/ells ont eu</span></td>
+    <td><span class="noir">彼ら／彼女らは、持った</span></td>
+    <td><span class="noir">イルゾンチュ／エルゾンチュ</span></td>
+    <td></td>
+</tr>
 </tbody>
 </table>
 
@@ -322,7 +396,7 @@ letter-spacing: inherit;
         <td><span class="bleu">J'ai besoin d'un nouveau micro-ondes.</span></td>
         <td><span class="noir">新しい電子レンジが必要です。</span></td>
         <td><span class="noir">ジェイ・ブズワン・ドゥ・ヌーボ・ミクロオンド</span></td>
-        <td>avoir hâte de ～：～が必要です。</td>
+        <td>avoir besoin de ～：～が必要です。</td>
     </tr>
     <tr>
         <td><span class="bleu">J'en ai marre de cette situation.</span></td>
