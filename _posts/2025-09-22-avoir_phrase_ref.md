@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-09-22
-last_modified_at : 2025-09-23 10:20:00
+last_modified_at : 2025-09-26 11:20:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ avoir ～<!--more-->
 
@@ -228,37 +228,37 @@ letter-spacing: inherit;
 <tr>
     <td rowspan="6">半過去</td>
     <td><span class="bleu">j'avais</span></td>
-    <td><span class="noir">私は、持った</span></td>
+    <td><span class="noir">私は、持っていた</span></td>
     <td><span class="noir">ジャヴェ</span></td>
     <td></td>
 </tr>
 <tr>
     <td><span class="bleu">tu avais</span></td>
-    <td><span class="noir">君は、持った</span></td>
+    <td><span class="noir">君は、持っていた</span></td>
     <td><span class="noir">チュ・アヴェ</span></td>
     <td></td>
 </tr>
 <tr>
     <td><span class="bleu">il/elle/on avait	</span></td>
-    <td><span class="noir">彼／彼女／私たちは、持った</span></td>
+    <td><span class="noir">彼／彼女／私たちは、持っていた</span></td>
     <td><span class="noir">イラヴェ／エラヴェ／オナヴェ</span></td>
     <td></td>
 </tr>
 <tr>
     <td><span class="bleu">nous avions</span></td>
-    <td><span class="noir">私たちは、持った</span></td>
+    <td><span class="noir">私たちは、持っていた</span></td>
     <td><span class="noir">ヌザヴィオン</span></td>
     <td></td>
     </tr>
 <tr>
     <td><span class="bleu">vous aviez</span></td>
-    <td><span class="noir">あなたは、持った</span></td>
+    <td><span class="noir">あなたは、持っていた</span></td>
     <td><span class="noir">ヴザヴィエ</span></td>
     <td></td>
 </tr>
 <tr>
     <td><span class="bleu">ils/elles avaient</span></td>
-    <td><span class="noir">彼ら／彼女らは、持った</span></td>
+    <td><span class="noir">彼ら／彼女らは、持っていた</span></td>
     <td><span class="noir">イルザヴェ／エルザヴェ</span></td>
     <td></td>
 </tr>
@@ -420,6 +420,30 @@ letter-spacing: inherit;
         <td><span class="bleu">Des que j'aurai depose mes bagages, je partirai.</span></td>
         <td><span class="noir">荷物を預けたらすぐに、私は出発します</span></td>
         <td><span class="noir">デ・ク・ジョレ・デポ・メ・バガージュ　ジュ・パルティレ</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Puis-je avoir de l’eau s’il vous plaît? </span></td>
+        <td><span class="noir">お水をいただけますか</span></td>
+        <td><span class="noir">プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Merci de m’avoir accordé du temps.</span></td>
+        <td><span class="noir">お時間をいただきありがとうございます</span></td>
+        <td><span class="noir">メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Vous avez ma parole.</span></td>
+        <td><span class="noir">お約束します</span></td>
+        <td><span class="noir">ヴザベ・マ・パロル</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Il n'y a plus de lait, il faut en acheter.</span></td>
+        <td><span class="noir">もう牛乳がないから買わなくては</span></td>
+        <td><span class="noir">イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ</span></td>
         <td></td>
     </tr>
 </tbody>
