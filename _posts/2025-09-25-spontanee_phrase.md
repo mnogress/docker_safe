@@ -131,3 +131,15 @@ letter-spacing: inherit;
 | <span class="bleu">Le repas est à quelle heure?</span>   |食事は、何時ですか。|ルレパ・エ・ア・ケラー|英：When is the meal?|
 | <span class="bleu">Je rentre chez moi.</span>   |家に帰ります。|ジュ・ラントレ・シェ・モア|英：I am going home.|
 | <span class="bleu">Pouvez-vous m'entendre?</span>   |聞こえますか。|プヴェ・ヴ・マントンドル|英：Can you hear me?|
+| <span class="bleu">Ne vous inquietez pas</span>   |ご心配なく|ヌ・ヴ・ザンキエテ・パ|英：Don't worry. (formal)|
+| <span class="bleu">Ne t'inquiète pas.</span>   |心配しないで|タンキエット・パ|英：Don't worry. (informal)|
+| <span class="bleu">T'inquiete!</span>   |心配ない|タンキエット！ |英：No worry. (informal)|
+| <span class="bleu">Je n'ai plus le temps.</span>   |もう時間がないんです|ジュ・ネ・プリュ・ル・タン|英：I don't have any more time.|
+| <span class="bleu">C'est le mien.</span>   |わたしのです|セルミアン|英：It's mine.|
+| <span class="bleu">Il est ouvert jusqu'à huit heures.</span>   |それは8時まで開いています|イレ・ウヴェー・ジュスカ・ウィッター|英：It's open untill 8 o'clock.|
+| <span class="bleu">J’ai compris.</span>   |分かりました|ジェィ・コンプリ|英：I understand.|
+| <span class="bleu">Restez en arrière.</span>   |さっがって|ルステ・ズアン・アリエール|英：Stay back.|
+| <span class="bleu">Je suis content(e) de l’entendre. </span>   |それは良かった|ジュ・スイ・コンタン（ト）・ドゥ・ラントゥンドゥル|英：I am happy to hear that.|
+| <span class="bleu">Je suis d'accord avec votre plan.</span>   |あなたのプランに賛成です|ジュ・スイ・ダカード・アヴェック・ヴォトル・プラン|英：I agree with your plan.|
+| <span class="bleu">Mais je pense qu'il a raison.</span>   |でも、彼が正しいと思います|メ・ジュ・ポンス・キル・ア・れゾン|英： But I think he is right.|
+| <span class="bleu">Je ne pense pas que ce soit une bonne idée.</span>   |それは、いいアイデアとは思いません|ジュ・ヌ・パンツ・パ・ク・スワ・ユーヌ・ボンヌ・イデー|英： I don't think it is a good idea.|
