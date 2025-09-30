@@ -258,7 +258,7 @@ letter-spacing: inherit;
     </thead>
 <tbody>
     <tr>
-        <td><span class="bleu">Je me couche a 11 heures.</span></td>
+        <td><span class="bleu">Je me couche à 11 heures.</span></td>
         <td><span class="noir">私は11時に寝る。</span></td>
         <td><span class="noir">ジュム・クシェ・ア・オンザー</span></td>
         <td></td>
