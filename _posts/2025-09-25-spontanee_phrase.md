@@ -143,3 +143,8 @@ letter-spacing: inherit;
 | <span class="bleu">Je suis d'accord avec votre plan.</span>   |あなたのプランに賛成です|ジュ・スイ・ダカード・アヴェック・ヴォトル・プラン|英：I agree with your plan.|
 | <span class="bleu">Mais je pense qu'il a raison.</span>   |でも、彼が正しいと思います|メ・ジュ・ポンス・キル・ア・れゾン|英： But I think he is right.|
 | <span class="bleu">Je ne pense pas que ce soit une bonne idée.</span>   |それは、いいアイデアとは思いません|ジュ・ヌ・パンツ・パ・ク・スワ・ユーヌ・ボンヌ・イデー|英： I don't think it is a good idea.|
+| <span class="bleu">Puis-je avoir de l’eau s’il vous plaît?</span>   |お水をいただけますか|プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ|英： Can I have some water?|
+| <span class="bleu">Merci de m’avoir accordé du temps.</span>   |お時間をいただきありがとうございます|メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン|英： Thank you for your time.|
+| <span class="bleu">Vous avez ma parole.</span>   |お約束します|ヴザベ・マ・パロル|英： You have my word.|
+| <span class="bleu">Il n'y a plus de lait, il faut en acheter.</span>   |もう牛乳がないから買わなくては|イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ|英： There is no milk, it has to be bought.|
+| <span class="bleu">・Tu penses à tes vacances?<br>・Oui, j'y pense.<br>・Non, je n'y pense pas.</span>   |・君はバカンスのことを考えているの<br>・はい、私はそのことを考えています<br>・いいえ、私はそのことを考えていません|・チュ・ポンス・ア・テ・ヴァカンス<br>・ウイ・ジィ・ポンス<br>・ノン・ジェ・ニィ・ポンス・パ|à ～を　y で受ける|
