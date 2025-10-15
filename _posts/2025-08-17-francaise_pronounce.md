@@ -17,7 +17,7 @@ sidebar:
 tag: ["French", "フランス語学習"]
 category: français
 date: 2025-08-17
-last_modified_at : 2025-08-22 13:00:00
+last_modified_at : 2025-10-16 09:00:00
 ---
 フランス語の発音は美しく魅力的ですが、初めて学ぶ方にとっては少し難しく感じるかもしれません。特に母音字の読み方には独特のルールがあります。<!--more-->このガイドでは、初心者の方がつまずきやすい母音字の発音や必須発音
 を、わかりやすく例とともに紹介します。
@@ -127,9 +127,9 @@ t<span class="rouge">om</span>ber「トンベ」(倒れる)
 </tr>
 <tr>
 <td>ail</td>
-<td><span class="bleu">アイユ</span> </td>
-<td>le trav<span class="rouge">ail</span>le「ル・トラバイユ」(仕事)<br>le m<span class="rouge">ail</span>lot「ル・マイヨ」(ジャージ、水着)<br>
-la t<span class="rouge">ail</span>le「ラ・タイユ」(サイズ)
+<td><span class="bleu">アユ</span> </td>
+<td>le trav<span class="rouge">ail</span>le「ル・トラバユ」(仕事)<br>le m<span class="rouge">ail</span>lot「ル・マヨ」(ジャージ、水着)<br>
+la t<span class="rouge">ail</span>le「ラ・タユ」(サイズ)
 </td>
 </tr>
 <tr>
@@ -137,6 +137,14 @@ la t<span class="rouge">ail</span>le「ラ・タイユ」(サイズ)
 <td><span class="bleu">エイユ</span> </td>
 <td>la bout<span class="rouge">ei</span>lle「ラ・ブティユ」(ボトル)<br>par<span class="rouge">eil</span>「パレイユ」(同様な)<br>
 somm<span class="rouge">eil</span>「ソメイユ」(眠り)
+</td>
+</tr>
+<tr>
+<td>ai</td>
+<td><span class="bleu">エ</span> </td>
+<td>japon<span class="rouge">ai</span>s「ジャポネ」(日本の、日本語)<br>c'et<span class="rouge">ai</span>t「セテ」(～だった)<br>
+vr<span class="rouge">ai</span>「ヴレ」(本当の)<br>je s<span class="rouge">ai</span>s「ジェセ」(私は知っている)<br>
+parf<span class="rouge">ai</span>t「パフェ」(完全の)
 </td>
 </tr>
 </tbody>
