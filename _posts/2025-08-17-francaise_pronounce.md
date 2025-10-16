@@ -143,7 +143,7 @@ somm<span class="rouge">eil</span>「ソメイユ」(眠り)
 <td>ai</td>
 <td><span class="bleu">エ</span> </td>
 <td>japon<span class="rouge">ai</span>s「ジャポネ」(日本の、日本語)<br>c'et<span class="rouge">ai</span>t「セテ」(～だった)<br>
-vr<span class="rouge">ai</span>「ヴレ」(本当の)<br>je s<span class="rouge">ai</span>s「ジェセ」(私は知っている)<br>
+vr<span class="rouge">ai</span>「ヴレ」(本当の)<br>je s<span class="rouge">ai</span>s「ジユセ」(私は知っている)<br>
 parf<span class="rouge">ai</span>t「パフェ」(完全の)
 </td>
 </tr>
