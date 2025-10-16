@@ -129,7 +129,8 @@ t<span class="rouge">om</span>ber「トンベ」(倒れる)
 <td>ail</td>
 <td><span class="bleu">アユ</span> </td>
 <td>le trav<span class="rouge">ail</span>le「ル・トラバユ」(仕事)<br>le m<span class="rouge">ail</span>lot「ル・マヨ」(ジャージ、水着)<br>
-la t<span class="rouge">ail</span>le「ラ・タユ」(サイズ)
+la t<span class="rouge">ail</span>le「ラ・タユ」(サイズ)<br>
+la méd<span class="rouge">ail</span>le「ラ・メダイユ」(メダル)
 </td>
 </tr>
 <tr>
@@ -142,7 +143,9 @@ somm<span class="rouge">eil</span>「ソメイユ」(眠り)
 <tr>
 <td>ai</td>
 <td><span class="bleu">エ</span> </td>
-<td>japon<span class="rouge">ai</span>s「ジャポネ」(日本の、日本語)<br>c'et<span class="rouge">ai</span>t「セテ」(～だった)<br>
+<td>J'<span class="rouge">ai</span>「ジェ」(私は持っている)<br>
+japon<span class="rouge">ai</span>s「ジャポネ」(日本の、日本語)<br>
+c'et<span class="rouge">ai</span>t「セテ」(～だった)<br>
 vr<span class="rouge">ai</span>「ヴレ」(本当の)<br>je s<span class="rouge">ai</span>s「ジュセ」(私は知っている)<br>
 parf<span class="rouge">ai</span>t「パフェ」(完全の)
 </td>
