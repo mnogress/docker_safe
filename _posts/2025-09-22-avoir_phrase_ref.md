@@ -143,7 +143,7 @@ letter-spacing: inherit;
     <td rowspan="6">現在形</td>
     <td><span class="bleu">j'ai</span></td>
     <td><span class="noir">私は、持つ</span></td>
-    <td><span class="noir">ジェイ</span></td>
+    <td><span class="noir">ジェ</span></td>
     <td></td>
 </tr>
 <tr>
@@ -266,7 +266,7 @@ letter-spacing: inherit;
     <td rowspan="6">複合過去</td>
     <td><span class="bleu">j'ai eu</span></td>
     <td><span class="noir">私は、持った</span></td>
-    <td><span class="noir">ジェイ・ユ</span></td>
+    <td><span class="noir">ジェ・ユ</span></td>
     <td></td>
 </tr>
 <tr>
@@ -323,13 +323,13 @@ letter-spacing: inherit;
     <tr>
         <td><span class="bleu">J’ai faim/soif.</span></td>
         <td><span class="noir">お腹が空いた／喉が渇いた</span></td>
-        <td><span class="noir">ジェイ・ファんム／ソワㇷ</span></td>
+        <td><span class="noir">ジェ・ファんム／ソワㇷ</span></td>
         <td></td>
     </tr>
     <tr>
         <td><span class="bleu">J’ai chaud (/ froid). </span></td>
         <td><span class="noir">私は、暑い／寒い。</span></td>
-        <td><span class="noir">ジェイ・ショ（／フロワ）</span></td>
+        <td><span class="noir">ジェ・ショ（／フロワ）</span></td>
         <td></td>
     </tr>
     <tr>
@@ -365,7 +365,7 @@ letter-spacing: inherit;
     <tr>
         <td><span class="bleu">J'ai 25 ans, et toi?</span></td>
         <td><span class="noir">私は25歳です。君は？</span></td>
-        <td><span class="noir">ジェイ・ヴァンサンカン　エトワ</span></td>
+        <td><span class="noir">ジェ・ヴァンサンカン　エトワ</span></td>
         <td>英：I am 25 years old, and you?</td>
     </tr>
     <tr>
@@ -395,7 +395,7 @@ letter-spacing: inherit;
     <tr>
         <td><span class="bleu">J'ai besoin d'un nouveau micro-ondes.</span></td>
         <td><span class="noir">新しい電子レンジが必要です。</span></td>
-        <td><span class="noir">ジェイ・ブズワン・ドゥ・ヌーボ・ミクロオンド</span></td>
+        <td><span class="noir">ジェ・ブズワン・ドゥ・ヌーボ・ミクロオンド</span></td>
         <td>avoir besoin de ～：～が必要です</td>
     </tr>
     <tr>
