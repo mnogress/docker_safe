@@ -111,12 +111,12 @@ letter-spacing: inherit;
 以下が活用表です。ここでは、不定詞・直接法現在・単純未来・半過去・複合過去の活用を紹介します。　ポイントは以下になります。
 
 1. 所有・所属:「家を持つ」「子供がいる」のように、物理的なものや人間関係を所有していることを示します。<br>
-   <span class="bleu">  a)  J'ai un chat (私は猫を飼っている、ジェイ・アン・シャ)。</span>
+   <span class="bleu">  a)  J'ai un chat (私は猫を飼っている、ジェ・アン・シャ)。</span>
 2. 状態・体調・年齢:フランス語では年齢を「〇〇歳を持っている」と表現するため、avoirを使います。<br>
-   <span class="bleu">  a) J'ai faim (空腹だ　ジェイ・ファム)</span><br>
-   <span class="bleu">  b) J'ai dix-huit ans (私は18歳だ、ジェイ・ディスウィタン)。</span><br>
+   <span class="bleu">  a) J'ai faim (空腹だ　ジェ・ファム)</span><br>
+   <span class="bleu">  b) J'ai dix-huit ans (私は18歳だ、ジェ・ディスウィタン)。</span><br>
 3. 助動詞として:他の動詞の過去分詞と結びついて、複合過去（「～した」）を作ります。<br>
-   <span class="bleu">  a) J'ai mange (私は食べた、ジェイ・モンジェ)</span><br>
+   <span class="bleu">  a) J'ai mange (私は食べた、ジェ・モンジェ)</span><br>
 
 <span class="rouge">英語の"be動詞"にあたるetreとともに、フランス語の基本的な文を理解するために不可欠な動詞です。</span><br>
 
