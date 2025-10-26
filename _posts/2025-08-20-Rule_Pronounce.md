@@ -210,3 +210,25 @@ letter-spacing: inherit;
 |le proj<span class="rouge2">e</span><span class="bleu2">t</span>|ル・プロジェ|計画・プロジェクト|「プロジェット」ではない|
 |le ball<span class="rouge2">e</span><span class="bleu2">t</span>|ル・バレ|バレエ（踊りの）||
 |vous chant<span class="rouge2">e</span><span class="bleu2">z</span>|ヴ・シャンテ|あなたは、歌います|***vous の活用語尾***|
+
+
+### 8. 語末の「e」（ウー」は発音しません。最後に発音する音は、最終の「e」の前のものです。
+
+|つづり字 |発音 |日本語訳 |コメント |
+| :-----       | :----       | :-----       | :-----      |
+|un<span class="rouge2">e</span>|ユヌ|一つの|（女性名詞）|
+|petit<span class="rouge2">e|プティット|小さい|（女性形）|
+|la port<span class="rouge2">e</span>|ラ・ポルト|ドア||
+|la salad<span class="rouge2">e|ラ・サラッド|サラダ||
+
+### 9.語末の「e」が先の子音字が一つのため、語として発音しにくいので、弱く「ゥ」と発音される
+
+|つづり字 |発音 |日本語訳 |コメント |
+| :-----       | :----       | :-----       | :-----      |
+|j<span class="rouge2">e</span>|ジュ|私|（弱く「ゥ」）|
+|d<span class="rouge2">e|ドゥ|～の、～から||
+|c<span class="rouge2">e</span>|スゥ|これ、それ||
+|qu<span class="rouge2">e|クゥ|～ということ||
+|s<span class="rouge2">e|スゥ|自分自身|再帰代名詞　「セ」と発音しない|
+|t<span class="rouge2">e|トゥ|君を、君に|「デ」と発音しない|
+|r<span class="rouge2">e|ʁə（ʁは喉音）|再～|接頭辞|
