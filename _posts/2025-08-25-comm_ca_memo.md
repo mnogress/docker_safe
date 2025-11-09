@@ -2,7 +2,7 @@
 layout: single
 title: そのまま覚えるフランス語の文例 ～ aller ～
 header:
-  overlay_image: images/header_J.png
+  overlay_image: images/header_fr5_1280by336.png
   overlay_filter: rgba(97, 24, 92, 0.22)
 toc: True
 toc_label: "目次"
