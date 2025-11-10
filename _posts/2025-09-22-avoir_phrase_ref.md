@@ -2,7 +2,7 @@
 layout: single
 title: そのまま覚えるフランス語の文例 ～ avoir ～
 header:
-  overlay_image: images/header_X12_1280by336.png
+  overlay_image: images/header_fr1_1280by336.png
   overlay_filter: rgba(97, 24, 92, 0.22)
 toc: True
 toc_label: "目次"
@@ -111,12 +111,12 @@ letter-spacing: inherit;
 以下が活用表です。ここでは、不定詞・直接法現在・単純未来・半過去・複合過去の活用を紹介します。　ポイントは以下になります。
 
 1. 所有・所属:「家を持つ」「子供がいる」のように、物理的なものや人間関係を所有していることを示します。<br>
-   <span class="bleu">  a)  J'ai un chat (私は猫を飼っている、ジェイ・アン・シャ)。</span>
+   <span class="bleu">  a)  J'ai un chat (私は猫を飼っている、ジェ・アン・シャ)。</span>
 2. 状態・体調・年齢:フランス語では年齢を「〇〇歳を持っている」と表現するため、avoirを使います。<br>
-   <span class="bleu">  a) J'ai faim (空腹だ　ジェイ・ファム)</span><br>
-   <span class="bleu">  b) J'ai dix-huit ans (私は18歳だ、ジェイ・ディスウィタン)。</span><br>
+   <span class="bleu">  a) J'ai faim (空腹だ　ジェ・ファム)</span><br>
+   <span class="bleu">  b) J'ai dix-huit ans (私は18歳だ、ジェ・ディスウィタン)。</span><br>
 3. 助動詞として:他の動詞の過去分詞と結びついて、複合過去（「～した」）を作ります。<br>
-   <span class="bleu">  a) J'ai mange (私は食べた、ジェイ・モンジェ)</span><br>
+   <span class="bleu">  a) J'ai mange (私は食べた、ジェ・モンジェ)</span><br>
 
 <span class="rouge">英語の"be動詞"にあたるetreとともに、フランス語の基本的な文を理解するために不可欠な動詞です。</span><br>
 
@@ -143,7 +143,7 @@ letter-spacing: inherit;
     <td rowspan="6">現在形</td>
     <td><span class="bleu">j'ai</span></td>
     <td><span class="noir">私は、持つ</span></td>
-    <td><span class="noir">ジェイ</span></td>
+    <td><span class="noir">ジェ</span></td>
     <td></td>
 </tr>
 <tr>
@@ -266,7 +266,7 @@ letter-spacing: inherit;
     <td rowspan="6">複合過去</td>
     <td><span class="bleu">j'ai eu</span></td>
     <td><span class="noir">私は、持った</span></td>
-    <td><span class="noir">ジェイ・ユ</span></td>
+    <td><span class="noir">ジェ・ユ</span></td>
     <td></td>
 </tr>
 <tr>
@@ -323,13 +323,13 @@ letter-spacing: inherit;
     <tr>
         <td><span class="bleu">J’ai faim/soif.</span></td>
         <td><span class="noir">お腹が空いた／喉が渇いた</span></td>
-        <td><span class="noir">ジェイ・ファんム／ソワㇷ</span></td>
+        <td><span class="noir">ジェ・ファんム／ソワㇷ</span></td>
         <td></td>
     </tr>
     <tr>
         <td><span class="bleu">J’ai chaud (/ froid). </span></td>
         <td><span class="noir">私は、暑い／寒い。</span></td>
-        <td><span class="noir">ジェイ・ショ（／フロワ）</span></td>
+        <td><span class="noir">ジェ・ショ（／フロワ）</span></td>
         <td></td>
     </tr>
     <tr>
@@ -365,7 +365,7 @@ letter-spacing: inherit;
     <tr>
         <td><span class="bleu">J'ai 25 ans, et toi?</span></td>
         <td><span class="noir">私は25歳です。君は？</span></td>
-        <td><span class="noir">ジェイ・ヴァンサンカン　エトワ</span></td>
+        <td><span class="noir">ジェ・ヴァンサンカン　エトワ</span></td>
         <td>英：I am 25 years old, and you?</td>
     </tr>
     <tr>
@@ -395,7 +395,7 @@ letter-spacing: inherit;
     <tr>
         <td><span class="bleu">J'ai besoin d'un nouveau micro-ondes.</span></td>
         <td><span class="noir">新しい電子レンジが必要です。</span></td>
-        <td><span class="noir">ジェイ・ブズワン・ドゥ・ヌーボ・ミクロオンド</span></td>
+        <td><span class="noir">ジェ・ブズワン・ドゥ・ヌーボ・ミクロオンド</span></td>
         <td>avoir besoin de ～：～が必要です</td>
     </tr>
     <tr>

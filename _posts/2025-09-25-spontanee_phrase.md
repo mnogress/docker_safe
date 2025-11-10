@@ -2,7 +2,7 @@
 layout: single
 title: 口で覚えるフランス語　～とっさの表現集～
 header:
-  overlay_image: images/header_Z_1280by336.png
+  overlay_image: images/header_fr2_1280by336.png
   overlay_filter: rgba(97, 24, 92, 0.22)
 toc: True
 toc_label: "目次"
@@ -147,5 +147,4 @@ letter-spacing: inherit;
 | <span class="bleu">Merci de m’avoir accordé du temps.</span>   |お時間をいただきありがとうございます|メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン|英： Thank you for your time.|
 | <span class="bleu">Vous avez ma parole.</span>   |お約束します|ヴザベ・マ・パロル|英： You have my word.|
 | <span class="bleu">Il n'y a plus de lait, il faut en acheter.</span>   |もう牛乳がないから買わなくては|イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ|英： There is no milk, it has to be bought.|
-| <span class="bleu">・Tu penses à tes vacances?<br>・Oui, j'y pense.<br>・Non, je n'y pense pas.</span>   |・君はバカンスのことを考えているの<br>・はい、私はそのことを考えています<br>・いいえ、私はそのことを考えていません|・チュ・ポンス・ア・テ・ヴァカンス<br>・ウイ・ジィ・ポンス<br>・ノン・ジェ・ニィ・ポンス・パ|à ～を　y で受ける|
-| <span class="bleu">Ce ne sera pas facile.</span>   |それは難しいかもしれません|セ・ネ・セラ・パ・ファシル|英： That could be difficult.|
+| <span class="bleu">・Tu penses à tes vacances?<br>・Oui, j'y pense.<br>・Non, je n'y pense pas.</span>   |・君はバカンスのことを考えているの<br>・はい、私はそのことを考えています<br>・いいえ、私はそのことを考えていません|・チュ・ポンス・ア・テ・ヴァカンス<br>・ウイ・ジィ・ポンス<br>・ノン・ジェ・ニィ・ポンス・パ|・à ～を　y で受ける<br>・ j'y は <span class="rouge">「ジィ」と読む。</span><br>・「ジェ・イ」は間違い。|

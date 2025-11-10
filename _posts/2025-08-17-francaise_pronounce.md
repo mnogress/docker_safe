@@ -2,7 +2,7 @@
 layout: single
 title: フランス語の母音字発音ガイド（初級者向け）
 header:
-  overlay_image: images/header_L.png
+  overlay_image: images/header_fr2_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.40)
 toc: true
 toc_label: "目次"

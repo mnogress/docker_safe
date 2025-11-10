@@ -2,7 +2,7 @@
 layout: single
 title: つづりと発音の規則
 header:
-  overlay_image: images/header_A4.png
+  overlay_image: images/header_fr6_1280by336.png
   overlay_filter: rgba(97, 24, 92, 0.22)
 toc: True
 toc_label: "目次"
@@ -129,22 +129,22 @@ letter-spacing: inherit;
 
 <span class="rouge">朱字</span>が発音**する**語尾の子音字になります。
 
-| つづり字 | 発音 | 日本語訳 |
-| :-----       | :----       | :-----       | 
-| ave<span class="rouge">c</span>   |アヴェク|〜ともに|
-| par<span class="rouge">c</span>   |パルク|公園|
-| sa<span class="rouge">c</span>   |サック|かばん|
-| acti<span class="rouge">f</span>   |アクティフ|活発な<br> <span class="petit">*活用の一覧;<br> ・男性単数形: actif(アクティフ)<br>・男性複数形: actifs(アクティフ)<br>・女性単数形: active(アクティヴ)<br>・女性複数形: actives(アクティヴ)*</span>|
-| che<span class="rouge">f</span>   |シェフ|上司|
-| péri<span class="rouge">l</span>   |ぺリル|危険|
-| se<span class="rouge">l</span>   |セル|塩|
- che<span class="rouge">r</span>   |シェール|高価な<br> <span class="petit">*活用の一覧;<br> ・男性単数形: cher(シェール)<br>・男性複数形: chers(シェール)<br>・女性単数形: chere(シェール)<br>・女性複数形: cheres(シェール)*</span>|
-| me<span class="rouge">r</span>   |メール|海|
-| o<span class="rouge">r</span>   |オール|金、ゴールド|
-| bu<span class="rouge">s</span>   |ブゥス|バス|
+| つづり字 | 発音 | 日本語訳 | 補足|
+| :-----       | :----       | :-----       |  | :-----       |
+| ave<span class="rouge">c</span>   |アヴェク|〜ともに||
+| par<span class="rouge">c</span>   |パルク|公園||
+| sa<span class="rouge">c</span>   |サック|かばん||
+| acti<span class="rouge">f</span>   |アクティフ|活発な |・男性単数形: actif(アクティフ)<br>・男性複数形: actifs(アクティフ)<br>・女性単数形: active(アクティヴ)<br>・女性複数形: actives(アクティヴ)|
+| che<span class="rouge">f</span>   |シェフ|上司||
+| péri<span class="rouge">l</span>   |ぺリル|危険||
+| se<span class="rouge">l</span>   |セル|塩||
+ che<span class="rouge">r</span>   |シェール|高価な|・男性単数形: cher(シェール)<br>・男性複数形: chers(シェール)<br>・女性単数形: chere(シェール)<br>・女性複数形: cheres(シェール)|
+| me<span class="rouge">r</span>   |メール|海||
+| o<span class="rouge">r</span>   |オール|金、ゴールド||
+| bu<span class="rouge">s</span>   |ブゥス|バス||
 
 
-### ３．複数形の s は例外なく発音しない
+### ３．複数形の 「s」 は例外なく発音しない
 
 単数形なのか複数形なのか聞いただけでは区別できません。冠詞・所有格で「後ろの」名詞の単複を判別できます。
 
@@ -156,9 +156,9 @@ letter-spacing: inherit;
 
 [^1]: ma amie だと母音字が重(母音字衝突)なるのを避けるため mon amie となる。
 
-### ４．h は発音しない
+### ４．「h」 は発音しない
 
-h 自体は、どのような場合でも発音しない。
+「h」 自体は、どのような場合でも発音しない。
 英語やローマ字の習慣があると、つい「h」を発音しようとしてしまいます。「homme（男）」は「オム」と発音され、「h」は完全に無視されます。英語の「home」やローマ字の「ほむ」といった読み方に慣れていると、「h」を読まないことに戸惑いが生じるのは自然なことです。
 
 |つづり字 |発音 |日本語訳 |コメント |
@@ -181,7 +181,7 @@ h 自体は、どのような場合でも発音しない。
 |aujourd'hui|オジュルデュイ|今日||
 |histoire|イストワール|歴史|faire de l'histoire (フェア・ドゥ・リストワール)「歴史学を研究する」|
 
-### e「ウー」 の後に子音字が二つ並べば「エ」と読む
+### ５. 「e」（ウー） の後に子音字が二つ並べば「エ」と読む
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
@@ -191,7 +191,7 @@ h 自体は、どのような場合でも発音しない。
 |<span class="rouge2">e</span><span class="bleu2">ll</span>|エル|彼女||
 |une f<span class="rouge2">e</span><span class="bleu2">mm</span>e|ウヌ・ファム|一人の女性|**例外**|
 
-### e「ウー」 の後に子音字が一つだけなら「ウ」と読む
+### ６．「e」（ウー）の後に子音字が一つだけなら「ウ」と読む
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
@@ -202,7 +202,7 @@ h 自体は、どのような場合でも発音しない。
 |mercr<span class="rouge2">e</span><span class="bleu2">d</span>i|メルクルディ|水曜日||
 
 
-### e「ウー」のあとに子音字が置かれ、それが最後の音節だと「エ」と読む
+### ７. 「e」（ウー）のあとに子音字が置かれ、それが最後の音節だと「エ」と読む
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
@@ -210,3 +210,25 @@ h 自体は、どのような場合でも発音しない。
 |le proj<span class="rouge2">e</span><span class="bleu2">t</span>|ル・プロジェ|計画・プロジェクト|「プロジェット」ではない|
 |le ball<span class="rouge2">e</span><span class="bleu2">t</span>|ル・バレ|バレエ（踊りの）||
 |vous chant<span class="rouge2">e</span><span class="bleu2">z</span>|ヴ・シャンテ|あなたは、歌います|***vous の活用語尾***|
+
+
+### 8. 語末の「e」「ウー」は発音しません。最後に発音する音は、最終の「e」の前のものです。
+
+|つづり字 |発音 |日本語訳 |コメント |
+| :-----       | :----       | :-----       | :-----      |
+|un<span class="rouge2">e</span>|ユヌ|一つの|（女性名詞）|
+|petit<span class="rouge2">e|プティット|小さい|（女性形）|
+|la port<span class="rouge2">e</span>|ラ・ポルト|ドア||
+|la salad<span class="rouge2">e|ラ・サラッド|サラダ||
+
+### 9.語末の「e」が先の子音字が一つのため、語として発音しにくいので、弱く「ゥ」と発音される
+
+|つづり字 |発音 |日本語訳 |コメント |
+| :-----       | :----       | :-----       | :-----      |
+|j<span class="rouge2">e</span>|ジュ|私|（弱く「ゥ」）|
+|d<span class="rouge2">e|ドゥ|～の、～から||
+|c<span class="rouge2">e</span>|スゥ|これ、それ||
+|qu<span class="rouge2">e|クゥ|～ということ||
+|s<span class="rouge2">e|スゥ|自分自身|再帰代名詞　「セ」と発音しない|
+|t<span class="rouge2">e|トゥ|君を、君に|「デ」と発音しない|
+|r<span class="rouge2">e|ʁə（ʁは喉音）|再～|接頭辞|
