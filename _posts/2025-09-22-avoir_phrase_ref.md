@@ -345,10 +345,10 @@ letter-spacing: inherit;
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Vous aves peru.</span></td>
-        <td><span class="noir">あなたは、怖い</span></td>
-        <td><span class="noir">ヴザヴェ・プール</span></td>
-        <td></td>
+        <td><span class="bleu">Vous aves perdu.</span></td>
+        <td><span class="noir">あなたの負け</span></td>
+        <td><span class="noir">ヴザヴェ・ペルデュ</span></td>
+        <td>英：You have lost.</td>
     </tr>
     <tr>
         <td><span class="bleu">Ils ont raison.</span></td>
