@@ -2,7 +2,7 @@
 layout: single
 title: que を含むフランス単語
 header:
-  overlay_image: images/header_fr9_1280by336.png
+  overlay_image: images/header_fr10_1280by336.png
   overlay_filter: rgba(97, 24, 92, 0.22)
 toc: True
 toc_label: "目次"
