@@ -1,6 +1,6 @@
 ---
 layout: single
-title: que を含むフランス単語　～ｘｘが含むフランス単語～
+title: que を含むフランス単語
 header:
   overlay_image: images/header_fr2_1280by336.png
   overlay_filter: rgba(97, 24, 92, 0.22)
