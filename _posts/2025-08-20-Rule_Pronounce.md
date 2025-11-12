@@ -3,7 +3,7 @@ layout: single
 title: つづりと発音の規則
 header:
   overlay_image: images/header_fr6_1280by336.png
-  overlay_filter: rgba(97, 24, 92, 0.22)
+  overlay_filter: rgba(97, 24, 92, 0.44)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
