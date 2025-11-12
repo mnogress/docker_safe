@@ -119,7 +119,7 @@ letter-spacing: inherit;
 | :-----         | :----         | :-----         | :-----        |
 | <span class="bleu">que</span>stion   |ケスチョン|質問 ㊛|英語読みの'クエスチョン'ではない|
 | <span class="bleu">que</span>l, <span class="bleu">que</span>lle  |ケル |どのような，どのくらいの||
-| <span class="bleu">que</span>l<span class="bleu">que</span> chose |ケルクショーズ|何か|英：something|
+| <span class="bleu">que</span>l <span class="bleu">que</span> chose |ケルクショーズ|何か|英：something|
 | <span class="bleu">Que</span>l âge avez-vous ?|ケラージ・アヴェ・ヴ|あなたは何歳ですか||
 | <span class="bleu">Que</span>le heure est-il maintenant ?|ケラー・ア・ティル・マントゥナン|今何時ですか||
 | musi<span class="bleu">que</span>   |ミュズィク|音楽 ㊛|英：music|
@@ -159,7 +159,7 @@ letter-spacing: inherit;
 | つづり字 |読み方   | 日本語訳 |　英訳・コメント |
 | :-----         | :----         | :-----         | :-----        |
 | <span class="bleu">qua</span>rante 　　|カラーント|40の||
-| pi<span class="bleu">qua</span>ant pi<span class="bleu">qua</span>nte 　　|ピカン、ピカーント|辛い||
+| pi<span class="bleu">qua</span>nt pi<span class="bleu">qua</span>nte 　　|ピカン、ピカーント|辛い||
 | <span class="bleu">qua</span>siment 　　|カジム|ほとんど，ほぼ||
 | <span class="bleu">qua</span>lité 　　  |カリテ|質、品質||
 | <span class="bleu">qua</span>ntité　　  |カンティテ|量||
@@ -178,9 +178,9 @@ letter-spacing: inherit;
 | Pour<span class="bleu">quoi</span> pas?　　|プルコワ・パ|もちろん|英：Why not?|
 
 
-### q 単体を含むフランス単語
+### q 単体で使われるフランス単語
 
-単体で使う例外的な単語は以下のとおりです。
+**q**単体で使われる例外的な単語は以下のとおりです。
 
 | つづり字 |読み方   | 日本語訳 |　英訳・コメント |
 | :-----         | :----         | :-----         | :-----        |
