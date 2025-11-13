@@ -117,6 +117,8 @@ letter-spacing: inherit;
 
 | つづり字 |読み方   | 日本語訳 |　英訳・コメント |
 | :-----         | :----         | :-----         | :-----        |
+|Qu'est-ce <span class="bleu">que</span> tu as fait?|ケスクク・チュ・ア・フェ|何をやったのだ|<span class="bleu">Qu'as-tu fait?</span>　キュアスチュ・フェ|
+|Qu'est-ce <span class="bleu">que</span> ça veut dire? |ケスク・セ・サ・ヴゥ・ディール|それはどういう意味ですか||
 | <span class="bleu">que</span>stion   |ケスチョン|質問 ㊛|英語読みの'クエスチョン'ではない|
 | <span class="bleu">que</span>l, <span class="bleu">que</span>lle  |ケル |どのような，どのくらいの||
 | <span class="bleu">que</span>l <span class="bleu">que</span> chose |ケルクショーズ|何か|英：something|

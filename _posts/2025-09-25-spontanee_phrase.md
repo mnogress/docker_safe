@@ -238,3 +238,4 @@ letter-spacing: inherit;
 | <span class="bleu">Vous avez ma parole.</span>   |お約束します|ヴザベ・マ・パロル|英： You have my word.|
 | <span class="bleu">Il n'y a plus de lait, il faut en acheter.</span>   |もう牛乳がないから買わなくては|イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ|英： There is no milk, it has to be bought.|
 | <span class="bleu">・Tu penses à tes vacances?<br>・Oui, j'y pense.<br>・Non, je n'y pense pas.</span>   |・君はバカンスのことを考えているの<br>・はい、私はそのことを考えています<br>・いいえ、私はそのことを考えていません|・チュ・ポンス・ア・テ・ヴァカンス<br>・ウイ・ジィ・ポンス<br>・ノン・ジェ・ニィ・ポンス・パ|・à ～を　y で受ける<br>・ j'y は <span class="rouge">「ジィ」と読む。</span><br>・「ジェ・イ」は間違い。|
+| <span class="bleu">Ça depend des gens.</span>   |それは人によります。|サ・デパン・デ・ジャン|英： It depends on the people.|
