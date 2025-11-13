@@ -3,7 +3,7 @@ layout: single
 title: qu を含むフランス単語
 header:
   overlay_image: images/header_fr10_1280by336.png
-  overlay_filter: rgba(97, 24, 92, 0.45)
+  overlay_filter: rgba(107, 74, 43, 0.33)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
