@@ -128,7 +128,7 @@ letter-spacing: inherit;
 | vain<span class="bleu">que</span>ur  |ヴァンクール|勝利者 ㊚||
 | histori<span class="bleu">que</span> |イストリック|歴史上の||
 | dynami<span class="bleu">que</span> |ディナミック|活動的な||
-| sympathathi<span class="bleu">que</span> |サンパティック|感じの良い||
+| sympathi<span class="bleu">que</span> |サンパティック|感じの良い||
 | cli<span class="bleu">que</span>r |クリケ|クリックする|er動詞|
 | expli<span class="bleu">que</span>r |エクスプリケ|説明する|er動詞|
 | physi<span class="bleu">que</span>|フィズィック|物理学の、物理学 ㊛ ||
