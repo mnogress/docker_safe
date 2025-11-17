@@ -203,6 +203,9 @@ letter-spacing: inherit;
 
 | つづり字 | 日本語訳  | 読み方 |　英訳・コメント |
 | :-----         | :----         | :-----         | :-----        |
+| <span class="bleu">Excusez-moi, je n'ai pas bien compris. Pouvez-vous répéter, s'il vous plait ?</span>|エクスキュゼ・モワ　ジュ・ネ・パ・ビエン・コンプリ　プヴェヴ・レペテ　シルヴプレ|すみません。よく聞き取れませんでした。もう一度お願いします。|相手の言っていることがわからないと会話になりません。**必須表現**|
+| <span class="bleu">Qu'est-ce que tu viens de dire ?</span>|ケスク・チュ・ヴィヤン・ドゥ・ディール|今、何て言ったの？|英：What did you say?|
+| <span class="bleu">Parlez un peu plus lentement, s'il vous plait.</span>|パルレ・アンプ・プル・ロントモン　シルヴプレ|もう少し、ゆっくり喋ってください。|英：Please speak more slowly|
 | <span class="bleu">Peu importe.</span>   |気にしないで|プーアンポルトゥ|英：Never mind|
 | <span class="bleu">Vraiment ?</span>   |本当?|ブレモン？|英：Really ?|
 | <span class="bleu">C’est vrai ?</span>   |本当?|セ・ヴレィ？|英：Is that so ?|
