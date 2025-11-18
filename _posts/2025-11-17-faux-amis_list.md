@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-10-11
-last_modified_at : 2025-10-11 14:30:00
+last_modified_at : 2025-10-18 10:30:00
 ---
 
 「空似（ソラニ）」は、**異なる言語間で形は似ているが意味が異なる単語や成句**を指します。日本語では「空似言葉」、英語では **false friends**、フランス語では **faux-amis（偽りの友）** と呼ばれます。　
@@ -114,13 +114,16 @@ letter-spacing: inherit;
 
 フランス語学習者が英語の意味に引っ張られて誤解しやすい。語源が同じでも意味が変化している場合が多い。誤訳やコミュニケーションの誤解を防ぐため、**faux-amisリストを覚えることが必須**。
 
+
 | フランス語 |読み方   | 日本語訳 |　英語（訳） |コメント　|
 | :-----         | :----         | :-----         | :-----        | :-----        |
-| actuellement  | アクチュエルマン |現在、今<副詞> | actually (実際に)  ||
-| assister      | アシステ    |出席する    | assist (助ける)  ||
-| attendre      | アターンドル   |待つ  | attend (参加する) ||
+| actuellement  | アクチュエルマン |現在、今 | actually (実際に)  ||
+| assister      | アシステ    |出席する    | to assist (助ける)  ||
+| attendre      | アターンドル   |待つ  | to attend (参加する) ||
 | avertissement | アヴェールティスマン  |警告 ㊚ |  advertisement (広告) ||
-| blesser       | ブレセ    |傷つける    | bless (祝福する) ||
+| blesser       | ブレセ    |傷つける    | to bless (祝福する) ||
+| car           | キャール|（長距離）バス㊚| car (車)||
+| crier　       | クりエ  | 叫ぶ | to cry (泣く) ||
 | bras          | ブラ |腕 ㊚    | brass (真鍮) ||
 | cave          | カーヴ |地下のワイン貯蔵庫（＝cave à vin）| cave (洞窟)  ||
 | chair         | シェール |人間、動物の肉  ㊛ |chair (椅子)  ||
@@ -130,11 +133,13 @@ letter-spacing: inherit;
 | confident     | コンフィダン|秘密を打ち明けられる相手 |confident (自信を持って) ||
 | déception     | デセプシオン|失望|deception (失望)|フランス語表記になった英語|
 | demander      | ドゥマンデ|頼む、…を尋ねる|demand (要求) ||
-| désirer       | デズィレ|望む|desire (望む)|接続法で使われる|
-| dresser       | ドレセ|まっすぐに立てる，起こす|dress (服を着せる，服を着る)||
-| éventuel      | エヴァンチュエル|可能性のある  |eventual (最終的な)||
-| figure        | フィギュール|顔、人物 ㊛ |figure (姿、数字)||
-| injure        | アンジュール|悪口，ののしり言葉 ㊛|injury (傷つける)||
+| désirer       | デズィレ|望む| to desire (望む)|接続法で使われる|
+| dramatique    | ドラマティック|	深刻な、重大な |dramatic	(戯曲の、演劇の)||
+| dresser       | ドレセ|まっすぐに立てる，起こす| to dress (服を着せる，服を着る)||
+| éventuel      | エヴァンチュエル| 可能性のある、起こり得る  |eventual (最終的な)||
+| figure        | フィギュール| 顔、人物 ㊛ |figure (姿、数字)||
+| fixer         | フィクセ | 取り付ける、固定する | to fix (修理する)||
+| injure        | アンジュール|悪口，ののしり言葉 ㊛|to injury (傷つける)||
 | jour          | ジュール|日|journey (旅行) ||
 | lecture       | レクテュール|読書 ㊛|lecture (講義)||
 | librairie     | リブレリ|本屋 ㊛|library (図書館)||
@@ -144,19 +149,23 @@ letter-spacing: inherit;
 | occasion      | オカズィオン|機会 ㊛|occasion (機械)||
 | pain          | パン|パン ㊚|pain (苦痛)||
 | passer        | パッセ|通る、通過する |pass (合格) ||
+| petrole       | ペトロル | 石油　㊚ | petrol (ガソリン) |仏：essance エサンス =ガソリン|
 | phrase        | フラーズ|文 ㊛ |phrase (句)||
 | préservatif   | プレゼルヴァティフ ㊚|コンドーム|preservative (防腐剤)||
+| pretendre     | プれタンドル | ～と言い張る | to pretend (～のふりをする) ||
+| Professeur    | プロフェッスール|中高校の先生、大学の教授 ㊚|Professor	(大学の教授)||
+| propre / proprement| プロプル/プロップルモン	| 清潔な/清潔に　| proper / properly	(正しい/正しく)||
 | raisin        | レザン |ぶどう ㊚ |raisin (レーズン)||
-| réaliser      | レアリゼ|実現する|realize (気づく)||
+| réaliser      | レアリゼ|実現する| to realize (気づく)||
 | recette       | ルセット|レシピ ㊛|receipt (レシート)||
-| rester        | レステ|留まる|rest (休む)||
+| rester        | レステ|留まる| to rest (休む)||
 | sensible      | サンスィブル|敏感な|sensible (分別のある)||
 | sévère        | スヴェール|厳しい|severe (厳しい) ||
 | société       | ソスィエテ|社会、会社 ㊛|society (社会、協会)||
 | souvenir      | スヴニール|思い出 ㊚|souvenir (お土産)||
 | stage         | スタージュ|研修 ㊚|stage (ステージ)||
 | store         | ストゥール|日よけ、ブラインド　㊚|store (店)||
-| supporter     | スュポルテ|我慢する|support (支援)||
+| supporter     | スュポルテ|我慢する|to support (支援する)||
 | tissu         | ティスュ|布 ㊚|tissue (組織、ティッシュペーパー)||
 | travail       | トラヴァイユ|仕事 ㊚|travel（トラベル）||
 | wagon         | ヴァゴン|車両 ㊚|wagon (ワゴン)||
