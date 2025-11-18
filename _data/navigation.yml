@@ -10,15 +10,15 @@ main:
 docs:
   - title: よく読まれている記事
     children: 
-      - title: "フランス語学習者のための「空に言葉 (faux-amis)」"
+      - title: "✅フランス語学習者のための「空に言葉 (faux-amis)」"
         url: /français/faux-amis_list/
-      - title: "qu を含むフランス単語"
+      - title: "✅qu を含むフランス単語"
         url: /français/mot_qu_francaise/  
-      - title: "口で覚えるフランス語　～とっさの表現集～"
+      - title: "✅口で覚えるフランス語　～とっさの表現集～"
         url: /français/spontanee_phrase/    
-      - title: "そのまま覚えるフランス語の文例 ～ faire ～"
+      - title: "✅そのまま覚えるフランス語の文例 ～ faire ～"
         url: /français/faire_ca_memo/
-      - title: "そのまま覚えるフランス語の文例 ～ aller ～"
+      - title: "✅そのまま覚えるフランス語の文例 ～ aller ～"
         url: /français/comm_ca_memo/        
   - title: 関連記事
     children:
@@ -32,7 +32,7 @@ docs:
         url: /about/
       - title: "Conditions"
         url: /terms_and_conditions/
-      - title: "External Link"
-        url: https://google.com 
+      - title: "💡External Useful Link"
+        url: https://www.so-wi.com 
         target: _blank
 

@@ -9,7 +9,7 @@ Author:
   links:
     - label: "About Me"
       icon: "fa fa-user"
-      url: "https://southwiseman.blog/about/"
+      url: /about/
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://southwiseman.blog"
