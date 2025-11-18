@@ -203,12 +203,14 @@ letter-spacing: inherit;
 
 | つづり字 | 日本語訳  | 読み方 |　英訳・コメント |
 | :-----         | :----         | :-----         | :-----        |
-| <span class="bleu">Excusez-moi, je n'ai pas bien compris. Pouvez-vous répéter, s'il vous plait ?</span>|エクスキュゼ・モワ　ジュ・ネ・パ・ビエン・コンプリ　プヴェヴ・レペテ　シルヴプレ|すみません。よく聞き取れませんでした。もう一度お願いします。|相手の言っていることがわからないと会話になりません。**必須表現**|
-| <span class="bleu">Qu'est-ce que tu viens de dire ?</span>|ケスク・チュ・ヴィヤン・ドゥ・ディール|今、何て言ったの？|英：What did you say?|
-| <span class="bleu">Parlez un peu plus lentement, s'il vous plait.</span>|パルレ・アンプ・プル・ロントモン　シルヴプレ|もう少し、ゆっくり喋ってください。|英：Please speak more slowly|
-| <span class="bleu">Peu importe.</span>   |気にしないで|プーアンポルトゥ|英：Never mind|
-| <span class="bleu">Vraiment ?</span>   |本当?|ブレモン？|英：Really ?|
-| <span class="bleu">C’est vrai ?</span>   |本当?|セ・ヴレィ？|英：Is that so ?|
+| <span class="bleu">Excusez-moi, je n'ai pas bien compris. Pouvez-vous répéter, s'il vous plait ?</span>|すみません。よく聞き取れませんでした。もう一度お願いします。|エクスキュゼ・モワ　ジュ・ネ・パ・ビエン・コンプリ　プヴェヴ・レペテ　シルヴプレ|相手の言っていることがわからないと会話になりません。**わからなかったら聞き返す**|
+| <span class="bleu">Qu'est-ce que tu viens de dire ?</span>|今、何て言ったの？|ケスク・チュ・ヴィヤン・ドゥ・ディール|英：What did you say?|
+| <span class="bleu">Parlez un peu plus lentement, s'il vous plait.</span>|もう少し、ゆっくり喋ってください。|パルレ・アンプ・プル・ロントモン　シルヴプレ|英：Please speak more slowly|
+| <span class="bleu">De quoi parlez-vous ?</span>   |何の話ですか？|ドゥコア・パルレ・ヴ|英：What are you talking about?|
+| <span class="bleu">Je ne te comprends toujours pas.</span>   |まだあなたの言うことが理解できません。|ジュヌゥ・コンプロン・トゥジュー・パ|英：I still don't understand you.|
+| <span class="bleu">Pas de souci.</span>   |問題ないです。|パ・ドゥ・スシ|英：No problem|
+| <span class="bleu">Vraiment ?</span>   |本当？|ブレモン？|英：Really ?|
+| <span class="bleu">C’est vrai ?</span>   |本当？|セ・ヴレィ？|英：Is that so ?|
 | <span class="bleu">Au fait,</span>   |ところで、|オ・フェットゥ|英：By the way, |
 | <span class="bleu">De toute façon</span>   |とにかく、どっちにしろ|ドゥ・トゥート・ファッソン|英：Anyway |
 | <span class="bleu">Je pense que oui.</span>   |そう思います|ジュ・ポンス・ク・ウィ|英：I think so |
@@ -220,10 +222,10 @@ letter-spacing: inherit;
 | <span class="bleu">Je le pense, moi aussi.</span>   |その通りです。|ジュ・ル・ポンス・モア・オゥシ|英：I think so. |
 | <span class="bleu">C’est pas grave.</span>   |大丈夫です。|セパ・グレーヴ|英：I think so. |
 | <span class="bleu">Rien ne presse.</span>   |急ぐ必要はありません。|リアン・ヌ・プレス|英：No hurry. |
-| <span class="bleu">Comprenez-vous tout?</span>   |全部理解しましたか。|コンプルネ・ヴ・トゥ|英：Dou you understand all?|
-| <span class="bleu">Le repas est à quelle heure?</span>   |食事は、何時ですか。|ルレパ・エ・ア・ケラー|英：When is the meal?|
+| <span class="bleu">Comprenez-vous tout?</span>   |全部理解しましたか？|コンプルネ・ヴ・トゥ|英：Dou you understand all?|
+| <span class="bleu">Le repas est à quelle heure?</span>   |食事は、何時ですか？|ルレパ・エ・ア・ケラー|英：When is the meal?|
 | <span class="bleu">Je rentre chez moi.</span>   |家に帰ります。|ジュ・ラントレ・シェ・モア|英：I am going home.|
-| <span class="bleu">Pouvez-vous m'entendre?</span>   |聞こえますか。|プヴェ・ヴ・マントンドル|英：Can you hear me?|
+| <span class="bleu">Pouvez-vous m'entendre?</span>   |聞こえますか？|プヴェ・ヴ・マントンドル|英：Can you hear me?|
 | <span class="bleu">Ne vous inquietez pas</span>   |ご心配なく|ヌ・ヴ・ザンキエテ・パ|英：Don't worry. (formal)|
 | <span class="bleu">Ne t'inquiète pas.</span>   |心配しないで|タンキエット・パ|英：Don't worry. (informal)|
 | <span class="bleu">T'inquiete!</span>   |心配ない|タンキエット！ |英：No worry. (informal)|
@@ -236,7 +238,7 @@ letter-spacing: inherit;
 | <span class="bleu">Je suis d'accord avec votre plan.</span>   |あなたのプランに賛成です|ジュ・スイ・ダカード・アヴェック・ヴォトル・プラン|英：I agree with your plan.|
 | <span class="bleu">Mais je pense qu'il a raison.</span>   |でも、彼が正しいと思います|メ・ジュ・ポンス・キル・ア・れゾン|英： But I think he is right.|
 | <span class="bleu">Je ne pense pas que ce soit une bonne idée.</span>   |それは、いいアイデアとは思いません|ジュ・ヌ・パンツ・パ・ク・スワ・ユーヌ・ボンヌ・イデー|英： I don't think it is a good idea.|
-| <span class="bleu">Puis-je avoir de l’eau s’il vous plaît?</span>   |お水をいただけますか|プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ|英： Can I have some water?|
+| <span class="bleu">Puis-je avoir de l’eau s’il vous plaît?</span>   |お水をいただけますか？|プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ|英： Can I have some water?|
 | <span class="bleu">Merci de m’avoir accordé du temps.</span>   |お時間をいただきありがとうございます|メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン|英： Thank you for your time.|
 | <span class="bleu">Vous avez ma parole.</span>   |お約束します|ヴザベ・マ・パロル|英： You have my word.|
 | <span class="bleu">Il n'y a plus de lait, il faut en acheter.</span>   |もう牛乳がないから買わなくては|イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ|英： There is no milk, it has to be bought.|
