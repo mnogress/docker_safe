@@ -191,7 +191,7 @@ letter-spacing: inherit;
 
 </style>
 
-### 音楽について (musique)
+### 雑談_音楽について (musique)
 
 <div class="chat-container">
   <div class="speech-bubble left-align bottom">Salut</div>
@@ -251,7 +251,7 @@ letter-spacing: inherit;
 
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
-<span class="bleu">Tu fermes les yeux quand tu écoutes la chanson?</span><br>
+<span class="bleu">Tu fermes 💡les yeux quand tu écoutes la chanson?</span><br>
 <span class="green">テュ・フェルム・レジユー・カン・テュ・エクートゥ・ラ・シャンソン？</span><br>
 その歌を聴くとき、目を閉じますか？<br>
 <span class="gold">Do you close your eyes when you listen to the song?</span><br>
@@ -263,7 +263,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Pourquoi pleures-tu quand tu écoutes la chanson ?</span><br>
-<span class="green">ポコワ・プルレ・テュ・カンチュ・エクートゥ・ラ・シャンソン？</span><br>
+<span class="green">ポコワ・プルレ・テュ・カンテュ・エクートゥ・ラ・シャンソン？</span><br>
 なぜ、君はその歌を聴くと泣いてしまうの？<br>
 <span class="gold">Why do you cry when you hear that song?</span><br>
 </div>
@@ -288,9 +288,10 @@ letter-spacing: inherit;
 </div>
 
 <div class="box44">
-    <span class="box-title">イグレックの発音について</span>
-    <ol style="font-size: 90%; color: noir;">
+    <span class="box-title">💡イグレックの発音について</span>
+    <ol style="font-size: 80%; color: noir;">
     <li>Y/y」[イグレック]は、「i」が２つくっついた物＝「i + i」＝「ii」として扱われるので、≪les yeux≫を書き換えると、≪les iieux≫となる</li>
+    <li>≪les iieux≫ の s+i がリエゾンして「レジユー」と発音する</li>
     </ol>
 </div>
 
