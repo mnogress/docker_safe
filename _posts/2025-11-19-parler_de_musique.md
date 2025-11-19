@@ -2,7 +2,7 @@
 layout: single
 title: フランス語学習者のための_雑談
 header:
-  overlay_image: images/header_fr13_1280by336.png
+  overlay_image: images/header_fr12_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.33)
 toc: True
 toc_label: "目次"
@@ -21,8 +21,8 @@ date: 2025-10-11
 last_modified_at : 2025-10-18 10:30:00
 ---
 
-外国語を勉強していて、最もハードルが高いのはやはりしゃべる（会話する）ではないでしょうか。　AIを会話の練習相手としても、最初のうちはなかなか言葉がでてきっません。　音楽をテーマに会話をブログしました。
-<!--more-->
+外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　AIを会話の練習相手としても、返答が、最初のうちはなかなか言葉がでてきません。
+<!--more-->　こんな時、英語がだとこの程度のレベルでは、ストレスなく出てくるのではないでしょうか。そこで、今回は、AIとの音楽をテーマにした会話の模様をブログしました。
 
 <style type="text/css">
 
@@ -194,8 +194,11 @@ letter-spacing: inherit;
 ### 音楽について (musique)
 
 <div class="chat-container">
-  <div class="speech-bubble left-align bottom">こんにちは！</div>
-  <div class="speech-bubble left-inner bottom">はい、わかりました。</div>
+  <div class="speech-bubble left-align bottom">Salut</div>
+  <div>
+
+<div class="chat-container"> 
+  <div class="speech-bubble left-inner bottom">Ça va bien, Merci <br>Je veux parler de musique.</div>
 </div>
 
 <div class="chat-container">
@@ -209,7 +212,7 @@ letter-spacing: inherit;
 
 
 <div class="chat-container">
-<div class="speech-bubble left-align bottom">
+<div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu chantes une chanson douce ou forte ce soir?</span><br>
 <span class="green">テュ・シャンテ・ウヌ・シャンソン・ドゥース・ウ・フォルト・ス・ソワ？</span><br>
 今夜は優しい歌を歌うの？それとも力強い歌を歌うの？<br>
@@ -229,7 +232,7 @@ letter-spacing: inherit;
 
 
 <div class="chat-container">
-<div class="speech-bubble left-align bottom">
+<div class="speech-bubble left-inner bottom">
 <span class="bleu">La chanson te rend heureuse?</span><br>
 <span class="green">ラ・シャンソン・テ・ランド・ウールーズ？</span><br>
 その歌はあなたを幸せにしますか？<br>
@@ -247,7 +250,7 @@ letter-spacing: inherit;
 </div>
 
 <div class="chat-container">
-<div class="speech-bubble left-align bottom">
+<div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu fermes les yeux quand tu écoutes la chanson?</span><br>
 <span class="green">テュ・フェルム・レジユー・カン・テュ・エクートゥ・ラ・シャンソン？</span><br>
 その歌を聴くとき、目を閉じますか？<br>
@@ -267,7 +270,7 @@ letter-spacing: inherit;
 </div>
 
 <div class="chat-container">
-<div class="speech-bubble left-align bottom">
+<div class="speech-bubble left-inner bottom">
 <span class="bleu">Comment ecoutes-tu la musique ?　Avec ton iPhone ou a la radio ?</span><br>
 <span class="green">コモ・エクテ・テュ・ラ・ミュジィク？　アベク・トン・アイフォーン・ウ・ラディヨ</span><br>
 音楽はどうやって聴くの？　iphone ですか、それともラジオ<br>
