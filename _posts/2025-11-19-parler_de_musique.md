@@ -287,10 +287,6 @@ letter-spacing: inherit;
 </div>
 </div>
 
-
-
-<h3>留学について ()</h3>
-
 ### 留学について
 
 <div class="chat-container">
@@ -312,13 +308,13 @@ letter-spacing: inherit;
 </div>
 
 <div class="chat-container">
-<div class="speech-bubble left-align bottom">
+    <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu veux te faire de nouveaux amis etrangers ?</span><br>
 <span class="green">
 外国から新しい友達が欲しいですか？</span><br>
 <span class="gold">Do you want a new friend from another country?</span><br>
 <span class="rouge">se faire des amis｜友達を作る</span><br>
-</div>
+    </div>
 </div>
 
 
