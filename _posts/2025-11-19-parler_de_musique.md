@@ -193,6 +193,8 @@ letter-spacing: inherit;
 
 ### 音楽について (musique)
 
+
+
 <div class="chat-container">
   <div class="speech-bubble left-align bottom">Salut</div>
   <div>
@@ -200,6 +202,8 @@ letter-spacing: inherit;
 <div class="chat-container"> 
   <div class="speech-bubble left-inner bottom">Ça va bien, Merci <br>Je veux parler de musique.</div>
 </div>
+
+
 
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
@@ -287,11 +291,12 @@ letter-spacing: inherit;
 </div>
 </div>
 
-
-### 留学について
+<div markdown='1'>
+### 外国の友達について (de nouveaux amis etrangers)
+</div>
 
 <div class="chat-container">
-<div class="speech-bubble left-align bottom">
+<div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu veux voyager pour voir des écoles ?</span><br>
 <span class="green">テュ・ヴ・ヴォワヤジェ・ポ・ヴォワ・デ・エコル？</span><br>
 学校を見るために旅行に行きたいですか？<br>
@@ -300,7 +305,7 @@ letter-spacing: inherit;
 </div>
 
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Tu veux rencontrer des élèves d'autres pays ?</span><br>
 <span class="green">テュ・ヴ・ランコントレ・デ・エレヴェ・ドー・トゥル・ぺイ？</span><br>
 他の国の学生に会いたいですか？<br>
@@ -309,7 +314,7 @@ letter-spacing: inherit;
 </div>
 
 <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
+    <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu veux te faire de nouveaux amis etrangers ?</span><br>
 <span class="green">
 外国から新しい友達が欲しいですか？</span><br>
@@ -326,4 +331,5 @@ letter-spacing: inherit;
     s+i がリエゾンして「レジユー」と発音する</li>
     </ol>
 </div>
+
 
