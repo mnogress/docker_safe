@@ -22,7 +22,7 @@ last_modified_at : 2025-10-18 10:30:00
 ---
 
 外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　AIを会話の練習相手としても、返答が、最初のうちはなかなか言葉がでてきません。
-<!--more-->　こんな時、英語がだとこの程度のレベルでは、ストレスなく出てくるのではないでしょうか。そこで、今回は、AIとの音楽をテーマにした会話の模様をブログしました。
+<!--more-->　こんな時、英語がだとこの程度のレベルでは、ストレスなく出てくるのではないでしょうか。AIとの会話の模様をブログしました。
 
 <style type="text/css">
 
@@ -191,7 +191,7 @@ letter-spacing: inherit;
 
 </style>
 
-### 雑談_音楽について (musique)
+### 音楽について (musique)
 
 <div class="chat-container">
   <div class="speech-bubble left-align bottom">Salut</div>
@@ -287,11 +287,46 @@ letter-spacing: inherit;
 </div>
 </div>
 
+
+
+<h3>留学について ()</h3>
+
+### 留学について
+
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Tu veux voyager pour voir des écoles ?</span><br>
+<span class="green">テュ・ヴ・ヴォワヤジェ・ポ・ヴォワ・デ・エコル？</span><br>
+学校を見るために旅行に行きたいですか？<br>
+<span class="gold">Do you want to travel to see schools?</span><br>
+</div>
+</div>
+
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Tu veux rencontrer des élèves d'autres pays ?</span><br>
+<span class="green">テュ・ヴ・ランコントレ・デ・エレヴェ・ドー・トゥル・ぺイ？</span><br>
+他の国の学生に会いたいですか？<br>
+<span class="gold">Do you want to meet students from other countries?</span><br>
+</div>
+</div>
+
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Tu veux te faire de nouveaux amis etrangers ?</span><br>
+<span class="green">
+外国から新しい友達が欲しいですか？</span><br>
+<span class="gold">Do you want a new friend from another country?</span><br>
+<span class="rouge">se faire des amis｜友達を作る</span><br>
+</div>
+</div>
+
+
 <div class="box44">
     <span class="box-title">💡イグレックの発音について</span>
     <ol style="font-size: 80%; color: noir;">
-    <li>Y/y」[イグレック]は、「i」が２つくっついた物＝「i + i」＝「ii」として扱われるので、≪les yeux≫を書き換えると、≪les iieux≫となる</li>
-    <li>≪les iieux≫ の s+i がリエゾンして「レジユー」と発音する</li>
+    <li>Y/y」[イグレック]は、「i」が２つくっついた物＝「i + i」＝「ii」として扱われる</li> <li>「les yeux」は、「les <strong>ii</strong>eux」となる
+    s+i がリエゾンして「レジユー」と発音する</li>
     </ol>
 </div>
 
