@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-10-11
-last_modified_at : 2025-10-18 10:30:00
+last_modified_at : 2025-10-20 10:30:00
 ---
 
 外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　AIを会話の練習相手としても、返答が、最初のうちはなかなか言葉がでてきません。
@@ -194,21 +194,28 @@ letter-spacing: inherit;
 ### 音楽について (musique)
 
 
-
 <div class="chat-container">
-  <div class="speech-bubble left-align bottom">Salut</div>
-  <div>
+  <div class="speech-bubble left-align bottom">
+  <span class="bleu">Bonjour, ravi de te voir. Je veux parler de musique.</span><br>
+  <span class="green">ボンジュール、ラヴィ・ドゥ・テェ・ヴォワ　ジュ・ブ・パルレ・ドゥ・ミュジィク</span><br>
+  こんにちは、お会いできて嬉しいです。音楽について話たいです<br>
+  <span class="gold">Hello, it's nice to see you. I want to speak about music</span><br>
+  </div>
+  </div>
 
 <div class="chat-container"> 
-  <div class="speech-bubble left-inner bottom">Ça va bien, Merci <br>Je veux parler de musique.</div>
+  <div class="speech-bubble left-inner bottom">
+  <span class="bleu">Ça va bien, Merci, Musique? Allez-y!</span><br>
+  <span class="green">サ・ヴァ・ビヤン　メルシィ ミュジィク？　アレジィ!</span><br>
+  元気です。ありがとう、音楽？　どうぞ！<br>
+  <span class="gold">Fine thank you, music? Go ahead</span><br>
 </div>
-
-
+</div>
 
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
-<span class="bleu">Avez-vous un chanteur préféré ?</span><br>
-<span class="green">アヴェヴ・アン・シャントゥール・プレフェレ</span><br>
+<span class="bleu">As-tu un chanteur préféré ?</span><br>
+<span class="green">ア・テュ・シャントゥール・プレフェレ？</span><br>
 お気に入りの歌手はいますか？<br>
 <span class="gold">Do you have a favorite singer?</span><br>
 </div>
@@ -291,6 +298,36 @@ letter-spacing: inherit;
 </div>
 </div>
 
+
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Tu veux apprendre une chanson en francais un jour ?</span><br>
+<span class="green">テュ・ヴ・アプラーンドル・ウヌ・シャンソン・オン・フランセ・アン・ジュー？</span><br>
+いつかフランス語の歌を習いたい？<br>
+<span class="gold">Would you like to learn a French song someday?</span><br>
+</div>
+</div>
+
+
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">C'est vrai.</span><br>
+<span class="green">セヴレ</span><br>
+その通り<br>
+<span class="gold">That's right</span><br>
+</div>
+</div>
+
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Ce n'est pas correct.</span><br>
+<span class="green">スネパ・コレクト</span><br>
+それは違います。<br>
+<span class="gold">That's not right.</span><br>
+</div>
+</div>
+
+
 <div markdown='1'>
 ### 外国の友達について (de nouveaux amis etrangers)
 </div>
@@ -320,6 +357,27 @@ letter-spacing: inherit;
 外国から新しい友達が欲しいですか？<br>
 <span class="gold">Do you want a new friend from another country?</span><br>
 <span class="rouge">se faire des amis｜友達を作る</span><br>
+    </div>
+</div>
+
+
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Tu vois ton ami a l'ecole ? Ou ailleurs ?</span><br>
+<span class="green">テュ・ヴォワ・トナミ・ア・レコル？　ウ・アイユール</span><br>
+学校で友達に会いますか？それとも他の場所で？<br>
+<span class="gold">Do you see your friend at school? Or somewhere else?</span><br>
+    </div>
+</div>
+
+
+
+<div class="chat-container">
+    <div class="speech-bubble left-inner bottom">
+<span class="bleu">Tu joues souvent a ce jeu ?</span><br>
+<span class="green">テユ・ジュー・スヴォン・ア・ス・ジュー？</span><br>
+そのゲームをよくプレイしますか？<br>
+<span class="gold">Do you play this game often?</span><br>
     </div>
 </div>
 
