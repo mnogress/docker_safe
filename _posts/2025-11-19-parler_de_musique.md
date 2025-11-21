@@ -78,7 +78,7 @@ _media screen and (max-width:750px){
 }
 .rouge {
 color: red;
-font-weight: bold;
+font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
@@ -131,7 +131,7 @@ letter-spacing: inherit;
 .speech-bubble {
   position: relative;
   background: #f9f9f9;
-  border-radius: 10px;
+  border-radius: 13px;
   padding: 10px 15px;
   width: fit-content;
   max-width: 900px;
@@ -284,7 +284,7 @@ letter-spacing: inherit;
 
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
-<span class="bleu">Tu préfères la musique calme ou la musique joyeuse ?</span><br>
+<span class="bleu">Tu préfères la musique calme ou la musique 💡joyeuse ?</span><br>
 <span class="green">テュ・プレフェレ・ラ・ミュズィク・カルム・ウ・ラ・ミュジィク・ジョワイユーズ</span><br>
 あなたは静かな音楽と明るい音楽、どちらが好きですか？<br>
 <span class="gold">Do you prefer quiet music or bright music?</span><br>
@@ -297,7 +297,7 @@ letter-spacing: inherit;
 
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
-<span class="bleu">Tu veux voyager pour voir des écoles ?</span><br>
+<span class="bleu">Tu veux 💡voyager pour voir des écoles ?</span><br>
 <span class="green">テュ・ヴ・ヴォワヤジェ・ポ・ヴォワ・デ・エコル？</span><br>
 学校を見るために旅行に行きたいですか？<br>
 <span class="gold">Do you want to travel to see schools?</span><br>
@@ -316,19 +316,25 @@ letter-spacing: inherit;
 <div class="chat-container">
     <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu veux te faire de nouveaux amis etrangers ?</span><br>
-<span class="green">
-外国から新しい友達が欲しいですか？</span><br>
+<span class="green">テユ・ヴ・テ・フェア・ドゥ・ヌーヴォ・ザミ・ゼトランジェ？</span><br>
+外国から新しい友達が欲しいですか？<br>
 <span class="gold">Do you want a new friend from another country?</span><br>
 <span class="rouge">se faire des amis｜友達を作る</span><br>
     </div>
 </div>
 
 
+<div markdown='1'>
+### イグレック(Y/y)の発音について
+</div>
+
 <div class="box44">
     <span class="box-title">💡イグレックの発音について</span>
     <ol style="font-size: 80%; color: noir;">
-    <li>Y/y」[イグレック]は、「i」が２つくっついた物＝「i + i」＝「ii」として扱われる</li> <li>「les yeux」は、「les <strong>ii</strong>eux」となる
-    s+i がリエゾンして「レジユー」と発音する</li>
+    <li>「Y/y：イグレック」は、「i」が２つくっついた物＝「i + i」＝「ii」として扱われる</li> 
+    <li>「les yeux」は、「les <strong>ii</strong>eux」となるs+i がリエゾンして「レジユー」と発音する</li>
+    <li>「joyeuse」は、「jo<strong>ii</strong>euse」となり、最初のo+i が「ワ」次のie が「イ」となり、「ジョワイユーズ」と発音する</li>
+    <li>「voyager」は、「vo<strong>ii</strong>ager」となり、最初のo+i が「ワ」次のia が「ヤ」となり、「ヴォワヤジェ」と発音する</li>
     </ol>
 </div>
 
