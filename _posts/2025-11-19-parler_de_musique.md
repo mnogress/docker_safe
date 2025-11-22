@@ -301,7 +301,7 @@ letter-spacing: inherit;
 
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
-<span class="bleu">Tu veux apprendre une chanson en francais un jour ?</span><br>
+<span class="bleu">Tu veux apprendre une chanson en français un jour ?</span><br>
 <span class="green">テュ・ヴ・アプラーンドル・ウヌ・シャンソン・オン・フランセ・アン・ジュー？</span><br>
 いつかフランス語の歌を習いたい？<br>
 <span class="gold">Would you like to learn a French song someday?</span><br>
@@ -363,7 +363,7 @@ letter-spacing: inherit;
 
 <div class="chat-container">
     <div class="speech-bubble left-align bottom">
-<span class="bleu">Tu vois ton ami a l'ecole ? Ou ailleurs ?</span><br>
+<span class="bleu">Tu vois ton ami à l'ecole ? Ou ailleurs ?</span><br>
 <span class="green">テュ・ヴォワ・トナミ・ア・レコル？　ウ・アイユール</span><br>
 学校で友達に会いますか？それとも他の場所で？<br>
 <span class="gold">Do you see your friend at school? Or somewhere else?</span><br>
