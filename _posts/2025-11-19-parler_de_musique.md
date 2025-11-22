@@ -374,7 +374,7 @@ letter-spacing: inherit;
 
 <div class="chat-container">
     <div class="speech-bubble left-inner bottom">
-<span class="bleu">Tu joues souvent a ce jeu ?</span><br>
+<span class="bleu">Tu joues souvent à ce jeu ?</span><br>
 <span class="green">テユ・ジュー・スヴォン・ア・ス・ジュー？</span><br>
 そのゲームをよくプレイしますか？<br>
 <span class="gold">Do you play this game often?</span><br>
