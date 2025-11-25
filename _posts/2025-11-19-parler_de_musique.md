@@ -251,12 +251,31 @@ letter-spacing: inherit;
 </div>
 </div>
 
+
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
+<span class="bleu">Tu as dit oui ?　Tant mieux.</span><br>
+<span class="green">テュ・ア・ディ・ウィ？　タン・ミュー</span><br>
+そう、よかった。<br>
+<span class="gold">You said Yes?　That's good.</span><br>
+</div>
+</div>
+
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
 <span class="bleu">La chanson te rend triste ?</span><br>
 <span class="green">ラ・シャンソン・テ・ランド・トリスト？</span><br>
 その歌はあなたを悲しませますか？<br>
 <span class="gold">Does that song make you sad?</span><br>
+</div>
+</div>
+
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Ça rend triste? Tant pis.</span><br>
+<span class="green">サ・ランド・トリスト？　タンピ</span><br>
+悲しくなるって, 仕方ないね。<br>
+<span class="gold">It makes you sad. Oh never mind.</span><br>
 </div>
 </div>
 
@@ -371,13 +390,34 @@ letter-spacing: inherit;
 </div>
 
 
-
 <div class="chat-container">
     <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu joues souvent a ce jeu ?</span><br>
 <span class="green">テユ・ジュー・スヴォン・ア・ス・ジュー？</span><br>
 そのゲームをよくプレイしますか？<br>
 <span class="gold">Do you play this game often?</span><br>
+    </div>
+</div>
+
+<div markdown='1'>
+### 冬と寒さについて (du froid et de l'hiver)
+</div>
+
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Parlons du froid et de l'hiver.</span><br>
+<span class="green">パルロン・ドュ・フロワ・エ・ドゥ・リヴェール</span><br>
+寒さと冬について話しましょう。<br>
+<span class="gold">Let's talk about the cold and winter.</span><br>
+    </div>
+</div>
+
+<div class="chat-container">
+    <div class="speech-bubble left-inner bottom">
+<span class="bleu">Quand il neige, tu portes un manteau chaud ?</span><br>
+<span class="green">カンティル・ネージュ, テュ・ポルトゥ・ウン・マントゥ・ショゥ？</span><br>
+雪が降ったら暖かいコートを着ますか？<br>
+<span class="gold">When it snows, do you wear a warm coat?</span><br>
     </div>
 </div>
 
