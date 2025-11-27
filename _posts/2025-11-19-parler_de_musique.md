@@ -203,6 +203,8 @@ letter-spacing: inherit;
   </div>
   </div>
 
+<details>
+    <summary><span class="petit">元気です。ありがとう、音楽？　どうぞ！</span></summary>
 <div class="chat-container"> 
   <div class="speech-bubble left-inner bottom">
   <span class="bleu">Ça va bien, Merci, Musique? Allez-y!</span><br>
@@ -211,6 +213,7 @@ letter-spacing: inherit;
   <span class="gold">Fine thank you, music? Go ahead</span><br>
 </div>
 </div>
+</details>
 
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
@@ -251,7 +254,8 @@ letter-spacing: inherit;
 </div>
 </div>
 
-
+<details>
+    <summary><span class="petit">そう、よかった。</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu as dit oui ?　Tant mieux.</span><br>
@@ -260,6 +264,7 @@ letter-spacing: inherit;
 <span class="gold">You said Yes?　That's good.</span><br>
 </div>
 </div>
+</details>
 
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
@@ -270,6 +275,8 @@ letter-spacing: inherit;
 </div>
 </div>
 
+<details>
+    <summary><span class="petit">悲しくなるって, 仕方ないね。</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Ça rend triste? Tant pis.</span><br>
@@ -278,6 +285,7 @@ letter-spacing: inherit;
 <span class="gold">It makes you sad. Oh never mind.</span><br>
 </div>
 </div>
+</details>
 
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
@@ -327,7 +335,8 @@ letter-spacing: inherit;
 </div>
 </div>
 
-
+<details>
+    <summary><span class="petit">その通り</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">C'est vrai.</span><br>
@@ -336,7 +345,10 @@ letter-spacing: inherit;
 <span class="gold">That's right</span><br>
 </div>
 </div>
+</details>
 
+<details>
+    <summary><span class="petit">それは違います。</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Ce n'est pas correct.</span><br>
@@ -345,7 +357,7 @@ letter-spacing: inherit;
 <span class="gold">That's not right.</span><br>
 </div>
 </div>
-
+</details>
 
 <div markdown='1'>
 ### 外国の友達について (de nouveaux amis etrangers)
