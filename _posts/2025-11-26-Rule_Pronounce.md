@@ -17,10 +17,10 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2025-08-20
-last_modified_at : 2025-08-27 8:30:00
+date: 2025-11-26
+last_modified_at : 2025-11-27 11:30:00
 ---
-フランス語の単語や文を正しく発音するための鉄板ルール（その１）<!--more-->
+フランス語の単語や文を正しく発音するための鉄板ルール（修正・補足）<!--more-->
 
 <style type="text/css">
 
@@ -142,6 +142,18 @@ letter-spacing: inherit;
 | me<span class="rouge">r</span>   |メール|海||
 | o<span class="rouge">r</span>   |オール|金、ゴールド||
 | bu<span class="rouge">s</span>   |ブゥス|バス||
+
+
+<span class="bleu">朱字の「c」</span>は発音**しない**語尾の子音字になります。
+
+| つづり字 | 発音 | 日本語訳 | 補足|
+| :-----       | :----       | :-----       |  | :-----       |
+| blan<span class="bleu">c</span>   |ブラン|白|blanche　ブラーンシュ　㊛|
+| estom<span class="bleu">c</span>   |エストマ|胃 ㊚||
+| por<span class="bleu">c</span>   |ポーㇽ|豚肉 ㊚||
+| ban<span class="bleu">c</span>   |バン|ベンチ　㊚||
+
+
 
 
 ### ３．複数形の 「s」 は例外なく発音しない
