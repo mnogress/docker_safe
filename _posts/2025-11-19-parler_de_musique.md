@@ -22,7 +22,7 @@ last_modified_at : 2025-10-20 10:30:00
 ---
 
 外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　AIを会話の練習相手としても、返答が、最初のうちはなかなか言葉がでてきません。
-<!--more-->　こんな時、英語がだとこの程度のレベルでは、ストレスなく出てくるのではないでしょうか。AIとの会話の模様をブログしました。
+<!--more-->　こんな時、英語がだとこの程度のレベルでは、ストレスなく出てくるのではないでしょうか。AIとの会話の模様をブログしました。 AI相手に何度も繰り返し会話していますので、やりとりが固まったところから畳んでいます。
 
 <style type="text/css">
 
@@ -193,8 +193,9 @@ letter-spacing: inherit;
 
 ### 音楽について (musique)
 
-
-<div class="chat-container">
+<details>
+    <summary><span class="petit">こんにちは、お会いできて嬉しいです。音楽について話たいです</span></summary>
+  <div class="chat-container">
   <div class="speech-bubble left-align bottom">
   <span class="bleu">Bonjour, ravi de te voir. Je veux parler de musique.</span><br>
   <span class="green">ボンジュール、ラヴィ・ドゥ・テェ・ヴォワ　ジュ・ブ・パルレ・ドゥ・ミュジィク</span><br>
@@ -202,6 +203,7 @@ letter-spacing: inherit;
   <span class="gold">Hello, it's nice to see you. I want to speak about music</span><br>
   </div>
   </div>
+</details>
 
 <details>
     <summary><span class="petit">元気です。ありがとう、音楽？　どうぞ！</span></summary>
@@ -215,6 +217,8 @@ letter-spacing: inherit;
 </div>
 </details>
 
+<details>
+    <summary><span class="petit">お気に入りの歌手はいますか</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">As-tu un chanteur préféré ?</span><br>
@@ -223,6 +227,7 @@ letter-spacing: inherit;
 <span class="gold">Do you have a favorite singer?</span><br>
 </div>
 </div>
+</details>
 
 <details>
     <summary><span class="petit">何人かいますが、全員、日本人の歌手です。</span></summary>
@@ -256,7 +261,8 @@ letter-spacing: inherit;
 </div>
 </div>
 
-
+<details>
+    <summary><span class="petit">その歌はあなたを幸せにしますか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
 <span class="bleu">La chanson te rend heureuse?</span><br>
@@ -265,6 +271,7 @@ letter-spacing: inherit;
 <span class="gold">Does the song make you happy?</span><br>
 </div>
 </div>
+</details>
 
 <details>
     <summary><span class="petit">そう、よかった。</span></summary>
@@ -278,6 +285,8 @@ letter-spacing: inherit;
 </div>
 </details>
 
+<details>
+    <summary><span class="petit">その歌はあなたを悲しませますか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
 <span class="bleu">La chanson te rend triste ?</span><br>
@@ -286,6 +295,7 @@ letter-spacing: inherit;
 <span class="gold">Does that song make you sad?</span><br>
 </div>
 </div>
+</details>
 
 <details>
     <summary><span class="petit">悲しくなるって, 仕方ないね。</span></summary>
@@ -308,8 +318,8 @@ letter-spacing: inherit;
 </div>
 </div>
 
-
-
+<details>
+    <summary><span class="petit">なぜ、君はその歌を聴くと泣いてしまうの？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Pourquoi pleures-tu quand tu écoutes la chanson ?</span><br>
@@ -318,6 +328,7 @@ letter-spacing: inherit;
 <span class="gold">Why do you cry when you hear that song?</span><br>
 </div>
 </div>
+</details>
 
 <details>
     <summary><span class="petit">この歌には思い出が多すぎて、涙がこぼれそうになる。</span></summary>
@@ -364,6 +375,11 @@ letter-spacing: inherit;
 </div>
 </div>
 
+<div markdown='1'>
+---
+### 決まり文句 (cliché)
+</div>
+
 <details>
     <summary><span class="petit">その通り</span></summary>
 <div class="chat-container">
@@ -379,7 +395,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">それは違います。</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-align bottom">
+<div class="speech-bubble left-inner bottom">
 <span class="bleu">Ce n'est pas correct.</span><br>
 <span class="green">スネパ・コレクト</span><br>
 それは違います。<br>
@@ -388,7 +404,59 @@ letter-spacing: inherit;
 </div>
 </details>
 
+<details>
+    <summary><span class="petit">いつでも電話してね、いい？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Appelle-moi quand tu veux, d'accord ?</span><br>
+<span class="green">アペル・モァ・カンテュ・ヴゥ、ダコール</span><br>
+いつでも電話してね、いい？<br>
+<span class="gold">Call me anytime, okay?</span><br>
+</div>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">会いたい時に電話しますね</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Je t'appelle quand je veux</span><br>
+<span class="green">ジュ・タペル・カン・ジュ・ヴゥ</span><br>
+会いたい時に電話しますね<br>
+<span class="gold">I call you when I want</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">またすぐにお会いしましょう！</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">À tres vite!</span><br>
+<span class="green">ア・トレ・ヴィッㇳ</span><br>
+またすぐにお会いしましょう！<br>
+<span class="gold">See you soon!</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">じゃあね！</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">À plus trad!</span><br>
+<span class="green">ア・プル・タール</span><br>
+じゃあね！<br>
+<span class="gold">See you later!</span><br>
+</div>
+</div>
+</details>
+
+
+
 <div markdown='1'>
+---
 ### 外国の友達について (de nouveaux amis etrangers)
 </div>
 
@@ -441,6 +509,7 @@ letter-spacing: inherit;
 </div>
 
 <div markdown='1'>
+---
 ### 冬と寒さについて (du froid et de l'hiver)
 </div>
 
@@ -464,6 +533,7 @@ letter-spacing: inherit;
 
 
 <div markdown='1'>
+---
 ### イグレック(Y/y)の発音について
 </div>
 
