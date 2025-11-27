@@ -144,7 +144,7 @@ letter-spacing: inherit;
 | bu<span class="rouge">s</span>   |ブゥス|バス||
 
 
-<span class="bleu">朱字の「c」</span>は発音**しない**語尾の子音字になります。
+<span class="bleu">青字の「c」</span>は発音**しない**語尾の子音字になります。
 
 | つづり字 | 発音 | 日本語訳 | 補足|
 | :-----       | :----       | :-----       |  | :-----       |
