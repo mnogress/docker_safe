@@ -224,6 +224,18 @@ letter-spacing: inherit;
 </div>
 </div>
 
+<details>
+    <summary><span class="petit">何人かいますが、全員、日本人の歌手です。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Il y en a plusieurs, mais ce sont tous des chanteurs japonais.</span><br>
+<span class="green">イリオナ・プリュズィユール　メ・スソン・トゥー・デ・シャントゥール・ジャポネ</span><br>
+何人かいますが、全員、日本人の歌手です。<br>
+<span class="gold">There are several, but they are all Japanese singers.</span><br>
+</div>
+</div>
+</details>
+
 
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
@@ -307,6 +319,21 @@ letter-spacing: inherit;
 </div>
 </div>
 
+<details>
+    <summary><span class="petit">この歌には思い出が多すぎて、涙がこぼれそうになる。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Cette chanson me rappelle trop de souvenirs, et elle me fait monter les larmes aux yeux.</span><br>
+<span class="green">セット・シャンソン・ム・ラペル・トロ・ドゥ・スーヴェニール　エ・エレム・フエ・モンテ・ラルム・オジユー</span><br>
+この歌には思い出が多すぎて、涙がこぼれそうになる。<br>
+<span class="gold">This song holds too many memories for me, and it brings tears to my eyes.</span><br>
+</div>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">音楽はどうやって聴くの？　iphone ですか、それともラジオ</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
 <span class="bleu">Comment ecoutes-tu la musique ?　Avec ton iPhone ou a la radio ?</span><br>
@@ -315,6 +342,8 @@ letter-spacing: inherit;
 <span class="gold">How do you listen to music?　On your iPhone, or on the radio?</span><br>
 </div>
 </div>
+</details>
+
 
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">

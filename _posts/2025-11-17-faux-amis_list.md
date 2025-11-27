@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-10-11
-last_modified_at : 2025-10-18 10:30:00
+last_modified_at : 2025-11-27 10:30:00
 ---
 
 「空似（ソラニ）」は、**異なる言語間で形は似ているが意味が異なる単語や成句**を指します。日本語では「空似言葉」、英語では **false friends**、フランス語では **faux-amis（偽りの友）** と呼ばれます。　
@@ -150,7 +150,7 @@ letter-spacing: inherit;
 | passer        | パッセ|通る、通過する |pass (合格) ||
 | petrole       | ペトロル | 石油　㊚ | petrol (ガソリン) |仏：essance エサンス =ガソリン|
 | phrase        | フラーズ|文 ㊛ |phrase (句)||
-| préservatif   | プレゼルヴァティフ ㊚|コンドーム|preservative (防腐剤)||
+| préservatif   | プレゼルヴァティフ|コンドーム ㊚|preservative (防腐剤)||
 | pretendre     | プれタンドル | ～と言い張る | to pretend (～のふりをする) ||
 | Professeur    | プロフェッスール|中高校の先生、大学の教授 ㊚|Professor	(大学の教授)||
 | propre / proprement| プロプル/プロップルモン	| 清潔な/清潔に　| proper / properly	(正しい/正しく)||
@@ -168,8 +168,9 @@ letter-spacing: inherit;
 | tissu         | ティスュ|布 ㊚|tissue (組織、ティッシュペーパー)||
 | travail       | トラヴァイユ|仕事 ㊚|travel（トラベル）||
 | wagon         | ヴァゴン|車両 ㊚|wagon (ワゴン)||
-| visage        | ヴィザージュ|顔 ㊚|visage (顔立ち)|仏・英同じような発音|
 | veste         | ヴエスト|ジャケット ㊛|vest (ベスト)||
+| villain       | ヴィラン|いたずらっ子、ブサイク|villain(悪役)|méchant(メシャン：悪役)|
+| visage        | ヴィザージュ|顔 ㊚|visage (顔立ち)|仏・英同じような発音|
 | voler         | ヴォレ|盗む、飛ぶ|volunteer (ボランティア)||
 | wagon-lit     | ヴァゴン・リ|寝台車 ㊚|wagon-lit (寝台車) |仏:ヴァ、英:ワ|
 | habit         | アビ|衣服 ㊚|habit (癖)||
