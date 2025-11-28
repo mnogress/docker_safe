@@ -84,6 +84,7 @@ letter-spacing: inherit;
 }
 .bleu {
 color: blue;
+font-size: 1.46em;
 font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
