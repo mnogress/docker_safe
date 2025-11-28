@@ -258,6 +258,29 @@ letter-spacing: inherit;
 </div>
 </details>
 
+<details>
+    <summary><span class="petit">どうぞ、どうぞお先に</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">allez-y</span><br>
+<span class="green">アレジィ</span><br>
+「どうぞ」「どうぞお先に」<br>
+<span class="gold">go ahead.</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">何の話ですか？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">De quoi parlez-vous ?</span><br>
+<span class="green">ドゥコア・パルレ・ヴ</span><br>
+何の話ですか？<br>
+<span class="gold">What are you talking about?</span><br>
+</div>
+</div>
+</details>
 
 
 <details>
@@ -308,6 +331,19 @@ letter-spacing: inherit;
 </div>
 </div>
 </details>
+
+<details>
+    <summary><span class="petit">問題ないです。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Pas de souci.</span><br>
+<span class="green">パ・ドゥ・スシ</span><br>
+問題ないです。<br>
+<span class="gold">No problem.</span><br>
+</div>
+</div>
+</details>
+
 
 <div markdown='1'>
 ---
