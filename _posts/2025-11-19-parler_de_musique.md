@@ -12,13 +12,13 @@ excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  - wide
+  #- wide
 sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-10-11
-last_modified_at : 2025-10-20 10:30:00
+last_modified_at : 2025-11-28 10:30:00
 ---
 
 外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　AIを会話の練習相手としても、返答が、最初のうちはなかなか言葉がでてきません。
@@ -191,7 +191,115 @@ letter-spacing: inherit;
 
 </style>
 
+<div markdown='1'>
+---
+### 決まり文句 (cliché)
+</div>
+
+<details>
+    <summary><span class="petit">その通り</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">C'est vrai.</span><br>
+<span class="green">セヴレ</span><br>
+その通り<br>
+<span class="gold">That's right</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">それは違います。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Ce n'est pas correct.</span><br>
+<span class="green">スネパ・コレクト</span><br>
+それは違います。<br>
+<span class="gold">That's not right.</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">やあ、調子どう？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Salut, quoi de neuf?</span><br>
+<span class="green">サルー コワ・ドゥ・ナフ？</span><br>
+やあ、調子どう？<br>
+<span class="gold">Hi, what's new?</span><br>
+</div>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">お元気ですか？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Comment vas-tu ?</span><br>
+<span class="green">コモ・ヴァ・テュ？</span><br>
+お元気ですか？<br>
+<span class="gold">How are you?</span><br>
+</div>
+</div>
+</details>
+
+
+
+<details>
+    <summary><span class="petit">いつでも電話してね、いい？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Appelle-moi quand tu veux, d'accord ?</span><br>
+<span class="green">アペル・モァ・カンテュ・ヴゥ、ダコール</span><br>
+いつでも電話してね、いい？<br>
+<span class="gold">Call me anytime, okay?</span><br>
+</div>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">会いたい時に電話しますね</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Je t'appelle quand je veux</span><br>
+<span class="green">ジュ・タペル・カン・ジュ・ヴゥ</span><br>
+会いたい時に電話しますね<br>
+<span class="gold">I call you when I want</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">またすぐにお会いしましょう！</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">À tres vite!</span><br>
+<span class="green">ア・トレ・ヴィッㇳ</span><br>
+またすぐにお会いしましょう！<br>
+<span class="gold">See you soon!</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">じゃあね！</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">À plus trad!</span><br>
+<span class="green">ア・プル・タール</span><br>
+じゃあね！<br>
+<span class="gold">See you later!</span><br>
+</div>
+</div>
+</details>
+
+<div markdown='1'>
+---
 ### 音楽について (musique)
+</div>
 
 <details>
     <summary><span class="petit">こんにちは、お会いできて嬉しいです。音楽について話たいです</span></summary>
@@ -416,110 +524,6 @@ letter-spacing: inherit;
 </details>
 
 
-<div markdown='1'>
----
-### 決まり文句 (cliché)
-</div>
-
-<details>
-    <summary><span class="petit">その通り</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-align bottom">
-<span class="bleu">C'est vrai.</span><br>
-<span class="green">セヴレ</span><br>
-その通り<br>
-<span class="gold">That's right</span><br>
-</div>
-</div>
-</details>
-
-<details>
-    <summary><span class="petit">それは違います。</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-inner bottom">
-<span class="bleu">Ce n'est pas correct.</span><br>
-<span class="green">スネパ・コレクト</span><br>
-それは違います。<br>
-<span class="gold">That's not right.</span><br>
-</div>
-</div>
-</details>
-
-<details>
-    <summary><span class="petit">やあ、調子どう？</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-inner bottom">
-<span class="bleu">Salut, quoi de neuf?</span><br>
-<span class="green">サルー コワ・ドゥ・ナフ？</span><br>
-やあ、調子どう？<br>
-<span class="gold">Hi, what's new?</span><br>
-</div>
-</div>
-</details>
-
-
-<details>
-    <summary><span class="petit">お元気ですか？</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-inner bottom">
-<span class="bleu">Comment vas-tu ?</span><br>
-<span class="green">コモ・ヴァ・テュ？</span><br>
-お元気ですか？<br>
-<span class="gold">How are you?</span><br>
-</div>
-</div>
-</details>
-
-
-
-<details>
-    <summary><span class="petit">いつでも電話してね、いい？</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-align bottom">
-<span class="bleu">Appelle-moi quand tu veux, d'accord ?</span><br>
-<span class="green">アペル・モァ・カンテュ・ヴゥ、ダコール</span><br>
-いつでも電話してね、いい？<br>
-<span class="gold">Call me anytime, okay?</span><br>
-</div>
-</div>
-</details>
-
-
-<details>
-    <summary><span class="petit">会いたい時に電話しますね</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-inner bottom">
-<span class="bleu">Je t'appelle quand je veux</span><br>
-<span class="green">ジュ・タペル・カン・ジュ・ヴゥ</span><br>
-会いたい時に電話しますね<br>
-<span class="gold">I call you when I want</span><br>
-</div>
-</div>
-</details>
-
-<details>
-    <summary><span class="petit">またすぐにお会いしましょう！</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-align bottom">
-<span class="bleu">À tres vite!</span><br>
-<span class="green">ア・トレ・ヴィッㇳ</span><br>
-またすぐにお会いしましょう！<br>
-<span class="gold">See you soon!</span><br>
-</div>
-</div>
-</details>
-
-<details>
-    <summary><span class="petit">じゃあね！</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-inner bottom">
-<span class="bleu">À plus trad!</span><br>
-<span class="green">ア・プル・タール</span><br>
-じゃあね！<br>
-<span class="gold">See you later!</span><br>
-</div>
-</div>
-</details>
 
 
 
@@ -528,6 +532,8 @@ letter-spacing: inherit;
 ### 外国の友達について (de nouveaux amis etrangers)
 </div>
 
+<details>
+    <summary><span class="petit">学校を見るために旅行に行きたいですか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu veux 💡voyager pour voir des écoles ?</span><br>
@@ -536,7 +542,10 @@ letter-spacing: inherit;
 <span class="gold">Do you want to travel to see schools?</span><br>
 </div>
 </div>
+</details>
 
+<details>
+    <summary><span class="petit">他の国の学生に会いたいですか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu veux rencontrer des élèves d'autres pays ?</span><br>
@@ -545,7 +554,10 @@ letter-spacing: inherit;
 <span class="gold">Do you want to meet students from other countries?</span><br>
 </div>
 </div>
+</details>
 
+<details>
+    <summary><span class="petit">外国から新しい友達が欲しいですか？</span></summary>
 <div class="chat-container">
     <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu veux te faire de nouveaux amis etrangers ?</span><br>
@@ -555,8 +567,10 @@ letter-spacing: inherit;
 <span class="rouge">se faire des amis｜友達を作る</span><br>
     </div>
 </div>
+</details>
 
-
+<details>
+    <summary><span class="petit">学校で友達に会いますか？それとも他の場所で？</span></summary>
 <div class="chat-container">
     <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu vois ton ami à l'ecole ? Ou ailleurs ?</span><br>
@@ -565,8 +579,10 @@ letter-spacing: inherit;
 <span class="gold">Do you see your friend at school? Or somewhere else?</span><br>
     </div>
 </div>
+</details>
 
-
+<details>
+    <summary><span class="petit">そのゲームをよくプレイしますか？</span></summary>
 <div class="chat-container">
     <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu joues souvent à ce jeu ?</span><br>
@@ -575,12 +591,15 @@ letter-spacing: inherit;
 <span class="gold">Do you play this game often?</span><br>
     </div>
 </div>
+</details>
 
 <div markdown='1'>
 ---
 ### 冬と寒さについて (du froid et de l'hiver)
 </div>
 
+<details>
+    <summary><span class="petit">寒さと冬について話しましょう。</span></summary>
 <div class="chat-container">
     <div class="speech-bubble left-align bottom">
 <span class="bleu">Parlons du froid et de l'hiver.</span><br>
@@ -589,7 +608,10 @@ letter-spacing: inherit;
 <span class="gold">Let's talk about the cold and winter.</span><br>
     </div>
 </div>
+</details>
 
+<details>
+    <summary><span class="petit">雪が降ったら暖かいコートを着ますか？</span></summary>
 <div class="chat-container">
     <div class="speech-bubble left-inner bottom">
 <span class="bleu">Quand il neige, tu portes un manteau chaud ?</span><br>
@@ -598,6 +620,7 @@ letter-spacing: inherit;
 <span class="gold">When it snows, do you wear a warm coat?</span><br>
     </div>
 </div>
+</details>
 
 
 <div markdown='1'>
