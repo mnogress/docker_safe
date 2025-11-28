@@ -275,7 +275,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">De quoi parlez-vous ?</span><br>
-<span class="green">ドゥコア・パルレ・ヴ</span><br>
+<span class="green">ドゥコア・パルレ・ヴ？</span><br>
 何の話ですか？<br>
 <span class="gold">What are you talking about?</span><br>
 </div>
@@ -303,7 +303,7 @@ letter-spacing: inherit;
 <span class="bleu">Je t'appelle quand je veux</span><br>
 <span class="green">ジュ・タペル・カン・ジュ・ヴゥ</span><br>
 会いたい時に電話しますね<br>
-<span class="gold">I call you when I want</span><br>
+<span class="gold">I call you when I want.</span><br>
 </div>
 </div>
 </details>
@@ -313,7 +313,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">À tres vite!</span><br>
-<span class="green">ア・トレ・ヴィッㇳ</span><br>
+<span class="green">ア・トレ・ヴィッㇳ！</span><br>
 またすぐにお会いしましょう！<br>
 <span class="gold">See you soon!</span><br>
 </div>
@@ -325,7 +325,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">À plus trad!</span><br>
-<span class="green">ア・プル・タール</span><br>
+<span class="green">ア・プル・タール！</span><br>
 じゃあね！<br>
 <span class="gold">See you later!</span><br>
 </div>
@@ -369,7 +369,7 @@ letter-spacing: inherit;
   <span class="bleu">Ça va bien, Merci, Musique? Allez-y!</span><br>
   <span class="green">サ・ヴァ・ビヤン　メルシィ ミュジィク？　アレジィ!</span><br>
   元気です。ありがとう、音楽？　どうぞ！<br>
-  <span class="gold">Fine thank you, music? Go ahead</span><br>
+  <span class="gold">Fine thank you, music? Go ahead.</span><br>
 </div>
 </div>
 </details>
@@ -379,7 +379,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">As-tu un chanteur préféré ?</span><br>
-<span class="green">ア・テュ・シャントゥール・プレフェレ？</span><br>
+<span class="green">ア・テュ・アン・シャントゥール・プレフェレ？</span><br>
 お気に入りの歌手はいますか？<br>
 <span class="gold">Do you have a favorite singer?</span><br>
 </div>
@@ -415,7 +415,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu veux dire le nom de la chanson japonaise?</span><br>
-<span class="green">テュ・ヴ・ディール・ル・ノム・ドゥ・シャンソン・ジャポネーゼ</span><br>
+<span class="green">テュ・ヴ・ディール・ル・ノム・ドゥ・ラ・シャンソン・ジャポネーゼ</span><br>
 日本の曲の名前を言うの？<br>
 <span class="gold">You mean the name of the Japanese song?</span><br>
 </div>
@@ -513,7 +513,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Cette chanson me rappelle trop de souvenirs, et elle me fait monter les larmes aux yeux.</span><br>
-<span class="green">セット・シャンソン・ム・ラペル・トロ・ドゥ・スーヴェニール　エ・エレム・フエ・モンテ・ラルム・オジユー</span><br>
+<span class="green">セット・シャンソン・ム・ラペル・トロ・ドゥ・スーヴェニール　エ・エレム・フエ・モンテ・レ・ラルム・オジユー</span><br>
 この歌には思い出が多すぎて、涙がこぼれそうになる。<br>
 <span class="gold">This song holds too many memories for me, and it brings tears to my eyes.</span><br>
 </div>
@@ -525,8 +525,8 @@ letter-spacing: inherit;
     <summary><span class="petit">音楽はどうやって聴くの？　iphone ですか、それともラジオ</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
-<span class="bleu">Comment ecoutes-tu la musique ?　Avec ton iPhone ou a la radio ?</span><br>
-<span class="green">コモ・エクテ・テュ・ラ・ミュジィク？　アベク・トン・アイフォーン・ウ・ラディヨ</span><br>
+<span class="bleu">Comment ecoutes-tu la musique ?　Avec ton iPhone ou à la radio ?</span><br>
+<span class="green">コモ・エクテ・テュ・ラ・ミュジィク？　アベク・トン・アイフォーン・ウー・ア・ラ・ラディヨ？</span><br>
 音楽はどうやって聴くの？　iphone ですか、それともラジオ<br>
 <span class="gold">How do you listen to music?　On your iPhone, or on the radio?</span><br>
 </div>
@@ -538,7 +538,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu préfères la musique calme ou la musique 💡joyeuse ?</span><br>
-<span class="green">テュ・プレフェレ・ラ・ミュズィク・カルム・ウ・ラ・ミュジィク・ジョワイユーズ</span><br>
+<span class="green">テュ・プレフェレ・ラ・ミュズィク・カルム・ウー・ラ・ミュジィク・ジョワイユーズ</span><br>
 あなたは静かな音楽と明るい音楽、どちらが好きですか？<br>
 <span class="gold">Do you prefer quiet music or bright music?</span><br>
 </div>
@@ -623,7 +623,7 @@ letter-spacing: inherit;
 <div class="chat-container">
     <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu vois ton ami à l'ecole ? Ou ailleurs ?</span><br>
-<span class="green">テュ・ヴォワ・トナミ・ア・レコル？　ウ・アイユール</span><br>
+<span class="green">テュ・ヴォワ・トナミ・ア・レコル？　ウー・アイユール</span><br>
 学校で友達に会いますか？それとも他の場所で？<br>
 <span class="gold">Do you see your friend at school? Or somewhere else?</span><br>
     </div>
