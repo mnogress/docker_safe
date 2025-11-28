@@ -212,7 +212,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">それは違います。</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Ce n'est pas correct.</span><br>
 <span class="green">スネパ・コレクト</span><br>
 それは違います。<br>
@@ -224,7 +224,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">やあ、調子どう？</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Salut, quoi de neuf?</span><br>
 <span class="green">サルー コワ・ドゥ・ナフ？</span><br>
 やあ、調子どう？<br>
@@ -237,7 +237,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">お元気ですか？</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Comment vas-tu ?</span><br>
 <span class="green">コモ・ヴァ・テュ？</span><br>
 お元気ですか？<br>
@@ -264,7 +264,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">会いたい時に電話しますね</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Je t'appelle quand je veux</span><br>
 <span class="green">ジュ・タペル・カン・ジュ・ヴゥ</span><br>
 会いたい時に電話しますね<br>
@@ -288,7 +288,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">じゃあね！</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">À plus trad!</span><br>
 <span class="green">ア・プル・タール</span><br>
 じゃあね！<br>
@@ -317,7 +317,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">元気です。ありがとう、音楽？　どうぞ！</span></summary>
 <div class="chat-container"> 
-  <div class="speech-bubble left-inner bottom">
+  <div class="speech-bubble left-align bottom">
   <span class="bleu">Ça va bien, Merci, Musique? Allez-y!</span><br>
   <span class="green">サ・ヴァ・ビヤン　メルシィ ミュジィク？　アレジィ!</span><br>
   元気です。ありがとう、音楽？　どうぞ！<br>
@@ -341,7 +341,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">何人かいますが、全員、日本人の歌手です。</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Il y en a plusieurs, mais ce sont tous des chanteurs japonais.</span><br>
 <span class="green">イリオナ・プリュズィユール　メ・スソン・トゥー・デ・シャントゥール・ジャポネ</span><br>
 何人かいますが、全員、日本人の歌手です。<br>
@@ -353,7 +353,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">今夜は優しい歌を歌うの？それとも力強い歌を歌うの？</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Tu chantes une chanson douce ou forte ce soir?</span><br>
 <span class="green">テュ・シャンテ・ウヌ・シャンソン・ドゥース・ウ・フォルト・ス・ソワ？</span><br>
 今夜は優しい歌を歌うの？それとも力強い歌を歌うの？<br>
@@ -391,7 +391,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">その歌はあなたを幸せにしますか？</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">La chanson te rend heureuse?</span><br>
 <span class="green">ラ・シャンソン・テ・ランド・ウールーズ？</span><br>
 その歌はあなたを幸せにしますか？<br>
@@ -415,7 +415,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">その歌はあなたを悲しませますか？</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">La chanson te rend triste ?</span><br>
 <span class="green">ラ・シャンソン・テ・ランド・トリスト？</span><br>
 その歌はあなたを悲しませますか？<br>
@@ -439,7 +439,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">その歌を聴くとき、目を閉じますか？</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Tu fermes 💡les yeux quand tu écoutes la chanson?</span><br>
 <span class="green">テュ・フェルム・レジユー・カン・テュ・エクートゥ・ラ・シャンソン？</span><br>
 その歌を聴くとき、目を閉じますか？<br>
@@ -463,7 +463,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">この歌には思い出が多すぎて、涙がこぼれそうになる。</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Cette chanson me rappelle trop de souvenirs, et elle me fait monter les larmes aux yeux.</span><br>
 <span class="green">セット・シャンソン・ム・ラペル・トロ・ドゥ・スーヴェニール　エ・エレム・フエ・モンテ・ラルム・オジユー</span><br>
 この歌には思い出が多すぎて、涙がこぼれそうになる。<br>
@@ -476,7 +476,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">音楽はどうやって聴くの？　iphone ですか、それともラジオ</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Comment ecoutes-tu la musique ?　Avec ton iPhone ou a la radio ?</span><br>
 <span class="green">コモ・エクテ・テュ・ラ・ミュジィク？　アベク・トン・アイフォーン・ウ・ラディヨ</span><br>
 音楽はどうやって聴くの？　iphone ですか、それともラジオ<br>
@@ -515,7 +515,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">いつかフランス語の歌を習いたい？</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Tu veux apprendre une chanson en français un jour ?</span><br>
 <span class="green">テュ・ヴ・アプラーンドル・ウヌ・シャンソン・オン・フランセ・アン・ジュー？</span><br>
 いつかフランス語の歌を習いたい？<br>
@@ -536,7 +536,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">学校を見るために旅行に行きたいですか？</span></summary>
 <div class="chat-container">
-<div class="speech-bubble left-inner bottom">
+<div class="speech-bubble left-align bottom">
 <span class="bleu">Tu veux 💡voyager pour voir des écoles ?</span><br>
 <span class="green">テュ・ヴ・ヴォワヤジェ・ポ・ヴォワ・デ・エコル？</span><br>
 学校を見るために旅行に行きたいですか？<br>
@@ -560,7 +560,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">外国から新しい友達が欲しいですか？</span></summary>
 <div class="chat-container">
-    <div class="speech-bubble left-inner bottom">
+    <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu veux te faire de nouveaux amis etrangers ?</span><br>
 <span class="green">テユ・ヴ・テ・フェア・ドゥ・ヌーヴォ・ザミ・ゼトランジェ？</span><br>
 外国から新しい友達が欲しいですか？<br>
@@ -585,7 +585,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">そのゲームをよくプレイしますか？</span></summary>
 <div class="chat-container">
-    <div class="speech-bubble left-inner bottom">
+    <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu joues souvent à ce jeu ?</span><br>
 <span class="green">テユ・ジュー・スヴォン・ア・ス・ジュー？</span><br>
 そのゲームをよくプレイしますか？<br>
@@ -614,7 +614,7 @@ letter-spacing: inherit;
 <details>
     <summary><span class="petit">雪が降ったら暖かいコートを着ますか？</span></summary>
 <div class="chat-container">
-    <div class="speech-bubble left-inner bottom">
+    <div class="speech-bubble left-align bottom">
 <span class="bleu">Quand il neige, tu portes un manteau chaud ?</span><br>
 <span class="green">カンティル・ネージュ, テュ・ポルトゥ・ウン・マントゥ・ショゥ？</span><br>
 雪が降ったら暖かいコートを着ますか？<br>
