@@ -288,7 +288,7 @@ letter-spacing: inherit;
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Appelle-moi quand tu veux, d'accord ?</span><br>
-<span class="green">アペル・モァ・カンテュ・ヴゥ、ダコール</span><br>
+<span class="green">アペル・モァ・カンテュ・ヴゥ、ダコール？</span><br>
 いつでも電話してね、いい？<br>
 <span class="gold">Call me anytime, okay?</span><br>
 </div>
