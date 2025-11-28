@@ -241,7 +241,8 @@ letter-spacing: inherit;
 </div>
 </details>
 
-
+<details>
+    <summary><span class="petit">今夜は優しい歌を歌うの？それとも力強い歌を歌うの？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu chantes une chanson douce ou forte ce soir?</span><br>
@@ -250,8 +251,10 @@ letter-spacing: inherit;
 <span class="gold">Are you singing a soft song or a loud song tonight?</span><br>
 </div>
 </div>
+</details>
 
-
+<details>
+    <summary><span class="petit">日本の曲の名前を言うの？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu veux dire le nom de la chanson japonaise?</span><br>
@@ -260,6 +263,21 @@ letter-spacing: inherit;
 <span class="gold">You mean the name of the Japanese song?</span><br>
 </div>
 </div>
+</details>
+
+<details>
+    <summary><span class="petit">日本の歌しかよく知らないんだ。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Je ne connais bien que les chansons japonaises.</span><br>
+<span class="green">ジュ・ネ・コネ・ビエン・ク・レ・シャンソン・ジャポネーゼ</span><br>
+日本の歌しかよく知らないんだ。<br>
+<span class="gold">I only know Japanese songs well.</span><br>
+</div>
+</div>
+</details>
+
+
 
 <details>
     <summary><span class="petit">その歌はあなたを幸せにしますか？</span></summary>
@@ -309,6 +327,8 @@ letter-spacing: inherit;
 </div>
 </details>
 
+<details>
+    <summary><span class="petit">その歌を聴くとき、目を閉じますか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu fermes 💡les yeux quand tu écoutes la chanson?</span><br>
@@ -317,6 +337,7 @@ letter-spacing: inherit;
 <span class="gold">Do you close your eyes when you listen to the song?</span><br>
 </div>
 </div>
+</details>
 
 <details>
     <summary><span class="petit">なぜ、君はその歌を聴くと泣いてしまうの？</span></summary>
@@ -355,7 +376,8 @@ letter-spacing: inherit;
 </div>
 </details>
 
-
+<details>
+    <summary><span class="petit">あなたは静かな音楽と明るい音楽、どちらが好きですか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
 <span class="bleu">Tu préfères la musique calme ou la musique 💡joyeuse ?</span><br>
@@ -364,8 +386,25 @@ letter-spacing: inherit;
 <span class="gold">Do you prefer quiet music or bright music?</span><br>
 </div>
 </div>
+</details>
 
 
+<details>
+    <summary><span class="petit">いつも、やさしい歌がすきなの</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">J'aime toujours les chansons douces.</span><br>
+<span class="green">ジェイム・トゥジュー・レ・シャンソン・ドゥース</span><br>
+いつも、やさしい歌がすきなの<br>
+<span class="gold">I always like soft songs.</span><br>
+</div>
+</div>
+</details>
+
+
+
+<details>
+    <summary><span class="petit">いつかフランス語の歌を習いたい？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-inner bottom">
 <span class="bleu">Tu veux apprendre une chanson en français un jour ?</span><br>
@@ -374,6 +413,8 @@ letter-spacing: inherit;
 <span class="gold">Would you like to learn a French song someday?</span><br>
 </div>
 </div>
+</details>
+
 
 <div markdown='1'>
 ---
@@ -403,6 +444,33 @@ letter-spacing: inherit;
 </div>
 </div>
 </details>
+
+<details>
+    <summary><span class="petit">やあ、調子どう？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Salut, quoi de neuf?</span><br>
+<span class="green">サルー コワ・ドゥ・ナフ？</span><br>
+やあ、調子どう？<br>
+<span class="gold">Hi, what's new?</span><br>
+</div>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">お元気ですか？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-inner bottom">
+<span class="bleu">Comment vas-tu ?</span><br>
+<span class="green">コモ・ヴァ・テュ？</span><br>
+お元気ですか？<br>
+<span class="gold">How are you?</span><br>
+</div>
+</div>
+</details>
+
+
 
 <details>
     <summary><span class="petit">いつでも電話してね、いい？</span></summary>
