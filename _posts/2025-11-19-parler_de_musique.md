@@ -210,6 +210,18 @@ letter-spacing: inherit;
 </details>
 
 <details>
+    <summary><span class="petit">そう、よかった。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Tu as dit oui ?　Tant mieux.</span><br>
+<span class="green">テュ・ア・ディ・ウィ？　タン・ミュー</span><br>
+そう、よかった。<br>
+<span class="gold">You said Yes?　That's good.</span><br>
+</div>
+</div>
+</details>
+
+<details>
     <summary><span class="petit">それは違います。</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
