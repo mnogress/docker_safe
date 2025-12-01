@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2025-10-11
-last_modified_at : 2025-11-28 10:30:00
+date: 2025-11-30
+last_modified_at : 2025-11-30 10:30:00
 ---
 
 外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　AIを会話の練習相手としても、返答が、最初のうちはなかなか言葉がでてきません。
@@ -642,6 +642,45 @@ letter-spacing: inherit;
 </div>
 </details>
 
+<details>
+    <summary><span class="petit">誕生日プレゼントを贈るのが好きですか？</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Vous aimez offrir des cadeaux pour les anniversaires ?</span><br>
+<span class="green">ヴーゼメ・オフリール・デ・カドー・ポウレ・アニヴェルセール？</span><br>
+誕生日プレゼントを贈るのが好きですか？<br>
+<span class="gold">Do you like giving gifts for birthdays?</span><br>
+<span class="rouge">J'aime(ジェーム) Tu amies (テュ・エーム)　Vous aimez　(ヴーゼメ) </span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">何が好きですか？</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Qu’est-ce que vous aimez?</span><br>
+<span class="green">ケスク・ヴーゼメ？</span><br>
+何が好きですか？<br>
+<span class="gold">What do you like?</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">オーディオブックを聴くのが好きです。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">J'aime écouter des livres audio.</span><br>
+<span class="green">ジェーム・エクテ・デ・リーヴル・オデゥオ</span><br>
+オーディオブックを聴くのが好きです。<br>
+<span class="gold">I enjoy listening to audiobooks.</span><br>
+    </div>
+</div>
+</details>
+
+
+
 <div markdown='1'>
 ---
 ### 冬と寒さについて (du froid et de l'hiver)
@@ -667,6 +706,31 @@ letter-spacing: inherit;
 <span class="green">カンティル・ネージュ, テュ・ポルトゥ・ウン・マントゥ・ショゥ？</span><br>
 雪が降ったら暖かいコートを着ますか？<br>
 <span class="gold">When it snows, do you wear a warm coat?</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">もっと寒くなるかもしれない、もう11月だ。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Il pourrait faire plus froid, nous sommes déjà en Novembre. </span><br>
+<span class="green">イル・プゥレー・フェア・プル・フロワ　ヌソム・デジャ・オン・ヌヴァンブる</span><br>
+もっと寒くなるかもしれない、もう11月だ。<br>
+<span class="gold">It may get colder, it’s already November. </span><br>
+<span class="rouge">pouvoirの条件法現在第三人称単数形。pourrait</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">私の妻は仕事でズボンをはいています。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Ma femme porte des pantalons au travail.</span><br>
+<span class="green">マ・ファム・ポルトゥ・デ・パンタロン・オ・トラバイユ</span><br>
+私の妻は仕事でズボンをはいています。<br>
+<span class="gold">My wife wears trousers to work.</span><br>
     </div>
 </div>
 </details>
