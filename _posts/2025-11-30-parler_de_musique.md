@@ -344,6 +344,79 @@ letter-spacing: inherit;
 </div>
 </details>
 
+<details>
+    <summary><span class="petit">君を誇りに思うよ。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Je suis fier de toi.</span><br>
+<span class="green">ジュ・スイ・フィエール・ドゥ・トワ</span><br>
+君を誇りに思うよ。<br>
+<span class="gold">I'm proud of you.</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">あなたは恥をかいた。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Tu es honteux.</span><br>
+<span class="green">テュ・エ・ オントゥー</span><br>
+あなたは恥をかいた。<br>
+<span class="gold">Yoou are shamed.</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">私は忙しいです。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Je suis occupé.</span><br>
+<span class="green">ジュ・スイゾキュペ</span><br>
+私は忙しいです。<br>
+<span class="gold">I am busy.</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">それは理にかなっている。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Ça a du sens.</span><br>
+<span class="green">サ・ア・ドュ・サーンス</span><br>
+それは理にかなっている。<br>
+<span class="gold">That makes a sense.</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">その家は売りに出されています。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">La maison est à vendre.</span><br>
+<span class="green">ラ・メゾン・エ・ア・ヴァーンドル</span><br>
+その家は売りに出されています。<br>
+<span class="gold">The house is for sale.</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">どうしたの？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Que se passe-t-il?</span><br>
+<span class="green">ケス・パスティル？</span><br>
+どうしたの？<br>
+<span class="gold">What's going on?</span><br>
+</div>
+</div>
+</details>
+
+
 
 <div markdown='1'>
 ---
@@ -731,6 +804,42 @@ letter-spacing: inherit;
 <span class="green">マ・ファム・ポルトゥ・デ・パンタロン・オ・トラバイユ</span><br>
 私の妻は仕事でズボンをはいています。<br>
 <span class="gold">My wife wears trousers to work.</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">寒いですか？ セーターを着ていますか？</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Il fait froid? Tu portes un pull?</span><br>
+<span class="green">イル・フェ・フロワ？　テュ・ポルトゥ・ウン・プル？</span><br>
+寒いですか？ セーターを着ていますか？<br>
+<span class="gold">Is it cold? Are you wearing a sweater?</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">外はすごく寒い。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Il fait trop froid dehors.</span><br>
+<span class="green">イル・フェ・トロ・フロワ・ドゥオール</span><br>
+外はすごく寒い。<br>
+<span class="gold">It's too cold outside.</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">セーターがないと寒い。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">J'ai froid sans mon pull.</span><br>
+<span class="green">ジェ・フロワ・サン・モン・プル</span><br>
+セーターがないと寒い。<br>
+<span class="gold">I feel cold without my sweater.</span><br>
     </div>
 </div>
 </details>
