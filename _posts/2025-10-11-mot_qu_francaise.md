@@ -152,6 +152,8 @@ letter-spacing: inherit;
 | e<span class="bleu">qui</span>p 　　 |エキプ|チーム㊛|英語読みの'イクイップ'と発音しない|
 | <span class="bleu">qui</span>nzaine　　  |カンゼヌ|約15、2週間㊛||
 | <span class="bleu">qui</span>nze août　　  |カーンズ・オゥト|8月15日||
+| tran<span class="bleu">qui</span>le 　　  |トランキル|静かな，穏やかな|quile は”キル”と発音し、”キユ”ではない|
+
 
 
 ### qua を含むフランス単語
@@ -165,6 +167,8 @@ letter-spacing: inherit;
 | <span class="bleu">qua</span>siment 　　|カジム|ほとんど，ほぼ||
 | <span class="bleu">qua</span>lité 　　  |カリテ|質、品質||
 | <span class="bleu">qua</span>ntité　　  |カンティテ|量||
+| <span class="bleu">qua</span>rtier　　  |カルティエ|地区、界隈 ㊚||
+
 
 
 ### quoi を含むフランス単語
