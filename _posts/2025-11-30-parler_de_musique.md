@@ -919,6 +919,85 @@ letter-spacing: inherit;
 </div>
 </details>
 
+<div markdown='1'>
+---
+### 仕事について (travailler)
+</div>
+
+<details>
+    <summary><span class="petit">おめでとう、成功したよ！</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Félicitations, nous avons réussi !</span><br>
+<span class="green">フェリシタション　ヌザヴォン・レゥスイ</span><br>
+おめでとう、成功したよ！<br>
+<span class="gold">Congratulations, we did it!</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">やっと終わった、ほっとした。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Enfin fini, je suis soulagé</span><br>
+<span class="green">アンファン・フィニ　ジュ・スィ・スラージュ</span><br>
+やっと終わった、ほっとした。<br>
+<span class="gold">Finally finished, I'm relieved.</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">もう遅いのに、まだ仕事をしなければなりません。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Il est tard, et pourtant je dois travailler.</span><br>
+<span class="green">イレ・タール　エ・プルタン・ジュ・ドゥワ・トラブァイエ</span><br>
+もう遅いのに、まだ仕事をしなければなりません。<br>
+<span class="gold">It's late, and yet I have to work.</span><br>
+    </div>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">それは休憩が減ることを意味します。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Ça veut dire moins de pauses.</span><br>
+<span class="green">サヴゥ・ディール・モワン・ドゥ・ポーズ</span><br>
+それは休憩が減ることを意味します。<br>
+<span class="gold">That means fewer breaks.</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">彼女は時間内に終わってほっとしている。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Elle est soulagée d'avoir fini a temps.</span><br>
+<span class="green">エレ・エ・スラージュェ・ダヴォワ・フィニ・ア・トンプ</span><br>
+彼女は時間内に終わってほっとしている。<br>
+<span class="gold">She is relieved to have finished on time.</span><br>
+    </div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">この本は素晴らしいので、お勧めします。</span></summary>
+<div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+<span class="bleu">Vu que ce livre est genial, je le recommande.</span><br>
+<span class="green">ヴ・ク・ス・リーヴル・エ・ジェニアル　ジュ・ル・ルコマンド</span><br>
+この本は素晴らしいので、お勧めします。<br>
+<span class="gold">Since the book is great, I recommend it.</span><br>
+    </div>
+</div>
+</details>
+
+
 
 <div markdown='1'>
 ---
