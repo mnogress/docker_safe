@@ -321,6 +321,19 @@ letter-spacing: inherit;
 </details>
 
 <details>
+    <summary><span class="petit">またすぐ会いましょう。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">On se voit bientôt.</span><br>
+<span class="green">オン・ス・ヴォワ・ビエントゥト</span><br>
+またすぐ会いましょう。<br>
+<span class="gold">See you soon!</span><br>
+</div>
+</div>
+</details>
+
+
+<details>
     <summary><span class="petit">じゃあね！</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
@@ -331,6 +344,19 @@ letter-spacing: inherit;
 </div>
 </div>
 </details>
+
+<details>
+    <summary><span class="petit">それが見えますか？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Est-ce que vous le voyez? </span><br>
+<span class="green">エスク・ヴ・ル・ヴォワイエ？</span><br>
+それが見えますか？<br>
+<span class="gold">Do you see it? </span><br>
+</div>
+</div>
+</details>
+
 
 <details>
     <summary><span class="petit">問題ないです。</span></summary>
@@ -412,6 +438,55 @@ letter-spacing: inherit;
 <span class="green">ケス・パスティル？</span><br>
 どうしたの？<br>
 <span class="gold">What's going on?</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">急いで！</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Dépêchez-vous!</span><br>
+<span class="green">デペシェ・ヴ！</span><br>
+急いで！<br>
+<span class="gold">Hurry up!</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">わかりましたか？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">C'est clair?</span><br>
+<span class="green">セ・クレール？</span><br>
+わかりましたか？<br>
+<span class="gold">Is that clear?</span><br>
+</div>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">私は最善を尽くしています。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Je fais de mon mieux.</span><br>
+<span class="green">ジュ・フェ・ドゥ・モン・ミュー</span><br>
+私は最善を尽くしています。<br>
+<span class="gold">I'm doing my best.</span><br>
+</div>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">私は途方に暮れてます。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Je me sens perdu.</span><br>
+<span class="green">ジュ・ム・サンース・ペルドゥ</span><br>
+私は途方に暮れてます。<br>
+<span class="gold">I feel lost.</span><br>
 </div>
 </div>
 </details>
