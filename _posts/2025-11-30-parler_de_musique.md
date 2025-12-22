@@ -190,7 +190,11 @@ letter-spacing: inherit;
   filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
 }
 
+  #rate-control { display:flex; align-items:center; gap:1rem; margin:1rem 0; }
+  #status { margin-top: .5rem; color: #333; }
 </style>
+
+
 
 <div markdown='1'>
 ---
@@ -999,6 +1003,9 @@ letter-spacing: inherit;
 
 
 
+
+
+
 <div markdown='1'>
 ---
 ### イグレック(Y/y)の発音について
@@ -1013,5 +1020,6 @@ letter-spacing: inherit;
     <li>「voyager」は、「vo<strong>ii</strong>ager」となり、最初のo+i が「ワ」次のia が「ヤ」となり、「ヴォワヤジェ」と発音する</li>
     </ol>
 </div>
+
 
 
