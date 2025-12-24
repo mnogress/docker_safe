@@ -514,17 +514,7 @@ letter-spacing: inherit;
   </div>
 </details>
 
-<details>
-    <summary><span class="petit">元気です。ありがとう、音楽？　どうぞ！</span></summary>
-<div class="chat-container"> 
-  <div class="speech-bubble left-align bottom">
-  <span class="bleu">Ça va bien, Merci, Musique? Allez-y!</span><br>
-  <span class="green">サ・ヴァ・ビヤン　メルシィ ミュジィク？　アレジィ!</span><br>
-  元気です。ありがとう、音楽？　どうぞ！<br>
-  <span class="gold">Fine thank you, music? Go ahead.</span><br>
-</div>
-</div>
-</details>
+
 
 <details>
     <summary><span class="petit">お気に入りの歌手はいますか</span></summary>
@@ -1000,9 +990,6 @@ letter-spacing: inherit;
     </div>
 </div>
 </details>
-
-
-
 
 
 
