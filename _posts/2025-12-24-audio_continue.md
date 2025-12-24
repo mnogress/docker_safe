@@ -402,7 +402,6 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">Does the song make you happy?</span><br>
 </div>
 </div>
-</details>
 <div class="player">
   <audio id="voice8" preload="auto">
     <source src="\audio\La_chanson_te_rend_heureuse.m4a" type="audio/mp4">
@@ -431,6 +430,156 @@ document.addEventListener('DOMContentLoaded', () => {
     <source src="\audio\Tu_as_dit_oui_Tant_mieux.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice9">
+    <span class="label">音声を聴く</span>
+  </button>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">その歌を聴くとき、目を閉じますか？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Tu fermes 💡les yeux quand tu écoutes la chanson?</span><br>
+<span class="green">テュ・フェルム・レジユー・カン・テュ・エクートゥ・ラ・シャンソン？</span><br>
+その歌を聴くとき、目を閉じますか？<br>
+<span class="gold">Do you close your eyes when you listen to the song?</span><br>
+</div>
+</div>
+
+<div class="player">
+  <audio id="voice10" preload="auto">
+    <source src="\audio\Tu_fermesles_yeux_quand_tu_écoutes_la_chanson.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice10">
+    <span class="label">音声を聴く</span>
+  </button>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">なぜ、君はその歌を聴くと泣いてしまうの？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Pourquoi pleures-tu quand tu écoutes la chanson ?</span><br>
+<span class="green">ポコワ・プルレ・テュ・カンテュ・エクートゥ・ラ・シャンソン？</span><br>
+なぜ、君はその歌を聴くと泣いてしまうの？<br>
+<span class="gold">Why do you cry when you hear that song?</span><br>
+</div>
+</div>
+
+<div class="player">
+  <audio id="voice11" preload="auto">
+    <source src="\audio\Pourquoi_pleures-tu_quand_tu_écoutes_la_chanson.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice11">
+    <span class="label">音声を聴く</span>
+  </button>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">この歌には思い出が多すぎて、涙がこぼれそうになる。</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Cette chanson me rappelle trop de souvenirs, et elle me fait monter les larmes aux yeux.</span><br>
+<span class="green">セット・シャンソン・ム・ラペル・トロ・ドゥ・スーヴェニール　エ・エレム・フエ・モンテ・レ・ラルム・オジユー</span><br>
+この歌には思い出が多すぎて、涙がこぼれそうになる。<br>
+<span class="gold">This song holds too many memories for me, and it brings tears to my eyes.</span><br>
+</div>
+</div>
+
+<div class="player">
+  <audio id="voice12" preload="auto">
+    <source src="\audio\Cette_chanson_me_rappelle_trop_de_souvenirs.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice12">
+    <span class="label">音声を聴く</span>
+  </button>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">音楽はどうやって聴くの？　iphone ですか、それともラジオ</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Comment ecoutes-tu la musique ?　Avec ton iPhone ou à la radio ?</span><br>
+<span class="green">コモ・エクテ・テュ・ラ・ミュジィク？　アベク・トン・アイフォーン・ウー・ア・ラ・ラディヨ？</span><br>
+音楽はどうやって聴くの？　iphone ですか、それともラジオ<br>
+<span class="gold">How do you listen to music?　On your iPhone, or on the radio?</span><br>
+</div>
+</div>
+
+<div class="player">
+  <audio id="voice13" preload="auto">
+    <source src="\audio\Comment_ecoutes-tu_la_musique.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice13">
+    <span class="label">音声を聴く</span>
+  </button>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">あなたは静かな音楽と明るい音楽、どちらが好きですか？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Tu préfères la musique calme ou la musique 💡joyeuse ?</span><br>
+<span class="green">テュ・プレフェレ・ラ・ミュズィク・カルム・ウー・ラ・ミュジィク・ジョワイユーズ</span><br>
+あなたは静かな音楽と明るい音楽、どちらが好きですか？<br>
+<span class="gold">Do you prefer quiet music or bright music?</span><br>
+</div>
+</div>
+<div class="player">
+  <audio id="voice14" preload="auto">
+    <source src="\audio\Tu_préfères_la_musique_calme_ou_la_musique.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice14">
+    <span class="label">音声を聴く</span>
+  </button>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">いつも、やさしい歌がすきなの</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">J'aime toujours les chansons douces.</span><br>
+<span class="green">ジェイム・トゥジュー・レ・シャンソン・ドゥース</span><br>
+いつも、やさしい歌がすきなの<br>
+<span class="gold">I always like soft songs.</span><br>
+</div>
+</div>
+
+<div class="player">
+  <audio id="voice14" preload="auto">
+    <source src="\audio\J_aime_toujours_les_chansons_douces.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice14">
+    <span class="label">音声を聴く</span>
+  </button>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">いつかフランス語の歌を習いたい？</span></summary>
+<div class="chat-container">
+<div class="speech-bubble left-align bottom">
+<span class="bleu">Tu veux apprendre une chanson en français un jour ?</span><br>
+<span class="green">テュ・ヴ・アプラーンドル・ウヌ・シャンソン・オン・フランセ・アン・ジュー？</span><br>
+いつかフランス語の歌を習いたい？<br>
+<span class="gold">Would you like to learn a French song someday?</span><br>
+</div>
+</div>
+
+<div class="player">
+  <audio id="voice15" preload="auto">
+    <source src="\audio\Tu_veux_apprendre_un_jour.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice15">
     <span class="label">音声を聴く</span>
   </button>
 </div>
