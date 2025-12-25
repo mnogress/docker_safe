@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2025-11-30
-last_modified_at : 2025-11-30 10:30:00
+date: 2025-12-24
+last_modified_at : 2025-12-24 10:30:00
 ---
 
 外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　AIを会話の練習相手としても、返答が、最初のうちはなかなか言葉がでてきません。
@@ -190,7 +190,11 @@ letter-spacing: inherit;
   filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
 }
 
+  #rate-control { display:flex; align-items:center; gap:1rem; margin:1rem 0; }
+  #status { margin-top: .5rem; color: #333; }
 </style>
+
+
 
 <div markdown='1'>
 ---
@@ -510,17 +514,7 @@ letter-spacing: inherit;
   </div>
 </details>
 
-<details>
-    <summary><span class="petit">元気です。ありがとう、音楽？　どうぞ！</span></summary>
-<div class="chat-container"> 
-  <div class="speech-bubble left-align bottom">
-  <span class="bleu">Ça va bien, Merci, Musique? Allez-y!</span><br>
-  <span class="green">サ・ヴァ・ビヤン　メルシィ ミュジィク？　アレジィ!</span><br>
-  元気です。ありがとう、音楽？　どうぞ！<br>
-  <span class="gold">Fine thank you, music? Go ahead.</span><br>
-</div>
-</div>
-</details>
+
 
 <details>
     <summary><span class="petit">お気に入りの歌手はいますか</span></summary>
@@ -1013,5 +1007,6 @@ letter-spacing: inherit;
     <li>「voyager」は、「vo<strong>ii</strong>ager」となり、最初のo+i が「ワ」次のia が「ヤ」となり、「ヴォワヤジェ」と発音する</li>
     </ol>
 </div>
+
 
 

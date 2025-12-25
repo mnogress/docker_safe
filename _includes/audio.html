@@ -1,0 +1,40 @@
+{%- assign pid = include.id | default: 'audio-' | append: include.src | replace:'/','-' | replace:'.','-' -%}
+{%- comment -%}
+  Liquidで一意なIDを生成（srcから擬似ID）。必要なら include.id を明示指定可能。
+{%- endcomment -%}
+
+<section class="audio-card" aria-label="音声プレイヤー" id="{{ pid }}">
+  <!-- 再生／一時停止ボタン（音声アイコン） -->
+  <button class="btn" aria-label="再生/一時停止" data-role="play">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 9v6h4l5 4V5L8 9H4z"></path>
+      <path d="M14 9.5a3.5 3.5 0 0 1 0 5" stroke-linecap="round" fill="none" stroke="#222" stroke-width="2"></path>
+      <path d="M14 7a6 6 0 0 1 0 10" stroke-linecap="round" fill="none" stroke="#222" stroke-width="2"></path>
+    </svg>
+  </button>
+
+  <!-- タイトル -->
+  <div>
+    <div class="audio-title">{{ include.title | default: '音声' }}</div>
+    <div class="time"><span data-role="cur">0:00</span> / <span data-role="dur">0:00</span></div>
+  </div>
+
+  <!-- リピート（もう一度） -->
+  <button class="btn" aria-label="もう一度再生" data-role="repeat">
+    <svg viewBox="0 0 24 24" aria-hidden="true">
+      <path d="M4 12a8 8 0 1 1 8 8" stroke-linecap="round" fill="none" stroke="#222" stroke-width="2"></path>
+      <path d="M12 4l-2 2 2 2" stroke-linecap="round" fill="none" stroke="#222" stroke-width="2"></path>
+    </svg>
+  </button>
+
+  <!-- 進捗バー -->
+  <div class="bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label="再生進捗">
+    <div class="progress" data-role="progress"></div>
+  </div>
+
+  <!-- 実体の audio -->
+  <audio preload="metadata" data-role="audio">
+    {{ include.src }}
+    お使いのブラウザは audio 要素に対応していません。
+  </audio>
+</section>
