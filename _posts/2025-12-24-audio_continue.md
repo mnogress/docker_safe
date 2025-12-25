@@ -230,7 +230,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateLabel(button, playing) {
     const label = button.querySelector('.label');
-    if (label) label.textContent = playing ? '停止' : '再生';
+    if (label) label.textContent = playing ? '停止' : 'もう一度聴く';
   }
 });
 </script>
