@@ -451,7 +451,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <summary><span class="petit">その歌を聴くとき、目を閉じますか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
-<span class="bleu">Tu fermes 💡les yeux quand tu écoutes la chanson?</span><br>
+<span class="bleu">Tu fermes les yeux quand tu écoutes la chanson?</span><br>
 <span class="green">テュ・フェルム・レジユー・カン・テュ・エクートゥ・ラ・シャンソン？</span><br>
 その歌を聴くとき、目を閉じますか？<br>
 <span class="gold">Do you close your eyes when you listen to the song?</span><br>
@@ -537,7 +537,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <summary><span class="petit">あなたは静かな音楽と明るい音楽、どちらが好きですか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
-<span class="bleu">Tu préfères la musique calme ou la musique 💡joyeuse ?</span><br>
+<span class="bleu">Tu préfères la musique calme ou la musique joyeuse ?</span><br>
 <span class="green">テュ・プレフェレ・ラ・ミュズィク・カルム・ウー・ラ・ミュジィク・ジョワイユーズ</span><br>
 あなたは静かな音楽と明るい音楽、どちらが好きですか？<br>
 <span class="gold">Do you prefer quiet music or bright music?</span><br>
