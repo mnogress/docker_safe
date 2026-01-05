@@ -2,7 +2,7 @@
 layout: single
 title: フランス語リスニング強化メモ｜リエゾン・アンシェヌマンを音声で学ぶ記録(はじめに)
 header:
-  overlay_image: images/header_fr10_1280by336.png
+  overlay_image: images/header_a1_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.33)
 toc: True
 toc_label: "目次"
@@ -268,7 +268,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <div class="player">
   <audio id="voice1" preload="auto">
-    <source src="\audio\As-tu un chanteur préféré.m4a" type="audio/mp4">
+    <source src="\audio\0101\As-tu un chanteur préféré.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice1">
     <span class="label">音声を聴く</span>
@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="player">
   <audio id="voice2" preload="auto">
-    <source src="\audio\Bonjour_musique.m4a" type="audio/mp4">
+    <source src="\audio\0101\Bonjour_musique.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice2">
     <span class="label">音声を聴く</span>
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <div class="player">
   <audio id="voice3" preload="auto">
-    <source src="\audio\Ça_va_bien_Merci_MusiqueAllez-y.m4a" type="audio/mp4">
+    <source src="\audio\0101\Ça_va_bien_Merci_MusiqueAllez-y.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice3">
     <span class="label">音声を聴く</span>
@@ -331,7 +331,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <div class="player">
   <audio id="voice4" preload="auto">
-    <source src="\audio\Il_plusieurs_mais_ce_sont_tous_des_chanteurs_japonais.m4a" type="audio/mp4">
+    <source src="\audio\0101\Il_plusieurs_mais_ce_sont_tous_des_chanteurs_japonais.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice4">
     <span class="label">音声を聴く</span>
@@ -351,7 +351,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <div class="player">
   <audio id="voice5" preload="auto">
-    <source src="\audio\Tu_chantes_une_chanson_douce_ou_forte_ce_soir.m4a" type="audio/mp4">
+    <source src="\audio\0101\Tu_chantes_une_chanson_douce_ou_forte_ce_soir.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice5">
     <span class="label">音声を聴く</span>
@@ -372,7 +372,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <div class="player">
   <audio id="voice6" preload="auto">
-    <source src="\audio\Tu_veux_dire_le_nom_de_la_chanson_japonaise.m4a" type="audio/mp4">
+    <source src="\audio\0101\Tu_veux_dire_le_nom_de_la_chanson_japonaise.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice6">
     <span class="label">音声を聴く</span>
@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <div class="player">
   <audio id="voice7" preload="auto">
-    <source src="\audio\Je_ne_connais_bien_que_les_chansons_japonaises.m4a" type="audio/mp4">
+    <source src="\audio\0101\Je_ne_connais_bien_que_les_chansons_japonaises.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice7">
     <span class="label">音声を聴く</span>
@@ -416,7 +416,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <div class="player">
   <audio id="voice8" preload="auto">
-    <source src="\audio\La_chanson_te_rend_heureuse.m4a" type="audio/mp4">
+    <source src="\audio\0101\La_chanson_te_rend_heureuse.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice8">
     <span class="label">音声を聴く</span>
@@ -439,7 +439,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="player">
   <audio id="voice9" preload="auto">
-    <source src="\audio\Tu_as_dit_oui_Tant_mieux.m4a" type="audio/mp4">
+    <source src="\audio\0101\Tu_as_dit_oui_Tant_mieux.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice9">
     <span class="label">音声を聴く</span>
@@ -460,7 +460,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="player">
   <audio id="voice10" preload="auto">
-    <source src="\audio\Tu_fermesles_yeux_quand_tu_écoutes_la_chanson.m4a" type="audio/mp4">
+    <source src="\audio\0101\Tu_fermesles_yeux_quand_tu_écoutes_la_chanson.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice10">
     <span class="label">音声を聴く</span>
@@ -481,7 +481,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="player">
   <audio id="voice11" preload="auto">
-    <source src="\audio\Pourquoi_pleures-tu_quand_tu_écoutes_la_chanson.m4a" type="audio/mp4">
+    <source src="\audio\0101\Pourquoi_pleures-tu_quand_tu_écoutes_la_chanson.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice11">
     <span class="label">音声を聴く</span>
@@ -502,7 +502,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="player">
   <audio id="voice12" preload="auto">
-    <source src="\audio\Cette_chanson_me_rappelle_trop_de_souvenirs.m4a" type="audio/mp4">
+    <source src="\audio\0101\Cette_chanson_me_rappelle_trop_de_souvenirs.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice12">
     <span class="label">音声を聴く</span>
@@ -524,7 +524,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="player">
   <audio id="voice13" preload="auto">
-    <source src="\audio\Comment_ecoutes-tu_la_musique.m4a" type="audio/mp4">
+    <source src="\audio\0101\Comment_ecoutes-tu_la_musique.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice13">
     <span class="label">音声を聴く</span>
@@ -545,7 +545,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 <div class="player">
   <audio id="voice14" preload="auto">
-    <source src="\audio\Tu_préfères_la_musique_calme_ou_la_musique.m4a" type="audio/mp4">
+    <source src="\audio\0101\Tu_préfères_la_musique_calme_ou_la_musique.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice14">
     <span class="label">音声を聴く</span>
@@ -567,7 +567,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="player">
   <audio id="voice14" preload="auto">
-    <source src="\audio\J_aime_toujours_les_chansons_douces.m4a" type="audio/mp4">
+    <source src="\audio\0101\J_aime_toujours_les_chansons_douces.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice14">
     <span class="label">音声を聴く</span>
@@ -589,7 +589,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="player">
   <audio id="voice15" preload="auto">
-    <source src="\audio\Tu_veux_apprendre_un_jour.m4a" type="audio/mp4">
+    <source src="\audio\0101\Tu_veux_apprendre_un_jour.m4a" type="audio/mp4">
   </audio>
   <button type="button" data-audio-id="voice15">
     <span class="label">音声を聴く</span>
