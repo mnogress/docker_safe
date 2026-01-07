@@ -256,145 +256,6 @@ document.addEventListener('DOMContentLoaded', () => {
 日常生活でよく使われる「短いフランス語の例文」を、音声と一緒に練習できます。リエゾンやアンシェヌマンの感覚をつかむための次のステップとして最適です。
 
 
-<details>
-  <summary><span class="petit">君はその本を読むことを試してみるべきだ。</span></summary>
-  <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
-      <span class="bleu">Tu deverais essayer de lire ce livre.</span><br>
-      <span class="green">テュ・ドゥヴレ・エッセイエ ・ドゥ ・リール・ス ルーヴル</span><br>
-      君はその本を読むことを試してみるべきだ。<br>
-      <span class="gold">You should try reading this book.</span><br>
-    </div>
-  </div>
-  <div class="player">
-    <audio id="L25251" preload="auto">
-      <source src="\audio\0105\Tu_deverais_essayer_de_lire_ce_livre.m4a" type="audio/mp4">
-    </audio>
-    <button type="button" data-audio-id="L25251">
-      <span class="label">音声を聴く</span>
-    </button>
-  </div>
-</details>
-
-<details>
-  <summary><span class="petit">待合室でお待ちいただけます。</span></summary>
-  <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
-      <span class="bleu">Vous pouvez patienter dans la salle d&#39;attente.</span><br>
-      <span class="green">ヴ・プヴエ・パシャント・ダン・ラ・サル・ダタントゥ</span><br>
-      待合室でお待ちいただけます。<br>
-      <span class="gold">You can wait in the waiting room.</span><br>
-    </div>
-  </div>
-  <div class="player">
-    <audio id="L25252" preload="auto">
-      <source src="\audio\0105\Vous_pouvez_patienter_dans_la_salle_dattente.m4a" type="audio/mp4">
-    </audio>
-    <button type="button" data-audio-id="L25252">
-      <span class="label">音声を聴く</span>
-    </button>
-  </div>
-</details>
-
-<details>
-  <summary><span class="petit">このパン屋さんはおいしいクレープを作ります。</span></summary>
-  <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
-      <span class="bleu">Ce boulanger fait des crêpes délicieuses.</span><br>
-      <span class="green">ス・ブランジェ・フェ・デ・クレプ・デリシューズ</span><br>
-      このパン屋さんはおいしいクレープを作ります。<br>
-      <span class="gold">This baker makes delicious crepes.</span><br>
-    </div>
-  </div>
-  <div class="player">
-    <audio id="L25254" preload="auto">
-      <source src="\audio\0105\Ce_boulanger_fait_des_crepes.m4a" type="audio/mp4">
-    </audio>
-    <button type="button" data-audio-id="L25254">
-      <span class="label">音声を聴く</span>
-    </button>
-  </div>
-</details>
-
-<details>
-  <summary><span class="petit">正直言って、君は料理が下手だ。</span></summary>
-  <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
-      <span class="bleu">Franchement, tu cuisines vraiment mal.</span><br>
-      <span class="green">フランシュマン・テュ・キュイズィーヌ・ヴレモン・マル</span><br>
-      正直言って、君は料理が下手だ。<br>
-      <span class="gold">Honestly, you&#39;re a terrible cook.</span><br>
-    </div>
-  </div>
-  <div class="player">
-    <audio id="L25255" preload="auto">
-      <source src="\audio\0105\Franchement_tu_cuisines_vraiment_mal.m4a" type="audio/mp4">
-    </audio>
-    <button type="button" data-audio-id="L25255">
-      <span class="label">音声を聴く</span>
-    </button>
-  </div>
-</details>
-
-<details>
-  <summary><span class="petit">ピザを買おうか？</span></summary>
-  <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
-      <span class="bleu">On achète des pizzas ?</span><br>
-      <span class="green">オナ・アシェテ・デ・ピザ？</span><br>
-      ピザを買おうか？<br>
-      <span class="gold">Shall we buy some pizza?</span><br>
-    </div>
-  </div>
-  <div class="player">
-    <audio id="L25256" preload="auto">
-      <source src="\audio\0105\On_achete_des_pizzas.m4a" type="audio/mp4">
-    </audio>
-    <button type="button" data-audio-id="L25256">
-      <span class="label">音声を聴く</span>
-    </button>
-  </div>
-</details>
-
-<details>
-  <summary><span class="petit">このソースにはピーマンも入っていますか？</span></summary>
-  <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
-      <span class="bleu">Est-ce qu&#39;il y a aussi du poivron dans cette sauce ?</span><br>
-      <span class="green">エスキリヤ・オゥシ・ドゥ・ポワヴロン・セット・ソース？</span><br>
-      このソースにはピーマンも入っていますか？<br>
-      <span class="gold">Is there also bell pepper in this sauce?</span><br>
-    </div>
-  </div>
-  <div class="player">
-    <audio id="L25257" preload="auto">
-      <source src="\audio\0105\Est-ce_qu_il_y_a_aussi_du_poivron.m4a" type="audio/mp4">
-    </audio>
-    <button type="button" data-audio-id="L25257">
-      <span class="label">音声を聴く</span>
-    </button>
-  </div>
-</details>
-
-<details>
-  <summary><span class="petit">私のサングラスをどこに置いたか知ってる？</span></summary>
-  <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
-      <span class="bleu">Savez-vous où j&#39;ai mis mes lunettes de soleil ? </span><br>
-      <span class="green">サヴェズーウ・ジェ・ミ・メ・リュネット ドゥ ソレイユ？</span><br>
-      私のサングラスをどこに置いたか知ってる？<br>
-      <span class="gold">Do you know where I put my sunglasses?</span><br>
-    </div>
-  </div>
-  <div class="player">
-    <audio id="L25258" preload="auto">
-      <source src="\audio\0105\Savez-vous_ou_jai_mis_mes_lunettes.m4a" type="audio/mp4">
-    </audio>
-    <button type="button" data-audio-id="L25258">
-      <span class="label">音声を聴く</span>
-    </button>
-  </div>
-</details>
 
 <details>
   <summary><span class="petit">明日は雨が降ると思いますか？</span></summary>
@@ -405,32 +266,13 @@ document.addEventListener('DOMContentLoaded', () => {
       明日は雨が降ると思いますか？<br>
       <span class="gold">Do you think it will rain tomorrow?</span><br>
     </div>
+
   </div>
   <div class="player">
     <audio id="L25259" preload="auto">
       <source src="\audio\0105\Pensez-vous_qu_il_va_pleuvoir_demain.m4a" type="audio/mp4">
     </audio>
     <button type="button" data-audio-id="L25259">
-      <span class="label">音声を聴く</span>
-    </button>
-  </div>
-</details>
-
-<details>
-  <summary><span class="petit">雨が降りそうです。 </span></summary>
-  <div class="chat-container">
-    <div class="speech-bubble left-align bottom">
-      <span class="bleu">Il va pleuvoir.</span><br>
-      <span class="green">イル・ヴァ・プルヴォワール</span><br>
-      雨が降りそうです。 <br>
-      <span class="gold">It&#39;s going to rain.</span><br>
-    </div>
-  </div>
-  <div class="player">
-    <audio id="L25260" preload="auto">
-      <source src="\audio\0105\Il_va_pleuvoir.m4a" type="audio/mp4">
-    </audio>
-    <button type="button" data-audio-id="L25260">
       <span class="label">音声を聴く</span>
     </button>
   </div>
@@ -457,60 +299,160 @@ document.addEventListener('DOMContentLoaded', () => {
 </details>
 
 <details>
-  <summary><span class="petit">君が恋しい。</span></summary>
+  <summary><span class="petit">雨が降りそうです。 </span></summary>
   <div class="chat-container">
     <div class="speech-bubble left-align bottom">
-      <span class="bleu">Tu me manques.</span><br>
-      <span class="green">テュ・ミ・マンク</span><br>
-      君が恋しい。<br>
-      <span class="gold">I miss you.</span><br>
+      <span class="bleu">Il va pleuvoir.</span><br>
+      <span class="green">イル・ヴァ・プルヴォワール</span><br>
+      雨が降りそうです。 <br>
+      <span class="gold">It&#39;s going to rain.</span><br>
     </div>
   </div>
   <div class="player">
-    <audio id="L25262" preload="auto">
-      <source src="\audio\0105\Tu_me_manques.m4a" type="audio/mp4">
+    <audio id="L25260" preload="auto">
+      <source src="\audio\0105\Il_va_pleuvoir.m4a" type="audio/mp4">
     </audio>
-    <button type="button" data-audio-id="L25262">
+    <button type="button" data-audio-id="L25260">
       <span class="label">音声を聴く</span>
     </button>
   </div>
 </details>
 
 <details>
-  <summary><span class="petit">私は疲れています</span></summary>
+  <summary><span class="petit">家に帰らなければなりません。</span></summary>
   <div class="chat-container">
     <div class="speech-bubble left-align bottom">
-      <span class="bleu">Je suis fatigué.</span><br>
-      <span class="green">ジュ・スイ・ファティーグ</span><br>
-      私は疲れています<br>
-      <span class="gold">I am tired.</span><br>
+      <span class="bleu">J’ai besoin de rentrer à la maison.</span><br>
+      <span class="green">ジェイ・ブズワンドゥ・ラントゥレ・アラ・メゾン</span><br>
+      家に帰らなければなりません。<br>
+      <span class="gold">I need to go home.</span><br>
     </div>
   </div>
   <div class="player">
-    <audio id="L25264" preload="auto">
-      <source src="\audio\0105\Je_suis_fatigue.m4a" type="audio/mp4">
+    <audio id="L25285" preload="auto">
+      <source src="\audio\0105\J_ai_besoin_de_rentrer_a_la_maison.m4a" type="audio/mp4">
     </audio>
-    <button type="button" data-audio-id="L25264">
+    <button type="button" data-audio-id="L25285">
       <span class="label">音声を聴く</span>
     </button>
   </div>
 </details>
 
 <details>
-  <summary><span class="petit">私は植物が大好きです</span></summary>
+  <summary><span class="petit">忙しくありません。</span></summary>
   <div class="chat-container">
     <div class="speech-bubble left-align bottom">
-      <span class="bleu">J&#39;adore les plantes</span><br>
-      <span class="green">ジャアド・レ・プラントゥ</span><br>
-      私は植物が大好きです<br>
-      <span class="gold">I love plants.</span><br>
+      <span class="bleu">Je ne suis pas occupé.</span><br>
+      <span class="green">ジュ ヌ・スュイ・パ・ オキュペ</span><br>
+      忙しくありません。<br>
+      <span class="gold">I am not busy,</span><br>
     </div>
   </div>
   <div class="player">
-    <audio id="L25265" preload="auto">
-      <source src="\audio\0105\J_adore_les_plantes.m4a" type="audio/mp4">
+    <audio id="L25281" preload="auto">
+      <source src="\audio\0105\Je_ne_suis_pas_occupe.m4a" type="audio/mp4">
     </audio>
-    <button type="button" data-audio-id="L25265">
+    <button type="button" data-audio-id="L25281">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">おすすめは何ですか？</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Que recommandez-vous?</span><br>
+      <span class="green">ケ・レコマンデ・ヴ？</span><br>
+      おすすめは何ですか？<br>
+      <span class="gold">What do you recommend?</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25277" preload="auto">
+      <source src="\audio\0105\Que_recommandez-vous.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25277">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">おすすめは何ですか？</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Qu&#39;est-ce que vous recommandez ?</span><br>
+      <span class="green">ケス・ク・ヴ・レコマンデ？</span><br>
+      おすすめは何ですか？<br>
+      <span class="gold">What do you recommend?</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25278" preload="auto">
+      <source src="\audio\0105\Qu_est-ce_que_vous_recommandez.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25278">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">確認させてください。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Laisse moi vérifier.</span><br>
+      <span class="green">レッセ・モワ・ヴェリフィエ</span><br>
+      確認させてください。<br>
+      <span class="gold">Let me check.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25275" preload="auto">
+      <source src="\audio\0105\Laisse_moi_verifier.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25275">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">彼女は混乱している。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Elle est confuse.</span><br>
+      <span class="green">エレ・エ・コンフューズ</span><br>
+      彼女は混乱している。<br>
+      <span class="gold">She is confused.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25273" preload="auto">
+      <source src="\audio\0105\Elle_est_confuse.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25273">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">彼らは真実を発見した。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Ils ont découvert la vérité.</span><br>
+      <span class="green">イル・ゾン・デクーヴェール・ラ・ヴェリテ</span><br>
+      彼らは真実を発見した。<br>
+      <span class="gold">They discovered the truth.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25268" preload="auto">
+      <source src="\audio\0105\Ils_ont_decouvert_la_verite.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25268">
       <span class="label">音声を聴く</span>
     </button>
   </div>
@@ -537,6 +479,166 @@ document.addEventListener('DOMContentLoaded', () => {
 </details>
 
 <details>
+  <summary><span class="petit">考えてみるよ。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Laissez-moi y réfléchir.</span><br>
+      <span class="green">レッセ・モワ・イ・レフレシーㇽ</span><br>
+      考えてみるよ。<br>
+      <span class="gold">Let me think about it.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25274" preload="auto">
+      <source src="\audio\0105\Laissez-moi_y_reflechir.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25274">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">気にしないで。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Ça ne fait rien.</span><br>
+      <span class="green">サ・ヌ・フェ・リヤン</span><br>
+      気にしないで。<br>
+      <span class="gold">Never mind.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25279" preload="auto">
+      <source src="\audio\0105\Ca_ne_fait_rien.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25279">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">君が恋しい。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Tu me manques.</span><br>
+      <span class="green">テュ・ミ・マンク</span><br>
+      君が恋しい。<br>
+      <span class="gold">I miss you.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25262" preload="auto">
+      <source src="\audio\0105\Tu_me_manques.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25262">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">君はその本を読むことを試してみるべきだ。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Tu deverais essayer de lire ce livre.</span><br>
+      <span class="green">テュ・ドゥヴレ・エッセイエ ・ドゥ ・リール・ス ルーヴル</span><br>
+      君はその本を読むことを試してみるべきだ。<br>
+      <span class="gold">You should try reading this book.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25251" preload="auto">
+      <source src="\audio\0105\Tu_deverais_essayer_de_lire_ce_livre.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25251">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">このソースにはピーマンも入っていますか？</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Est-ce qu&#39;il y a aussi du poivron dans cette sauce ?</span><br>
+      <span class="green">エスキリヤ・オゥシ・ドゥ・ポワヴロン・セット・ソース？</span><br>
+      このソースにはピーマンも入っていますか？<br>
+      <span class="gold">Is there also bell pepper in this sauce?</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25257" preload="auto">
+      <source src="\audio\0105\Est-ce_qu_il_y_a_aussi_du_poivron.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25257">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">このパン屋さんはおいしいクレープを作ります。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Ce boulanger fait des crêpes délicieuses.</span><br>
+      <span class="green">ス・ブランジェ・フェ・デ・クレプ・デリシューズ</span><br>
+      このパン屋さんはおいしいクレープを作ります。<br>
+      <span class="gold">This baker makes delicious crepes.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25254" preload="auto">
+      <source src="\audio\0105\Ce_boulanger_fait_des_crepes.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25254">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">この絵に興味があります。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Ce tableau m&#39;intéresse.</span><br>
+      <span class="green">ス・タブロゥ・マンテレス</span><br>
+      この絵に興味があります。<br>
+      <span class="gold">I am interested in this painting.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25263" preload="auto">
+      <source src="\audio\0105\Ce_tableau_m_interesse.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25263">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">正直言って、君は料理が下手だ。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Franchement, tu cuisines vraiment mal.</span><br>
+      <span class="green">フランシュマン・テュ・キュイズィーヌ・ヴレモン・マル</span><br>
+      正直言って、君は料理が下手だ。<br>
+      <span class="gold">Honestly, you&#39;re a terrible cook.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25255" preload="auto">
+      <source src="\audio\0105\Franchement_tu_cuisines_vraiment_mal.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25255">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
   <summary><span class="petit">植物に水をやっていただけますか？</span></summary>
   <div class="chat-container">
     <div class="speech-bubble left-align bottom">
@@ -557,25 +659,244 @@ document.addEventListener('DOMContentLoaded', () => {
 </details>
 
 <details>
-  <summary><span class="petit">彼らは真実を発見した。</span></summary>
+  <summary><span class="petit">その話は何ですか？</span></summary>
   <div class="chat-container">
     <div class="speech-bubble left-align bottom">
-      <span class="bleu">Ils ont découvert la vérité.</span><br>
-      <span class="green">イル・ゾン・デクーヴェール・ラ・ヴェリテ</span><br>
-      彼らは真実を発見した。<br>
-      <span class="gold">They discovered the truth.</span><br>
+      <span class="bleu">Quelle est l&#39;histoire ?</span><br>
+      <span class="green">ケル エ ラリストワール？</span><br>
+      その話は何ですか？<br>
+      <span class="gold">What&#39;s the story?</span><br>
     </div>
   </div>
   <div class="player">
-    <audio id="L25268" preload="auto">
-      <source src="\audio\0105\Ils_ont_decouvert_la_verite.m4a" type="audio/mp4">
+    <audio id="L25269" preload="auto">
+      <source src="\audio\0105\Quelle_est_l_histoire.m4a" type="audio/mp4">
     </audio>
-    <button type="button" data-audio-id="L25268">
+    <button type="button" data-audio-id="L25269">
       <span class="label">音声を聴く</span>
     </button>
   </div>
 </details>
 
+<details>
+  <summary><span class="petit">とても寒い。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Il fait trop froid.</span><br>
+      <span class="green">イル・フェ・トロ・フロワ</span><br>
+      とても寒い。<br>
+      <span class="gold">It&#39;s too cold.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25271" preload="auto">
+      <source src="\audio\0105\Il_fait_trop_froid.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25271">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">ピザを買おうか？</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">On achète des pizzas ?</span><br>
+      <span class="green">オナ・アシェテ・デ・ピザ？</span><br>
+      ピザを買おうか？<br>
+      <span class="gold">Shall we buy some pizza?</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25256" preload="auto">
+      <source src="\audio\0105\On_achete_des_pizzas.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25256">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">まだ準備できていません。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Je ne suis pas encore prêt.</span><br>
+      <span class="green">ジュ ヌ・スュイ・パ ザンカー・プレ</span><br>
+      まだ準備できていません。<br>
+      <span class="gold">I’m not ready yet.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25282" preload="auto">
+      <source src="\audio\0105\Jene_suis_pas_encore_pret.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25282">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">待合室でお待ちいただけます。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Vous pouvez patienter dans la salle d&#39;attente.</span><br>
+      <span class="green">ヴ・プヴエ・パシャント・ダン・ラ・サル・ダタントゥ</span><br>
+      待合室でお待ちいただけます。<br>
+      <span class="gold">You can wait in the waiting room.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25252" preload="auto">
+      <source src="\audio\0105\Vous_pouvez_patienter_dans_la_salle_dattente.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25252">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">申し訳ございませんが、売り切れです。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Je suis désolé nous n’en avons plus.</span><br>
+      <span class="green">ジュ・スイ・デゾレ　ヌー ナナヴォン プリュ</span><br>
+      申し訳ございませんが、売り切れです。<br>
+      <span class="gold">I’m sorry, we’re sold out.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25284" preload="auto">
+      <source src="\audio\0105\Je suis_desole_nous_n_en_avons_plus.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25284">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">最寄りのスーパーマーケットはどこですか？</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Où se trouve le supermarché le plus proche ?</span><br>
+      <span class="green">ウ・ス・トルヴ・ル・スーパマルシェ・ル・プル・プろシュ？</span><br>
+      最寄りのスーパーマーケットはどこですか？<br>
+      <span class="gold">Where is the nearest supermarket?</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25276" preload="auto">
+      <source src="\audio\0105\Ou_se_trouve_le_supermarche.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25276">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">私のサングラスをどこに置いたか知ってる？</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Savez-vous où j&#39;ai mis mes lunettes de soleil ? </span><br>
+      <span class="green">サヴェズーウ・ジェ・ミ・メ・リュネット ドゥ ソレイユ？</span><br>
+      私のサングラスをどこに置いたか知ってる？<br>
+      <span class="gold">Do you know where I put my sunglasses?</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25258" preload="auto">
+      <source src="\audio\0105\Savez-vous_ou_jai_mis_mes_lunettes.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25258">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">私のマウスは時々止まります。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Ma souris s&#39;arrête de temps en temps.</span><br>
+      <span class="green">マ・スり・サレテ・ドゥ・トン・ゾン・トン</span><br>
+      私のマウスは時々止まります。<br>
+      <span class="gold">My mouse stops working from time to time.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25253" preload="auto">
+      <source src="\audio\0105\Ma_souris_s_arrete_de_temps_en_temps.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25253">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">私の猫は隠れています。</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Mon chat se cache.</span><br>
+      <span class="green">モン・シャ・セ・カシェ</span><br>
+      私の猫は隠れています。<br>
+      <span class="gold">My cat is hiding.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25270" preload="auto">
+      <source src="\audio\0105\Mon_chat_se_cache.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25270">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">私は植物が大好きです</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">J&#39;adore les plantes</span><br>
+      <span class="green">ジャアド・レ・プラントゥ</span><br>
+      私は植物が大好きです<br>
+      <span class="gold">I love plants.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25265" preload="auto">
+      <source src="\audio\0105\J_adore_les_plantes.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25265">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
+
+<details>
+  <summary><span class="petit">私は疲れています</span></summary>
+  <div class="chat-container">
+    <div class="speech-bubble left-align bottom">
+      <span class="bleu">Je suis fatigué.</span><br>
+      <span class="green">ジュ・スイ・ファティーグ</span><br>
+      私は疲れています<br>
+      <span class="gold">I am tired.</span><br>
+    </div>
+  </div>
+  <div class="player">
+    <audio id="L25264" preload="auto">
+      <source src="\audio\0105\Je_suis_fatigue.m4a" type="audio/mp4">
+    </audio>
+    <button type="button" data-audio-id="L25264">
+      <span class="label">音声を聴く</span>
+    </button>
+  </div>
+</details>
 
 ---
 
