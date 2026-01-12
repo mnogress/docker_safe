@@ -213,6 +213,23 @@ letter-spacing: inherit;
 
   #rate-control { display:flex; align-items:center; gap:1rem; margin:1rem 0; }
   #status { margin-top: .5rem; color: #333; }
+
+  /* details をカード風にして2列に並べる */
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 16px;
+  margin-top: 20px;
+}
+
+/* details の見た目を整える（任意） */
+.details-grid details {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: #fafafa;
+}
+
 </style>
 
 <script defer>
@@ -255,7 +272,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 日常生活でよく使われる「短いフランス語の例文」を、音声と一緒に練習できます。リエゾンやアンシェヌマンの感覚をつかむための次のステップとして最適です。
 
-
+<div class="details-grid">
 
 <details>
   <summary><span class="petit">明日は雨が降ると思いますか？</span></summary>
@@ -898,6 +915,8 @@ document.addEventListener('DOMContentLoaded', () => {
   </div>
 </details>
 
+
+</div>
 ---
 
 

@@ -391,7 +391,6 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">I only know Japanese songs well.</span><br>
 </div>
 </div>
-</div>
 <div class="player">
   <audio id="voice7" preload="auto">
     <source src="\audio\0101\Je_ne_connais_bien_que_les_chansons_japonaises.m4a" type="audio/mp4">
