@@ -2,7 +2,7 @@
 layout: single
 title: フランス語基本メモ｜er 動詞の活用（音声付き）
 header:
-  overlay_image: images/header_a5_1280by336.png
+  overlay_image: images/header_a1_1280by336.png
   overlay_filter: rgba(124, 211, 84, 0.20)
 toc: True
 toc_label: "目次"
@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2026-01-18
-last_modified_at : 2026-01-18 10:30:00
+date: 2026-01-20
+last_modified_at : 2026-01-20 10:30:00
 ---
 「-er　ウーエル動詞」とは、語尾が「-er」で終わる動詞のことで、
 動詞の9割以上を占める第一群規則動詞を指し、活用パターンがシンプルで規則的です。<!--more-->
@@ -29,7 +29,7 @@ last_modified_at : 2026-01-18 10:30:00
 
 ブログでウーエル動詞の直説法現在、半過去、単純未来、現在分子、過去分詞について音声ファイルを交えて表形式でまとめてみました。
 
-
+{% raw %}
 <main class="page-ul-fix">
 <table class="resp_table">
 <thead>
@@ -49,10 +49,11 @@ last_modified_at : 2026-01-18 10:30:00
         demand<span class="bleu">er</span> (尋ねる・頼む)<br>
         laiss<span class="bleu">er</span> (残す)<br>
         trouv<span class="bleu">er</span> (見つける)<br>
+    </td>
     <td>
       <div class="player">
             <audio id="FOD016z" preload="auto">
-                <source src="\audio\0118\00_futaishi.m4a" type="audio/mp4">
+                <source src="\audio\0120\00_futaishi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016z">
                     <span class="label">音声を聴く</span>
@@ -190,6 +191,10 @@ last_modified_at : 2026-01-18 10:30:00
       </ul>
     </td>
   </tr>
+  </tbody>
+  </table>
+  </main>
+{% endraw %}
 
 <style type="text/css">
     .player {
