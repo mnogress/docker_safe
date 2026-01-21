@@ -3,7 +3,7 @@ layout: single
 title: フランス語基本メモ｜er 動詞の活用（音声付き）
 header:
   overlay_image: images/header_a1_1280by336.png
-  overlay_filter: rgba(124, 211, 84, 0.20)
+  overlay_filter: rgba(230, 97, 216, 0.2)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
@@ -114,12 +114,12 @@ last_modified_at : 2026-01-20 10:30:00
 <tr>
     <td><strong>現在形</strong> </td>
     <td>
-        je <span class="bleu">-e</span><br>
-        tu <span class="bleu">-es</span><br>
-        il <span class="bleu">-e</span><br>
-        nous <span class="bleu">-ons</span><br>
-        vous <span class="bleu">-ez</span><br>
-        ils <span class="bleu">-ent</span><br>
+        je parl<span class="bleu">e</span><br>
+        tu parl<span class="bleu">es</span><br>
+        il parl<span class="bleu">e</span><br>
+        nous parl<span class="bleu">ons</span><br>
+        vous parl<span class="bleu">ez</span><br>
+        ils parl<span class="bleu">ent</span><br>
     </td>
     <td>
       <div class="player">
@@ -140,12 +140,12 @@ last_modified_at : 2026-01-20 10:30:00
 <tr>
     <td><strong>直説法半過去</strong></td>
     <td>
-        je <span class="bleu">-ais</span><br>
-        tu <span class="bleu">-ais</span><br>
-        il <span class="bleu">-ait</span><br>
-        nous <span class="bleu">-ions</span><br>
-        vous <span class="bleu">-iez</span><br>
-        ils <span class="bleu">-aient</span><br>
+        je parl<span class="bleu">ais</span><br>
+        tu parl<span class="bleu">ais</span><br>
+        il parl<span class="bleu">ait</span><br>
+        nous parl<span class="bleu">ions</span><br>
+        vous parl<span class="bleu">iez</span><br>
+        ils parl<span class="bleu">aient</span><br>
     </td>
     <td>
       <div class="player">
@@ -167,12 +167,12 @@ last_modified_at : 2026-01-20 10:30:00
 <tr>
     <td><strong>直説法単純未来</strong></td>
     <td>
-        je <span class="bleu">-erai</span><br>
-        tu <span class="bleu">-eras</span><br>
-        il <span class="bleu">-era</span><br>
-        nous <span class="bleu">-erons</span><br>
-        vous <span class="bleu">-erez</span><br>
-        ils <span class="bleu">-eront</span><br>
+        je parl<span class="bleu">erai</span><br>
+        tu parl<span class="bleu">eras</span><br>
+        il parl<span class="bleu">era</span><br>
+        nous patl<span class="bleu">erons</span><br>
+        vous parl<span class="bleu">erez</span><br>
+        ils parl<span class="bleu">eront</span><br>
     </td>
     <td>
       <div class="player">
@@ -195,6 +195,23 @@ last_modified_at : 2026-01-20 10:30:00
   </table>
   </main>
 {% endraw %}
+
+
+### 注意が必要なパターン
+{% raw %}
+<main class="page-ul-fix">
+<ol>
+<li>aller （行く）の活用は不規則です。このルールは適用されません</li>
+<li> 綴り字の変化: manger(食べる) や commencer(始める) など、発音を保つために nous の時だけ綴りが変わるものがあります。</li>
+   <ul>
+    <li>ger で終わる <span class="bleu">e</span> を残す。 nous mang<span class="bleu">e</span>ons</li> 
+    <li>cer で終わる cを<span class="bleu">ç</span>(セディーユ)にする。nous commen<span class="bleu">ç</span>ons</li>
+   </ul> 
+<li>母音・無音の h: 主語が Je のとき、動詞が母音で始まると J' に短縮（エリジョン）されます（例: J'aime, J'habite）</li>
+</ol>
+</main>
+{% endraw %}
+
 
 <style type="text/css">
     .player {
@@ -269,7 +286,7 @@ letter-spacing: inherit;
 }
 .bleu {
 color: blue;
-font-size: 1.0em;
+font-size: 1.11em;
 font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
@@ -329,6 +346,12 @@ letter-spacing: inherit;
 
   /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
     font-size: 1rem;       /* 任意のサイズに */
     line-height: 1.6;      /* 読みやすさ調整（任意） */
   }
