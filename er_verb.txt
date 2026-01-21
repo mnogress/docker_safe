@@ -1,0 +1,51 @@
+1. 基本の -er 動詞と例文
+動詞（不定詞） 	意味	例文
+Parler	話す	Je parle français. （私はフランス語を話します）
+Aimer	好む、愛する	Il aime lire. （彼は読書が好きです）
+Manger	食べる	Nous mangeons une pomme. （私たちはリンゴを食べます）
+Habiter	住む	J'habite à Tokyo. （私は東京に住んでいます）
+Regarder	見る	Tu regardes la tele. （君はテレビを見ます）
+Travailler	働く	Elle travaille à Paris. （彼女はパリで働いています）
+Ecouter	聴く	Vous ecoutez de la musique ? （音楽を聴きますか？）
+Chercher	探す	Je cherche mes cles. （鍵を探しています）
+2. 現在形の活用ルール
+語尾の -er を取り除き、主語に応じて以下の語尾を付け足します。 
+Je ... -e
+Tu ... -es
+Il / Elle ... -e
+Nous ... -ons
+Vous ... -ez
+Ils / Elles ... -ent
+[!IMPORTANT]
+Aller（行く）は語尾が -er ですが、不規則動詞（第3群）のため、このルールは適用されません。 
+3. 注意が必要なパターン
+綴り字の変化: Manger や Commencer など、発音を保つために nous の時だけ綴りが変わるものがあります（例: nous mangeons, nous commençons）。
+母音・無音の h: 主語が Je のとき、動詞が母音で始まると J' に短縮（エリジョン）されます（例: J'aime, J'habite）。 
+特定の動詞の活用表や、過去形（複合過去）での使い方も確認しますか？
+
+2. 複合過去（過去形）の作り方
+複合過去は [助動詞 avoir または etre] + [過去分詞] で構成されます。
+ER動詞の過去分詞: 語尾を -é に変えます。
+例：parler → parlé / manger → mangé
+A. ほとんどの動詞（助動詞に avoir を使用）
+例：parler（話す）
+J'ai parlé（私は話した）
+Tu as parlé
+Il a parlé
+Nous avons parlé
+Vous avez parlé
+Ils ont parlé
+
+B. 移動や状態の変化を表す一部の動詞（助動詞に etre を使用）
+助動詞に etre を使う場合、過去分詞を主語の「性・数」に一致させる必要があります。
+例：aller（行く）
+Je suis alle(e)
+Tu es alle(e)
+Il est alle / Elle est allee
+Nous sommes alle(e)s
+Vous etes alle(e)(s)
+Ils sont alles / Elles sont allees
+
+3. 注意が必要なER動詞（綴りの変化）
+-gerで終わる動詞 (例: manger　食べる): nousの時のみ e を残す（nous mangeons）。
+-cerで終わる動詞 (例: lancer　投げる): nousの時のみ ç に変える（nous lançons）。
