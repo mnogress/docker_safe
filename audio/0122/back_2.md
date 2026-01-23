@@ -196,8 +196,6 @@ last_modified_at : 2026-01-20 10:30:00
   </main>
 {% endraw %}
 
-### écouter の活用のまとめ
-
 {% raw %}
 <main class="page-ul-fix">
 <table class="resp_table">
@@ -221,7 +219,7 @@ last_modified_at : 2026-01-20 10:30:00
                 <source src="\audio\0122\00a1_futaishi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016z">
-                    <span class="label">📢</span>
+                    <span class="label">🔈</span>
                 </button>
       </div>
     </td>
@@ -233,25 +231,21 @@ last_modified_at : 2026-01-20 10:30:00
                 <source src="\audio\0122\00a2a_futaishi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016z1">
-                    <span class="label">📢</span>
+                    <span class="label">🔈</span>
                 </button>
         </li>
         <li>意識的に耳を傾ける、注意を払う。（例：音楽を聴く、人の話を聴く）</li>  
-      </ul>
-    </div>
-    <div class="player">
-      <ul>
         <li>entendre（聞こえる）
             <audio id="FOD016z2" preload="auto">
                 <source src="\audio\0122\00a2b_futaishi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016z2">
-                    <span class="label">📢</span>
+                    <span class="label">🔈</span>
                 </button>
         </li>
-        <li>意識せず音を捉える、耳に入る。（例：何も聞こえない、声が聞こえる）</li>
-      </ul> 
-      </div> 
+        <li>意識せず音を捉える、耳に入る。（例：何も聞こえない、声が聞こえる）</li>  
+      </ul>  
+    </div>
   </td>
 </tr>
 <tr>
@@ -265,7 +259,7 @@ last_modified_at : 2026-01-20 10:30:00
                 <source src="\audio\0122\01a1_genzaibunshi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016a">
-                    <span class="label">📢</span>
+                    <span class="label">🔈</span>
                 </button>
       </div>
     </td>
@@ -274,10 +268,10 @@ last_modified_at : 2026-01-20 10:30:00
       <ul>
       <li>J'etudie en écoutant de la musique.
             <audio id="FOD016a2" preload="auto">
-                <source src="\audio\0122\01a1_genzaibunshi.m4a" type="audio/mp4">
+                <source src="\audio\0122\01a2_genzaibunshi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016a2">
-                    <span class="label">📢</span>
+                    <span class="label">🔈</span>
                 </button>
         </li>
       <li>私は音楽を聴きながら勉強します。</li>  
@@ -288,7 +282,7 @@ last_modified_at : 2026-01-20 10:30:00
 <tr>
     <td><strong>過去分詞</strong></td>
     <td>
-        écout<span class="bleu">é</span>　(聴いた)
+        écout<span class="bleu">é</span>　(聴いた)<br>
     </td>
     <td>
       <div class="player">
@@ -296,19 +290,19 @@ last_modified_at : 2026-01-20 10:30:00
                 <source src="\audio\0122\02a1_kakobunshi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016b">
-                    <span class="label">📢</span>
+                    <span class="label">🔈</span>
                 </button>
-      </div>
+        </div>
     </td>
   <td>
     <div class="player">
       <ul>
         <li>J'ai entendu mais je n'ai pas écouté.
             <audio id="FOD016b2" preload="auto">
-                <source src="\audio\0122\02a2_kakobunshi.m4a" type="audio/mp4">
+                <source src="\audio\0122\02a2_genzaibunshi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016b2">
-                    <span class="label">📢</span>
+                    <span class="label">🔈</span>
                 </button>
         </li>
         <li>聞こえたけど、聞いていなかった／耳を傾けなかった。</li>  
@@ -316,9 +310,125 @@ last_modified_at : 2026-01-20 10:30:00
     </div>
   </td>
 </tr>
-</tbody>
-</table>
-</main>
+<tr>
+    <td><strong>現在形</strong> </td>
+    <td>
+        je écout<span class="bleu">e</span><br>
+        tu écout<span class="bleu">es</span><br>
+        il écout<span class="bleu">e</span><br>
+        nous écout<span class="bleu">ons</span><br>
+        vous écout<span class="bleu">ez</span><br>
+        ils écout<span class="bleu">ent</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="FOD016bss" preload="auto">
+                <source src="\audio\0122\03a1_genzai.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016bss">
+                    <span class="label">🔈</span>
+                </button>
+      </div>
+    </td>
+  <td>
+    <div class="player">
+      <ul>
+        <li>J'écoute de la musique classique.
+            <audio id="FOD016b3" preload="auto">
+                <source src="\audio\0122\03a2_genzai.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016b3">
+                    <span class="label">🔈</span>
+                </button>
+        </li>
+        <li>私はクラシック音楽を聴きます。</li>  
+      </ul>  
+    </div>
+  </td>
+</tr>
+<tr>
+    <td><strong>直説法半過去</strong></td>
+    <td>
+        je écout<span class="bleu">ais</span><br>
+        tu écout<span class="bleu">ais</span><br>
+        il écout<span class="bleu">ait</span><br>
+        nous écout<span class="bleu">ions</span><br>
+        vous écout<span class="bleu">iez</span><br>
+        ils écout<span class="bleu">aient</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="FOD016d4a1" preload="auto">
+                <source src="\audio\0122\04a1_hankako.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016d4a1">
+                    <span class="label">🔈</span>
+                </button>
+      </div>
+  <td>
+    <div class="player">
+      <ul>
+        <li>J'écoutais 
+            <audio id="FOD0164a2" preload="auto">
+                <source src="\audio\0122\04a2_hankako.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD0164a2">
+                    <span class="label">🔈</span>
+                </button>
+        </li>
+        <li>(半過去): 過去の進行中または習慣。「聴いていた（ところだった）</li>  
+        <li>J'ai écouté
+            <audio id="FOD0164a2b" preload="auto">
+                <source src="\audio\0122\04a2b_hankako.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD0164a2b">
+                    <span class="label">🔈</span>
+                </button>
+        </li>
+        <li>(複合過去): 過去の完了した一回限りの行為。「聴いた」</li>  
+      </ul>  
+    </div>
+  </td>
+</tr>
+<tr>
+    <td><strong>直説法単純未来</strong></td>
+    <td>
+        je écout<span class="bleu">erai</span><br>
+        tu écout<span class="bleu">eras</span><br>
+        il écout<span class="bleu">era</span><br>
+        nous patl<span class="bleu">erons</span><br>
+        vous écout<span class="bleu">erez</span><br>
+        ils écout<span class="bleu">eront</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="FOD016e5a" preload="auto">
+                <source src="\audio\0122\05a1_mirai.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016e5a">
+                    <span class="label">🔈</span>
+                </button>
+      </div>
+    </td>
+  <td>
+    <div class="player">
+      <ul>
+        <li>Tu parles, j'écouterai.
+            <audio id="FOD016b35a" preload="auto">
+                <source src="\audio\0122\05a2_mirai.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016b35a">
+                    <span class="label">🔈</span>
+                </button>
+        </li>
+        <li>話して、聞くから</li>  
+      </ul>  
+    </div>
+  </td>
+ </tr>
+  </tbody>
+  </table>
+ </main>
 {% endraw %}
 
 
@@ -558,7 +668,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   function updateLabel(button, playing) {
     const label = button.querySelector('.label');
-    if (label) label.textContent = playing ? '停止' : '🔄';
+    if (label) label.textContent = playing ? '停止' : 'もう一度聴く';
   }
 });
 </script>
