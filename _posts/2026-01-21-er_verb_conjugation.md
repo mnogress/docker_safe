@@ -316,6 +316,127 @@ last_modified_at : 2026-01-20 10:30:00
     </div>
   </td>
 </tr>
+<tr>
+    <td><strong>現在形</strong> </td>
+    <td>
+        je écout<span class="bleu">e</span><br>
+        tu écout<span class="bleu">es</span><br>
+        il écout<span class="bleu">e</span><br>
+        nous écout<span class="bleu">ons</span><br>
+        vous écout<span class="bleu">ez</span><br>
+        ils écout<span class="bleu">ent</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="FOD016bss" preload="auto">
+                <source src="\audio\0122\03a1_genzai.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016bss">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+    <div class="player">
+      <ul>
+        <li>J'écoute de la musique classique.
+            <audio id="FOD016b3" preload="auto">
+                <source src="\audio\0122\03a2_genzai.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016b3">
+                    <span class="label">📢</span>
+                </button>
+        </li>
+        <li>私はクラシック音楽を聴きます。</li>  
+      </ul>  
+    </div>
+  </td>
+</tr>
+<tr>
+    <td><strong>直説法半過去</strong></td>
+    <td>
+        je écout<span class="bleu">ais</span><br>
+        tu écout<span class="bleu">ais</span><br>
+        il écout<span class="bleu">ait</span><br>
+        nous écout<span class="bleu">ions</span><br>
+        vous écout<span class="bleu">iez</span><br>
+        ils écout<span class="bleu">aient</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="FOD016d4a1" preload="auto">
+                <source src="\audio\0122\04a1_hankako.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016d4a1">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+    <div class="player">
+      <ul>
+        <li>J'écoutais 
+            <audio id="FOD0164a2" preload="auto">
+                <source src="\audio\0122\04a2_hankako.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD0164a2">
+                    <span class="label">📢</span>
+                </button>
+        </li>
+        <li>(半過去): 過去の進行中または習慣。「聴いていた（ところだった）</li>  
+       </ul> 
+    </div>
+     <div class="player">   
+      <ul>    
+        <li>J'ai écouté
+            <audio id="FOD0164a2b" preload="auto">
+                <source src="\audio\0122\04a2b_hankako.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD0164a2b">
+                    <span class="label">📢</span>
+                </button>
+        </li>
+        <li>(複合過去): 過去の完了した一回限りの行為。「聴いた」</li>  
+      </ul>  
+    </div>
+  </td>
+</tr>
+<tr>
+    <td><strong>直説法単純未来</strong></td>
+    <td>
+        je écout<span class="bleu">erai</span><br>
+        tu écout<span class="bleu">eras</span><br>
+        il écout<span class="bleu">era</span><br>
+        nous patl<span class="bleu">erons</span><br>
+        vous écout<span class="bleu">erez</span><br>
+        ils écout<span class="bleu">eront</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="FOD016e5a" preload="auto">
+                <source src="\audio\0122\05a1_mirai.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016e5a">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+    <div class="player">
+      <ul>
+        <li>Tu parles, j'écouterai.
+            <audio id="FOD016b35a" preload="auto">
+                <source src="\audio\0122\05a2_mirai.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="FOD016b35a">
+                    <span class="label">📢</span>
+                </button>
+        </li>
+        <li>話して、聞くから</li>  
+      </ul>  
+    </div>
+  </td>
+</tr>
 </tbody>
 </table>
 </main>
