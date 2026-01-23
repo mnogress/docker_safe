@@ -407,7 +407,7 @@ last_modified_at : 2026-01-20 10:30:00
         je écout<span class="bleu">erai</span><br>
         tu écout<span class="bleu">eras</span><br>
         il écout<span class="bleu">era</span><br>
-        nous patl<span class="bleu">erons</span><br>
+        nous écout<span class="bleu">erons</span><br>
         vous écout<span class="bleu">erez</span><br>
         ils écout<span class="bleu">eront</span><br>
     </td>
