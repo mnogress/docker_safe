@@ -2,7 +2,7 @@
 layout: single
 title: フランス語基本メモ｜er 動詞の活用（音声付き）
 header:
-  overlay_image: images/header_fr13_1280by336.png
+  overlay_image: images/header_fr22_1280by336.png
   overlay_filter: rgba(230, 97, 216, 0.2)
 toc: True
 toc_label: "目次"
