@@ -274,7 +274,7 @@ last_modified_at : 2026-01-20 10:30:00
       <ul>
       <li>J'etudie en écoutant de la musique.
             <audio id="FOD016a2" preload="auto">
-                <source src="\audio\0122\01a1_genzaibunshi.m4a" type="audio/mp4">
+                <source src="\audio\0122\01a1a_genzaibunshi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="FOD016a2">
                     <span class="label">📢</span>
