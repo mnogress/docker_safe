@@ -251,6 +251,125 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 </main>
 {% endraw %}
 
+### 食べ物・飲み物・薬に使う
+
+フランス語では、食べる・飲む・薬を飲むときに prendre をよく使います。
+
+<main class="page-ul-fix">
+<ul>
+<li>prendre un café（コーヒーを飲む）</li>
+<li>prendre un repas（食事をする）</li>
+<li>prendre un médicament（薬を飲む）</li>
+</ul>
+</main>
+
+<div markdown='1'>
+### 交通手段に使う
+</div>
+
+乗り物に「乗る」も prendre で表現できます。
+
+<main class="page-ul-fix">
+<ul>
+<li>prendre le bus（バスに乗る）</li>
+<li>prendre le train（電車に乗る）</li>
+</ul>
+
+<div markdown='1'>
+### 「取る」「身につける」
+
+
+文脈によって「取る」「身につける」の意味になります。
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>prendre un manteau（コートを手に取る／着る）</li>
+</ul>
+
+<div markdown='1'>
+### 道順の説明や休憩をとる
+
+道順を説明するときにも使われます。
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>prendre la rue X（X通りに入る）</li>
+</ul>
+
+<div markdown='1'>
+### 休憩する
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>prendre une pause（休憩する）</li>
+</ul>
+
+<div markdown='1'>
+### 日常会話でとてもよく登場する便利な表現。
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li><span class="bleu">s’y prendre</span>（取りかかる、やり方を工夫する）</li>
+</ul>
+
+<div markdown='1'>
+#### 基本の使い方
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>Je ne sais pas comment m’y prendre.  (どうやって取りかかればいいのかわからない。)</li>
+</ul>
+
+<main class="page-ul-fix">
+<ul>
+<li>Il faut bien s’y prendre.  (ちゃんとやらないといけない。)</li>
+</ul>
+
+<main class="page-ul-fix">
+<ul>
+<li>Elle s’y prend toujours trop tard.  (彼女はいつも取りかかるのが遅い。)</li>
+</ul>
+
+<div markdown='1'>
+#### 家事・作業
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>Je ne sais pas comment m’y prendre pour réparer ça. (これを直す方法がわからない。)</li>
+</ul>
+
+<div markdown='1'>
+#### 勉強・仕事
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>Pour réussir cet examen, il faut bien s’y prendre.  (この試験に合格するには、しっかり取り組まないといけない。)</li>
+</ul>
+
+<div markdown='1'>
+#### 子どもや人への対応
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>Il ne sait pas s’y prendre avec les enfants.  (彼は子どもの扱いがうまくない。)</li>
+</ul>
+
+<div markdown='1'>
+#### 料理
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>Je ne sais pas comment m’y prendre pour cette recette.  (このレシピをどう進めればいいのかわからない。)</li>
+</ul>
 
 <style type="text/css">
     .player {
