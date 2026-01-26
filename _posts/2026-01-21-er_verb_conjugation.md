@@ -1,6 +1,6 @@
 ---
 layout: single
-title: フランス語基本メモ｜er 動詞の活用（音声付き）
+title: フランス語文法メモ｜er 動詞の活用（音声付き）
 header:
   overlay_image: images/header_fr22_1280by336.png
   overlay_filter: rgba(230, 97, 216, 0.2)
