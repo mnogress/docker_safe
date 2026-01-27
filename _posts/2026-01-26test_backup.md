@@ -453,6 +453,116 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
     </div>
 </main>
 
+
+
+
+{% raw %}
+<main class="page-ul-fix">
+<table class="resp_table">
+<thead>
+<tr>
+    <th width="30%">用例</th>
+    <th width="8%">音声ファイル</th>
+    <th width="52%">例文、音声ファイル、ポイント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>
+        <span class="rouge2">ap</span>prendre (不定詞)<br> 
+        <span class="rouge2">ap</span>prenant (現在分詞)<br>
+        <span class="rouge2">ap</span>pris (過去分詞)<br>
+        je <span class="rouge2">ap</span>prend<span class="bleu">s</span><br>
+        tu <span class="rouge2">ap</span>prend<span class="bleu">s</span><br>
+        il <span class="rouge2">ap</span>prend<span class="bleu"></span><br>
+        nous <span class="rouge2">ap</span>pren<span class="bleu">ons</span><br>
+        vous <span class="rouge2">ap</span>pren<span class="bleu">ez</span><br>
+        ils <span class="rouge2">ap</span>prenn<span class="bleu">ent</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="F1PD016z1" preload="auto">
+                <source src="\audio\0125\1_apprendre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="F1PD016z1">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>ap + prendre で活用は同じ</li>  
+        <li>習う。学ぶ。聞いて・読んで_知る。</li>  
+        <li>Je viens d'apprendre la nouvelle. 私はそのニュースを知ったばかりです。</li>
+        <li>Comment avez-vous appris le francais? あなたはどうやってフランス語を学びましたか？</li>
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td>
+        <span class="rouge2">com</span>prendre (不定詞)<br> 
+        <span class="rouge2">com</span>prenant (現在分詞)<br>
+        <span class="rouge2">com</span>pris (過去分詞)<br>
+        je <span class="rouge2">com</span>prend<span class="bleu">s</span><br>
+        tu <span class="rouge2">com</span>prend<span class="bleu">s</span><br>
+        il <span class="rouge2">com</span>prend<span class="bleu"></span><br>
+        nous <span class="rouge2">com</span>pren<span class="bleu">ons</span><br>
+        vous <span class="rouge2">com</span>pren<span class="bleu">ez</span><br>
+        ils <span class="rouge2">com</span>prenn<span class="bleu">ent</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="F1PD016z2" preload="auto">
+                <source src="\audio\0125\2_comprendre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="F1PD016z2">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>com + prendre で活用は同じ</li>  
+        <li>分かる。理解する。</li>  
+        <li>Je ne sais pas si vous me comprenez. あなたが私のことが分かっているかどうか私は知らない。</li>
+        <li>Si vous ne comprenez pas, posez des questions! わからないのなら、質問してください！</li>
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td>
+        <span class="rouge2">re</span>prendre (不定詞)<br> 
+        <span class="rouge2">re</span>prenant (現在分詞)<br>
+        <span class="rouge2">re</span>pris (過去分詞)<br>
+        je <span class="rouge2">re</span>prend<span class="bleu">s</span><br>
+        tu <span class="rouge2">re</span>prend<span class="bleu">s</span><br>
+        il <span class="rouge2">re</span>prend<span class="bleu"></span><br>
+        nous <span class="rouge2">re</span>pren<span class="bleu">ons</span><br>
+        vous <span class="rouge2">re</span>pren<span class="bleu">ez</span><br>
+        ils <span class="rouge2">re</span>prenn<span class="bleu">ent</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="F1PD016z3" preload="auto">
+                <source src="\audio\0125\3_reprendre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="F1PD016z3">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>re + prendre で活用は同じ</li>  
+        <li>再開する、再び取る</li>  
+        <li>Quand tu reprends le travail ?  いつ仕事に戻るの？</li>
+        <li>Vous pouvez reprendre votre passeport. パスポートをお返しします。</li>
+      </ul> 
+  </td>
+</tr>
+</tbody>
+{% endraw %}
+
 <style type="text/css">
     .player {
       margin: 1rem 0;
