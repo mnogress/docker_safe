@@ -260,6 +260,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <li>prendre un café（コーヒーを飲む）</li>
 <li>prendre un repas（食事をする）</li>
 <li>prendre un médicament（薬を飲む）</li>
+<li>Vous devez prendre ce médicament deux fois par jour.　この薬を1日2回飲んでください。</li>
 </ul>
     <div class="player">
             <audio id="P0126a" preload="auto">
@@ -281,6 +282,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <ul>
 <li>prendre le bus（バスに乗る）</li>
 <li>prendre le train（電車に乗る）</li>
+<li>Je prends le train de 8h pour aller au travail.　仕事へ行くのに8時の電車に乗る。</li>
 </ul>
     <div class="player">
             <audio id="P0126b" preload="auto">
@@ -302,6 +304,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <main class="page-ul-fix">
 <ul>
 <li>prendre un manteau（コートを手に取る／着る）</li>
+<li>Il vaut mieux prendre un manteau.　コートを持っていったほうがいい。</li>
 </ul>
     <div class="player">
             <audio id="P0126c" preload="auto">
@@ -322,6 +325,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <main class="page-ul-fix">
 <ul>
 <li>prendre la rue X（X通りに入る）</li>
+<li>Prenez cette rue à droite, puis continuez tout droit.　この道を右に曲がって、それからまっすぐ進んでください。 </li>
 </ul>
     <div class="player">
             <audio id="P0126d" preload="auto">
@@ -340,6 +344,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <main class="page-ul-fix">
 <ul>
 <li>prendre une pause（休憩する）</li>
+<li>On prend une pause ?　ひと休みしようか？</li>
 </ul>
     <div class="player">
             <audio id="P0126e" preload="auto">
@@ -491,7 +496,8 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
     </td>
   <td>
       <ul>
-        <li>ap + prendre で活用は同じ</li>  
+        <li>「アプランドール」</li>
+        <li>ap + prendre で活用は、prendre と同じ</li>  
         <li>習う。学ぶ。聞いて・読んで_知る。</li>  
         <li>Je viens d'apprendre la nouvelle. 私はそのニュースを知ったばかりです。</li>
         <li>Comment avez-vous appris le francais? あなたはどうやってフランス語を学びましたか？</li>
@@ -522,7 +528,8 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
     </td>
   <td>
       <ul>
-        <li>com + prendre で活用は同じ</li>  
+        <li>「コンプランドール」</li>
+        <li>com + prendre で活用は、prendre と同じ</li>  
         <li>分かる。理解する。</li>  
         <li>Je ne sais pas si vous me comprenez. あなたが私のことが分かっているかどうか私は知らない。</li>
         <li>Si vous ne comprenez pas, posez des questions! わからないのなら、質問してください！</li>
@@ -553,7 +560,8 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
     </td>
   <td>
       <ul>
-        <li>re + prendre で活用は同じ</li>  
+        <li>「ルプランドール」</li>
+        <li>re + prendre で活用は、prendre と同じ</li>  
         <li>再開する、再び取る</li>  
         <li>Quand tu reprends le travail ?  いつ仕事に戻るの？</li>
         <li>Vous pouvez reprendre votre passeport. パスポートをお返しします。</li>
@@ -698,7 +706,7 @@ letter-spacing: inherit;
   /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
     font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
   }
 
   /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
