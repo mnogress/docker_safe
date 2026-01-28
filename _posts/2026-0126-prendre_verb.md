@@ -260,16 +260,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <li>prendre un café（コーヒーを飲む）</li>
 <li>prendre un repas（食事をする）</li>
 <li>prendre un médicament（薬を飲む）</li>
-<li>Vous devez prendre ce médicament deux fois par jour.　この薬を1日2回飲んでください。</li>
 </ul>
-    <div class="player">
-            <audio id="P0126a" preload="auto">
-                <source src="\audio\0125\11p_toru.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126a">
-                    <span class="label">📢</span>
-                </button>
-    </div>
 </main>
 
 <div markdown='1'>
@@ -282,17 +273,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <ul>
 <li>prendre le bus（バスに乗る）</li>
 <li>prendre le train（電車に乗る）</li>
-<li>Je prends le train de 8h pour aller au travail.　仕事へ行くのに8時の電車に乗る。</li>
 </ul>
-    <div class="player">
-            <audio id="P0126b" preload="auto">
-                <source src="\audio\0125\12p_noru.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126b">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
 
 <div markdown='1'>
 ### 「取る」「身につける」
@@ -304,17 +285,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <main class="page-ul-fix">
 <ul>
 <li>prendre un manteau（コートを手に取る／着る）</li>
-<li>Il vaut mieux prendre un manteau.　コートを持っていったほうがいい。</li>
 </ul>
-    <div class="player">
-            <audio id="P0126c" preload="auto">
-                <source src="\audio\0125\13p_toru.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126c">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
 
 <div markdown='1'>
 ### 道順の説明や休憩をとる
@@ -325,17 +296,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <main class="page-ul-fix">
 <ul>
 <li>prendre la rue X（X通りに入る）</li>
-<li>Prenez cette rue à droite, puis continuez tout droit.　この道を右に曲がって、それからまっすぐ進んでください。 </li>
 </ul>
-    <div class="player">
-            <audio id="P0126d" preload="auto">
-                <source src="\audio\0125\14p_iku.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126d">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
 
 <div markdown='1'>
 ### 休憩する
@@ -344,17 +305,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <main class="page-ul-fix">
 <ul>
 <li>prendre une pause（休憩する）</li>
-<li>On prend une pause ?　ひと休みしようか？</li>
 </ul>
-    <div class="player">
-            <audio id="P0126e" preload="auto">
-                <source src="\audio\0125\15p_yasumu.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126e">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
 
 <div markdown='1'>
 ### 日常会話でとてもよく登場する便利な表現。
@@ -364,7 +315,6 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <ul>
 <li><span class="bleu">s’y prendre</span>（取りかかる、やり方を工夫する）</li>
 </ul>
-</main>
 
 <div markdown='1'>
 #### 基本の使い方
@@ -373,18 +323,17 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <main class="page-ul-fix">
 <ul>
 <li>Je ne sais pas comment m’y prendre.  (どうやって取りかかればいいのかわからない。)</li>
+</ul>
+
+<main class="page-ul-fix">
+<ul>
 <li>Il faut bien s’y prendre.  (ちゃんとやらないといけない。)</li>
+</ul>
+
+<main class="page-ul-fix">
+<ul>
 <li>Elle s’y prend toujours trop tard.  (彼女はいつも取りかかるのが遅い。)</li>
 </ul>
-    <div class="player">
-            <audio id="P0126h" preload="auto">
-                <source src="\audio\0125\16p_shikkari.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126h">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
 
 <div markdown='1'>
 #### 家事・作業
@@ -394,15 +343,6 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <ul>
 <li>Je ne sais pas comment m’y prendre pour réparer ça. (これを直す方法がわからない。)</li>
 </ul>
-    <div class="player">
-            <audio id="P0126i" preload="auto">
-                <source src="\audio\0125\17p_yasumu.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126i">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
 
 <div markdown='1'>
 #### 勉強・仕事
@@ -412,15 +352,6 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <ul>
 <li>Pour réussir cet examen, il faut bien s’y prendre.  (この試験に合格するには、しっかり取り組まないといけない。)</li>
 </ul>
-    <div class="player">
-            <audio id="P0126j" preload="auto">
-                <source src="\audio\0125\18p_shiken.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126j">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
 
 <div markdown='1'>
 #### 子どもや人への対応
@@ -430,15 +361,6 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <ul>
 <li>Il ne sait pas s’y prendre avec les enfants.  (彼は子どもの扱いがうまくない。)</li>
 </ul>
-    <div class="player">
-            <audio id="P0126k" preload="auto">
-                <source src="\audio\0125\19p_siranai.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126k">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
 
 <div markdown='1'>
 #### 料理
@@ -448,128 +370,6 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 <ul>
 <li>Je ne sais pas comment m’y prendre pour cette recette.  (このレシピをどう進めればいいのかわからない。)</li>
 </ul>
-    <div class="player">
-            <audio id="P0126l" preload="auto">
-                <source src="\audio\0125\20p_ryori.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="P0126l">
-                    <span class="label">📢</span>
-                </button>
-    </div>
-</main>
-
-
-
-
-{% raw %}
-<main class="page-ul-fix">
-<table class="resp_table">
-<thead>
-<tr>
-    <th width="30%">用例</th>
-    <th width="8%">音声ファイル</th>
-    <th width="52%">例文、音声ファイル、ポイント</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>
-        <span class="rouge2">ap</span>prendre (不定詞)<br> 
-        <span class="rouge2">ap</span>prenant (現在分詞)<br>
-        <span class="rouge2">ap</span>pris (過去分詞)<br>
-        je <span class="rouge2">ap</span>prend<span class="bleu">s</span><br>
-        tu <span class="rouge2">ap</span>prend<span class="bleu">s</span><br>
-        il <span class="rouge2">ap</span>prend<span class="bleu"></span><br>
-        nous <span class="rouge2">ap</span>pren<span class="bleu">ons</span><br>
-        vous <span class="rouge2">ap</span>pren<span class="bleu">ez</span><br>
-        ils <span class="rouge2">ap</span>prenn<span class="bleu">ent</span><br>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="F1PD016z1" preload="auto">
-                <source src="\audio\0125\1_apprendre.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="F1PD016z1">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-  <td>
-      <ul>
-        <li>「アプランドール」</li>
-        <li>ap + prendre で活用は、prendre と同じ</li>  
-        <li>習う。学ぶ。聞いて・読んで_知る。</li>  
-        <li>Je viens d'apprendre la nouvelle. 私はそのニュースを知ったばかりです。</li>
-        <li>Comment avez-vous appris le francais? あなたはどうやってフランス語を学びましたか？</li>
-      </ul> 
-  </td>
-</tr>
-<tr>
-    <td>
-        <span class="rouge2">com</span>prendre (不定詞)<br> 
-        <span class="rouge2">com</span>prenant (現在分詞)<br>
-        <span class="rouge2">com</span>pris (過去分詞)<br>
-        je <span class="rouge2">com</span>prend<span class="bleu">s</span><br>
-        tu <span class="rouge2">com</span>prend<span class="bleu">s</span><br>
-        il <span class="rouge2">com</span>prend<span class="bleu"></span><br>
-        nous <span class="rouge2">com</span>pren<span class="bleu">ons</span><br>
-        vous <span class="rouge2">com</span>pren<span class="bleu">ez</span><br>
-        ils <span class="rouge2">com</span>prenn<span class="bleu">ent</span><br>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="F1PD016z2" preload="auto">
-                <source src="\audio\0125\2_comprendre.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="F1PD016z2">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-  <td>
-      <ul>
-        <li>「コンプランドール」</li>
-        <li>com + prendre で活用は、prendre と同じ</li>  
-        <li>分かる。理解する。</li>  
-        <li>Je ne sais pas si vous me comprenez. あなたが私のことが分かっているかどうか私は知らない。</li>
-        <li>Si vous ne comprenez pas, posez des questions! わからないのなら、質問してください！</li>
-      </ul> 
-  </td>
-</tr>
-<tr>
-    <td>
-        <span class="rouge2">re</span>prendre (不定詞)<br> 
-        <span class="rouge2">re</span>prenant (現在分詞)<br>
-        <span class="rouge2">re</span>pris (過去分詞)<br>
-        je <span class="rouge2">re</span>prend<span class="bleu">s</span><br>
-        tu <span class="rouge2">re</span>prend<span class="bleu">s</span><br>
-        il <span class="rouge2">re</span>prend<span class="bleu"></span><br>
-        nous <span class="rouge2">re</span>pren<span class="bleu">ons</span><br>
-        vous <span class="rouge2">re</span>pren<span class="bleu">ez</span><br>
-        ils <span class="rouge2">re</span>prenn<span class="bleu">ent</span><br>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="F1PD016z3" preload="auto">
-                <source src="\audio\0125\3_reprendre.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="F1PD016z3">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-  <td>
-      <ul>
-        <li>「ルプランドール」</li>
-        <li>re + prendre で活用は、prendre と同じ</li>  
-        <li>再開する、再び取る</li>  
-        <li>Quand tu reprends le travail ?  いつ仕事に戻るの？</li>
-        <li>Vous pouvez reprendre votre passeport. パスポートをお返しします。</li>
-      </ul> 
-  </td>
-</tr>
-</tbody>
-{% endraw %}
 
 <style type="text/css">
     .player {
@@ -706,7 +506,7 @@ letter-spacing: inherit;
   /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
     font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
   }
 
   /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
