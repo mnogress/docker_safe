@@ -459,6 +459,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 </main>
 
 <div markdown='1'>
+---
 ### prendre と同じ不規則な活用（prendre型）をする主な動詞
 </div>
 
