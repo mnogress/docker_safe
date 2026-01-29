@@ -357,7 +357,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 </main>
 
 <div markdown='1'>
-### 日常会話でとてもよく登場する便利な表現。
+### 日常会話でとてもよく登場する中性名詞「ｙ」を用いた例文
 </div>
 
 <main class="page-ul-fix">
@@ -458,8 +458,12 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
     </div>
 </main>
 
+<div markdown='1'>
+### prendre と同じ不規則な活用（prendre型）をする主な動詞
+</div>
 
-
+主に接頭辞が付いた派生語です。*ap*prendre（学ぶ）、*com*prendre（理解する）、*re*prendre（再び取る・再開する） があります。
+また、entreprendre（引き受ける・着手する） や se meprendre（勘違いする） も同様に活用します。
 
 {% raw %}
 <main class="page-ul-fix">
