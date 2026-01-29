@@ -362,7 +362,7 @@ prendre（プランドル）の直説法現在、半過去、単純未来、現�
 
 <main class="page-ul-fix">
 <ul>
-<li><span class="bleu">s’y prendre</span>（取りかかる、やり方を工夫する）</li>
+<li><span class="bleu">s’y prendre</span>（知識、スキルをもって取りくむ、やり方を工夫する）</li>
 </ul>
 </main>
 
