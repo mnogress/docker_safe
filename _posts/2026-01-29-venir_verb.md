@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2026-01-29
-last_modified_at : 2026-01-29 10:30:00
+last_modified_at : 2026-01-31 10:30:00
 ---
 venir（ヴニール） は「来る」という意味が基本ですが、「venir de + 不定詞」は「～したところだ」「～したばかりだ」という、
 非常に近い過去（近接過去）を表す重要動詞 です。日常の会話で出身から、過去の習慣など様々な場面で使います。<!--more-->
@@ -48,7 +48,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
     <td>
       <div class="player">
             <audio id="F1PD029z" preload="auto">
-                <source src="\audio\0129\29a2_futaishi.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a2_futaishi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029z">
                     <span class="label">📢</span>
@@ -71,7 +71,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
     <td>
       <div class="player">
             <audio id="F1PD029b" preload="auto">
-                <source src="\audio\0125\29a2_kakobunshi.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a2_kakobunshi.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029b">
                     <span class="label">📢</span>
@@ -97,7 +97,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
     <td>
       <div class="player">
             <audio id="F1PD029bss" preload="auto">
-                <source src="\audio\0125\29a2_genzai.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a2_genzai.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029bss">
                     <span class="label">📢</span>
@@ -110,7 +110,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
         <li>Je viens de Chiba. 千葉から来ました。</li>
         <li>Je viens te voir.  君に会いに来た。
             <audio id="F1PD029b3" preload="auto">
-                <source src="\audio\0125\29a3_genzai.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a3_genzai.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029b3">
                     <span class="label">📢</span>
@@ -133,7 +133,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
     <td>
       <div class="player">
             <audio id="F1PD029d4a1" preload="auto">
-                <source src="\audio\0125\29a2_hankako.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a2_hankako.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029d4a1">
                     <span class="label">📢</span>
@@ -147,7 +147,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
         <li>Je venais te voir.　あなたに会いに来ていた/来たところだった。 </li>
         <li>Je venais souvent nager dans cette riviere quand j'etais jeune. 若い頃、よくこの川に泳ぎに来ていた。
             <audio id="F1PD0294a2" preload="auto">
-                <source src="\audio\0125\29a3_hankako.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a3_hankako.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD0294a2">
                     <span class="label">📢</span>
@@ -170,7 +170,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
     <td>
       <div class="player">
             <audio id="F1PD029e5a" preload="auto">
-                <source src="\audio\0125\29a2_fukugo.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a2_fukugo.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029e5a">
                     <span class="label">📢</span>
@@ -184,7 +184,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
         <li>Je suis venue à pied. 　私（女性）は歩いて来ました</li>
         <li>Je suis venu pour apprendre le francais. フランス語を学ぶために来ました。
             <audio id="F1PD029b35a" preload="auto">
-                <source src="\audio\0125\29a3_fukugo.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a3_fukugo.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029b35a">
                     <span class="label">📢</span>
@@ -207,7 +207,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
     <td>
       <div class="player">
             <audio id="F1PD029e5a" preload="auto">
-                <source src="\audio\0125\29a2_mirai.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a2_mirai.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029e5a">
                     <span class="label">📢</span>
@@ -221,7 +221,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
         <li>Je viendrai avec plaisir. 喜んで伺います。</li>
         <li>Si necessaire, je viendrai à neuf heures demain. もし必要ならば、明日9時に参ります。
             <audio id="F1PD029b35a" preload="auto">
-                <source src="\audio\0125\29a3_mirai.m4a" type="audio/mp4">
+                <source src="\audio\0131\29a3_mirai.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F1PD029b35a">
                     <span class="label">📢</span>
