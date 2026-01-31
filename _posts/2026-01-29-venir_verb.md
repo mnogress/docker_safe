@@ -2,7 +2,7 @@
 layout: single
 title: フランス語文法メモ｜venir 動詞の活用（音声付き）
 header:
-  overlay_image: images/header_fr20_1280by336.png
+  overlay_image: images/header_fr29_1280by336.png
   overlay_filter: rgba(230, 97, 216, 0.2)
 toc: True
 toc_label: "目次"
