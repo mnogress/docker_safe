@@ -90,8 +90,8 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
         je vien<span class="bleu">s</span> (ジュ・ヴィアン)<br>
         tu vien<span class="bleu">s</span> (チュ・ヴィアン)<br>
         il vien<span class="bleu">t</span> (イル・ヴィアン)<br>
-        nous vien<span class="bleu">ons</span> (ヌ・ヴノン)<br>
-        vous vien<span class="bleu">ez</span> (ヴ・ヴネ)<br>
+        nous ven<span class="bleu">ons</span> (ヌ・ヴノン)<br>
+        vous ven<span class="bleu">ez</span> (ヴ・ヴネ)<br>
         ils vienn<span class="bleu">ent</span> (イル・ヴィエンヌ)<br>
     </td>
     <td>
@@ -123,12 +123,12 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
 <tr>
     <td><strong>直説法半過去</strong></td>
     <td>
-        je vien<span class="bleu">ais</span><br>
-        tu vien<span class="bleu">ais</span><br>
-        il vien<span class="bleu">ait</span><br>
-        nous vien<span class="bleu">ions</span><br>
-        vous vien<span class="bleu">iez</span><br>
-        ils vien<span class="bleu">aient</span><br>
+        je ven<span class="bleu">ais</span><br>
+        tu ven<span class="bleu">ais</span><br>
+        il ven<span class="bleu">ait</span><br>
+        nous ven<span class="bleu">ions</span><br>
+        vous ven<span class="bleu">iez</span><br>
+        ils ven<span class="bleu">aient</span><br>
     </td>
     <td>
       <div class="player">

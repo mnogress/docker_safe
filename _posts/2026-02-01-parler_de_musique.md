@@ -1,8 +1,8 @@
 ---
 layout: single
-title: フランス語学習者のための_雑談
+title: フランス語学習者のための_雑談　(音声ファイル付き)
 header:
-  overlay_image: images/header_fr12_1280by336.png
+  overlay_image: images/header_fr24_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.33)
 toc: True
 toc_label: "目次"
@@ -18,11 +18,18 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2026-01-31
-last_modified_at : 2026-01-31 10:30:00
+last_modified_at : 2026-02-01 10:30:00
 ---
 
-外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　AIを会話の練習相手としても、返答が、最初のうちはなかなか言葉がでてきません。
-<!--more-->　こんな時、英語がだとこの程度のレベルでは、ストレスなく出てくるのではないでしょうか。AIとの会話の模様をブログしました。 AI相手に何度も繰り返し会話していますので、やりとりが固まったところから畳んでいます。
+外国語を勉強していて、最もハードルが高いのはやはり**「しゃべる（会話する）」**ではないでしょうか。　音声付きでリエゾン・アンシェヌマンを理解し、聞き取り力を強化を目的に音声ファイルを付加しました。<!--more-->　内容的には英語のでは、ストレスなく出てくるのではないでしょうか。
+
+<div markdown='1'>
+---
+### 音声で学ぶフランス語リスニング｜リエゾン・アンシェヌマン基礎メモ
+</div>
+
+
+フランス語のリスニング力を本気で伸ばしたい学習者のための音声学習ページです。Googleの合成音声サービスを利用したクリアなフランス語音声とスクリプトを掲載し、リエゾン・アンシェヌマン・語末の発音変化・つづりと発音の対応を丁寧に理解できます。　フランス語初心者から中級者まで、会話の聞き取りに自信をつけたい方におすすめの教材です。毎日の学習に取り入れることで、自然なフランス語のリズムと発音が身につきます。
 
 <style type="text/css">
 
@@ -225,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div markdown='1'>
 ---
-### 決まり文句 (cliché)
+### 決まり文句 (cliché)　｜音声ファイル付き
 </div>
 
 <details>
@@ -563,7 +570,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">I am busy.</span><br>
 </div>
       <div class="player">
-            <audio id="F201a2h preload="auto">
+            <audio id="F201a2h" preload="auto">
                 <source src="\audio\0132\0h_cliche.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F201ah">
@@ -583,7 +590,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">That makes a sense.</span><br>
 </div>
       <div class="player">
-            <audio id="F201a2i preload="auto">
+            <audio id="F201a2i" preload="auto">
                 <source src="\audio\0132\0i_cliche.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F201ai">
@@ -714,25 +721,12 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 </details>
 
-
-
 <div markdown='1'>
 ---
-### 音楽について (musique)
+### 音声付きフランス語例文（音楽編）｜音声ファイル付き
 </div>
 
-<details>
-    <summary><span class="petit">こんにちは、お会いできて嬉しいです。音楽について話たいです</span></summary>
-  <div class="chat-container">
-  <div class="speech-bubble left-align bottom">
-  <span class="bleu">Bonjour, ravi de te voir. Je veux parler de musique.</span><br>
-  <span class="green">ボンジュール、ラヴィ・ドゥ・テェ・ヴォワ　ジュ・ブ・パルレ・ドゥ・ミュジィク</span><br>
-  こんにちは、お会いできて嬉しいです。音楽について話たいです<br>
-  <span class="gold">Hello, it's nice to see you. I want to speak about music</span><br>
-  </div>
-  </div>
-</details>
-
+音楽に関する短いフランス語の例文を、音声と一緒に練習できます。リエゾンやアンシェヌマンの感覚をつかむための導入として最適です。
 
 
 <details>
@@ -745,6 +739,57 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">Do you have a favorite singer?</span><br>
 </div>
 </div>
+<div class="player">
+  <audio id="voice1" preload="auto">
+    <source src="\audio\0101\0201_musique.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice1">
+    <span class="label">📢</span>
+  </button>
+</div>
+</details>
+
+
+<details>
+    <summary><span class="petit">こんにちは、お会いできて嬉しいです。音楽について話たいです</span></summary>
+  <div class="chat-container">
+  <div class="speech-bubble left-align bottom">
+  <span class="bleu">Bonjour, ravi de te voir. Je veux parler de musique.</span><br>
+  <span class="green">ボンジュール、ラヴィ・ドゥ・テェ・ヴォワ　ジュ・ブ・パルレ・ドゥ・ミュジィク</span><br>
+  こんにちは、お会いできて嬉しいです。音楽について話たいです<br>
+  <span class="gold">Hello, it's nice to see you. I want to speak about music</span><br>
+  </div>
+  </div>
+
+<div class="player">
+  <audio id="voice2" preload="auto">
+    <source src="\audio\0101\Bonjour_musique.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice2">
+    <span class="label">📢</span>
+  </button>
+</div>
+</details>
+
+<details>
+    <summary><span class="petit">元気です。ありがとう、音楽？　どうぞ！</span></summary>
+<div class="chat-container"> 
+  <div class="speech-bubble left-align bottom">
+  <span class="bleu">Ça va bien, Merci, Musique? Allez-y!</span><br>
+  <span class="green">サ・ヴァ・ビヤン　メルシィ ミュジィク？　アレジィ!</span><br>
+  元気です。ありがとう、音楽？　どうぞ！<br>
+  <span class="gold">Fine thank you, music? Go ahead.</span><br>
+</div>
+</div>
+<div class="player">
+  <audio id="voice3" preload="auto">
+    <source src="\audio\0101\Ça_va_bien_Merci_MusiqueAllez-y.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice3">
+    <span class="label">📢</span>
+  </button>
+</div>
+
 </details>
 
 <details>
@@ -756,6 +801,14 @@ document.addEventListener('DOMContentLoaded', () => {
 何人かいますが、全員、日本人の歌手です。<br>
 <span class="gold">There are several, but they are all Japanese singers.</span><br>
 </div>
+</div>
+<div class="player">
+  <audio id="voice4" preload="auto">
+    <source src="\audio\0101\Il_plusieurs_mais_ce_sont_tous_des_chanteurs_japonais.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice4">
+    <span class="label">📢</span>
+  </button>
 </div>
 </details>
 
@@ -769,6 +822,15 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">Are you singing a soft song or a loud song tonight?</span><br>
 </div>
 </div>
+<div class="player">
+  <audio id="voice5" preload="auto">
+    <source src="\audio\0101\Tu_chantes_une_chanson_douce_ou_forte_ce_soir.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice5">
+    <span class="label">📢</span>
+  </button>
+</div>
+
 </details>
 
 <details>
@@ -781,6 +843,15 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">You mean the name of the Japanese song?</span><br>
 </div>
 </div>
+<div class="player">
+  <audio id="voice6" preload="auto">
+    <source src="\audio\0101\Tu_veux_dire_le_nom_de_la_chanson_japonaise.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice6">
+    <span class="label">📢</span>
+  </button>
+</div>
+
 </details>
 
 <details>
@@ -793,8 +864,16 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">I only know Japanese songs well.</span><br>
 </div>
 </div>
-</details>
+<div class="player">
+  <audio id="voice7" preload="auto">
+    <source src="\audio\0101\Je_ne_connais_bien_que_les_chansons_japonaises.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice7">
+    <span class="label">📢</span>
+  </button>
+</div>
 
+</details>
 
 
 <details>
@@ -807,7 +886,17 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">Does the song make you happy?</span><br>
 </div>
 </div>
+<div class="player">
+  <audio id="voice8" preload="auto">
+    <source src="\audio\0101\La_chanson_te_rend_heureuse.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice8">
+    <span class="label">📢</span>
+  </button>
+</div>
+
 </details>
+
 
 <details>
     <summary><span class="petit">そう、よかった。</span></summary>
@@ -819,29 +908,14 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">You said Yes?　That's good.</span><br>
 </div>
 </div>
-</details>
 
-<details>
-    <summary><span class="petit">その歌はあなたを悲しませますか？</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-align bottom">
-<span class="bleu">La chanson te rend triste ?</span><br>
-<span class="green">ラ・シャンソン・テ・ランド・トリスト？</span><br>
-その歌はあなたを悲しませますか？<br>
-<span class="gold">Does that song make you sad?</span><br>
-</div>
-</div>
-</details>
-
-<details>
-    <summary><span class="petit">悲しくなるって, 仕方ないね。</span></summary>
-<div class="chat-container">
-<div class="speech-bubble left-align bottom">
-<span class="bleu">Ça rend triste? Tant pis.</span><br>
-<span class="green">サ・ランド・トリスト？　タンピ</span><br>
-悲しくなるって, 仕方ないね。<br>
-<span class="gold">It makes you sad. Oh never mind.</span><br>
-</div>
+<div class="player">
+  <audio id="voice9" preload="auto">
+    <source src="\audio\0101\Tu_as_dit_oui_Tant_mieux.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice9">
+    <span class="label">📢</span>
+  </button>
 </div>
 </details>
 
@@ -849,11 +923,20 @@ document.addEventListener('DOMContentLoaded', () => {
     <summary><span class="petit">その歌を聴くとき、目を閉じますか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
-<span class="bleu">Tu fermes 💡les yeux quand tu écoutes la chanson?</span><br>
+<span class="bleu">Tu fermes les yeux quand tu écoutes la chanson?</span><br>
 <span class="green">テュ・フェルム・レジユー・カン・テュ・エクートゥ・ラ・シャンソン？</span><br>
 その歌を聴くとき、目を閉じますか？<br>
 <span class="gold">Do you close your eyes when you listen to the song?</span><br>
 </div>
+</div>
+
+<div class="player">
+  <audio id="voice10" preload="auto">
+    <source src="\audio\0101\Tu_fermesles_yeux_quand_tu_écoutes_la_chanson.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice10">
+    <span class="label">📢</span>
+  </button>
 </div>
 </details>
 
@@ -867,6 +950,15 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">Why do you cry when you hear that song?</span><br>
 </div>
 </div>
+
+<div class="player">
+  <audio id="voice11" preload="auto">
+    <source src="\audio\0101\Pourquoi_pleures-tu_quand_tu_écoutes_la_chanson.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice11">
+    <span class="label">📢</span>
+  </button>
+</div>
 </details>
 
 <details>
@@ -878,6 +970,15 @@ document.addEventListener('DOMContentLoaded', () => {
 この歌には思い出が多すぎて、涙がこぼれそうになる。<br>
 <span class="gold">This song holds too many memories for me, and it brings tears to my eyes.</span><br>
 </div>
+</div>
+
+<div class="player">
+  <audio id="voice12" preload="auto">
+    <source src="\audio\0101\Cette_chanson_me_rappelle_trop_de_souvenirs.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice12">
+    <span class="label">📢</span>
+  </button>
 </div>
 </details>
 
@@ -892,17 +993,35 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">How do you listen to music?　On your iPhone, or on the radio?</span><br>
 </div>
 </div>
+
+<div class="player">
+  <audio id="voice13" preload="auto">
+    <source src="\audio\0101\Comment_ecoutes-tu_la_musique.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice13">
+    <span class="label">📢</span>
+  </button>
+</div>
 </details>
+
 
 <details>
     <summary><span class="petit">あなたは静かな音楽と明るい音楽、どちらが好きですか？</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
-<span class="bleu">Tu préfères la musique calme ou la musique 💡joyeuse ?</span><br>
+<span class="bleu">Tu préfères la musique calme ou la musique joyeuse ?</span><br>
 <span class="green">テュ・プレフェレ・ラ・ミュズィク・カルム・ウー・ラ・ミュジィク・ジョワイユーズ</span><br>
 あなたは静かな音楽と明るい音楽、どちらが好きですか？<br>
 <span class="gold">Do you prefer quiet music or bright music?</span><br>
 </div>
+</div>
+<div class="player">
+  <audio id="voice14" preload="auto">
+    <source src="\audio\0101\Tu_préfères_la_musique_calme_ou_la_musique.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice14">
+    <span class="label">📢</span>
+  </button>
 </div>
 </details>
 
@@ -917,8 +1036,16 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">I always like soft songs.</span><br>
 </div>
 </div>
-</details>
 
+<div class="player">
+  <audio id="voice14" preload="auto">
+    <source src="\audio\0101\J_aime_toujours_les_chansons_douces.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice14">
+    <span class="label">📢</span>
+  </button>
+</div>
+</details>
 
 
 <details>
@@ -931,8 +1058,16 @@ document.addEventListener('DOMContentLoaded', () => {
 <span class="gold">Would you like to learn a French song someday?</span><br>
 </div>
 </div>
-</details>
 
+<div class="player">
+  <audio id="voice15" preload="auto">
+    <source src="\audio\0101\Tu_veux_apprendre_un_jour.m4a" type="audio/mp4">
+  </audio>
+  <button type="button" data-audio-id="voice15">
+    <span class="label">📢</span>
+  </button>
+</div>
+</details>
 
 
 
