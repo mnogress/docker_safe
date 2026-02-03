@@ -50,7 +50,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202a" preload="auto">
-                <source src="\audio\0131\01_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\01_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202a">
                     <span class="label">📢</span>
@@ -74,7 +74,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202b" preload="auto">
-                <source src="\audio\0131\02_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\02_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202b">
                     <span class="label">📢</span>
@@ -97,7 +97,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202c" preload="auto">
-                <source src="\audio\0131\03_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\03_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202c">
                     <span class="label">📢</span>
@@ -120,7 +120,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202d" preload="auto">
-                <source src="\audio\0131\04_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\04_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202d">
                     <span class="label">📢</span>
@@ -143,7 +143,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202e" preload="auto">
-                <source src="\audio\0131\05_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\05_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202e">
                     <span class="label">📢</span>
@@ -161,12 +161,12 @@ last_modified_at : 2026-02-02 10:30:00
     <td><strong>名詞</strong></td>
     <td>
         l'<span class="bleu">addtion</span><br>
-        La <span class="bleu">addtion</span>, s'il vous plait.<br>
+        La <span class="bleu">addtion</span>, s'il vous plaît.<br>
     </td>
     <td>
       <div class="player">
             <audio id="F0202f" preload="auto">
-                <source src="\audio\0131\06_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\06_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202f">
                     <span class="label">📢</span>
@@ -189,7 +189,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202g" preload="auto">
-                <source src="\audio\0131\07_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\07_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202g">
                     <span class="label">📢</span>
@@ -212,7 +212,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202h" preload="auto">
-                <source src="\audio\0131\08_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\08_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202h">
                     <span class="label">📢</span>
@@ -235,7 +235,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202i" preload="auto">
-                <source src="\audio\0131\09_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\09v_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202i">
                     <span class="label">📢</span>
@@ -258,7 +258,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202j" preload="auto">
-                <source src="\audio\0131\0j_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\0k_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202j">
                     <span class="label">📢</span>
@@ -281,7 +281,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="F0202k" preload="auto">
-                <source src="\audio\0131\0k_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\0lf_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202k">
                     <span class="label">📢</span>
@@ -299,12 +299,12 @@ last_modified_at : 2026-02-02 10:30:00
     <td><strong>名詞</strong></td>
     <td>
         le <span class="bleu">salaire</span><br>
-        Quel est votre salaire <span class="bleu">salaire</span> mensuel ?<br>
+        Quel est votre <span class="bleu">salaire</span> mensuel ?<br>
     </td>
     <td>
       <div class="player">
             <audio id="F0202l" preload="auto">
-                <source src="\audio\0131\0l_argent.m4a" type="audio/mp4">
+                <source src="\audio\0203\0iv_argent.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="F0202l">
                     <span class="label">📢</span>
@@ -348,7 +348,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_1" preload="auto">
-                <source src="\audio\0131\01_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\01_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_1">
                     <span class="label">📢</span>
@@ -371,7 +371,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_2" preload="auto">
-                <source src="\audio\0131\02_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\02_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_2">
                     <span class="label">📢</span>
@@ -394,7 +394,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_3" preload="auto">
-                <source src="\audio\0131\03_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\03_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_3">
                     <span class="label">📢</span>
@@ -417,7 +417,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_4" preload="auto">
-                <source src="\audio\0131\04_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\04_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_4">
                     <span class="label">📢</span>
@@ -440,7 +440,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_5" preload="auto">
-                <source src="\audio\0131\05_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\05_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_5">
                     <span class="label">📢</span>
@@ -463,7 +463,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_6" preload="auto">
-                <source src="\audio\0131\06_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\06_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_6">
                     <span class="label">📢</span>
@@ -486,7 +486,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_7" preload="auto">
-                <source src="\audio\0131\07_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\07_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_7">
                     <span class="label">📢</span>
@@ -509,7 +509,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_6" preload="auto">
-                <source src="\audio\0131\06_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\06y_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_6">
                     <span class="label">📢</span>
@@ -532,7 +532,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
       <div class="player">
             <audio id="V0202_8" preload="auto">
-                <source src="\audio\0131\08_economiser.m4a" type="audio/mp4">
+                <source src="\audio\0203\08_economiser.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="V0202_8">
                     <span class="label">📢</span>
