@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2026-02-02
-last_modified_at : 2026-02-02 10:30:00
+last_modified_at : 2026-02-04 08:30:00
 ---
 お金に関する語彙について音声ファイルを交えて表形式でまとめてみました。お金についての会話は、日常生活には必須です。<!--more-->
 
@@ -45,7 +45,7 @@ last_modified_at : 2026-02-02 10:30:00
     <td>
         l'<span class="bleu">argent</span><br>
         avoir beaucoup d'<span class="bleu">argent</span><br>
-        depenser de l'argent<span class="bleu">argent</span><br>
+        depenser de l'<span class="bleu">argent</span><br>
     </td>
     <td>
       <div class="player">
