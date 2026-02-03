@@ -1,6 +1,6 @@
 ---
 layout: single
-title: フランス語生活単語　l'argent お金編（音声付き）
+title: フランス語生活単語帳　l'argent お金編（音声付き）
 header:
   overlay_image: images/header_fr28_1280by336.png
   overlay_filter: rgba(230, 97, 216, 0.2)
@@ -20,13 +20,13 @@ tag: ["French", "フランス語学習"]
 date: 2026-02-02
 last_modified_at : 2026-02-02 10:30:00
 ---
-venir（ヴニール） は「来る」という意味が基本ですが、「venir de + 不定詞」は「～したところだ」「～したばかりだ」という、
-非常に近い過去（近接過去）を表す重要動詞 です。日常の会話で出身から、過去の習慣など様々な場面で使います。<!--more-->
+お金に関する語彙について音声ファイルを交えて表形式でまとめてみました。お金についての会話は、日常生活には必須です。<!--more-->
 
 
-### フランス語基本メモ｜venir（ヴニール） 動詞の活用（音声付き）
+### l'argent お金に関する語彙｜名詞（音声付き）
 
-venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去、、複合過去、単純未来について音声ファイルを交えて表形式でまとめてみました。
+お金に関する語彙について音声ファイルを交えて表形式でまとめてみました。まず、名詞です。定冠詞ごと覚えましょう。母音字から始まる単語では
+定冠詞が　l' になりますので、㊚，㊛　の記号を追加しています。
 
 {% raw %}
 <main class="page-ul-fix">
@@ -276,7 +276,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
     <td><strong>名詞</strong></td>
     <td>
         la <span class="bleu">dette</span><br>
-        J'ai presque paye ma <span class="bleu">dette</span>.<br>
+        J'ai presque payé ma <span class="bleu">dette</span>.<br>
     </td>
     <td>
       <div class="player">
@@ -295,10 +295,262 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
       </ul> 
   </td>
 </tr>
+<tr>
+    <td><strong>名詞</strong></td>
+    <td>
+        le <span class="bleu">salaire</span><br>
+        Quel est votre salaire <span class="bleu">salaire</span> mensuel ?<br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="F0202l" preload="auto">
+                <source src="\audio\0131\0l_argent.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="F0202l">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>（ル・サレール）　給料、賃金</li> 
+        <li>あなたの月給はいくらですか？</li> 
+      </ul> 
+  </td>
+</tr>
 </tbody>
 </table>
 </main>
 {% endraw %}
+
+### l'argent お金に関する語彙｜動詞（音声付き）
+
+お金に関する語彙（動詞）について音声ファイルを交えて表形式でまとめてみました。
+
+{% raw %}
+<main class="page-ul-fix">
+<table class="resp_table">
+<thead>
+<tr>
+    <th width="8%">活用</th>
+    <th width="30%">用例</th>
+    <th width="8%">音声ファイル</th>
+    <th width="54%">例文、音声ファイル、ポイント</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">économiser</span><br>
+        <span class="bleu">économiser</span> sur le chauffage<br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_1" preload="auto">
+                <source src="\audio\0131\01_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_1">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>(エコンミゼ) 節約する。</li> 
+        <li>暖房費を節約する</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">se serrer la ceinture</span><br>
+        Je dois me <span class="bleu">se serrer la ceinture</span> ce mois-ci.<br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_2" preload="auto">
+                <source src="\audio\0131\02_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_2">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>(ス・セヘ・ラ・サンテュール) 切り詰める（成句）</li> 
+        <li>今月は切り詰めないといけない。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">coûter</span><br>
+        Ça <span class="bleu">coûte</span> combien?<br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_3" preload="auto">
+                <source src="\audio\0131\03_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_3">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>(クテ)　値段が…である</li> 
+        <li>それはいくらですか？</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">rembourser</span><br>
+        Tu peux me prêter cent euros? 　Je te <span class="bleu">rembourserai</span> après.<br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_4" preload="auto">
+                <source src="\audio\0131\04_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_4">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>(ランブルセ) 返済する</li> 
+        <li>100ユーロ貸してくれない？　後で返すよ。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">louer</span><br>
+        J'aimerais <span class="bleu">louer</span> une voiture.<br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_5" preload="auto">
+                <source src="\audio\0131\05_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_5">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>(ルエ)　家や車などお金を払って物を借りる</li> 
+        <li>車を借りたいのですが。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">compter</span><br>
+        Il <span class="bleu">compte</span> déjà dix ans de service. <br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_6" preload="auto">
+                <source src="\audio\0131\06_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_6">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>(コンテ)  数える。</li> 
+        <li>彼はもう勤続10年になる。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">gagner</span><br>
+        Il a <span class="bleu">gagné</span> beaucoup d'argent aux courses.<br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_7" preload="auto">
+                <source src="\audio\0131\07_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_7">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>（ガニェ） 稼ぐ、儲ける　（試合・勝負に）勝つ</li> 
+        <li>彼はレースで大金をもうけた。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">compter</span><br>
+        Il <span class="bleu">compte</span> déjà dix ans de service. <br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_6" preload="auto">
+                <source src="\audio\0131\06_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_6">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>(コンテ)  数える。</li> 
+        <li>彼はもう勤続10年になる。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><strong>動詞</strong></td>
+    <td>
+        <span class="bleu">verser</span><br>
+        <span class="bleu">Versez</span> petit à petit.<br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="V0202_8" preload="auto">
+                <source src="\audio\0131\08_economiser.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="V0202_8">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>（ヴェルセ）払い込む、注ぐ、流す、支払う、（血・涙を）流す、まき散らす</li> 
+        <li>少しずつ注いでください。</li> 
+      </ul> 
+  </td>
+</tr>
+</tbody>
+</table>
+</main>
+{% endraw %}
+
 
 <style type="text/css">
     .player {
