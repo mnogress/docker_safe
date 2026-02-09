@@ -10,6 +10,16 @@ Il y a un parking sous l'immeuble.　　建物の下に駐車場があります�
 Nous travaillons sous la direction d'un grand professeur.　　私たちは偉大な教授の指導のもとで働いています。
 J'ai toujours un dictionnaire sous la main.　いつも辞書を手元に置いています。
 
+
+devant　(ドゥヴァン) ～の前に，前で
+Enlève-toi de devant moi, je ne vois rien.　私の前をどいてください、見えません
+Il y a un jardin devant la maison. 家の前に庭があります
+Passez devant.  お先にどうぞ
+
+derrière　(デリエール) ～の後ろに，の背後に
+La mairie est juste derrière l'église. 市役所は教会の真後ろです
+Regarde derrière toi. 後ろを見て
+
 '
 
 C’est merveilleux. J’aime beaucoup.  
@@ -41,14 +51,6 @@ The doctor’s words made him feel
 
 
 
-devant　(ドゥヴァン) ～の前に，前で
-Enlève-toi de devant moi, je ne vois rien.　私の前をどいてください、見えません
-Il y a un jardin devant la maison. 家の前に庭があります
-Passez devant.  お先にどうぞ
-
-derrière　(デリエール) ～の後ろに，の背後に
-La mairie est juste derrière l'église. 市役所は教会の真後ろです
-Regarde derrière toi. 後ろを見て
 
 
 
