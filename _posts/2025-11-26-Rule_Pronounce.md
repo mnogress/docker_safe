@@ -76,23 +76,27 @@ _media screen and (max-width:750px){
 }
 .rouge {
 color: red;
-font-weight: bold;
+font-size: 1.17em;
+font-weight: 600;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .bleu {
-color: blue;
-font-weight: bold;
+color: #0053a6;
+font-size: 1.17em;
+font-weight: 600;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
-.rouge2 {
+.rouge {
 color: red;
 font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
-.bleu2 {
+.bleu {
 color: blue;
 font-weight: normal;
 font-family: inherit;
@@ -197,50 +201,50 @@ letter-spacing: inherit;
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
-|m<span class="rouge2">e</span><span class="bleu2">tt</span>re|メットル|置く||
-|le v<span class="rouge2">e</span><span class="bleu2">rr</span>e|ル・ヴェール|グラス、コップ||
-|b<span class="rouge2">e</span><span class="bleu2">ll</span>e|ベール|美しい（女性形）||
-|<span class="rouge2">e</span><span class="bleu2">ll</span>|エル|彼女||
-|une f<span class="rouge2">e</span><span class="bleu2">mm</span>e|ウヌ・ファム|一人の女性|**例外**|
+|m<span class="rouge">e</span><span class="bleu">tt</span>re|メットル|置く||
+|le v<span class="rouge">e</span><span class="bleu">rr</span>e|ル・ヴェール|グラス、コップ||
+|b<span class="rouge">e</span><span class="bleu">ll</span>e|ベール|美しい（女性形）||
+|<span class="rouge">e</span><span class="bleu">ll</span>|エル|彼女||
+|une f<span class="rouge">e</span><span class="bleu">mm</span>e|ウヌ・ファム|一人の女性|**例外**|
 
 ### ６．「e」（ウー）の後に子音字が一つだけなら「ウ」と読む
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
-|p<span class="rouge2">e</span><span class="bleu2">t</span>it|プティ|小さい||
-|un m<span class="rouge2">e</span><span class="bleu2">l</span>on|アン・ムロン|一つのメロン|「メロン」ではない|
-|d<span class="rouge2">e</span><span class="bleu2">m</span>i|ドゥミ|半分||
-|v<span class="rouge2">e</span><span class="bleu2">n</span>ir|ヴニール|来る||
-|mercr<span class="rouge2">e</span><span class="bleu2">d</span>i|メルクルディ|水曜日||
+|p<span class="rouge">e</span><span class="bleu">t</span>it|プティ|小さい||
+|un m<span class="rouge">e</span><span class="bleu">l</span>on|アン・ムロン|一つのメロン|「メロン」ではない|
+|d<span class="rouge">e</span><span class="bleu">m</span>i|ドゥミ|半分||
+|v<span class="rouge">e</span><span class="bleu">n</span>ir|ヴニール|来る||
+|mercr<span class="rouge">e</span><span class="bleu">d</span>i|メルクルディ|水曜日||
 
 
 ### ７. 「e」（ウー）のあとに子音字が置かれ、それが最後の音節だと「エ」と読む
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
-|le obj<span class="rouge2">e</span><span class="bleu2">t</span>|ル・ オブジェ|物体||
-|le proj<span class="rouge2">e</span><span class="bleu2">t</span>|ル・プロジェ|計画・プロジェクト|「プロジェット」ではない|
-|le ball<span class="rouge2">e</span><span class="bleu2">t</span>|ル・バレ|バレエ（踊りの）||
-|vous chant<span class="rouge2">e</span><span class="bleu2">z</span>|ヴ・シャンテ|あなたは、歌います|***vous の活用語尾***|
+|le obj<span class="rouge">e</span><span class="bleu">t</span>|ル・ オブジェ|物体||
+|le proj<span class="rouge">e</span><span class="bleu">t</span>|ル・プロジェ|計画・プロジェクト|「プロジェット」ではない|
+|le ball<span class="rouge">e</span><span class="bleu">t</span>|ル・バレ|バレエ（踊りの）||
+|vous chant<span class="rouge">e</span><span class="bleu">z</span>|ヴ・シャンテ|あなたは、歌います|***vous の活用語尾***|
 
 
 ### 8. 語末の「e」「ウー」は発音しません。最後に発音する音は、最終の「e」の前のものです。
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
-|un<span class="rouge2">e</span>|ユヌ|一つの|（女性名詞）|
-|petit<span class="rouge2">e|プティット|小さい|（女性形）|
-|la port<span class="rouge2">e</span>|ラ・ポルト|ドア||
-|la salad<span class="rouge2">e|ラ・サラッド|サラダ||
+|un<span class="rouge">e</span>|ユヌ|一つの|（女性名詞）|
+|petit<span class="rouge">e|プティット|小さい|（女性形）|
+|la port<span class="rouge">e</span>|ラ・ポルト|ドア||
+|la salad<span class="rouge">e|ラ・サラッド|サラダ||
 
 ### 9.語末の「e」が先の子音字が一つのため、語として発音しにくいので、弱く「ゥ」と発音される
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
-|j<span class="rouge2">e</span>|ジュ|私|（弱く「ゥ」）|
-|d<span class="rouge2">e|ドゥ|～の、～から||
-|c<span class="rouge2">e</span>|スゥ|これ、それ||
-|qu<span class="rouge2">e|クゥ|～ということ||
-|s<span class="rouge2">e|スゥ|自分自身|再帰代名詞　「セ」と発音しない|
-|t<span class="rouge2">e|トゥ|君を、君に|「デ」と発音しない|
-|r<span class="rouge2">e|ʁə（ʁは喉音）|再～|接頭辞|
+|j<span class="rouge">e</span>|ジュ|私|（弱く「ゥ」）|
+|d<span class="rouge">e|ドゥ|～の、～から||
+|c<span class="rouge">e</span>|スゥ|これ、それ||
+|qu<span class="rouge">e|クゥ|～ということ||
+|s<span class="rouge">e|スゥ|自分自身|再帰代名詞　「セ」と発音しない|
+|t<span class="rouge">e|トゥ|君を、君に|「デ」と発音しない|
+|r<span class="rouge">e|ʁə（ʁは喉音）|再～|接頭辞|

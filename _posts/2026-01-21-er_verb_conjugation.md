@@ -516,11 +516,12 @@ font-family: inherit;
 letter-spacing: inherit;
 }
 .bleu {
-color: blue;
-font-size: 1.11em;
-font-weight: normal;
+color: #0053a6;
+font-size: 1.17em;
+font-weight: 600;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .rouge2 {
 color: red;

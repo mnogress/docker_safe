@@ -1,8 +1,8 @@
 ---
 layout: single
-title: フランス語生活単語帳　｜　位置関係を表す語句（音声付き）
+title: フランス語基本文法｜不規則動詞の直接法現在形（音声付き）
 header:
-  overlay_image: images/header_fr5_1280by336.png
+  overlay_image: images/header_fr6_1280by336.png
   overlay_filter: rgba(230, 97, 216, 0.2)
 toc: True
 toc_label: "目次"
@@ -17,13 +17,13 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2026-02-09
-last_modified_at : 2026-02-09 08:30:00
+date: 2026-02-10
+last_modified_at : 2026-02-10 12:30:00
 ---
-位置関係を表す語句について音声ファイルを交えて表形式でまとめてみました。前後、上下、日常会話には必須な語句です。<!--more-->用例と合わせて，色々な場面で使えるようになりましょう。
+不規則な活用をする動詞の直接法現在形をできるだけ主語を網羅して表形式でまとめてみました。<!--more-->
 
 
-### 　位置関係を表す語句｜（音声付き）
+### 　不規則動詞の直接法現在形｜（音声付き）
 
 
 
@@ -32,186 +32,73 @@ last_modified_at : 2026-02-09 08:30:00
 <table class="resp_table">
 <thead>
 <tr>
-    <th width="22%">語句</th>
-    <th width="36%">用例</th>
+    <th width="20%">語句</th>
+    <th width="16%">主語(単)</th>
     <th width="8%">音声</th>
-    <th width="36%">日本語訳</th>
+    <th width="16%">主語(複)</th>
+    <th width="8%">音声</th>
+    <th width="32%">例文</th>
+    <th width="8%">音声</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-    <td><span class="noir">sur</span><br>(スィーる)<br>
-     物理的な「～の上に」,「～について」「～に関して」
+    <td><span class="noir">être</span><br>(エトゥ)<br>
+     ～である<br>
+     (過去分詞：été)
     </td>
     <td>
-      <ul>
-        <li>Le chat dort <span class="bleu">sur</span> le canape.</li>
-        <li>Peux-tu te renseigner <span class="bleu">sur</span> ça ?</li>
-        <li>Je compte <span class="bleu">sur</span> toi pour finir ce projet.</li>
-      </ul>
+        Je <span class="bleu">suis</span><br>
+        Tu <span class="bleu">es</span><br>
+        Ll <span class="bleu">est</span><br>
+        Elle <span class="bleu">est</span><br>
+        C'<span class="bleu">est</span><br>
+        On <span class="bleu">est</span><br>
     </td>
     <td>
       <div class="player">
-            <audio id="Z209_101" preload="auto">
-                <source src="\audio\0209\01_argent.m4a" type="audio/mp4">
+            <audio id="f209_101" preload="auto">
+                <source src="\audio\0209\01_fukisoku.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="Z209_101">
+                <button type="button" data-audio-id="f209_101">
                     <span class="label">📢</span>
                 </button>
       </div>
     </td>
-  <td>
-      <ul>
-        <li>猫がソファの上で寝ている。</li> 
-        <li>それについて調べてくれる？</li> 
-        <li>このプロジェクトを終わらせるために君を頼りにしている。</li>
-      </ul> 
-  </td>
-</tr>
-<tr>
-    <td><span class="noir">sous</span><br>（スゥ）<br>
-     物理的な「～の下」支配方の「～のもとに」
-    </td>
-    <td>
-      <ul>
-        <li>Il y a un parking <span class="bleu">sous</span> l'immeuble.</li>
-        <li>Peux-tu te renseigner <span class="bleu">sous</span> la direction d'un grand professeur.</li>
-        <li>Je compte <span class="bleu">sous</span> la main.</li>
-      </ul>
+   <td>
+        Nous <span class="bleu">somes</span><br>
+        Vous <span class="bleu">ètes</span><br>
+        Ils <span class="bleu">sont</span><br>
+        Elles <span class="bleu">sont</span><br>
     </td>
     <td>
       <div class="player">
-            <audio id="Z209_102" preload="auto">
-                <source src="\audio\0209\02_argent.m4a" type="audio/mp4">
+            <audio id="f209_103" preload="auto">
+                <source src="\audio\0209\03_fukisoku.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="Z209_102">
+                <button type="button" data-audio-id="f209_103">
                     <span class="label">📢</span>
                 </button>
       </div>
     </td>
-  <td>
-      <ul>
-        <li>建物の下に駐車場があります。</li> 
-        <li>私たちは偉大な教授の指導のもとで働いています。</li> 
-        <li>いつも辞書を手元に置いています。</li>
-      </ul> 
-  </td>
-</tr>
-<tr>
-    <td><span class="noir">devant</span><br>(ドゥヴァン)<br>
-     ～の前に，前で
-    </td>
     <td>
-      <ul>
-        <li>Enlève-toi <span class="bleu">devant</span>  moi, je ne vois rien.</li>
-        <li>Il y a un jardin <span class="bleu">devant</span> la maison.</li>
-        <li>Passez <span class="bleu">devant</span>.</li>
-      </ul>
+    <ul>
+        <li>Nous <span class="bleu">somes</span>ccc</li>
+        <li>nous <span class="bleu">somes</span>ccc</li>
+        <li>nous <span class="bleu">somes</span>ccc</li>
+        <li>nous <span class="bleu">somes</span>ccc</li>
+    </ul>
     </td>
     <td>
       <div class="player">
-            <audio id="Z209_103" preload="auto">
-                <source src="\audio\0209\03_argent.m4a" type="audio/mp4">
+            <audio id="f209_103" preload="auto">
+                <source src="\audio\0209\03_fukisoku.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="Z209_103">
+                <button type="button" data-audio-id="f209_103">
                     <span class="label">📢</span>
                 </button>
       </div>
     </td>
-  <td>
-      <ul>
-        <li>私の前をどいてください、見えません。</li> 
-        <li>家の前に庭があります。</li> 
-        <li>お先にどうぞ。</li>
-      </ul> 
-  </td>
-</tr>
-<tr>
-    <td><span class="noir">derrière</span><br>(デリエール)<br>
-     ～の後ろに，の背後に
-    </td>
-    <td>
-      <ul>
-        <li>La mairie est juste <span class="bleu">derrière</span> l'église.</li>
-        <li>Regarde <span class="bleu">derrière</span>  toi.</li>
-        <li>Se cacher <span class="bleu">derrière</span> un arbre.</li>
-      </ul>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="Z209_104" preload="auto">
-                <source src="\audio\0209\04_argent.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="Z209_104">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-  <td>
-      <ul>
-        <li>市役所は教会の真後ろです。</li> 
-        <li>後ろを見て。</li> 
-        <li>木の陰に隠れる。</li>
-      </ul> 
-  </td>
-</tr>
-<tr>
-    <td><span class="noir">à côte de</span><br>(ア・コテ・ドゥ)<br>
-     ～の隣に、～のそばに
-    </td>
-    <td>
-      <ul>
-        <li>Il habite <span class="bleu">à côte de</span> de chez nous.</li>
-        <li>Asseyez-vous <span class="bleu">à côte de</span> de moi.</li>
-        <li><span class="bleu">à côte du</span> cinema</li>
-      </ul>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="Z209_105" preload="auto">
-                <source src="\audio\0209\05_argent.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="Z209_105">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-  <td>
-      <ul>
-        <li>彼は私たちの家の隣に住んでいる。</li> 
-        <li>私の隣に座ってください。</li> 
-        <li>映画館の隣　<span class="rouge">de+le --> du(縮約)</span> </li>
-      </ul> 
-  </td>
-</tr>
-<tr>
-    <td><span class="noir">dans</span><br>(ダン)<br>
-     ～の中（空間・容器）（時間）～後に/～以内に
-    </td>
-    <td>
-      <ul>
-        <li>Il est allé <span class="bleu">dans</span> la cuisine.</li>
-        <li>Le train arrive <span class="bleu">dans</span> 5 minutes.</li>
-        <li>Elle est <span class="bleu">dans</span> une situation difficile.</li>
-      </ul>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="Z209_106" preload="auto">
-                <source src="\audio\0209\06_argent.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="Z209_106">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-  <td>
-      <ul>
-        <li>彼はキッチンに行った。</li> 
-        <li>電車は5分後に到着する。</li> 
-        <li>彼女は困難な状況にあります。</li>
-      </ul> 
-  </td>
 </tr>
 </tbody>
 </table>
@@ -293,11 +180,12 @@ font-family: inherit;
 letter-spacing: inherit;
 }
 .bleu {
-color: blue;
-font-size: 1.11em;
-font-weight: normal;
+color: #0053a6;
+font-size: 1.17em;
+font-weight: 600;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .rouge2 {
 color: red;
@@ -305,13 +193,11 @@ font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
-.bleu {
-color: #0053a6;
-font-size: 1.17em;
-font-weight: 600;
-font-style: italic;
+.bleu2 {
+color: blue;
+font-weight: normal;
 font-family: inherit;
-letter-spacing: 0.02em;
+letter-spacing: inherit;
 }
 .gold {
 color: #6e5204ff;
