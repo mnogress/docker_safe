@@ -164,7 +164,7 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
         tu <span class="rouge">es</span> venu(e)<span class="bleu"></span><br>
         il <span class="rouge">est</span> venu(e)<span class="bleu"></span><br>
         nous <span class="rouge">somes</span> venu(e)s<span class="bleu"></span><br>
-        vous <span class="rouge">ets</span> venu(e)s<span class="bleu"></span><br>
+        vous <span class="rouge">êtes</span> venu(e)s<span class="bleu"></span><br>
         ils <span class="rouge">sont</span> venu(e)s<span class="bleu"></span><br>
     </td>
     <td>
@@ -304,14 +304,16 @@ _media screen and (max-width:750px){
 }
 .rouge {
 color: red;
-font-weight: normal;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .bleu {
 color: #0053a6;
-font-size: 1.17em;
-font-weight: 600;
+font-size: 1.14em;
+font-weight: 500;
 font-style: italic;
 font-family: inherit;
 letter-spacing: 0.02em;
