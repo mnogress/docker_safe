@@ -50,7 +50,7 @@ last_modified_at : 2026-02-10 12:30:00
     <td>
         Je <span class="bleu">suis</span><br>
         Tu <span class="bleu">es</span><br>
-        Ll <span class="bleu">est</span><br>
+        Il <span class="bleu">est</span><br>
         Elle <span class="bleu">est</span><br>
         C'<span class="bleu">est</span><br>
         On <span class="bleu">est</span><br>
@@ -73,20 +73,20 @@ last_modified_at : 2026-02-10 12:30:00
     </td>
     <td>
       <div class="player">
-            <audio id="f209_103" preload="auto">
-                <source src="\audio\0209\03_fukisoku.m4a" type="audio/mp4">
+            <audio id="f209_102" preload="auto">
+                <source src="\audio\0209\02_fukisoku.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="f209_103">
+                <button type="button" data-audio-id="f209_102">
                     <span class="label">📢</span>
                 </button>
       </div>
     </td>
     <td>
     <ul>
-        <li>Nous <span class="bleu">somes</span>ccc</li>
-        <li>nous <span class="bleu">somes</span>ccc</li>
-        <li>nous <span class="bleu">somes</span>ccc</li>
-        <li>nous <span class="bleu">somes</span>ccc</li>
+        <li>Il <span class="bleu">est</span> français. (彼はフランス人です)</li>
+        <li>Nous <span class="bleu">somes</span> à Paris.（私たちはパリにいます）</li>
+        <li>Je <span class="bleu">suis</span> en train de manger.（私は今、食べているところです）</li>
+        <li>Je <span class="bleu">suis</span> allé au cinéma.（私は映画館へ行きました、複合過去・助動詞）</li>
     </ul>
     </td>
     <td>
@@ -95,6 +95,122 @@ last_modified_at : 2026-02-10 12:30:00
                 <source src="\audio\0209\03_fukisoku.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="f209_103">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+</tr>
+<tr>
+    <td><span class="noir">avoir</span><br>(アヴォァ)<br>
+     ～を持つ<br>
+     (過去分詞：eu)
+    </td>
+    <td>
+        J<span class="bleu">'ai</span><br>
+        Tu <span class="bleu">as</span><br>
+        Il <span class="bleu">a</span><br>
+        Elle <span class="bleu">a</span><br>
+        Ça <span class="bleu">a</span><br>
+        On <span class="bleu">a</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_104" preload="auto">
+                <source src="\audio\0209\04_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_104">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+   <td>
+        Nous <span class="bleu">avons</span><br>
+        Vous <span class="bleu">avez</span><br>
+        Ils <span class="bleu">ont</span><br>
+        Elles <span class="bleu">ont</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_105" preload="auto">
+                <source src="\audio\0209\05_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_105">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+    <td>
+    <ul>
+        <li>J<span class="bleu">'ai</span> essayé. (試してみた 複合過去)</li>
+        <li>Nous <span class="bleu">avons </span>un rendez-vous à midi. （私たちは正午に約束があります）</li>
+        <li>Ça <span class="bleu">a </span>l'air difficile. (難しそう)</li>
+        <li>On <span class="bleu">a </span> fini. （終わりました）</li>
+    </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_106" preload="auto">
+                <source src="\audio\0209\06_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_106">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+</tr>
+<tr>
+    <td><span class="noir">aller</span><br>(アレ)<br>
+     行く<br>
+     (過去分詞：allé)
+    </td>
+    <td>
+        Je <span class="bleu">vais</span><br>
+        Tu <span class="bleu">vas</span><br>
+        Il <span class="bleu">va</span><br>
+        Elle <span class="bleu">va</span><br>
+        Ça <span class="bleu">va</span><br>
+        On <span class="bleu">va</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_107" preload="auto">
+                <source src="\audio\0209\07_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_107">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+   <td>
+        Nous <span class="bleu">allons</span><br>
+        Vous <span class="bleu">allez</span><br>
+        Ils <span class="bleu">vont</span><br>
+        Elles <span class="bleu">vont</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_108" preload="auto">
+                <source src="\audio\0209\08_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_108">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+    <td>
+    <ul>
+        <li>Tu <span class="bleu">vas</span> faire quoi ? （何をするの？ 近接未来）</li>
+        <li>Oui, ça <span class="bleu">va </span>, et toi ? (はい、元気。君は？)</li>
+        <li>On <span class="bleu">va </span>pas y arriver. (これでは、無理だ。)</li>
+        <li>Vous <span class="bleu">allez </span> acheter du pain? （パンを買いに行くのですか？）</li>
+    </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_109" preload="auto">
+                <source src="\audio\0209\09_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_109">
                     <span class="label">📢</span>
                 </button>
       </div>
@@ -175,9 +291,11 @@ _media screen and (max-width:750px){
 }
 .rouge {
 color: red;
-font-weight: normal;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .bleu {
 color: #0053a6;

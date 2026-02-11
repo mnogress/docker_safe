@@ -511,9 +511,11 @@ _media screen and (max-width:750px){
 }
 .rouge {
 color: red;
-font-weight: normal;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .bleu {
 color: #0053a6;
