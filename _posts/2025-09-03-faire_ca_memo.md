@@ -128,7 +128,7 @@ letter-spacing: inherit;
     <td>不定詞</td>
     <td><span class="bleu">faire</span></td>
     <td><span class="noir">する</span></td>
-    <td><span class="noir">フェア</span></td>
+    <td><span class="noir">フェール</span></td>
     <td></td>
 </tr>
 <tr>
