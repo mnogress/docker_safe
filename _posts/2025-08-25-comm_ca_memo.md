@@ -208,13 +208,13 @@ letter-spacing: inherit;
     </thead>
 <tbody>
     <tr>
-        <td>Vous <span class="bleu">allez?</span> en France</td>
+        <td>Vous <span class="bleu">allez</span> en France ?</td>
         <td><span class="noir">あなたはフランスに行くのですか？</span></td>
         <td><span class="noir">ヴザレ・アン・フランス？</span></td>
         <td>女性名詞の国は「en」</td>
     </tr>
     <tr>
-        <td>Vous <span class="bleu">allez</span> au Japon?</td>
+        <td>Vous <span class="bleu">allez</span> au Japon ?</td>
         <td><span class="noir">あなたは日本に行くのですか？</span></td>
         <td><span class="noir">ヴザレ・オ・ジャポン？</span></td>
         <td>子音から始まる男性名詞の国は「au」</td>
@@ -226,7 +226,7 @@ letter-spacing: inherit;
         <td>複数形の国は「aux」</td>
     </tr>
     <tr>
-        <td>On <span class="bleu">va </span>au cinema?</td>
+        <td>On <span class="bleu">va </span>au cinema ?</td>
         <td><span class="noir">映画に行こうか？</span></td>
         <td><span class="noir">オンヴァ・オスィネマ？</span></td>
         <td></td>
@@ -244,7 +244,7 @@ letter-spacing: inherit;
         <td>英:Let's go.</td>
     </tr>
     <tr>
-        <td>Qu'<span class="bleu">allons</span>-nous faire demain?</td>
+        <td>Qu'<span class="bleu">allons</span>-nous faire demain ?</td>
         <td><span class="noir">明日は何をしよう？</span></td>
         <td><span class="noir">カロンヌ・フェア・ドゥマン</span></td>
         <td></td>
