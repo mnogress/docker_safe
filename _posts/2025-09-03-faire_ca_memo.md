@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2025-09-03
-last_modified_at : 2025-09-10 11:30:00
+date: 2026-01-23
+last_modified_at : 2026-02-10 11:30:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ faire ～<!--more-->
 
@@ -75,22 +75,26 @@ _media screen and (max-width:750px){
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
 .rouge {
-color: red;
-font-weight: normal;
+color: #d9180eff;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .noir {
-color: 1A818;
+color: #090c0cff;
 font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
 .bleu {
-color: blue;
-font-weight: normal;
+color: #0053a6;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .petit {
 font-size: 0.80em;
@@ -133,35 +137,35 @@ letter-spacing: inherit;
 </tr>
 <tr>
     <td rowspan="6">現在形</td>
-    <td><span class="bleu">je fais</span></td>
+    <td>je <span class="bleu">fais</span></td>
     <td><span class="noir">私は、する</span></td>
     <td><span class="noir">ジュ・フェ</span></td>
     <td rowspan="3">fais, fait とも発音は同じ「フェ」</td>
 </tr>
 <tr>
-    <td><span class="bleu">tu fais</span></td>
+    <td>tu <span class="bleu">fais</span></td>
     <td><span class="noir">君は、する</span></td>
     <td><span class="noir">チュ・フェ</span></td>
 </tr>
 <tr>
-    <td><span class="bleu">il/elle/on fait</span></td>
+    <td>il/elle/on <span class="bleu">fait</span></td>
     <td><span class="noir">彼／彼女／私たちは、する</span></td>
     <td><span class="noir">イル／エル／オン・フェ</span></td>
 </tr>
 <tr>
-    <td><span class="bleu">nous faisons</span></td>
+    <td>nous <span class="bleu">faisons</span></td>
     <td><span class="noir">私たちは、する</span></td>
     <td><span class="noir">ヌ・フゾン</span></td>
     <td></td>
     </tr>
 <tr>
-    <td><span class="bleu">vous faites</span></td>
+    <td>vous <span class="bleu">faites</span></td>
     <td><span class="noir">あなたは、する</span></td>
     <td><span class="noir">ブ・フェット</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">ils/elles font</span></td>
+    <td>ils/elles <span class="bleu">font</span></td>
     <td><span class="noir">彼ら／彼女らは、する</span></td>
     <td><span class="noir">イル／エル・フォン</span></td>
     <td></td>
@@ -182,37 +186,37 @@ letter-spacing: inherit;
 </tr>
 <tr>
     <td rowspan="6">単純未来</td>
-    <td><span class="bleu">je ferai</span></td>
+    <td>je <span class="bleu">ferai</span></td>
     <td><span class="noir">私は、するだろう</span></td>
     <td><span class="noir">ジュ・フラィ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">tu feras</span></td>
+    <td>tu <span class="bleu">feras</span></td>
     <td><span class="noir">君は、するだろう</span></td>
     <td><span class="noir">チュ・フラ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">il/elle/on fera</span></td>
+    <td>il/elle/on <span class="bleu">fera</span></td>
     <td><span class="noir">彼／彼女／私たちは、するだろう</span></td>
     <td><span class="noir">イル／エル／オン・フラ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">nous ferons</span></td>
+    <td>nous <span class="bleu">ferons</span></td>
     <td><span class="noir">私たちは、するだろう</span></td>
     <td><span class="noir">ヌ・フロン</span></td>
     <td></td>
     </tr>
 <tr>
-    <td><span class="bleu">vous ferez</span></td>
+    <td>vous <span class="bleu">ferez</span></td>
     <td><span class="noir">あなたは、するだろう</span></td>
     <td><span class="noir">ブ・フレ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">ils/elles feront</span></td>
+    <td>ils/elles <span class="bleu">feront</span></td>
     <td><span class="noir">彼ら／彼女らは、するだろう</span></td>
     <td><span class="noir">イル／エル・フロン</span></td>
     <td></td>
@@ -239,118 +243,118 @@ letter-spacing: inherit;
     </thead>
 <tbody>
     <tr>
-        <td><span class="bleu">Il fait beau (/ mauvais) aujourd'hui.</span></td>
+        <td>Il <span class="bleu">fait</span> beau (/ mauvais) aujourd'hui.</td>
         <td><span class="noir">今日は天気がいい／悪い。 </span></td>
         <td><span class="noir">イル・フェ・ボ（／モヴェ）オージュルデュイ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Il fait chaud (/ froid) dehors. </span></td>
+        <td>Il <span class="bleu">fait</span> chaud (/ froid) dehors. </td>
         <td><span class="noir">外は、暑い／寒い。</span></td>
         <td><span class="noir">イル・フェ・ショ（／フロワ）・ドゥオール</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Il fait du vent ce soir.</span></td>
+        <td>Il <span class="bleu">fait</span> du vent ce soir.</td>
         <td><span class="noir">今夜は風が強い。</span></td>
         <td><span class="noir">イル・フェ・デュ・ブァン・ス・ソワー</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Tu sais faire ca aussi ?</span></td>
+        <td>Tu sais <span class="bleu">faire</span> ca aussi ?</td>
         <td><span class="noir">君もそれができるの？</span></td>
         <td><span class="noir">チュ・セ・フェア・サ・オゥシ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Je ferai de mon mieux</span></td>
+        <td>Je <span class="bleu">ferai</span> de mon mieux</td>
         <td><span class="noir">最善を尽くします</span></td>
         <td><span class="noir">ジュ・フラィ・ドゥ・モン・ミュー</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Que crois-tu faire? </span></td>
+        <td>Que crois-tu <span class="bleu">faire</span>? </td>
         <td><span class="noir">何をしているの</span></td>
         <td><span class="noir">ク・クロア・チュ・フェァ</span></td>
         <td>英：What do you think you’re doing? </td>
     </tr>
     <tr>
-        <td><span class="bleu">Je voudrais faire le check-in.</span></td>
+        <td>Je voudrais <span class="bleu">faire</span> le check-in.</td>
         <td><span class="noir">チェックインしたいのですが</span></td>
         <td><span class="noir">ジュ・ヴドレィ・フェァ・ル・シェキン</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Je peux le faire. </span></td>
+        <td>Je peux le <span class="bleu">faire</span>.</td>
         <td><span class="noir">できます。</span></td>
         <td><span class="noir">ジュ・プ・ル・フェァ</span></td>
         <td>英：I can do it.</td>
     </tr>
     <tr>
-        <td><span class="bleu">Vous pouvez le faire! </span></td>
+        <td>Vous pouvez le <span class="bleu">faire</span>! </td>
         <td><span class="noir">君ならできる！</span></td>
         <td><span class="noir">ヴ・プゥヴェ・ル・フェァ</span></td>
         <td>英：You can do it.</td>
     </tr>
     <tr>
-        <td><span class="bleu">Nous ferons le ménage une fois par semaine.</span></td>
+        <td>Nous <span class="bleu">ferons</span> le ménage une fois par semaine.</td>
         <td><span class="noir">週に一度、掃除を行います。</span></td>
         <td><span class="noir">ヌ・フロン・ル・メナジェ・ウヌ・フォア・パー・スメヌ</span></td>
         <td>英：We will clean once a week.</td>
     </tr>
     <tr>
-        <td><span class="bleu">Faites comme chez vous.</span></td>
+        <td><span class="bleu">Faites</span> comme chez vous.</td>
         <td><span class="noir">どうぞごゆっくり</span></td>
         <td><span class="noir">フェット ・コム・ シェ ヴ</span></td>
         <td>英：make yourself at home</td>
     </tr>
     <tr>
-        <td><span class="bleu">Ne faites pas tant de bruit.</span></td>
+        <td>Ne <span class="bleu">faites</span> pas tant de bruit.</td>
         <td><span class="noir">そんなにうるさくしないで．</span></td>
         <td><span class="noir">ヌフェㇳ・パタン・ドゥ・ブリュイ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Est-ce que ça fait mal?</span></td>
+        <td>Est-ce que ça <span class="bleu">fait</span> mal?</td>
         <td><span class="noir">それは痛いの</span></td>
         <td><span class="noir">エスク・サ・フェマル</span></td>
         <td>英：Does it hurt?</td>
     </tr>
     <tr>
-        <td><span class="bleu">Faites attention!</span></td>
+        <td><span class="bleu">Faites</span> attention!</td>
         <td><span class="noir">気を付けてくださ！</span></td>
         <td><span class="noir">フェット・ アトンシオン</span></td>
         <td>英：Be careful!</td>
     </tr>
     <tr>
-        <td><span class="bleu">N’importe quel jour fera l’affaire.</span></td>
+        <td>N’importe quel jour <span class="bleu">fera</span> l’affaire.</td>
         <td><span class="noir">どの日でも構いません。</span></td>
         <td><span class="noir">ナンポルト・ケル・ジュール・フェ・ラ・フェール</span></td>
         <td>英：Any day will do. </td>
     </tr>
     <tr>
-        <td><span class="bleu">Ça fait combien en tout? </span></td>
+        <td>Ça <span class="bleu">fait</span> combien en tout? </td>
         <td><span class="noir">全部でいくらですか</span></td>
         <td><span class="noir">サ・フェ・コンビヤン・アン・トゥ</span></td>
         <td>英：How much is it in total?</td>
     </tr>
     <tr>
-        <td><span class="bleu">Comment on fait pour y aller?</span></td>
+        <td>Comment on <span class="bleu">fait</span> pour y aller?</td>
         <td><span class="noir">どうやってそこに行くのですか？</span></td>
         <td><span class="noir">コモン・オン・フェ・ポーイ・アレ</span></td>
         <td>英：How do we get there?</td>
     </tr>
     <tr>
-        <td><span class="bleu">Puis-je faire ça?</span></td>
+        <td>Puis-je <span class="bleu">fair</span>e ça?</td>
         <td><span class="noir">これをしていいですか？</span></td>
         <td><span class="noir">プィージュ・フェア・サ</span></td>
         <td>倒置の疑問文では、peux-jeではなく、puis-jeを用いる</td>
     </tr>
     <tr>
-        <td><span class="bleu">Quand je faisais la cuisine, elle etait au lit.</span></td>
+        <td>Quand je <span class="bleu">faisais</span> la cuisine, elle etait au lit.</td>
         <td><span class="noir">私が料理をしている間、彼女はベッドにいた。</span></td>
         <td><span class="noir">カァン・ジュ・フゼ・ラ・キュイズィヌ　エル・エテ・オリ</span></td>
-        <td>faisais　半過去</td>
+        <td><span class="rouge">faisais　半過去</span></td>
     </tr>
 </tbody>
 </table>
