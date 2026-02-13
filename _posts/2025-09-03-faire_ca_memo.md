@@ -90,7 +90,7 @@ letter-spacing: inherit;
 }
 .bleu {
 color: #0053a6;
-font-size: 1.14em;
+font-size: 1.20em;
 font-weight: 500;
 font-style: italic;
 font-family: inherit;
@@ -345,7 +345,7 @@ letter-spacing: inherit;
         <td>英：How do we get there?</td>
     </tr>
     <tr>
-        <td>Puis-je <span class="bleu">fair</span>e ça?</td>
+        <td>Puis-je <span class="bleu">faire</span> ça?</td>
         <td><span class="noir">これをしていいですか？</span></td>
         <td><span class="noir">プィージュ・フェア・サ</span></td>
         <td>倒置の疑問文では、peux-jeではなく、puis-jeを用いる</td>
