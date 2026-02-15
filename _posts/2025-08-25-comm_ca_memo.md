@@ -262,7 +262,7 @@ letter-spacing: inherit;
         <td></td>
     </tr>
     <tr>
-        <td>Elle est<span class="bleu"> allée </span>à la boulangerie.</td>
+        <td>Elle<span class="bleu"> est allée </span>à la boulangerie.</td>
         <td><span class="noir">彼女はパン屋へ行った。</span></td>
         <td><span class="noir">エレ・タレア・ラ・ブランジュリー</span></td>
         <td></td>
