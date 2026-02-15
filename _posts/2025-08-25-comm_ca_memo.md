@@ -256,8 +256,8 @@ letter-spacing: inherit;
         <td></td>
     </tr>
     <tr>
-        <td>Nous<span class="bleu"> allons aller </span></td>
-        <td><span class="noir">私のお気に入りのレストランに行きましょう</span>dans mon restaurant préféré.</td>
+        <td>Nous<span class="bleu"> allons aller dans mon restaurant préféré.</span></td>
+        <td><span class="noir">私のお気に入りのレストランに行きましょう</span></td>
         <td><span class="noir">ヌザロン・アレ・ダン・モンレストラン・プリフェレ</span></td>
         <td></td>
     </tr>
