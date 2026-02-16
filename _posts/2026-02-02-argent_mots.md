@@ -161,7 +161,7 @@ last_modified_at : 2026-02-04 08:30:00
     <td><strong>名詞</strong></td>
     <td>
         l'<span class="bleu">addtion</span><br>
-        La <span class="bleu">addtion</span>, s'il vous plaît.<br>
+        L'<span class="bleu">addtion</span>, s'il vous plaît.<br>
     </td>
     <td>
       <div class="player">
