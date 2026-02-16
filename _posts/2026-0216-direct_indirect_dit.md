@@ -1,8 +1,8 @@
 ---
 layout: single
-title: フランス語基本文法｜不規則動詞の直接法現在形（音声付き）
+title: フランス語基本文法｜直接・間接話法（音声付き）
 header:
-  overlay_image: images/header_fr6_1280by336.png
+  overlay_image: images/header_fr5_1280by336.png
   overlay_filter: rgba(230, 97, 216, 0.2)
 toc: True
 toc_label: "目次"
@@ -17,200 +17,204 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2026-02-10
-last_modified_at : 2026-02-10 12:30:00
+date: 2026-02-09
+last_modified_at : 2026-02-09 08:30:00
 ---
-不規則な活用をする動詞の直接法現在形をできるだけ主語を網羅して表形式でまとめてみました。<!--more-->
+直接話法と間接話法についてまとめました。<!--more-->用例と合わせて、
 
 
-### 　不規則動詞の直接法現在形｜（音声付き）
+### 　自制の変更｜（音声付き）
 
-
+直接話法：　時制・人称はそのまま: 直接話法では、時制や人称代名詞（je, tu）は話した時点のままで、
+文の区切り: 引用符（≪ ≫）内の文の初めは必ず大文字で始める。
+疑問文・命令文: 疑問符（?）や感嘆符（!）も引用符の内に含める
+間接話法では、時制の一致や人称の変更は行われます。
 
 {% raw %}
 <main class="page-ul-fix">
 <table class="resp_table">
 <thead>
 <tr>
-    <th width="20%">語句</th>
-    <th width="16%">主語(単)</th>
-    <th width="8%">音声</th>
-    <th width="16%">主語(複)</th>
-    <th width="8%">音声</th>
-    <th width="32%">例文</th>
+    <th width="10%">時制</th>
+    <th width="46%">用例</th>
+    <th width="6%">音声</th>
+    <th width="36%">日本語訳</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td rowspan="2">je <span class="noir">dis</span><br>現在<br><span class="bleu">dire</span></td>
+    <td>
+      <ul>
+        <li>Je lui <span class="bleu">dis</span> : ≪ Je <span class="bleu">paie</span> avec l'application iPhone ≫.</li>
+      </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="W016_101" preload="auto">
+                <source src="\audio\0209\01_dire.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="W016_101">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>私は彼に「iPhoneのアプリで支払います」と言います。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td>
+      <ul>
+        <li>Je lui <span class="bleu">dis que</span> je <span class="bleu">paie</span> avec l'application iPhone.</li>
+      </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="W016_102" preload="auto">
+                <source src="\audio\0209\02_dire.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="W016_102">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>私はiPhoneのアプリで支払うと彼に言います。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td rowspan="2">je lui <span class="noir">ai dit</span><br>複合過去<br><span class="bleu">dire</span></td>
+    <td>
+      <ul>
+        <li>Je lui <span class="bleu">ai dit</span> : ≪ Je <span class="bleu">paie</span> avec l'application iPhone ≫.</li>
+      </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="W016_103" preload="auto">
+                <source src="\audio\0209\03_dire.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="W016_103">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>私は彼に「iPhoneのアプリで支払います」と言った。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td>
+      <ul>
+        <li>Je lui <span class="bleu">ai dit que</span> je <span class="rouge">payais</span> avec l'application iPhone.</li>
+      </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="W016_104" preload="auto">
+                <source src="\audio\0209\04_dire.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="W016_104">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>私はiPhoneアプリで支払うと彼に言った。<br>que 以下を半過去とする。　半過去は、過去における現在を表す。</li> 
+      </ul> 
+  </td>
+</tr>
+</tbody>
+</table>
+</main>
+{% endraw %}
+
+### 　直接話法と間接話法を比較する｜（音声付き）
+
+{% raw %}
+<main class="page-ul-fix">
+<table class="resp_table">
+<thead>
+<tr>
+    <th width="12%">時制</th>
+    <th width="40%">直接話法</th>
+    <th width="40%">間接話法</th>
     <th width="8%">音声</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-    <td><span class="noir">être</span><br>(エトゥ)<br>
-     ～である<br>
-     (過去分詞：été)
+    <td><span class="noir">平叙文</span><br><span class="bleu2">que（または qu'）でつなぐ。</span></td>
+    <td>
+      <ul>
+        <li>Louis <span class="bleu">dit</span> : ≪Je vais chez le coiffeur.≫<br>ルイスは言います、「理容室へ行ってくる」って。</li>
+      </ul>
     </td>
     <td>
-        Je <span class="bleu">suis</span><br>
-        Tu <span class="bleu">es</span><br>
-        Il <span class="bleu">est</span><br>
-        Elle <span class="bleu">est</span><br>
-        C'<span class="bleu">est</span><br>
-        On <span class="bleu">est</span><br>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="f209_101" preload="auto">
-                <source src="\audio\0209\01_fukisoku.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="f209_101">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-   <td>
-        Nous <span class="bleu">somes</span><br>
-        Vous <span class="bleu">ètes</span><br>
-        Ils <span class="bleu">sont</span><br>
-        Elles <span class="bleu">sont</span><br>
+      <ul>
+        <li>Louis <span class="bleu">dit qu</span>'il va chez le coiffeur.<br>理容室に行ってくるとルイスは言う。</li>
+      </ul>
     </td>
     <td>
       <div class="player">
-            <audio id="f209_102" preload="auto">
-                <source src="\audio\0209\02_fukisoku.m4a" type="audio/mp4">
+            <audio id="W016_105" preload="auto">
+                <source src="\audio\0209\05_dire.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="f209_102">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-    <td>
-    <ul>
-        <li>Il <span class="bleu">est</span> français. (彼はフランス人です)</li>
-        <li>Nous <span class="bleu">somes</span> à Paris.（私たちはパリにいます）</li>
-        <li>Je <span class="bleu">suis</span> en train de manger.（私は今、食べているところです）</li>
-        <li>Je <span class="bleu">suis</span> allé au cinéma.（私は映画館へ行きました、複合過去・助動詞）</li>
-    </ul>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="f209_103" preload="auto">
-                <source src="\audio\0209\03_fukisoku.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="f209_103">
+                <button type="button" data-audio-id="W016_105">
                     <span class="label">📢</span>
                 </button>
       </div>
     </td>
 </tr>
 <tr>
-    <td><span class="noir">avoir</span><br>(アヴォァ)<br>
-     ～を持つ<br>
-     (過去分詞：eu)
+    <td><span class="noir">命令文</span><br><span class="bleu2">de + 不定詞 に変える</span></td>
+    <td>
+      <ul>
+        <li>Elle  <span class="bleu">dit</span> au chauffeur: ≪Allez a la gare de Nice.≫<br>彼女は運転手に頼む、「ニース駅に行ってください」と。</li>
+      </ul>
     </td>
     <td>
-        J<span class="bleu">'ai</span><br>
-        Tu <span class="bleu">as</span><br>
-        Il <span class="bleu">a</span><br>
-        Elle <span class="bleu">a</span><br>
-        Ça <span class="bleu">a</span><br>
-        On <span class="bleu">a</span><br>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="f209_104" preload="auto">
-                <source src="\audio\0209\04_fukisoku.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="f209_104">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-   <td>
-        Nous <span class="bleu">avons</span><br>
-        Vous <span class="bleu">avez</span><br>
-        Ils <span class="bleu">ont</span><br>
-        Elles <span class="bleu">ont</span><br>
+      <ul>
+        <li>Elle <span class="bleu">dit </span>au chauffeur <span class="rouge">d'aller </span>a la gare de Nice. <br>彼女は運転手にニース駅に行ってくださいと頼む。</li>
+      </ul>
     </td>
     <td>
       <div class="player">
-            <audio id="f209_105" preload="auto">
-                <source src="\audio\0209\05_fukisoku.m4a" type="audio/mp4">
+            <audio id="W016_106" preload="auto">
+                <source src="\audio\0209\06_dire.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="f209_105">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-    <td>
-    <ul>
-        <li>J<span class="bleu">'ai</span> essayé. (試してみた 複合過去)</li>
-        <li>Nous <span class="bleu">avons </span>un rendez-vous à midi. （私たちは正午に約束があります）</li>
-        <li>Ça <span class="bleu">a </span>l'air difficile. (難しそう)</li>
-        <li>On <span class="bleu">a </span> fini. （終わりました）</li>
-    </ul>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="f209_106" preload="auto">
-                <source src="\audio\0209\06_fukisoku.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="f209_106">
+                <button type="button" data-audio-id="W016_106">
                     <span class="label">📢</span>
                 </button>
       </div>
     </td>
 </tr>
 <tr>
-    <td><span class="noir">aller</span><br>(アレ)<br>
-     行く<br>
-     (過去分詞：allé)
+    <td><span class="noir">疑問文</span><br><span class="bleu2">si に変える</span></td>
+    <td>
+      <ul>
+        <li>Il me <span class="bleu">demande</span>: ≪Vous partirez demain ?≫<br>彼は私に尋ねます、「明日出発するのか」と。</li>
+      </ul>
     </td>
     <td>
-        Je <span class="bleu">vais</span><br>
-        Tu <span class="bleu">vas</span><br>
-        Il <span class="bleu">va</span><br>
-        Elle <span class="bleu">va</span><br>
-        Ça <span class="bleu">va</span><br>
-        On <span class="bleu">va</span><br>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="f209_107" preload="auto">
-                <source src="\audio\0209\07_fukisoku.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="f209_107">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-   <td>
-        Nous <span class="bleu">allons</span><br>
-        Vous <span class="bleu">allez</span><br>
-        Ils <span class="bleu">vont</span><br>
-        Elles <span class="bleu">vont</span><br>
+      <ul>
+        <li>Il me <span class="bleu">demande </span><span class="rouge">si </span>je partirai demain. <br>彼は私に明日出発するのかどうか尋ねます。</li>
+      </ul>
     </td>
     <td>
       <div class="player">
-            <audio id="f209_108" preload="auto">
-                <source src="\audio\0209\08_fukisoku.m4a" type="audio/mp4">
+            <audio id="W016_107" preload="auto">
+                <source src="\audio\0209\07_dire.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="f209_108">
-                    <span class="label">📢</span>
-                </button>
-      </div>
-    </td>
-    <td>
-    <ul>
-        <li>Tu <span class="bleu">vas</span> faire quoi ? （何をするの？ 近接未来）</li>
-        <li>Oui, ça <span class="bleu">va </span>, et toi ? (はい、元気。君は？)</li>
-        <li>On <span class="bleu">va </span>pas y arriver. (これでは、無理だ。)</li>
-        <li>Vous <span class="bleu">allez </span> acheter du pain? （パンを買いに行くのですか？）</li>
-    </ul>
-    </td>
-    <td>
-      <div class="player">
-            <audio id="f209_109" preload="auto">
-                <source src="\audio\0209\09_fukisoku.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="f209_109">
+                <button type="button" data-audio-id="W016_107">
                     <span class="label">📢</span>
                 </button>
       </div>
@@ -220,7 +224,6 @@ last_modified_at : 2026-02-10 12:30:00
 </table>
 </main>
 {% endraw %}
-
 
 
 <style type="text/css">
@@ -291,11 +294,9 @@ _media screen and (max-width:750px){
 }
 .rouge {
 color: red;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
+font-weight: normal;
 font-family: inherit;
-letter-spacing: 0.02em;
+letter-spacing: inherit;
 }
 .bleu {
 color: #0053a6;
@@ -305,14 +306,16 @@ font-style: italic;
 font-family: inherit;
 letter-spacing: 0.02em;
 }
-.rouge2 {
+.rouge {
 color: red;
-font-weight: normal;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .bleu2 {
-color: blue;
+color: #0053a6;
 font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
@@ -325,7 +328,7 @@ letter-spacing: inherit;
 }
 .noir {
 color: #1a0202ff;
-font-size: 1.6em;
+font-size: 1.3em;
 font-family: inherit;
 font-weight: bold;
 letter-spacing: inherit;
