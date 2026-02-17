@@ -33,7 +33,7 @@ last_modified_at : 2026-02-04 08:30:00
 <table class="resp_table">
 <thead>
 <tr>
-    <th width="8%">活用</th>
+    <th width="8%">品詞</th>
     <th width="30%">用例</th>
     <th width="8%">音声ファイル</th>
     <th width="54%">例文、音声ファイル、ポイント</th>
@@ -41,7 +41,7 @@ last_modified_at : 2026-02-04 08:30:00
 </thead>
 <tbody>
 <tr>
-    <td><strong>名詞</strong></td>
+    <td rowspan="12"><strong>名詞</strong></td>
     <td>
         l'<span class="bleu">argent</span><br>
         avoir beaucoup d'<span class="bleu">argent</span><br>
@@ -66,7 +66,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         le <span class="bleu">paiement</span><br>
         faire un <span class="bleu">paiement</span><br>
@@ -89,7 +88,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         le <span class="bleu">tarif</span><br>
         payer plein <span class="bleu">tarif</span><br>
@@ -112,7 +110,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         le <span class="bleu">règlement</span><br>
         faire un <span class="bleu">règlement</span> par chèque bancaire<br>
@@ -135,7 +132,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         la <span class="bleu">réduction</span><br>
         la <span class="bleu">réduction</span> sur ce produit est de 20%.<br>
@@ -158,10 +154,9 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         l'<span class="bleu">addtion</span><br>
-        L'<span class="bleu">addtion</span>, s'il vous plaît.<br>
+        L'5<span class="bleu">addtion</span>, s'il vous plaît.<br>
     </td>
     <td>
       <div class="player">
@@ -181,7 +176,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         le <span class="bleu">supplement</span><br>
         payer un <span class="bleu">supplement</span><br>
@@ -204,7 +198,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         le <span class="bleu">compte</span><br>
         un <span class="bleu">compte</span> bancaire<br>
@@ -227,7 +220,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         le <span class="bleu">portefeuille</span><br>
         J'ai perdu mon <span class="bleu">portefeuille</span>.<br>
@@ -250,7 +242,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         la <span class="bleu">monnaie</span><br>
         Avez-vous de la <span class="bleu">monnaie</span>?<br>
@@ -273,7 +264,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         la <span class="bleu">dette</span><br>
         J'ai presque payé ma <span class="bleu">dette</span>.<br>
@@ -296,7 +286,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>名詞</strong></td>
     <td>
         le <span class="bleu">salaire</span><br>
         Quel est votre <span class="bleu">salaire</span> mensuel ?<br>
@@ -332,7 +321,7 @@ last_modified_at : 2026-02-04 08:30:00
 <table class="resp_table">
 <thead>
 <tr>
-    <th width="8%">活用</th>
+    <th width="8%">品詞</th>
     <th width="30%">用例</th>
     <th width="8%">音声ファイル</th>
     <th width="54%">例文、音声ファイル、ポイント</th>
@@ -340,7 +329,7 @@ last_modified_at : 2026-02-04 08:30:00
 </thead>
 <tbody>
 <tr>
-    <td><strong>動詞</strong></td>
+    <td rowspan="9"><strong>動詞</strong></td>
     <td>
         <span class="bleu">économiser</span><br>
         <span class="bleu">économiser</span> sur le chauffage<br>
@@ -363,7 +352,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>動詞</strong></td>
     <td>
         <span class="bleu">se serrer la ceinture</span><br>
         Je dois me <span class="bleu">se serrer la ceinture</span> ce mois-ci.<br>
@@ -386,7 +374,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>動詞</strong></td>
     <td>
         <span class="bleu">coûter</span><br>
         Ça <span class="bleu">coûte</span> combien?<br>
@@ -409,7 +396,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>動詞</strong></td>
     <td>
         <span class="bleu">rembourser</span><br>
         Tu peux me prêter cent euros? 　Je te <span class="bleu">rembourserai</span> après.<br>
@@ -432,7 +418,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>動詞</strong></td>
     <td>
         <span class="bleu">louer</span><br>
         J'aimerais <span class="bleu">louer</span> une voiture.<br>
@@ -455,7 +440,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>動詞</strong></td>
     <td>
         <span class="bleu">compter</span><br>
         Il <span class="bleu">compte</span> déjà dix ans de service. <br>
@@ -478,7 +462,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>動詞</strong></td>
     <td>
         <span class="bleu">gagner</span><br>
         Il a <span class="bleu">gagné</span> beaucoup d'argent aux courses.<br>
@@ -501,7 +484,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>動詞</strong></td>
     <td>
         <span class="bleu">compter</span><br>
         Il <span class="bleu">compte</span> déjà dix ans de service. <br>
@@ -524,7 +506,6 @@ last_modified_at : 2026-02-04 08:30:00
   </td>
 </tr>
 <tr>
-    <td><strong>動詞</strong></td>
     <td>
         <span class="bleu">verser</span><br>
         <span class="bleu">Versez</span> petit à petit.<br>
