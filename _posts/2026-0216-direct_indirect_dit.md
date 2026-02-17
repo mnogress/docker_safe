@@ -2,8 +2,8 @@
 layout: single
 title: フランス語基本文法｜直接・間接話法（音声付き）
 header:
-  overlay_image: images/header_fr5_1280by336.png
-  overlay_filter: rgba(230, 97, 216, 0.2)
+  overlay_image: images/header_fr9_1280by336.png
+  overlay_filter: rgba(97, 230, 228, 0.2)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
@@ -36,7 +36,7 @@ last_modified_at : 2026-02-09 08:30:00
         <li>疑問文・命令文: 疑問符（?）や感嘆符（!）も引用符の内に含める</li>
       </ol>
     </dd>
-    <dt>間接話法</dt>
+    <dt>間接話法：</dt>
     <dd>
       <ol>
         <li>平叙文は、que（または qu'）でつなぐ</li>
@@ -250,6 +250,19 @@ last_modified_at : 2026-02-09 08:30:00
 </table>
 </main>
 {% endraw %}
+
+
+### 間接話法の主節に使われる動詞
+
+| つづり字 | 意味 | 読み方 |　過去分詞、現在形活用 単|現在形活用 複|
+| :-----       | :----       | :-----       | :-----:      |:-----:      |
+| <span class="bleu">dire</span>   |言う|ディール|dit<br>je dis<br>tu dis<br>il dit |<br>nous disons<br>vous dites<br>ils disent|
+| <span class="bleu">ajouter</span>   |付け加える|アジュテ|ajouté<br>j'ajoute<br>tu ajoutes<br>il ajoute |<br>nous ajoutons<br>vous ajoutez<br>ils ajoutent|
+| <span class="bleu">demander</span>   |尋ねる/依頼する|ドゥマンデ|demandé<br>je demande<br>tu demande<br>il demande |<br>nous demandons<br>vous demandez<br>ils demandent|
+| <span class="bleu">affirmer</span>   |断言する|アフィルメ|affirmé<br>j'affirme<br>tu affirmes<br>il affirme |<br>nous affirmons<br>vous affirmez<br>ils affirment|
+| <span class="bleu">repondre</span>   |答える|レポーンドル|repondu<br>je reponds<br>tu reponds<br>il repond |<br>nous repondons<br>vous repondez<br>ils repondent|
+| <span class="bleu">penser</span>   |思う|パンセ|pensé<br>je pense<br>tu penses<br>il pense |<br>nous pensons<br>vous pensez<br>ils pensent|
+| <span class="bleu">croire</span>   |信じる|クロワール|cru<br>je crois<br>tu crois<br>il croit |<br>nous croyons<br>vous croyez<br>ils croient|
 
 
 <style type="text/css">

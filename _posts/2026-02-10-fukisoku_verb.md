@@ -374,7 +374,7 @@ last_modified_at : 2026-02-10 12:30:00
     <ul>
         <li>Il <span class="bleu">sait</span> l'anglais.　(彼は英語を知っている)　</li>
         <li>Je ne <span class="bleu">sais</span> pas s'il est honnête.(彼が正直がどうか私は知らない)</li>
-        <li>Je<span class="bleu">savez </span> bien la vérité.　(あなたはちゃんと真実がわかっています)</li>
+        <li>Vous<span class="bleu">savez </span> bien la vérité.　(あなたはちゃんと真実がわかっています)</li>
     </ul>
     </td>
     <td>
