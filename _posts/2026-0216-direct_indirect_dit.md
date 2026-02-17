@@ -20,15 +20,38 @@ tag: ["French", "フランス語学習"]
 date: 2026-02-09
 last_modified_at : 2026-02-09 08:30:00
 ---
-直接話法と間接話法についてまとめました。<!--more-->用例と合わせて、
+直接話法と間接話法についてまとめました。<!--more-->
 
+### 直接話法と間接話法の要点
 
-### 　自制の変更｜（音声付き）
+{% raw %}
+<main class="page-ul-fix">
+<section class="definitions">
+  <dl>
+    <dt>直接話法：</dt>
+    <dd>
+      <ol>
+        <li>時制や人称代名詞（je, tu）は話した時点のまま</li>
+        <li>引用符（≪ ≫）内の文の初めは必ず大文字で始める</li>
+        <li>疑問文・命令文: 疑問符（?）や感嘆符（!）も引用符の内に含める</li>
+      </ol>
+    </dd>
+    <dt>間接話法</dt>
+    <dd>
+      <ol>
+        <li>平叙文は、que（または qu'）でつなぐ</li>
+        <li>命令文は、de + 不定詞 に変える</li>
+        <li>疑問文は、si に変える</li>
+      </ol>
+    </dd>
+  </dl>
+</section>
+</main>
+{% endraw %}
 
-直接話法：　時制・人称はそのまま: 直接話法では、時制や人称代名詞（je, tu）は話した時点のままで、
-文の区切り: 引用符（≪ ≫）内の文の初めは必ず大文字で始める。
-疑問文・命令文: 疑問符（?）や感嘆符（!）も引用符の内に含める
-間接話法では、時制の一致や人称の変更は行われます。
+### 文例による時制の変更｜（音声付き）
+
+間接話法における半過去は、過去における現在を表します。　que 以下を半過去とした文例を直接・間接話法の時制（現在・複合過去）の4例で示します。
 
 {% raw %}
 <main class="page-ul-fix">
@@ -43,7 +66,7 @@ last_modified_at : 2026-02-09 08:30:00
 </thead>
 <tbody>
 <tr>
-    <td rowspan="2">je <span class="noir">dis</span><br>現在<br><span class="bleu">dire</span></td>
+    <td rowspan="2">je <span class="noir">dis</span><br>現在<br><span class="bleu">dire</span><br>不定詞</td>
     <td>
       <ul>
         <li>Je lui <span class="bleu">dis</span> : ≪ Je <span class="bleu">paie</span> avec l'application iPhone ≫.</li>
@@ -88,7 +111,7 @@ last_modified_at : 2026-02-09 08:30:00
   </td>
 </tr>
 <tr>
-    <td rowspan="2">je lui <span class="noir">ai dit</span><br>複合過去<br><span class="bleu">dire</span></td>
+    <td rowspan="2">je lui <span class="noir">ai dit</span><br>複合過去<br><span class="bleu">dire</span><br>不定詞</td>
     <td>
       <ul>
         <li>Je lui <span class="bleu">ai dit</span> : ≪ Je <span class="bleu">paie</span> avec l'application iPhone ≫.</li>
@@ -137,7 +160,7 @@ last_modified_at : 2026-02-09 08:30:00
 </main>
 {% endraw %}
 
-### 　直接話法と間接話法を比較する｜（音声付き）
+### 直接話法と間接話法を平叙文、命令文、疑問文について比較する｜（音声付き）
 
 {% raw %}
 <main class="page-ul-fix">
@@ -152,7 +175,7 @@ last_modified_at : 2026-02-09 08:30:00
 </thead>
 <tbody>
 <tr>
-    <td><span class="noir">平叙文</span><br><span class="bleu2">que（または qu'）でつなぐ。</span></td>
+    <td><span class="noir">平叙文</span></td>
     <td>
       <ul>
         <li>Louis <span class="bleu">dit</span> : ≪Je vais chez le coiffeur.≫<br>ルイスは言います、「理容室へ行ってくる」って。</li>
@@ -160,7 +183,8 @@ last_modified_at : 2026-02-09 08:30:00
     </td>
     <td>
       <ul>
-        <li>Louis <span class="bleu">dit qu</span>'il va chez le coiffeur.<br>理容室に行ってくるとルイスは言う。</li>
+        <li>Louis <span class="bleu">dit </span><span class="rouge">qu'</span>il va chez le coiffeur.<br>理容室に行ってくるとルイスは言う。</li>
+        <li><span class="bleu2">que（または qu'）でつなぐ。</span></li>
       </ul>
     </td>
     <td>
@@ -175,7 +199,7 @@ last_modified_at : 2026-02-09 08:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">命令文</span><br><span class="bleu2">de + 不定詞 に変える</span></td>
+    <td><span class="noir">命令文</span></td>
     <td>
       <ul>
         <li>Elle  <span class="bleu">dit</span> au chauffeur: ≪Allez a la gare de Nice.≫<br>彼女は運転手に頼む、「ニース駅に行ってください」と。</li>
@@ -184,6 +208,7 @@ last_modified_at : 2026-02-09 08:30:00
     <td>
       <ul>
         <li>Elle <span class="bleu">dit </span>au chauffeur <span class="rouge">d'aller </span>a la gare de Nice. <br>彼女は運転手にニース駅に行ってくださいと頼む。</li>
+        <li><span class="bleu2">de + 不定詞 に変える</span></li>
       </ul>
     </td>
     <td>
@@ -198,7 +223,7 @@ last_modified_at : 2026-02-09 08:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">疑問文</span><br><span class="bleu2">si に変える</span></td>
+    <td><span class="noir">疑問文</span></td>
     <td>
       <ul>
         <li>Il me <span class="bleu">demande</span>: ≪Vous partirez demain ?≫<br>彼は私に尋ねます、「明日出発するのか」と。</li>
@@ -207,6 +232,7 @@ last_modified_at : 2026-02-09 08:30:00
     <td>
       <ul>
         <li>Il me <span class="bleu">demande </span><span class="rouge">si </span>je partirai demain. <br>彼は私に明日出発するのかどうか尋ねます。</li>
+        <li><span class="bleu2">si に変える</span></li>
       </ul>
     </td>
     <td>
@@ -446,6 +472,23 @@ letter-spacing: inherit;
   padding: 8px 12px;
   background: #fafafa;
 }
+  .definitions dl {
+    margin: 0;
+  }
+  .definitions dt {
+    font-weight: 700;
+    margin-top: 1rem;
+  }
+  .definitions dd {
+    margin: .25rem 0 0 0;
+  }
+  .definitions ol {
+    margin: .25rem 0 0 1.5rem; /* 番号のインデント */
+  }
+
+  /* 色定義（テーマ変更しやすいようにCSS変数も併用可） */
+  .is-blue { color: #1565c0; }
+  .is-red  { color: #c62828; }
 </style>
 
 <script defer>

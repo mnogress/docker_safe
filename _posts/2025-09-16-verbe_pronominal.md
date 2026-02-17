@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2025-09-17
-last_modified_at : 2025-09-19 11:30:00
+last_modified_at : 2026-02-17 11:30:00
 ---
 フランス語の決まり文句や重要フレーズを文法といっしょに覚える文例集 ～ 代名動詞 ～<!--more-->
 
@@ -80,20 +80,49 @@ font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
-.noir {
-color: 1A818;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
 .bleu {
+color: #0053a6;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
+.rouge {
+color: red;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
+.bleu2 {
 color: blue;
 font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
+.gold {
+color: #6e5204ff;
+font-weight: 1.33em;
+font-family: inherit;
+letter-spacing: inherit;
+}
+.noir {
+color: #1a0202ff;
+font-size: 1.0em;
+font-family: inherit;
+font-weight: normal;
+letter-spacing: inherit;
+}
+.green {
+color: #055c12ff;
+font-weight: normal;
+font-family: inherit;
+letter-spacing: inherit;
+}
 .petit {
-font-size: 0.80em;
+font-size: 0.85em;
 color: black;
 font-family: inherit;
 line-height: 1.1;
@@ -148,90 +177,90 @@ letter-spacing: inherit;
 <tbody>
 <tr>
     <td rowspan="6">直説法現在</td>
-    <td><span class="bleu">je me lève</span></td>
+    <td>je<span class="bleu"> me lève</span></td>
     <td><span class="noir">わたしは、起きる</span></td>
     <td><span class="noir">ジュム・レヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">tu te lèves</span></td>
+    <td>tu<span class="bleu"> te lèves</span></td>
     <td><span class="noir">あなたは、起きる</span></td>
     <td><span class="noir">チュ・テ・レヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">il/elle/on se lève</span></td>
+    <td>il/elle/on<span class="bleu"> se lève</span></td>
     <td><span class="noir">彼／彼女／私たちは、起きる</span></td>
     <td><span class="noir">イル／エル／オン・ス・レヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">nous nous levons</span></td>
+    <td>nous<span class="bleu"> nous levons</span></td>
     <td><span class="noir">私たちは、起きる</span></td>
     <td><span class="noir">ヌ・ヌ・ルヴォン</span></td>
     <td></td>
     </tr>
 <tr>
-    <td><span class="bleu">vous vous levez</span></td>
+    <td>vous<span class="bleu"> vous levez</span></td>
     <td><span class="noir">あなたは、起きる</span></td>
     <td><span class="noir">ヴ・ヴ・ルヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">ils/ells se lèvent</span></td>
+    <td>ils/ells<span class="bleu"> se lèvent</span></td>
     <td><span class="noir">彼ら／彼女らは、起きる</span></td>
     <td><span class="noir">イル／エル・ス・レヴェ</span></td>
     <td></td>
 </tr>
 <tr>
     <td rowspan="9">複合過去</td>
-    <td><span class="bleu">je me suis levé(e)</span></td>
+    <td>je<span class="bleu"> me suis levé(e)</span></td>
     <td><span class="noir">わたしは、起きた</span></td>
     <td><span class="noir">ジュム・スゥィ・レヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">tu t'es levé(e)</span></td>
+    <td>tu<span class="bleu"> t'es levé(e)</span></td>
     <td><span class="noir">あなたは、起きた</span></td>
     <td><span class="noir">チュ・テ・レヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">il s'est levé</span></td>
+    <td>il<span class="bleu"> s'est levé</span></td>
     <td><span class="noir">彼は、起きた</span></td>
     <td><span class="noir">イル・セ・レヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">ell s'est levée</span></td>
+    <td>ell<span class="bleu"> s'est levée</span></td>
     <td><span class="noir">彼女は、起きた</span></td>
     <td><span class="noir">エル・セ・レヴェ</span></td>
     <td></td>
     </tr>
 <tr>
-    <td><span class="bleu">on s'est levé(e)(s)</span></td>
+    <td>on <span class="bleu">s'est levé(e)(s)</span></td>
     <td><span class="noir">私たちは、起きた</span></td>
     <td><span class="noir">オン・セ・レヴェ</span></td>
     <td rowspan="3">性数一致させる</td>
 </tr>
 <tr>
-    <td><span class="bleu">nous nous sonmmes levé(e)s</span></td>
+    <td>nous<span class="bleu"> nous sonmmes levé(e)s</span></td>
     <td><span class="noir">私たちは、起きた</span></td>
     <td><span class="noir">ヌ・ヌ・ソン・レヴェ</span></td>
 </tr>
 <tr>
-    <td><span class="bleu">vous vous êtes levé(e)s</span></td>
+    <td>vous <span class="bleu">vous êtes levé(e)s</span></td>
     <td><span class="noir">あなた（たち）は、起きた</span></td>
     <td><span class="noir">ヴ・ヴゼット・レヴェ</span></td>
 </tr>
 <tr>
-    <td><span class="bleu">ils se sont levés</span></td>
+    <td>ils <span class="bleu">se sont levés</span></td>
     <td><span class="noir">彼らは、起きた</span></td>
     <td><span class="noir">イル・ス・ソン・レヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td><span class="bleu">ells se sont levées</span></td>
+    <td>ells <span class="bleu">se sont levées</span></td>
     <td><span class="noir">彼女らは、起きた</span></td>
     <td><span class="noir">エル・ス・ソン・レヴェ</span></td>
     <td></td>
@@ -258,55 +287,55 @@ letter-spacing: inherit;
     </thead>
 <tbody>
     <tr>
-        <td><span class="bleu">Je me couche à 11 heures.</span></td>
+        <td>Je<span class="bleu"> me couche</span> à 11 heures.</td>
         <td><span class="noir">私は11時に寝る。</span></td>
         <td><span class="noir">ジュム・クシェ・ア・オンザー</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Il se lave les mains.</span></td>
+        <td>Il<span class="bleu"> se lave </span>les mains.</td>
         <td><span class="noir">彼は手を洗う。</span></td>
         <td><span class="noir">イル・ス・レヴェ・レ・マン</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Tu t'appelles comment ?</span></td>
+        <td>Tu<span class="bleu"> t'appelles </span>comment ?</td>
         <td><span class="noir">君はなんて言うの。</span></td>
         <td><span class="noir">チュ・タペル・コモン</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Ce vin se boit frais.</span></td>
+        <td>Ce vin <span class="bleu">se boit </span>frais.</td>
         <td><span class="noir">このワインは冷やして飲む。</span></td>
         <td><span class="noir">ス・ヴァン・ス・ボア・フレ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Il se moque de moi.</span></td>
+        <td>Il <span class="bleu">se moque </span>de moi.</td>
         <td><span class="noir">彼は私をバカにする。</span></td>
         <td><span class="noir">イル・ス・モケ・ドゥ・モア</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Ils se telephonent tous les jours.</span></td>
+        <td>Ils <span class="bleu">se telephonent </span>tous les jours.</td>
         <td><span class="noir">彼らは毎日電話しあう。</span></td>
         <td><span class="noir">イル・ス・テレフォネ・トゥ・レ・ジュー</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Ils se sont parlé comme des adultes. </span></td>
+        <td>Ils <span class="bleu">se sont parlé </span>comme des adultes. </td>
         <td><span class="noir">彼らは大人としてお互いに話しました。</span></td>
         <td><span class="noir">イル・ス・ソン・パルレ・コモン・デザデュルト</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Je finis mon verre et je m’en vais.</span></td>
+        <td>Je finis mon verre et je <span class="bleu">m’en vais.</span></td>
         <td><span class="noir">このグラス空にしたら、帰るよ。</span></td>
         <td><span class="noir">ジュ・フィニ・モン・ヴェール　エ　ジュモン・ヴェ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">On s'est vu/dit/aidé.</span></td>
+        <td>On <span class="bleu">s'est vu/dit/aidé.</span></td>
         <td><span class="noir">私たちは会った／言った／助け合った。</span></td>
         <td><span class="noir">オン・セ・ヴ／ディ／エデ</span></td>
         <td></td>
@@ -318,25 +347,25 @@ letter-spacing: inherit;
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Elle aime se maquiller avant les fêtes.</span></td>
+        <td>Elle aime <span class="bleu">se maquiller</span> avant les fêtes.</td>
         <td><span class="noir">彼女はパーティーの前にメイクをするのが好きだ。</span></td>
         <td><span class="noir">エレーム・ス・マキエ・アヴァン・レ・フェット</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Ils ne se sont pas revus depuis longtemps.</span></td>
+        <td>Ils <span class="bleu">ne se sont pas</span> revus depuis longtemps.</td>
         <td><span class="noir">彼らは長い間再会することがありませんでした。</span></td>
         <td><span class="noir">イル・ヌ・ス・ソン・パ・レヴュ・ドゥピュイ・ロントン</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Ils ne se revoient plus. </span></td>
+        <td>Ils ne <span class="bleu">se revoient</span> plus. </td>
         <td><span class="noir">彼らはもう再会しません。</span></td>
         <td><span class="noir">イル・ヌ・ス・ルヴォア・プルㇲ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Nous nous sommes bien amusés à Montréal.</span></td>
+        <td>Nous n<span class="bleu">ous sommes</span> bien amusés à Montréal.</td>
         <td><span class="noir">私たちはモントリオールで楽しみました。</span></td>
         <td><span class="noir">ヌ・ヌーソンム・ビエン・アミュゼ・ア・モンレアル</span></td>
         <td></td>
@@ -348,7 +377,7 @@ letter-spacing: inherit;
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Peut-etre vont-ils se revoir.</span></td>
+        <td>Peut-etre vont-ils <span class="bleu">se revoir.</span></td>
         <td><span class="noir">彼らはたぶん再会するでしょう</span></td>
         <td><span class="noir">プテト・ヴォンティル・ス・ルヴォア</span></td>
         <td></td>
