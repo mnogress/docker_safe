@@ -102,6 +102,13 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
+.noir {
+color: #1a0202ff;
+font-size: 1.3em;
+font-family: inherit;
+font-weight: bold;
+letter-spacing: inherit;
+}
 .rouge {
 color: red;
 font-weight: normal;
