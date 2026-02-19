@@ -509,6 +509,8 @@ last_modified_at : 2026-02-19 12:30:00
 </main>
 {% endraw %}
 
+----
+
 ### 三人称複数の主語で　ont と活用変化する動詞
 
 以下の４つの動詞のみ、三人称複数の主語で <span class="bleu">ont</span> と活用します。
