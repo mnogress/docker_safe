@@ -18,12 +18,12 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2026-02-10
-last_modified_at : 2026-02-10 12:30:00
+last_modified_at : 2026-02-19 12:30:00
 ---
 不規則な活用をする動詞の直接法現在形をできるだけ主語を網羅して表形式でまとめてみました。<!--more-->
 
 
-### 　不規則動詞の直接法現在形｜（音声付き）
+### 不規則動詞の直接法現在形｜（音声付き）
 
 
 
@@ -508,6 +508,17 @@ last_modified_at : 2026-02-10 12:30:00
 </table>
 </main>
 {% endraw %}
+
+### 三人称複数の主語で　ont と活用変化する動詞
+
+以下の４つの動詞のみ、三人称複数の主語で <span class="bleu">ont</span> と活用します。
+
+| 動詞 | ils (読み方) |　elles (読み方）|
+| :-----       | :----       | :-----       | 
+| <span class="noir">être</span>   |ils sont (イルソン)|elles sont (エルソン)|
+| <span class="noir">avoir</span>   |ils ont (イルゾン)|elles ont (エルゾン)|
+| <span class="noir">aller</span>   |ils vont (イルヴォン)|elles vont (エルヴォン)|
+| <span class="noir">faire</span>   |ils font (イルフォン)|elles font (エルフォン)|
 
 
 
