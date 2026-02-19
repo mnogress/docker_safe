@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2026-02-10
-last_modified_at : 2026-02-19 12:30:00
+last_modified_at : 2026-02-18 12:30:00
 ---
 不規則な活用をする動詞の直接法現在形をできるだけ主語を網羅して表形式でまとめてみました。<!--more-->
 
