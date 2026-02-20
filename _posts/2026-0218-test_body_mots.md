@@ -42,6 +42,34 @@ last_modified_at : 2026-02-18 08:30:00
 </thead>
 <tbody>
 <tr>
+    <td><span class="noir">le corps<br>les corps</span></td>
+    <td>体、団体、死体<br>(ル・コール/レ・コール)</td>
+    <td>
+        <ul>
+        <li>être sain de corps et d'esprit</li>
+        <li>Le corps électoral</li>
+        <li>La police a retrouvé le corps dans la forêt.</li>
+        </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="B0218_81" preload="auto">
+                <source src="\audio\0218\81_body.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="B0218_81">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>心身ともに健全である</li> 
+        <li>選挙民，有権者</li> 
+        <li>警察は森で遺体を発見した。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
     <td><span class="noir">la tête</span></td>
     <td>頭<br>(ラ・テットゥ)</td>
     <td>
@@ -296,6 +324,34 @@ last_modified_at : 2026-02-18 08:30:00
       <ul>
         <li>彼は緊張すると唇を噛む。</li> 
         <li>彼女は薄い／厚い唇をしている。</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><span class="noir">une dent<br>les dents</span></td>
+    <td>歯<br>(ウヌ・ダン/レ・ダン)</td>
+    <td>
+        <ul>
+        <li>Il a mal à une dent.</li>
+        <li>Elle a les dents bien rangees.</li>
+        <li>J'ai une dent contre lui.</li>
+        </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="B0218_80" preload="auto">
+                <source src="\audio\0218\80_body.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="B0218_80">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>彼は歯が1本痛い</li> 
+        <li>彼女は、歯並びがよい</li>
+        <li>私は彼に恨みがある</li> 
       </ul> 
   </td>
 </tr>
