@@ -356,6 +356,88 @@ last_modified_at : 2026-02-18 08:30:00
   </td>
 </tr>
 <tr>
+    <td><span class="noir">la langue</span></td>
+    <td>舌<br>(ラ・ラング)</td>
+    <td>
+        <ul>
+        <li>Il m'a tiré la langue.</li>
+        <li>Avoir la langue bien pendue.</li>
+        </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="B0218_81" preload="auto">
+                <source src="\audio\0218\81_body.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="B0218_81">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>彼は私に舌を出した</li> 
+        <li>口がよく回る・おしゃべりである</li>
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><span class="noir">une dent<br>les dents</span></td>
+    <td>歯<br>(ウヌ・ダン/レ・ダン)</td>
+    <td>
+        <ul>
+        <li>Il a mal à une dent.</li>
+        <li>Elle a les dents bien rangees.</li>
+        <li>J'ai une dent contre lui.</li>
+        </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="B0218_80" preload="auto">
+                <source src="\audio\0218\80_body.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="B0218_80">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>彼は歯が1本痛い</li> 
+        <li>彼女は、歯並びがよい</li>
+        <li>私は彼に恨みがある</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><span class="noir">la poitrine</span></td>
+    <td>胸・乳房<br>(ラ・ポワトリヌ)</td>
+    <td>
+        <ul>
+        <li>Respirer a pleine poitrine</li>
+        <li>Poitrine de poulet</li>
+        <li>Elle a de la beaucoup de poitrine.</li>
+        </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="B0218_82" preload="auto">
+                <source src="\audio\0218\82_body.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="B0218_82">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>深呼吸をする（満ちた胸で呼吸する）</li> 
+        <li>鶏むね肉</li>
+        <li>彼女は豊かな胸をしている</li>
+      </ul> 
+  </td>
+</tr>
+<tr>
     <td><span class="noir">le cœur</span></td>
     <td>心・心臓<br>(ル・クール)</td>
     <td>
