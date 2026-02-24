@@ -78,7 +78,7 @@ last_modified_at : 2026-02-24 08:30:00
       <ul>
         <li><span class="bleu">Pourquoi pas.</span></li>
         <li><span class="bleu">Si tu veux.</span></li>
-        <li><span class="bleu">Si ca te dit. / Si ca vous dit.</span></li>
+        <li><span class="bleu">Si ça te dit. / Si ça vous dit.</span></li>
         <li><span class="bleu">Comme tu veux.</span></li>
         <li><span class="bleu">Si tu en as envie</span></li>
       </ul>
@@ -103,34 +103,73 @@ last_modified_at : 2026-02-24 08:30:00
       </ul> 
   </td>
 </tr>
+<tr>
+    <td><span class="noir">曖昧</span><br>曖昧な返事</td>
+    <td>
+      <ul>
+        <li><span class="bleu">Je vais regarder.</span></li>
+        <li><span class="bleu">Je vais verifier.</span></li>
+        <li><span class="bleu">Je verrai bien.</span></li>
+        <li><span class="bleu">Je voudrais bien mais .. </span></li>
+        <li><span class="bleu">Peut-être.</span></li>
+      </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="AC24_103" preload="auto">
+                <source src="\audio\0224\03_accept.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="AC24_103">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>確認する</li> 
+        <li>確認する</li> 
+        <li>どうなるか見てみよう</li> 
+        <li>そうしたいところですが。</li> 
+        <li>たぶん</li> 
+      </ul> 
+  </td>
+</tr>
+<tr>
+    <td><span class="noir">断る</span><br>お断りする</td>
+    <td>
+      <ul>
+        <li><span class="bleu">Désolé(e)</span></li>
+        <li><span class="bleu">Je ne peux pas.</span></li>
+        <li><span class="bleu">Ce n'est pas possible.</span></li>
+        <li><span class="bleu">C'est mort.</span></li>
+        <li><span class="bleu">Je n'y arrive pas.</span></li>
+      </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="AC24_104" preload="auto">
+                <source src="\audio\0224\04_accept.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="AC24_104">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>すみません。</li> 
+        <li>できません。</li> 
+        <li>むりです。</li> 
+        <li>(話し言葉)絶対に無理、話にならない。</li> 
+        <li>(難しくて)うまくいかない、できない。</li> 
+      </ul> 
+  </td>
+</tr>
 </tbody>
 </table>
 </main>
 {% endraw %}
 
-
-曖昧な返事
-
-Je vais regarder　　確認する
-Je vais verifier　確認する
-Je verrai bien　どうなるか見てみよう
-Je voudrais bien mais .. そうしたいところですが。
-Peut-être. たぶん
-
-断る
-Decole(e)  すみません
-Je ne peux pas. できません。
-Ce n'est pas possible　むりです。
-C'est mort :（話し言葉）絶対に無理、話にならない。
-Je n'y arrive pas :（難しくて）うまくいかない、できない。
-
-
-
-Pas de problème
-（パ・ドゥ・プロブレム）「問題ない」「ノープロブレム」
-
-Pas de souci
-（パ・ドゥ・スゥスィ）」「気にしないで」「大丈夫」
 
 
 <style type="text/css">
