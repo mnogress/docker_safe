@@ -91,7 +91,7 @@ letter-spacing: inherit;
 }
 .bleu {
 color: #0053a6;
-font-size: 1.14em;
+font-size: 1.35em;
 font-weight: 500;
 font-style: italic;
 font-family: inherit;

@@ -2,7 +2,7 @@
 layout: single
 title: フランス語基本文法｜不規則動詞の直接法現在形（音声付き）
 header:
-  overlay_image: images/header_fr6_1280by336.png
+  overlay_image: images/header_fr33_1280by336.png
   overlay_filter: rgba(230, 97, 216, 0.2)
 toc: True
 toc_label: "目次"

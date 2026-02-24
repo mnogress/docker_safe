@@ -2,7 +2,7 @@
 layout: single
 title: フランス語基本文法｜直接・間接話法（音声付き）
 header:
-  overlay_image: images/header_fr9_1280by336.png
+  overlay_image: images/header_fr35_1280by336.png
   overlay_filter: rgba(97, 230, 228, 0.2)
 toc: True
 toc_label: "目次"
