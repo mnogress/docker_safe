@@ -109,6 +109,29 @@ last_modified_at : 2026-02-24 08:30:00
 {% endraw %}
 
 
+曖昧な返事
+
+Je vais regarder　　確認する
+Je vais verifier　確認する
+Je verrai bien　どうなるか見てみよう
+Je voudrais bien mais .. そうしたいところですが。
+Peut-être. たぶん
+
+断る
+Decole(e)  すみません
+Je ne peux pas. できません。
+Ce n'est pas possible　むりです。
+C'est mort :（話し言葉）絶対に無理、話にならない。
+Je n'y arrive pas :（難しくて）うまくいかない、できない。
+
+
+
+Pas de problème
+（パ・ドゥ・プロブレム）「問題ない」「ノープロブレム」
+
+Pas de souci
+（パ・ドゥ・スゥスィ）」「気にしないで」「大丈夫」
+
 
 <style type="text/css">
     .player {
