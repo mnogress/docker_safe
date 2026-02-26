@@ -170,7 +170,17 @@ last_modified_at : 2026-02-24 08:30:00
 </main>
 {% endraw %}
 
-
+<section aria-labelledby="glossary-title">
+  <h2 id="glossary-title">一緒に覚えたい語句・用法</h2>
+  <dl class="glossary">
+    <dt>le plaisir </dt>
+    <dd>ル・プレズィール　楽しみ</dd>
+    <dt>volontiers</dt>
+    <dd>ヴォロンティエ　喜んで（副詞）</dd>
+    <dt>je verrai</dt>
+    <dd>voir ヴォワール ～を見る　の単純未来形　　	je vois(直説法現在形)</dd>
+  </dl>
+</section>
 
 <style type="text/css">
     .player {
@@ -238,6 +248,8 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
+.glossary dt { font-weight: 700; margin-top: 0.75rem; }
+.glossary dd { margin: 0.25rem 0 0.75rem 0; color: #444; }
 .rouge {
 color: red;
 font-weight: normal;
