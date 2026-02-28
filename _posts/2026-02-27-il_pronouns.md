@@ -52,7 +52,7 @@ il, ill が含まれる単語の発音をまとめました。<!--more-->つづ�
         <li>diffic<span class="bleu">il</span>e (ディフィシル)</li>
         <li>frag<span class="bleu">il</span>e (フラジル)</li>
         <li>le domic<span class="bleu">il</span>e (ル・ドミスィル)</li>
-        <li>un éd<span class="bleu">il</span>e (ウネディル)</li>
+        <li>un éd<span class="bleu">il</span>e (アネディル)</li>
       </ul>
     </td>
     <td>
