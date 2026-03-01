@@ -1,6 +1,6 @@
 ---
 layout: single
-title: フランス語発音ノート｜il, ill が含まれる単語の発音（音声付き）
+title: フランス語発音ノート｜il, ill が含まれる単語の発音総まとめ（音声付き）
 header:
   overlay_image: images/header_fr38_1280by336.png
   overlay_filter: rgba(230, 97, 216, 0.2)
@@ -106,10 +106,50 @@ il, ill が含まれる単語の発音をまとめました。<!--more-->つづ�
       </ul> 
   </td>
 </tr>
+<tr>
+    <td><span class="rouge">母音字</span> ＋ <span class="noir">il</span><br>「ユ」と発音</td>
+    <td>
+      <ul>
+        <li><span class="rouge">œ</span><span class="bleu">il</span> (ウィユ)</li>
+        <li>le trav<span class="rouge">a</span><span class="bleu">il</span> (ル・トラバイユ)</li>
+        <li>la méd<span class="rouge">a</span><span class="bleu">il</span> (ラ・メダイユ)</li>
+        <li>le rév<span class="rouge">e</span><span class="bleu">il</span> (ル・レヴェイユ)</li>
+        <li>or<span class="rouge">e</span><span class="bleu">il</span>l (オレイユ)</li>
+        <li>le portefe<span class="rouge">u</span><span class="bleu">il</span>l (ル・ポルトフイユ)</li>
+        <li>le sol<span class="rouge">e</span><span class="bleu">il</span> (ル・ソレイユ)</li>
+        <li>le dét<span class="rouge">a</span><span class="bleu">il</span> (ル・デタイユ)</li>
+        <li>une fe<span class="rouge">u</span><span class="bleu">il</span>le (ウヌ　フイユ)</li>
+      </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="il27_103" preload="auto">
+                <source src="\audio\0227\03_il.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="il27_103">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+  <td>
+      <ul>
+        <li>片目 ㊚</li> 
+        <li>仕事</li>  
+        <li>メダル</li>  
+        <li>目覚まし時計</li>  
+        <li>耳 ㊛</li>  
+        <li>財布</li>  
+        <li>太陽</li>  
+        <li>詳細</li>  
+        <li>葉</li>  
+      </ul> 
+  </td>
+</tr>
 </tbody>
 </table>
 </main>
 {% endraw %}
+
 
 
 
