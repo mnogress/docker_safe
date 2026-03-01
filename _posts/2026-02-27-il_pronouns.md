@@ -82,7 +82,7 @@ il, ill が含まれる単語の発音をまとめました。<!--more-->「発�
   </td>
 </tr>
 <tr>
-    <td><span class="noir">il</span><br>例外「ル」を発音しない</td>
+    <td><span class="noir">il</span><br>例外「ル」を発音<span class="rouge">しない</span></td>
     <td>
       <ul>
         <li>gent<span class="bleu">il</span> (ジャンティ)</li>
