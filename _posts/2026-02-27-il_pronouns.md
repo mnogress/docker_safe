@@ -17,7 +17,7 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2026-03-27
+date: 2026-03-02
 last_modified_at : 2026-03-02 08:30:00
 ---
 il, ill が含まれる単語の発音をまとめました。<!--more-->「発音」と「つづり字」で間違いやすいところです。　用例を参考に正しい発音とつづり字を覚えましょう。
