@@ -165,15 +165,15 @@ last_modified_at : 2026-03-02 08:30:00
 | **現在形** | il neige. (イル・ネジェ)　|雪が降っている。|
 | **半過去** | il neigeait. (イル・ネージュ)|雪が降っていた。|
 | **複合過去** |il a neigé. (イラ・ネジェ) |雪が降った。|
-| **単純未来** |il neigera. (イル・ネジュラ・ドゥマン)|（明日は）雪でしょう |
+| **単純未来** |il neigera. (イル・ネジュラ)|雪でしょう |
 | **近接未来** |Il va neiger demain.（イ・ヴァ・ネジェ・ドゥマン）|確実に降りそうな場合の「雪が降るだろう」|
 |音声ファイル| | |
 
 <div class="player">
- <audio id="pl03_101" preload="auto">
-  <source src="\audio\0227\01_pl.m4a" type="audio/mp4">
+ <audio id="pl03_102" preload="auto">
+  <source src="\audio\0227\02_pl.m4a" type="audio/mp4">
       </audio>
-        <button type="button" data-audio-id="ol03_101">
+        <button type="button" data-audio-id="ol03_102">
             <span class="label">📢</span>
         </button>
 </div> 
