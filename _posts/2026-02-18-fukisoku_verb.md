@@ -48,12 +48,12 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：été)
     </td>
     <td>
-        Je <span class="bleu">suis</span><br>
-        Tu <span class="bleu">es</span><br>
-        Il <span class="bleu">est</span><br>
-        Elle <span class="bleu">est</span><br>
-        C'<span class="bleu">est</span><br>
-        On <span class="bleu">est</span><br>
+        Je <span class="bleu">suis</span><br><span class="petit">ジュ・スイ</span><br>
+        Tu <span class="bleu">es</span><br><span class="petit">チュ・エ</span><br>
+        Il <span class="bleu">est</span><br><span class="petit">イレ</span><br>
+        Elle <span class="bleu">est</span><br><span class="petit">エレ</span><br>
+        C'<span class="bleu">est</span><br><span class="petit">セ</span><br>
+        On <span class="bleu">est</span><br><span class="petit">オネ</span><br>
     </td>
     <td>
       <div class="player">
@@ -66,10 +66,10 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">somes</span><br>
-        Vous <span class="bleu">ètes</span><br>
-        Ils <span class="bleu">sont</span><br>
-        Elles <span class="bleu">sont</span><br>
+        Nous <span class="bleu">somes</span><br><span class="petit">ヌ・ソム</span><br>
+        Vous <span class="bleu">ètes</span><br><span class="petit">ヴゼッ</span><br>
+        Ils <span class="bleu">sont</span><br><span class="petit">イル・ソン</span><br>
+        Elles <span class="bleu">sont</span><br><span class="petit">エル・ソン</span><br>
     </td>
     <td>
       <div class="player">
@@ -106,12 +106,12 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：eu)
     </td>
     <td>
-        J<span class="bleu">'ai</span><br>
-        Tu <span class="bleu">as</span><br>
-        Il <span class="bleu">a</span><br>
-        Elle <span class="bleu">a</span><br>
-        Ça <span class="bleu">a</span><br>
-        On <span class="bleu">a</span><br>
+        J<span class="bleu">'ai</span><br><span class="petit">ジェ</span><br>
+        Tu <span class="bleu">as</span><br><span class="petit">チュ・ア</span><br>
+        Il <span class="bleu">a</span><br><span class="petit">イラ</span><br>
+        Elle <span class="bleu">a</span><br><span class="petit">エラ</span><br>
+        Ça <span class="bleu">a</span><br><span class="petit">サ・ア</span><br>
+        On <span class="bleu">a</span><br><span class="petit">オナ</span><br>
     </td>
     <td>
       <div class="player">
@@ -124,10 +124,10 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">avons</span><br>
-        Vous <span class="bleu">avez</span><br>
-        Ils <span class="bleu">ont</span><br>
-        Elles <span class="bleu">ont</span><br>
+        Nous <span class="bleu">avons</span><br><span class="petit">ヌザヴォン</span><br>
+        Vous <span class="bleu">avez</span><br><span class="petit">ヴザヴェ</span><br>
+        Ils <span class="bleu">ont</span><br><span class="petit">イルゾン</span><br>
+        Elles <span class="bleu">ont</span><br><span class="petit">エルゾン</span><br>
     </td>
     <td>
       <div class="player">
@@ -164,12 +164,12 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：allé)
     </td>
     <td>
-        Je <span class="bleu">vais</span><br>
-        Tu <span class="bleu">vas</span><br>
-        Il <span class="bleu">va</span><br>
-        Elle <span class="bleu">va</span><br>
-        Ça <span class="bleu">va</span><br>
-        On <span class="bleu">va</span><br>
+        Je <span class="bleu">vais</span><br><span class="petit">ジュ・ヴァ</span><br>
+        Tu <span class="bleu">vas</span><br><span class="petit">チュ・ヴァ</span><br>
+        Il <span class="bleu">va</span><br><span class="petit">イル・ヴァ</span><br>
+        Elle <span class="bleu">va</span><br><span class="petit">エル・ヴァ</span><br>
+        Ça <span class="bleu">va</span><br><span class="petit">サ・ヴァ</span><br>
+        On <span class="bleu">va</span><br><span class="petit">オン・ヴァ</span><br>
     </td>
     <td>
       <div class="player">
@@ -182,10 +182,10 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">allons</span><br>
-        Vous <span class="bleu">allez</span><br>
-        Ils <span class="bleu">vont</span><br>
-        Elles <span class="bleu">vont</span><br>
+        Nous <span class="bleu">allons</span><br><span class="petit">ヌザロン</span><br>
+        Vous <span class="bleu">allez</span><br><span class="petit">ヴザレ</span><br>
+        Ils <span class="bleu">vont</span><br><span class="petit">イル・ヴォン</span><br>
+        Elles <span class="bleu">vont</span><br><span class="petit">エル・ヴォン</span><br>
     </td>
     <td>
       <div class="player">
@@ -222,12 +222,12 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：fait)
     </td>
     <td>
-        Je <span class="bleu">fais</span><br>
-        Tu <span class="bleu">fais</span><br>
-        Il <span class="bleu">fait</span><br>
-        Elle <span class="bleu">fait</span><br>
-        Ça <span class="bleu">fait</span><br>
-        On <span class="bleu">fait</span><br>
+        Je <span class="bleu">fais</span><br><span class="petit">ジュ・フェ</span><br>
+        Tu <span class="bleu">fais</span><br><span class="petit">チュ・フェ</span><br>
+        Il <span class="bleu">fait</span><br><span class="petit">イル・フェ</span><br>
+        Elle <span class="bleu">fait</span><br><span class="petit">エル・フェ</span><br>
+        Ça <span class="bleu">fait</span><br><span class="petit">サ・フェ</span><br>
+        On <span class="bleu">fait</span><br><span class="petit">オン・フェ</span><br>
     </td>
     <td>
       <div class="player">
@@ -240,10 +240,10 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">faisons</span><br>
-        Vous <span class="bleu">faites</span><br>
-        Ils <span class="bleu">font</span><br>
-        Elles <span class="bleu">font</span><br>
+        Nous <span class="bleu">faisons</span><br><span class="petit">ヌ・フェゾン</span><br>
+        Vous <span class="bleu">faites</span><br><span class="petit">ヴ・フェットゥ</span><br>
+        Ils <span class="bleu">font</span><br><span class="petit">イル・フォン</span><br>
+        Elles <span class="bleu">font</span><br><span class="petit">エル・フォン</span><br>
     </td>
     <td>
       <div class="player">
@@ -298,7 +298,7 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">onnaissons</span><br>
+        Nous <span class="bleu">connaissons</span><br>
         Vous <span class="bleu">connaissez</span><br>
         Ils <span class="bleu">connaissent</span><br>
         Elles <span class="bleu">connaissent</span><br>
@@ -638,7 +638,7 @@ font-family: inherit;
 letter-spacing: inherit;
 }
 .petit {
-font-size: 0.85em;
+font-size: 0.7em;
 color: black;
 font-family: inherit;
 line-height: 1.1;

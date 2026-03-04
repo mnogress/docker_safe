@@ -30,6 +30,12 @@ last_modified_at : 2026-03-02 08:30:00
 {% raw %}
 <main class="page-ul-fix">
 <table class="resp_table">
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col style="background:#eaf4ff;"> <!-- 3列目を薄いブルー -->
+    <col>               <!-- 4列目 -->
+  </colgroup>
 <thead>
 <tr>
     <th width="10%">活用</th>
@@ -161,7 +167,18 @@ last_modified_at : 2026-03-02 08:30:00
 | **複合過去** |il a neigé. (イラ・ネジェ) |雪が降った。|
 | **単純未来** |il neigera. (イル・ネジュラ・ドゥマン)|（明日は）雪でしょう |
 | **近接未来** |Il va neiger demain.（イ・ヴァ・ネジェ・ドゥマン）|確実に降りそうな場合の「雪が降るだろう」|
+|音声ファイル| | |
 
+<div class="player">
+ <audio id="pl03_101" preload="auto">
+  <source src="\audio\0227\01_pl.m4a" type="audio/mp4">
+      </audio>
+        <button type="button" data-audio-id="ol03_101">
+            <span class="label">📢</span>
+        </button>
+</div> 
+
+----
 
 <style type="text/css">
     .player {
