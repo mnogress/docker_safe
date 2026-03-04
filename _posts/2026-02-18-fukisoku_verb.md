@@ -67,7 +67,7 @@ last_modified_at : 2026-02-19 12:30:00
     </td>
    <td>
         Nous <span class="bleu">somes</span><br><span class="petit">ヌ・ソム</span><br>
-        Vous <span class="bleu">ètes</span><br><span class="petit">ヴゼッ</span><br>
+        Vous <span class="bleu">ètes</span><br><span class="petit">ヴゼットゥ</span><br>
         Ils <span class="bleu">sont</span><br><span class="petit">イル・ソン</span><br>
         Elles <span class="bleu">sont</span><br><span class="petit">エル・ソン</span><br>
     </td>
@@ -164,7 +164,7 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：allé)
     </td>
     <td>
-        Je <span class="bleu">vais</span><br><span class="petit">ジュ・ヴァ</span><br>
+        Je <span class="bleu">vais</span><br><span class="petit">ジュ・ヴェ</span><br>
         Tu <span class="bleu">vas</span><br><span class="petit">チュ・ヴァ</span><br>
         Il <span class="bleu">va</span><br><span class="petit">イル・ヴァ</span><br>
         Elle <span class="bleu">va</span><br><span class="petit">エル・ヴァ</span><br>
