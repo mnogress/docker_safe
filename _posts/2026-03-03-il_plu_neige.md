@@ -33,7 +33,7 @@ last_modified_at : 2026-03-02 08:30:00
   <colgroup>
     <col>               <!-- 1列目 -->
     <col>               <!-- 2列目 -->
-    <col style="background:#eaf4ff;"> <!-- 3列目を薄いブルー -->
+    <col style="background:#E6E6FA;"> <!-- 3列目を薄いブルー -->
     <col>               <!-- 4列目 -->
   </colgroup>
 <thead>
