@@ -49,7 +49,7 @@ last_modified_at : 2026-03-02 08:30:00
     <td><span class="noir">不定詞</span><br></td>
     <td>
       <ul>
-        <li><span class="bleu">pleuvoir</span> (プルヴワール)</li>
+        <li><span class="bleu">pleuvoir</span> <span class="petit">(プルヴワール)</span></li>
       </ul>
     </td>
     <td rowspan="7">
@@ -72,7 +72,7 @@ last_modified_at : 2026-03-02 08:30:00
     <td><span class="noir">過去分詞</span><br></td>
     <td>
       <ul>
-        <li><span class="bleu">plu</span> (プル)</li>
+        <li><span class="bleu">plu</span> <span class="petit">(プル)</span></li>
       </ul>
     </td>
   <td>
@@ -85,8 +85,8 @@ last_modified_at : 2026-03-02 08:30:00
     <td><span class="noir">現在形</span><br></td>
     <td>
       <ul>
-        <li>Il <span class="bleu">pleut</span>. (イル・プル)</li>
-        <li>Il ne <span class="bleu">pleut</span> plus. (イル・ヌ・プル・プルー)</li>
+        <li>Il <span class="bleu">pleut</span>.<span class="petit"> (イル・プル)</span></li>
+        <li>Il ne <span class="bleu">pleut</span> plus. <span class="petit">(イル・ヌ・プル・プルー)</span></li>
       </ul>
     </td>
   <td>
@@ -100,7 +100,7 @@ last_modified_at : 2026-03-02 08:30:00
     <td><span class="noir">半過去</span><br></td>
     <td>
       <ul>
-        <li>Il <span class="bleu">pleuvait</span>. (イル・プルヴェ)</li>
+        <li>Il <span class="bleu">pleuvait</span>. <span class="petit">(イル・プルヴェ)</span></li>
       </ul>
     </td>
   <td>
@@ -113,7 +113,7 @@ last_modified_at : 2026-03-02 08:30:00
     <td><span class="noir">複合過去</span><br></td>
     <td>
       <ul>
-        <li>Il <span class="bleu">a plu</span>. (イラ・プル)</li>
+        <li>Il <span class="bleu">a plu</span>. <span class="petit">(イラ・プル)</span></li>
       </ul>
     </td>
   <td>
@@ -126,7 +126,7 @@ last_modified_at : 2026-03-02 08:30:00
     <td><span class="noir">単純未来</span><br></td>
     <td>
       <ul>
-        <li>Il <span class="bleu">pleuvra </span>demain. (イル・プルヴラ・ドゥマン)</li>
+        <li>Il <span class="bleu">pleuvra </span>demain. <span class="petit">(イル・プルヴラ・ドゥマン)</span></li>
       </ul>
     </td>
   <td>
@@ -139,7 +139,7 @@ last_modified_at : 2026-03-02 08:30:00
     <td><span class="noir">近接未来</span><br></td>
     <td>
       <ul>
-        <li>Il <span class="bleu">va pleuvoir </span>demain. (イ・ヴァ・プルヴォワール・ドゥマン)</li>
+        <li>Il <span class="bleu">va pleuvoir </span>demain. <span class="petit">(イ・ヴァ・プルヴォワール・ドゥマン)</span></li>
       </ul>
     </td>
   <td>
@@ -154,20 +154,20 @@ last_modified_at : 2026-03-02 08:30:00
 {% endraw %}
 
 
-### neiger （ネイジェ）の用法｜（音声付き）
+### 雪が降る: eiger （ネイジェ）の用法｜（音声付き）
 
-基本的には**雨が降る：pleuvoir（プルヴォワール）** に雨が雪になるだけです。
+基本的には**雨が降る：pleuvoir（プルヴォワール）** に**雪が降る: eiger （ネイジェ）** を代入すれば、雪に関する表現になります。
 
 | 活用 | 用例 |　訳　|
 | :-----      | :----    |  :----    | 
-| **不定詞** | neiger (ネジェ) ||
-| **過去分詞** | neigé (ネジェ) ||
-| **現在形** | il neige. (イル・ネジェ)　|雪が降っている。|
-| **半過去** | il neigeait. (イル・ネージュ)|雪が降っていた。|
-| **複合過去** |il a neigé. (イラ・ネジェ) |雪が降った。|
-| **単純未来** |il neigera. (イル・ネジュラ)|雪でしょう |
-| **近接未来** |Il va neiger demain.（イ・ヴァ・ネジェ・ドゥマン）|確実に降りそうな場合の「雪が降るだろう」|
-|音声ファイル| | |
+| **不定詞** | <span class="bleu">neiger</span> <span class="petit">(ネジェ)</span> ||
+| **過去分詞** | <span class="bleu">neigé</span> (<span class="petit">ネジェ)</span> ||
+| **現在形** | il <span class="bleu">neige</span>. <span class="petit">(イル・ネジェ)</span>　|雪が降っている。|
+| **半過去** | il <span class="bleu">neigeait</span>. <span class="petit">(イル・ネージュ)</span>|雪が降っていた。|
+| **複合過去** |il <span class="bleu">a neigé</span>. <span class="petit">(イラ・ネジェ)</span> |雪が降った。|
+| **単純未来** |il <span class="bleu">neigera</span>. <span class="petit">(イル・ネジュラ)</span>|雪でしょう |
+| **近接未来** |Il <span class="bleu">va neiger</span> demain.<span class="petit">（イ・ヴァ・ネジェ・ドゥマン</span>）|確実に降りそうな場合の「雪が降るだろう」|
+|*音声ファイル*| | |
 
 <div class="player">
  <audio id="pl03_102" preload="auto">
@@ -294,7 +294,7 @@ font-family: inherit;
 letter-spacing: inherit;
 }
 .petit {
-font-size: 0.85em;
+font-size: 0.7em;
 color: black;
 font-family: inherit;
 line-height: 1.1;
