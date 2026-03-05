@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2026-02-10
-last_modified_at : 2026-02-19 12:30:00
+last_modified_at : 2026-03-05 07:30:00
 ---
 不規則な活用をする動詞の直接法現在形をできるだけ主語を網羅して表形式でまとめてみました。<!--more-->
 
@@ -280,12 +280,12 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：connu)
     </td>
     <td>
-        Je <span class="bleu">connais</span><br>
-        Tu <span class="bleu">connais</span><br>
-        Il <span class="bleu">connaît</span><br>
-        Elle <span class="bleu">connaît</span><br>
-        Ça <span class="bleu">connaît</span><br>
-        On <span class="bleu">connaît</span><br>
+        Je <span class="bleu">connais</span><br><span class="petit">ジュ・コネ</span><br>
+        Tu <span class="bleu">connais</span><br><span class="petit">チュ・コネ</span><br>
+        Il <span class="bleu">connaît</span><br><span class="petit">イル・コネ</span><br>
+        Elle <span class="bleu">connaît</span><br><span class="petit">エル・コネ</span><br>
+        Ça <span class="bleu">connaît</span><br><span class="petit">サ・コネ</span><br>
+        On <span class="bleu">connaît</span><br><span class="petit">オン・コネ</span><br>
     </td>
     <td>
       <div class="player">
@@ -298,10 +298,10 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">connaissons</span><br>
-        Vous <span class="bleu">connaissez</span><br>
-        Ils <span class="bleu">connaissent</span><br>
-        Elles <span class="bleu">connaissent</span><br>
+        Nous <span class="bleu">connaissons</span><br><span class="petit">ヌ・コネソン</span><br>
+        Vous <span class="bleu">connaissez</span><br><span class="petit">ヴ・コネセ</span><br>
+        Ils <span class="bleu">connaissent</span><br><span class="petit">イル・コネス</span><br>
+        Elles <span class="bleu">connaissent</span><br><span class="petit">エル・コネス</span><br>
     </td>
     <td>
       <div class="player">
@@ -337,12 +337,12 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：su)
     </td>
     <td>
-        Je <span class="bleu">sais</span><br>
-        Tu <span class="bleu">sais</span><br>
-        Il <span class="bleu">sait</span><br>
-        Elle <span class="bleu">sait</span><br>
-        Ça <span class="bleu">sait</span><br>
-        On <span class="bleu">sait</span><br>
+        Je <span class="bleu">sais</span><br><span class="petit">ジュ・セ</span><br>
+        Tu <span class="bleu">sais</span><br><span class="petit">チュ・セ</span><br>
+        Il <span class="bleu">sait</span><br><span class="petit">イル・セ</span><br>
+        Elle <span class="bleu">sait</span><br><span class="petit">エル・セ</span><br>
+        Ça <span class="bleu">sait</span><br><span class="petit">サ・セ</span><br>
+        On <span class="bleu">sait</span><br><span class="petit">オン・セ</span><br>
     </td>
     <td>
       <div class="player">
@@ -355,10 +355,10 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">savons</span><br>
-        Vous <span class="bleu">savez</span><br>
-        Ils <span class="bleu">savent</span><br>
-        Elles <span class="bleu">savent</span><br>
+        Nous <span class="bleu">savons</span><br><span class="petit">ヌ・サヴォン</span><br>
+        Vous <span class="bleu">savez</span><br><span class="petit">ヴ・サヴェ</span><br>
+        Ils <span class="bleu">savent</span><br><span class="petit">イル・サァーヴ</span><br>
+        Elles <span class="bleu">savent</span><br><span class="petit">エル・サァーヴ</span><br>
     </td>
     <td>
       <div class="player">
@@ -394,12 +394,12 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：pu)
     </td>
     <td>
-        Je <span class="bleu">peux</span><br>
-        Tu <span class="bleu">peux</span><br>
-        Il <span class="bleu">peut</span><br>
-        Elle <span class="bleu">peut</span><br>
-        Ça <span class="bleu">peut</span><br>
-        On <span class="bleu">peut</span><br>
+        Je <span class="bleu">peux</span><br><span class="petit">ジュ・プ</span><br>
+        Tu <span class="bleu">peux</span><br><span class="petit">チュ・プ</span><br>
+        Il <span class="bleu">peut</span><br><span class="petit">イル・プ</span><br>
+        Elle <span class="bleu">peut</span><br><span class="petit">エル・プ</span><br>
+        Ça <span class="bleu">peut</span><br><span class="petit">サ・プ</span><br>
+        On <span class="bleu">peut</span><br><span class="petit">オン・プ</span><br>
     </td>
     <td>
       <div class="player">
@@ -412,10 +412,10 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">pouvons</span><br>
-        Vous <span class="bleu">pouvez</span><br>
-        Ils <span class="bleu">peuvent</span><br>
-        Elles <span class="bleu">peuvent</span><br>
+        Nous <span class="bleu">pouvons</span><br><span class="petit">ヌ・プヴォン</span><br>
+        Vous <span class="bleu">pouvez</span><br><span class="petit">ヴ・プヴェ</span><br>
+        Ils <span class="bleu">peuvent</span><br><span class="petit">イル・プゥーブ</span><br>
+        Elles <span class="bleu">peuvent</span><br><span class="petit">エル・プゥーブ</span><br>
     </td>
     <td>
       <div class="player">
@@ -452,12 +452,12 @@ last_modified_at : 2026-02-19 12:30:00
      (過去分詞：voulu)
     </td>
     <td>
-        Je <span class="bleu">veux</span><br>
-        Tu <span class="bleu">veux</span><br>
-        Il <span class="bleu">veut</span><br>
-        Elle <span class="bleu">veut</span><br>
-        Ça <span class="bleu">veut</span><br>
-        On <span class="bleu">veut</span><br>
+        Je <span class="bleu">veux</span><br><span class="petit">ジュ・ヴ</span><br>
+        Tu <span class="bleu">veux</span><br><span class="petit">チュ・ヴ</span><br>
+        Il <span class="bleu">veut</span><br><span class="petit">イル・ヴ</span><br>
+        Elle <span class="bleu">veut</span><br><span class="petit">エル・ヴ</span><br>
+        Ça <span class="bleu">veut</span><br><span class="petit">サ・ヴ</span><br>
+        On <span class="bleu">veut</span><br><span class="petit">オン・ヴ</span><br>
     </td>
     <td>
       <div class="player">
@@ -470,10 +470,10 @@ last_modified_at : 2026-02-19 12:30:00
       </div>
     </td>
    <td>
-        Nous <span class="bleu">voulons</span><br>
-        Vous <span class="bleu">voulez</span><br>
-        Ils <span class="bleu">veulent</span><br>
-        Elles <span class="bleu">veulent</span><br>
+        Nous <span class="bleu">voulons</span><br><span class="petit">ヌ・ヴロン</span><br>
+        Vous <span class="bleu">voulez</span><br><span class="petit">ヴ・ヴレ</span><br>
+        Ils <span class="bleu">veulent</span><br><span class="petit">イル・ヴール</span><br>
+        Elles <span class="bleu">veulent</span><br><span class="petit">エル・ヴール</span><br>
     </td>
     <td>
       <div class="player">
