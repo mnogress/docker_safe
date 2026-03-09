@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2026-01-13
-last_modified_at : 2026-01-13 11:20:00
+date: 2026-03-08
+last_modified_at : 2026-03-08 11:20:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ avoir ～<!--more-->
 
@@ -166,179 +166,242 @@ document.addEventListener('DOMContentLoaded', () => {
 <caption>avoirの活用表</caption>
 <thead>
 <tr>
-    <th width="80">活用</th>
-    <th width="150">つづり</th>
-    <th width="200">訳</th>
-    <th width="200">読み方</th>
-    <th width="160">コメント</th>
+    <th width="10%">活用</th>
+    <th width="25%">つづり</th>
+    <th width="30%">訳</th>
+    <th width="10%">音声</th>
+    <th width="25%">コメント</th>
 </tr>
 </thead>
 <tbody>
 <tr>
     <td>不定詞</td>
-    <td><span class="bleu">avoir</span></td>
+    <td><span class="bleu">avoir</span><br><span class="gris_p"> (アヴォワール)</span></td>
     <td><span class="noir">持つ、ある</span></td>
-    <td><span class="noir">アヴォワール</span></td>
+    <td rowspan="4" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_101" preload="auto">
+                <source src="\audio\0306\01_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_101">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
 </tr>
 <tr>
     <td rowspan="6">現在形</td>
-    <td>j'<span class="bleu">ai</span></td>
+    <td>j'<span class="bleu">ai</span><br><span class="gris_p"> (ジェ)</span></td>
     <td><span class="noir">私は、持つ</span></td>
-    <td><span class="noir">ジェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>tu <span class="bleu">as</span></td>
+    <td>tu <span class="bleu">as</span><br><span class="gris_p"> (チュ・ア)</span></td>
     <td><span class="noir">君は、持つ</span></td>
-    <td><span class="noir">チュ・ア</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>il/elle/on <span class="bleu">a</span></td>
+    <td>il/elle/on <span class="bleu">a</span><br><span class="gris_p"> (イラ／エラ／オナ)</span></td>
     <td><span class="noir">彼／彼女／私たちは、持つ</span></td>
-    <td><span class="noir">イラ／エラ／オナ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>nous <span class="bleu">avons</span></td>
+    <td>nous <span class="bleu">avons</span><br><span class="gris_p"> (ヌザヴォン)</span></td>
     <td><span class="noir">私たちは、持つ</span></td>
-    <td><span class="noir">ヌザヴォン</span></td>
+    <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_102" preload="auto">
+                <source src="\audio\0306\02_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_102">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td rowspan="3">リエゾンが起きる</td>
     </tr>
 <tr>
-    <td>vous <span class="bleu">avez</span></td>
+    <td>vous <span class="bleu">avez</span><br><span class="gris_p"> (ヴザヴェ)</span></td>
     <td><span class="noir">あなたは、持つ</span></td>
-    <td><span class="noir">ヴザヴェ</span></td>
 </tr>
 <tr>
-    <td>ils/elles <span class="bleu">ont</span></td>
+    <td>ils/elles <span class="bleu">ont</span><br><span class="gris_p"> (イルゾン／エルゾン)</span></td>
     <td><span class="noir">彼ら／彼女らは、持つ</span></td>
-    <td><span class="noir">イルゾン／エルゾン</span></td>
 </tr>
 <tr>
     <td>現在分詞</td>
-    <td><span class="bleu">ayant</span></td>
+    <td><span class="bleu">ayant</span><br><span class="gris_p"> (エイヨン)</span></td>
     <td><span class="noir">持つ</span></td>
-    <td><span class="noir">エイヨン</span></td>
+    <td rowspan="2" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_103" preload="auto">
+                <source src="\audio\0306\03_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_103">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
 </tr>
 <tr>
     <td>過去分詞</td>
-    <td><span class="bleu">eu</span></td>
+    <td><span class="bleu">eu</span><br><span class="gris_p"> (ユ)</span></td>
     <td><span class="noir">持った</span></td>
-    <td><span class="noir">ユ</span></td>
     <td></td>
 </tr>
 <tr>
     <td rowspan="6">単純未来（語幹 au）</td>
-    <td>j'<span class="bleu">aurai</span></td>
+    <td>j'<span class="bleu">aurai</span><br><span class="gris_p"> (ジョレ)</span></td>
     <td><span class="noir">私は、持つだろう</span></td>
-    <td><span class="noir">ジョレ</span></td>
+    <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_104" preload="auto">
+                <source src="\audio\0306\04_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_104">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
 </tr>
 <tr>
-    <td>tu <span class="bleu">auras</span></td>
+    <td>tu <span class="bleu">auras</span><br><span class="gris_p"> (チュ・オラ)</span></td>
     <td><span class="noir">君は、持つだろう</span></td>
-    <td><span class="noir">チュ・オラ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>il/elle/on <span class="bleu">aura	</span></td>
+    <td>il/elle/on <span class="bleu">aura	</span><br><span class="gris_p"> (イロラ／エロラ／オノラ)</span></td>
     <td><span class="noir">彼／彼女／私たちは、持つだろう</span></td>
-    <td><span class="noir">イロラ／エロラ／オノラ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>nous <span class="bleu">aurons</span></td>
+    <td>nous <span class="bleu">aurons</span><br><span class="gris_p"> (ヌゾロン)</span></td>
     <td><span class="noir">私たちは、持つだろう</span></td>
-    <td><span class="noir">ヌゾロン</span></td>
+    <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_105" preload="auto">
+                <source src="\audio\0306\05_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_105">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
     </tr>
 <tr>
-    <td>vous <span class="bleu">aurez</span></td>
+    <td>vous <span class="bleu">aurez</span><br><span class="gris_p"> (ブゾレ)</span></td>
     <td><span class="noir">あなたは、持つだろう</span></td>
-    <td><span class="noir">ブゾレ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>ils/elles <span class="bleu">auront</span></td>
+    <td>ils/elles <span class="bleu">auront</span><br><span class="gris_p"> (イルゾロン／エルゾロン)</span></td>
     <td><span class="noir">彼ら／彼女らは、持つだろう</span></td>
-    <td><span class="noir">イルゾロン／エルゾロン</span></td>
     <td></td>
 </tr>
 <tr>
     <td rowspan="6">半過去</td>
-    <td>j'<span class="bleu">avais</span></td>
+    <td>j'<span class="bleu">avais</span><br><span class="gris_p"> (ジャヴェ)</span></td>
     <td><span class="noir">私は、持っていた</span></td>
-    <td><span class="noir">ジャヴェ</span></td>
+    <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_106" preload="auto">
+                <source src="\audio\0306\06_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_106">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
 </tr>
 <tr>
-    <td>tu <span class="bleu">avais</span></td>
+    <td>tu <span class="bleu">avais</span><br><span class="gris_p"> (チュ・アヴェ)</span></td>
     <td><span class="noir">君は、持っていた</span></td>
-    <td><span class="noir">チュ・アヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>il/elle/on <span class="bleu">avait	</span></td>
+    <td>il/elle/on <span class="bleu">avait	</span><br><span class="gris_p"> (イラヴェ／エラヴェ／オナヴェ)</span></td>
     <td><span class="noir">彼／彼女／私たちは、持っていた</span></td>
-    <td><span class="noir">イラヴェ／エラヴェ／オナヴェ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>nous <span class="bleu">avions</span></td>
+    <td>nous <span class="bleu">avions</span><br><span class="gris_p"> (ヌザヴィオン)</span></td>
     <td><span class="noir">私たちは、持っていた</span></td>
-    <td><span class="noir">ヌザヴィオン</span></td>
+    <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_107" preload="auto">
+                <source src="\audio\0306\07_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_107">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
     </tr>
 <tr>
-    <td>vous <span class="bleu">aviez</span></td>
+    <td>vous <span class="bleu">aviez</span><br><span class="gris_p"> (ヴザヴィエ)</span></td>
     <td><span class="noir">あなたは、持っていた</span></td>
-    <td><span class="noir">ヴザヴィエ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>ils/elles <span class="bleu">avaient</span></td>
+    <td>ils/elles <span class="bleu">avaient</span><br><span class="gris_p"> (イルザヴェ／エルザヴェ)</span></td>
     <td><span class="noir">彼ら／彼女らは、持っていた</span></td>
-    <td><span class="noir">イルザヴェ／エルザヴェ</span></td>
     <td></td>
 </tr>
 <tr>
     <td rowspan="6">複合過去</td>
-    <td>j'<span class="bleu">ai eu</span></td>
+    <td>j'<span class="bleu">ai eu</span><br><span class="gris_p"> (ジェ・ユ)</span></td>
     <td><span class="noir">私は、持った</span></td>
-    <td><span class="noir">ジェ・ユ</span></td>
+    <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_108" preload="auto">
+                <source src="\audio\0306\08_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_108">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
 </tr>
 <tr>
-    <td>tu <span class="bleu">as eu</span></td>
+    <td>tu <span class="bleu">as eu</span><br><span class="gris_p"> (チュア・ユ)</span></td>
     <td><span class="noir">君は、持った</span></td>
-    <td><span class="noir">チュア・ユ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>il/elle/on <span class="bleu">a eu</span></td>
+    <td>il/elle/on <span class="bleu">a eu</span><br><span class="gris_p"> (イラ・ユ／エラ・ユ／オナ・ユ)</span></td>
     <td><span class="noir">彼／彼女／私たちは、持った</span></td>
-    <td><span class="noir">イラ・ユ／エラ・ユ／オナ・ユ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>nous <span class="bleu">avons eu</span></td>
+    <td>nous <span class="bleu">avons eu</span><br><span class="gris_p"> (ヌザヴォン・ユ)</span></td>
     <td><span class="noir">私たちは、持った</span></td>
-    <td><span class="noir">ヌザヴォン・ユ</span></td>
+    <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr03_109" preload="auto">
+                <source src="\audio\0306\09_avr.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr03_109">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
     </tr>
 <tr>
-    <td>vous <span class="bleu">avez eu</span></td>
+    <td>vous <span class="bleu">avez eu</span><br><span class="gris_p"> (ヴザヴェ・ユ)</span></td>
     <td><span class="noir">あなたは、持った</span></td>
-    <td><span class="noir">ヴザヴェ・ユ</span></td>
     <td></td>
 </tr>
 <tr>
-    <td>ils/ells <span class="bleu">ont eu</span></td>
+    <td>ils/ells <span class="bleu">ont eu</span><br><span class="gris_p"> (イルゾンチュ／エルゾンチュ)</span></td>
     <td><span class="noir">彼ら／彼女らは、持った</span></td>
-    <td><span class="noir">イルゾンチュ／エルゾンチュ</span></td>
     <td></td>
 </tr>
 </tbody>
@@ -355,137 +418,166 @@ document.addEventListener('DOMContentLoaded', () => {
     <caption>avoirのフレーズ集</caption>
     <thead>
     <tr>
-        <th width="260">phrase</th>
-        <th width="260">訳</th>
-        <th width="260">読み方</th>
-        <th width="200">コメント</th>
+        <th width="40%">phrase</th>
+        <th width="35%">訳</th>
+        <th width="10%">音声</th>
+        <th width="15%">コメント</th>
     </tr>
     </thead>
 <tbody>
     <tr>
-        <td>J’<span class="bleu">ai</span> faim/soif.</td>
+        <td>J’<span class="bleu">ai</span> faim/soif.<br><span class="gris_p"> (ジェ・ファんム／ソワㇷ)</span></td>
         <td><span class="noir">お腹が空いた／喉が渇いた</span></td>
-        <td><span class="noir">ジェ・ファんム／ソワㇷ</span></td>
+    <td rowspan="4" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr04_101" preload="auto">
+                <source src="\audio\0306\01_avr4.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr04_101">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
         <td></td>
     </tr>
     <tr>
-        <td>J’<span class="bleu">ai</span> chaud (/ froid). </td>
+        <td>J’<span class="bleu">ai</span> chaud (/ froid). <span class="gris_p"> (ジェ・ショ（／フロワ）)</span></td>
         <td><span class="noir">私は、暑い／寒い。</span></td>
-        <td><span class="noir">ジェ・ショ（／フロワ）</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Nous <span class="bleu">avons</span> sommeil.</td>
+        <td>Nous <span class="bleu">avons</span> sommeil.<span class="gris_p"> (ヌ・ザヴォン・ソメイユ)</span></td>
         <td><span class="noir">私たちは、眠い。</span></td>
-        <td><span class="noir">ヌ・ザヴォン・ソメイユ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Il <span class="bleu">a </span>mal à la tête</td>
+        <td>Il <span class="bleu">a </span>mal à la tête<span class="gris_p"> (イラ・マル・ア・テット)</span></td>
         <td><span class="noir">彼は、頭が痛い。</span></td>
-        <td><span class="noir">イラ・マル・ア・テット</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Vous<span class="bleu"> aves </span>perdu.</td>
+        <td>Vous<span class="bleu"> aves </span>perdu.<span class="gris_p"> (ヴザヴェ・ペルデュ)</span></td>
         <td><span class="noir">あなたの負け</span></td>
-        <td><span class="noir">ヴザヴェ・ペルデュ</span></td>
+    <td rowspan="4" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr04_102" preload="auto">
+                <source src="\audio\0306\02_avr4.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr04_102">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
         <td>英：You have lost.</td>
     </tr>
     <tr>
-        <td>Ils<span class="bleu"> ont </span>raison.</td>
+        <td>Ils<span class="bleu"> ont </span>raison.<span class="gris_p"> (イルゾン・レゾン)</span></td>
         <td><span class="noir">彼らは、(言い分が)正しい。</span></td>
-        <td><span class="noir">イルゾン・レゾン</span></td>
         <td>英：They are right.</td>
     </tr>
     <tr>
-        <td>Elles<span class="bleu"> ont </span>tort.</td>
+        <td>Elles<span class="bleu"> ont </span>tort.<span class="gris_p"> (エルゾン・トール)</span></td>
         <td><span class="noir">彼女らは、間違っている。</span></td>
-        <td><span class="noir">エルゾン・トール</span></td>
         <td>They are wrong.</td>
     </tr>
     <tr>
-        <td>J'<span class="bleu">ai </span>25 ans, et toi?</td>
+        <td>J'<span class="bleu">ai </span>25 ans, et toi?<span class="gris_p"> (ジェ・ヴァンサンカン　エトワ)</span></td>
         <td><span class="noir">私は25歳です。君は？</span></td>
-        <td><span class="noir">ジェ・ヴァンサンカン　エトワ</span></td>
         <td>英：I am 25 years old, and you?</td>
     </tr>
     <tr>
-        <td>Je n'<span class="bleu">ai </span>pas encore dejeune.</td>
+        <td>Je n'<span class="bleu">ai </span>pas encore dejeune.<span class="gris_p"> (ジュネ・パザンコー・デジョネ)</span></td>
         <td><span class="noir">まだ昼食を済ませていません。</span></td>
-        <td><span class="noir">ジュネ・パザンコー・デジョネ</span></td>
+    <td rowspan="4" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr04_103" preload="auto">
+                <source src="\audio\0306\03_avr4.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr04_103">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
         <td>「まだーしていない」であればリエゾンする<br>「再度ーしない」の時はリエゾンしない</td>
     </tr>
     <tr>
-        <td>Qu'est-ce que vous<span class="bleu"> avez </span>?　Vous etes tout pale.</td>
+        <td>Qu'est-ce que vous<span class="bleu"> avez </span>?　Vous etes tout pale.<span class="gris_p"> (ケスク・ブザヴェ　ブゼッ・トゥト・パール㊚／パーユ㊛)</span></td>
         <td><span class="noir">どうしたのですか、青いですよ</span></td>
-        <td><span class="noir">ケスク・ブザヴェ　ブゼッ・トゥト・パール㊚／パーユ㊛</span></td>
         <td>過去分詞を性数一致させる</td>
     </tr>
     <tr>
-        <td>Le produit<span class="bleu"> a </span>un défaut</td>
+        <td>Le produit<span class="bleu"> a </span>un défaut<span class="gris_p"> (ル・プロデュイ・ア・ウン・デフォー)</span></td>
         <td><span class="noir">その製品には欠陥があります。</span></td>
-        <td><span class="noir">ル・プロデュイ・ア・ウン・デフォー</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>J'<span class="bleu">ai </span>hâte d'y aller.</td>
+        <td>J'<span class="bleu">ai </span>hâte d'y aller.<span class="gris_p"> (ジェ・アト・ディ・アレ)</span></td>
         <td><span class="noir">私は早くそこに行きたい。</span></td>
-        <td><span class="noir">ジェ・アト・ディ・アレ</span></td>
         <td>avoir hâte de 不定詞：早く～したい</td>
     </tr>
     <tr>
-        <td>J'<span class="bleu">ai </span>besoin d'un nouveau micro-ondes.</td>
+        <td>J'<span class="bleu">ai </span>besoin d'un nouveau micro-ondes.<span class="gris_p"> (ジェ・ブズワン・ドゥ・ヌーボ・ミクロオンド)</span></td>
         <td><span class="noir">新しい電子レンジが必要です。</span></td>
-        <td><span class="noir">ジェ・ブズワン・ドゥ・ヌーボ・ミクロオンド</span></td>
+    <td rowspan="4" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr04_104" preload="auto">
+                <source src="\audio\0306\04_avr4.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr04_104">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
         <td>avoir besoin de ～：～が必要です</td>
     </tr>
     <tr>
-        <td>J'en <span class="bleu">ai </span>marre de cette situation.</td>
+        <td>J'en <span class="bleu">ai </span>marre de cette situation.<span class="gris_p"> (ジャン・エ・マール・ドゥ・セット・シテユアシオン)</span></td>
         <td><span class="noir">私はこの状況にもううんざりです。</span></td>
-        <td><span class="noir">ジャン・エ・マール・ドゥ・セット・シテユアシオン</span></td>
         <td>en avoir marre de ～　：～にうんざりしている</td>
     </tr>
     <tr>
-        <td><span class="bleu">A</span>-t-il mal au bras droit ?</td>
+        <td><span class="bleu">A</span>-t-il mal au bras droit ?<span class="gris_p"> (アティル・マル・オ・ブラ・ドロワ)</span></td>
         <td><span class="noir">彼は右腕が痛いですか。</span></td>
-        <td><span class="noir">アティル・マル・オ・ブラ・ドロワ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Elle <span class="bleu">a </span>l’air sympathique.</td>
+        <td>Elle <span class="bleu">a </span>l’air sympathique.<span class="gris_p"> (エル・ア・ラー・サンパティック)</span></td>
         <td><span class="noir">彼女、感じが良さそうだね。</span></td>
-        <td><span class="noir">エル・ア・ラー・サンパティック</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Des que j'<span class="bleu">aurai </span>depose mes bagages, je partirai.</td>
+        <td>Des que j'<span class="bleu">aurai </span>depose mes bagages, je partirai.<span class="gris_p"> (デ・ク・ジョレ・デポ・メ・バガージュ　ジュ・パルティレ)</span></td>
         <td><span class="noir">荷物を預けたらすぐに、私は出発します</span></td>
-        <td><span class="noir">デ・ク・ジョレ・デポ・メ・バガージュ　ジュ・パルティレ</span></td>
+    <td rowspan="5" ><span class="noir"></span>
+          <div class="player">
+            <audio id="avr04_105" preload="auto">
+                <source src="\audio\0306\05_avr4.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="avr04_105">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
         <td></td>
     </tr>
     <tr>
-        <td>Puis-je<span class="bleu"> avoir </span>de l’eau s’il vous plaît? </td>
+        <td>Puis-je<span class="bleu"> avoir </span>de l’eau s’il vous plaît? <span class="gris_p"> (プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ)</span></td>
         <td><span class="noir">お水をいただけますか</span></td>
-        <td><span class="noir">プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Merci de m’<span class="bleu">avoir </span>accordé du temps.</td>
+        <td>Merci de m’<span class="bleu">avoir </span>accordé du temps.<span class="gris_p"> (メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン)</span></td>
         <td><span class="noir">お時間をいただきありがとうございます</span></td>
-        <td><span class="noir">メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Vous <span class="bleu">avez </span>ma parole.</td>
+        <td>Vous <span class="bleu">avez </span>ma parole.<span class="gris_p"> (ヴザベ・マ・パロル)</span></td>
         <td><span class="noir">お約束します</span></td>
-        <td><span class="noir">ヴザベ・マ・パロル</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Il n'y<span class="bleu"> a </span>plus de lait, il faut en acheter.</td>
+        <td>Il n'y<span class="bleu"> a </span>plus de lait, il faut en acheter.<span class="gris_p"> (イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ)</span></td>
         <td><span class="noir">もう牛乳がないから買わなくては</span></td>
-        <td><span class="noir">イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ</span></td>
         <td></td>
     </tr>
 </tbody>
