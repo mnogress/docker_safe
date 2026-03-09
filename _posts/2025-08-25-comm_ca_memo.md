@@ -2,7 +2,7 @@
 layout: single
 title: そのまま覚えるフランス語の文例 ～ aller ～
 header:
-  overlay_image: images/header_fr5_1280by336.png
+  overlay_image: images/header_fr41_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.33)
 toc: True
 toc_label: "目次"
@@ -17,13 +17,25 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2026-01-24
-last_modified_at : 2026-01-24 8:30:00
+date: 2026-03-09
+last_modified_at : 2026-03-09 8:30:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ aller ～<!--more-->
 
 <style type="text/css">
-
+    .player {
+      margin: 1rem 0;
+      display: flex;
+      gap: 0.75rem;
+      align-items: center;
+    }
+    button {
+      padding: 0.4rem 0.8rem;
+    }
+    audio {
+      /* 画面に出したくない場合は隠してもOK */
+      display: none;
+    }
 table {
   display: block;
   margin-bottom: 1em;
@@ -75,10 +87,18 @@ _media screen and (max-width:750px){
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
 .rouge {
-color: #d9180eff;
+color: rgb(160, 15, 8);
 font-size: 1.14em;
 font-weight: 500;
 font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
+.gris_p {
+color: rgb(45, 43, 42);
+font-size: 0.7em;
+font-weight: 500;
+font-style: normal;
 font-family: inherit;
 letter-spacing: 0.02em;
 }
@@ -97,14 +117,57 @@ font-family: inherit;
 letter-spacing: 0.02em;
 }S
 .petit {
-font-size: 0.80em;
+font-size: 0.60em;
 color: black;
 font-family: inherit;
 line-height: 1.1;
 display: inline-block;
 letter-spacing: inherit;
 }
+  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
+.mytable tbody.rowgroup { background: #78aae3; }        /* デフォルト色 */
+.mytable tbody.rowgroup.group-a { background: #17bb25; } /* Aは淡いグリーン */
+.mytable tbody.rowgroup.group-b { background: #4c3d0a; } /* Bは淡いイエロー */
 </style>
+
+<script defer>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.player').forEach((wrap, idx) => {
+    const audioEl = wrap.querySelector('audio');
+    const btn = wrap.querySelector('button');
+
+    console.log(`player #${idx+1}`, { audioEl, btn });
+
+    if (!audioEl || !btn) {
+      console.warn(`player #${idx+1} に audio または button が見つかりません`);
+      return;
+    }
+    btn.addEventListener('click', () => {
+      if (audioEl.paused) audioEl.play().catch(err => console.error('再生失敗:', err));
+      else audioEl.pause();
+    });
+
+    audioEl.addEventListener('ended', () => updateLabel(btn, false));
+    audioEl.addEventListener('play',  () => updateLabel(btn, true));
+    audioEl.addEventListener('pause', () => updateLabel(btn, false));
+  });
+
+  function updateLabel(button, playing) {
+    const label = button.querySelector('.label');
+    if (label) label.textContent = playing ? '停止' : '🔄';
+  }
+});
+</script>
 
 ### aller の基本事項
 
@@ -116,79 +179,98 @@ letter-spacing: inherit;
 3. 過去分詞は複合過去（passé composé）で使われ、「être」と一緒に使うのが特徴です（例：Je suis allé）。
 4. 発音は主語とセットで覚えると、口に出しやすくなります。
 
+<main class="page-ul-fix">
 <table class="resp_table">
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col>               <!-- 3列目 -->
+    <col style="background:#E6E6FA;"> <!-- 4列目を薄いブルー -->
+    <col>               <!-- 5列目 -->
+  </colgroup>
 <caption>allerの活用表</caption>
 <thead>
 <tr>
-    <th width="80">活用</th>
-    <th width="150">つづり</th>
-    <th width="200">訳</th>
-    <th width="200">読み方</th>
-    <th width="160">コメント</th>
+    <th width="10%">活用</th>
+    <th width="20%">つづり</th>
+    <th width="25%">訳</th>
+    <th width="10%">音声</th>
+    <th width="35%">コメント</th>
 </tr>
 </thead>
 <tbody>
 <tr>
     <td>不定詞</td>
-    <td><span class="bleu">aller</span></td>
+    <td class="group"><span class="bleu">aller</span><br><span class="gris_p"> (アレ)</span></td>
     <td><span class="noir">行く</span></td>
-    <td><span class="noir">アレ</span></td>
+    <td rowspan="4" ><span class="noir"></span>
+          <div class="player">
+            <audio id="all03_101" preload="auto">
+                <source src="\audio\0306\01_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all03_101">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
     <td></td>
 </tr>
 <tr>
     <td rowspan="6">現在形</td>
-    <td>je <span class="bleu">vais</span></td>
+    <td>je <span class="bleu">vais</span><br><span class="gris_p"> (ジュ・ヴェ)</span></td>
     <td><span class="noir">私は、行く</span></td>
-    <td><span class="noir">ジュ・ヴァ</span></td>
-    <td rowspan="3">vais, vas, va とも発音は同じ「ヴァ」</td>
+    <td></td>
 </tr>
 <tr>
-    <td>tu <span class="bleu">vas</span></td>
+    <td>tu <span class="bleu">vas</span><br><span class="gris_p"> (チュ・ヴァ)</span></td>
     <td><span class="noir">君は、行く</span></td>
-    <td><span class="noir">チュ・ヴァ</span></td>
-    <td></td>
+    <td rowspan="2">vas, va とも発音は同じ「ヴァ」</td>
 </tr>
 <tr>
-    <td>il/elle/on <span class="bleu">va</span></td>
+    <td>il/elle/on <span class="bleu">va</span><br><span class="gris_p"> (イル／エル／オン・ヴァ)</span></td>
     <td><span class="noir">彼／彼女／私たちは、行く</span></td>
-    <td><span class="noir">イル／エル／オン・ヴァ</span></td>
-    <td></td>
+    <td><span class="noir"></span></td>
 </tr>
 <tr>
-    <td>nous <span class="bleu">allons</span></td>
+    <td>nous <span class="bleu">allons</span><br><span class="gris_p"> (ヌザロン)</span></td>
     <td><span class="noir">私たちは、行く</span></td>
-    <td><span class="noir">ヌザロン</span></td>
-    <td>ヌ<span class="rouge">ザ</span>ロン　と「ザ」となる</td>
+    <td rowspan="5"><span class="noir"></span>
+              <div class="player">
+            <audio id="all03_102" preload="auto">
+                <source src="\audio\0306\02_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all03_102">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+    <td>ヌ<span class="rouge">ザ</span>ロン　と「ザ」リエゾンする</td>
     </tr>
 <tr>
-    <td>vous <span class="bleu">allez</span></td>
+    <td>vous <span class="bleu">allez</span><br><span class="gris_p"> (ブザレ)</span></td>
     <td><span class="noir">あなたは、行く</span></td>
-    <td><span class="noir">ブザレ</span></td>
-    <td>ヴ<span class="rouge">ザ</span>レ　と「ザ」となる</td>
+    <td>ヴ<span class="rouge">ザ</span>レ　と「ザ」リエゾンする</td>
 </tr>
 <tr>
-    <td>ils/elles <span class="bleu">vont</span></td>
+    <td>ils/elles <span class="bleu">vont</span><br><span class="gris_p"> (イル／エル・ヴォン)</span></td>
     <td><span class="noir">彼ら／彼女らは、行く</span></td>
-    <td><span class="noir">イル／エル・ヴォン</span></td>
     <td></td>
 </tr>
 <tr>
     <td>現在分詞</td>
-    <td><span class="bleu">allant</span></td>
+    <td><span class="bleu">allant</span><br><span class="gris_p"> (アラン)</span></td>
     <td><span class="noir">行く</span></td>
-    <td><span class="noir">アラン</span></td>
     <td>allons からons をとってantをつける</td>
 </tr>
 <tr>
     <td>過去分詞</td>
-    <td><span class="bleu">allé/allée</span></td>
+    <td><span class="bleu">allé/allée</span><br><span class="gris_p"> (アレ)</span></td>
     <td><span class="noir">行った</span></td>
-    <td><span class="noir">アレ</span></td>
-    <td></td>
+    <td>étre + allé/allée で複合過去を作る　性数一致のこと。</td>
 </tr>
 </tbody>
 </table>
-
+</main>
 
 
 
@@ -196,114 +278,146 @@ letter-spacing: inherit;
 
 活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋動詞」をリズムで覚えましょう。　　
 
+<main class="page-ul-fix">
 <table class="resp_table">
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col style="background:#E6E6FA;"> <!-- 3列目を薄いブルー -->
+    <col>               <!-- 4列目 -->
+  </colgroup>
     <caption>allerのフレーズ集</caption>
     <thead>
     <tr>
-        <th width="260">phrase</th>
-        <th width="260">訳</th>
-        <th width="260">読み方</th>
-        <th width="200">コメント</th>
+        <th width="35%">phrase</th>
+        <th width="30%">訳</th>
+        <th width="10%">音声</th>
+        <th width="25%">コメント</th>
     </tr>
     </thead>
 <tbody>
     <tr>
-        <td>Vous <span class="bleu">allez</span> en France ?</td>
-        <td><span class="noir">あなたはフランスに行くのですか？</span></td>
-        <td><span class="noir">ヴザレ・アン・フランス？</span></td>
-        <td>女性名詞の国は「en」</td>
+        <td>Vous <span class="bleu">allez</span> <span class="rouge">en</span> France ?<br><span class="gris_p"> (ヴザレ・アン・フランス？)</span></td>
+        <td ><span class="noir">あなたはフランスに行くのですか？</span></td>
+            <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="all03_102" preload="auto">
+                <source src="\audio\0306\03_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all03_102">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td>女性名詞の国は「<span class="rouge">en</span>」</td>
     </tr>
     <tr>
-        <td>Vous <span class="bleu">allez</span> au Japon ?</td>
+        <td>Vous <span class="bleu">allez</span>  <span class="rouge">au</span> Japon ?<br><span class="gris_p"> (ヴザレ・オ・ジャポン？)</span></td>
         <td><span class="noir">あなたは日本に行くのですか？</span></td>
-        <td><span class="noir">ヴザレ・オ・ジャポン？</span></td>
-        <td>子音から始まる男性名詞の国は「au」</td>
+        <td>子音から始まる男性名詞の国は「<span class="rouge">au</span>」</td>
     </tr>
     <tr>
-        <td>Non, je <span class="bleu">vais </span>aux Etats-Unis.</td>
+        <td>Non, je <span class="bleu">vais </span> <span class="rouge">aux</span> Etats-Unis.<br><span class="gris_p"> (ノン、ジュ・ヴェ・オゼタズュニ)</span></td>
         <td><span class="noir">いいえ、アメリカに行きます。</span></td>
-        <td><span class="noir"> ノン、ジュ・ヴェ・オゼタズュニ</span></td>
-        <td>複数形の国は「aux」</td>
+        <td>複数形の国は「<span class="rouge">aux</span>」</td>
     </tr>
     <tr>
-        <td>On <span class="bleu">va </span>au cinema ?</td>
+        <td>On <span class="bleu">va </span>au cinema ?<br><span class="gris_p"> (オンヴァ・オスィネマ？)</span></td>
         <td><span class="noir">映画に行こうか？</span></td>
-        <td><span class="noir">オンヴァ・オスィネマ？</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>On y <span class="bleu">va </span>ensemble.</td>
+        <td>On y <span class="bleu">va </span>ensemble.<br><span class="gris_p"> (オニヴァ・アンサンブル)</span></td>
         <td><span class="noir">一緒に行こうよ</span></td>
-        <td><span class="noir">オニヴァ・アンサンブル</span></td>
+            <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="all03_102" preload="auto">
+                <source src="\audio\0306\04_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all03_102">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
         <td>英:Shall we go?</td>
     </tr>
     <tr>
-        <td><span class="bleu">Allons</span>-y ensemble.</td>
+        <td><span class="bleu">Allons</span>-y ensemble.<br><span class="gris_p"> (アロンジィ・アンサンブル)</span></td>
         <td><span class="noir">一緒に行こうよ</span></td>
-        <td><span class="noir">アロンジィ・アンサンブル</span></td>
         <td>英:Let's go.</td>
     </tr>
     <tr>
-        <td>Qu'<span class="bleu">allons</span>-nous faire demain ?</td>
+        <td>Qu'<span class="bleu">allons</span>-nous faire demain ?<br><span class="gris_p"> (カロンヌ・フェア・ドゥマン ？)</span></td>
         <td><span class="noir">明日は何をしよう？</span></td>
-        <td><span class="noir">カロンヌ・フェア・ドゥマン</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Je <span class="bleu">vais </span>vous emmener à l'hôtel.</td>
+        <td>Je <span class="bleu">vais </span>vous emmener à l'hôtel.<br><span class="gris_p"> (ジュヴァ・ヴゾムネ・アロテル)</span></td>
         <td><span class="noir">ホテルに連れて行きます。</span></td>
-        <td><span class="noir">ジュヴァ・ヴゾムネ・アロテル</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Nous<span class="bleu"> allons aller </span>dans mon restaurant préféré.</td>
+        <td>Nous<span class="bleu"> allons aller </span>dans mon restaurant préféré.<br><span class="gris_p"> (ヌザロン・アレ・ダン・モンレストラン・プリフェレ)</span></td>
         <td><span class="noir">私のお気に入りのレストランに行きましょう</span></td>
-        <td><span class="noir">ヌザロン・アレ・ダン・モンレストラン・プリフェレ</span></td>
+            <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="all05_102" preload="auto">
+                <source src="\audio\0306\05_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all05_102">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
         <td></td>
     </tr>
     <tr>
-        <td>Elle<span class="bleu"> est allée </span>à la boulangerie.</td>
+        <td>Elle<span class="bleu"> est allée </span>à la boulangerie.<br><span class="gris_p"> (エレ・タレア・ラ・ブランジュリー)</span></td>
         <td><span class="noir">彼女はパン屋へ行った。</span></td>
-        <td><span class="noir">エレ・タレア・ラ・ブランジュリー</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Je ne <span class="bleu">vais </span>pas faire de tennis.</td>
+        <td>Je ne <span class="bleu">vais </span>pas faire de tennis.<br><span class="gris_p"> (ジュ・ヌ・ヴァパ・フェアドゥ・テニス)</span></td>
         <td><span class="noir">私はテニスをするつもりはありません。</span></td>
-        <td><span class="noir">ジュ・ヌ・ヴァパ・フェアドゥ・テニス</span></td>
         <td>近接未来：allerの活用＋動詞の不定詞</td>
     </tr>
     <tr>
-        <td><span class="bleu">Va</span>-t'en!</td>
+        <td><span class="bleu">Va</span>-t'en!<br><span class="gris_p"> (ヴァ・タン)</span></td>
         <td><span class="noir">出て行け！</span></td>
-        <td><span class="noir">ヴァ・タン</span></td>
         <td>英:Go away!</td>
     </tr>
     <tr>
-        <td><span class="bleu">allez</span>-y</td>
+        <td><span class="bleu">allez</span>-y<br><span class="gris_p"> (アレジィ)</span></td>
         <td><span class="noir">さあ、どうぞ</span></td>
-        <td><span class="noir">アレジィ</span></td>
+            <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="all06_102" preload="auto">
+                <source src="\audio\0306\06_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all06_102">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
         <td>英：Go right ahead. </td>
     </tr>
     <tr>
-        <td>Vous <span class="bleu">allez y aller</span> ?</td>
+        <td>Vous <span class="bleu">allez y aller</span> ?<br><span class="gris_p"> (ヴ・ザレ・イ・アレ)</span></td>
         <td><span class="noir">行きますか？</span></td>
-        <td><span class="noir">ヴ・ザレ・イ・アレ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Il veut y <span class="bleu">aller</span>.</td>
+        <td>Il veut y <span class="bleu">aller</span>.<br><span class="gris_p"> (イル・ヴー・イ・アレ)</span></td>
         <td><span class="noir">彼はそこに行きたい</span></td>
-        <td><span class="noir">イル・ヴー・イ・アレ</span></td>
         <td></td>
     </tr>
     <tr>
-        <td><span class="bleu">Va </span>te changer, tu <span class="bleu">vas </span>te salir.</td>
+        <td><span class="bleu">Va </span>te changer, tu <span class="bleu">vas </span>te salir.<br><span class="gris_p"> (ブァ・テ・シャンジェ　チュ・ヴァ・テ・サリ)</span></td>
         <td><span class="noir">着替えて、汚れるよ</span></td>
-        <td><span class="noir">ブァ・テ・シャンジェ　チュ・ヴァ・テ・サリ</span></td>
         <td></td>
     </tr>
 </tbody>
 </table>
+</main>
 
 
