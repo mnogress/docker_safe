@@ -96,6 +96,14 @@ font-style: italic;
 font-family: inherit;
 letter-spacing: 0.02em;
 }
+.gris_p {
+color: rgb(45, 43, 42);
+font-size: 0.7em;
+font-weight: 500;
+font-style: normal;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
 .petit {
 font-size: 0.80em;
 color: black;
@@ -105,6 +113,36 @@ display: inline-block;
 letter-spacing: inherit;
 }
 </style>
+
+<script defer>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.player').forEach((wrap, idx) => {
+    const audioEl = wrap.querySelector('audio');
+    const btn = wrap.querySelector('button');
+
+    console.log(`player #${idx+1}`, { audioEl, btn });
+
+    if (!audioEl || !btn) {
+      console.warn(`player #${idx+1} に audio または button が見つかりません`);
+      return;
+    }
+    btn.addEventListener('click', () => {
+      if (audioEl.paused) audioEl.play().catch(err => console.error('再生失敗:', err));
+      else audioEl.pause();
+    });
+
+    audioEl.addEventListener('ended', () => updateLabel(btn, false));
+    audioEl.addEventListener('play',  () => updateLabel(btn, true));
+    audioEl.addEventListener('pause', () => updateLabel(btn, false));
+  });
+
+  function updateLabel(button, playing) {
+    const label = button.querySelector('.label');
+    if (label) label.textContent = playing ? '停止' : '🔄';
+  }
+});
+</script>
+
 
 ### avoir の基本事項
 
