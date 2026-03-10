@@ -2,8 +2,8 @@
 layout: single
 title: そのまま覚えるフランス語の文例 ～ avoir ～
 header:
-  overlay_image: images/header_fr1_1280by336.png
-  overlay_filter: rgba(107, 74, 43, 0.33)
+  overlay_image: images/header_fr43_1280by336.png
+  overlay_filter: rgba(139, 87, 38, 0.33)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
