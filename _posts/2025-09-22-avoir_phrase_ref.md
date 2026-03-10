@@ -164,12 +164,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <table class="resp_table">
 <caption>avoirの活用表</caption>
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col>               <!-- 3列目 -->
+    <col style="background:#E6E6FA;"> <!-- 4列目を薄いブルー -->
+    <col>               <!-- 5列目 -->
+  </colgroup>
 <thead>
 <tr>
-    <th width="10%">活用</th>
+    <th width="12%">活用</th>
     <th width="25%">つづり</th>
     <th width="30%">訳</th>
-    <th width="10%">音声</th>
+    <th width="8%">音声</th>
     <th width="25%">コメント</th>
 </tr>
 </thead>
@@ -416,12 +423,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <table class="resp_table">
     <caption>avoirのフレーズ集</caption>
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col style="background:#E6E6FA;"> <!-- 3列目を薄いブルー -->
+    <col>               <!-- 4列目 -->
+  </colgroup>
     <thead>
     <tr>
         <th width="40%">phrase</th>
-        <th width="35%">訳</th>
-        <th width="10%">音声</th>
-        <th width="15%">コメント</th>
+        <th width="30%">訳</th>
+        <th width="7%">音声</th>
+        <th width="23%">コメント</th>
     </tr>
     </thead>
 <tbody>
@@ -441,22 +454,22 @@ document.addEventListener('DOMContentLoaded', () => {
         <td></td>
     </tr>
     <tr>
-        <td>J’<span class="bleu">ai</span> chaud (/ froid). <span class="gris_p"> (ジェ・ショ（／フロワ）)</span></td>
+        <td>J’<span class="bleu">ai</span> chaud (/ froid). <br><span class="gris_p"> (ジェ・ショ（／フロワ）)</span></td>
         <td><span class="noir">私は、暑い／寒い。</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Nous <span class="bleu">avons</span> sommeil.<span class="gris_p"> (ヌ・ザヴォン・ソメイユ)</span></td>
+        <td>Nous <span class="bleu">avons</span> sommeil.<br><span class="gris_p"> (ヌ・ザヴォン・ソメイユ)</span></td>
         <td><span class="noir">私たちは、眠い。</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Il <span class="bleu">a </span>mal à la tête<span class="gris_p"> (イラ・マル・ア・テット)</span></td>
+        <td>Il <span class="bleu">a </span>mal à la tête.<br><span class="gris_p"> (イラ・マル・ア・テット)</span></td>
         <td><span class="noir">彼は、頭が痛い。</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Vous<span class="bleu"> aves </span>perdu.<span class="gris_p"> (ヴザヴェ・ペルデュ)</span></td>
+        <td>Vous<span class="bleu"> aves </span>perdu.<br><span class="gris_p"> (ヴザヴェ・ペルデュ)</span></td>
         <td><span class="noir">あなたの負け</span></td>
     <td rowspan="4" ><span class="noir"></span>
           <div class="player">
@@ -471,22 +484,22 @@ document.addEventListener('DOMContentLoaded', () => {
         <td>英：You have lost.</td>
     </tr>
     <tr>
-        <td>Ils<span class="bleu"> ont </span>raison.<span class="gris_p"> (イルゾン・レゾン)</span></td>
+        <td>Ils<span class="bleu"> ont </span>raison.<br><span class="gris_p"> (イルゾン・レゾン)</span></td>
         <td><span class="noir">彼らは、(言い分が)正しい。</span></td>
         <td>英：They are right.</td>
     </tr>
     <tr>
-        <td>Elles<span class="bleu"> ont </span>tort.<span class="gris_p"> (エルゾン・トール)</span></td>
+        <td>Elles<span class="bleu"> ont </span>tort.<br><span class="gris_p"> (エルゾン・トール)</span></td>
         <td><span class="noir">彼女らは、間違っている。</span></td>
         <td>They are wrong.</td>
     </tr>
     <tr>
-        <td>J'<span class="bleu">ai </span>25 ans, et toi?<span class="gris_p"> (ジェ・ヴァンサンカン　エトワ)</span></td>
+        <td>J'<span class="bleu">ai </span>25 ans, et toi?<br><span class="gris_p"> (ジェ・ヴァンサンカン　エトワ)</span></td>
         <td><span class="noir">私は25歳です。君は？</span></td>
         <td>英：I am 25 years old, and you?</td>
     </tr>
     <tr>
-        <td>Je n'<span class="bleu">ai </span>pas encore dejeune.<span class="gris_p"> (ジュネ・パザンコー・デジョネ)</span></td>
+        <td>Je n'<span class="bleu">ai </span>pas encore dejeune.<br><span class="gris_p"> (ジュネ・パザンコー・デジョネ)</span></td>
         <td><span class="noir">まだ昼食を済ませていません。</span></td>
     <td rowspan="4" ><span class="noir"></span>
           <div class="player">
@@ -501,22 +514,22 @@ document.addEventListener('DOMContentLoaded', () => {
         <td>「まだーしていない」であればリエゾンする<br>「再度ーしない」の時はリエゾンしない</td>
     </tr>
     <tr>
-        <td>Qu'est-ce que vous<span class="bleu"> avez </span>?　Vous etes tout pale.<span class="gris_p"> (ケスク・ブザヴェ　ブゼッ・トゥト・パール㊚／パーユ㊛)</span></td>
+        <td>Qu'est-ce que vous<span class="bleu"> avez </span>?　Vous etes tout pale.<br><span class="gris_p"> (ケスク・ブザヴェ　ブゼッ・トゥト・パール㊚／パーユ㊛)</span></td>
         <td><span class="noir">どうしたのですか、青いですよ</span></td>
         <td>過去分詞を性数一致させる</td>
     </tr>
     <tr>
-        <td>Le produit<span class="bleu"> a </span>un défaut<span class="gris_p"> (ル・プロデュイ・ア・ウン・デフォー)</span></td>
+        <td>Le produit<span class="bleu"> a </span>un défaut.<br><span class="gris_p"> (ル・プロデュイ・ア・ウン・デフォー)</span></td>
         <td><span class="noir">その製品には欠陥があります。</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>J'<span class="bleu">ai </span>hâte d'y aller.<span class="gris_p"> (ジェ・アト・ディ・アレ)</span></td>
+        <td>J'<span class="bleu">ai </span>hâte d'y aller.<br><span class="gris_p"> (ジェ・アト・ディ・アレ)</span></td>
         <td><span class="noir">私は早くそこに行きたい。</span></td>
         <td>avoir hâte de 不定詞：早く～したい</td>
     </tr>
     <tr>
-        <td>J'<span class="bleu">ai </span>besoin d'un nouveau micro-ondes.<span class="gris_p"> (ジェ・ブズワン・ドゥ・ヌーボ・ミクロオンド)</span></td>
+        <td>J'<span class="bleu">ai </span>besoin d'un nouveau micro-ondes.<br><span class="gris_p"> (ジェ・ブズワン・ドゥ・ヌーボ・ミクロオンド)</span></td>
         <td><span class="noir">新しい電子レンジが必要です。</span></td>
     <td rowspan="4" ><span class="noir"></span>
           <div class="player">
@@ -531,22 +544,22 @@ document.addEventListener('DOMContentLoaded', () => {
         <td>avoir besoin de ～：～が必要です</td>
     </tr>
     <tr>
-        <td>J'en <span class="bleu">ai </span>marre de cette situation.<span class="gris_p"> (ジャン・エ・マール・ドゥ・セット・シテユアシオン)</span></td>
+        <td>J'en <span class="bleu">ai </span>marre de cette situation.<br><span class="gris_p"> (ジャン・エ・マール・ドゥ・セット・シテユアシオン)</span></td>
         <td><span class="noir">私はこの状況にもううんざりです。</span></td>
         <td>en avoir marre de ～　：～にうんざりしている</td>
     </tr>
     <tr>
-        <td><span class="bleu">A</span>-t-il mal au bras droit ?<span class="gris_p"> (アティル・マル・オ・ブラ・ドロワ)</span></td>
+        <td><span class="bleu">A</span>-t-il mal au bras droit ?<br><span class="gris_p"> (アティル・マル・オ・ブラ・ドロワ)</span></td>
         <td><span class="noir">彼は右腕が痛いですか。</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Elle <span class="bleu">a </span>l’air sympathique.<span class="gris_p"> (エル・ア・ラー・サンパティック)</span></td>
+        <td>Elle <span class="bleu">a </span>l’air sympathique.<br><span class="gris_p"> (エル・ア・ラー・サンパティック)</span></td>
         <td><span class="noir">彼女、感じが良さそうだね。</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Des que j'<span class="bleu">aurai </span>depose mes bagages, je partirai.<span class="gris_p"> (デ・ク・ジョレ・デポ・メ・バガージュ　ジュ・パルティレ)</span></td>
+        <td>Des que j'<span class="bleu">aurai </span>depose mes bagages, je partirai.<br><span class="gris_p"> (デ・ク・ジョレ・デポ・メ・バガージュ　ジュ・パルティレ)</span></td>
         <td><span class="noir">荷物を預けたらすぐに、私は出発します</span></td>
     <td rowspan="5" ><span class="noir"></span>
           <div class="player">
@@ -561,22 +574,22 @@ document.addEventListener('DOMContentLoaded', () => {
         <td></td>
     </tr>
     <tr>
-        <td>Puis-je<span class="bleu"> avoir </span>de l’eau s’il vous plaît? <span class="gris_p"> (プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ)</span></td>
+        <td>Puis-je<span class="bleu"> avoir </span>de l’eau s’il vous plaît? <br><span class="gris_p"> (プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ)</span></td>
         <td><span class="noir">お水をいただけますか</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Merci de m’<span class="bleu">avoir </span>accordé du temps.<span class="gris_p"> (メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン)</span></td>
+        <td>Merci de m’<span class="bleu">avoir </span>accordé du temps.<br><span class="gris_p"> (メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン)</span></td>
         <td><span class="noir">お時間をいただきありがとうございます</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Vous <span class="bleu">avez </span>ma parole.<span class="gris_p"> (ヴザベ・マ・パロル)</span></td>
+        <td>Vous <span class="bleu">avez </span>ma parole.<br><span class="gris_p"> (ヴザベ・マ・パロル)</span></td>
         <td><span class="noir">お約束します</span></td>
         <td></td>
     </tr>
     <tr>
-        <td>Il n'y<span class="bleu"> a </span>plus de lait, il faut en acheter.<span class="gris_p"> (イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ)</span></td>
+        <td>Il n'y<span class="bleu"> a </span>plus de lait, il faut en acheter.<br><span class="gris_p"> (イルニヤ・プル・ドゥレ　イル・フォ・オんナシュテ)</span></td>
         <td><span class="noir">もう牛乳がないから買わなくては</span></td>
         <td></td>
     </tr>
