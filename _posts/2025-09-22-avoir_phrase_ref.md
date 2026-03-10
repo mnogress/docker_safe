@@ -158,9 +158,9 @@ document.addEventListener('DOMContentLoaded', () => {
     a) J'<span class="bleu">ai </span>faim (空腹だ　ジェ・ファム)<br>
     b) J'<span class="bleu">ai </span>dix-huit ans (私は18歳だ、ジェ・ディスウィタン)。<br>
 3. 助動詞として:他の動詞の過去分詞と結びついて、複合過去（「～した」）を作ります。<br>
-    a) J'<span class="bleu">ai </span>mange (私は食べた、ジェ・モンジェ)<br>
+    a) J'<span class="bleu">ai </span>mangé (私は食べた、ジェ・モンジェ)<br>
 
-<span class="rouge">英語の"be動詞"にあたるetreとともに、フランス語の基本的な文を理解するために不可欠な動詞です。</span><br>
+<span class="rouge">英語の"be動詞"にあたる être とともに、**avoir** は、フランス語の基本的な文を理解するために不可欠な動詞です。</span><br>
 
 <table class="resp_table">
 <caption>avoirの活用表</caption>
