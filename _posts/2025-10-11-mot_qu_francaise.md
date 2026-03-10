@@ -77,28 +77,33 @@ _media screen and (max-width:750px){
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
 .rouge {
-color: red;
-font-weight: bold;
+color: #d9180eff;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
+letter-spacing: 0.02em;
+}
+.noir {
+color: #090c0cff;
+font-weight: normal;
+font-family: inherit;
+letter-spacing: inherit;
+}
+.verde {
+color: rgb(3, 53, 21);
+font-weight: 500;
+font-weight: normal;
+font-family: italic;
 letter-spacing: inherit;
 }
 .bleu {
-color: blue;
-font-weight: normal;
+color: #0053a6;
+font-size: 1.20em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
-}
-.rouge2 {
-color: red;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu2 {
-color: blue;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .petit {
 font-size: 0.80em;
