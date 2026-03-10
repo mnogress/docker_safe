@@ -499,7 +499,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <td>英：I am 25 years old, and you?</td>
     </tr>
     <tr>
-        <td>Je n'<span class="bleu">ai </span>pas encore dejeune.<br><span class="gris_p"> (ジュネ・パザンコー・デジョネ)</span></td>
+        <td>Je n'<span class="bleu">ai </span>pas encore dejeuner.<br><span class="gris_p"> (ジュネ・パザンコー・デジョネ)</span></td>
         <td><span class="noir">まだ昼食を済ませていません。</span></td>
     <td rowspan="4" ><span class="noir"></span>
           <div class="player">
