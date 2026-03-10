@@ -112,6 +112,17 @@ line-height: 1.1;
 display: inline-block;
 letter-spacing: inherit;
 }
+  .link-btn {
+    display: inline-block;
+    padding: 2px 8px;
+    background: #6191d0;  
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 15px;
+    white-space: nowrap;
+  }
+  .link-btn:focus { outline: 2px solid #4970a7; outline-offset: 2px; }
 </style>
 
 <script defer>
@@ -264,17 +275,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>    
-    <td></td>
+    <td rowspan="6">faire → je ferai　のように 語幹が<span class="bleu"> fer </span>になって語尾に <span class="bleu">-ai, -as, -a, -ons, -ez, -ont</span>をつける。</td>
 </tr>
 <tr>
     <td>tu <span class="bleu">feras</span><br><span class="gris_p"> (チュ・フラ)</span></td>
     <td><span class="noir">君は、するだろう</span></td>
-    <td></td>
 </tr>
 <tr>
     <td>il/elle/on <span class="bleu">fera</span><br><span class="gris_p"> (イル／エル／オン・フラ)</span></td>
     <td><span class="noir">彼／彼女／私たちは、するだろう</span></td>
-    <td></td>
 </tr>
 <tr>
     <td>nous <span class="bleu">ferons</span><br><span class="gris_p"> (ヌ・フロン)</span></td>
@@ -289,17 +298,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>  
-    <td></td>
     </tr>
 <tr>
     <td>vous <span class="bleu">ferez</span><br><span class="gris_p"> (ブ・フレ)</span></td>
     <td><span class="noir">あなたは、するだろう</span></td>
-    <td></td>
 </tr>
 <tr>
     <td>ils/elles <span class="bleu">feront</span><br><span class="gris_p"> (イル／エル・フロン)</span></td>
     <td><span class="noir">彼ら／彼女らは、するだろう</span></td>
-    <td></td>
 </tr>
 </tbody>
 </table>
@@ -341,17 +347,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>  
-        <td></td>
+    <td rowspan="3">以下のリンクより詳しい説明があります。（新しいタブ）<br>
+            <a class="link-btn"
+           href="https://southwiseman.blog/fran%C3%A7ais/il_fait_tempo/"
+           target="_blank" rel="noopener noreferrer"
+           aria-label="Il fait で天気を表現く（新しいタブ）">
+          Il fait　で表現する天気が良い、悪い、暑い、寒い
+        </a>
+    </td>
     </tr>
     <tr>
         <td>Il <span class="bleu">fait</span> chaud (/froid) dehors. <br><span class="gris_p"> (イル・フェ・ショ（／フロワ）・ドゥオール)</span></td>
         <td><span class="noir">外は、暑い／寒い。</span></td>
-        <td></td>
     </tr>
     <tr>
         <td>Il <span class="bleu">fait</span> du vent ce soir.<br><span class="gris_p"> (イル・フェ・デュ・ブァン・ス・ソワー)</span></td>
         <td><span class="noir">今夜は風が強い。</span></td>
-        <td></td>
     </tr>
     <tr>
         <td>Tu sais <span class="bleu">faire</span> ca aussi ?<br><span class="gris_p"> (チュ・セ・フェア・サ・オゥシ)</span></td>
