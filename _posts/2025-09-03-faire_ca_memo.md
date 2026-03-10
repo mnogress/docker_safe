@@ -96,6 +96,13 @@ font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
+.verde {
+color: rgb(3, 53, 21);
+font-weight: 500;
+font-weight: normal;
+font-family: italic;
+letter-spacing: inherit;
+}
 .bleu {
 color: #0053a6;
 font-size: 1.20em;
@@ -327,10 +334,10 @@ document.addEventListener('DOMContentLoaded', () => {
   </colgroup>
     <thead>
     <tr>
-        <th width="45%">phrase</th>
+        <th width="35%">phrase</th>
         <th width="30%">訳</th>
         <th width="10%">音声</th>
-        <th width="15%">コメント</th>
+        <th width="25%">コメント</th>
     </tr>
     </thead>
 <tbody>
@@ -347,12 +354,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>  
-    <td rowspan="3">以下のリンクより詳しい説明があります。（新しいタブ）<br>
+    <td rowspan="3">以下のリンクより詳しい説明があります。<br><span class="verde">「Il faitで表現する天気が良い、悪い、暑い、寒い」</span><br>
             <a class="link-btn"
            href="https://southwiseman.blog/fran%C3%A7ais/il_fait_tempo/"
            target="_blank" rel="noopener noreferrer"
            aria-label="Il fait で天気を表現く（新しいタブ）">
-          Il fait　で表現する天気が良い、悪い、暑い、寒い
+          リンク
         </a>
     </td>
     </tr>
