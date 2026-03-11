@@ -83,6 +83,7 @@ font-family: inherit;
 letter-spacing: 0.02em;
 }
 .noir {
+font-size: 0.85em;
 color: #090c0cff;
 font-weight: normal;
 font-family: inherit;
