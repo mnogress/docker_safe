@@ -313,7 +313,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr>
     <td rowspan="6">半過去</td>
     <td>j'<span class="bleu">avais</span><br><span class="gris_p"> (ジャヴェ)</span></td>
-    <td><span class="noir">私は、持っていた</span></td>
+    <td><span class="noir">(過去のその時点では)私は～していた</span></td>
     <td rowspan="3" ><span class="noir"></span>
           <div class="player">
             <audio id="avr03_106" preload="auto">
@@ -324,12 +324,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>
-    <td></td>
+    <td>Quand j'etais petit, <span class="bleu">j'avais</span> un velo. <br><span class="noir">（小さい頃、私は自転車を持っていた。）</span></td>
 </tr>
 <tr>
     <td>tu <span class="bleu">avais</span><br><span class="gris_p"> (チュ・アヴェ)</span></td>
-    <td><span class="noir">君は、持っていた</span></td>
-    <td></td>
+    <td><span class="noir">君は持っていた、（君には）～があった</span></td>
+    <td>否定形: <span class="rouge">tu n'avais pas</span> </td>
 </tr>
 <tr>
     <td>il/elle/on <span class="bleu">avait	</span><br><span class="gris_p"> (イラヴェ／エラヴェ／オナヴェ)</span></td>
@@ -364,7 +364,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr>
     <td rowspan="6">複合過去</td>
     <td>j'<span class="bleu">ai eu</span><br><span class="gris_p"> (ジェ・ユ)</span></td>
-    <td><span class="noir">私は、持った</span></td>
+    <td><span class="noir">「（ある時）持った」という完了した事実を表す。</span></td>
     <td rowspan="3" ><span class="noir"></span>
           <div class="player">
             <audio id="avr03_108" preload="auto">
@@ -375,12 +375,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>
-    <td></td>
+    <td><span class="bleu">J'ai eu peur !</span> <span class="noir">（怖かった！）</span></td>
 </tr>
 <tr>
     <td>tu <span class="bleu">as eu</span><br><span class="gris_p"> (チュア・ユ)</span></td>
     <td><span class="noir">君は、持った</span></td>
-    <td></td>
+    <td><span class="bleu">Tu as eu raison.</span> <span class="noir">（君は正しかった。）</span></td>
 </tr>
 <tr>
     <td>il/elle/on <span class="bleu">a eu</span><br><span class="gris_p"> (イラ・ユ／エラ・ユ／オナ・ユ)</span></td>
@@ -512,7 +512,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>
-        <td>「まだーしていない」であればリエゾンする<br>「再度ーしない」の時はリエゾンしない</td>
+        <td><span class="noir">「まだーしていない」であればリエゾンする<br>「再度ーしない」の時はリエゾンしない</span></td>
     </tr>
     <tr>
         <td>Qu'est-ce que vous<span class="bleu"> avez </span>?　Vous etes tout pale.<br><span class="gris_p"> (ケスク・ブザヴェ　ブゼッ・トゥト・パール㊚／パーユ㊛)</span></td>
@@ -527,7 +527,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <tr>
         <td>J'<span class="bleu">ai </span>hâte d'y aller.<br><span class="gris_p"> (ジェ・アト・ディ・アレ)</span></td>
         <td><span class="noir">私は早くそこに行きたい。</span></td>
-        <td>avoir hâte de 不定詞：早く～したい</td>
+        <td><span class="bleu">avoir hâte de 不定詞</span><span class="noir">：早く～したい</span></td>
     </tr>
     <tr>
         <td>J'<span class="bleu">ai </span>besoin d'un nouveau micro-ondes.<br><span class="gris_p"> (ジェ・ブズワン・ドゥ・ヌーボ・ミクロオンド)</span></td>
@@ -542,12 +542,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>
-        <td>avoir besoin de ～：～が必要です</td>
+        <td><span class="bleu">avoir besoin de ～</span><span class="noir">：～が必要です</span></td>
     </tr>
     <tr>
         <td>J'en <span class="bleu">ai </span>marre de cette situation.<br><span class="gris_p"> (ジャン・エ・マール・ドゥ・セット・シテユアシオン)</span></td>
         <td><span class="noir">私はこの状況にもううんざりです。</span></td>
-        <td>en avoir marre de ～　：～にうんざりしている</td>
+        <td><span class="bleu">en avoir marre de ～</span><span class="noir">：～にうんざりしている</span></td>
     </tr>
     <tr>
         <td><span class="bleu">A</span>-t-il mal au bras droit ?<br><span class="gris_p"> (アティル・マル・オ・ブラ・ドロワ)</span></td>
