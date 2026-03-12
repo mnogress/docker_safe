@@ -375,12 +375,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>
-    <td><span class="bleu">J'ai eu peur !</span> <span class="noir">（怖かった！）</span></td>
+    <td><span class="bleu">J'ai eu peur !</span> <span class="noir">（ジェ・ウ・プール！　怖かった！）</span></td>
 </tr>
 <tr>
     <td>tu <span class="bleu">as eu</span><br><span class="gris_p"> (チュア・ユ)</span></td>
     <td><span class="noir">君は、持った</span></td>
-    <td><span class="bleu">Tu as eu raison.</span> <span class="noir">（君は正しかった。）</span></td>
+    <td><span class="bleu">Tu as eu raison.</span> <span class="noir">（チュア・ユ・レゾン　君は正しかった。）</span></td>
 </tr>
 <tr>
     <td>il/elle/on <span class="bleu">a eu</span><br><span class="gris_p"> (イラ・ユ／エラ・ユ／オナ・ユ)</span></td>
