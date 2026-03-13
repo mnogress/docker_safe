@@ -180,6 +180,7 @@ document.addEventListener('DOMContentLoaded', () => {
 3. 過去分詞は複合過去（passé composé）で使われ、「être」と一緒に使うのが特徴です（例：Je suis allé）。
 4. 発音は主語とセットで覚えると、口に出しやすくなります。
 
+
 <main class="page-ul-fix">
 <table class="resp_table">
   <colgroup>
@@ -194,9 +195,9 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr>
     <th width="10%">活用</th>
     <th width="20%">つづり</th>
-    <th width="25%">訳</th>
-    <th width="10%">音声</th>
-    <th width="35%">コメント</th>
+    <th width="30%">訳</th>
+    <th width="8%">音声</th>
+    <th width="32%">コメント</th>
 </tr>
 </thead>
 <tbody>
@@ -236,7 +237,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <td>nous <span class="bleu">allons</span><br><span class="gris_p"> (ヌザロン)</span></td>
     <td><span class="noir">私たちは、行く</span></td>
     <td rowspan="5"><span class="noir"></span>
-              <div class="player">
+      <div class="player">
             <audio id="all03_102" preload="auto">
                 <source src="\audio\0309\02_all.m4a" type="audio/mp4">
             </audio>
@@ -246,7 +247,7 @@ document.addEventListener('DOMContentLoaded', () => {
       </div>
     </td>
     <td>ヌ<span class="rouge">ザ</span>ロン　<span class="noir">リエゾンする</span></td>
-    </tr>
+</tr>
 <tr>
     <td>vous <span class="bleu">allez</span><br><span class="gris_p"> (ブザレ)</span></td>
     <td><span class="noir">あなたは、行く</span></td>
@@ -269,15 +270,131 @@ document.addEventListener('DOMContentLoaded', () => {
     <td><span class="noir">行った</span></td>
     <td>étre + allé/allée <span class="noir">複合過去を作る　性数一致</span></td>
 </tr>
+<tr>
+    <td rowspan="6">単純未来</td>
+    <td>j'<span class="bleu">irai</span><br><span class="gris_p"> (ジれ)</span></td>
+    <td><span class="noir">私は（これから）行くだろう、行くつもりだ</span></td>
+        <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="all03_102" preload="auto">
+                <source src="\audio\0309\02_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all03_102">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+      </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>tu <span class="bleu">iras</span><br><span class="gris_p"> (チュ・イハ)</span></td>
+    <td><span class="noir">君は（これから）行くだろう</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td>il/elle/Ça/on <span class="bleu">ira</span><br><span class="gris_p"> (イリラ／エリラ／サ・イラ／オニラ)</span></td>
+    <td><span class="noir">彼／彼女／私たちは（これから）行くだろう、行くつもりだ</span><br><span class="rouge">Ça ira </span><span class="noir">うまくいく、なんとかなる、大丈夫</span></td>
+    <td><span class="noir"></span></td>
+</tr>
+<tr>
+    <td>nous <span class="bleu">irons</span><br><span class="gris_p"> (ヌジロン)</span></td>
+    <td><span class="noir">私たちは（これから）行くだろう、行くつもりだ</span></td>
+    <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="all03_103" preload="auto">
+                <source src="\audio\0309\03_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all03_103">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+    <td>ヌ<span class="rouge">ジ</span>ロン　<span class="noir">リエゾンする</span></td>
+    </tr>
+<tr>
+    <td>vous <span class="bleu">irez</span><br><span class="gris_p"> (ブジレ)</span></td>
+    <td><span class="noir">あなたたちは（これから）行くだろう</span></td>
+    <td>ヴ<span class="rouge">ジ</span>レ　<span class="noir">リエゾンする</span></td>
+</tr>
+<tr>
+    <td>ils/elles <span class="bleu">iront</span><br><span class="gris_p"> (イル／エル・ジロン)</span></td>
+    <td><span class="noir">彼らは／彼女らは（これから）行くだろう</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td rowspan="6">半過去</td>
+    <td>j'<span class="bleu">allais</span><br><span class="gris_p"> (ジャレ)</span></td>
+    <td><span class="noir">私はよく行っていた、私が行こうとしていた</span></td>
+        <td rowspan="3" ><span class="noir"></span>
+          <div class="player">
+            <audio id="all03_104" preload="auto">
+                <source src="\audio\0309\04_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all03_104">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+      </td>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>tu <span class="bleu">allais</span><br><span class="gris_p"> (テュ・ザレ)</span></td>
+    <td><span class="noir">君はよく行っていた、君が行こうとしていた</span></td>
+    <td></td>
+</tr>
+<tr>
+    <td>il/elle/c'/on <span class="bleu">allait</span><br><span class="gris_p"> (イラレ／エラレ／セザレ／オンザレ)</span></td>
+    <td><span class="noir">彼／彼女／私たちはよく行っていた、彼／彼女／私たちが行こうとしていた</span><br><span class="rouge">c'allait </span><span class="noir">(状況が)うまくいっていた</span></td>
+    <td><span class="noir"></span></td>
+</tr>
+<tr>
+    <td>nous <span class="bleu">allions</span><br><span class="gris_p"> (ヌ・ザリオン)</span></td>
+    <td><span class="noir">私たちはよく行っていた、私たちが行こうとしていた</span></td>
+    <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="all03_105" preload="auto">
+                <source src="\audio\0309\05_all.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all03_105">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+    <td>ヌ<span class="rouge">ザ</span>リオン　<span class="noir">リエゾンする</span></td>
+    </tr>
+<tr>
+    <td>vous <span class="bleu">alliez</span><br><span class="gris_p"> (ブザリエ)</span></td>
+    <td><span class="noir">あなたたちがよく行っていた、あなたたちが行こうとしていた</span></td>
+    <td>ヴ<span class="rouge">ザ</span>リエ　<span class="noir">リエゾンする</span></td>
+</tr>
+<tr>
+    <td>ils/elles <span class="bleu">allaient</span><br><span class="gris_p"> (イルザレ／エルザレ)</span></td>
+    <td><span class="noir">彼らは／彼女らがよく行っていた、彼らは／彼女らが行こうとしていた</span></td>
+    <td></td>
+</tr>
 </tbody>
 </table>
 </main>
 
 
+複合過去<br>
+Je suis allé(e) （私は行った）<br>
+Tu es allé(e) （君は行った）<br>
+Il est allé （彼は行った）<br>
+Elle est allée （彼女は行った）<br>
+Nous sommes allé(e)s （私たちは行った）<br>
+Vous etes allé(e)(s) （あなた/あなたがたは行った）<br>
+Ils sont allés （彼らは行った）<br>
+Elles sont allées （彼女らは行った）<br>
 
+
+<div markdown='1'>
 ### 動詞 aller の使い方：口から覚えるフレーズ集
 
-活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋動詞」をリズムで覚えましょう。　　
+活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋動詞」をリズムで覚えましょう。　
+</div>　
 
 <main class="page-ul-fix">
 <table class="resp_table">
