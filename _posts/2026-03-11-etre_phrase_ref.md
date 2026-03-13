@@ -377,7 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <td></td>
 </tr>
 <tr>
-    <td>il/elle/ça/on <span class="bleu">a été</span><br><span class="gris_p"> (イラエテ／エラエテ／サ・ア・エテ／オナ・ユ)</span></td>
+    <td>il/elle/ça/on <span class="bleu">a été</span><br><span class="gris_p"> (イラエテ／エラエテ／サ・ア・エテ／オナ・エテ)</span></td>
     <td><span class="noir">彼／彼女／不特定の人々が（一時的に）～だった</span></td>
     <td><span class="bleu">ça a été?</span><br><span class="noir">うまくいきましたか？　大丈夫だった？</span></td>
 </tr>

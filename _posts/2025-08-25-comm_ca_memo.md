@@ -105,6 +105,7 @@ letter-spacing: 0.02em;
 .noir {
 color: #090c0cff;
 font-weight: normal;
+font-size: 0.84em;
 font-family: inherit;
 letter-spacing: inherit;
 }
@@ -227,8 +228,8 @@ document.addEventListener('DOMContentLoaded', () => {
     <td rowspan="2">vas, va とも発音は同じ「ヴァ」</td>
 </tr>
 <tr>
-    <td>il/elle/on <span class="bleu">va</span><br><span class="gris_p"> (イル／エル／オン・ヴァ)</span></td>
-    <td><span class="noir">彼／彼女／私たちは、行く</span></td>
+    <td>il/elle/Ça/on <span class="bleu">va</span><br><span class="gris_p"> (イル／エル／サヴァ／オン・ヴァ)</span></td>
+    <td><span class="noir">彼／彼女／私たちは、行く</span><br><span class="rouge">Ça va </span><span class="noir">: 元気です</span></td>
     <td><span class="noir"></span></td>
 </tr>
 <tr>
@@ -244,12 +245,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>
-    <td>ヌ<span class="rouge">ザ</span>ロン　と「ザ」リエゾンする</td>
+    <td>ヌ<span class="rouge">ザ</span>ロン　<span class="noir">リエゾンする</span></td>
     </tr>
 <tr>
     <td>vous <span class="bleu">allez</span><br><span class="gris_p"> (ブザレ)</span></td>
     <td><span class="noir">あなたは、行く</span></td>
-    <td>ヴ<span class="rouge">ザ</span>レ　と「ザ」リエゾンする</td>
+    <td>ヴ<span class="rouge">ザ</span>レ　<span class="noir">リエゾンする</span></td>
 </tr>
 <tr>
     <td>ils/elles <span class="bleu">vont</span><br><span class="gris_p"> (イル／エル・ヴォン)</span></td>
@@ -266,7 +267,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <td>過去分詞</td>
     <td><span class="bleu">allé/allée</span><br><span class="gris_p"> (アレ)</span></td>
     <td><span class="noir">行った</span></td>
-    <td>étre + allé/allée で複合過去を作る　性数一致のこと。</td>
+    <td>étre + allé/allée <span class="noir">複合過去を作る　性数一致</span></td>
 </tr>
 </tbody>
 </table>
@@ -309,17 +310,17 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
              </div>
         </td>
-        <td>女性名詞の国は「<span class="rouge">en</span>」</td>
+        <td><span class="noir">女性名詞の国は</span>「<span class="rouge">en</span>」</td>
     </tr>
     <tr>
         <td>Vous <span class="bleu">allez</span>  <span class="rouge">au</span> Japon ?<br><span class="gris_p"> (ヴザレ・オ・ジャポン？)</span></td>
         <td><span class="noir">あなたは日本に行くのですか？</span></td>
-        <td>子音から始まる男性名詞の国は「<span class="rouge">au</span>」</td>
+        <td><span class="noir">子音から始まる男性名詞の国は</span>「<span class="rouge">au</span>」</td>
     </tr>
     <tr>
         <td>Non, je <span class="bleu">vais </span> <span class="rouge">aux</span> Etats-Unis.<br><span class="gris_p"> (ノン、ジュ・ヴェ・オゼタズュニ)</span></td>
         <td><span class="noir">いいえ、アメリカに行きます。</span></td>
-        <td>複数形の国は「<span class="rouge">aux</span>」</td>
+        <td><span class="noir">複数形の国は</span>「<span class="rouge">aux</span>」</td>
     </tr>
     <tr>
         <td>On <span class="bleu">va </span>au cinema ?<br><span class="gris_p"> (オンヴァ・オスィネマ？)</span></td>
