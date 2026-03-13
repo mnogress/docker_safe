@@ -276,10 +276,10 @@ document.addEventListener('DOMContentLoaded', () => {
     <td><span class="noir">私は（これから）行くだろう、行くつもりだ</span></td>
         <td rowspan="3" ><span class="noir"></span>
           <div class="player">
-            <audio id="all03_102" preload="auto">
-                <source src="\audio\0309\02_all.m4a" type="audio/mp4">
+            <audio id="all03_109" preload="auto">
+                <source src="\audio\0309\09_all.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="all03_102">
+                <button type="button" data-audio-id="all03_109">
                     <span class="label">📢</span>
                 </button>
       </div>
@@ -302,10 +302,10 @@ document.addEventListener('DOMContentLoaded', () => {
     <td><span class="noir">私たちは（これから）行くだろう、行くつもりだ</span></td>
     <td rowspan="3"><span class="noir"></span>
               <div class="player">
-            <audio id="all03_103" preload="auto">
-                <source src="\audio\0309\03_all.m4a" type="audio/mp4">
+            <audio id="all03_103a" preload="auto">
+                <source src="\audio\0309\03a_all.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="all03_103">
+                <button type="button" data-audio-id="all03_103a">
                     <span class="label">📢</span>
                 </button>
       </div>
@@ -328,10 +328,10 @@ document.addEventListener('DOMContentLoaded', () => {
     <td><span class="noir">私はよく行っていた、私が行こうとしていた</span></td>
         <td rowspan="3" ><span class="noir"></span>
           <div class="player">
-            <audio id="all03_104" preload="auto">
-                <source src="\audio\0309\04_all.m4a" type="audio/mp4">
+            <audio id="all03_104a" preload="auto">
+                <source src="\audio\0309\04a_all.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="all03_104">
+                <button type="button" data-audio-id="all03_104a">
                     <span class="label">📢</span>
                 </button>
       </div>
@@ -354,10 +354,10 @@ document.addEventListener('DOMContentLoaded', () => {
     <td><span class="noir">私たちはよく行っていた、私たちが行こうとしていた</span></td>
     <td rowspan="3"><span class="noir"></span>
               <div class="player">
-            <audio id="all03_105" preload="auto">
-                <source src="\audio\0309\05_all.m4a" type="audio/mp4">
+            <audio id="all03_105a" preload="auto">
+                <source src="\audio\0309\05a_all.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="all03_105">
+                <button type="button" data-audio-id="all03_105a">
                     <span class="label">📢</span>
                 </button>
       </div>
@@ -379,15 +379,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </main>
 
 
-複合過去<br>
-Je suis allé(e) （私は行った）<br>
-Tu es allé(e) （君は行った）<br>
-Il est allé （彼は行った）<br>
-Elle est allée （彼女は行った）<br>
-Nous sommes allé(e)s （私たちは行った）<br>
-Vous etes allé(e)(s) （あなた/あなたがたは行った）<br>
-Ils sont allés （彼らは行った）<br>
-Elles sont allées （彼女らは行った）<br>
+
 
 
 <div markdown='1'>
