@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2026-03-08
-last_modified_at : 2026-03-08 11:20:00
+date: 2026-03-15
+last_modified_at : 2026-03-16 11:20:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ être ～<!--more-->をまとめました。
 
@@ -409,7 +409,154 @@ document.addEventListener('DOMContentLoaded', () => {
 </tbody>
 </table>
 
+<div markdown='1'>
+### 動詞 être の使い方：口から覚えるフレーズ集
 
+活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋動詞」をリズムで覚えましょう。　
+</div>　
+
+
+<main class="page-ul-fix">
+<table class="resp_table">
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col style="background:#E6E6FA;"> <!-- 3列目を薄いブルー -->
+    <col>               <!-- 4列目 -->
+  </colgroup>
+    <caption>êtreのフレーズ集</caption>
+    <thead>
+    <tr>
+        <th width="35%">phrase</th>
+        <th width="30%">訳</th>
+        <th width="10%">音声</th>
+        <th width="25%">コメント</th>
+    </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td>Je <span class="bleu">suis</span> japonais(e).<br><span class="gris_p"> (ジュ・シュイ・ジャポネ[ズ])</span></td>
+        <td ><span class="noir">私は日本人です。</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre01_101" preload="auto">
+                <source src="\audio\0316\01_etre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre01_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Elle <span class="bleu">est</span> ma meilleure amie.<br><span class="gris_p"> (エレ・マ・メイユール・アミ)</span></td>
+        <td><span class="noir"> 彼女は私の親友です。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Nous <span class="bleu">sommes </span>  heureux.<br><span class="gris_p"> (ヌ・ソム・ズルー)</span></td>
+        <td><span class="noir">私たちは幸せです。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">suis</span> allé(e) à la gare.<br><span class="gris_p"> (ジュ・シュイ・ザレ・ア・ラ・ガール)</span></td>
+        <td ><span class="noir">私は駅に行った。</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre01_102" preload="auto">
+                <source src="\audio\0316\02_etre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre01_102">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Elle <span class="bleu">est</span> partie.<br><span class="gris_p"> (エレ・パルティ)</span></td>
+        <td><span class="noir"> 彼女は出発した。</span></td>
+        <td>複合過去</td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">suis </span> en train de manger. <br><span class="gris_p"> (ジュ・シュイ・アン・トラン・ドゥ・マンジェ)</span></td>
+        <td><span class="noir">私は食事をしているところです。</span></td>
+        <td>現在進行形</td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">serai</span> absent/e cinq jours.<br><span class="gris_p"> (ジュ・スレ・アプサン／アプサント・サンク・ジュール)</span></td>
+        <td ><span class="noir">5日間留守にします。</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre01_103" preload="auto">
+                <source src="\audio\0316\03_etre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre01_103">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Quand je <span class="bleu">serai</span> libre, pourrai-je partir ?<br><span class="gris_p"> (カン・ジュ・スレ・リブレ・プれジェ・パルティール)</span></td>
+        <td><span class="noir"> 自由になったら、行ってもいいかな？</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>J'<span class="bleu">ai été</span> à la poste.<br><span class="gris_p"> (ジェ・エテ・ア・ラ・ポストゥ)</span></td>
+        <td ><span class="noir">郵便局へ行った。</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre01_104" preload="auto">
+                <source src="\audio\0316\04_etre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre01_104">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>C'<span class="bleu">était</span> très utile. <br><span class="gris_p"> (セテ・トレ・ユティル)</span></td>
+        <td><span class="noir">それはとても役に立った。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Ça a été?　 </span> <br><span class="gris_p"> (サ・ア・エテ？)</span></td>
+        <td><span class="noir">うまくいきましたか？　大丈夫だった？</span></td>
+        <td>決まり文句</td>
+    </tr>
+    <tr>
+        <td>Il <span class="bleu">était</span> malade hier.<br><span class="gris_p"> (イレテ・マロード・イエール)</span></td>
+        <td ><span class="noir">彼は昨日病気だった。</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre01_105" preload="auto">
+                <source src="\audio\0316\05_etre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre01_105">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>On <span class="bleu">était</span> bien. <br><span class="gris_p"> (オン・ゼテ・ビヤン)</span></td>
+        <td><span class="noir">いい時間だったね／心地よかったね。</span></td>
+        <td>決まり文句</td>
+    </tr>
+    <tr>
+        <td>Il<span class="bleu"> était</span> temps de partir. <br><span class="gris_p"> (イレテ・タン・ドゥ・パルティール)</span></td>
+        <td><span class="noir">出発する時間だった。</span></td>
+        <td></td>
+    </tr>
+</tbody>
+</table>
+</main>
 
 
 
