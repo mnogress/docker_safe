@@ -515,8 +515,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <td><span class="noir">「まだーしていない」であればリエゾンする<br>「再度ーしない」の時はリエゾンしない</span></td>
     </tr>
     <tr>
-        <td>Qu'est-ce que vous<span class="bleu"> avez </span>?　Vous etes tout pale.<br><span class="gris_p"> (ケスク・ブザヴェ　ブゼッ・トゥト・パール㊚／パーユ㊛)</span></td>
-        <td><span class="noir">どうしたのですか、青いですよ</span></td>
+        <td>Qu'est-ce que vous<span class="bleu"> avez </span>?　Vous êtes tout pâle.<br><span class="gris_p"> (ケスク・ブザヴェ　ブゼッ・トゥト・パール㊚／パーユ㊛)</span></td>
+        <td><span class="noir">どうしたのですか、青白いですよ</span></td>
         <td>過去分詞を性数一致させる</td>
     </tr>
     <tr>
