@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: français
 tag: ["French", "フランス語学習"]
-date: 2026-03-06
-last_modified_at : 2026-03-06 11:30:00
+date: 2026-03-17
+last_modified_at : 2026-03-17 11:30:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ faire ～<!--more-->
 
@@ -533,8 +533,8 @@ document.addEventListener('DOMContentLoaded', () => {
         <td></td>
     </tr>
     <tr>
-        <td>Je <span class="bleu">fais</span> <span class="rouge">du</span> jogging.<br><span class="gris_p"> (ジュ・フェ・デュ・ジョギング)</span></td>
-        <td ><span class="noir">私は、ジョギングをする。</span></td>
+        <td>Il <span class="bleu">fait</span> <span class="rouge">du</span> judo.<br><span class="gris_p"> (イル・フェ・デュ・ジュドー)</span></td>
+        <td ><span class="noir">彼は、柔道をする。</span></td>
         <td></td>
     </tr>
     <tr>
