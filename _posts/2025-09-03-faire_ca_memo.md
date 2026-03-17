@@ -495,4 +495,107 @@ document.addEventListener('DOMContentLoaded', () => {
 </table>
 </main>
 
+### 動詞 faire の使い方：日常的な行動・活動を言うときの冠詞のつけ方
 
+
+
+<main class="page-ul-fix">
+<table class="resp_table">
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col style="background:#E6E6FA;"> <!-- 3列目を薄いブルー -->
+    <col>               <!-- 4列目 -->
+  </colgroup>
+    <caption>faire du, le, la, au のフレーズ集</caption>
+    <thead>
+    <tr>
+        <th width="30%">phrase</th>
+        <th width="30%">訳</th>
+        <th width="10%">音声</th>
+        <th width="30%">コメント</th>
+    </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td>Je <span class="bleu">fais</span> <span class="rouge">du</span> jogging.<br><span class="gris_p"> (ジュ・フェ・デュ・ジョギング)</span></td>
+        <td ><span class="noir">私は、ジョギングをする。</span></td>
+            <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="fais_du01_101" preload="auto">
+                <source src="\audio\0316\01_fais_du.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="fais_du01_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">fais</span> <span class="rouge">du</span> jogging.<br><span class="gris_p"> (ジュ・フェ・デュ・ジョギング)</span></td>
+        <td ><span class="noir">私は、ジョギングをする。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Nous <span class="bleu">faisons</span> <span class="rouge">du</span> football.<br><span class="gris_p"> (ヌ・フゾン・デユ・フットボール)</span></td>
+        <td ><span class="noir">私たちはサッカーに取り組んでいる。</span></td>
+        <td rowspan="2">On <span class="bleu">fait</span> <span class="rouge">du</span> football.<br><span class="gris_p"> (オン・フェ・デュ・フットボー)</span><br><span class="noir">私たちはサッカーに取り組んでいる。</span></td>
+    </tr>
+    <tr>
+        <td>On <span class="bleu">joue</span> <span class="rouge">au</span> football.<br><span class="gris_p"> (オン・ジュ・オ・フットボール)</span></td>
+        <td ><span class="noir">私たちは遊びでサッカーをする</span></td>
+    </tr>
+    <tr>
+        <td>Elle <span class="bleu">fait</span> <span class="rouge">de la</span> danse.<br><span class="gris_p"> (エレ・フェ・ドゥ・ラ・ダンス)</span></td>
+        <td ><span class="noir">彼女はダンスをする。</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="fais_du01_102" preload="auto">
+                <source src="\audio\0316\02_fais_du.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="fais_du01_102">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Elle <span class="bleu">fait</span> <span class="rouge">du</span> jardinage.<br><span class="gris_p"> (エレ・フェ・デュ・ ジャルディナージュ)</span></td>
+        <td ><span class="noir">彼女はガーデニングをする。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">fais</span> <span class="rouge">du</span> bricolage.<br><span class="gris_p"> (ジュ・フェ・デュ・ブリコラージュ)</span></td>
+        <td ><span class="noir">私は、日曜大工をする。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>J'<span class="bleu">ai fait</span> <span class="rouge">la</span> lessive ce matin.<br><span class="gris_p"> (ジェ・フェ・ラ・レスィーヴ・ス・マタン)</span></td>
+        <td ><span class="noir">私は今朝、洗濯をした。</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="fais_du01_103" preload="auto">
+                <source src="\audio\0316\03_fais_du.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="fais_du01_103">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>J'<span class="bleu">ai fait</span> <span class="rouge">le</span> menage hier.<br><span class="gris_p"> (ジェ・フェ・ル・メナージェ・イエール)</span></td>
+        <td ><span class="noir">私は昨日掃除をした。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">fais</span> <span class="rouge">la</span> vaisselle.<br><span class="gris_p"> (ジュ・フェ・ラ・ヴェセル)</span></td>
+        <td ><span class="noir">私は皿洗いをする。</span></td>
+        <td></td>
+    </tr>
+</tbody>
+</table>
+</main>　
