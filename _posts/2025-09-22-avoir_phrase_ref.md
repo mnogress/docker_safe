@@ -20,7 +20,10 @@ tag: ["French", "フランス語学習"]
 date: 2026-03-08
 last_modified_at : 2026-03-08 11:20:00
 ---
-フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ avoir ～<!--more-->
+フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ avoir ～<!--more--><br>
+この記事は、フランス語を初めて学ぶ方、基礎動詞の使い方を整理したい方、そして日常会話でよく使う表現を効率よく覚えたい方を対象にしています。<br>
+*音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。*
+
 
 <style type="text/css">
 
@@ -113,6 +116,17 @@ line-height: 1.1;
 display: inline-block;
 letter-spacing: inherit;
 }
+  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
 </style>
 
 <script defer>
@@ -153,13 +167,18 @@ document.addEventListener('DOMContentLoaded', () => {
 複合過去を作る助動詞としても非常に重要で、動詞の過去分詞とともに「～した」という過去の行為を表します
 以下が活用表です。ここでは、不定詞・直接法現在・単純未来・半過去・複合過去の活用を紹介します。　ポイントは以下になります。
 
-1. 所有・所属:「家を持つ」「子供がいる」のように、物理的なものや人間関係を所有していることを示します。<br>
-    a)  J'<span class="bleu">ai </span>un chat (私は猫を飼っている、ジェ・アン・シャ)。
-2. 状態・体調・年齢:フランス語では年齢を「〇〇歳を持っている」と表現するため、avoirを使います。<br>
-    a) J'<span class="bleu">ai </span>faim (空腹だ　ジェ・ファム)<br>
-    b) J'<span class="bleu">ai </span>dix-huit ans (私は18歳だ、ジェ・ディスウィタン)。<br>
-3. 助動詞として:他の動詞の過去分詞と結びついて、複合過去（「～した」）を作ります。<br>
-    a) J'<span class="bleu">ai </span>mangé (私は食べた、ジェ・モンジェ)<br>
+<main class="page-ul-fix">
+<ul>
+<li>所有・所属:「家を持つ」「子供がいる」のように、物理的なものや人間関係を所有していることを示します。</li>
+<ul>
+<li>J'<span class="bleu">ai </span>un chat (私は猫を飼っている、ジェ・アン・シャ)。</li>
+</ul>
+<li>状態・体調・年齢:フランス語では年齢を「〇〇歳を持っている」と表現するため、avoirを使います。</li>
+<ul><li>J'<span class="bleu">ai </span>faim (空腹だ　ジェ・ファム)</li>
+<li> J'<span class="bleu">ai </span>dix-huit ans (私は18歳だ、ジェ・ディスウィタン)。</li></ul>
+<li>助動詞として:他の動詞の過去分詞と結びついて、複合過去（「～した」）を作ります。</li>
+<ul><li>J'<span class="bleu">ai </span>mangé (私は食べた、ジェ・モンジェ)</li></ul>
+</ul>
 
 <span class="rouge">英語の"be動詞"にあたる être とともに、**avoir** は、フランス語の基本的な文を理解するために不可欠な動詞です。</span><br>
 
@@ -417,10 +436,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-
+<div markdown='1'>
 ### 動詞 avoir の使い方：口から覚えるフレーズ集
 
-活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋動詞」をリズムで覚えましょう。　　
+活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋動詞」をリズムで覚えましょう。<br>
+avoir は「持つ」という意味以外にも、年齢・感情・体調など、英語では be 動詞を使う場面でも avoir を使うのが特徴です。
+
+初心者が特につまずきやすいポイントは以下の3つです：
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>年齢は être ではなく avoir を使う（J’ai 18 ans.）  </li>
+<li>空腹・寒さ・眠気などの状態も avoir を使う（J’ai faim. / J’ai froid.） </li> 
+<li>複合過去では助動詞として最も頻繁に使われる（J’ai mangé.）</li>
+</ul>
+</main>
+
 
 <table class="resp_table">
     <caption>avoirのフレーズ集</caption>
@@ -432,10 +464,10 @@ document.addEventListener('DOMContentLoaded', () => {
   </colgroup>
     <thead>
     <tr>
-        <th width="40%">phrase</th>
-        <th width="30%">訳</th>
+        <th width="38%">phrase</th>
+        <th width="27%">訳</th>
         <th width="7%">音声</th>
-        <th width="23%">コメント</th>
+        <th width="28%">コメント</th>
     </tr>
     </thead>
 <tbody>
@@ -457,7 +489,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <tr>
         <td>J’<span class="bleu">ai</span> chaud (/ froid). <br><span class="gris_p"> (ジェ・ショ（／フロワ）)</span></td>
         <td><span class="noir">私は、暑い／寒い。</span></td>
-        <td></td>
+        <td> <span class="noir">初心者は <strong>Je suis chaud</strong> と言ってしまいがちですが、これは「性的に興奮している」という意味になるため注意。</span></td>
     </tr>
     <tr>
         <td>Nous <span class="bleu">avons</span> sommeil.<br><span class="gris_p"> (ヌ・ザヴォン・ソメイユ)</span></td>
@@ -599,6 +631,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+<div markdown='1'>
+### まとめ
+</div>
 
+{% raw %}
 
+<main class="page-ul-fix">
+<ul>
+<li>avoir は「持つ」以外にも、年齢・感情・体調など多くの状態を表す </li>
+<li>英語の be 動詞に相当する表現でも avoir を使うことがある </li> 
+<li>複合過去では最も頻繁に使われる助動詞 </li> 
+<li>例文と音声で「使われる場面」をセットで覚えると定着しやすい </li>
+</ul>
+</main>
+
+{% endraw %}
+
+<div markdown='1'>
+**次のステップ**<br>
+avoir を学んだら、être・aller・faire などの基礎動詞を順番に学ぶと、日常会話の表現力が大きく広がります。
+</div>
 
