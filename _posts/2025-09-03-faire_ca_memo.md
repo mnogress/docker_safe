@@ -22,6 +22,23 @@ last_modified_at : 2026-03-17 11:30:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ faire ～<!--more-->
 
+###  はじめに
+
+このページでは、フランス語の重要動詞「faire（〜する、行う）」の活用と実際の使い方を、初心者の方でも迷わず学べるように整理しています。
+<span class="bleu">faire</span> は日常会話で非常に頻繁に使われる動詞ですが:
+
+<main class="page-ul-fix">
+<ul>
+<li>活用が不規則で覚えにくい</li> 
+<li>発音が似ていて聞き取りにくい</li>  
+<li>意味の幅が広く、使い分けが難しい</li> 
+</ul> 
+</main>
+
+といった理由で、初学者がつまずきやすい動詞のひとつです。このページでは、活用表だけでなく、例文・音声・使い方のコツ・よくある間違いなどを丁寧に解説し、実際に使える知識として身につけられるように構成しています。
+
+
+
 <style type="text/css">
 
 table {
@@ -130,6 +147,17 @@ letter-spacing: inherit;
     white-space: nowrap;
   }
   .link-btn:focus { outline: 2px solid #4970a7; outline-offset: 2px; }
+  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
 </style>
 
 <script defer>
@@ -164,12 +192,28 @@ document.addEventListener('DOMContentLoaded', () => {
 ### faire の基本事項
 
 「faire」のような重要な動詞は、口頭練習と並行して活用の基本を押さえることで、理解と応用力がぐっと深まります。
-以下が活用表です。ここでは、不定詞・現在形・現在分詞・過去分詞を紹介します。　ポイントは以下になります。
+以下が活用表です。ここでは、不定詞・現在形・現在分詞・過去分詞を紹介しています。　ポイントは以下になります。
 
-1. 現在形は日常会話で最もよく使われるので、まずはここを重点的に。
-2. 現在分詞　faisant は「すること」「によって」のような副詞的に働き、動作の同時性や手段・方法を表します。
-3. 複合過去は、avoirの現在形 + fait（過去分詞）となります（例： j'ai fait「私は～した」）。
-4. 発音は主語とセットで覚えると、口に出しやすくなります。
+<main class="page-ul-fix">
+<ul>
+<li>現在形は日常会話で最もよく使われるます。</li>
+<li>faire は不規則動詞の代表で、語幹が <span class="bleu">fais–</span> / <span class="bleu">fait–</span> / <span class="bleu">fer–</span> 
+と変化します。</li>
+<li>現在分詞　faisant は「すること」「によって」のような副詞的に働き、動作の同時性や手段・方法を表します。</li>
+<li>avoirの現在形 + fait（過去分詞）で複合過去となります（例： j'ai fait「私は～した」）。</li>
+<li>発音は主語とセットで覚えると、口に出しやすくなります。特に現在形では、以下の3つが同じ発音になるため注意が必要です。</li>
+<ul>
+   <li>je fais（ジュ フェ）</li>  
+   <li>tu fais（テュ フェ）</li>  
+   <li>il/elle fait（イル／エル フェ）</li>
+   </ul>
+</ul>
+</main>
+
+また、faire は「〜をする」という基本的な意味のほかに、天気・スポーツ・家事・表現の決まり文句など、多くの場面で使われる非常に重要な動詞です。
+このページでは、まず活用のキホンを押さえ、次に天気等の例文、そしてスポーツ、家事の表現での冠詞の変化を説明しています。
+
+
 
 <main class="page-ul-fix">
 <table class="resp_table">
@@ -334,10 +378,10 @@ document.addEventListener('DOMContentLoaded', () => {
   </colgroup>
     <thead>
     <tr>
-        <th width="35%">phrase</th>
-        <th width="30%">訳</th>
-        <th width="10%">音声</th>
-        <th width="25%">コメント</th>
+        <th width="32%">phrase</th>
+        <th width="25%">訳</th>
+        <th width="8%">音声</th>
+        <th width="35%">コメント</th>
     </tr>
     </thead>
 <tbody>
@@ -354,7 +398,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>  
-    <td rowspan="3">以下のリンクより詳しい説明があります。<br><span class="verde">「Il faitで表現する天気が良い、悪い、暑い、寒い」</span><br>
+    <td rowspan="3"><span class="noir">faire + 天気の表現はフランス語の決まり文句です。初心者は <strong>Il est beau</strong> と言ってしまいがちですが、これは誤りです。
+天気を表すとき </span><span class="bleu">faire</span> <span class="noir">を使うと覚えておきましょう。 <br>また、以下のリンクより詳しい説明があります。</span><br><span class="verde">「Il faitで表現する天気が良い、悪い、暑い、寒い」</span>
             <a class="link-btn"
            href="https://southwiseman.blog/fran%C3%A7ais/il_fait_tempo/"
            target="_blank" rel="noopener noreferrer"
@@ -497,6 +542,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 ### 動詞 faire の使い方：日常的な行動・活動を言うときの冠詞のつけ方
 
+<span class="bleu">faire + du/de la + スポーツ名</span> で「〜をする」という意味になります。スポーツ名の前に冠詞が必要になる点が日本語話者には難しいポイントです。
+
 
 
 <main class="page-ul-fix">
@@ -599,3 +646,18 @@ document.addEventListener('DOMContentLoaded', () => {
 </tbody>
 </table>
 </main>　
+
+### まとめ
+
+<main class="page-ul-fix">
+<ul>
+<li>faire は不規則動詞で、現在形の発音が似ているため注意</li>  
+<li>天気・スポーツ・家事など、日常会話で非常に頻繁に使われる</li>  
+<li>例文と音声で「使われる場面」をセットで覚えると定着しやすい</li> 
+</ul>
+</main>
+
+次のステップ：
+faire を学んだら、同じく頻出の動詞「aller」「venir」「mettre」などを
+順番に学ぶと、日常会話の表現力が一気に広がります。
+
