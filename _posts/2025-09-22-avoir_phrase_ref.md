@@ -22,7 +22,8 @@ last_modified_at : 2026-03-08 11:20:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ avoir ～<!--more--><br>
 この記事は、フランス語を初めて学ぶ方、基礎動詞の使い方を整理したい方、そして日常会話でよく使う表現を効率よく覚えたい方を対象にしています。<br>
-*音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。*
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
+
 
 
 <style type="text/css">
@@ -77,9 +78,17 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
 .rouge {
 color: #d9180eff;
-font-size: 1.14em;
+font-size: 1.10em;
 font-weight: 500;
 font-style: italic;
 font-family: inherit;
@@ -179,6 +188,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <li>助動詞として:他の動詞の過去分詞と結びついて、複合過去（「～した」）を作ります。</li>
 <ul><li>J'<span class="bleu">ai </span>mangé (私は食べた、ジェ・モンジェ)</li></ul>
 </ul>
+</main>
 
 <span class="rouge">英語の"be動詞"にあたる être とともに、**avoir** は、フランス語の基本的な文を理解するために不可欠な動詞です。</span><br>
 
