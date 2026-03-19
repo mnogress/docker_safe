@@ -26,7 +26,7 @@ last_modified_at : 2026-03-17 11:30:00
 
 
 このページでは、フランス語の重要動詞「faire（〜する、行う）」の活用と実際の使い方を、初心者の方でも迷わず学べるように整理しています。
-音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
 
 この記事は、フランス語を初めて学ぶ方、基礎動詞の使い方を整理したい方を対象にしています。<span class="bleu">faire</span> は日常会話で非常に頻繁に使われる動詞ですが:
 
@@ -99,6 +99,14 @@ color: rgb(45, 43, 42);
 font-size: 0.7em;
 font-weight: 500;
 font-style: normal;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
 letter-spacing: 0.02em;
 }

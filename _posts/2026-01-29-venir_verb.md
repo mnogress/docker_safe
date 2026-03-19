@@ -21,10 +21,24 @@ date: 2026-01-29
 last_modified_at : 2026-01-31 10:30:00
 ---
 venir（ヴニール） は「来る」という意味が基本ですが、「venir de + 不定詞」は「～したところだ」「～したばかりだ」という、
-非常に近い過去（近接過去）を表す重要動詞 です。日常の会話で出身から、過去の習慣など様々な場面で使います。<!--more-->
+非常に近い過去（近接過去）を表す重要動詞 です。日常の会話で出身から、過去の習慣など様々な場面で使います。<!--more--><br>
 
+このページでは、フランス語の基本動詞 *venir*（来る）の活用と使い方を、初学者向けにわかりやすくまとめています。
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
 
 ### フランス語基本メモ｜venir（ヴニール） 動詞の活用（音声付き）
+
+venir は「来る」を表す基本動詞ですが、以下のように意味が広がります。
+
+<main class="page-ul-fix">
+<ul>
+<li><strong>venir de + 場所</strong>：〜から来る</li>
+<li><strong>venir de + 動詞原形</strong>：〜したばかり</li>
+<li><strong>en venir à + 動詞</strong>：〜するようになる</li>
+<li><strong>s’en venir</strong>：やって来る（口語）</li>
+</ul>
+</main>
+
 
 venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去、、複合過去、単純未来について音声ファイルを交えて表形式でまとめてみました。
 
@@ -236,6 +250,20 @@ venir（ヴニール）の不定詞、過去分詞、直説法現在、半過去
 </main>
 {% endraw %}
 
+### 日本語話者が特につまずきやすいポイント
+
+<div class="box33">
+    <span class="box-title">よくある間違い</span>
+    <ol>
+    <li>aller（行く）と混同しやすい  aller(英：go)   venir(英：come)</li>
+    <li>venir <span class="bleu">de + 場所</span>「～来た、出身だ」 と venir <span class="bleu">de + 動詞原形</span>「～したところだ」近接過去 の違い</li>
+    <li>発音：viens(ヴィヤン 鼻母音あり) / vient(ヴィヤン 鼻母音あり) / viennent(ヴィエンヌ 鼻母音なし) </li></ol>
+</div>
+
+### まとめ
+venir は「来る」だけでなく、熟語で意味が広がる重要動詞です。次は aller（行く）や arriver（到着する）と比較すると理解が深まります。
+
+
 <style type="text/css">
     .player {
       margin: 1rem 0;
@@ -301,6 +329,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: red;
@@ -448,6 +484,38 @@ letter-spacing: inherit;
   border-radius: 6px;
   padding: 8px 12px;
   background: #fafafa;
+}
+/* details の見た目を整える（任意） */
+.details-grid details {
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 8px 12px;
+  background: #fafafa;
+}
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0092ca;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0092ca;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
 }
 </style>
 
