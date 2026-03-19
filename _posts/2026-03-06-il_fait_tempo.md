@@ -22,7 +22,8 @@ last_modified_at : 2026-03-06 08:30:00
 ---
 Il fait を使った、天気に関する会話についてまとめました。<!--more-->Il fait で「天気が良い、悪い、暑い、寒い」など、雨と雪以外のさまざまな表現で使われます。<br>
 音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。<br>
-*この記事は、フランス語を初めて学ぶ方、基礎動詞の使い方を整理したい方を対象にしています。*
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
+
 
 ### フランス語の天気表現
 フランス語の天気表現は、日本語や英語と構造が大きく異なるため、初学者が特につまずきやすい分野です。
@@ -306,6 +307,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: red;
