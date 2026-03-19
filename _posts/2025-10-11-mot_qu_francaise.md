@@ -24,6 +24,34 @@ last_modified_at : 2025-10-11 14:30:00
 音を表現する文字と考えると理解しやすいです。　
 **qu を含むフランス単語**をまとめました。<!--more-->
 
+### はじめに
+
+このページでは、フランス語で「qu〜」から始まる語（que, qui, quoi など）の基本的な発音「k」(ク)、意味と使い方をまとめています。これらの語は疑問文・関係代名詞・感嘆文など、さまざまな文で使われるため、初学者が特に混乱しやすい分野です。
+
+### 日本語話者が特につまずきやすいポイント
+
+<div class="box33">
+    <span class="box-title">よくある間違い</span>
+    <ol>
+    <li>qui と que の違い（主語 vs 目的語）</li>
+    <ol>
+    <li>Le livre que j’ai acheté.（私が買った本）</li>
+    <li>La femme qui parle.（話している女性）</li>
+    </ol>
+    <li>quoi は単独では使えず、前置詞の後に置く</li>
+    <ol>
+    <li>De quoi parlez-vous ?（何について話しているのですか）</li>
+    </ol>
+    <li>qu’est-ce que と qu’est-ce qui の違い</li>
+    <ol>
+    <li>Qu’est-ce que tu fais ?（何をしているの）</li>
+    <li>Qu’est-ce qui fait ce bruit ?（何がこの音を出しているの）</li>
+    </ol>
+    <li>que の省略（Je pense qu’il…）の発音の注意点  (ジュ・ポンス・キル)</li>
+    </ol>
+</div>
+
+
 <style type="text/css">
 
 table {
@@ -113,6 +141,54 @@ line-height: 1.1;
 display: inline-block;
 letter-spacing: inherit;
 }
+  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
+
+/* 左端に固定 */
+.left-align {
+  align-self: flex-start;
+  margin-left: 0;
+}
+
+/* 左から少し内側に寄せる */
+.left-inner {
+  align-self: flex-start;
+  margin-left: 50px; /* 調整可能 */
+}
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0092ca;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0092ca;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
+}
 </style>
 
 ### que を含むフランス単語と短文
@@ -150,8 +226,11 @@ letter-spacing: inherit;
 
 **qui キ　または カ** と発音します。　　**「Qui」**は、疑問代名詞の**「誰」**でお馴染みです。
 
+Qui est là ?（誰がそこにいますか）
+
 | つづり字 |読み方   | 日本語訳 |　英訳・コメント |
 | :-----         | :----         | :-----         | :-----        |
+| <span class="bleu">Qui</span> est là ? 　　|キ・エ・ラ？|誰がそこにいますか|英：Who's there ?|
 | in<span class="bleu">qui</span>et, in<span class="bleu">qui</span>ète 　　|アンキエ，アンキエット|不安な，心配な||
 | s'in<span class="bleu">qui</span>eter  　　|サンキエテ|心配する||
 | e<span class="bleu">qui</span>p 　　 |エキプ|チーム㊛|英語読みの'イクイップ'と発音しない|
@@ -200,3 +279,12 @@ letter-spacing: inherit;
 | Ira<span class="bleu">q</span> 　　|イラク|イラク 国名||
 
 
+### まとめ
+
+<main class="page-ul-fix">
+<ol>
+<li>qu〜で始まる語は、疑問文・関係代名詞・感嘆文など多くの文で使われる重要語です。</li>  
+<li>短い語ですが、文の構造を理解するうえで欠かせません。</li>  
+<li>次は、関係代名詞（qui / que）を学ぶと理解が深まります。</li>
+</ol>
+</main>  
