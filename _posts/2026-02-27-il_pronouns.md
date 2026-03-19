@@ -28,7 +28,7 @@ il, ill が含まれる単語の発音をまとめました。<!--more--><br>
 この記事では、フランス語の発音で特に混乱しやすい「il / ill」を含む単語の発音パターンを体系的にまとめています。<br>
 il / ill は、語によって「イル」「ユ」「イユ」「発音しない」など複数の読み方があり、初学者が最もつまずきやすいポイントのひとつです。<br>
 このページでは、例単語・音声・意味をセットで確認しながら、正しい発音とつづりの関係を理解できるように構成しています。<br>
-*音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。*
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
 
 
 
@@ -332,6 +332,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: red;

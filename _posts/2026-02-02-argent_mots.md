@@ -23,7 +23,7 @@ last_modified_at : 2026-02-04 08:30:00
 お金に関する語彙について音声ファイルを交えて表形式でまとめてみました。お金についての会話は、日常生活には必須です。<!--more-->
 このページでは、フランス語で「お金」に関する基本語彙を、日本語話者がつまずきやすいポイントとともに整理しています。
 日常会話・旅行・買い物で必ず使う表現を、音声付きで学べます。<br>
-*各単語・例文にはネイティブ音声を付けています。発音練習やシャドーイングに活用してください。*
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
 
 
 
@@ -622,6 +622,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: red;
