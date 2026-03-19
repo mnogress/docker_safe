@@ -21,8 +21,9 @@ date: 2026-03-09
 last_modified_at : 2026-03-09 8:30:00
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ aller ～<!--more--><br>
-音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。<br>
-*この記事は、フランス語を初めて学ぶ方、基礎動詞の使い方を整理したい方を対象にしています*
+この記事は、フランス語を初めて学ぶ方、基礎動詞の使い方を整理したい方を対象にしています。<br>
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
+
 
 ### はじめに
 
@@ -106,6 +107,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: rgb(160, 15, 8);

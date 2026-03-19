@@ -20,11 +20,48 @@ tag: ["French", "フランス語学習"]
 date: 2026-03-02
 last_modified_at : 2026-03-02 08:30:00
 ---
-非人称代名詞(Il)を使った、天気に関する会話についてまとめました。<!--more-->雨が降っている・雪が降っているという表現は、pleuvoir（プルヴォワール） neiger （ネイジェ）それぞれ専用の動詞を使い、非人称代名詞(il)のみを主語として持ちます。
+非人称代名詞(Il)を使った、天気に関する会話の中の「雨が降る」、「雪が降る」ついてについてまとめました。<!--more-->
+
+### はじめに
+
+<main class="page-ul-fix">
+<ul>
+<li>このページでは、フランス語の天気を表す基本表現「Il pleut（雨が降っている）」「Il neige（雪が降っている）」の使い方をまとめています。</li>
+<li>これらは非人称構文と呼ばれ、主語の il は「人」ではなく「天気」を表します。</li>
+<li>初学者が混乱しやすいポイントを、例文とともにわかりやすく説明します。</li>
+<li>雨が降っている・雪が降っているという表現は、pleuvoir（プルヴォワール） neiger （ネイジェ）それぞれ専用の動詞を使います。</li>
+<li>非人称代名詞(il)のみを主語として持ちます。Il pleut / Il neige の il は「彼」ではなく、天気を表す非人称の il です。そのため、動詞 pleuvoir / neiger は<strong>三人称単数形のみ</strong>を使います。</li>
+</ul>
+</main>
+
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span><br>
+
+
+### 日本語話者が特につまずきやすいポイント
+
+<div class="box33">
+    <span class="box-title">よくある間違い</span>
+    <ol>
+    <li>Il pleut / Il neige の il は「彼」ではない（非人称）</li>
+    <li>pleuvoir / neiger は三人称単数形しか使わない</li>
+    <li>「雨が降る」は Il pleut（Il fait pluie とは言わない）</li>
+    <li>未来の天気は aller + 動詞（Il va pleuvoir）</li>
+    </ol>
+</div>
+
+### “Il fait” との違い
+
+<main class="page-ul-fix">
+<ul>
+<li>Il fait + 形容詞：天気の状態（暑い・寒い・いい天気）</li> 
+<li>Il pleut / Il neige：気象現象（雨・雪）</li> 
+<li>Il fait froid.（寒い）</li> 
+<li>Il neige.（雪が降っている）</li> 
+</ul>
+</main>
 
 
 ### 雨が降る：pleuvoir（プルヴォワール）の活用と用法｜（音声付き）
-
 
 
 {% raw %}
@@ -178,6 +215,18 @@ last_modified_at : 2026-03-02 08:30:00
         </button>
 </div> 
 
+<div markdown='1'>
+### まとめ
+</div>
+
+<main class="page-ul-fix">
+<ul>
+<li>Il pleut / Il neige は、天気の現象を表す非人称構文です。</li>
+<li>次は、天気の状態を表す Il fait + 形容詞（Il fait beau / chaud / froid）を学ぶと理解が深まります</li>
+</ul>
+</main>
+
+
 ----
 
 <style type="text/css">
@@ -245,6 +294,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: red;
@@ -399,6 +456,31 @@ letter-spacing: inherit;
   border-radius: 6px;
   padding: 8px 12px;
   background: #fafafa;
+}
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0092ca;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0092ca;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
 }
 </style>
 
