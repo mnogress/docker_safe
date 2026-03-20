@@ -22,6 +22,18 @@ last_modified_at : 2025-11-27 11:30:00
 ---
 フランス語の単語や文を正しく発音するための鉄板ルール（修正・補足）<!--more-->
 
+### このページの目的
+このページでは、フランス語の発音で特につまずきやすい  
+**・母音の読み方  
+・子音の読み方  
+・語末の発音  
+・リエゾンとアンシェヌマン  
+・例外ルール**  
+を、例と音声とともに体系的にまとめています。
+
+日本語話者が誤りやすいポイントを中心に、実際の会話で役立つ発音のコツを解説します。
+
+
 <style type="text/css">
 
 table {
@@ -74,13 +86,28 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.rouge {
-color: red;
-font-size: 1.17em;
-font-weight: 600;
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
 font-style: italic;
 font-family: inherit;
 letter-spacing: 0.02em;
+}
+.rouge {
+color: #d9180eff;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
+.noir {
+color: #090c0cff;
+font-size: 0.850em;
+font-weight: normal;
+font-family: inherit;
+letter-spacing: inherit;
 }
 .bleu {
 color: #0053a6;
@@ -96,12 +123,6 @@ font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
-.bleu {
-color: blue;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
 .petit {
 font-size: 0.80em;
 color: black;
@@ -110,7 +131,61 @@ line-height: 1.1;
 display: inline-block;
 letter-spacing: inherit;
 }
+/* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0092ca;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0092ca;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
 </style>
+
+
+### 日本語話者が特につまずきやすいポイント
+
+<div class="box33">
+    <span class="box-title">押さえるべきポイント</span>
+    <ol>
+    <li>フランス語の母音は日本語より種類が多い</li>
+    <li>語末の子音が発音されるかどうかの判断が難しい</li>
+    <li>鼻母音が日本語に存在しない</li>
+    <li>リエゾンの有無で意味が変わることがある</li>
+    </ol>
+</div>
+
+### よくある誤り
+・ *beau* を「ベウ」と読む → 正しくは「ボー」  
+・ *fille* を「フィル」と読む → 正しくは「フィーユ」  
+・ *on* を「オン」と読む → 鼻母音で「オ」に近い
+
 
 ### １．フランス語では末尾の子音字は原則発音しない。
 例外的に発音する単語もあるため、原則となります。
@@ -248,3 +323,9 @@ letter-spacing: inherit;
 |s<span class="rouge">e|スゥ|自分自身|再帰代名詞　「セ」と発音しない|
 |t<span class="rouge">e|トゥ|君を、君に|「デ」と発音しない|
 |r<span class="rouge">e|ʁə（ʁは喉音）|再～|接頭辞|
+
+
+### まとめ
+・ フランス語の発音はルールを理解すると一気に読みやすくなる  
+・ 鼻母音・語末の子音・リエゾンが特に重要  
+・ 音声で確認しながら練習するのが最も効果的  
