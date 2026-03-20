@@ -202,6 +202,42 @@ line-height: 1.1;
 display: inline-block;
 letter-spacing: inherit;
 }
+/* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0092ca;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0092ca;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
+}
 </style>
 
 ### 聞き返し・確認の表現
@@ -335,15 +371,19 @@ letter-spacing: inherit;
 
 ### 日本人が間違えやすいポイント
 
-・Ça va ? は「元気？」だけでなく「大丈夫？」の意味もある  
-・Pourquoi pas ? は「なぜ？」ではなく「いいね」「OK」  
-・Je ne sais pas → 会話では “J’sais pas / Chais pas” と短縮される  
-・T’inquiète は「心配ないよ」のカジュアル表現  
-・C’est pas grave. は “It’s okay / No problem” の意味  
-・à ～ を受けるときは y を使う（J’y pense）
-
+<div class="box33">
+    <span class="box-title">よくある間違い</span>
+    <ol>
+    <li>Ça va ? は「元気？」だけでなく「大丈夫？」の意味もある</li>
+    <li>Pourquoi pas ? は「なぜ？」ではなく「いいね」「OK」</li>
+    <li>Je ne sais pas → 会話では “J’sais pas / Chais pas” と短縮される </li>
+    <li>T’inquiète は「心配ないよ」のカジュアル表現</li>
+    <li>C’est pas grave. は “It’s okay / No problem” の意味 </li>
+    <li>à ～ を受けるときは y を使う（J’y pense）</li>
+    </ol>
+</div>
 
 ### まとめ
 
-短いフレーズを覚えると、会話のテンポが自然になり、コミュニケーションがスムーズになります。
+短いフレーズを覚えると、会話のテンポが自然になり、コミュニケーションがスムーズになります。<br>
 次は、質問表現（Où, Quand, Comment など）や、返答のバリエーションを学ぶとさらに会話が広がります。
