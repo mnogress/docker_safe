@@ -23,6 +23,36 @@ last_modified_at : 2026-03-05 07:30:00
 不規則な活用をする動詞の直接法現在形をできるだけ主語を網羅して表形式でまとめてみました。<!--more-->
 
 
+### このページの目的
+このページでは、フランス語の不規則動詞を  
+**・意味  
+・活用の特徴  
+・例文  
+・音声（ある場合）**  
+とともに体系的に学べるようにまとめています。
+
+日本語話者が特につまずきやすい「語幹変化」「母音交替」「複合過去の注意点」なども、分かりやすく整理しています。
+
+<span class="violet">※ このページの動詞には音声がついています。  発音と活用をセットで覚えると定着しやすくなります。</span>
+
+
+### 不規則動詞とは？
+フランス語の不規則動詞とは、  
+**活用が規則動詞（-er / -ir / -re）に当てはまらない動詞** のことです。
+
+語幹が変化したり、語尾が特殊になったりするため、  初心者が特につまずきやすい分野です。
+
+### 不規則動詞の主なタイプ
+
+| タイプ | 説明 | 例 |
+| :-----  | :----       | :-----       |
+| **語幹が変化する動詞** | 語幹が複数形で変わる | prendre, venir |
+| **語尾が特殊な動詞** | -s, -x, -t など不規則 | faire, dire |
+| **複合過去が特殊** | avoir / être の使い分けが難しい | naître, mourir |
+| **意味が広い動詞** | 用法が多く混乱しやすい | mettre, tenir |
+
+
+
 ### 不規則動詞の直接法現在形｜（音声付き）
 
 
@@ -522,6 +552,17 @@ last_modified_at : 2026-03-05 07:30:00
 | <span class="noir">aller</span>   |ils vont (イルヴォン)|elles vont (エルヴォン)|
 | <span class="noir">faire</span>   |ils font (イルフォン)|elles font (エルフォン)|
 
+### 次に学ぶと良いページ
+
+・ 規則動詞ER動詞の活用まとめ  
+・ 代名動詞の活用（複合過去の être の復習）  
+・ よく使う動詞100（音声付き）
+
+### まとめ
+・ 不規則動詞は語幹変化・語尾変化・複合過去などが難しい  
+・ 種類ごとに整理すると覚えやすい  
+・ 例文と音声で実際の使い方を確認するのが近道  
+
 
 
 <style type="text/css">
@@ -589,6 +630,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: red;
@@ -744,6 +793,41 @@ letter-spacing: inherit;
   padding: 8px 12px;
   background: #fafafa;
 }
+/* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0092ca;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0092ca;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
 </style>
 
 <script defer>
