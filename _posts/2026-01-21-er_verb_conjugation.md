@@ -24,10 +24,27 @@ last_modified_at : 2026-01-20 10:30:00
 動詞の9割以上を占める第一群規則動詞を指し、活用パターンがシンプルで規則的です。<!--more-->
 このブログでウーエル動詞の活用について直説法現在のみならず、半過去、単純未来、現在分子、過去分詞について音声ファイルを交えてまとめました。
 
+### このページの目的
+このページでは、フランス語の -er 動詞（第一群動詞）の活用を  
+**・規則活用の仕組み  
+・語幹の変化  
+・発音の注意点  
+・よく使う動詞の例文  
+・音声**  
+とともに体系的に学べるようにまとめています。
+
+日本語話者が特につまずきやすい「語尾の発音」「nous / vous の綴り変化」も丁寧に解説します。
+
 
 ### フランス語基本メモ｜er 動詞の活用（音声付き）
 
 ブログでウーエル動詞の直説法現在、半過去、単純未来、現在分子、過去分詞について音声ファイルを交えて表形式でまとめてみました。
+
+**発音のポイント**
+・ 語尾の -e, -es, -ent は **発音しない**<br>
+・ nous の -ons は「オン」<br>
+・ vous の -ez は「エ」ではなく「エ（閉じ気味）」<br>
+
 
 {% raw %}
 <main class="page-ul-fix">
@@ -442,6 +459,33 @@ last_modified_at : 2026-01-20 10:30:00
 </main>
 {% endraw %}
 
+### 注意が必要なパターン
+{% raw %}
+<main class="page-ul-fix">
+<ol>
+<li>aller （行く）の活用は不規則です。このルールは適用されません</li>
+<li> 綴り字の変化: manger(食べる) や commencer(始める) など、発音を保つために nous の時だけ綴りが変わるものがあります。</li>
+   <ul>
+    <li>ger で終わる <span class="bleu">e</span> を残す。 nous mang<span class="bleu">e</span>ons</li> 
+    <li>cer で終わる cを<span class="bleu">ç</span>(セディーユ)にする。nous commen<span class="bleu">ç</span>ons</li>
+   </ul> 
+<li>母音・無音の h: 主語が Je のとき、動詞が母音で始まると J' に短縮（エリジョン）されます（例: J'aime, J'habite）</li>
+</ol>
+</main>
+{% endraw %}
+
+---
+### 次に学ぶと良いページ
+・ -ir 動詞の活用<br>
+・ 不規則動詞（aller, faire, venir）<br>
+・ 代名動詞の活用（me / te / se の位置）<br>
+
+### まとめ
+・ -er 動詞はフランス語の基本で、最初に覚えるべき活用<br>
+・ 語尾はほとんど発音しないため、音声で確認することが重要<br>
+・ 語幹変化のある動詞は例外としてまとめて覚えると効率的<br>
+
+
 
 <style type="text/css">
     .player {
@@ -689,20 +733,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
-### 注意が必要なパターン
-{% raw %}
-<main class="page-ul-fix">
-<ol>
-<li>aller （行く）の活用は不規則です。このルールは適用されません</li>
-<li> 綴り字の変化: manger(食べる) や commencer(始める) など、発音を保つために nous の時だけ綴りが変わるものがあります。</li>
-   <ul>
-    <li>ger で終わる <span class="bleu">e</span> を残す。 nous mang<span class="bleu">e</span>ons</li> 
-    <li>cer で終わる cを<span class="bleu">ç</span>(セディーユ)にする。nous commen<span class="bleu">ç</span>ons</li>
-   </ul> 
-<li>母音・無音の h: 主語が Je のとき、動詞が母音で始まると J' に短縮（エリジョン）されます（例: J'aime, J'habite）</li>
-</ol>
-</main>
-{% endraw %}
+
 
 
 
