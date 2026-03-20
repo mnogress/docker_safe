@@ -22,6 +22,16 @@ last_modified_at : 2026-02-17 11:30:00
 ---
 フランス語の決まり文句や重要フレーズを文法といっしょに覚える文例集 ～ 代名動詞 ～<!--more-->
 
+### このページの目的
+このページでは、フランス語の代名動詞（verbes pronominaux）を 基本の仕組み  
+**・よく使う動詞  
+・活用のポイント  
+・例文と音声での実践**  
+の順に体系的に学べるようにまとめています。
+
+日本人学習者がつまずきやすい「se の意味の多様性」「複合過去の一致」「目的語がある場合の例外」なども、例文とともに分かりやすく解説します。
+
+
 <style type="text/css">
 
 table {
@@ -74,11 +84,21 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.rouge {
-color: red;
-font-weight: normal;
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
+}
+.rouge {
+color: #d9180eff;
+font-size: 1.10em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .bleu {
 color: #0053a6;
@@ -129,16 +149,77 @@ line-height: 1.1;
 display: inline-block;
 letter-spacing: inherit;
 }
+/* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0092ca;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0092ca;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
+}
 </style>
 
 ### 代名動詞の基本事項
 
 代名動詞とは、私(je)等の主語自身の行動や状態がその主語に返ってくることを表す動詞です。不定詞の前に再帰代名詞「se」（自分を、自分に　例:三人称の場合）がつき、動詞が主語に作用する形で使われます。
-　ポイントは以下になります。
 
-1. 代名動詞は日常の動作を表すときによく使われます
-2. 代名動詞の複合過去形は動詞の意味にかかわらず、必ず <span class="bleu">être</span> が使われます
-3. 過去分詞は主語の性・数と一致させます
+**ポイントは以下になります。**
+
+(１) 代名動詞は日常の動作を表すときによく使われます<br>
+(２) 代名動詞の複合過去形は動詞の意味にかかわらず、必ず <span class="bleu">être</span> が使われます<br>
+(３) 過去分詞は主語の性・数と一致させます<br>
+
+### 日本語話者が特につまずきやすいポイント
+
+<div class="box33">
+    <span class="box-title">よくある間違い</span>
+    <ol>
+    <li><strong>se の意味が一つではない</strong>（自分自身／相互／受動など）</li>
+    <li>複合過去で必ず être を使う理由が直感的に分かりにくい</li>
+    <li>過去分詞の性数一致が「目的語の位置」で変わる</li>
+    <li>代名動詞になると意味が変わる動詞がある（s’entendre など</li>
+    </ol>
+</div>
+
+これらを意識しながら例文を読むと理解が深まります。
+
+### 代名動詞の種類
+
+| 種類 | 説明 | 例 |
+| :-----       | :----       | :-----       |
+| **自分自身の動作** | 主語が自分に対して行う動作 | se lever, se laver |
+| **相互動作** | 主語同士が互いに行う動作 | se parler, se téléphoner |
+| **受動的な意味** | 「〜される」「自然に〜になる」 | ça se voit, ça se dit |
+| **意味が変わる動詞** | 代名動詞になると意味が変わる | s’entendre, s’apercevoir |
+
 
 ### 代表的な代名動詞
 
@@ -159,6 +240,7 @@ letter-spacing: inherit;
 | <span class="bleu">s'asseoir</span>   |腰掛ける|サスワール||
 | <span class="bleu">se promener</span>   |散歩する|ス・プロムネ||
 | <span class="bleu">s'arreter</span>   |止める|サラルテ||
+
 
 
 ### 代名動詞の活用　直説法現在と複合過去
@@ -268,6 +350,15 @@ letter-spacing: inherit;
 </tbody>
 </table>
 
+### 複合過去の性数一致について
+代名動詞は複合過去で **必ず être** を使うため、  
+過去分詞は **主語の性・数と一致** します。
+
+ただし、**目的語が後ろにある場合は一致しません。**
+
+例：  
+・ Elle s’est levée.（一致する）  
+・ Elle s’est lavé les mains.（一致しない：目的語 les mains が後ろ）
 
 
 
@@ -385,5 +476,14 @@ letter-spacing: inherit;
 </tbody>
 </table>
 
+### 次に学ぶと良いページ
+・ 再帰代名詞の位置（me / te / se）の並び<br>
+・ 代名動詞と非代名動詞の意味の違い<br>
+・ 朝のルーティンで使う動詞まとめ<br>
+
+### まとめ
+・ 代名動詞は “se + 動詞” の形で、自分自身・相互・受動など複数の意味を持つ  
+・ 複合過去では être を使い、性数一致に注意  
+・ 日常動作で頻出するため、例文と音声で慣れるのが近道  
 
 
