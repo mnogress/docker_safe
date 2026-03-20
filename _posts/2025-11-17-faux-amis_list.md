@@ -24,6 +24,39 @@ last_modified_at : 2025-11-27 10:30:00
 「空似（ソラニ）」は、**異なる言語間で形は似ているが意味が異なる単語や成句**を指します。日本語では「空似言葉」、英語では **false friends**、フランス語では **faux-amis（偽りの友）** と呼ばれます。　
 <!--more-->
 
+### このページの目的
+このページでは、フランス語学習者が特につまずきやすい **faux-amis（フォ・ザミ：空似語）** を  
+日本語話者向けに分かりやすく整理しています。
+
+英語や日本語とつづりが似ていても意味が異なる単語を、  
+**・正しい意味  
+・誤解しやすい理由  
+・例文  
+・音声（ある場合）**  
+とともに理解できるようにまとめています。
+
+### faux-amis（空似語）とは？
+faux-amis とは、英語や日本語とつづりが似ているために  
+**意味を誤解しやすいフランス語の単語** のことです。
+
+例：  
+・ *actuellement*（現在） → ❌ actually（実は）と混同しやすい  
+・ *librairie*（本屋） → ❌ library（図書館）と誤解しやすい
+
+### 日本語話者が faux-amis でつまずく理由
+・ 英語とフランス語の語源が共通で、つづりが似ている  
+・ 日本語の外来語が英語由来のため、意味を英語で推測しがち  
+・ フランス語の意味が英語と微妙にズレている場合が多い  
+
+### 例文
+・ *Je travaille actuellement à Tokyo.*  
+  → 私は現在東京で働いています。
+
+・ *Je vais à la librairie.*  
+  → 私は本屋に行きます。
+
+
+
 <style type="text/css">
 
 table {
@@ -76,28 +109,33 @@ _media screen and (max-width:750px){
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
 .rouge {
-color: red;
-font-weight: bold;
+color: #d9180eff;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
+letter-spacing: 0.02em;
+}
+.noir {
+color: #090c0cff;
+font-weight: normal;
+font-family: inherit;
+letter-spacing: inherit;
+}
+.verde {
+color: rgb(3, 53, 21);
+font-weight: 500;
+font-weight: normal;
+font-family: italic;
 letter-spacing: inherit;
 }
 .bleu {
-color: blue;
-font-weight: normal;
+color: #0053a6;
+font-size: 1.20em;
+font-weight: 500;
+font-style: italic;
 font-family: inherit;
-letter-spacing: inherit;
-}
-.rouge2 {
-color: red;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu2 {
-color: blue;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
+letter-spacing: 0.02em;
 }
 .petit {
 font-size: 0.80em;
@@ -107,6 +145,41 @@ line-height: 1.1;
 display: inline-block;
 letter-spacing: inherit;
 }
+/* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
+
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
+.box33 {
+    position: relative;
+    margin: 2em 0;
+    padding: 15px 10px 7px;
+    border: solid 2px #0092ca;
+    border-radius: 6px;
+}
+.box33 .box-title {
+    position: absolute;
+    display: inline-block;
+    top:  -15px;
+    left:  15px;
+    padding: 0 9px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 20px;
+    background: #0092ca;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 6px;
+}
+.box33 p {
+    margin: 0; 
+    padding: 1em;
 </style>
 
 ### フランス語「空似言葉」（faux-amis）
@@ -177,5 +250,13 @@ letter-spacing: inherit;
 | injonction    | アンジョンクシオン|命令 ㊛|injunction (差し止め命令)||
 
 
+### 次に学ぶと良いページ
+・ フランス語のよくある間違い集  
+・ 初級者が混同しやすい動詞一覧  
+・ 発音ガイド（鼻母音・リエゾン）
 
+### まとめ
+・ faux-amis は英語や日本語とつづりが似ているため誤解しやすい  
+・ 正しい意味と誤解しやすい意味をセットで覚えると効果的  
+・ 例文と音声で確認すると記憶に残りやすい  
 
