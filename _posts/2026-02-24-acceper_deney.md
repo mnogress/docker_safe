@@ -22,9 +22,39 @@ last_modified_at : 2026-02-24 08:30:00
 ---
 承諾・曖昧・断りに関する話し言葉をまとめました。会話において言うまでもなく、必須な表現です。<!--more-->用例と合わせて，色々な場面で使えるようになりましょう。　**音声ファイルは、各phrase を２回まとめて発声します。**
 
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span><br>
 
-### 　承諾・曖昧・断り｜（音声付き）
 
+### このページの目的
+このページでは、フランス語で「誘いを受ける」「断る」場面で使う  
+**・丁寧な表現  
+・カジュアルな表現  
+・曖昧に断る表現  
+・理由を添える断り方**  
+を、例文と音声とともにまとめています。
+
+日本語話者が特につまずきやすい「ニュアンスの違い」「丁寧さのレベル」も分かりやすく整理しています。
+
+#### 受け入れる表現（Acceptation）
+・ Oui, avec plaisir.（喜んで）<br>
+・ Bien sûr !（もちろん）<br>
+・ Pourquoi pas ?（いいね）<br>
+
+#### 丁寧に断る表現（Refus poli）
+・ Je suis désolé, mais je ne peux pas.（すみません、できません）<br>
+・ J’aimerais bien, mais je suis occupé.（行きたいけど、忙しいんです）<br>
+
+#### 曖昧に断る表現（Refus indirect）
+・ On verra.（また今度ね）<br>
+・ Peut-être une autre fois.（また別の機会に）<br>
+
+#### はっきり断る表現（Refus direct）
+・ Non, merci.（結構です）<br>
+・ Ce n’est pas possible pour moi.（無理です）<br>
+
+---
+
+### 承諾・曖昧・断り｜（音声付き）
 
 
 {% raw %}
@@ -182,6 +212,18 @@ last_modified_at : 2026-02-24 08:30:00
   </dl>
 </section>
 
+### 次に学ぶと良いページ
+・ 感情表現のフレーズ集  
+・ 日常会話の基本表現（挨拶・返答）  
+・ フランス語の丁寧表現まとめ  
+
+### まとめ
+・ 誘いを受ける／断る表現は日常会話で非常に重要  
+・ 丁寧さのレベルを理解すると自然な会話ができる  
+・ 音声でニュアンスを確認しながら練習するのが効果的  
+
+
+
 <style type="text/css">
     .player {
       margin: 1rem 0;
@@ -250,55 +292,45 @@ _media screen and (max-width:750px){
 }
 .glossary dt { font-weight: 700; margin-top: 0.75rem; }
 .glossary dd { margin: 0.25rem 0 0.75rem 0; color: #444; }
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
 .rouge {
-color: red;
+color: #d9180eff;
+font-size: 1.14em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
+}
+.noir {
+color: #090c0cff;
+font-size: 0.850em;
 font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
 .bleu {
 color: #0053a6;
-font-size: 1.14em;
-font-weight: 500;
+font-size: 1.17em;
+font-weight: 600;
 font-style: italic;
 font-family: inherit;
 letter-spacing: 0.02em;
 }
 .rouge {
 color: red;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.bleu2 {
-color: blue;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.gold {
-color: #6e5204ff;
-font-weight: 1.33em;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.noir {
-color: #1a0202ff;
-font-size: 1.6em;
-font-family: inherit;
-font-weight: bold;
-letter-spacing: inherit;
-}
-.green {
-color: #055c12ff;
 font-weight: normal;
 font-family: inherit;
 letter-spacing: inherit;
 }
 .petit {
-font-size: 0.85em;
+font-size: 0.80em;
 color: black;
 font-family: inherit;
 line-height: 1.1;
