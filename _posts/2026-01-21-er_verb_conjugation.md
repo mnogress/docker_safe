@@ -24,6 +24,9 @@ last_modified_at : 2026-01-20 10:30:00
 動詞の9割以上を占める第一群規則動詞を指し、活用パターンがシンプルで規則的です。<!--more-->
 このブログでウーエル動詞の活用について直説法現在のみならず、半過去、単純未来、現在分子、過去分詞について音声ファイルを交えてまとめました。
 
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
+
+
 ### このページの目的
 このページでは、フランス語の -er 動詞（第一群動詞）の活用を  
 **・規則活用の仕組み  
@@ -552,6 +555,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: red;
