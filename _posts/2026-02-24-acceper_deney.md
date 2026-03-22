@@ -18,7 +18,7 @@ sidebar:
 category: français
 tag: ["French", "フランス語学習"]
 date: 2026-02-24
-last_modified_at : 2026-02-24 08:30:00
+last_modified_at : 2026-03-18 08:30:00
 ---
 承諾・曖昧・断りに関する話し言葉をまとめました。会話において言うまでもなく、必須な表現です。<!--more-->用例と合わせて，色々な場面で使えるようになりましょう。　**音声ファイルは、各phrase を２回まとめて発声します。**
 
@@ -39,18 +39,50 @@ last_modified_at : 2026-02-24 08:30:00
 ・ Oui, avec plaisir.（喜んで）<br>
 ・ Bien sûr !（もちろん）<br>
 ・ Pourquoi pas ?（いいね）<br>
+      <span class="player">
+            <audio id="DC24_101" preload="auto">
+                <source src="\audio\0224\D01_accept.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="DC24_101">
+                    <span class="label">音声を聴く📢</span>
+                </button>
+      </span>
 
 #### 丁寧に断る表現（Refus poli）
 ・ Je suis désolé, mais je ne peux pas.（すみません、できません）<br>
 ・ J’aimerais bien, mais je suis occupé.（行きたいけど、忙しいんです）<br>
+      <span class="player">
+            <audio id="DC24_102" preload="auto">
+                <source src="\audio\0224\D02_accept.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="DC24_102">
+                    <span class="label">音声を聴く📢</span>
+                </button>
+      </span>
 
 #### 曖昧に断る表現（Refus indirect）
 ・ On verra.（また今度ね）<br>
 ・ Peut-être une autre fois.（また別の機会に）<br>
+      <span class="player">
+            <audio id="DC24_103" preload="auto">
+                <source src="\audio\0224\D03_accept.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="DC24_103">
+                    <span class="label">音声を聴く📢</span>
+                </button>
+      </span>
 
 #### はっきり断る表現（Refus direct）
 ・ Non, merci.（結構です）<br>
 ・ Ce n’est pas possible pour moi.（無理です）<br>
+      <span class="player">
+            <audio id="DC24_104" preload="auto">
+                <source src="\audio\0224\D04_accept.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="DC24_104">
+                    <span class="label">音声を聴く📢</span>
+                </button>
+      </span>
 
 ---
 
