@@ -35,7 +35,7 @@ last_modified_at : 2026-03-18 08:30:00
 
 日本語話者が特につまずきやすい「ニュアンスの違い」「丁寧さのレベル」も分かりやすく整理しています。
 
-#### 受け入れる表現（Acceptation）
+### 受け入れる表現（Acceptation）
 ・ Oui, avec plaisir.（喜んで）<br>
 ・ Bien sûr !（もちろん）<br>
 ・ Pourquoi pas ?（いいね）<br>
@@ -48,7 +48,7 @@ last_modified_at : 2026-03-18 08:30:00
                 </button>
       </span>
 
-#### 丁寧に断る表現（Refus poli）
+### 丁寧に断る表現（Refus poli）
 ・ Je suis désolé, mais je ne peux pas.（すみません、できません）<br>
 ・ J’aimerais bien, mais je suis occupé.（行きたいけど、忙しいんです）<br>
       <span class="player">
@@ -60,7 +60,7 @@ last_modified_at : 2026-03-18 08:30:00
                 </button>
       </span>
 
-#### 曖昧に断る表現（Refus indirect）
+### 曖昧に断る表現（Refus indirect）
 ・ On verra.（また今度ね）<br>
 ・ Peut-être une autre fois.（また別の機会に）<br>
       <span class="player">
@@ -72,7 +72,7 @@ last_modified_at : 2026-03-18 08:30:00
                 </button>
       </span>
 
-#### はっきり断る表現（Refus direct）
+### はっきり断る表現（Refus direct）
 ・ Non, merci.（結構です）<br>
 ・ Ce n’est pas possible pour moi.（無理です）<br>
       <span class="player">
