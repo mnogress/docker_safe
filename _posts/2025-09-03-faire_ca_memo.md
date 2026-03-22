@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <tr>
     <td>現在分詞</td>
     <td><span class="bleu">faisant</span><br><span class="gris_p"> (フザン)</span></td>
-    <td><span class="noir">する</span></td>
+    <td><span class="noir">すること、～によって</span></td>
     <td rowspan="2" ><span class="noir"></span>
           <div class="player">
             <audio id="fre03_103" preload="auto">
@@ -315,13 +315,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 </button>
       </div>
     </td>
-    <td>faisons からons をとってantをつける</td>
+    <td>faisons からons をとってantをつける<br>副詞的に働き、動作の同時性や手段・方法を表す</td>
 </tr>
 <tr>
     <td>過去分詞</td>
     <td><span class="bleu">fait</span><br><span class="gris_p"> (フェ)</span></td>
     <td><span class="noir">した</span></td>
-    <td></td>
+    <td>avoirの現在形 + fait（過去分詞）で複合過去<br> j'ai fait(ジェ・フェ)「私は～した」</td>
 </tr>
 <tr>
     <td rowspan="6">単純未来</td>
