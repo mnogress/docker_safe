@@ -5,21 +5,23 @@ main:
     url: /categories/
   - title: "Tags"
     url: /tags/
+  - title: "👤About"
+    url: /about/
 
 
 docs:
   - title: 🔥よく読まれている記事
     children: 
       - title: "✅フランス語学習者のための「空に言葉 (faux-amis)」"
-        url: /français/faux-amis_list/
+        url: /français/vocabulaire/faux-amis_list/
       - title: "✅qu を含むフランス単語"
-        url: /français/mot_qu_francaise/  
+        url: /français/vocabulaire/mot_qu_francaise/ 
       - title: "✅口で覚えるフランス語　～とっさの表現集～"
-        url: /français/spontanee_phrase/    
+        url: /français/conversation/spontanee_phrase/   
       - title: "✅そのまま覚えるフランス語の文例 ～ faire ～"
-        url: /français/faire_ca_memo/
+        url: /français/conjugaison/faire_ca_memo/
       - title: "✅そのまま覚えるフランス語の文例 ～ aller ～"
-        url: /français/comm_ca_memo/        
+        url: /français/conjugaison/comm_ca_memo/     
   - title: 関連記事
     children:
       - title: "Top"
