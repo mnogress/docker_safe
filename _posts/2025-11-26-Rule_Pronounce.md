@@ -15,7 +15,7 @@ classes:
   #- wide
 sidebar:
   nav: "docs"
-category: français
+categories: [français, prononciation]
 tag: ["French", "フランス語学習"]
 date: 2025-11-26
 last_modified_at : 2025-11-27 11:30:00

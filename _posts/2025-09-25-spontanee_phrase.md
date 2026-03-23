@@ -15,7 +15,7 @@ classes:
   - wide
 sidebar:
   nav: "docs"
-category: français
+category: [français, conversation]
 tag: ["French", "フランス語学習"]
 date: 2025-09-25
 last_modified_at : 2025-09-25 12:30:00

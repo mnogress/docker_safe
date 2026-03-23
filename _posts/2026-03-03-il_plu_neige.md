@@ -15,7 +15,7 @@ classes:
   - wide
 sidebar:
   nav: "docs"
-category: français
+category: [français, grammaire]
 tag: ["French", "フランス語学習"]
 date: 2026-03-02
 last_modified_at : 2026-03-02 08:30:00
@@ -191,7 +191,7 @@ last_modified_at : 2026-03-02 08:30:00
 {% endraw %}
 
 
-### 雪が降る: eiger （ネイジェ）の用法｜（音声付き）
+### 雪が降る: neiger （ネジェ）の用法｜（音声付き）
 
 基本的には**雨が降る：pleuvoir（プルヴォワール）** に**雪が降る: eiger （ネイジェ）** を代入すれば、雪に関する表現になります。
 
