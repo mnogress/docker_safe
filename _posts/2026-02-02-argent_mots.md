@@ -15,7 +15,7 @@ classes:
   - wide
 sidebar:
   nav: "docs"
-category: français
+category: [français, vocabulaire]
 tag: ["French", "フランス語学習"]
 date: 2026-02-02
 last_modified_at : 2026-02-04 08:30:00

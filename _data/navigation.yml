@@ -8,7 +8,7 @@ main:
 
 
 docs:
-  - title: よく読まれている記事
+  - title: 🔥よく読まれている記事
     children: 
       - title: "✅フランス語学習者のための「空に言葉 (faux-amis)」"
         url: /français/faux-amis_list/
@@ -28,7 +28,7 @@ docs:
         url: /categories/
       - title: "TAGs"
         url: /tags/
-      - title: "About"
+      - title: "👤About"
         url: /about/
       - title: "Conditions"
         url: /terms_and_conditions/
