@@ -288,7 +288,8 @@ categories: [français, prononciation]
 
 /français/grammaire/ → 文法カテゴリ
 
-/français/conjugaison/ → 動詞活用カテゴリ
+/français/conjugaison/ → 
+
 
 /français/conversation/ → 会話カテゴリ
 
