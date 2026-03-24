@@ -23,6 +23,8 @@ last_modified_at : 2026-01-25 10:30:00
 prendre（プランドル） は「取る」という意味が基本ですが、フランス語では 日常生活のあらゆる場面で使われる重要動詞 です。
 意味が広く、会話でも頻出するので、早めに覚えておく必要があります。<!--more-->
 
+<span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
+
 
 ### フランス語基本メモ｜不規則動詞の活用（音声付き）
 
@@ -658,6 +660,14 @@ _media screen and (max-width:1280px){
 _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
+}
+.violet {
+color: #cb23d1;
+font-size: 1.0em;
+font-weight: 500;
+font-style: italic;
+font-family: inherit;
+letter-spacing: 0.02em;
 }
 .rouge {
 color: red;
