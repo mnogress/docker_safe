@@ -1,10 +1,8 @@
 main:
   - title: "Top"
     url: /
-  - title: "カテゴリ"
+  - title: "🗂️カテゴリ"
     url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "👤About"
     url: /about/
 
@@ -26,13 +24,11 @@ docs:
     children:
       - title: "Top"
         url: /  
-      - title: "カテゴリ"
+      - title: "🗂️カテゴリ"
         url: /categories/
-      - title: "TAGs"
-        url: /tags/
       - title: "👤About"
         url: /about/
-      - title: "Conditions"
+      - title: "📖Conditions"
         url: /terms_and_conditions/
       - title: "💡External Useful Link"
         url: https://www.so-wi.com 
