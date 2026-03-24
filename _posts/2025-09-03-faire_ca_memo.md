@@ -412,7 +412,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <td rowspan="3"><span class="noir">faire + 天気の表現はフランス語の決まり文句です。初心者は <strong>Il est beau</strong> と言ってしまいがちですが、これは誤りです。
 天気を表すとき </span><span class="bleu">faire</span> <span class="noir">を使うと覚えておきましょう。 <br>また、以下のリンクより詳しい説明があります。</span><br><span class="verde">「Il faitで表現する天気が良い、悪い、暑い、寒い」</span>
             <a class="link-btn"
-           href="https://southwiseman.blog/fran%C3%A7ais/il_fait_tempo/"
+           href="/français/grammaire/il_plu_neige/"
            target="_blank" rel="noopener noreferrer"
            aria-label="Il fait で天気を表現く（新しいタブ）">
           リンク
