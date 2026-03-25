@@ -366,8 +366,9 @@ letter-spacing: inherit;
 ・Oui, **j’y** pense.  
 ・Non, **je n’y** pense pas.
 
-**j’y は「ジィ」と読む。  「ジェ・イ」は間違い。**
-
+🗣️（発音）<br>
+・ **j’y は「ジィ」と読む。  「ジェ・イ」は間違い。**<br>
+・ **je n’y** は、<span class="rouge">「ジュ・ニ」</span>となります。**n’y → ニ**
 
 ### 日本人が間違えやすいポイント
 
@@ -376,9 +377,9 @@ letter-spacing: inherit;
     <ol>
     <li>Ça va ? は「元気？」だけでなく「大丈夫？」の意味もある</li>
     <li>Pourquoi pas ? は「なぜ？」ではなく「いいね」「OK」</li>
-    <li>Je ne sais pas → 会話では “J’sais pas / Chais pas” と短縮される </li>
-    <li>T’inquiète は「心配ないよ」のカジュアル表現</li>
-    <li>C’est pas grave. は “It’s okay / No problem” の意味 </li>
+    <li>Je ne sais pas (ジュヌセパ)→ 会話では “J’sais pas (ジェパ) / Chais pas (シェパ)” と短縮される </li>
+    <li>T’inquiète (タンキェット) は「心配ないよ」のカジュアル表現</li>
+    <li>C’est pas grave. (セパグレイヴ) は “It’s okay / No problem” の意味 </li>
     <li>à ～ を受けるときは y を使う（J’y pense）</li>
     </ol>
 </div>
