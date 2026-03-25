@@ -221,6 +221,22 @@ Il fait を使った、天気に関する会話についてまとめました。
 {% endraw %}
 
 
+#### Il est を使った天気表現
+
+時刻＋天気の状態を説明する場合、**天気そのものではなく、「その時点の状況」を述べる**ときに **Il est** が使われます。
+
+・Il **est** tard et il fait encore chaud.  もう遅いのに、まだ暑い。<br>
+・Il **est** tôt mais il fait déjà très chaud.  まだ早いのに、もうとても暑い。
+
+👉 <span class="bleu2">Il est は「時間・状況の説明」で、天気そのものを表すわけではありません。</span>
+
+形容詞で「空の状態」を述べるとき、「空が〜だ」という意味で **Il est + 形容詞** が使われることがあります。
+
+・Il **est** nuageux.   曇っている。（＝空が曇っている）<br>
+・Il **est** brumeux.  霧がかかっている。
+
+👉 ただし、日常会話では **Il fait nuageux / Il y a des nuages** の方が一般的です。
+
 <div markdown='1'>
 ### まとめ
 </div>
@@ -338,8 +354,8 @@ font-family: inherit;
 letter-spacing: 0.02em;
 }
 .bleu2 {
-color: blue;
-font-weight: normal;
+color: #0053a6;
+font-weight: 500;
 font-family: inherit;
 letter-spacing: inherit;
 }
