@@ -1,5 +1,5 @@
 main:
-  - title: "Top"
+  - title: "🥉Top"
     url: /
   - title: "🗂️カテゴリ"
     url: /categories/
@@ -22,7 +22,7 @@ docs:
         url: /français/conjugaison/comm_ca_memo/     
   - title: 関連記事
     children:
-      - title: "Top"
+      - title: "🥉Top"
         url: /  
       - title: "🗂️カテゴリ"
         url: /categories/
