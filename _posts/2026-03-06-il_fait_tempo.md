@@ -30,7 +30,7 @@ Il fait を使った、天気に関する会話についてまとめました。
 <main class="page-ul-fix">
 <ul>
 <li>英語の “It is …” に相当する表現が複数ある</li> 
-<li>faire / pleuvoir / être / il y a の使い分けが必要</li>  
+<li>faire / pleuvoir(自然現象) / être(限定的) / il y a の使い分けが必要</li>  
 <li>気温や体感温度の表現が日本語と一致しない</li>  
 </ul>
 </main>
@@ -236,6 +236,17 @@ Il fait を使った、天気に関する会話についてまとめました。
 ・Il **est** brumeux.  霧がかかっている。
 
 👉 ただし、日常会話では **Il fait nuageux / Il y a des nuages** の方が一般的です。
+
+
+### Il pleut は「雨が降る」という自然現象を述べる文
+
+Il pleut は：
+・「雨」という名詞を主語にしているわけではない
+・「天気」という概念を主語にしているわけでもない
+
+自然現象を動詞で表す “非人称構文”です。　この用例には、他に neiger (ネジェ：雪が降る)があります。
+<p><a href="/français/grammaire/il_plu_neige/">➡️ 「Il pleut. (雨が降る)　Il neige. (雪が降る)の表現のまとめ」を見てください</a></p>
+
 
 <div markdown='1'>
 ### まとめ
