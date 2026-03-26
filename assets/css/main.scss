@@ -17,6 +17,19 @@ font-style: italic;
 font-family: inherit;
 letter-spacing: 0.02em;
 }
+.verde {
+color: rgb(3, 53, 21);
+font-weight: 500;
+font-weight: normal;
+font-family: italic;
+letter-spacing: inherit;
+}
+.green {
+color: #055c12ff;
+font-weight: normal;
+font-family: inherit;
+letter-spacing: inherit;
+}
 .rouge {
 color: #d9180eff;
 font-size: 1.14em;
@@ -244,3 +257,6 @@ th {
   /* 色定義（テーマ変更しやすいようにCSS変数も併用可） */
   .is-blue { color: #1565c0; }
   .is-red  { color: #c62828; }
+.mytable tbody.rowgroup { background: #78aae3; }        /* デフォルト色 */
+.mytable tbody.rowgroup.group-a { background: #17bb25; } /* Aは淡いグリーン */
+.mytable tbody.rowgroup.group-b { background: #4c3d0a; } /* Bは淡いイエロー */
