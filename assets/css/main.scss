@@ -13,7 +13,9 @@ search: false
   position: static !important;
 }
 .article-bottom-ad {
-  min-height: 250px;
-  margin: 2em 0;
+  min-height: 250px !important;
   display: block;
+  margin: 2em 0;
+  position: relative;
+  z-index: 1;
 }

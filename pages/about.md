@@ -4,6 +4,8 @@ title: "About me"
 layout: single
 author_profile: false
 ---
+<div style="min-height: 250px;"></div>
+
 <div style="background-color:black;color:white;padding:1.3em;opacity: 0.64;">管理人の SouthWiseMan です。</div>
 <div style="background-color:#0092ca;color:white;padding:1.3em 1.3em 9em;opacity: 0.8;">
 
