@@ -43,12 +43,11 @@ layout: default
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
-
-<!--
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8046608827018069"
+<div class="article-bottom-ad">
+        <!-- Google AdSense -->
+         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8046608827018069"
      crossorigin="anonymous"></script>
-<!-- southwiseman_side -->
-<!--<ins class="adsbygoogle"
+<ins class="adsbygoogle"
      style="display:block"
      data-ad-client="ca-pub-8046608827018069"
      data-ad-slot="5579773197"
@@ -57,7 +56,7 @@ layout: default
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
--->
+</div>
       <footer class="page__meta">
         {% if site.data.ui-text[site.locale].meta_label %}
           <h4 class="page__meta-title">{{ site.data.ui-text[site.locale].meta_label }}</h4>
