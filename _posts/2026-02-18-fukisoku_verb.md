@@ -46,10 +46,10 @@ last_modified_at : 2026-03-05 07:30:00
 
 | タイプ | 説明 | 例 |
 | :-----  | :----       | :-----       |
-| **語幹が変化する動詞** | 語幹が複数形で変わる | prendre, venir |
-| **語尾が特殊な動詞** | -s, -x, -t など不規則 | faire, dire |
-| **複合過去が特殊** | avoir / être の使い分けが難しい | naître, mourir |
-| **意味が広い動詞** | 用法が多く混乱しやすい | mettre, tenir |
+| **語幹が変化する動詞** | 語幹が複数形で変わる | <span class="bleu2">prendre:</span> (単数の語幹) **prend-** (複数の語幹) **pren- / prenn-** <br> <span class="bleu2">venir:</span> (単数の語幹) **vien-**	(複数の語幹) **ven- / vienn-**|
+| **語尾が特殊な動詞** | -s, -x, -t など不規則 | faire(下の表を参照), dire |
+| **複合過去が特殊** | avoir / être の使い分けが難しい | naître(ネートル: 生まれる), mourir(ムリール: 死ぬ) <br>・je **suis** né(e)（ジュ スィ ネ）＝私は生まれた<br>・il **est** mort（イル エ モール）＝彼は死んだ|
+| **意味が広い動詞** | 用法が多く混乱しやすい | **mettre:** 置く、着る、入れる、始める、つける、時間がかかる<br>**tenir:** 持つ、守る、維持する、似ている、大切にする |
 
 
 
@@ -73,7 +73,7 @@ last_modified_at : 2026-03-05 07:30:00
 </thead>
 <tbody>
 <tr>
-    <td><span class="noir">être</span><br>(エトゥ)<br>
+    <td><span class="noir4">être</span><br>(エトゥ)<br>
      ～である<br>
      (過去分詞：été)
     </td>
@@ -131,7 +131,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">avoir</span><br>(アヴォァ)<br>
+    <td><span class="noir4">avoir</span><br>(アヴォァ)<br>
      ～を持つ<br>
      (過去分詞：eu)
     </td>
@@ -189,7 +189,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">aller</span><br>(アレ)<br>
+    <td><span class="noir4">aller</span><br>(アレ)<br>
      行く<br>
      (過去分詞：allé)
     </td>
@@ -247,7 +247,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">faire</span><br>(フェール)<br>
+    <td><span class="noir4">faire</span><br>(フェール)<br>
      する<br>
      (過去分詞：fait)
     </td>
@@ -305,7 +305,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">connaître</span><br>(コネートル)<br>
+    <td><span class="noir4">connaître</span><br>(コネートル)<br>
      知っている<br>
      (過去分詞：connu)
     </td>
@@ -362,7 +362,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">savoir</span><br>(サヴォワール)<br>
+    <td><span class="noir4">savoir</span><br>(サヴォワール)<br>
      知っている<br>
      (過去分詞：su)
     </td>
@@ -419,7 +419,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">pouvoir</span><br>(プヴォワール)<br>
+    <td><span class="noir4">pouvoir</span><br>(プヴォワール)<br>
      できる<br>
      (過去分詞：pu)
     </td>
@@ -477,7 +477,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">vouloir</span><br>(ヴロワール)<br>
+    <td><span class="noir4">vouloir</span><br>(ヴロワール)<br>
      欲しい<br>
      (過去分詞：voulu)
     </td>
@@ -547,10 +547,10 @@ last_modified_at : 2026-03-05 07:30:00
 
 | 動詞 | ils (読み方) |　elles (読み方）|
 | :-----       | :----       | :-----       | 
-| <span class="noir">être</span>   |ils sont (イルソン)|elles sont (エルソン)|
-| <span class="noir">avoir</span>   |ils ont (イルゾン)|elles ont (エルゾン)|
-| <span class="noir">aller</span>   |ils vont (イルヴォン)|elles vont (エルヴォン)|
-| <span class="noir">faire</span>   |ils font (イルフォン)|elles font (エルフォン)|
+| <span class="noir4">être</span>   |ils sont (イルソン)|elles sont (エルソン)|
+| <span class="noir4">avoir</span>   |ils ont (イルゾン)|elles ont (エルゾン)|
+| <span class="noir4">aller</span>   |ils vont (イルヴォン)|elles vont (エルヴォン)|
+| <span class="noir4">faire</span>   |ils font (イルフォン)|elles font (エルフォン)|
 
 ### 次に学ぶと良いページ
 
@@ -566,26 +566,12 @@ last_modified_at : 2026-03-05 07:30:00
 
 
 <style type="text/css">
-    .player {
-      margin: 1rem 0;
-      display: flex;
-      gap: 0.75rem;
-      align-items: center;
-    }
-    button {
-      padding: 0.4rem 0.8rem;
-    }
-    audio {
-      /* 画面に出したくない場合は隠してもOK */
-      display: none;
-    }
-
 table {
   display: block;
   margin-bottom: 1em;
   width: 100%;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.8em;
+  font-size: 0.75em;
   border-collapse: collapse;
   overflow-x: auto;
 }
@@ -603,7 +589,6 @@ th {
   padding: 0.5em;
   font-weight: bold;
   text-align: start;
-  text-align: center;
 }
 
 td {
@@ -631,89 +616,6 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.violet {
-color: #cb23d1;
-font-size: 1.0em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: red;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge2 {
-color: red;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu2 {
-color: blue;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.gold {
-color: #6e5204ff;
-font-weight: 1.33em;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.noir {
-color: #1a0202ff;
-font-size: 1.6em;
-font-family: inherit;
-font-weight: bold;
-letter-spacing: inherit;
-}
-.green {
-color: #055c12ff;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.petit {
-font-size: 0.7em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
-
-.chat-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* 吹き出し間の余白 */
-  max-width: 900px;
-}
-
-.speech-bubble {
-  position: relative;
-  background: #f9f9f9;
-  border-radius: 13px;
-  padding: 10px 15px;
-  width: fit-content;
-  max-width: 900px;
-  font-size: 16px;
-  color: #333;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-  margin-bottom: 12px
-}
 
   /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
@@ -726,108 +628,6 @@ letter-spacing: inherit;
     font-size: 1rem;       /* 任意のサイズに */
     line-height: 1.6;      /* 読みやすさ調整（任意） */
   }
-
-/* 左端に固定 */
-.left-align {
-  align-self: flex-start;
-  margin-left: 0;
-}
-
-/* 左から少し内側に寄せる */
-.left-inner {
-  align-self: flex-start;
-  margin-left: 50px; /* 調整可能 */
-}
-
-.speech-bubble.bottom::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-top-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-.speech-bubble.left::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: -20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-right-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-.speech-bubble.right::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  right: -20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-left-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-  #rate-control { display:flex; align-items:center; gap:1rem; margin:1rem 0; }
-  #status { margin-top: .5rem; color: #333; }
-
-/* details をカード風にして2列に並べる */
-.details-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 16px;
-  margin-top: 20px;
-}
-
-/* details の見た目を整える（任意） */
-.details-grid details {
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 8px 12px;
-  background: #fafafa;
-}
-/* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
-.box33 {
-    position: relative;
-    margin: 2em 0;
-    padding: 15px 10px 7px;
-    border: solid 2px #0092ca;
-    border-radius: 6px;
-}
-.box33 .box-title {
-    position: absolute;
-    display: inline-block;
-    top:  -15px;
-    left:  15px;
-    padding: 0 9px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 20px;
-    background: #0092ca;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 6px;
-}
-.box33 p {
-    margin: 0; 
-    padding: 1em;
 </style>
 
 <script defer>

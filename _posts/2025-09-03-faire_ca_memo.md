@@ -43,7 +43,6 @@ last_modified_at : 2026-03-23 15:30:00
 
 
 <style type="text/css">
-
 table {
   display: block;
   margin-bottom: 1em;
@@ -94,70 +93,7 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.gris_p {
-color: rgb(45, 43, 42);
-font-size: 0.7em;
-font-weight: 500;
-font-style: normal;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.violet {
-color: #cb23d1;
-font-size: 1.0em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: #d9180eff;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.noir {
-color: #090c0cff;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.verde {
-color: rgb(3, 53, 21);
-font-weight: 500;
-font-weight: normal;
-font-family: italic;
-letter-spacing: inherit;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.20em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.petit {
-font-size: 0.80em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
-  .link-btn {
-    display: inline-block;
-    padding: 2px 8px;
-    background: #6191d0;  
-    color: #fff;
-    border-radius: 4px;
-    text-decoration: none;
-    font-size: 15px;
-    white-space: nowrap;
-  }
-  .link-btn:focus { outline: 2px solid #4970a7; outline-offset: 2px; }
+
   /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
     font-size: 1rem;       /* 任意のサイズに */

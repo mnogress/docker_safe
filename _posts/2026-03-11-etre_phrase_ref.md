@@ -88,53 +88,7 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.violet {
-color: #cb23d1;
-font-size: 1.0em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: #d9180eff;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.noir {
-color: #090c0cff;
-font-size: 0.850em;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.20em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.gris_p {
-color: rgb(45, 43, 42);
-font-size: 0.7em;
-font-weight: 500;
-font-style: normal;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.petit {
-font-size: 0.80em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
+
   /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
     font-size: 1rem;       /* 任意のサイズに */
