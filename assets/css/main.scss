@@ -19,13 +19,8 @@ search: false
   position: relative;
   z-index: 1;
 }
-.page__inner-wrap {
-  border-top: none !important;
-}
-.page__content {
-  border-top: none !important;
-}
+.page__inner-wrap,
+.page__content,
 .page__meta {
   border-top: none !important;
 }
-
