@@ -41,7 +41,6 @@ last_modified_at : 2026-02-01 10:30:00
 
 
 <style type="text/css">
-
 table {
   display: block;
   margin-bottom: 1em;
@@ -92,131 +91,18 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.violet {
-color: #cb23d1;
-font-size: 1.0em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: red;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.35em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge2 {
-color: red;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu2 {
-color: blue;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.gold {
-color: #6e5204ff;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.green {
-color: #055c12ff;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.petit {
-font-size: 0.80em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
 
-.chat-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* 吹き出し間の余白 */
-  max-width: 900px;
-}
+  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ul {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  }
 
-.speech-bubble {
-  position: relative;
-  background: #f9f9f9;
-  border-radius: 13px;
-  padding: 10px 15px;
-  width: fit-content;
-  max-width: 900px;
-  font-size: 16px;
-  color: #333;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-  margin-bottom: 12px
-}
-
-/* 左端に固定 */
-.left-align {
-  align-self: flex-start;
-  margin-left: 0;
-}
-
-/* 左から少し内側に寄せる */
-.left-inner {
-  align-self: flex-start;
-  margin-left: 50px; /* 調整可能 */
-}
-
-.speech-bubble.bottom::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-top-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-.speech-bubble.left::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: -20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-right-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-.speech-bubble.right::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  right: -20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-left-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-  #rate-control { display:flex; align-items:center; gap:1rem; margin:1rem 0; }
-  #status { margin-top: .5rem; color: #333; }
+  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
+  .page-ul-fix ol {
+    font-size: 1rem;       /* 任意のサイズに */
+    line-height: 1.6;      /* 読みやすさ調整（任意） */
+  }
 </style>
 
 <script defer>

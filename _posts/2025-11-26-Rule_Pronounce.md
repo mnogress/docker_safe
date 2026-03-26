@@ -35,7 +35,6 @@ last_modified_at : 2025-11-27 11:30:00
 
 
 <style type="text/css">
-
 table {
   display: block;
   margin-bottom: 1em;
@@ -86,52 +85,8 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.violet {
-color: #cb23d1;
-font-size: 1.0em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: #d9180eff;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.noir {
-color: #090c0cff;
-font-size: 0.850em;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.17em;
-font-weight: 600;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: red;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.petit {
-font-size: 0.80em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
-/* このページだけのULを調整（スコープ＝.page-ul-fix） */
+
+  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
     font-size: 1rem;       /* 任意のサイズに */
     line-height: 1.3;      /* 読みやすさ調整（任意） */
@@ -142,30 +97,6 @@ letter-spacing: inherit;
     font-size: 1rem;       /* 任意のサイズに */
     line-height: 1.6;      /* 読みやすさ調整（任意） */
   }
-.box33 {
-    position: relative;
-    margin: 2em 0;
-    padding: 15px 10px 7px;
-    border: solid 2px #0092ca;
-    border-radius: 6px;
-}
-.box33 .box-title {
-    position: absolute;
-    display: inline-block;
-    top:  -15px;
-    left:  15px;
-    padding: 0 9px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 20px;
-    background: #0092ca;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 6px;
-}
-.box33 p {
-    margin: 0; 
-    padding: 1em;
 </style>
 
 

@@ -221,7 +221,7 @@ Il fait を使った、天気に関する会話についてまとめました。
 {% endraw %}
 
 
-#### Il est を使った天気表現
+### Il est を使った天気表現
 
 時刻＋天気の状態を説明する場合、**天気そのものではなく、「その時点の状況」を述べる**ときに **Il est** が使われます。
 
@@ -269,58 +269,6 @@ Il pleut は：
 ----
 
 <style type="text/css">
-    .player {
-      margin: 1rem 0;
-      display: flex;
-      gap: 0.75rem;
-      align-items: center;
-    }
-    button {
-      padding: 0.4rem 0.8rem;
-    }
-    audio {
-      /* 画面に出したくない場合は隠してもOK */
-      display: none;
-    }
-
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.8em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-  text-align: center;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
 tr,
 td,
 th {
@@ -334,90 +282,6 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.violet {
-color: #cb23d1;
-font-size: 1.0em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: red;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: red;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.bleu2 {
-color: #0053a6;
-font-weight: 500;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.gold {
-color: #6e5204ff;
-font-weight: 1.33em;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.noir {
-color: #1a0202ff;
-font-size: 1.1em;
-font-family: inherit;
-font-weight: bold;
-letter-spacing: inherit;
-}
-.green {
-color: #055c12ff;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.petit {
-font-size: 0.7em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
-
-.chat-container {
-  display: flex;
-  flex-direction: column;
-  gap: 10px; /* 吹き出し間の余白 */
-  max-width: 900px;
-}
-
-.speech-bubble {
-  position: relative;
-  background: #f9f9f9;
-  border-radius: 13px;
-  padding: 10px 15px;
-  width: fit-content;
-  max-width: 900px;
-  font-size: 16px;
-  color: #333;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-  margin-bottom: 12px
-}
-
   /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
     font-size: 1rem;       /* 任意のサイズに */
@@ -440,61 +304,6 @@ letter-spacing: inherit;
 .left-inner {
   align-self: flex-start;
   margin-left: 50px; /* 調整可能 */
-}
-
-.speech-bubble.bottom::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: 20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-top-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-.speech-bubble.left::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  left: -20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-right-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-.speech-bubble.right::after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  right: -20px;
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-left-color: #f8efefff;
-  filter: drop-shadow(2px 2px 6px rgba(0,0,0,0.2));
-}
-
-  #rate-control { display:flex; align-items:center; gap:1rem; margin:1rem 0; }
-  #status { margin-top: .5rem; color: #333; }
-
-/* details をカード風にして2列に並べる */
-.details-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 16px;
-  margin-top: 20px;
-}
-
-/* details の見た目を整える（任意） */
-.details-grid details {
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  padding: 8px 12px;
-  background: #fafafa;
 }
 </style>
 

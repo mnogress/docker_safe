@@ -45,19 +45,6 @@ aller は「行く」という基本的な意味のほかに、
 
 
 <style type="text/css">
-    .player {
-      margin: 1rem 0;
-      display: flex;
-      gap: 0.75rem;
-      align-items: center;
-    }
-    button {
-      padding: 0.4rem 0.8rem;
-    }
-    audio {
-      /* 画面に出したくない場合は隠してもOK */
-      display: none;
-    }
 table {
   display: block;
   margin-bottom: 1em;
@@ -108,53 +95,7 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.violet {
-color: #cb23d1;
-font-size: 1.0em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.rouge {
-color: rgb(160, 15, 8);
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.gris_p {
-color: rgb(45, 43, 42);
-font-size: 0.7em;
-font-weight: 500;
-font-style: normal;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.noir {
-color: #090c0cff;
-font-weight: normal;
-font-size: 0.84em;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.20em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}S
-.petit {
-font-size: 0.60em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
+
   /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
     font-size: 1rem;       /* 任意のサイズに */
@@ -166,9 +107,6 @@ letter-spacing: inherit;
     font-size: 1rem;       /* 任意のサイズに */
     line-height: 1.6;      /* 読みやすさ調整（任意） */
   }
-.mytable tbody.rowgroup { background: #78aae3; }        /* デフォルト色 */
-.mytable tbody.rowgroup.group-a { background: #17bb25; } /* Aは淡いグリーン */
-.mytable tbody.rowgroup.group-b { background: #4c3d0a; } /* Bは淡いイエロー */
 </style>
 
 <script defer>

@@ -53,6 +53,48 @@ last_modified_at : 2025-10-16 09:00:00
 
 
 <style>
+table {
+  display: block;
+  margin-bottom: 1em;
+  width: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-size: 0.75em;
+  border-collapse: collapse;
+  overflow-x: auto;
+}
+
+table + table {
+  margin-top: 1em;
+}
+
+thead {
+  background-color: #e6e6fa;
+  border-bottom: 2px solid #9b9b9d;
+}
+
+th {
+  padding: 0.5em;
+  font-weight: bold;
+  text-align: start;
+}
+
+td {
+  padding: 0.5em;
+  border-bottom: 1px solid #9b9b9d;
+}
+
+tfoot {
+  background-color: #afeeee;
+  padding: 0.5em;
+  border-top: 2px solid #9b9b9d;
+  border-bottom: 2px solid #9b9b9d;
+}
+
+tr,
+td,
+th {
+  vertical-align: middle;
+}
 _media screen and (max-width:1280px){
 .p_table {width:100%;overflow:scroll;}
 .p_table table {width:1153px;}
@@ -61,45 +103,8 @@ _media screen and (max-width:750px){
 .resp_table {width:100% !important;}
 .resp_table th ,.resp_table td{padding:10px !important;}
 }
-.rouge {
-color: #d9180eff;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.noir {
-color: #090c0cff;
-font-size: 1.65em;
-font-weight: 500;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.verde {
-color: rgb(3, 53, 21);
-font-weight: 500;
-font-weight: normal;
-font-family: italic;
-letter-spacing: inherit;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.20em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.petit {
-font-size: 0.80em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
-/* このページだけのULを調整（スコープ＝.page-ul-fix） */
+
+  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
   .page-ul-fix ul {
     font-size: 1rem;       /* 任意のサイズに */
     line-height: 1.3;      /* 読みやすさ調整（任意） */
@@ -110,31 +115,6 @@ letter-spacing: inherit;
     font-size: 1rem;       /* 任意のサイズに */
     line-height: 1.6;      /* 読みやすさ調整（任意） */
   }
-.box33 {
-    position: relative;
-    margin: 2em 0;
-    padding: 15px 10px 7px;
-    border: solid 2px #0092ca;
-    border-radius: 6px;
-}
-.box33 .box-title {
-    position: absolute;
-    display: inline-block;
-    top:  -15px;
-    left:  15px;
-    padding: 0 9px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 20px;
-    background: #0092ca;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 6px;
-}
-.box33 p {
-    margin: 0; 
-    padding: 1em;
-}
 </style>
 
 
