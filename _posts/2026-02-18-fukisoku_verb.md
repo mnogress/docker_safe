@@ -46,10 +46,10 @@ last_modified_at : 2026-03-05 07:30:00
 
 | タイプ | 説明 | 例 |
 | :-----  | :----       | :-----       |
-| **語幹が変化する動詞** | 語幹が複数形で変わる | prendre, venir |
-| **語尾が特殊な動詞** | -s, -x, -t など不規則 | faire, dire |
-| **複合過去が特殊** | avoir / être の使い分けが難しい | naître, mourir |
-| **意味が広い動詞** | 用法が多く混乱しやすい | mettre, tenir |
+| **語幹が変化する動詞** | 語幹が複数形で変わる | <span class="bleu2">prendre:</span> (単数の語幹) **prend-** (複数の語幹) **pren- / prenn-** <br> <span class="bleu2">venir:</span> (単数の語幹) **vien-**	(複数の語幹) **ven- / vienn-**|
+| **語尾が特殊な動詞** | -s, -x, -t など不規則 | faire(下の表を参照), dire |
+| **複合過去が特殊** | avoir / être の使い分けが難しい | naître(ネートル: 生まれる), mourir(ムリール: 死ぬ) <br>・je **suis** né(e)（ジュ スィ ネ）＝私は生まれた<br>・il **est** mort（イル エ モール）＝彼は死んだ|
+| **意味が広い動詞** | 用法が多く混乱しやすい | **mettre:** 置く、着る、入れる、始める、つける、時間がかかる<br>**tenir:** 持つ、守る、維持する、似ている、大切にする |
 
 
 
@@ -73,7 +73,7 @@ last_modified_at : 2026-03-05 07:30:00
 </thead>
 <tbody>
 <tr>
-    <td><span class="noir">être</span><br>(エトゥ)<br>
+    <td><span class="noir4">être</span><br>(エトゥ)<br>
      ～である<br>
      (過去分詞：été)
     </td>
@@ -131,7 +131,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">avoir</span><br>(アヴォァ)<br>
+    <td><span class="noir4">avoir</span><br>(アヴォァ)<br>
      ～を持つ<br>
      (過去分詞：eu)
     </td>
@@ -189,7 +189,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">aller</span><br>(アレ)<br>
+    <td><span class="noir4">aller</span><br>(アレ)<br>
      行く<br>
      (過去分詞：allé)
     </td>
@@ -247,7 +247,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">faire</span><br>(フェール)<br>
+    <td><span class="noir4">faire</span><br>(フェール)<br>
      する<br>
      (過去分詞：fait)
     </td>
@@ -305,7 +305,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">connaître</span><br>(コネートル)<br>
+    <td><span class="noir4">connaître</span><br>(コネートル)<br>
      知っている<br>
      (過去分詞：connu)
     </td>
@@ -362,7 +362,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">savoir</span><br>(サヴォワール)<br>
+    <td><span class="noir4">savoir</span><br>(サヴォワール)<br>
      知っている<br>
      (過去分詞：su)
     </td>
@@ -419,7 +419,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">pouvoir</span><br>(プヴォワール)<br>
+    <td><span class="noir4">pouvoir</span><br>(プヴォワール)<br>
      できる<br>
      (過去分詞：pu)
     </td>
@@ -477,7 +477,7 @@ last_modified_at : 2026-03-05 07:30:00
     </td>
 </tr>
 <tr>
-    <td><span class="noir">vouloir</span><br>(ヴロワール)<br>
+    <td><span class="noir4">vouloir</span><br>(ヴロワール)<br>
      欲しい<br>
      (過去分詞：voulu)
     </td>
@@ -547,10 +547,10 @@ last_modified_at : 2026-03-05 07:30:00
 
 | 動詞 | ils (読み方) |　elles (読み方）|
 | :-----       | :----       | :-----       | 
-| <span class="noir">être</span>   |ils sont (イルソン)|elles sont (エルソン)|
-| <span class="noir">avoir</span>   |ils ont (イルゾン)|elles ont (エルゾン)|
-| <span class="noir">aller</span>   |ils vont (イルヴォン)|elles vont (エルヴォン)|
-| <span class="noir">faire</span>   |ils font (イルフォン)|elles font (エルフォン)|
+| <span class="noir4">être</span>   |ils sont (イルソン)|elles sont (エルソン)|
+| <span class="noir4">avoir</span>   |ils ont (イルゾン)|elles ont (エルゾン)|
+| <span class="noir4">aller</span>   |ils vont (イルヴォン)|elles vont (エルヴォン)|
+| <span class="noir4">faire</span>   |ils font (イルフォン)|elles font (エルフォン)|
 
 ### 次に学ぶと良いページ
 
