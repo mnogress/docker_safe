@@ -89,135 +89,36 @@ _media screen and (max-width:750px){
     line-height: 1.6;      /* 読みやすさ調整（任意） */
   }
 </style>
+<script defer>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.player').forEach((wrap, idx) => {
+    const audioEl = wrap.querySelector('audio');
+    const btn = wrap.querySelector('button');
 
+    console.log(`player #${idx+1}`, { audioEl, btn });
 
+    if (!audioEl || !btn) {
+      console.warn(`player #${idx+1} に audio または button が見つかりません`);
+      return;
+    }
+    btn.addEventListener('click', () => {
+      if (audioEl.paused) audioEl.play().catch(err => console.error('再生失敗:', err));
+      else audioEl.pause();
+    });
 
-<style type="text/css">
+    audioEl.addEventListener('ended', () => updateLabel(btn, false));
+    audioEl.addEventListener('play',  () => updateLabel(btn, true));
+    audioEl.addEventListener('pause', () => updateLabel(btn, false));
+  });
 
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-.rouge {
-color: #d9180eff;
-font-size: 1.14em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.noir {
-color: #090c0cff;
-font-weight: normal;
-font-family: inherit;
-letter-spacing: inherit;
-}
-.verde {
-color: rgb(3, 53, 21);
-font-weight: 500;
-font-weight: normal;
-font-family: italic;
-letter-spacing: inherit;
-}
-.bleu {
-color: #0053a6;
-font-size: 1.20em;
-font-weight: 500;
-font-style: italic;
-font-family: inherit;
-letter-spacing: 0.02em;
-}
-.petit {
-font-size: 0.80em;
-color: black;
-font-family: inherit;
-line-height: 1.1;
-display: inline-block;
-letter-spacing: inherit;
-}
-/* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
+  function updateLabel(button, playing) {
+    const label = button.querySelector('.label');
+    if (label) label.textContent = playing ? '停止' : '🔄';
   }
+});
+</script>
 
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
-.box33 {
-    position: relative;
-    margin: 2em 0;
-    padding: 15px 10px 7px;
-    border: solid 2px #0092ca;
-    border-radius: 6px;
-}
-.box33 .box-title {
-    position: absolute;
-    display: inline-block;
-    top:  -15px;
-    left:  15px;
-    padding: 0 9px;
-    height: 35px;
-    line-height: 35px;
-    font-size: 20px;
-    background: #0092ca;
-    color: #ffffff;
-    font-weight: bold;
-    border-radius: 6px;
-}
-.box33 p {
-    margin: 0; 
-    padding: 1em;
-}
-</style>
+
 
 ### 聞き返し・確認の表現
 
@@ -229,6 +130,16 @@ letter-spacing: inherit;
 | <span class="bleu">De quoi parlez-vous ?</span>   |何の話ですか？|ドゥコア・パルレ・ヴ|英：What are you talking about?|
 | <span class="bleu">Comprenez-vous tout?</span>   |全部理解しましたか？|コンプルネ・ヴ・トゥ|英：Dou you understand all?|
 | <span class="bleu">Pouvez-vous m'entendre?</span>   |聞こえますか？|プヴェ・ヴ・マントンドル|英：Can you hear me?|
+
+<div class="player" style="margin-top: 1.05em;">
+  <audio id="sp27_001" preload="auto">
+    <source src="\audio\0327\01_spon.m4a" type="audio/mp4">
+    </audio>
+      <button type="button" data-audio-id="sp27_001">
+       <span class="label">📢 音声を聴く</span>
+    </button>
+</div>
+
 
 
 ---
@@ -245,7 +156,14 @@ letter-spacing: inherit;
 | <span class="bleu">Ça me semble bien.</span>   |それはよさそうだ|サ・ム・ソンブル・ビヤン|英：Sounds good |
 | <span class="bleu">Ça me semble interesant.</span>   |それは面白そうだ|サ・ム・ソンブル・アンテレサン|英：Sounds interesting |
 
-
+<div class="player" style="margin-top: 1.05em;">
+  <audio id="sp27_002" preload="auto">
+    <source src="\audio\0327\02_spon.m4a" type="audio/mp4">
+    </audio>
+      <button type="button" data-audio-id="sp27_002">
+       <span class="label">📢 音声を聴く</span>
+    </button>
+</div>
 ---
 
 ### 驚き・リアクション
@@ -259,7 +177,14 @@ letter-spacing: inherit;
 | <span class="bleu">Pas question.</span>   |あり得ない|パ・ケスション|英：No way |
 | <span class="bleu">Je suis content(e) de l’entendre. </span>   |それは良かった|ジュ・スイ・コンタン（ト）・ドゥ・ラントゥンドゥル|英：I am happy to hear that.|
 
-
+<div class="player" style="margin-top: 1.05em;">
+  <audio id="sp27_003" preload="auto">
+    <source src="\audio\0327\03_spon.m4a" type="audio/mp4">
+    </audio>
+      <button type="button" data-audio-id="sp27_003">
+       <span class="label">📢 音声を聴く</span>
+    </button>
+</div>
 ---
 
 ### 同意・反対の表現
@@ -276,7 +201,14 @@ letter-spacing: inherit;
 | <span class="bleu">Je suis d'accord avec votre plan.</span>   |あなたのプランに賛成です|ジュ・スイ・ダカード・アヴェック・ヴォトル・プラン|英：I agree with your plan.|
 | <span class="bleu">Je ne pense pas que ce soit une bonne idée.</span>   |それは、いいアイデアとは思いません|ジュ・ヌ・パンツ・パ・ク・スワ・ユーヌ・ボンヌ・イデー|英： I don't think it is a good idea.|
 
-
+<div class="player" style="margin-top: 1.05em;">
+  <audio id="sp27_004" preload="auto">
+    <source src="\audio\0327\04_spon.m4a" type="audio/mp4">
+    </audio>
+      <button type="button" data-audio-id="sp27_004">
+       <span class="label">📢 音声を聴く</span>
+    </button>
+</div>
 ---
 
 ### 依頼・お願いの表現
@@ -288,6 +220,15 @@ letter-spacing: inherit;
 | <span class="bleu">Puis-je avoir de l’eau s’il vous plaît?</span>   |お水をいただけますか？|プィージュ・アヴォワ・ドゥロウ　シル・ヴ・プレ|英： Can I have some water?|
 | <span class="bleu">Merci de m’avoir accordé du temps.</span>   |お時間をいただきありがとうございます|メルシー・ドゥ・マヴォワー・アコルデ・ドユ・トン|英： Thank you for your time.|
 
+<div class="player" style="margin-top: 1.05em;">
+  <audio id="sp27_005" preload="auto">
+    <source src="\audio\0327\05_spon.m4a" type="audio/mp4">
+    </audio>
+      <button type="button" data-audio-id="sp27_005">
+       <span class="label">📢 音声を聴く</span>
+    </button>
+</div>
+---
 
 ### 感情・気持ちを伝える表現
 
@@ -303,6 +244,14 @@ letter-spacing: inherit;
 | <span class="bleu">Ne t'inquiète pas.</span>   |心配しないで|タンキエット・パ|英：Don't worry. (informal)|
 | <span class="bleu">T'inquiete!</span>   |心配ない|タンキエット！ |英：No worry. (informal)|
 
+<div class="player" style="margin-top: 1.05em;">
+  <audio id="sp27_006" preload="auto">
+    <source src="\audio\0327\06_spon.m4a" type="audio/mp4">
+    </audio>
+      <button type="button" data-audio-id="sp27_006">
+       <span class="label">📢 音声を聴く</span>
+    </button>
+</div>
 
 ---
 
@@ -319,7 +268,14 @@ letter-spacing: inherit;
 | <span class="bleu">Je le pense, moi aussi.</span>   |その通りです。|ジュ・ル・ポンス・モア・オゥシ|英：I think so. |
 | <span class="bleu">C'est le mien.</span>   |わたしのです|セルミアン|英：It's mine.|
 
-
+<div class="player" style="margin-top: 1.05em;">
+  <audio id="sp27_007" preload="auto">
+    <source src="\audio\0327\07_spon.m4a" type="audio/mp4">
+    </audio>
+      <button type="button" data-audio-id="sp27_007">
+       <span class="label">📢 音声を聴く</span>
+    </button>
+</div>
 
 ---
 
@@ -335,6 +291,15 @@ letter-spacing: inherit;
 | <span class="bleu">Rien ne presse.</span>   |急ぐ必要はありません。|リアン・ヌ・プレス|英：No hurry. |
 | <span class="bleu">Je rentre chez moi.</span>   |家に帰ります。|ジュ・ラントレ・シェ・モア|英：I am going home.|
 
+<div class="player" style="margin-top: 1.05em;">
+  <audio id="sp27_008" preload="auto">
+    <source src="\audio\0327\08_spon.m4a" type="audio/mp4">
+    </audio>
+      <button type="button" data-audio-id="sp27_008">
+       <span class="label">📢 音声を聴く</span>
+    </button>
+</div>
+---
 
 ### 文法のポイント：à を y で受ける
 
