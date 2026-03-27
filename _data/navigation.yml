@@ -1,6 +1,8 @@
 main:
   - title: "🥉Top"
     url: /
+  - title: "🔍Search"
+    url: /search/  
   - title: "🗂️カテゴリ"
     url: /categories/
   - title: "👤About"
@@ -23,7 +25,9 @@ docs:
   - title: 関連記事
     children:
       - title: "🥉Top"
-        url: /  
+        url: / 
+      - title: "🔍Search"
+        url: /search/  
       - title: "🗂️カテゴリ"
         url: /categories/
       - title: "👤About"

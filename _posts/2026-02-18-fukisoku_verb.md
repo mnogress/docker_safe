@@ -17,8 +17,8 @@ sidebar:
   nav: "docs"
 category: [français, grammaire]
 tag: ["French", "フランス語学習"]
-date: 2026-02-10
-last_modified_at : 2026-03-05 07:30:00
+date: 2026-03-18
+last_modified_at : 2026-03-27 07:30:00
 ---
 不規則な活用をする動詞の直接法現在形をできるだけ主語を網羅して表形式でまとめてみました。<!--more-->
 
@@ -47,7 +47,7 @@ last_modified_at : 2026-03-05 07:30:00
 | タイプ | 説明 | 例 |
 | :-----  | :----       | :-----       |
 | **語幹が変化する動詞** | 語幹が複数形で変わる | <span class="bleu2">prendre:</span> (単数の語幹) **prend-** (複数の語幹) **pren- / prenn-** <br> <span class="bleu2">venir:</span> (単数の語幹) **vien-**	(複数の語幹) **ven- / vienn-**|
-| **語尾が特殊な動詞** | -s, -x, -t など不規則 | faire(下の表を参照), dire |
+| **語尾が特殊な動詞** | -s, -x, -t など不規則 | faire, dire (下の表を参照)|
 | **複合過去が特殊** | avoir / être の使い分けが難しい | naître(ネートル: 生まれる), mourir(ムリール: 死ぬ) <br>・je **suis** né(e)（ジュ スィ ネ）＝私は生まれた<br>・il **est** mort（イル エ モール）＝彼は死んだ|
 | **意味が広い動詞** | 用法が多く混乱しやすい | **mettre:** 置く、着る、入れる、始める、つける、時間がかかる<br>**tenir:** 持つ、守る、維持する、似ている、大切にする |
 
@@ -299,6 +299,64 @@ last_modified_at : 2026-03-05 07:30:00
                 <source src="\audio\0209\12_fukisoku.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="f209_112">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+</tr>
+<tr>
+    <td><span class="noir4">dire</span><br>(ディール)<br>
+     言う<br>
+     (過去分詞：dit)
+    </td>
+    <td>
+        Je <span class="bleu">dis</span><br><span class="petit">ジュ・ディ</span><br>
+        Tu <span class="bleu">dis</span><br><span class="petit">チュ・ディ</span><br>
+        Il <span class="bleu">dit</span><br><span class="petit">イル・ディ</span><br>
+        Elle <span class="bleu">dit</span><br><span class="petit">エル・ディ</span><br>
+        Ça <span class="bleu">dit</span><br><span class="petit">サ・ディ</span><br>
+        On <span class="bleu">dit</span><br><span class="petit">オン・ディ</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_1d0" preload="auto">
+                <source src="\audio\0209\d0_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_1d0">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+   <td>
+        Nous <span class="bleu">disons</span><br><span class="petit">ヌ・ディゾン</span><br>
+        Vous <span class="bleu">dites</span><br><span class="petit">ヴ・ディットゥ</span><br>
+        Ils <span class="bleu">disent</span><br><span class="petit">イル・ディズ</span><br>
+        Elles <span class="bleu">disent</span><br><span class="petit">エル・ディズ</span><br>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_1d1" preload="auto">
+                <source src="\audio\0209\d1_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_1d1">
+                    <span class="label">📢</span>
+                </button>
+      </div>
+    </td>
+    <td>
+    <ul>
+        <li>Je <span class="bleu">dis</span> la vérité.	(私は本当のことを言う。)</li>
+        <li>On <span class="bleu">dit</span> ça souvent.　(それはよく言われる。)</li>
+        <li>Ça <span class="bleu">dit </span> quoi ? 　(どう？、何かある？)</li>
+        <li>Vous <span class="bleu">dites</span> toujours ça.　(あなたはいつもそう言いますね。)</li>
+    </ul>
+    </td>
+    <td>
+      <div class="player">
+            <audio id="f209_1d2" preload="auto">
+                <source src="\audio\0209\d2_fukisoku.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="f209_1d2">
                     <span class="label">📢</span>
                 </button>
       </div>
