@@ -262,7 +262,6 @@ document.addEventListener('DOMContentLoaded', () => {
 | つづり字 | 日本語訳  | 読み方 |　英訳・コメント |
 | :-----         | :----         | :-----         | :-----        |
 | <span class="bleu">Ça depend des gens.</span>   |それは人によります。|サ・デパン・デ・ジャン|英： It depends on the people.|
-| <span class="bleu">Ça depend des gens.</span>   |それは人によります。|サ・デパン・デ・ジャン|英： It depends on the people.|
 | <span class="bleu">Vous avez ma parole.</span>   |お約束します|ヴザベ・マ・パロル|英： You have my word.|
 | <span class="bleu">Je ne te comprends toujours pas.</span>   |まだあなたの言うことが理解できません。|ジュヌゥ・コンプロン・トゥジュー・パ|英：I still don't understand you.|
 | <span class="bleu">Je le pense, moi aussi.</span>   |その通りです。|ジュ・ル・ポンス・モア・オゥシ|英：I think so. |
