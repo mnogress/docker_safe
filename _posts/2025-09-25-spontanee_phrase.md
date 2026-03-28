@@ -124,7 +124,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 | つづり字 | 日本語訳  | 読み方 |　英訳・コメント |
 | :-----         | :----         | :-----         | :-----        |
-| <span class="bleu">Excusez-moi, je n'ai pas bien compris. Pouvez-vous répéter, s'il vous plaît ?</span>|すみません。よく聞き取れませんでした。もう一度お願いします。|エクスキュゼ・モワ　ジュ・ネ・パ・ビエン・コンプリ　プヴェヴ・レペテ　シルヴプレ|相手の言っていることがわからないと会話になりません。**わからなかったら聞き返す**|
+| <span class="bleu">Excusez-moi, je n'ai pas bien compris.<br>Pouvez-vous répéter, s'il vous plaît ?</span>|すみません。よく聞き取れませんでした。もう一度お願いします。|エクスキュゼ・モワ　ジュ・ネ・パ・ビエン・コンプリ　プヴェヴ・レペテ　シルヴプレ|相手の言っていることがわからないと会話になりません。**わからなかったら聞き返す**|
 | <span class="bleu">Qu'est-ce que tu viens de dire ?</span>|今、何て言ったの？|ケスク・チュ・ヴィヤン・ドゥ・ディール|英：What did you say?|
 | <span class="bleu">Parlez un peu plus lentement, s'il vous plaît.</span>|もう少し、ゆっくり喋ってください。|パルレ・アンプ・プル・ロントモン　シルヴプレ|英：Please speak more slowly|
 | <span class="bleu">De quoi parlez-vous ?</span>   |何の話ですか？|ドゥコア・パルレ・ヴ|英：What are you talking about?|
