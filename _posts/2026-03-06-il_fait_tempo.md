@@ -62,7 +62,7 @@ Il fait を使った、天気に関する会話についてまとめました。
 </thead>
 <tbody>
 <tr>
-    <td rowspan="4"><span class="noir">Il fait<br>Il y a </span><br><span class="petit">イルフェ、イリヤ<br><br>いい天気、悪い天気、曇り、風が吹く</span></td>
+    <td rowspan="4"><span class="noir4">Il fait<br>Il y a </span><br><span class="petit">イルフェ、イリヤ<br><br>いい天気、悪い天気、曇り、風が吹く</span></td>
     <td>
       <ul>
         <li>Il <span class="bleu">fait  beau. </span> <span class="petit">(イル・フェ・ボー)</span></li>
@@ -141,7 +141,7 @@ Il fait を使った、天気に関する会話についてまとめました。
   </td>
 </tr>
 <tr>
-    <td rowspan="2"><span class="noir">Il fait </span><span class="petit">イルフェ<br><br>明るい、暗い、暑い、寒い</span></td>
+    <td rowspan="2"><span class="noir4">Il fait </span><span class="petit">イルフェ<br><br>明るい、暗い、暑い、寒い</span></td>
     <td>
       <ul>
         <li>Il <span class="bleu">fait jour. </span> <span class="petit">(イル・フェ・ジュール)</span></li>
@@ -180,7 +180,7 @@ Il fait を使った、天気に関する会話についてまとめました。
   </td>
 </tr>
 <tr>
-    <td rowspan="2"><span class="noir">Il a fait<br>ll faisait<br>Il fera<br>Il va faire </span><span class="petit">イラ・フェ、イル・フゼ、イル・フェラ、イル・ヴァ・フェール<br><br>複合過去、半過去、単純未来、近接未来</span></td>
+    <td rowspan="2"><span class="noir4">Il a fait<br>ll faisait<br>Il fera<br>Il va faire </span><span class="petit">イラ・フェ、イル・フゼ、イル・フェラ、イル・ヴァ・フェール<br><br>複合過去、半過去、単純未来、近接未来</span></td>
     <td>
       <ul>
         <li>Il <span class="bleu">a fait beau </span>hier. <span class="petit">(イラ・フェ・ボー・イエール)</span></li>
@@ -272,42 +272,6 @@ Il pleut は：
 ----
 
 <style type="text/css">
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
-
-/* 左端に固定 */
-.left-align {
-  align-self: flex-start;
-  margin-left: 0;
-}
-
-/* 左から少し内側に寄せる */
-.left-inner {
-  align-self: flex-start;
-  margin-left: 50px; /* 調整可能 */
-}
 </style>
 
 <script defer>
