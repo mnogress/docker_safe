@@ -267,3 +267,22 @@ th {
 .mytable tbody.rowgroup { background: #78aae3; }        /* デフォルト色 */
 .mytable tbody.rowgroup.group-a { background: #17bb25; } /* Aは淡いグリーン */
 .mytable tbody.rowgroup.group-b { background: #4c3d0a; } /* Bは淡いイエロー */
+/* --- Base font reset for Minimal Mistakes --- */
+
+/* 段落とリストを通常サイズに戻す */
+.page__content p,
+.page__content li,
+.page__content dl {
+  font-size: 0.9rem !important;
+  line-height: 1.55;
+}
+
+/* 入れ子リストも同じサイズに統一 */
+.page__content ul ul,
+.page__content ol ol {
+  font-size: 0.9rem !important;
+}
+
+
+
+
