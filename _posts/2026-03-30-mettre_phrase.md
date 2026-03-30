@@ -2,7 +2,7 @@
 layout: single
 title: 意味が多すぎて混乱する動詞 ～ mettre ～
 header:
-  overlay_image: images/header_fr52_1280by336.png
+  overlay_image: images/header_fr55_1280by336.png
   overlay_filter: rgba(136, 59, 65, 0.33)
 toc: True
 toc_label: "目次"
