@@ -49,9 +49,9 @@ excerpt: >
 ブログでウーエル動詞の直説法現在、半過去、単純未来、現在分子、過去分詞について音声ファイルを交えて表形式でまとめてみました。
 
 **発音のポイント**
-・ 語尾の -e, -es, -ent は **発音しない**<br>
-・ nous の -ons は「オン」<br>
-・ vous の -ez は「エ」ではなく「エ（閉じ気味）」<br>
+- 語尾の -e, -es, -ent は **発音しない**<br>
+- nous の -ons は「オン」<br>
+- vous の -ez は「エ」ではなく「エ（閉じ気味）」<br>
 
 
 {% raw %}
@@ -484,80 +484,18 @@ excerpt: >
 
 ---
 ### 次に学ぶと良いページ
-・ -ir 動詞の活用<br>
-・ 不規則動詞（aller, faire, venir）<br>
-・ 代名動詞の活用（me / te / se の位置）<br>
+- -ir 動詞の活用<br>
+- 不規則動詞（aller, faire, venir）<br>
+- 代名動詞の活用（me / te / se の位置）<br>
 
 ### まとめ
-・ -er 動詞はフランス語の基本で、最初に覚えるべき活用<br>
-・ 語尾はほとんど発音しないため、音声で確認することが重要<br>
-・ 語幹変化のある動詞は例外としてまとめて覚えると効率的<br>
+- -er 動詞はフランス語の基本で、最初に覚えるべき活用<br>
+- 語尾はほとんど発音しないため、音声で確認することが重要<br>
+- 語幹変化のある動詞は例外としてまとめて覚えると効率的<br>
 
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 <script defer>

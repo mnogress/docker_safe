@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  #- wide
+  - wide
 sidebar:
   nav: "docs"
 category: [français, conversation]
@@ -31,11 +31,11 @@ excerpt: >
 
 ### このページの目的
 このページでは、フランス語で雑談するときに役立つ  
-**・決まり文句  
-・音楽の話題  
-・友達の話題  
-・冬や寒さの話題  
-・仕事の話題**  
+- 決まり文句  
+- 音楽の話題  
+- 友達の話題  
+- 冬や寒さの話題  
+- 仕事の話題  
 を、短い例文と音声で練習できるようにまとめています。
 
 日本語話者がつまずきやすい「リエゾン」「アンシェヌマン」「語末の発音」も、例文を通して自然に身につく構成になっています。
@@ -44,68 +44,6 @@ excerpt: >
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 <script defer>
@@ -143,8 +81,8 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 
 💡 学習ポイント  
-・決まり文句は「会話の潤滑油」。意味より“場面”で覚えると使いやすい  
-・短い文ほどリエゾンが起きやすいので音声で確認すること
+- 決まり文句は「会話の潤滑油」。意味より“場面”で覚えると使いやすい  
+- 短い文ほどリエゾンが起きやすいので音声で確認すること
 
 
 <details>
@@ -641,18 +579,18 @@ document.addEventListener('DOMContentLoaded', () => {
 音楽に関する短いフランス語の例文を、音声と一緒に練習できます。リエゾンやアンシェヌマンの感覚をつかむための導入として最適です。
 
 #### 音楽の話題で使う語彙
-・ un chanteur / une chanteuse（歌手）<br>
-・ une chanson（曲）<br>
-・ un concert（コンサート）<br>
+- un chanteur / une chanteuse（歌手）<br>
+- une chanson（曲）<br>
+- un concert（コンサート）<br>
 
 #### よく使う質問
-・ Tu écoutes quoi en ce moment ?<br>
-・ Quel genre de musique tu aimes ?<br>
+- Tu écoutes quoi en ce moment ?<br>
+- Quel genre de musique tu aimes ?<br>
 
 #### 返答の型
-・ J’aime + 名詞  
-・ Je préfère + 名詞  
-・ Je n’écoute pas trop + 名詞
+- J’aime + 名詞  
+- Je préfère + 名詞  
+- Je n’écoute pas trop + 名詞
 
 
 <details>
@@ -1109,8 +1047,8 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 
 💡 フランスの冬の雑談ポイント  
-フランスでは天気の話題は非常に一般的で、初対面でもよく使われます。  
-特に冬は「寒さ」「服装」「暖房」「雪」がよく話題になります。
+- フランスでは天気の話題は非常に一般的で、初対面でもよく使われます。  
+- 特に冬は「寒さ」「服装」「暖房」「雪」がよく話題になります。
 
 
 <details>
@@ -1204,9 +1142,9 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 
 #### 職場でよく使う表現
-・ Je suis débordé.（仕事が多すぎる）<br>
-・ On a une réunion cet après-midi.（午後に会議がある）<br>
-・ Je dois finir ça aujourd’hui.（今日中に終わらせないといけない）<br>
+-  Je suis débordé.（仕事が多すぎる）<br>
+-  On a une réunion cet après-midi.（午後に会議がある）<br>
+-  Je dois finir ça aujourd’hui.（今日中に終わらせないといけない）<br>
 
 
 <details>
@@ -1300,13 +1238,13 @@ document.addEventListener('DOMContentLoaded', () => {
 </div>
 
 ### 次に学ぶと良いページ
-・ 日常会話の基本表現（挨拶・返答）<br>
-・ 感情表現のフレーズ集<br>
-・ フランス語の発音ガイド（リエゾン・アンシェヌマン）<br>
+-  日常会話の基本表現（挨拶・返答）<br>
+-  感情表現のフレーズ集<br>
+-  フランス語の発音ガイド（リエゾン・アンシェヌマン）<br>
 
 
 ### まとめ
-・ 雑談は短い文で練習すると身につきやすい  
-・ 音声でリエゾン・アンシェヌマンを確認することが重要  
-・ テーマ別に語彙と質問の型を覚えると会話がスムーズになる  
+-  雑談は短い文で練習すると身につきやすい  
+-  音声でリエゾン・アンシェヌマンを確認することが重要  
+-  テーマ別に語彙と質問の型を覚えると会話がスムーズになる  
 
