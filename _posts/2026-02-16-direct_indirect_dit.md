@@ -69,7 +69,7 @@ excerpt: >
 </thead>
 <tbody>
 <tr>
-    <td rowspan="2">je <span class="noir">dis</span><br>現在<br><span class="bleu">dire</span><br>不定詞</td>
+    <td rowspan="2">je <span class="bleu">dis</span><br>現在<br><span class="bleu">dire</span><br>不定詞</td>
     <td>
       <ul>
         <li>Je lui <span class="bleu">dis</span> : ≪ Je <span class="bleu">paie</span> avec l'application iPhone ≫.</li>
@@ -87,7 +87,7 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>私は彼に「iPhoneのアプリで支払います」と言います。</li> 
+        <li><span class="noir">私は彼に「iPhoneのアプリで支払います」と言います。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -109,12 +109,12 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>私はiPhoneのアプリで支払うと彼に言います。</li> 
+        <li><span class="noir">私はiPhoneのアプリで支払うと彼に言います。</span></li> 
       </ul> 
   </td>
 </tr>
 <tr>
-    <td rowspan="2">je lui <span class="noir">ai dit</span><br>複合過去<br><span class="bleu">dire</span><br>不定詞</td>
+    <td rowspan="2">je lui <span class="bleu">ai dit</span><br>複合過去<br><span class="bleu">dire</span><br>不定詞</td>
     <td>
       <ul>
         <li>Je lui <span class="bleu">ai dit</span> : ≪ Je <span class="bleu">paie</span> avec l'application iPhone ≫.</li>
@@ -132,7 +132,7 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>私は彼に「iPhoneのアプリで支払います」と言った。</li> 
+        <li><span class="noir">私は彼に「iPhoneのアプリで支払います」と言った。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -154,7 +154,7 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>私はiPhoneアプリで支払うと彼に言った。<br>que 以下を半過去とする。　半過去は、過去における現在を表す。</li> 
+        <li><span class="noir">私はiPhoneアプリで支払うと彼に言った。<br>que 以下を半過去とする。　半過去は、過去における現在を表す。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -178,15 +178,15 @@ excerpt: >
 </thead>
 <tbody>
 <tr>
-    <td><span class="noir">平叙文</span></td>
+    <td><span class="noir4">平叙文</span></td>
     <td>
       <ul>
-        <li>Louis <span class="bleu">dit</span> : ≪Je vais chez le coiffeur.≫<br>ルイスは言います、「理容室へ行ってくる」って。</li>
+        <li>Louis <span class="bleu">dit</span> : ≪Je vais chez le coiffeur.≫<br><span class="noir">ルイスは言います、「理容室へ行ってくる」って。</span></li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Louis <span class="bleu">dit </span><span class="rouge">qu'</span>il va chez le coiffeur.<br>理容室に行ってくるとルイスは言う。</li>
+        <li>Louis <span class="bleu">dit </span><span class="rouge">qu'</span>il va chez le coiffeur.<br><span class="noir">理容室に行ってくるとルイスは言う。</span></li>
         <li><span class="bleu2">que（または qu'）でつなぐ。</span></li>
       </ul>
     </td>
@@ -202,15 +202,15 @@ excerpt: >
     </td>
 </tr>
 <tr>
-    <td><span class="noir">命令文</span></td>
+    <td><span class="noir4">命令文</span></td>
     <td>
       <ul>
-        <li>Elle  <span class="bleu">dit</span> au chauffeur: ≪Allez a la gare de Nice.≫<br>彼女は運転手に頼む、「ニース駅に行ってください」と。</li>
+        <li>Elle  <span class="bleu">dit</span> au chauffeur: ≪Allez a la gare de Nice.≫<br><span class="noir">彼女は運転手に頼む、「ニース駅に行ってください」と。</span></li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Elle <span class="bleu">dit </span>au chauffeur <span class="rouge">d'aller </span>a la gare de Nice. <br>彼女は運転手にニース駅に行ってくださいと頼む。</li>
+        <li>Elle <span class="bleu">dit </span>au chauffeur <span class="rouge">d'aller </span>a la gare de Nice. <br><span class="noir">彼女は運転手にニース駅に行ってくださいと頼む。</span></li>
         <li><span class="bleu2">de + 不定詞 に変える</span></li>
       </ul>
     </td>
@@ -226,15 +226,15 @@ excerpt: >
     </td>
 </tr>
 <tr>
-    <td><span class="noir">疑問文</span></td>
+    <td><span class="noir4">疑問文</span></td>
     <td>
       <ul>
-        <li>Il me <span class="bleu">demande</span>: ≪Vous partirez demain ?≫<br>彼は私に尋ねます、「明日出発するのか」と。</li>
+        <li>Il me <span class="bleu">demande</span>: ≪Vous partirez demain ?≫<br><span class="noir">彼は私に尋ねます、「明日出発するのか」と。</span></li>
       </ul>
     </td>
     <td>
       <ul>
-        <li>Il me <span class="bleu">demande </span><span class="rouge">si </span>je partirai demain. <br>彼は私に明日出発するのかどうか尋ねます。</li>
+        <li>Il me <span class="bleu">demande </span><span class="rouge">si </span>je partirai demain. <br><span class="noir">彼は私に明日出発するのかどうか尋ねます。</span></li>
         <li><span class="bleu2">si に変える</span></li>
       </ul>
     </td>
@@ -269,68 +269,6 @@ excerpt: >
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 <script defer>

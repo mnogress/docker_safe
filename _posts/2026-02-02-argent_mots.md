@@ -66,9 +66,9 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ラルジャン) お金　㊚</li> 
-        <li>お金をたくさん持っている</li> 
-        <li>お金を使う</li>
+        <li><span class="noir">(ラルジャン) お金　㊚</span></li> 
+        <li><span class="noir">お金をたくさん持っている</span></li> 
+        <li><span class="noir">お金を使う</span></li>
         <li><span class="rouge">argent を複数形にしないこと</span></li>
       </ul> 
   </td>
@@ -90,8 +90,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ル・ペイモン)　支払い</li> 
-        <li>支払いをする</li> 
+        <li><span class="noir">(ル・ペイモン)　支払い</span></li> 
+        <li><span class="noir">支払いをする</span></li> 
       </ul> 
   </td>
 </tr>
@@ -112,8 +112,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ル・タリフ)　料金、運賃表、価格表</li> 
-        <li>普通料金を支払う</li> 
+        <li><span class="noir">(ル・タリフ)　料金、運賃表、価格表</span></li> 
+        <li><span class="noir">普通料金を支払う</span></li> 
       </ul> 
   </td>
 </tr>
@@ -134,8 +134,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ル・レグルマン)　決済、決算</li> 
-        <li>銀行小切手で支払う</li> 
+        <li><span class="noir">(ル・レグルマン)　決済、決算</span></li> 
+        <li><span class="noir">銀行小切手で支払う</span></li> 
       </ul> 
   </td>
 </tr>
@@ -156,8 +156,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ラ・レデュクシオン)　割引、値引き</li> 
-        <li>この商品の割引は20％です。</li> 
+        <li><span class="noir">(ラ・レデュクシオン)　割引、値引き</span></li> 
+        <li><span class="noir">この商品の割引は20％です。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -178,8 +178,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ラディスィオン)　勘定書き　㊛</li> 
-        <li>お会計をお願い致します。</li> 
+        <li><span class="noir">(ラディスィオン)　勘定書き　㊛</span></li> 
+        <li><span class="noir">お会計をお願い致します。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -200,8 +200,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ル・スュプレマン)　追加料金、割増料金</li> 
-        <li>割増料金を払う</li> 
+        <li><span class="noir">(ル・スュプレマン)　追加料金、割増料金</span></li> 
+        <li><span class="noir">割増料金を払う</span></li> 
       </ul> 
   </td>
 </tr>
@@ -222,8 +222,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ル・コーント) 口座</li> 
-        <li>銀行口座</li> 
+        <li><span class="noir">(ル・コーント) 口座</span></li> 
+        <li><span class="noir">銀行口座</span></li> 
       </ul> 
   </td>
 </tr>
@@ -244,8 +244,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ル・ポルトフォイユ)　財布</li> 
-        <li>財布を落とした。</li> 
+        <li><span class="noir">(ル・ポルトフォイユ)　財布</span></li> 
+        <li><span class="noir">財布を落とした。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -266,8 +266,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ラ・モネ)　小銭</li> 
-        <li>小銭はありますか？</li> 
+        <li><span class="noir">(ラ・モネ)　小銭</span></li> 
+        <li><span class="noir">小銭はありますか？</span></li> 
       </ul> 
   </td>
 </tr>
@@ -288,8 +288,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ラ・デット)　借金</li> 
-        <li>私はほとんど私の借金を払ってきました。</li> 
+        <li><span class="noir">(ラ・デット)　借金</span></li> 
+        <li><span class="noir">私はほとんど私の借金を払ってきました。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -310,8 +310,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>（ル・サレール）　給料、賃金</li> 
-        <li>あなたの月給はいくらですか？</li> 
+        <li><span class="noir">（ル・サレール）　給料、賃金</span></li> 
+        <li><span class="noir">あなたの月給はいくらですか？</span></li> 
       </ul> 
   </td>
 </tr>
@@ -354,8 +354,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(エコンミゼ) 節約する。</li> 
-        <li>暖房費を節約する</li> 
+        <li><span class="noir">(エコンミゼ) 節約する。</span></li> 
+        <li><span class="noir">暖房費を節約する</span></li> 
       </ul> 
   </td>
 </tr>
@@ -376,8 +376,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ス・セヘ・ラ・サンテュール) 切り詰める（成句）</li> 
-        <li>今月は切り詰めないといけない。</li> 
+        <li><span class="noir">(ス・セヘ・ラ・サンテュール) 切り詰める（成句）</span></li> 
+        <li><span class="noir">今月は切り詰めないといけない。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -398,9 +398,9 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(クテ)　値段が…である</li> 
-        <li>それはいくらですか？</li> 
-        <li><span class="rouge">coûter の主語が物になることに注意（Ça coûte…）</span></li>
+        <li><span class="noir">(クテ)　値段が…である</span></li> 
+        <li><span class="noir">それはいくらですか？</span></li> 
+        <li><span class="rouge2">coûter の主語が物になることに注意（Ça coûte…）</span></li>
       </ul> 
   </td>
 </tr>
@@ -421,8 +421,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ランブルセ) 返済する</li> 
-        <li>100ユーロ貸してくれない？　後で返すよ。</li> 
+        <li><span class="noir">(ランブルセ) 返済する</span></li> 
+        <li><span class="noir">100ユーロ貸してくれない？　後で返すよ。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -443,8 +443,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(ルエ)　家や車などお金を払って物を借りる</li> 
-        <li>車を借りたいのですが。</li> 
+        <li><span class="noir">(ルエ)　家や車などお金を払って物を借りる</span></li> 
+        <li><span class="noir">車を借りたいのですが。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -465,8 +465,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(コンテ)  数える。</li> 
-        <li>彼はもう勤続10年になる。</li> 
+        <li><span class="noir">(コンテ)  数える。</span></li> 
+        <li><span class="noir">彼はもう勤続10年になる。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -487,8 +487,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>（ガニェ） 稼ぐ、儲ける　（試合・勝負に）勝つ</li> 
-        <li>彼はレースで大金をもうけた。</li> 
+        <li><span class="noir">（ガニェ） 稼ぐ、儲ける　（試合・勝負に）勝つ</span></li> 
+        <li><span class="noir">彼はレースで大金をもうけた。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -509,8 +509,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>(コンテ)  数える。</li> 
-        <li>彼はもう勤続10年になる。</li> 
+        <li><span class="noir">(コンテ)  数える。</span></li> 
+        <li><span class="noir">彼はもう勤続10年になる。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -531,8 +531,8 @@ excerpt: >
     </td>
   <td>
       <ul>
-        <li>（ヴェルセ）払い込む、注ぐ、流す、支払う、（血・涙を）流す、まき散らす</li> 
-        <li>少しずつ注いでください。</li> 
+        <li><span class="noir">（ヴェルセ）払い込む、注ぐ、流す、支払う、（血・涙を）流す、まき散らす</span></li> 
+        <li><span class="noir">少しずつ注いでください。</span></li> 
       </ul> 
   </td>
 </tr>
@@ -561,68 +561,6 @@ excerpt: >
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 <script defer>

@@ -30,18 +30,18 @@ excerpt: >
 
 ### このページの目的
 このページでは、フランス語で「誘いを受ける」「断る」場面で使う  
-**・丁寧な表現  
-・カジュアルな表現  
-・曖昧に断る表現  
-・理由を添える断り方**  
+- 丁寧な表現  
+- カジュアルな表現  
+- 曖昧に断る表現  
+- 理由を添える断り方  
 を、例文と音声とともにまとめています。
 
 日本語話者が特につまずきやすい「ニュアンスの違い」「丁寧さのレベル」も分かりやすく整理しています。
 
 ### 受け入れる表現（Acceptation）
-・ Oui, avec plaisir.（喜んで）<br>
-・ Bien sûr !（もちろん）<br>
-・ Pourquoi pas ?（いいね）<br>
+- Oui, avec plaisir.（喜んで）<br>
+- Bien sûr !（もちろん）<br>
+- Pourquoi pas ?（いいね）<br>
       <span class="player">
             <audio id="DC24_101" preload="auto">
                 <source src="\audio\0224\D01_accept.m4a" type="audio/mp4">
@@ -52,8 +52,8 @@ excerpt: >
       </span>
 
 ### 丁寧に断る表現（Refus poli）
-・ Je suis désolé, mais je ne peux pas.（すみません、できません）<br>
-・ J’aimerais bien, mais je suis occupé.（行きたいけど、忙しいんです）<br>
+- Je suis désolé, mais je ne peux pas.（すみません、できません）<br>
+- J’aimerais bien, mais je suis occupé.（行きたいけど、忙しいんです）<br>
       <span class="player">
             <audio id="DC24_102" preload="auto">
                 <source src="\audio\0224\D02_accept.m4a" type="audio/mp4">
@@ -64,8 +64,8 @@ excerpt: >
       </span>
 
 ### 曖昧に断る表現（Refus indirect）
-・ On verra.（また今度ね）<br>
-・ Peut-être une autre fois.（また別の機会に）<br>
+- On verra.（また今度ね）<br>
+- Peut-être une autre fois.（また別の機会に）<br>
       <span class="player">
             <audio id="DC24_103" preload="auto">
                 <source src="\audio\0224\D03_accept.m4a" type="audio/mp4">
@@ -76,8 +76,8 @@ excerpt: >
       </span>
 
 ### はっきり断る表現（Refus direct）
-・ Non, merci.（結構です）<br>
-・ Ce n’est pas possible pour moi.（無理です）<br>
+- Non, merci.（結構です）<br>
+- Ce n’est pas possible pour moi.（無理です）<br>
       <span class="player">
             <audio id="DC24_104" preload="auto">
                 <source src="\audio\0224\D04_accept.m4a" type="audio/mp4">
@@ -105,7 +105,7 @@ excerpt: >
 </thead>
 <tbody>
 <tr>
-    <td><span class="noir">快諾</span><br>快く了解する </td>
+    <td><span class="noir4">快諾</span><br>快く了解する </td>
     <td>
       <ul>
         <li><span class="bleu">Bien sûr. </span></li>
@@ -138,7 +138,7 @@ excerpt: >
   </td>
 </tr>
 <tr>
-    <td><span class="noir">了承</span><br>余地を残して承諾 </td>
+    <td><span class="noir4">了承</span><br>余地を残して承諾 </td>
     <td>
       <ul>
         <li><span class="bleu">Pourquoi pas.</span></li>
@@ -169,7 +169,7 @@ excerpt: >
   </td>
 </tr>
 <tr>
-    <td><span class="noir">曖昧</span><br>曖昧な返事</td>
+    <td><span class="noir4">曖昧</span><br>曖昧な返事</td>
     <td>
       <ul>
         <li><span class="bleu">Je vais regarder.</span></li>
@@ -200,7 +200,7 @@ excerpt: >
   </td>
 </tr>
 <tr>
-    <td><span class="noir">断る</span><br>お断りする</td>
+    <td><span class="noir4">断る</span><br>お断りする</td>
     <td>
       <ul>
         <li><span class="bleu">Désolé(e)</span></li>
@@ -236,8 +236,8 @@ excerpt: >
 {% endraw %}
 
 <section aria-labelledby="glossary-title">
-  <h2 id="glossary-title">一緒に覚えたい語句・用法</h2>
-  <dl class="glossary">
+  <h3 id="glossary-title">一緒に覚えたい語句・用法</h3>
+  <dl>
     <dt>le plaisir </dt>
     <dd>ル・プレズィール　楽しみ</dd>
     <dt>volontiers</dt>
@@ -248,80 +248,18 @@ excerpt: >
 </section>
 
 ### 次に学ぶと良いページ
-・ 感情表現のフレーズ集  
-・ 日常会話の基本表現（挨拶・返答）  
-・ フランス語の丁寧表現まとめ  
+- 感情表現のフレーズ集  
+- 日常会話の基本表現（挨拶・返答）  
+- フランス語の丁寧表現まとめ  
 
 ### まとめ
-・ 誘いを受ける／断る表現は日常会話で非常に重要  
-・ 丁寧さのレベルを理解すると自然な会話ができる  
-・ 音声でニュアンスを確認しながら練習するのが効果的  
+- 誘いを受ける／断る表現は日常会話で非常に重要  
+- 丁寧さのレベルを理解すると自然な会話ができる  
+- 音声でニュアンスを確認しながら練習するのが効果的  
 
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 <script defer>

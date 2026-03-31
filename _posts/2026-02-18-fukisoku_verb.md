@@ -116,10 +116,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Il <span class="bleu">est</span> français. (彼はフランス人です)</li>
-        <li>Nous <span class="bleu">somes</span> à Paris.（私たちはパリにいます）</li>
-        <li>Je <span class="bleu">suis</span> en train de manger.（私は今、食べているところです）</li>
-        <li>Je <span class="bleu">suis</span> allé au cinéma.（私は映画館へ行きました、複合過去・助動詞）</li>
+        <li>Il <span class="bleu">est</span> français. <span class="noir">(彼はフランス人です)</span></li>
+        <li>Nous <span class="bleu">somes</span> à Paris.<span class="noir">（私たちはパリにいます）</span></li>
+        <li>Je <span class="bleu">suis</span> en train de manger.<span class="noir">（私は今、食べているところです）</span></li>
+        <li>Je <span class="bleu">suis</span> allé au cinéma.<span class="noir">（私は映画館へ行きました、複合過去・助動詞）</span></li>
     </ul>
     </td>
     <td>
@@ -174,10 +174,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>J<span class="bleu">'ai</span> essayé. (試してみた 複合過去)</li>
-        <li>Nous <span class="bleu">avons </span>un rendez-vous à midi. （私たちは正午に約束があります）</li>
-        <li>Ça <span class="bleu">a </span>l'air difficile. (難しそう)</li>
-        <li>On <span class="bleu">a </span> fini. （終わりました）</li>
+        <li>J<span class="bleu">'ai</span> essayé. <span class="noir">(試してみた 複合過去)</span></li>
+        <li>Nous <span class="bleu">avons </span>un rendez-vous à midi. <span class="noir">（私たちは正午に約束があります）</span></li>
+        <li>Ça <span class="bleu">a </span>l'air difficile. <span class="noir">(難しそう)</span></li>
+        <li>On <span class="bleu">a </span> fini. <span class="noir">（終わりました）</span></li>
     </ul>
     </td>
     <td>
@@ -232,10 +232,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Tu <span class="bleu">vas</span> faire quoi ? （何をするの？ 近接未来）</li>
-        <li>Oui, ça <span class="bleu">va </span>, et toi ? (はい、元気。君は？)</li>
-        <li>On <span class="bleu">va </span>pas y arriver. (これでは、無理だ。)</li>
-        <li>Vous <span class="bleu">allez </span> acheter du pain? （パンを買いに行くのですか？）</li>
+        <li>Tu <span class="bleu">vas</span> faire quoi ? <span class="noir">（何をするの？ 近接未来）</span></li>
+        <li>Oui, ça <span class="bleu">va </span>, et toi ? <span class="noir">(はい、元気。君は？)</span></li>
+        <li>On <span class="bleu">va </span>pas y arriver. <span class="noir">(これでは、無理だ。)</span></li>
+        <li>Vous <span class="bleu">allez </span> acheter du pain? <span class="noir">（パンを買いに行くのですか？）</span></li>
     </ul>
     </td>
     <td>
@@ -290,10 +290,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Il <span class="bleu">fait</span> du vent ce soir.	(今夜は風が強い。)</li>
-        <li>Ça me <span class="bleu">fait</span> plaisir.　(それが私を喜ばせる＝嬉しい。)</li>
-        <li>Tout le monde <span class="bleu">fait </span> comme ça.　(みんなこうやってるんだよ。)</li>
-        <li>Quelle taille <span class="bleu">faites-</span>vous ?　(サイズはいくつですか？)</li>
+        <li>Il <span class="bleu">fait</span> du vent ce soir.	<span class="noir">(今夜は風が強い。)</span></li>
+        <li>Ça me <span class="bleu">fait</span> plaisir.　<span class="noir">(それが私を喜ばせる＝嬉しい。)</span></li>
+        <li>Tout le monde <span class="bleu">fait </span> comme ça.　<span class="noir">(みんなこうやってるんだよ。)</span></li>
+        <li>Quelle taille <span class="bleu">faites-</span>vous ?　<span class="noir">(サイズはいくつですか？)</span></li>
     </ul>
     </td>
     <td>
@@ -348,10 +348,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Je <span class="bleu">dis</span> la vérité.	(私は本当のことを言う。)</li>
-        <li>On <span class="bleu">dit</span> ça souvent.　(それはよく言われる。)</li>
-        <li>Ça <span class="bleu">dit </span> quoi ? 　(どう？、何かある？)</li>
-        <li>Vous <span class="bleu">dites</span> toujours ça.　(あなたはいつもそう言いますね。)</li>
+        <li>Je <span class="bleu">dis</span> la vérité.	<span class="noir">(私は本当のことを言う。)</span></li>
+        <li>On <span class="bleu">dit</span> ça souvent.　<span class="noir">(それはよく言われる。)</span></li>
+        <li>Ça <span class="bleu">dit </span> quoi ? 　<span class="noir">(どう？、何かある？)</span></li>
+        <li>Vous <span class="bleu">dites</span> toujours ça.　<span class="noir">(あなたはいつもそう言いますね。)</span></li>
     </ul>
     </td>
     <td>
@@ -406,9 +406,9 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Il <span class="bleu">connaît</span> l'anglais.　(彼は英語ができる)　</li>
-        <li><span class="bleu">Connaissez</span>-vous la capitale de la Turquie ?(トルコの首都を知っていますか？)</li>
-        <li>Je<span class="bleu">connais </span> pas le nom de cette personne.　(あの人の名前を私は知りません)</li>
+        <li>Il <span class="bleu">connaît</span> l'anglais.　<span class="noir">(彼は英語ができる)　</span></li>
+        <li><span class="bleu">Connaissez</span>-vous la capitale de la Turquie ?<span class="noir">(トルコの首都を知っていますか？)</span></li>
+        <li>Je<span class="bleu"> connais </span> pas le nom de cette personne.　<span class="noir">(あの人の名前を私は知りません)</span></li>
     </ul>
     </td>
     <td>
@@ -463,9 +463,9 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Il <span class="bleu">sait</span> l'anglais.　(彼は英語を知っている)　</li>
-        <li>Je ne <span class="bleu">sais</span> pas s'il est honnête.(彼が正直がどうか私は知らない)</li>
-        <li>Vous<span class="bleu">savez </span> bien la vérité.　(あなたはちゃんと真実がわかっています)</li>
+        <li>Il <span class="bleu">sait</span> l'anglais.　<span class="noir">(彼は英語を知っている)　</span></li>
+        <li>Je ne <span class="bleu">sais</span> pas s'il est honnête.<span class="noir">(彼が正直がどうか私は知らない)</span></li>
+        <li>Vous<span class="bleu"> savez </span> bien la vérité.　<span class="noir">(あなたはちゃんと真実がわかっています)</span></li>
     </ul>
     </td>
     <td>
@@ -520,10 +520,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Je ne <span class="bleu">peux </span>pas monter jusque là. （そこまでは登れないなぁ）</li>
-        <li>Je n'en <span class="bleu">peux </span>plus. （もう限界、これ以上無理） </li>
-        <li>Ça <span class="bleu">peut </span>être une coincidence. (偶然かもしれない)</li>
-        <li>Nous <span class="bleu">pouvons </span>entrer ici ? (ここに入ってもいいですか？)</li>
+        <li>Je ne <span class="bleu">peux </span>pas monter jusque là. <span class="noir">（そこまでは登れないなぁ）</span></li>
+        <li>Je n'en <span class="bleu">peux </span>plus. <span class="noir">（もう限界、これ以上無理） </span></li>
+        <li>Ça <span class="bleu">peut </span>être une coincidence. <span class="noir">(偶然かもしれない)</span></li>
+        <li>Nous <span class="bleu">pouvons </span>entrer ici ?<span class="noir"> (ここに入ってもいいですか？)</span></li>
     </ul>
     </td>
     <td>
@@ -578,10 +578,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Ça ne <span class="bleu">veut </span>rien dire. （それは何の意味もない／話にならない）</li>
-        <li><span class="bleu">Voulez</span>-vous vous asseoir, s'il vous plaît ? (お座りいただけますか？)</li>
-        <li>Comme vous <span class="bleu">voulez</span>.（お好きなように／あなたの思う通りに。）</li>
-        <li>Je <span class="bleu">veux </span>qu'il vienne immédiatement. (彼にすぐ来てもらいたい。)</li>
+        <li>Ça ne <span class="bleu">veut </span>rien dire. <span class="noir">（それは何の意味もない／話にならない）</span></li>
+        <li><span class="bleu">Voulez</span>-vous vous asseoir, s'il vous plaît ? <span class="noir">(お座りいただけますか？)</span></li>
+        <li>Comme vous <span class="bleu">voulez</span>.<span class="noir">（お好きなように／あなたの思う通りに。）</span></li>
+        <li>Je <span class="bleu">veux </span>qu'il vienne immédiatement.<span class="noir"> (彼にすぐ来てもらいたい。)</span></li>
     </ul>
     </td>
     <td>
@@ -615,80 +615,18 @@ excerpt: >
 
 ### 次に学ぶと良いページ
 
-・ 規則動詞ER動詞の活用まとめ  
-・ 代名動詞の活用（複合過去の être の復習）  
-・ よく使う動詞100（音声付き）
+- 規則動詞ER動詞の活用まとめ  
+- 代名動詞の活用（複合過去の être の復習）  
+- よく使う動詞100（音声付き）
 
 ### まとめ
-・ 不規則動詞は語幹変化・語尾変化・複合過去などが難しい  
-・ 種類ごとに整理すると覚えやすい  
-・ 例文と音声で実際の使い方を確認するのが近道  
+- 不規則動詞は語幹変化・語尾変化・複合過去などが難しい  
+- 種類ごとに整理すると覚えやすい  
+- 例文と音声で実際の使い方を確認するのが近道  
 
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 <script defer>
