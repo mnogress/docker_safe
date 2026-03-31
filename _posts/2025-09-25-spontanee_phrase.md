@@ -26,68 +26,6 @@ last_modified_at : 2025-09-25 12:30:00
 読み方（カタカナ）も付けているので、声に出して練習してみてください。<!--more-->
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 <script defer>
 document.addEventListener('DOMContentLoaded', () => {
@@ -305,13 +243,13 @@ document.addEventListener('DOMContentLoaded', () => {
 フランス語では、à + 名詞（物事）を **y** で受けます。
 
 例：  
-・Tu penses à tes vacances ?  
-・Oui, **j’y** pense.  
-・Non, **je n’y** pense pas.
+- Tu penses à tes vacances ?  
+- Oui, **j’y** pense.  
+- Non, **je n’y** pense pas.
 
 🗣️（発音）<br>
-・ **j’y は「ジィ」と読む。  「ジェ・イ」は間違い。**<br>
-・ **je n’y** は、<span class="rouge">「ジュ・ニ」</span>となります。**n’y → ニ**
+-  **j’y は「ジィ」と読む。  「ジェ・イ」は間違い。**<br>
+-  **je n’y** は、<span class="rouge">「ジュ・ニ」</span>となります。**n’y → ニ**
 
 ### 日本人が間違えやすいポイント
 

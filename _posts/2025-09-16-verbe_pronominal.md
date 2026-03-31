@@ -27,77 +27,15 @@ excerpt: >
 
 ### このページの目的
 このページでは、フランス語の代名動詞（verbes pronominaux）を 基本の仕組み  
-**・よく使う動詞  
-・活用のポイント  
-・例文と音声での実践**  
+- よく使う動詞  
+- 活用のポイント  
+- 例文と音声での実践 
 の順に体系的に学べるようにまとめています。
 
 日本人学習者がつまずきやすい「se の意味の多様性」「複合過去の一致」「目的語がある場合の例外」なども、例文とともに分かりやすく解説します。
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 ### 代名動詞の基本事項
@@ -106,9 +44,9 @@ _media screen and (max-width:750px){
 
 **ポイントは以下になります。**
 
-(１) 代名動詞は日常の動作を表すときによく使われます<br>
-(２) 代名動詞の複合過去形は動詞の意味にかかわらず、必ず <span class="bleu">être</span> が使われます<br>
-(３) 過去分詞は主語の性・数と一致させます<br>
+1. 代名動詞は日常の動作を表すときによく使われます<br>
+2. 代名動詞の複合過去形は動詞の意味にかかわらず、必ず <span class="bleu">être</span> が使われます<br>
+3. 過去分詞は主語の性・数と一致させます<br>
 
 ### 日本語話者が特につまずきやすいポイント
 
@@ -270,8 +208,8 @@ _media screen and (max-width:750px){
 ただし、**目的語が後ろにある場合は一致しません。**
 
 例：  
-・ Elle s’est levée.（一致する）  
-・ Elle s’est lavé les mains.（一致しない：目的語 les mains が後ろ）
+- Elle s’est levée.（一致する）  
+- Elle s’est lavé les mains.（一致しない：目的語 les mains が後ろ）
 
 
 
@@ -390,13 +328,13 @@ _media screen and (max-width:750px){
 </table>
 
 ### 次に学ぶと良いページ
-・ 再帰代名詞の位置（me / te / se）の並び<br>
-・ 代名動詞と非代名動詞の意味の違い<br>
-・ 朝のルーティンで使う動詞まとめ<br>
+- 再帰代名詞の位置（me / te / se）の並び<br>
+- 代名動詞と非代名動詞の意味の違い<br>
+- 朝のルーティンで使う動詞まとめ<br>
 
 ### まとめ
-・ 代名動詞は “se + 動詞” の形で、自分自身・相互・受動など複数の意味を持つ  
-・ 複合過去では être を使い、性数一致に注意  
-・ 日常動作で頻出するため、例文と音声で慣れるのが近道  
+- 代名動詞は “se + 動詞” の形で、自分自身・相互・受動など複数の意味を持つ  
+- 複合過去では être を使い、性数一致に注意  
+- 日常動作で頻出するため、例文と音声で慣れるのが近道  
 
 

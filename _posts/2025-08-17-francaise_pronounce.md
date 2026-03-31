@@ -2,7 +2,7 @@
 layout: single
 title: フランス語の母音字発音ガイド（初級者向け）
 header:
-  overlay_image: images/header_fr2_1280by336.png
+  overlay_image: images/header_fr56_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.33)
 toc: true
 toc_label: "目次"
@@ -18,6 +18,9 @@ tag: ["French", "フランス語学習"]
 categories: [français, prononciation]
 date: 2025-08-17
 last_modified_at : 2025-10-16 09:00:00
+excerpt: >
+  英語読みでは絶対に通じないフランス語の発音ルールを、日本語話者向けに基礎から整理したページです。母音・子音の読み方、語末の無音、リエゾンなど、フランス語を正しく読むために欠かせないポイントを、例と音声つきでわかりやすく解説しています。
+
 ---
 フランス語の発音は美しく魅力的ですが、初めて学ぶ方にとっては少し難しく感じるかもしれません。特に母音字の読み方には独特のルールがあります。<!--more-->
 
@@ -53,68 +56,6 @@ last_modified_at : 2025-10-16 09:00:00
 
 
 <style>
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 
@@ -224,13 +165,13 @@ parf<span class="rouge">ai</span>t「パフェ」(完全の)
 </table>
 
 ### 次に学ぶと良いページ
-・ つづりと発音の規則（つづりと発音の詳しい説明）<br>
-・ とっさの表現集（実際の会話での発音練習）<br>
-・ フランス語の基本形容詞単語118（音声付き）<br>
+- つづりと発音の規則（つづりと発音の詳しい説明）<br>
+- とっさの表現集（実際の会話での発音練習）<br>
+- フランス語の基本形容詞単語118（音声付き）<br>
 
 
 ### まとめ
-・ française は「鼻母音」「ç」「-aise」の3つを押さえると発音しやすい<br>
-・ 日本語にない音が多いので、音声で慣れるのが近道<br>
-・ 発音の仕組みを理解すると、他の単語にも応用できる<br>
+- française は「鼻母音」「ç」「-aise」の3つを押さえると発音しやすい<br>
+- 日本語にない音が多いので、音声で慣れるのが近道<br>
+- 発音の仕組みを理解すると、他の単語にも応用できる<br>
 

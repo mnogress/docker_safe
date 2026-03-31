@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 classes:
   - landing
   - dark-theme
-  #- wide
+  - wide
 sidebar:
   nav: "docs"
 categories: [français, prononciation]
@@ -27,79 +27,17 @@ excerpt: >
 
 ### このページの目的
 このページでは、フランス語の発音で特につまずきやすい  
-**・母音の読み方  
-・子音の読み方  
-・語末の発音  
-・リエゾンとアンシェヌマン  
-・例外ルール**  
+- 母音の読み方  
+- 子音の読み方  
+- 語末の発音  
+- リエゾンとアンシェヌマン  
+- 例外ルール
 を、例と音声とともに体系的にまとめています。
 
 日本語話者が誤りやすいポイントを中心に、実際の会話で役立つ発音のコツを解説します。
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 
@@ -116,12 +54,12 @@ _media screen and (max-width:750px){
 </div>
 
 ### よくある誤り
-・ *beau* を「ベウ」と読む → 正しくは「ボー」  
-・ *fille* を「フィル」と読む → 正しくは「フィーユ」  
-・ *on* を「オン」と読む → 鼻母音で「オ」に近い
+-  *beau* を「ベウ」と読む → 正しくは「ボー」  
+-  *fille* を「フィル」と読む → 正しくは「フィーユ」  
+-  *on* を「オン」と読む → 鼻母音で「オ」に近い
 
 
-### １．フランス語では末尾の子音字は原則発音しない。
+#### １．フランス語では末尾の子音字は原則発音しない。
 例外的に発音する単語もあるため、原則となります。
 ついつい英語読み末尾の子音字を発音したくなる単語を以下に示します。
 <span class="bleu">青字</span>が発音**しない**子音字になります。
@@ -138,7 +76,7 @@ _media screen and (max-width:750px){
 | peti<span class="bleu">t</span>   |プティ|小さい|"プチ"ではない。|
 
 
-### ２．「c」、「f」、「l」、「r」の文字は基本的に発音する
+#### ２．「c」、「f」、「l」、「r」の文字は基本的に発音する
 
 <span class="rouge">朱字</span>が発音**する**語尾の子音字になります。
 
@@ -169,7 +107,7 @@ _media screen and (max-width:750px){
 
 
 
-### ３．複数形の 「s」 は例外なく発音しない
+#### ３．複数形の 「s」 は例外なく発音しない
 
 単数形なのか複数形なのか聞いただけでは区別できません。冠詞・所有格で「後ろの」名詞の単複を判別できます。
 
@@ -181,7 +119,7 @@ _media screen and (max-width:750px){
 
 [^1]: ma amie だと母音字が重(母音字衝突)なるのを避けるため mon amie となる。
 
-### ４．「h」 は発音しない
+#### ４．「h」 は発音しない
 
 「h」 自体は、どのような場合でも発音しない。
 英語やローマ字の習慣があると、つい「h」を発音しようとしてしまいます。「homme（男）」は「オム」と発音され、「h」は完全に無視されます。英語の「home」やローマ字の「ほむ」といった読み方に慣れていると、「h」を読まないことに戸惑いが生じるのは自然なことです。
@@ -206,7 +144,7 @@ _media screen and (max-width:750px){
 |aujourd'hui|オジュルデュイ|今日||
 |histoire|イストワール|歴史|faire de l'histoire (フェア・ドゥ・リストワール)「歴史学を研究する」|
 
-### ５. 「e」（ウー） の後に子音字が二つ並べば「エ」と読む
+#### ５. 「e」（ウー） の後に子音字が二つ並べば「エ」と読む
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
@@ -216,7 +154,7 @@ _media screen and (max-width:750px){
 |<span class="rouge">e</span><span class="bleu">ll</span>|エル|彼女||
 |une f<span class="rouge">e</span><span class="bleu">mm</span>e|ウヌ・ファム|一人の女性|**例外**|
 
-### ６．「e」（ウー）の後に子音字が一つだけなら「ウ」と読む
+#### ６．「e」（ウー）の後に子音字が一つだけなら「ウ」と読む
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
@@ -227,7 +165,7 @@ _media screen and (max-width:750px){
 |mercr<span class="rouge">e</span><span class="bleu">d</span>i|メルクルディ|水曜日||
 
 
-### ７. 「e」（ウー）のあとに子音字が置かれ、それが最後の音節だと「エ」と読む
+#### ７. 「e」（ウー）のあとに子音字が置かれ、それが最後の音節だと「エ」と読む
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
@@ -237,7 +175,7 @@ _media screen and (max-width:750px){
 |vous chant<span class="rouge">e</span><span class="bleu">z</span>|ヴ・シャンテ|あなたは、歌います|***vous の活用語尾***|
 
 
-### 8. 語末の「e」「ウー」は発音しません。最後に発音する音は、最終の「e」の前のものです。
+#### ８. 語末の「e」「ウー」は発音しません。最後に発音する音は、最終の「e」の前のものです。
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
@@ -246,7 +184,7 @@ _media screen and (max-width:750px){
 |la port<span class="rouge">e</span>|ラ・ポルト|ドア||
 |la salad<span class="rouge">e|ラ・サラッド|サラダ||
 
-### 9.語末の「e」が先の子音字が一つのため、語として発音しにくいので、弱く「ゥ」と発音される
+#### ９.語末の「e」が先の子音字が一つのため、語として発音しにくいので、弱く「ゥ」と発音される
 
 |つづり字 |発音 |日本語訳 |コメント |
 | :-----       | :----       | :-----       | :-----      |
@@ -260,6 +198,6 @@ _media screen and (max-width:750px){
 
 
 ### まとめ
-・ フランス語の発音はルールを理解すると一気に読みやすくなる  
-・ 鼻母音・語末の子音・リエゾンが特に重要  
-・ 音声で確認しながら練習するのが最も効果的  
+-  フランス語の発音はルールを理解すると一気に読みやすくなる  
+-  鼻母音・語末の子音・リエゾンが特に重要  
+-  音声で確認しながら練習するのが最も効果的  

@@ -34,10 +34,10 @@ excerpt: >
 日本語話者向けに分かりやすく整理しています。
 
 英語や日本語とつづりが似ていても意味が異なる単語を、  
-**・正しい意味  
-・誤解しやすい理由  
-・例文  
-・音声（ある場合）**  
+- 正しい意味  
+- 誤解しやすい理由  
+- 例文  
+- 音声（ある場合） 
 とともに理解できるようにまとめています。
 
 ### faux-amis（空似語）とは？
@@ -45,86 +45,24 @@ faux-amis とは、英語や日本語とつづりが似ているために
 **意味を誤解しやすいフランス語の単語** のことです。
 
 例：  
-・ *actuellement*（現在） → ❌ actually（実は）と混同しやすい  
-・ *librairie*（本屋） → ❌ library（図書館）と誤解しやすい
+-  *actuellement*（現在） → ❌ actually（実は）と混同しやすい  
+-  *librairie*（本屋） → ❌ library（図書館）と誤解しやすい
 
 ### 日本語話者が faux-amis でつまずく理由
-・ 英語とフランス語の語源が共通で、つづりが似ている  
-・ 日本語の外来語が英語由来のため、意味を英語で推測しがち  
-・ フランス語の意味が英語と微妙にズレている場合が多い  
+-  英語とフランス語の語源が共通で、つづりが似ている  
+-  日本語の外来語が英語由来のため、意味を英語で推測しがち  
+-  フランス語の意味が英語と微妙にズレている場合が多い  
 
 ### 例文
-・ *Je travaille actuellement à Tokyo.*  
+-  *Je travaille actuellement à Tokyo.*  
   → 私は現在東京で働いています。
 
-・ *Je vais à la librairie.*  
+-  *Je vais à la librairie.*  
   → 私は本屋に行きます。
 
 
 
 <style type="text/css">
-table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
-  font-size: 0.75em;
-  border-collapse: collapse;
-  overflow-x: auto;
-}
-
-table + table {
-  margin-top: 1em;
-}
-
-thead {
-  background-color: #e6e6fa;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-th {
-  padding: 0.5em;
-  font-weight: bold;
-  text-align: start;
-}
-
-td {
-  padding: 0.5em;
-  border-bottom: 1px solid #9b9b9d;
-}
-
-tfoot {
-  background-color: #afeeee;
-  padding: 0.5em;
-  border-top: 2px solid #9b9b9d;
-  border-bottom: 2px solid #9b9b9d;
-}
-
-tr,
-td,
-th {
-  vertical-align: middle;
-}
-_media screen and (max-width:1280px){
-.p_table {width:100%;overflow:scroll;}
-.p_table table {width:1153px;}
-}
-_media screen and (max-width:750px){
-.resp_table {width:100% !important;}
-.resp_table th ,.resp_table td{padding:10px !important;}
-}
-
-  /* このページだけのULを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ul {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.3;      /* 読みやすさ調整（任意） */
-  }
-
-  /* このページだけのOLを調整（スコープ＝.page-ul-fix） */
-  .page-ul-fix ol {
-    font-size: 1rem;       /* 任意のサイズに */
-    line-height: 1.6;      /* 読みやすさ調整（任意） */
-  }
 </style>
 
 ### フランス語「空似言葉」（faux-amis）
@@ -196,12 +134,12 @@ _media screen and (max-width:750px){
 
 
 ### 次に学ぶと良いページ
-・ フランス語のよくある間違い集  
-・ 初級者が混同しやすい動詞一覧  
-・ 発音ガイド（鼻母音・リエゾン）
+-  フランス語のよくある間違い集  
+-  初級者が混同しやすい動詞一覧  
+-  発音ガイド（鼻母音・リエゾン）
 
 ### まとめ
-・ faux-amis は英語や日本語とつづりが似ているため誤解しやすい  
-・ 正しい意味と誤解しやすい意味をセットで覚えると効果的  
-・ 例文と音声で確認すると記憶に残りやすい  
+-  faux-amis は英語や日本語とつづりが似ているため誤解しやすい  
+-  正しい意味と誤解しやすい意味をセットで覚えると効果的  
+-  例文と音声で確認すると記憶に残りやすい  
 
