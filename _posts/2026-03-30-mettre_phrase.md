@@ -129,6 +129,12 @@ mettre は「置く」だけ覚えると絶対に困ります。
 - mettre → mis（ミ） と大きく形が変わる不規則動詞（覚えにくい）
 - avoir を使う複合過去
 - j’ai mis（ジェ ミ）＝「置いた／着た／時間がかかった」
+- <span class="player"><audio id="me09_104a" preload="auto">
+                <source src="\audio\0327\04_mettre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="me09_104a">
+                    <span class="label">📢</span>
+                </button></span>
 
 
 ### 🎯 **mettre の主要な意味（混乱ポイントつき）**
@@ -138,6 +144,12 @@ mettre は「置く」だけ覚えると絶対に困ります。
   テーブルの上に置く  
 - mettre du sucre **dans** le café  
   コーヒーに砂糖を入れる  
+- <span class="player"><audio id="me09_105" preload="auto">
+                <source src="\audio\0327\05_mettre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="me09_105">
+                    <span class="label">📢</span>
+                </button></span>
 
 👉 **sur / dans の前置詞で意味が変わるので混乱しやすい**
 
@@ -148,6 +160,12 @@ mettre は「置く」だけ覚えると絶対に困ります。
   コートを着る 
 - Je vais mettre ce pull chaud pour sortir.<br>
   出かけるのにこの暖かいセーターを着よう。 
+- <span class="player"><audio id="me09_106" preload="auto">
+                <source src="\audio\0327\06_mettre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="me09_106">
+                    <span class="label">📢</span>
+                </button></span>
 
 👉 **porter（着ている）と混同しやすい**
 
@@ -158,6 +176,12 @@ mettre は「置く」だけ覚えると絶対に困ります。
   10分かかる  
 - Vous mettez combien de temps pour venir ici ?<br>
   ここに来るのにどれだけ時間がかかりますか？
+- <span class="player"><audio id="me09_107" preload="auto">
+                <source src="\audio\0327\07_mettre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="me09_107">
+                    <span class="label">📢</span>
+                </button></span>
 
 👉 prendre と混同しやすい（prendre も「時間がかかる」）
 
@@ -165,7 +189,13 @@ mettre は「置く」だけ覚えると絶対に困ります。
 
 #### ④ ～に取りかかる（se mettre à）  
 - Je me mets à étudier.  
-  勉強を始める  
+  勉強を始める 
+- <span class="player"><audio id="me09_108" preload="auto">
+                <source src="\audio\0327\08_mettre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="me09_108">
+                    <span class="label">📢</span>
+                </button></span> 
 
 👉 **「始める」なのに mettre を使うのが直感的でない**
 
@@ -178,6 +208,12 @@ mettre は「置く」だけ覚えると絶対に困ります。
   テレビをつける  
 - Elle a mis sa montre à l'heure.<br>
   彼女は腕時計の時刻を合わせた。
+- <span class="player"><audio id="me09_109" preload="auto">
+                <source src="\audio\0327\09_mettre.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="me09_109">
+                    <span class="label">📢</span>
+                </button></span> 
 
 👉 **「置く」から連想できない意味が多い**
 
