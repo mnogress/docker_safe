@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
 </script>
 
 
-### être の活用
+### 📙 être の活用
 
 
 <span class="rouge">英語の"have 動詞"にあたる avoir とともに、**être** は、フランス語の基本的な文を理解するために不可欠な動詞です。</span><br>
@@ -330,11 +330,11 @@ document.addEventListener('DOMContentLoaded', () => {
 </table>
 
 <div markdown='1'>
-### 動詞 être の使い方：口から覚えるフレーズ集
+### 🎯 動詞 être の使い方：口から覚えるフレーズ集
 活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋動詞」をリズムで覚えましょう。　
 </div>　
 
-**注意！**<br>
+**🧠 注意！**<br>
 <span class="bleu">Je suis chaud.</span>（私は暑い）は文法的に問題ない。フランス語ですが：<br>
 👉 初心者は「暑い＝être」と考えがちですが、フランス語では「暑い（体感）」は <span class="bleu">avoir chaud</span> を使います。Je suis chaud は「性的に興奮している」という意味になるため注意が必要です。
 
@@ -484,7 +484,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 <div markdown='1'>
-### まとめ
+### 🌟 まとめ
 </div>
 
 {% raw %}
@@ -501,6 +501,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 <div markdown='1'>
-**次のステップ**<br>
-être を学んだら、avoir・aller・faire などの基礎動詞を順番に学ぶと、日常会話の表現力が大きく広がります。
+### 🧭 次のステップ
+être を学んだら、**avoir・aller・faire** などの基礎動詞を順番に学ぶと、日常会話の表現力が大きく広がります。
 </div>
