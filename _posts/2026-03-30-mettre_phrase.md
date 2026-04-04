@@ -177,7 +177,7 @@ mettre は「置く」だけ覚えると絶対に困ります。
 - Vous mettez combien de temps pour venir ici ?<br>
   ここに来るのにどれだけ時間がかかりますか？
 - <span class="player"><audio id="me09_107" preload="auto">
-                <source src="\audio\0327\07_mettre.m4a" type="audio/mp4">
+                <source src="\audio\0327\07_mettre_a.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="me09_107">
                     <span class="label">📢</span>

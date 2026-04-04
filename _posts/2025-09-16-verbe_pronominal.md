@@ -182,7 +182,6 @@ excerpt: >
     <td>on <span class="bleu">s'est levé(e)(s)</span></td>
     <td><span class="noir07">私たちは、起きた</span></td>
     <td><span class="noir07">オン・セ・レヴェ</span></td>
-
 </tr>
 <tr>
     <td>nous<span class="bleu"> nous sonmmes levé(e)s</span></td>
