@@ -102,9 +102,9 @@ tenir を理解するコツは、
     </td>
     <td>
     <ul>
-        <li>On <span class="bleu">tient</span> à notre promesse.   <span class="noir07">(オン・ティヤン・ア・ノートル・プロメス: 私たちは約束を大切にしている)</span><br>on tient à …<span class="noir07">（〜を大切にする） 頻出</span></li>
-        <li>Ça <span class="bleu">tient</span> ?<span class="noir07">（サ・ティヤン:　それ大丈夫？ / うまくいきそう？）</span></li>
-        <li>Elle se <span class="bleu">tient</span> droite.<span class="noir07">（エル・ス・ティヤン・ドルワット：彼女は背筋を伸ばして立っている）</span></li>
+        <li>On <span class="bleu">tient</span> à notre promesse.<br><span class="noir07">(オン・ティヤン・ア・ノートル・プロメス: 私たちは約束を大切にしている)</span><br>on tient à …<span class="noir07">（〜を大切にする） 頻出</span></li>
+        <li>Ça <span class="bleu">tient</span> ?<br><span class="noir07">（サ・ティヤン:　それ大丈夫？ / うまくいきそう？）</span></li>
+        <li>Elle se <span class="bleu">tient</span> droite.<br><span class="noir07">（エル・ス・ティヤン・ドルワット：彼女は背筋を伸ばして立っている）</span></li>
     </ul>
     </td>
     <td>
