@@ -157,7 +157,7 @@ excerpt: >
     <td><span class="noir07">わたしは、起きた</span></td>
     <td><span class="noir07">ジュム・スゥィ・レヴェ</span></td>
         <td rowspan="5"><span class="player"><audio id="ses05_103" preload="auto">
-                <source src="\audio\0327\03_sesvrb.m4a" type="audio/mp4">
+                <source src="\audio\0327\03_sesvrb_r.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="ses05_103">
                     <span class="label">📢</span>
@@ -268,7 +268,7 @@ excerpt: >
         <td><span class="noir07">彼は私をバカにする。</span></td>
         <td><span class="noir07">イル・ス・モケ・ドゥ・モア</span></td>
         <td rowspan="4"><span class="player"><audio id="se05_102" preload="auto">
-                <source src="\audio\0327\02_sevrb.m4a" type="audio/mp4">
+                <source src="\audio\0327\01_2sevrb.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="se05_102">
                     <span class="label">📢</span>
@@ -294,7 +294,7 @@ excerpt: >
         <td><span class="noir07">私たちは会った／言った／助け合った。</span></td>
         <td><span class="noir07">オン・セ・ヴ／ディ／エデ</span></td>
         <td rowspan="4"><span class="player"><audio id="se05_103" preload="auto">
-                <source src="\audio\0327\03_sevrb.m4a" type="audio/mp4">
+                <source src="\audio\0327\03_2sevrb.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="se05_103">
                     <span class="label">📢</span>
@@ -320,7 +320,7 @@ excerpt: >
         <td><span class="noir07">彼らはもう再会しません。</span></td>
         <td><span class="noir07">イル・ヌ・ス・ルヴォア・プルㇲ</span></td>
         <td rowspan="4"><span class="player"><audio id="se05_103" preload="auto">
-                <source src="\audio\0327\03_sevrb.m4a" type="audio/mp4">
+                <source src="\audio\0327\03_22sevrb.m4a" type="audio/mp4">
             </audio>
                 <button type="button" data-audio-id="se05_103">
                     <span class="label">📢</span>
@@ -354,4 +354,31 @@ excerpt: >
 - 複合過去では être を使い、性数一致に注意  
 - 日常動作で頻出するため、例文と音声で慣れるのが近道  
 
+<script defer>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.player').forEach((wrap, idx) => {
+    const audioEl = wrap.querySelector('audio');
+    const btn = wrap.querySelector('button');
 
+    console.log(`player #${idx+1}`, { audioEl, btn });
+
+    if (!audioEl || !btn) {
+      console.warn(`player #${idx+1} に audio または button が見つかりません`);
+      return;
+    }
+    btn.addEventListener('click', () => {
+      if (audioEl.paused) audioEl.play().catch(err => console.error('再生失敗:', err));
+      else audioEl.pause();
+    });
+
+    audioEl.addEventListener('ended', () => updateLabel(btn, false));
+    audioEl.addEventListener('play',  () => updateLabel(btn, true));
+    audioEl.addEventListener('pause', () => updateLabel(btn, false));
+  });
+
+  function updateLabel(button, playing) {
+    const label = button.querySelector('.label');
+    if (label) label.textContent = playing ? '停止' : '🔄';
+  }
+});
+</script>
