@@ -75,22 +75,22 @@ excerpt: >
 #### 🍎 代表的な代名動詞
 
 
-| つづり字 | 訳 | 読み方 |　コメント |
+| つづり字 | 訳 | 読み方 |　例文 |
 | :-----       | :----       | :-----       | :-----      |
-| <span class="bleu">se réveiller</span>   |<span class="noir07">目が覚める</span>|<span class="noir07">ス・レヴェイエ</span>|  |
-| <span class="bleu">se coucher</span>   |<span class="noir07">寝る、床につく</span>|<span class="noir07">ス・クシェ</span>||
-| <span class="bleu">se doucher</span>   |<span class="noir07">シャワーを浴びる</span>|<span class="noir07">ス・ドゥシェ</span>||
-| <span class="bleu">se reposer</span>   |<span class="noir07">休む、休息する</span>|<span class="noir07">ス・ルポゼ</span>||
-| <span class="bleu">s'habiller</span>   |<span class="noir07">服を着る</span>|<span class="noir07">ザビエ</span>||
-| <span class="bleu">se déshabiller</span>   |<span class="noir07">服を脱ぐ</span>|<span class="noir07">ス・デザビエ</span>||
-| <span class="bleu">se maquiller</span>   |<span class="noir07">化粧する</span>|<span class="noir07">ス・マキーエ</span>||
-| <span class="bleu">se préparer</span>   |<span class="noir07">準備する</span>|<span class="noir07">ス・プリパレ</span>||
-| <span class="bleu">se dépêcher</span>   |<span class="noir07">急ぐ</span>|<span class="noir07">ス・デペシェ</span>||
-| <span class="bleu">s'amuser</span>   |<span class="noir07">楽しむ</span>|<span class="noir07">サミュゼ</span>||
-| <span class="bleu">s'ennuyer</span>   |<span class="noir07">退屈する</span>|<span class="noir07">サンヌイ</span>||
-| <span class="bleu">s'asseoir</span>   |<span class="noir07">腰掛ける</span>|<span class="noir07">サスワール</span>||
-| <span class="bleu">se promener</span>   |<span class="noir07">散歩する</span>|<span class="noir07">ス・プロムネ</span>||
-| <span class="bleu">s'arreter</span>   |<span class="noir07">止める</span>|<span class="noir07">サラルテ</span>||
+| <span class="bleu">se réveiller</span>   |<span class="noir07">目が覚める</span>|<span class="noir07">ス・レヴェイエ</span>|Je me réveille à 6 heures.<br> <span class="noir07">ジュ・ム・レヴェイユ・ア・スィズール<br> 私は6時に目が覚める。</span>|
+| <span class="bleu">se coucher</span> |<span class="noir07">寝る、床につく</span>|<span class="noir07">ス・クシェ</span>|Je me couche vers minuit. <br> <span class="noir07">ジュ・ム・クシュ・ヴェール・ミニュイ<br>私は夜中の12時ごろ寝る。</span><br><span class="violet07">「ベッドに入る」という動作。睡眠そのものではない。</span>|
+| <span class="bleu">se doucher</span>   |<span class="noir07">シャワーを浴びる</span>|<span class="noir07">ス・ドゥシェ</span>|Je me douche tous les matins.<br><span class="noir07">ジュ・ム・ドゥシュ・トゥ・レ・マタン<br>私は毎朝シャワーを浴びる。</span>|
+| <span class="bleu">se reposer</span>   |<span class="noir07">休む、休息する</span>|<span class="noir07">ス・ルポゼ</span>|Je me repose un peu.<br><span class="noir07">ジュ・ム・ルポーズ・アン・プ<br>ちょっと休むよ。</span><br><span class="violet07">身体的にも精神的にも「休む」</span>|
+| <span class="bleu">s'habiller</span>   |<span class="noir07">服を着る</span>|<span class="noir07">ザビエ</span>|Je m’habille rapidement.<br><span class="noir07">ジュ・マビイユ・ラピッドマン<br>私は素早く服を着る。</span><br><span class="violet07">「服を着る」全体の動作。衣服の種類は後ろに置く。</span>|
+| <span class="bleu">se déshabiller</span>   |<span class="noir07">服を脱ぐ</span>|<span class="noir07">ス・デザビエ</span>|Il se déshabille avant de dormir.<br><span class="noir07">イル・ス・デザビイユ・アヴァン・ドゥ・ドルミール<br>彼は寝る前に服を脱ぐ。</span><br><span class="violet07">s’habiller の反対。</span>|
+| <span class="bleu">se maquiller</span>   |<span class="noir07">化粧する</span>|<span class="noir07">ス・マキーエ</span>|Elle se maquille tous les matins.<br><span class="noir07">エル・ス・マキイユ・トゥ・レ・マタン<br>彼女は毎朝化粧する。</span><br><span class="violet07">「化粧する」全体の動作。</span>|
+| <span class="bleu">se préparer</span>   |<span class="noir07">準備する</span>|<span class="noir07">ス・プリパレ</span>|Je me prépare pour sortir.<br><span class="noir07">ジュ・ム・プリパール・プール・ソルティール<br>出かける準備をする。</span><br><span class="violet07">目的に応じて pour + 動詞 がよく続く。</span>|
+| <span class="bleu">se dépêcher</span>   |<span class="noir07">急ぐ</span>|<span class="noir07">ス・デペシェ</span>|Dépêche-toi !<br><span class="noir07">デペッシュ・トワ<br>急いで！</span><br><span class="violet07">命令形が超頻出。</span>|
+| <span class="bleu">s'amuser</span>   |<span class="noir07">楽しむ</span>|<span class="noir07">サミュゼ</span>|On s’amuse bien ici.<br><span class="noir07">オン・サミューズ・ビヤン・イシ<br>ここはとても楽しいよ。</span>|
+| <span class="bleu">s'ennuyer</span>   |<span class="noir07">退屈する</span>|<span class="noir07">サンヌイ</span>|Je m’ennuie à la maison.<br><span class="noir07">ジュ・マンヌイ・ア・ラ・メゾン<br>家で退屈している。</span><br><span class="violet07">amuser の反対イメージ。</span>|
+| <span class="bleu">s'asseoir</span>   |<span class="noir07">腰掛ける</span>|<span class="noir07">サスワール</span>|Je m’assois ici.<br><span class="noir07">ジュ・マソワ・イシ<br>ここに座るよ。</span>|
+| <span class="bleu">se promener</span>   |<span class="noir07">散歩する</span>|<span class="noir07">ス・プロムネ</span>|Nous nous promenons dans le parc.<br><span class="noir07">ヌ・ヌ・プロムノン・ダン・ル・パルク<br>私たちは公園を散歩する。</span><br><span class="violet07">語幹変化（è）に注意：je me promène</span>|
+| <span class="bleu">s'arreter</span>   |<span class="noir07">止める</span>|<span class="noir07">サラルテ</span>|Le bus s’arrête ici.<br><span class="noir07">ル・ビュス・サレート・イシ<br>バスはここで止まる。</span><br><span class="violet07">「止まる」「立ち止まる」。<br>-他動詞 arrêter（止める）と区別。</span>|
 
 
 
