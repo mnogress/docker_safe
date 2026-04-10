@@ -19,10 +19,8 @@ category: [français, conjugaison]
 tag: ["French", "フランス語学習"]
 date: 2026-03-17
 last_modified_at : 2026-03-23 15:30:00
-excerpt: >
-  フランス語の「faire ça」の意味と使い方を詳しく解説したページです。
-  faire ça（それをする）、faire comme ça（そのようにする）、faire ça bien（上手にやる）などの口語表現の違いを、例文とニュアンス付きで整理しています。
-  日本語話者が混同しやすいポイント、会話でよく使う言い回し、音声付きの実用例もまとめた実践的なメモページです。
+excerpt: 
+ フランス語の重要動詞 faire（〜する）の活用・使い方を、例文と音声で体系的に整理したページです。現在形・過去分詞に加え、現在分詞 faisant とジェロンディフ en faisant の用法（〜しながら／〜によって）も詳しく解説。スポーツ・家事・天気など日常でよく使う表現、よくある熟語、発音のコツまでまとめて学べます。
 
 ---
 フランス語の決まり文句や重要フレーズをそのまま覚えるべき文例集 ～ faire ～<!--more-->
@@ -537,6 +535,31 @@ document.addEventListener('DOMContentLoaded', () => {
 </table>
 </main>　
 
+
+
+### 現在分詞・ジェロンディフの使い方（faisant）
+
+#### 1. ジェロンディフ
+
+en faisant：〜しながら／〜することで〜しながら  という動作の同時性・手段を表現します。
+
+- Elle chante <span class="bleu2">en faisant</span> la cuisine. <br><span class="gris_p">エル・シャントゥ・アンフザン・ラ・キュイジーヌ</span><br><span class="noir07">彼女は料理をしながら歌を歌う。</span>
+- On apprend le francais <span class="bleu2">en faisant</span> des erreurs. <br><span class="gris_p">オンナプラン・ル・フランス・アンフザン・デゼルール</span><br><span class="noir07">間違いをすることでフランス語を学ぶ。</span>
+- Tout <span class="bleu2">en faisant</span> cela, ils discutent.<br><span class="gris_p">トゥタン・フザン・スラ、イル・ディスキュットゥ</span><br><span class="noir07">それをしながら、彼らは議論している。</span>
+
+#### 2. 現在分詞（faisant：〜している／〜なので）
+
+- Une fenetre <span class="bleu2">faisant</span> face au jardin.<br><span class="gris_p">ユヌ・フネットル・フザン・ファス・オ・ジャルダン</span><br><span class="noir07">庭に面している窓。</span>
+- <span class="bleu2">Faisant</span> partie de l'equipe, il doit s'entrainer.<br><span class="gris_p">フザン・パルティ・ドゥ・レキップ、イル・ドワ・サントレネ</span><br><span class="noir07">チームの一員なので（一員であり）、彼は練習しなければならない。</span>
+
+#### 3. よく使う表現
+- faisant partie de...<br><span class="gris_p">フザン・パルティ・ドゥ</span><br><span class="noir07">～の一部である、～に所属している。</span>
+- faisant face a...<br><span class="gris_p">フザン・ファス・ア</span><br><span class="noir07">～に直面している、～に面している</span>
+
+#### 4. 発音のコツ
+**faisant**：カタカナでは「フザン」に近いですが、最後の「ン」は口を閉じず、鼻から音を抜くイメージで言うとかっこいいです。
+en faisant：前の「en（アン）」とつなげて「**アンフザン**」と一気に読みます。
+
 ### まとめ
 
 <main class="page-ul-fix">
@@ -546,6 +569,7 @@ document.addEventListener('DOMContentLoaded', () => {
 <li>例文と音声で「使われる場面」をセットで覚えると定着しやすい</li> 
 </ul>
 </main>
+
 
 **次のステップ：**
 
