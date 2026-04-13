@@ -54,12 +54,19 @@ faux-amis とは、英語や日本語とつづりが似ているために
 -  フランス語の意味が英語と微妙にズレている場合が多い  
 
 ### 例文
--  *Je travaille actuellement à Tokyo.*  
-  → 私は現在東京で働いています。
+-  *Je travaille **actuellement** à Tokyo.*  
+  → 私は現在東京で働いています。(ジュ・トラバイユ・**アクチュエルマン**・ア・トキョゥ)
 
--  *Je vais à la librairie.*  
-  → 私は本屋に行きます。
-
+-  *Je vais à la **librairie**.*  
+  → 私は本屋に行きます。(ジュ・ヴァ・ア・ラ・**リブレリ**)
+- <span class="player">
+            <audio id="fais_du01_307" preload="auto">
+                <source src="\audio\0316\307_fais_du.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="fais_du01_307">
+                    <span class="label">📢</span>
+                </button>
+    </span>
 
 
 <style type="text/css">
@@ -72,65 +79,65 @@ faux-amis とは、英語や日本語とつづりが似ているために
 
 | フランス語 |読み方   | 日本語訳 |　英語（訳） |コメント　|
 | :-----         | :----         | :-----         | :-----        | :-----        |
-| actuellement  | アクチュエルマン |現在、今 | actually (実際に)  ||
-| assister      | アシステ    |出席する    | to assist (助ける)  ||
-| attendre      | アターンドル   |待つ  | to attend (参加する) ||
-| avertissement | アヴェールティスマン  |警告 ㊚ |  advertisement (広告) ||
-| blesser       | ブレセ    |傷つける    | to bless (祝福する) ||
-| car           | キャール|（長距離）バス㊚| car (車)||
-| crier　       | クりエ  | 叫ぶ | to cry (泣く) ||
-| bras          | ブラ |腕 ㊚    | brass (真鍮) ||
-| cave          | カーヴ |地下のワイン貯蔵庫（＝cave à vin）| cave (洞窟)  ||
-| chair         | シェール |人間、動物の肉  ㊛ |chair (椅子)  ||
-| collège       | コレージュ |中学校 ㊚  |college (カレッジ) ||
-| commande      | コマンンド|注文 ㊛ | command (指示) ||
-| compréhensif  | コンプレアンシフ |思いやりのある| comprehensive (包括的な) ||
-| confident     | コンフィダン|秘密を打ち明けられる相手 |confident (自信を持って) ||
-| déception     | デセプシオン|失望|deception (失望)|フランス語表記になった英語|
-| demander      | ドゥマンデ|頼む、…を尋ねる|demand (要求) ||
-| désirer       | デズィレ|望む| to desire (望む)|接続法で使われる|
-| dramatique    | ドラマティック|	深刻な、重大な |dramatic	(戯曲の、演劇の)||
-| dresser       | ドレセ|まっすぐに立てる，起こす| to dress (服を着せる，服を着る)||
-| éventuel      | エヴァンチュエル| 可能性のある、起こり得る  |eventual (最終的な)||
-| figure        | フィギュール| 顔、人物 ㊛ |figure (姿、数字)||
-| fixer         | フィクセ | 取り付ける、固定する | to fix (修理する)||
-| injure        | アンジュール|悪口，ののしり言葉 ㊛|to injury (傷つける)||
-| jour          | ジュール|日|journey (旅行) ||
-| lecture       | レクテュール|読書 ㊛|lecture (講義)||
-| librairie     | リブレリ|本屋 ㊛|library (図書館)||
-| location      | ロカスィヨン|賃貸、レンタル ㊛|location (場所)||
-| monnaie       | モネ|小銭、通貨 ㊛|money (お金)||
-| nombre        | ノンブル|数 ㊚|number(番号)||
-| occasion      | オカズィオン|機会 ㊛|occasion (機械)||
-| pain          | パン|パン ㊚|pain (苦痛)||
-| passer        | パッセ|通る、通過する |pass (合格) ||
-| petrole       | ペトロル | 石油　㊚ | petrol (ガソリン) |仏：essance エサンス =ガソリン|
-| phrase        | フラーズ|文 ㊛ |phrase (句)||
-| préservatif   | プレゼルヴァティフ|コンドーム ㊚|preservative (防腐剤)||
-| pretendre     | プれタンドル | ～と言い張る | to pretend (～のふりをする) ||
-| Professeur    | プロフェッスール|中高校の先生、大学の教授 ㊚|Professor	(大学の教授)||
-| propre / proprement| プロプル/プロップルモン	| 清潔な/清潔に　| proper / properly	(正しい/正しく)||
-| raisin        | レザン |ぶどう ㊚ |raisin (レーズン)||
-| réaliser      | レアリゼ|実現する| to realize (気づく)||
-| recette       | ルセット|レシピ ㊛|receipt (レシート)||
-| rester        | レステ|留まる| to rest (休む)||
-| sensible      | サンスィブル|敏感な|sensible (分別のある)||
-| sévère        | スヴェール|厳しい|severe (厳しい) ||
-| société       | ソスィエテ|社会、会社 ㊛|society (社会、協会)||
-| souvenir      | スヴニール|思い出 ㊚|souvenir (お土産)||
-| stage         | スタージュ|研修 ㊚|stage (ステージ)||
-| store         | ストゥール|日よけ、ブラインド　㊚|store (店)||
-| supporter     | スュポルテ|我慢する|to support (支援する)||
-| tissu         | ティスュ|布 ㊚|tissue (組織、ティッシュペーパー)||
-| travail       | トラヴァイユ|仕事 ㊚|travel（トラベル）||
-| wagon         | ヴァゴン|車両 ㊚|wagon (ワゴン)||
-| veste         | ヴエスト|ジャケット ㊛|vest (ベスト)||
-| villain       | ヴィラン|いたずらっ子、ブサイク|villain(悪役)|méchant(メシャン：悪役)|
-| visage        | ヴィザージュ|顔 ㊚|visage (顔立ち)|仏・英同じような発音|
-| voler         | ヴォレ|盗む、飛ぶ|volunteer (ボランティア)||
-| wagon-lit     | ヴァゴン・リ|寝台車 ㊚|wagon-lit (寝台車) |仏:ヴァ、英:ワ|
-| habit         | アビ|衣服 ㊚|habit (癖)||
-| injonction    | アンジョンクシオン|命令 ㊛|injunction (差し止め命令)||
+| <span class="bleu15">actuellement</span>  | <span class="noir07">アクチュエルマン</span> |現在、今 | actually (実際に)  ||
+| <span class="bleu15">assister</span>      | <span class="noir07">アシステ</span>        |出席する    | to assist (助ける)  ||
+| <span class="bleu15">attendre</span>      | <span class="noir07">アターンドル</span>     |待つ  | to attend (参加する) ||
+| <span class="bleu15">avertissement</span> | <span class="noir07">アヴェールティスマン</span>  |警告 ㊚ |  advertisement (広告) ||
+| <span class="bleu15">blesser</span>       | <span class="noir07">ブレセ</span>    |傷つける    | to bless (祝福する) ||
+| <span class="bleu15">car</span>           | <span class="noir07">キャール</span>|（長距離）バス㊚| car (車)||
+| <span class="bleu15">crier</span>　       | <span class="noir07">クりエ</span>  | 叫ぶ | to cry (泣く) ||
+| <span class="bleu15">bras</span>          | <span class="noir07">ブラ</span> |腕 ㊚    | brass (真鍮) ||
+| <span class="bleu15">cave</span>          | <span class="noir07">カーヴ</span> |地下のワイン貯蔵庫（＝cave à vin）| cave (洞窟)  ||
+| <span class="bleu15">chair</span>         | <span class="noir07">シェール</span> |人間、動物の肉  ㊛ |chair (椅子)  ||
+| <span class="bleu15">collège</span>       | <span class="noir07">コレージュ</span> |中学校 ㊚  |college (カレッジ) ||
+| <span class="bleu15">commande</span>      | <span class="noir07">コマンンド</span>|注文 ㊛ | command (指示) ||
+| <span class="bleu15">compréhensif</span>  | <span class="noir07">コンプレアンシフ</span> |思いやりのある| comprehensive (包括的な) ||
+| <span class="bleu15">confident</span>     | <span class="noir07">コンフィダン</span>|秘密を打ち明けられる相手 |confident (自信を持って) ||
+| <span class="bleu15">déception</span>     | <span class="noir07">デセプシオン</span>|失望|deception (失望)|フランス語表記になった英語|
+| <span class="bleu15">demander</span>      | <span class="noir07">ドゥマンデ</span>|頼む、…を尋ねる|demand (要求) ||
+| <span class="bleu15">désirer</span>       | <span class="noir07">デズィレ</span>|望む| to desire (望む)|接続法で使われる|
+| <span class="bleu15">dramatique</span>    | <span class="noir07">ドラマティック</span>|	深刻な、重大な |dramatic	(戯曲の、演劇の)||
+| <span class="bleu15">dresser</span>       | <span class="noir07">ドレセ</span>|まっすぐに立てる，起こす| to dress (服を着せる，服を着る)||
+| <span class="bleu15">éventue</span>l      | <span class="noir07">エヴァンチュエル</span>| 可能性のある、起こり得る  |eventual (最終的な)||
+| <span class="bleu15">figure</span>        | <span class="noir07">フィギュール</span>| 顔、人物 ㊛ |figure (姿、数字)||
+| <span class="bleu15">fixer</span>         | <span class="noir07">フィクセ</span> | 取り付ける、固定する | to fix (修理する)||
+| <span class="bleu15">injure</span>        | <span class="noir07">アンジュール</span>|悪口，ののしり言葉 ㊛|to injury (傷つける)||
+| <span class="bleu15">jour</span>          | <span class="noir07">ジュール</span>|日|journey (旅行) ||
+| <span class="bleu15">lecture</span>       | <span class="noir07">レクテュール</span>|読書 ㊛|lecture (講義)||
+| <span class="bleu15">librairie</span>     | <span class="noir07">リブレリ</span>|本屋 ㊛|library (図書館)||
+| <span class="bleu15">location</span>      | <span class="noir07">ロカスィヨン</span>|賃貸、レンタル ㊛|location (場所)||
+| <span class="bleu15">monnaie</span>       | <span class="noir07">モネ</span>|小銭、通貨 ㊛|money (お金)||
+| <span class="bleu15">nombre</span>        | <span class="noir07">ノンブル</span>|数 ㊚|number(番号)||
+| <span class="bleu15">occasion</span>      | <span class="noir07">オカズィオン</span>|機会 ㊛|occasion (機械)||
+| <span class="bleu15">pain</span>          | <span class="noir07">パン</span>|パン ㊚|pain (苦痛)||
+| <span class="bleu15">passer</span>        | <span class="noir07">パッセ</span>|通る、通過する |pass (合格) ||
+| <span class="bleu15">petrole</span>       | <span class="noir07">ペトロル</span> | 石油　㊚ | petrol (ガソリン) |仏：essance エサンス =ガソリン|
+| <span class="bleu15">phrase</span>        | <span class="noir07">フラーズ</span>|文 ㊛ |phrase (句)||
+| <span class="bleu15">préservatif</span>   | <span class="noir07">プレゼルヴァティフ</span>|コンドーム ㊚|preservative (防腐剤)||
+| <span class="bleu15">pretendre</span>     | <span class="noir07">プれタンドル</span> | ～と言い張る | to pretend (～のふりをする) ||
+| <span class="bleu15">Professeur</span>    | <span class="noir07">プロフェッスール</span>|中高校の先生、大学の教授 ㊚|Professor	(大学の教授)||
+| <span class="bleu15">propre / proprement</span>| <span class="noir07">プロプル/プロップルモン</span>	| 清潔な/清潔に　| proper / properly	(正しい/正しく)||
+| <span class="bleu15">raisin</span>        | <span class="noir07">レザン</span> |ぶどう ㊚ |raisin (レーズン)||
+| <span class="bleu15">réalise</span>r      | <span class="noir07">レアリゼ</span>|実現する| to realize (気づく)||
+| <span class="bleu15">recette</span>       | <span class="noir07">ルセット</span>|レシピ ㊛|receipt (レシート)||
+| <span class="bleu15">rester</span>        | <span class="noir07">レステ</span>|留まる| to rest (休む)||
+| <span class="bleu15">sensible</span>      | <span class="noir07">サンスィブル</span>|敏感な|sensible (分別のある)||
+| <span class="bleu15">sévère</span>        | <span class="noir07">スヴェール</span>|厳しい|severe (厳しい) ||
+| <span class="bleu15">société</span>       | <span class="noir07">ソスィエテ</span>|社会、会社 ㊛|society (社会、協会)||
+| <span class="bleu15">souvenir</span>      | <span class="noir07">スヴニール</span>|思い出 ㊚|souvenir (お土産)||
+| <span class="bleu15">stage</span>         | <span class="noir07">スタージュ</span>|研修 ㊚|stage (ステージ)||
+| <span class="bleu15">store</span>         | <span class="noir07">ストゥール</span>|日よけ、ブラインド　㊚|store (店)||
+| <span class="bleu15">supporter</span>     | <span class="noir07">スュポルテ</span>|我慢する|to support (支援する)||
+| <span class="bleu15">tissu</span>         | <span class="noir07">ティスュ</span>|布 ㊚|tissue (組織、ティッシュペーパー)||
+| <span class="bleu15">travailie</span>     | <span class="noir07">トラヴァイユ</span>|仕事 ㊚|travel（トラベル）||
+| <span class="bleu15">wagon</span>         | <span class="noir07">ヴァゴン</span>|車両 ㊚|wagon (ワゴン)||
+| <span class="bleu15">veste</span>         | <span class="noir07">ヴエスト</span>|ジャケット ㊛|vest (ベスト)||
+| <span class="bleu15">villain</span>       | <span class="noir07">ヴィラン</span>|いたずらっ子、ブサイク|villain(悪役)|méchant(メシャン：悪役)|
+| <span class="bleu15">visage</span>        | <span class="noir07">ヴィザージュ</span>|顔 ㊚|visage (顔立ち)|仏・英同じような発音|
+| <span class="bleu15">voler</span>         | <span class="noir07">ヴォレ</span>|盗む、飛ぶ|volunteer (ボランティア)||
+| <span class="bleu15">wagon-lit</span>     | <span class="noir07">ヴァゴン・リ</span>|寝台車 ㊚|wagon-lit (寝台車) |仏:ヴァ、英:ワ|
+| <span class="bleu15">habit</span>         | <span class="noir07">アビ</span>|衣服 ㊚|habit (癖)||
+| <span class="bleu15">injonction</span>    | <span class="noir07">アンジョンクシオン</span>|命令 ㊛|injunction (差し止め命令)||
 
 
 ### 次に学ぶと良いページ
