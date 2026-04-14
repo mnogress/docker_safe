@@ -18,7 +18,7 @@ sidebar:
 category: [français, grammaire]
 tag: ["French", "フランス語学習"]
 date: 2026-03-02
-last_modified_at : 2026-03-02 08:30:00
+last_modified_at : 2026-04-12 08:30:00
 excerpt: >
   フランス語の動詞 pleuvoir（雨が降る）と neiger（雪が降る）の使い方を、日本語との構造の違いに焦点を当てて解説したページです。Il pleut / Il neige の非人称構文、時制ごとの活用、日常で使う自然な例文を音声つきでまとめています。
 
@@ -193,6 +193,37 @@ excerpt: >
 </main>
 {% endraw %}
 
+### 動詞 **pleuvoir**（雨が降る）に対応する名詞は **pluie** 
+
+#### 1. 単語：pluie
+* **意味:** 雨
+* **読み方:** プリュイ
+* **性数:** 女性名詞（la pluie / ラ・プリュイ）
+
+#### 2. 例文と読み方
+
+名詞の **pluie** を使ったよくある表現です。
+
+| フランス語 | カタカナ読み | 日本語訳 |
+| :--- | :--- | :--- |
+| **La pluie tombe.** | <span class="petit">ラ・プリュイ・トンブ</span> | 雨が降っている。 |
+| **J'aime la pluie.** | <span class="petit">ジェム・ラ・プリュイ</span> | 私は雨が好きです。 |
+| **Une forte pluie.** | <span class="petit">ユヌ・フォルテ・プリュイ</span> | 激しい雨（大雨）。 |
+| **Apres la pluie, le beau temps.** | <span class="petit">アプレ・ラ・プリュイ、ル・ボ・タン</span> | 雨降って地固まる（直訳：雨の後は良い天気）。 |
+
+- <span class="player">
+            <audio id="pluie_du01_301" preload="auto">
+                <source src="\audio\0316\301_pluie.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="pluie_du01_301">
+                    <span class="label">📢</span>
+                </button>
+    </span>
+
+
+#### 3. ひとこと！
+英語の "It rains." と "The rain is falling." の違いのように、フランス語でも**動詞（pleuvoir）と名詞（pluie）を使い分ける**と表現の幅が広がりますよ！
+
 
 ### 雪が降る: neiger （ネジェ）の用法｜（音声付き）
 
@@ -207,16 +238,15 @@ excerpt: >
 | **複合過去** |il <span class="bleu">a neigé</span>. <span class="petit">(イラ・ネジェ)</span> |雪が降った。|
 | **単純未来** |il <span class="bleu">neigera</span>. <span class="petit">(イル・ネジュラ)</span>|雪でしょう |
 | **近接未来** |Il <span class="bleu">va neiger</span> demain.<span class="petit">（イ・ヴァ・ネジェ・ドゥマン</span>）|確実に降りそうな場合の「雪が降るだろう」|
-|*音声ファイル*| | |
 
-<div class="player">
- <audio id="pl03_102" preload="auto">
-  <source src="\audio\0227\02_pl.m4a" type="audio/mp4">
+- <span class="player">
+      <audio id="pl03_102" preload="auto">
+        <source src="\audio\0227\02_pl.m4a" type="audio/mp4">
       </audio>
         <button type="button" data-audio-id="ol03_102">
-            <span class="label">📢</span>
+          <span class="label">📢</span>
         </button>
-</div> 
+  </span> 
 
 <div markdown='1'>
 ### まとめ
