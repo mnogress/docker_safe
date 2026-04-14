@@ -60,10 +60,10 @@ faux-amis とは、英語や日本語とつづりが似ているために
 -  *Je vais à la **librairie**.*  
   → 私は本屋に行きます。(ジュ・ヴァ・ア・ラ・**リブレリ**)
 - <span class="player">
-            <audio id="fais_du01_307" preload="auto">
-                <source src="\audio\0316\307_fais_du.m4a" type="audio/mp4">
+            <audio id="faux_du01_307" preload="auto">
+                <source src="\audio\0316\307_faux_du.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="fais_du01_307">
+                <button type="button" data-audio-id="faux_du01_307">
                     <span class="label">📢</span>
                 </button>
     </span>
@@ -150,3 +150,31 @@ faux-amis とは、英語や日本語とつづりが似ているために
 -  正しい意味と誤解しやすい意味をセットで覚えると効果的  
 -  例文と音声で確認すると記憶に残りやすい  
 
+<script defer>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.player').forEach((wrap, idx) => {
+    const audioEl = wrap.querySelector('audio');
+    const btn = wrap.querySelector('button');
+
+    console.log(`player #${idx+1}`, { audioEl, btn });
+
+    if (!audioEl || !btn) {
+      console.warn(`player #${idx+1} に audio または button が見つかりません`);
+      return;
+    }
+    btn.addEventListener('click', () => {
+      if (audioEl.paused) audioEl.play().catch(err => console.error('再生失敗:', err));
+      else audioEl.pause();
+    });
+
+    audioEl.addEventListener('ended', () => updateLabel(btn, false));
+    audioEl.addEventListener('play',  () => updateLabel(btn, true));
+    audioEl.addEventListener('pause', () => updateLabel(btn, false));
+  });
+
+  function updateLabel(button, playing) {
+    const label = button.querySelector('.label');
+    if (label) label.textContent = playing ? '停止' : '🔄';
+  }
+});
+</script>
