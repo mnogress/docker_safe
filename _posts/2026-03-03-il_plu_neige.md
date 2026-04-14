@@ -3,7 +3,7 @@ layout: single
 title: フランス語会話帳｜Il pleut. (雨が降る)　Il neige. (雪が降る)の表現のまとめ
 header:
   overlay_image: images/header_fr39_1280by336.png
-  overlay_filter: rgba(230, 97, 216, 0.2)
+  overlay_filter: rgba(230, 97, 216, 0.44)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
