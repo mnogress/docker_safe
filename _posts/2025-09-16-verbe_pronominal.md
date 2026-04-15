@@ -19,11 +19,12 @@ category: [français, grammaire]
 tag: ["French", "フランス語学習"]
 date: 2026-02-17
 last_modified_at : 2026-02-17 11:30:00
-excerpt: >
-  フランス語の代名動詞を、日本語話者が特につまずきやすい仕組みと用法に絞って体系的にまとめたページです。se の多様な意味、複合過去での être の使用、性数一致のルールと例外を、活用表と音声つき例文でわかりやすく解説し、日常会話で自然に使えるようになるための実践的なフレーズも紹介しています。
+excerpt: 
+  フランス語の代名動詞を、日本語話者がつまずきやすい仕組みと用法に絞って体系的に解説したページです。se の多様な意味、複合過去での être の使用、性数一致のルールと例外に加え、aimer などの動詞の後ろに代名動詞が不定詞として続く場合の「再帰代名詞だけ主語に合わせて変化する」重要ポイントも丁寧に説明しています。活用表、例文、音声つきで、日常会話で自然に使える力を身につけられます。
+
 
 ---
-フランス語の決まり文句や重要フレーズを文法といっしょに覚える文例集 ～ 代名動詞 ～<!--more-->
+<!--more-->
 
 ### 🌱 このページの目的
 このページでは、フランス語の代名動詞（verbes pronominaux）を 基本の仕組み  
@@ -356,6 +357,49 @@ excerpt: >
     </tr>
 </tbody>
 </table>
+
+### 📝 代名動詞が **aimer**（～するのが好きだ）などの動詞の後に不定詞として続く場合
+- **se の部分は主語に合わせて必ず変化させる**のが鉄則です。
+- たとえメインの動詞（aimer）が活用していても、後ろに続く代名動詞の「再帰代名詞」部分は、主語と一致させる必要があります。
+
+#### 🧩 aimer + 代名動詞（se promener）の変化一覧
+
+| 主語 | 例文 | カタカナ読み | 意味 |
+| :--- | :--- | :--- | :--- |
+| **Je** | J'aime **me** promener. | <span class="noir07">ジェム</span> **ム** <span class="noir07">プロムネ</span> |<span class="noir07">私は散歩するのが好きです。</span> |
+| **Tu** | Tu aimes **te** promener. | <span class="noir07">テュ・エム</span> **トゥ** <span class="noir07">プロムネ</span> | <span class="noir07">君は散歩するのが好きだ。</span> |
+| **Il / Elle / On**  | Il aime **se** promener. | <span class="noir07">イレム</span> **ス** <span class="noir07">プロムネ</span> | <span class="noir07">彼は散歩するのが好きだ。</span> |
+| **Nous**  | Nous aimons **nous** promener. | <span class="noir07">ヌゼモン</span> **ヌ** <span class="noir07">プロムネ</span> | <span class="noir07">私たちは散歩するのが好きです。</span> |
+| **Vous**  | Vous aimez **vous** promener. | <span class="noir07">ヴゼメ</span> **ヴ** <span class="noir07">プロムネ</span> | <span class="noir07">あなたは散歩するのが好きです。</span> |
+| **Ils / Elles**  | Ils aiment **se** promener. | <span class="noir07">イル・ゼム</span> **ス** <span class="noir07">プロムネ</span> | <span class="noir07">彼らは散歩するのが好きだ。</span> |
+
+- <span class="player">
+      <audio id="vb04_101" preload="auto">
+        <source src="\audio\0316\01_vb.m4a" type="audio/mp4">
+      </audio>
+        <button type="button" data-audio-id="vb04_101">
+          <span class="label">📢</span>
+        </button>
+  </span> 
+
+#### 🧩 ポイント解説
+1.  **再帰代名詞の変化**:
+    表の太字部分（me, te, se, nous, vous, se）に注目してください。これらは主語に対応して形が変わります。
+    不定詞（原形）のままだからといって、すべてを `se promener` にしてはいけません。
+    * Je → me
+    * Tu → te
+    * Il/Elle/On → se
+    * Nous →  nous
+    * Vous → vous
+    * Ils/Elles → se
+
+2.  **エリジオン（省略）**:
+    もし代名動詞が母音や無声の h で始まる場合（例：**s'habiller**「服を着る」）、`me, te, se` は `m', t', s'` になります。
+    * 例：J'aime **m'**habiller. （ジェム **マ**ビエ / 私は服を着るのが好きだ）
+
+3.  **語順**:
+    「主語 ＋ aimer（活用形） ＋ **再帰代名詞 ＋ 動詞の原形**」の語順になります。
+
 
 ### 🧭 次に学ぶと良いページ
 - 再帰代名詞の位置（me / te / se）の並び<br>

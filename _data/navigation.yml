@@ -12,15 +12,17 @@ main:
 docs:
   - title: 🔥よく読まれている記事
     children: 
-      - title: "✅フランス語学習者のための「空に言葉 (faux-amis)」"
+      - title: "🆕 文法から覚えるフランス語の文例 ～ 代名動詞 ～"
+        url: /français/grammaire/verbe_pronominal/
+      - title: "🍎フランス語学習者のための「空に言葉 (faux-amis)」"
         url: /français/vocabulaire/faux-amis_list/
-      - title: "✅qu を含むフランス単語"
+      - title: "🧭qu を含むフランス単語"
         url: /français/vocabulaire/mot_qu_francaise/ 
-      - title: "✅口で覚えるフランス語　～とっさの表現集～"
+      - title: "🎧口で覚えるフランス語　～とっさの表現集～"
         url: /français/conversation/spontanee_phrase/   
-      - title: "✅そのまま覚えるフランス語の文例 ～ faire ～"
+      - title: "🎧そのまま覚えるフランス語の文例 ～ faire ～"
         url: /français/conjugaison/faire_ca_memo/
-      - title: "✅そのまま覚えるフランス語の文例 ～ aller ～"
+      - title: "🎧そのまま覚えるフランス語の文例 ～ aller ～"
         url: /français/conjugaison/comm_ca_memo/     
   - title: 関連記事
     children:
