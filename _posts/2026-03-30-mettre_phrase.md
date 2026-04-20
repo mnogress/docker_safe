@@ -103,9 +103,9 @@ mettre は「置く」だけ覚えると絶対に困ります。
     </td>
     <td>
     <ul>
-        <li>Ça <span class="bleu">met</span> du temps. <span class="noir">(サ・メ・デュ・タン: 時間がかかる)</span></li>
-        <li>Il se <span class="bleu">met</span> à pleuvoir.<span class="noir">（イル・ス・メ・ア・プルヴォワール: 雨が降り始める）</span></li>
-        <li>J’ai <span class="bleu">mis</span> du temps à comprendre.<span class="noir">（ジェ・ミ・デュ・タン・ア・コンプローンドル：理解するのに時間がかかった）</span></li>
+        <li>Ça <span class="bleu">met</span> du temps. <span class="noir06">(サ・メ・デュ・タン: 時間がかかる)</span></li>
+        <li>Il se <span class="bleu">met</span> à pleuvoir.<span class="noir06">（イル・ス・メ・ア・プルヴォワール: 雨が降り始める）</span></li>
+        <li>J’ai <span class="bleu">mis</span> du temps à comprendre.<span class="noir06">（ジェ・ミ・デュ・タン・ア・コンプローンドル：理解するのに時間がかかった）</span></li>
     </ul>
     </td>
     <td>
