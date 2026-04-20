@@ -18,7 +18,7 @@ sidebar:
 category: [français, grammaire]
 tag: ["French", "フランス語学習"]
 date: 2026-03-18
-last_modified_at : 2026-03-27 07:30:00
+last_modified_at : 2026-04-20 07:30:00
 excerpt: >
   フランス語の不規則動詞の直説法現在形を、主語ごとに網羅しながら重要動詞だけに絞って整理した初心者向けまとめです。実は種類が多くないことを理解しやすく、変化パターンごとに分類して音声つき例文とともにわかりやすく解説しています。
 
@@ -116,10 +116,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Il <span class="bleu">est</span> français. <span class="noir">(彼はフランス人です)</span></li>
-        <li>Nous <span class="bleu">somes</span> à Paris.<span class="noir">（私たちはパリにいます）</span></li>
-        <li>Je <span class="bleu">suis</span> en train de manger.<span class="noir">（私は今、食べているところです）</span></li>
-        <li>Je <span class="bleu">suis</span> allé au cinéma.<span class="noir">（私は映画館へ行きました、複合過去・助動詞）</span></li>
+        <li>Il <span class="bleu">est</span> français. <span class="noir06">(イレ・フランセ： 彼はフランス人です)</span></li>
+        <li>Nous <span class="bleu">somes</span> à Paris.<span class="noir06">（ヌ・ソム・ザ・パリ： 私たちはパリにいます）</span></li>
+        <li>Je <span class="bleu">suis</span> en train de manger.<span class="noir06">（ジュ・スュイ・アン・トラン・ドゥ・マンジェ： 私は今、食べているところです）</span></li>
+        <li>Je <span class="bleu">suis</span> allé au cinéma.<span class="noir06">（ジュ・スュイ・ザレ・オ・シネマ： 私は映画館へ行きました、複合過去・助動詞）</span></li>
     </ul>
     </td>
     <td>
@@ -174,10 +174,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>J<span class="bleu">'ai</span> essayé. <span class="noir">(試してみた 複合過去)</span></li>
-        <li>Nous <span class="bleu">avons </span>un rendez-vous à midi. <span class="noir">（私たちは正午に約束があります）</span></li>
-        <li>Ça <span class="bleu">a </span>l'air difficile. <span class="noir">(難しそう)</span></li>
-        <li>On <span class="bleu">a </span> fini. <span class="noir">（終わりました）</span></li>
+        <li>J<span class="bleu">'ai</span> essayé. <span class="noir06">(ジェ・エセィエ：　試してみた 複合過去)</span></li>
+        <li>Nous <span class="bleu">avons </span>un rendez-vous à midi. <span class="noir06">（ヌ・ザヴォン・ザン・ランデヴ・ア・ミディ：　私たちは正午に約束があります）</span></li>
+        <li>Ça <span class="bleu">a </span>l'air difficile. <span class="noir06">(サ・ア・レール・ディフィシル：　難しそう)</span></li>
+        <li>On <span class="bleu">a </span> fini. <span class="noir06">（オン・ナ・フィニ：　終わりました）</span></li>
     </ul>
     </td>
     <td>
@@ -232,10 +232,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Tu <span class="bleu">vas</span> faire quoi ? <span class="noir">（何をするの？ 近接未来）</span></li>
-        <li>Oui, ça <span class="bleu">va </span>, et toi ? <span class="noir">(はい、元気。君は？)</span></li>
-        <li>On <span class="bleu">va </span>pas y arriver. <span class="noir">(これでは、無理だ。)</span></li>
-        <li>Vous <span class="bleu">allez </span> acheter du pain? <span class="noir">（パンを買いに行くのですか？）</span></li>
+        <li>Tu <span class="bleu">vas</span> faire quoi ? <span class="noir06">（テュ・ヴァ・フェール・コア？：　何をするの？ 近接未来）</span></li>
+        <li>Oui, ça <span class="bleu">va </span>, et toi ? <span class="noir06">(ウィ、サ・ヴァ、エ・トワ？：　はい、元気。君は？)</span></li>
+        <li>On <span class="bleu">va </span>pas y arriver. <span class="noir06">(オン・ヴァ・パ・イ・アリヴェ：　これでは、無理だ。)</span></li>
+        <li>Vous <span class="bleu">allez </span> acheter du pain? <span class="noir06">（ヴ・ザレ・アシュテ・デュ・パン？：　パンを買いに行くのですか？）</span></li>
     </ul>
     </td>
     <td>
@@ -290,10 +290,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Il <span class="bleu">fait</span> du vent ce soir.	<span class="noir">(今夜は風が強い。)</span></li>
-        <li>Ça me <span class="bleu">fait</span> plaisir.　<span class="noir">(それが私を喜ばせる＝嬉しい。)</span></li>
-        <li>Tout le monde <span class="bleu">fait </span> comme ça.　<span class="noir">(みんなこうやってるんだよ。)</span></li>
-        <li>Quelle taille <span class="bleu">faites-</span>vous ?　<span class="noir">(サイズはいくつですか？)</span></li>
+        <li>Il <span class="bleu">fait</span> du vent ce soir.	<span class="noir06">(イル・フェ・デュ・ヴァン・ス・ソワール：　今夜は風が強い。)</span></li>
+        <li>Ça me <span class="bleu">fait</span> plaisir.　<span class="noir06">(サ・ム・フェ・プレジール：　それが私を喜ばせる＝嬉しい。)</span></li>
+        <li>Tout le monde <span class="bleu">fait </span> comme ça.　<span class="noir06">(トゥ・ル・モンドゥ・フェ・コム・サ：　みんなこうやってるんだよ。)</span></li>
+        <li>Quelle taille <span class="bleu">faites-</span>vous ?　<span class="noir06">(ケル・タイユ・フェットゥ・ヴ？：　サイズはいくつですか？)</span></li>
     </ul>
     </td>
     <td>
@@ -348,10 +348,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Je <span class="bleu">dis</span> la vérité.	<span class="noir">(私は本当のことを言う。)</span></li>
-        <li>On <span class="bleu">dit</span> ça souvent.　<span class="noir">(それはよく言われる。)</span></li>
-        <li>Ça <span class="bleu">dit </span> quoi ? 　<span class="noir">(どう？、何かある？)</span></li>
-        <li>Vous <span class="bleu">dites</span> toujours ça.　<span class="noir">(あなたはいつもそう言いますね。)</span></li>
+        <li>Je <span class="bleu">dis</span> la vérité.	<span class="noir06">(ジュ・ディ・ラ・ヴェリテ：　私は本当のことを言う。)</span></li>
+        <li>On <span class="bleu">dit</span> ça souvent.　<span class="noir06">(オン・ディ・サ・スヴァン：　それはよく言われる。)</span></li>
+        <li>Ça <span class="bleu">dit </span> quoi ? 　<span class="noir06">(サ・ディ・コア？：　どう？、何かある？)</span></li>
+        <li>Vous <span class="bleu">dites</span> toujours ça.　<span class="noir06">(ヴ・ディットゥ・トゥジュール・サ：　あなたはいつもそう言いますね。)</span></li>
     </ul>
     </td>
     <td>
@@ -406,9 +406,9 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Il <span class="bleu">connaît</span> l'anglais.　<span class="noir">(彼は英語ができる)　</span></li>
-        <li><span class="bleu">Connaissez</span>-vous la capitale de la Turquie ?<span class="noir">(トルコの首都を知っていますか？)</span></li>
-        <li>Je<span class="bleu"> connais </span> pas le nom de cette personne.　<span class="noir">(あの人の名前を私は知りません)</span></li>
+        <li>Il <span class="bleu">connaît</span> l'anglais.　<span class="noir06">(イル・コネ・ラングレ；　彼は英語ができる)　</span></li>
+        <li><span class="bleu">Connaissez</span>-vous la capitale de la Turquie ?<span class="noir06">(コネセ・ヴ・ラ・カピタル・ドゥ・ラ・テュルキ？：　トルコの首都を知っていますか？)</span></li>
+        <li>Je<span class="bleu"> connais </span> pas le nom de cette personne.　<span class="noir06">(ジュ・コネ・パ・ル・ノン・ドゥ・セットゥ・ペルソンヌ：　あの人の名前を私は知りません)</span></li>
     </ul>
     </td>
     <td>
@@ -463,9 +463,9 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Il <span class="bleu">sait</span> l'anglais.　<span class="noir">(彼は英語を知っている)　</span></li>
-        <li>Je ne <span class="bleu">sais</span> pas s'il est honnête.<span class="noir">(彼が正直がどうか私は知らない)</span></li>
-        <li>Vous<span class="bleu"> savez </span> bien la vérité.　<span class="noir">(あなたはちゃんと真実がわかっています)</span></li>
+        <li>Il <span class="bleu">sait</span> l'anglais.　<span class="noir06">(イル・セ・ラングレ：　彼は英語を知っている)　</span></li>
+        <li>Je ne <span class="bleu">sais</span> pas s'il est honnête.<span class="noir06">(ジュ・ヌ・セ・パ・シル・エ・オネットゥ：　彼が正直がどうか私は知らない)</span></li>
+        <li>Vous<span class="bleu"> savez </span> bien la vérité.　<span class="noir06">(ヴ・サヴェ・ビアン・ラ・ヴェリテ：　あなたはちゃんと真実がわかっています)</span></li>
     </ul>
     </td>
     <td>
@@ -520,10 +520,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Je ne <span class="bleu">peux </span>pas monter jusque là. <span class="noir">（そこまでは登れないなぁ）</span></li>
-        <li>Je n'en <span class="bleu">peux </span>plus. <span class="noir">（もう限界、これ以上無理） </span></li>
-        <li>Ça <span class="bleu">peut </span>être une coincidence. <span class="noir">(偶然かもしれない)</span></li>
-        <li>Nous <span class="bleu">pouvons </span>entrer ici ?<span class="noir"> (ここに入ってもいいですか？)</span></li>
+        <li>Je ne <span class="bleu">peux </span>pas monter jusque là. <span class="noir06">（ジュ・ヌ・プ・パ・モンテ・ジュスク・ラ：　そこまでは登れないなぁ）</span></li>
+        <li>Je n'en <span class="bleu">peux </span>plus. <span class="noir06">（ジュ・ナン・プ・プリュ：　もう限界、これ以上無理） </span></li>
+        <li>Ça <span class="bleu">peut </span>être une coincidence. <span class="noir06">(サ・プ・テットル・ユヌ・コアンスィダンス：　偶然かもしれない)</span></li>
+        <li>Nous <span class="bleu">pouvons </span>entrer ici ?<span class="noir06"> (ヌ・プヴォン・ザントレ・イスィ？：　ここに入ってもいいですか？)</span></li>
     </ul>
     </td>
     <td>
@@ -578,10 +578,10 @@ excerpt: >
     </td>
     <td>
     <ul>
-        <li>Ça ne <span class="bleu">veut </span>rien dire. <span class="noir">（それは何の意味もない／話にならない）</span></li>
-        <li><span class="bleu">Voulez</span>-vous vous asseoir, s'il vous plaît ? <span class="noir">(お座りいただけますか？)</span></li>
-        <li>Comme vous <span class="bleu">voulez</span>.<span class="noir">（お好きなように／あなたの思う通りに。）</span></li>
-        <li>Je <span class="bleu">veux </span>qu'il vienne immédiatement.<span class="noir"> (彼にすぐ来てもらいたい。)</span></li>
+        <li>Ça ne <span class="bleu">veut </span>rien dire. <span class="noir06">（サ・ヌ・ヴ・リヤン・ディール：　それは何の意味もない／話にならない）</span></li>
+        <li><span class="bleu">Voulez</span>-vous vous asseoir, s'il vous plaît ? <span class="noir06">(ヴレ・ヴ・ヴ・ザスワール、シル・ヴ・プレ？：　お座りいただけますか？)</span></li>
+        <li>Comme vous <span class="bleu">voulez</span>.<span class="noir06">（コム・ヴ・ヴレ：　お好きなように／あなたの思う通りに。）</span></li>
+        <li>Je <span class="bleu">veux </span>qu'il vienne immédiatement.<span class="noir06"> (ジュ・ヴ・キル・ヴィエンヌ・イメディヤトゥマン：　彼にすぐ来てもらいたい。)</span></li>
     </ul>
     </td>
     <td>
