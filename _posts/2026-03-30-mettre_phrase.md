@@ -141,7 +141,7 @@ mettre は「置く」だけ覚えると絶対に困ります。
 
 #### ① 置く・入れる  
 - mettre quelque chose **sur** la table <br>
-  <span class="noir06">メトル・ケルク・ショーズ・スュール・ラ・ターブ </span><br>
+  <span class="noir06">メトル・ケルク・ショーズ・スュール・ラ・ターブル </span><br>
   <span class="noir06">テーブルの上に置く </span> 
 - mettre du sucre **dans** le café<br>
   <span class="noir06">メトル・デュ・スュクル・ダン・ル・カフェ</span><br>
