@@ -18,7 +18,7 @@ sidebar:
 category: [français, conjugaison]
 tag: ["French", "フランス語学習"]
 date: 2026-03-30
-last_modified_at : 2026-03-30 11:20:00
+last_modified_at : 2026-04-20 11:20:00
 excerpt: >
   フランス語の mettre の意味と使い方を、活用表・例文・音声付きで整理した解説です。mettre は「置く」以外にも多くの意味を持ち、初心者が混乱しやすい動詞の一つです。基本の活用、代表的な用法、よく使う表現を体系的にまとめています。
 
@@ -140,10 +140,12 @@ mettre は「置く」だけ覚えると絶対に困ります。
 ### 🎯 **mettre の主要な意味（混乱ポイントつき）**
 
 #### ① 置く・入れる  
-- mettre quelque chose **sur** la table  
-  テーブルの上に置く  
-- mettre du sucre **dans** le café  
-  コーヒーに砂糖を入れる  
+- mettre quelque chose **sur** la table <br>
+  <span class="noir06">メトル・ケルク・ショーズ・スュール・ラ・ターブ </span><br>
+  <span class="noir06">テーブルの上に置く </span> 
+- mettre du sucre **dans** le café<br>
+  <span class="noir06">メトル・デュ・スュクル・ダン・ル・カフェ</span><br>
+  <span class="noir06">コーヒーに砂糖を入れる</span>
 - <span class="player"><audio id="me09_105" preload="auto">
                 <source src="\audio\0327\05_mettre.m4a" type="audio/mp4">
             </audio>
@@ -154,12 +156,16 @@ mettre は「置く」だけ覚えると絶対に困ります。
 👉 **sur / dans の前置詞で意味が変わるので混乱しやすい**
 
 ---
-
+<br>
 #### ② 着る（衣服）  
-- mettre un manteau  
-  コートを着る 
+- mettre un manteau <br>
+  <span class="noir06">メトラン・マントー</span><br>
+  <span class="noir06"> コートを着る </span><br>
+  <span class="rouge07">（※ mettre と un がつながって「メトラン」になります）<br>
+ 
 - Je vais mettre ce pull chaud pour sortir.<br>
-  出かけるのにこの暖かいセーターを着よう。 
+  <span class="noir06">ジュ・ヴェ・メトル・ス・ピュル・ショー・プール・ソルティール</span><br>
+  <span class="noir06">出かけるのにこの暖かいセーターを着よう。</span>
 - <span class="player"><audio id="me09_106" preload="auto">
                 <source src="\audio\0327\06_mettre.m4a" type="audio/mp4">
             </audio>
@@ -172,10 +178,14 @@ mettre は「置く」だけ覚えると絶対に困ります。
 ---
 
 #### ③ 時間がかかる  
-- Ça met 10 minutes.  
-  10分かかる  
+- Ça met 10 minutes. <br>
+  <span class="noir06">サ・メ・ディ・ミニュトゥ</span><br> 
+  <span class="noir06">10分かかる </span>
+  
 - Vous mettez combien de temps pour venir ici ?<br>
-  ここに来るのにどれだけ時間がかかりますか？
+ <span class="noir06">ヴ・メテ・コンビアン・ドゥ・タン・プール・ヴニール・イシ？</span><br>
+ <span class="noir06">ここに来るのにどれだけ時間がかかりますか？</span>
+  
 - <span class="player"><audio id="me09_107" preload="auto">
                 <source src="\audio\0327\07_mettre_a.m4a" type="audio/mp4">
             </audio>
@@ -183,13 +193,14 @@ mettre は「置く」だけ覚えると絶対に困ります。
                     <span class="label">📢</span>
                 </button></span>
 
-👉 prendre と混同しやすい（prendre も「時間がかかる」）
+👉 **prendre と混同しやすい（prendre も「時間がかかる」）**
 
 ---
 
 #### ④ ～に取りかかる（se mettre à）  
-- Je me mets à étudier.  
-  勉強を始める 
+- Je me mets à étudier. <br>
+  <span class="noir06">ジュ・ム・メ・ザ・エテュディエ</span><br> 
+  <span class="noir06">勉強を始める</span>
 - <span class="player"><audio id="me09_108" preload="auto">
                 <source src="\audio\0327\08_mettre.m4a" type="audio/mp4">
             </audio>
@@ -202,12 +213,15 @@ mettre は「置く」だけ覚えると絶対に困ります。
 ---
 
 #### ⑤ ～の状態にする  
-- mettre la table  
-  食卓を整える  
-- mettre la télé  
-  テレビをつける  
+- mettre la table<br>
+  <span class="noir06">メトル・ラ・ターブル</span><br>
+  <span class="noir06">食卓を整える</span> 
+- mettre la télé<br>
+  <span class="noir06"> メトル・ラ・テレ</span><br>
+  <span class="noir06">テレビをつける</span> 
 - Elle a mis sa montre à l'heure.<br>
-  彼女は腕時計の時刻を合わせた。
+  <span class="noir06">エラ・ミ・サ・モントル・ア・ルール</span><br>
+  <span class="noir06">彼女は腕時計の時刻を合わせた。</span>
 - <span class="player"><audio id="me09_109" preload="auto">
                 <source src="\audio\0327\09_mettre.m4a" type="audio/mp4">
             </audio>
