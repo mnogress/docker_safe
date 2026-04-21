@@ -328,6 +328,51 @@ aller は不規則動詞で、語幹が <span class="bleu">vais–</span> / <spa
     </thead>
 <tbody>
     <tr>
+        <td>Comment <span class="bleu">allez</span>-vous ?<br><span class="gris_p"> (コマン・タレ・ヴ？)</span></td>
+        <td ><span class="noir">お元気ですか？ / 調子はいかがですか？</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="all44_101" preload="auto">
+                <source src="\audio\0316\01_aller.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all44_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="3"><span class="noir">allerと、その3人称単数形 va を使った、もっとも身近な挨拶です。</span></td>
+    </tr>
+    <tr>
+        <td>Tout <span class="bleu">va </span>bien.<br><span class="gris_p"> (トゥ・ヴァ・ビアン)</span></td>
+        <td><span class="noir">すべて順調です（すべて上手くいっています）。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Ça <span class="bleu">va</span>? Oui, ça <span class="bleu">va</span> bien.<br><span class="gris_p"> (サ・ヴァ？ ウィ、サ・ヴァ・ビアン)</span></td>
+        <td ><span class="noir">元気？ うん、元気だよ。</span></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Cette robe vous <span class="bleu">va </span> tres bien.<br><span class="gris_p"> (セットゥ・ローブ・ヴ・ヴァ・トレ・ビアン)</span></td>
+        <td><span class="noir">このドレスはあなたによく似合っています。</span></td>
+        <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="all44_102" preload="auto">
+                <source src="\audio\0316\02_aller.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all44_1012">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir">服などが「似合う」という時も aller を使います。</span></td>
+    </tr>
+    <tr>
+        <td>Ça <span class="bleu">va </span>aller.<br><span class="gris_p"> (サ・ヴァ・アレ)</span></td>
+        <td><span class="noir">大丈夫、なんとかなるよ。</span></td>
+        <td><span class="noir">不安な相手を励ます時の定番フレーズです。</span></td>
+    </tr>
+    <tr>
         <td>Vous <span class="bleu">allez</span> <span class="rouge">en</span> France ?<br><span class="gris_p"> (ヴザレ・アン・フランス？)</span></td>
         <td ><span class="noir">あなたはフランスに行くのですか？</span></td>
             <td rowspan="4"><span class="noir"></span>
