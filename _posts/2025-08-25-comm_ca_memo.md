@@ -371,6 +371,56 @@ aller は不規則動詞で、語幹が <span class="bleu">vais–</span> / <spa
         <td><span class="noir">不安な相手を励ます時の定番フレーズです。</span></td>
     </tr>
     <tr>
+        <td>Je <span class="bleu">vais </span>prendre un cafe.<br><span class="gris_p"> (ジュ・ヴェ・プランドル・アン・カフェ)</span></td>
+        <td><span class="noir">コーヒーを（注文して）飲みます。</span></td>
+        <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="all44_103" preload="auto">
+                <source src="\audio\0316\03_aller.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all44_1013">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="3"><span class="noir">近接未来（～する予定だ、～しそうだ）aller + 動詞の原形 で、すぐ先の予定を表します。</span></td>
+    </tr>
+    <tr>
+        <td>Attention, tu <span class="bleu">vas </span>tomber !<br><span class="gris_p"> (アタンシオン、チュ・ヴァ・トンベ)</span></td>
+        <td><span class="noir">気をつけて、転ぶよ！</span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">vais </span>y reflechir.<br><span class="gris_p"> (ジュ・ヴェ・イ・レフレシール)</span></td>
+        <td><span class="noir">（それについて）考えておきます。</span></td>
+    </tr>
+    <tr>
+        <td>Comment on y <span class="bleu">va </span>?<br><span class="gris_p"> (コマン・トニ・ヴァ？)</span></td>
+        <td><span class="noir">どうやって（そこに）行きますか？ / 手段は何ですか？</span></td>
+        <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="all44_104" preload="auto">
+                <source src="\audio\0316\04_aller.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="all44_1014">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="4"><span class="noir">慣用句的に使われる表現です。そのまま覚えましょう。</span></td>
+    </tr>
+    <tr>
+        <td>On y <span class="bleu">va </span>!<br><span class="gris_p"> (オニ・ヴァ)</span></td>
+        <td><span class="noir">よし、行こう！ / 始めよう！</span></td>
+    </tr>
+    <tr>
+        <td>C'est parti, on y <span class="bleu">va </span>!<br><span class="gris_p"> (セ・パルティ、オニ・ヴァ)</span></td>
+        <td><span class="noir">さあ、出発だ！</span></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Aller</span>-retour<br><span class="gris_p"> (アレ・ルトゥール)</span></td>
+        <td><span class="noir">往復（切符などを買う時に使います）。</span></td>
+    </tr>
+    <tr>
         <td>Vous <span class="bleu">allez</span> <span class="rouge">en</span> France ?<br><span class="gris_p"> (ヴザレ・アン・フランス？)</span></td>
         <td ><span class="noir">あなたはフランスに行くのですか？</span></td>
             <td rowspan="4"><span class="noir"></span>
@@ -418,7 +468,7 @@ aller は不規則動詞で、語幹が <span class="bleu">vais–</span> / <spa
     <tr>
         <td><span class="bleu">Allons</span>-y ensemble.<br><span class="gris_p"> (アロンジィ・アンサンブル)</span></td>
         <td><span class="noir">一緒に行こうよ</span></td>
-        <td>英:Let's go.</td>
+        <td><span class="noir">英:Let's go.</span></td>
     </tr>
     <tr>
         <td>Qu'<span class="bleu">allons</span>-nous faire demain ?<br><span class="gris_p"> (カロンヌ・フェア・ドゥマン ？)</span></td>
@@ -453,12 +503,12 @@ aller は不規則動詞で、語幹が <span class="bleu">vais–</span> / <spa
     <tr>
         <td>Je ne <span class="bleu">vais </span>pas faire de tennis.<br><span class="gris_p"> (ジュ・ヌ・ヴァパ・フェアドゥ・テニス)</span></td>
         <td><span class="noir">私はテニスをするつもりはありません。</span></td>
-        <td>近接未来：allerの活用＋動詞の不定詞</td>
+        <td><span class="noir">近接未来：allerの活用＋動詞の不定詞</span></td>
     </tr>
     <tr>
         <td><span class="bleu">Va</span>-t'en!<br><span class="gris_p"> (ヴァ・タン)</span></td>
         <td><span class="noir">出て行け！</span></td>
-        <td>英:Go away!</td>
+        <td><span class="noir">英:Go away!</span></td>
     </tr>
     <tr>
         <td><span class="bleu">allez</span>-y<br><span class="gris_p"> (アレジィ)</span></td>
@@ -473,7 +523,7 @@ aller は不規則動詞で、語幹が <span class="bleu">vais–</span> / <spa
                 </button>
              </div>
         </td>
-        <td>英：Go right ahead. </td>
+        <td><span class="noir">英：Go right ahead. </span></td>
     </tr>
     <tr>
         <td>Vous <span class="bleu">allez y aller</span> ?<br><span class="gris_p"> (ヴ・ザレ・イ・アレ)</span></td>
