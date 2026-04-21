@@ -345,12 +345,10 @@ aller は不規則動詞で、語幹が <span class="bleu">vais–</span> / <spa
     <tr>
         <td>Tout <span class="bleu">va </span>bien.<br><span class="gris_p"> (トゥ・ヴァ・ビアン)</span></td>
         <td><span class="noir">すべて順調です（すべて上手くいっています）。</span></td>
-        <td></td>
     </tr>
     <tr>
         <td>Ça <span class="bleu">va</span>? Oui, ça <span class="bleu">va</span> bien.<br><span class="gris_p"> (サ・ヴァ？ ウィ、サ・ヴァ・ビアン)</span></td>
         <td ><span class="noir">元気？ うん、元気だよ。</span></td>
-        <td></td>
     </tr>
     <tr>
         <td>Cette robe vous <span class="bleu">va </span> tres bien.<br><span class="gris_p"> (セットゥ・ローブ・ヴ・ヴァ・トレ・ビアン)</span></td>
