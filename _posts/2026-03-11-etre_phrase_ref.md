@@ -480,6 +480,26 @@ document.addEventListener('DOMContentLoaded', () => {
         <td>Ce n'<span class="bleu">est</span> pas facile.<br><span class="gris_p"> (ス・ネ・パ・ファスィル)</span></td>
         <td><span class="noir">簡単ではありません。</span></td>
     </tr>
+   <tr>
+        <td>Je ne <span class="bleu">suis</span> plus fatigue(e).<br><span class="gris_p"> (ジュ・ヌ・シュイ・プリュ・ファティゲ)</span></td>
+        <td ><span class="noir">もう疲れていません。</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre22_225" preload="auto">
+                <source src="\audio\0316\01_etre225.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre22_225">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir"><strong>ne ... plus</strong> = 「もう～ない」</span></td>
+    </tr>
+    <tr>
+        <td>Ce n'<span class="bleu">est</span> jamais fini.<br><span class="gris_p"> (ス・ネ・ジャメ・フィニ)</span></td>
+        <td><span class="noir">（いつまで経っても）終わりません。</span></td>
+        <td><span class="noir"><strong>ne ... jamais</strong> = 「決して～ない／一度も?ない」</span></td>
+    </tr>
     <tr>
         <td>Je <span class="bleu">suis</span> allé(e) à la gare.<br><span class="gris_p"> (ジュ・シュイ・ザレ・ア・ラ・ガール)</span></td>
         <td ><span class="noir">私は駅に行った。</span></td>
