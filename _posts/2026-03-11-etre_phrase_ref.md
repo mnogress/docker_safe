@@ -453,6 +453,33 @@ document.addEventListener('DOMContentLoaded', () => {
         <td><span class="noir">時間ですよ。</span></td>
         <td><span class="noir">出発の時間や、何かの期限が来た時に使います。</span></td>
     </tr>
+   <tr>
+        <td>Ce n'<span class="bleu">est</span> pas loin.<br><span class="gris_p"> (ス・ネ・パ・ロワン)</span></td>
+        <td ><span class="noir">遠くないですよ。</span></td>
+            <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre22_224" preload="auto">
+                <source src="\audio\0316\01_etre224.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre22_224">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="4"><span class="noir">「セ（C'est）」の否定は「ス・ネ・パ（Ce n'est pas）」になります。</span></td>
+    </tr>
+    <tr>
+        <td>Ce n'<span class="bleu">est</span> pas cher.<br><span class="gris_p"> (ス・ネ・パ・シェール)</span></td>
+        <td><span class="noir">時間ですよ。</span></td>
+    </tr>
+    <tr>
+        <td>Ce n'<span class="bleu">est</span> pas moi.<br><span class="gris_p"> (ス・ネ・パ・ムワ)</span></td>
+        <td><span class="noir">私じゃありません。</span></td>
+    </tr>
+    <tr>
+        <td>Ce n'<span class="bleu">est</span> pas facile.<br><span class="gris_p"> (ス・ネ・パ・ファスィル)</span></td>
+        <td><span class="noir">簡単ではありません。</span></td>
+    </tr>
     <tr>
         <td>Je <span class="bleu">suis</span> allé(e) à la gare.<br><span class="gris_p"> (ジュ・シュイ・ザレ・ア・ラ・ガール)</span></td>
         <td ><span class="noir">私は駅に行った。</span></td>
@@ -471,12 +498,12 @@ document.addEventListener('DOMContentLoaded', () => {
     <tr>
         <td>Elle <span class="bleu">est</span> partie.<br><span class="gris_p"> (エレ・パルティ)</span></td>
         <td><span class="noir"> 彼女は出発した。</span></td>
-        <td>複合過去</td>
+        <td><span class="noir">複合過去</span></td>
     </tr>
     <tr>
         <td>Je <span class="bleu">suis </span> en train de manger. <br><span class="gris_p"> (ジュ・シュイ・アン・トラン・ドゥ・マンジェ)</span></td>
         <td><span class="noir">私は食事をしているところです。</span></td>
-        <td>現在進行形</td>
+        <td><span class="noir">現在進行形</span></td>
     </tr>
     <tr>
         <td>Je <span class="bleu">serai</span> absent/e cinq jours.<br><span class="gris_p"> (ジュ・スレ・アプサン／アプサント・サンク・ジュール)</span></td>
