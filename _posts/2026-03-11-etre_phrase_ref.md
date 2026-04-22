@@ -383,6 +383,76 @@ document.addEventListener('DOMContentLoaded', () => {
         <td><span class="noir">私たちは幸せです。</span></td>
         <td></td>
     </tr>
+   <tr>
+        <td>Je <span class="bleu">suis</span> la.<br><span class="gris_p"> (ジュ・シュイ・ラ)</span></td>
+        <td ><span class="noir">ここにいます／着いたよ。</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre22_221" preload="auto">
+                <source src="\audio\0316\01_etre22.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre22_221">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Ou <span class="bleu">est</span>-ce que c'<span class="bleu">est</span> ?<br><span class="gris_p"> (ウ・エ・スク・セ？)</span></td>
+        <td><span class="noir">それはどこですか？</span></td>
+        <td><span class="noir">場所を尋ねる時の最も一般的な形です。</span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">suis </span> d'accord.<br><span class="gris_p"> (ジュ・シュイ・ダコール)</span></td>
+        <td><span class="noir">賛成です／同感です。</span></td>
+        <td><span class="noir">「同意（accord）の状態にある」という、会話で超頻出のフレーズです。</span></td>
+    </tr>
+   <tr>
+        <td>C'<span class="bleu">est</span> dommage.<br><span class="gris_p"> (セ・ドマージュ)</span></td>
+        <td ><span class="noir">それは残念です。</span></td>
+            <td rowspan="3"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre22_222" preload="auto">
+                <source src="\audio\0316\01_etre222.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre22_222">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>C'<span class="bleu">est</span> vrai ?<br><span class="gris_p"> (セ・ヴレ？)</span></td>
+        <td><span class="noir">本当ですか？</span></td>
+        <td><span class="noir"></span></td>
+    </tr>
+    <tr>
+        <td>C'<span class="bleu">est </span>fini.<br><span class="gris_p"> (セ・フィニ)</span></td>
+        <td><span class="noir">終わりました。</span></td>
+        <td><span class="noir">仕事や食事が終わった時など、あらゆる場面で使います。</span></td>
+    </tr>
+   <tr>
+        <td>Il <span class="bleu">est</span> quelle heure ?<br><span class="gris_p"> (イレ・ケル・ウール？)</span></td>
+        <td ><span class="noir">何時ですか？</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre22_223" preload="auto">
+                <source src="\audio\0316\01_etre223.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre22_223">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir">時刻を言う時は必ず非人称の <strong>Il est...</strong> を使います。</span></td>
+    </tr>
+    <tr>
+        <td>C'<span class="bleu">est</span> l'heure.<br><span class="gris_p"> (セ・ルール)</span></td>
+        <td><span class="noir">時間ですよ。</span></td>
+        <td><span class="noir">出発の時間や、何かの期限が来た時に使います。</span></td>
+    </tr>
     <tr>
         <td>Je <span class="bleu">suis</span> allé(e) à la gare.<br><span class="gris_p"> (ジュ・シュイ・ザレ・ア・ラ・ガール)</span></td>
         <td ><span class="noir">私は駅に行った。</span></td>
