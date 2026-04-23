@@ -500,6 +500,35 @@ document.addEventListener('DOMContentLoaded', () => {
         <td><span class="noir">（いつまで経っても）終わりません。</span></td>
         <td><span class="noir"><strong>ne ... jamais</strong> = 「決して～ない／一度も?ない」</span></td>
     </tr>
+   <tr>
+        <td>Qui <span class="bleu">est</span>-ce ?<br><span class="gris_p"> (キ・エス？)</span></td>
+        <td ><span class="noir">（あれは）誰ですか？</span></td>
+            <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre22_226" preload="auto">
+                <source src="\audio\0316\01_etre226.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre22_226">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir"></span></td>
+    </tr>
+    <tr>
+        <td>Ou <span class="bleu">est</span>-tu ?<br><span class="gris_p"> (ウ・エ・テュ？)</span></td>
+        <td><span class="noir">どこにいるの？</span></td>
+        <td><span class="noir"></span></td>
+    </tr>
+    <tr>
+        <td>A quelle heure <span class="bleu">est</span> le rendez-vous ?<br><span class="gris_p"> (ア・ケルール・エ・ル・ランデヴー？)</span></td>
+        <td><span class="noir">待ち合わせ（予約）は何時ですか？</span></td>
+        <td><span class="noir"></span></td>
+    </tr>    <tr>
+        <td>C'<span class="bleu">est</span> combien ?<br><span class="gris_p"> (セ・コンビヤン？)</span></td>
+        <td><span class="noir">いくらですか？</span></td>
+        <td><span class="noir"></span></td>
+    </tr>
     <tr>
         <td>Je <span class="bleu">suis</span> allé(e) à la gare.<br><span class="gris_p"> (ジュ・シュイ・ザレ・ア・ラ・ガール)</span></td>
         <td ><span class="noir">私は駅に行った。</span></td>
