@@ -529,6 +529,35 @@ document.addEventListener('DOMContentLoaded', () => {
         <td><span class="noir">いくらですか？</span></td>
         <td><span class="noir"></span></td>
     </tr>
+   <tr>
+        <td>Je ne <span class="bleu">suis</span> pas sur(e).<br><span class="gris_p"> (ジュ・ヌ・シュイ・パ・シュール)</span></td>
+        <td ><span class="noir">よく分かりません（自信がありません）。</span></td>
+            <td rowspan="4"><span class="noir"></span>
+              <div class="player">
+            <audio id="etre22_227" preload="auto">
+                <source src="\audio\0316\01_etre227.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="etre22_227">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir">会話で超頻出です。「たぶん…」と濁すときにも使います。</span></td>
+    </tr>
+    <tr>
+        <td>Ce n'<span class="bleu">est</span>  pas grave.<br><span class="gris_p"> (ス・ネ・パ・グラーヴ)</span></td>
+        <td><span class="noir">大丈夫ですよ（大したことありません）。</span></td>
+        <td><span class="noir">謝られた時や、トラブルが起きた時の定番の返しです。</span></td>
+    </tr>
+    <tr>
+        <td>Je ne <span class="bleu">suis</span> pas d'accord.<br><span class="gris_p"> (ジュ・ヌ・シュイ・パ・ダコール)</span></td>
+        <td><span class="noir">反対です／同意しません。</span></td>
+        <td><span class="noir"></span></td>
+    </tr>    <tr>
+        <td>Ce n'<span class="bleu">est</span> pas vrai !<br><span class="gris_p"> (ス・ネ・パ・ヴレ！)</span></td>
+        <td><span class="noir">嘘でしょう！／信じられない！</span></td>
+        <td><span class="noir"></span></td>
+    </tr>
     <tr>
         <td>Je <span class="bleu">suis</span> allé(e) à la gare.<br><span class="gris_p"> (ジュ・シュイ・ザレ・ア・ラ・ガール)</span></td>
         <td ><span class="noir">私は駅に行った。</span></td>
@@ -597,7 +626,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <tr>
         <td><span class="bleu">Ça a été?　 </span> <br><span class="gris_p"> (サ・ア・エテ？)</span></td>
         <td><span class="noir">うまくいきましたか？　大丈夫だった？</span></td>
-        <td>決まり文句</td>
+        <td><span class="noir">決まり文句</span></td>
     </tr>
     <tr>
         <td>Il <span class="bleu">était</span> malade hier.<br><span class="gris_p"> (イレテ・マロード・イエール)</span></td>
@@ -617,7 +646,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <tr>
         <td>On <span class="bleu">était</span> bien. <br><span class="gris_p"> (オン・ゼテ・ビヤン)</span></td>
         <td><span class="noir">いい時間だったね／心地よかったね。</span></td>
-        <td>決まり文句</td>
+        <td><span class="noir">決まり文句</span></td>
     </tr>
     <tr>
         <td>Il<span class="bleu"> était</span> temps de partir. <br><span class="gris_p"> (イレテ・タン・ドゥ・パルティール)</span></td>
