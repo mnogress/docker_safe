@@ -3,7 +3,7 @@ layout: single
 title: そのまま覚えるフランス語の文例 ～ vouloir ～
 header:
   overlay_image: images/header_fr47_1280by336.png
-  overlay_filter: rgba(225, 10, 67, 0.33)
+  overlay_filter: rgba(228, 29, 39, 0.13)
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
@@ -27,9 +27,9 @@ excerpt: >
 <span class="violet">音声はネイティブの発音に近い形で録音しています。例文を見ながら繰り返し聞くことで、発音とリズムが自然に身につきます。</span>
 
 
-### 📙一人称から覚える vouloir
+### 🎯一人称から覚える vouloir (ヴルワール)
 
-旅行や日常会話で「～したい」「～が欲しい」と言う主体は、圧倒的に自分自身だからです。まずは「Je」の形を、次に会話で圧倒的に使われる「On」をそして、レストランの予約電話などのスマートに表現するための「Nous」の順に完璧に使えるようにするのがまず一歩です。
+旅行や日常会話で「～したい」「～が欲しい」と言う主体は、圧倒的に自分自身です。**vouloir (ヴルワール)**の用例は、まず「**Je**」の形を、次に会話で圧倒的に使われる「**On**」をそして、レストランの予約電話などのスマートに表現するための「**Nous**」の順に完璧に使えるようにするのがまず一歩です。
 
 
 | 活用形 |Je (単数) | On (カジュアル) | Nous (フォーマル) |
@@ -39,7 +39,7 @@ excerpt: >
 | **単純未来**<br><span class="bleu08">意志を表す「～するつもりだ」<br>未来の意志</span> | Je **voudrai**<br><span class="noir">(ジュ・ヴドレ)</span> | On **voudra**<br><span class="noir">(オン・ヴドラ) </span>| Nous **voudrons**<br><span class="noir">(ヌ・ヴドロン)</span> |
 
 
-**🧠注意！**
+**⚠️ 注意！**
 **Je voudrais**（条件法）と **Je voudrai**（単純未来）は、現代の話し言葉ではほとんど同じ音に聞こえます。文脈で「丁寧に頼んでいるのか（条件法）」、それとも「将来の意志を語っているのか（未来形）」を判断するのがコツです。
 {: .notice-danger}
 
@@ -49,7 +49,7 @@ excerpt: >
 
 
 <div markdown='1'>
-### 🎯 動詞 vouloir の使い方：口から覚えるフレーズ集
+### 🧩 動詞 vouloir の使い方：口から覚えるフレーズ集
 活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋動詞」をリズムで覚えましょう。　
 </div>　
 
@@ -135,12 +135,12 @@ excerpt: >
 </table>
 </main>
 
-#### 一人称複数の **Nous（ヌ）** と **On（オン）** の一言
+#### ✅ 一人称複数の **Nous（ヌ）** と **On（オン）** の一言
 
 フランス語では「私たちは～したい」と言う際、日常会話では **On** が圧倒的に使われ、フォーマルな場面や書き言葉では **Nous** が使われるという明確な使い分けがあります。
 
 
-### 📙二人称を覚える 現在形と条件法
+### 🚀 二人称を覚える 現在形と条件法
 
 
 | 主語 | 現在形 (Want) | 条件法 (Would like) |
@@ -180,7 +180,7 @@ excerpt: >
                 </button>
              </div>
         </td>
-        <td><span class="noir">Veuillez + 動詞の原形で「どうか?してください」という非常に丁寧な表現になります。</span></td>
+        <td><span class="bleu08">Veuillez + 動詞の原形</span><span class="noir">で「どうか～してください」という<strong>非常に丁寧な表現</strong>になります。</span></td>
     </tr>
     <tr>
         <td><span class="bleu">Voulez</span>-vous un peu de sucre ?<br><span class="gris_p"> (ヴレ ヴ アン プ ドゥ シュクル)</span></td>
@@ -196,7 +196,7 @@ excerpt: >
 </main>
 
 
-### 三人称活用の早見表
+### 🌱 三人称活用の早見表
 
 読み方をまとめた表です。
 
@@ -205,7 +205,7 @@ excerpt: >
 | **Il / Elle / On** (彼/彼女/私たち) | **veut** (ヴ) | **voudrait** (ヴドレ) | **voudra** (ヴドラ) |
 | **Ils / Elles** (彼ら/彼女ら) | **veulent** (ヴル) | **voudraient** (ヴドレ) | **voudront** (ヴドロン) |
 
-### On（オン）の場合
+### 🌿On（オン）の場合
 
 文法上は三人称単数（il/elle）と同じ形になりますが、意味は「私たちは」となります。会話で最も使われる形です。
 
@@ -258,7 +258,7 @@ excerpt: >
 </main>
 
 
-### 三人称複数（Ils / Elles）
+### 💡 三人称複数（Ils / Elles）
 
 「彼ら・彼女ら」です。発音のポイントは、現在形の語尾 vuel **-ent** は発音せず、「ヴ」ではなく **「vuelent : ヴル」** となる点です。
 
