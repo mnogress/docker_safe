@@ -163,7 +163,7 @@ excerpt: >
     </tr>
     <tr>
         <td><span class="bleu">Pourriez-vous </span>nous prendre en photo ?<br><span class="gris_p"> (プリエ・ヴ・ヌ・プランドル・アン・フォト)</span></td>
-        <td><span class="noir">私たちの）写真を撮っていただけますか？</span></td>
+        <td><span class="noir">私たちの写真を撮っていただけますか？</span></td>
         <td><span class="noir">写真を撮ってほしい時</span></td>
     </tr>
 </tbody>
