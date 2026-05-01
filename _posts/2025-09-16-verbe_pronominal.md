@@ -76,22 +76,301 @@ excerpt:
 #### 🍎 代表的な代名動詞
 
 
-| つづり字 | 訳 | 読み方 |　例文 |
-| :-----       | :----       | :-----       | :-----      |
-| <span class="bleu">se réveiller</span>   |<span class="noir07">目が覚める</span>|<span class="noir07">ス・レヴェイエ</span>|Je me réveille à 6 heures.<br> <span class="noir07">ジュ・ム・レヴェイユ・ア・スィズール<br> 私は6時に目が覚める。</span>|
-| <span class="bleu">se coucher</span> |<span class="noir07">寝る、床につく</span>|<span class="noir07">ス・クシェ</span>|Je me couche vers minuit. <br> <span class="noir07">ジュ・ム・クシュ・ヴェール・ミニュイ<br>私は夜中の12時ごろ寝る。</span><br><span class="violet07">「ベッドに入る」という動作。睡眠そのものではない。</span>|
-| <span class="bleu">se doucher</span>   |<span class="noir07">シャワーを浴びる</span>|<span class="noir07">ス・ドゥシェ</span>|Je me douche tous les matins.<br><span class="noir07">ジュ・ム・ドゥシュ・トゥ・レ・マタン<br>私は毎朝シャワーを浴びる。</span>|
-| <span class="bleu">se reposer</span>   |<span class="noir07">休む、休息する</span>|<span class="noir07">ス・ルポゼ</span>|Je me repose un peu.<br><span class="noir07">ジュ・ム・ルポーズ・アン・プ<br>ちょっと休むよ。</span><br><span class="violet07">身体的にも精神的にも「休む」</span>|
-| <span class="bleu">s'habiller</span>   |<span class="noir07">服を着る</span>|<span class="noir07">ザビエ</span>|Je m’habille rapidement.<br><span class="noir07">ジュ・マビイユ・ラピッドマン<br>私は素早く服を着る。</span><br><span class="violet07">「服を着る」全体の動作。衣服の種類は後ろに置く。</span>|
-| <span class="bleu">se déshabiller</span>   |<span class="noir07">服を脱ぐ</span>|<span class="noir07">ス・デザビエ</span>|Il se déshabille avant de dormir.<br><span class="noir07">イル・ス・デザビイユ・アヴァン・ドゥ・ドルミール<br>彼は寝る前に服を脱ぐ。</span><br><span class="violet07">s’habiller の反対。</span>|
-| <span class="bleu">se maquiller</span>   |<span class="noir07">化粧する</span>|<span class="noir07">ス・マキーエ</span>|Elle se maquille tous les matins.<br><span class="noir07">エル・ス・マキイユ・トゥ・レ・マタン<br>彼女は毎朝化粧する。</span><br><span class="violet07">「化粧する」全体の動作。</span>|
-| <span class="bleu">se préparer</span>   |<span class="noir07">準備する</span>|<span class="noir07">ス・プリパレ</span>|Je me prépare pour sortir.<br><span class="noir07">ジュ・ム・プリパール・プール・ソルティール<br>出かける準備をする。</span><br><span class="violet07">目的に応じて pour + 動詞 がよく続く。</span>|
-| <span class="bleu">se dépêcher</span>   |<span class="noir07">急ぐ</span>|<span class="noir07">ス・デペシェ</span>|Dépêche-toi !<br><span class="noir07">デペッシュ・トワ<br>急いで！</span><br><span class="violet07">命令形が超頻出。</span>|
-| <span class="bleu">s'amuser</span>   |<span class="noir07">楽しむ</span>|<span class="noir07">サミュゼ</span>|On s’amuse bien ici.<br><span class="noir07">オン・サミューズ・ビヤン・イシ<br>ここはとても楽しいよ。</span>|
-| <span class="bleu">s'ennuyer</span>   |<span class="noir07">退屈する</span>|<span class="noir07">サンヌイ</span>|Je m’ennuie à la maison.<br><span class="noir07">ジュ・マンヌイ・ア・ラ・メゾン<br>家で退屈している。</span><br><span class="violet07">amuser の反対イメージ。</span>|
-| <span class="bleu">s'asseoir</span>   |<span class="noir07">腰掛ける</span>|<span class="noir07">サスワール</span>|Je m’assois ici.<br><span class="noir07">ジュ・マソワ・イシ<br>ここに座るよ。</span>|
-| <span class="bleu">se promener</span>   |<span class="noir07">散歩する</span>|<span class="noir07">ス・プロムネ</span>|Nous nous promenons dans le parc.<br><span class="noir07">ヌ・ヌ・プロムノン・ダン・ル・パルク<br>私たちは公園を散歩する。</span><br><span class="violet07">語幹変化（è）に注意：je me promène</span>|
-| <span class="bleu">s'arreter</span>   |<span class="noir07">止める</span>|<span class="noir07">サラルテ</span>|Le bus s’arrête ici.<br><span class="noir07">ル・ビュス・サレート・イシ<br>バスはここで止まる。</span><br><span class="violet07">「止まる」「立ち止まる」。<br>-他動詞 arrêter（止める）と区別。</span>|
+{% raw %}
+<main class="page-ul-fix">
+<table class="resp_table">
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col style="background:#E6E6FA;"> <!-- 3列目を薄いブルー -->
+    <col>               <!-- 4列目 -->
+  </colgroup>
+    <caption>devoirのフレーズ集</caption>
+    <thead>
+    <tr>
+        <th width="35%">phrase</th>
+        <th width="30%">訳</th>
+        <th width="10%">音声</th>
+        <th width="25%">コメント</th>
+    </tr>
+    </thead>
+<tbody>
+    <tr>
+        <td><span class="bleu">se réveiller</span><br><span class="gris_p"> (ス・レヴェイエ)</span></td>
+        <td ><span class="noir">目が覚める</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei01_101" preload="auto">
+                <source src="\audio\0316\01_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei01_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir"></span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">me réveille </span> à 6 heures.<br><span class="gris_p"> (ジュ・ム・レヴェイユ・ア・スィズール)</span></td>
+        <td><span class="noir">私は6時に目が覚める。</span></td>
+        <td><span class="noir"></span></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">se coucher</span><br><span class="gris_p"> (ス・クシェ)</span></td>
+        <td ><span class="noir">寝る、床につく</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei02_101" preload="auto">
+                <source src="\audio\0316\02_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei02_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">ベッドに入る」という動作。睡眠そのものではない。</span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">me couche </span>vers minuit.<br><span class="gris_p">(ジュ・ム・クシュ・ヴェール・ミニュイ)</span></td>
+        <td><span class="noir">私は夜中の12時ごろ寝る。</span></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">se doucher</span><br><span class="gris_p">(ス・ドゥシェ)</span></td>
+        <td ><span class="noir">シャワーを浴びる</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei03_101" preload="auto">
+                <source src="\audio\0316\03_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei03_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir"></span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">me douche</span> tous les matins.<br><span class="gris_p">(ジュ・ム・ドゥシュ・トゥ・レ・マタン)</span></td>
+        <td><span class="noir">私は毎朝シャワーを浴びる。</span></td>
+        <td><span class="violet07"></span></td>
+    </tr>
+        <tr>
+        <td><span class="bleu">se reposer</span><br><span class="gris_p">(ス・ルポゼ)</span></td>
+        <td ><span class="noir">休む、休息する</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei04_101" preload="auto">
+                <source src="\audio\0316\04_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei04_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>        
+        <td rowspan="2"><span class="violet07">身体的にも精神的にも「休む」</span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">me repose </span>un peu.<br><span class="gris_p">(ジュ・ム・ルポーズ・アン・プ)</span></td>
+        <td><span class="noir">ちょっと休むよ。</span></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">s'habiller</span><br><span class="gris_p">(ザビエ)</span></td>
+        <td ><span class="noir">服を着る</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei05_101" preload="auto">
+                <source src="\audio\0316\05_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei05_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">「服を着る」全体の動作。衣服の種類は後ろに置く。</span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">m’habille</span> rapidement.<br><span class="gris_p">(ジュ・マビイユ・ラピッドマン)</span></td>
+        <td><span class="noir">私は素早く服を着る。</span></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">se déshabiller</span><br><span class="gris_p">(ス・デザビエ)</span></td>
+        <td ><span class="noir">服を脱ぐ</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei06_101" preload="auto">
+                <source src="\audio\0316\06_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei06_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">s’habiller の反対。</span></td>
+    </tr>
+    <tr>
+        <td>Il <span class="bleu">se déshabille</span> avant de dormir.<br><span class="gris_p">(イル・ス・デザビイユ・アヴァン・ドゥ・ドルミール)</span></td>
+        <td><span class="noir">彼は寝る前に服を脱ぐ。</span></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">se maquiller</span><br><span class="gris_p">(ス・マキーエ)</span></td>
+        <td ><span class="noir">化粧する</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei07_101" preload="auto">
+                <source src="\audio\0316\07_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei07_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">「化粧する」全体の動作。</span></td>
+    </tr>
+    <tr>
+        <td>Elle <span class="bleu"> se maquille</span> tous les matins.<br><span class="gris_p">(エル・ス・マキイユ・トゥ・レ・マタン)</span></td>
+        <td><span class="noir">彼女は毎朝化粧する。</span></td>
+    </tr>
+   <tr>
+        <td><span class="bleu">se préparer</span><br><span class="gris_p">(ス・プリパレ)</span></td>
+        <td ><span class="noir">準備する</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei08_101" preload="auto">
+                <source src="\audio\0316\08_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei08_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">目的に応じて pour + 動詞 がよく続く。</span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">me prépare</span>  pour sortir.<br><span class="gris_p">(ジュ・ム・プリパール・プール・ソルティール)</span></td>
+        <td><span class="noir">出かける準備をする。</span></td>
+    </tr>
+   <tr>
+        <td><span class="bleu">se dépêcher</span><br><span class="gris_p">(ス・デペシェ)</span></td>
+        <td ><span class="noir">急ぐ</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei09_101" preload="auto">
+                <source src="\audio\0316\09_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei09_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">命令形が超頻出。</span></td>
+    </tr>
+    <tr>
+        <td><span class="bleu">Dépêche-toi</span>!<br><span class="gris_p">(デペッシュ・トワ)</span></td>
+        <td><span class="noir">急いで！</span></td>
+    </tr>
+   <tr>
+        <td><span class="bleu">s'amuser</span><br><span class="gris_p">(サミュゼ)</span></td>
+        <td ><span class="noir">楽しむ</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei10_101" preload="auto">
+                <source src="\audio\0316\10_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei10_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir"></span></td>
+    </tr>
+    <tr>
+        <td>On <span class="bleu">s’amuse</span> bien ici.<br><span class="gris_p">(オン・サミューズ・ビヤン・イシ)</span></td>
+        <td><span class="noir">ここはとても楽しいよ</span></td>
+        <td><span class="violet07"></span></td>
+    </tr>
+   <tr>
+        <td><span class="bleu">s'ennuyer</span><br><span class="gris_p">(サンヌイ)</span></td>
+        <td ><span class="noir">退屈する</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei11_101" preload="auto">
+                <source src="\audio\0316\11_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei11_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">amuser の反対イメージ。</span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">m’ennuie</span> à la maison.<br><span class="gris_p">(ジュ・マンヌイ・ア・ラ・メゾン)</span></td>
+        <td><span class="noir">家で退屈している。</span></td>
+    </tr>
+   <tr>
+        <td><span class="bleu">s'asseoir</span><br><span class="gris_p">(サスワール)</span></td>
+        <td ><span class="noir">腰掛ける</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei12_101" preload="auto">
+                <source src="\audio\0316\12_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei12_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td><span class="noir"></span></td>
+    </tr>
+    <tr>
+        <td>Je <span class="bleu">m’assois</span> ici.<br><span class="gris_p">(ジュ・マソワ・イシ)</span></td>
+        <td><span class="noir">ここに座るよ。</span></td>
+        <td><span class="violet07"></span></td>
+    </tr>
+   <tr>
+        <td><span class="bleu">se promener</span><br><span class="gris_p">(ス・プロムネ)</span></td>
+        <td ><span class="noir">散歩する</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei13_101" preload="auto">
+                <source src="\audio\0316\13_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei13_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">語幹変化（è）に注意：je me promène</span></td>
+    </tr>
+    <tr>
+        <td>Nous <span class="bleu">nous promenons</span> dans le parc.<br><span class="gris_p">(ヌ・ヌ・プロムノン・ダン・ル・パルク)</span></td>
+        <td><span class="noir">私たちは公園を散歩する。</span></td>
+    </tr>
+   <tr>
+        <td><span class="bleu">s'arreter</span><br><span class="gris_p">(サラルテ)</span></td>
+        <td ><span class="noir">止める</span></td>
+            <td rowspan="2"><span class="noir"></span>
+              <div class="player">
+            <audio id="daimei14_101" preload="auto">
+                <source src="\audio\0316\14_daimei.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="daimei14_101">
+                    <span class="label">📢</span>
+                </button>
+             </div>
+        </td>
+        <td rowspan="2"><span class="violet07">「止まる」「立ち止まる」。<br>-他動詞 arrêter（止める）と区別。</span></td>
+    </tr>
+    <tr>
+        <td>Le bus<span class="bleu"> s’arrête</span> ici.<br><span class="gris_p">(ル・ビュス・サレート・イシ)</span></td>
+        <td><span class="noir">バスはここで止まる。</span></td>
+    </tr>
+</tbody>
+</table>
+</main>
+{% endraw %}
+
+
 
 
 
