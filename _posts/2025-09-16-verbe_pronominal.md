@@ -85,7 +85,7 @@ excerpt:
     <col style="background:#E6E6FA;"> <!-- 3列目を薄いブルー -->
     <col>               <!-- 4列目 -->
   </colgroup>
-    <caption>devoirのフレーズ集</caption>
+    <caption>代名動詞のフレーズ集</caption>
     <thead>
     <tr>
         <th width="35%">phrase</th>
