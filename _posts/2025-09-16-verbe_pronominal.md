@@ -377,14 +377,21 @@ excerpt:
 ### 🔁 代名動詞の活用　直説法現在と複合過去
 
 <table class="resp_table">
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col>               <!-- 3-->
+    <col>               <!-- ４-->
+    <col style="background:#E6E6FA;">       <!-- ５列目　Bleu -->
+  </colgroup>
 <caption>代名動詞の活用表</caption>
 <thead>
 <tr>
-    <th width="60">活用</th>
-    <th width="180">つづり</th>
-    <th width="200">訳</th>
-    <th width="180">読み方</th>
-    <th width="120">コメント</th>
+    <th width="12%">活用</th>
+    <th width="30%">つづり</th>
+    <th width="25%">訳</th>
+    <th width="25%">読み方</th>
+    <th width="8%">音声</th>
 </tr>
 </thead>
 <tbody>
@@ -520,13 +527,19 @@ excerpt:
 活用のポイントに沿ったフレーズ集です。フレーズごとに「主語＋代名動詞」をリズムで覚えましょう。　　
 
 <table class="resp_table">
+  <colgroup>
+    <col>               <!-- 1列目 -->
+    <col>               <!-- 2列目 -->
+    <col>               <!-- 3-->
+    <col style="background:#E6E6FA;">       <!-- 4列目　Bleu -->
+  </colgroup>
     <caption>代名動詞のフレーズ集</caption>
     <thead>
     <tr>
-        <th width="300">phrase</th>
-        <th width="260">訳</th>
-        <th width="260">読み方</th>
-        <th width="160">コメント</th>
+        <th width="40%">phrase</th>
+        <th width="26%">訳</th>
+        <th width="26%">読み方</th>
+        <th width="8%">音声</th>
     </tr>
     </thead>
 <tbody>
