@@ -378,11 +378,11 @@ excerpt:
 
 <table class="resp_table">
   <colgroup>
-    <col>               <!-- 1列目 -->
+    <col style="background:#b1b1f6;">        <!-- 1列目  #b1b1f6-->
     <col>               <!-- 2列目 -->
     <col>               <!-- 3-->
     <col>               <!-- ４-->
-    <col style="background:#E6E6FA;">       <!-- ５列目　Bleu -->
+    <col style="background:#E6E6FA;">       <!-- ５列目　Bleu #E6E6FA -->
   </colgroup>
 <caption>代名動詞の活用表</caption>
 <thead>
@@ -396,7 +396,7 @@ excerpt:
 </thead>
 <tbody>
 <tr>
-    <td rowspan="6">直説法現在</td>
+    <td rowspan="6"><strong>直説法現在</strong></td>
     <td>je<span class="bleu"> me lève</span></td>
     <td><span class="noir07">わたしは、起きる</span></td>
     <td><span class="noir07">ジュム・レヴェ</span></td>
@@ -439,7 +439,7 @@ excerpt:
     <td><span class="noir07">イル／エル・ス・レヴェ</span></td>
 </tr>
 <tr>
-    <td rowspan="9">複合過去</td>
+    <td rowspan="9"><strong>複合過去</strong></td>
     <td>je<span class="bleu"> me suis levé(e)</span></td>
     <td><span class="noir07">わたしは、起きた</span></td>
     <td><span class="noir07">ジュム・スゥィ・レヴェ</span></td>
