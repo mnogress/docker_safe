@@ -321,7 +321,7 @@ excerpt: >
 
 
 ### 🧭 次のステップ
-vouloir を学んだら、**pouvoir, devoir**  などの助動詞的は役目をする動詞を順番に学ぶと、日常会話の表現力が大きく広がります。
+vouloir を学んだら、[**pouvoir**](/français/conjugaison/pouvoir_phrase/), [**devoir**](/français/conjugaison/devoir_phrase/)  などの助動詞的は役目をする動詞を順番に学ぶと、日常会話の表現力が大きく広がります。
 
 
 
