@@ -134,10 +134,10 @@ footer:
 
 # Reading Files
 include:
+  - _headers
   - .htaccess
   - _pages
   - français
-  - _headers
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
