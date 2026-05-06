@@ -261,3 +261,10 @@ defaults:
       comments: false
       share: true
       related: true
+
+  # force include _headers
+  - scope:
+      path: ""
+    values:
+      include:
+        - _headers
