@@ -137,7 +137,7 @@ include:
   - .htaccess
   - _pages
   - français
-  - flashcards-swm
+  - _headers
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
