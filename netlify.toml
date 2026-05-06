@@ -5,3 +5,8 @@
 [build.environment]
   RUBY_VERSION = "3.2.2"
   BUNDLE_PATH = "vendor/bundle"
+
+[[headers]]
+  for = "/flashcards-swm/*"
+  [headers.values]
+    Basic-Auth = "n779223:Bra51lworld"
