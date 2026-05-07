@@ -1,8 +1,8 @@
 [
   {
-    "front": "le corps",
-    "back": "体",
-    "example": "La police a retrouvé le corps dans la forêt.",
+    "front": "体、団体、死体",
+    "back": "le corps, les corps, Le corps électoral,La police a retrouvé le corps dans la forêt.",
+    "example": "心身ともに健全である,選挙民，有権者,警察は森で遺体を発見した。",
     "audio": "/audio/0218/91_body.m4a"
   },
   {
