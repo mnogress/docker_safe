@@ -11,14 +11,21 @@ fetch('cards.json')
 
 function showCard() {
   const card = cards[index];
-  const text = showingFront ? card.front : card.back;
-  document.getElementById('card').textContent = text;
 
-  // 表面はフランス語、裏面は日本語
   if (showingFront) {
-    speak(text, 'fr-FR');
+    // 表面：単語
+    document.getElementById('card').textContent = card.front;
+
+    // 音声再生
+    if (card.audio) {
+      const audio = new Audio(card.audio);
+      audio.play();
+    }
+
   } else {
-    speak(text, 'ja-JP');
+    // 裏面：日本語訳＋例文
+    document.getElementById('card').innerHTML =
+      `<div>${card.back}</div><div style="margin-top:10px; font-size:0.9em;">${card.example}</div>`;
   }
 }
 

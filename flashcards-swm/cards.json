@@ -1,5 +1,14 @@
 [
-  { "front": "Bonjour", "back": "こんにちは" },
-  { "front": "Merci", "back": "ありがとう" },
-  { "front": "Au revoir", "back": "さようなら" }
+  {
+    "front": "le corps",
+    "back": "体",
+    "example": "La police a retrouvé le corps dans la forêt.",
+    "audio": "/audio/0218/91_body.m4a"
+  },
+  {
+    "front": "la tête",
+    "back": "頭",
+    "example": "J'ai mal à la tête.",
+    "audio": "/audio/0218/92_head.m4a"
+  }
 ]
