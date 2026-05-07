@@ -55,7 +55,7 @@
   },
   {
     "front": "またすぐにお会いしましょう！",
-    "back": "À très bientôt !",
+    "back": "À très vite!",
     "example": "",
     "audio": "/audio/0132/0a_cliche.m4a"
   },
@@ -67,7 +67,7 @@
   },
   {
     "front": "じゃあね！",
-    "back": "À plus !",
+    "back": "À plus trad!",
     "example": "",
     "audio": "/audio/0132/0c_cliche.m4a"
   },
@@ -91,7 +91,7 @@
   },
   {
     "front": "あなたは恥をかいた。",
-    "back": "Tu t'es ridiculisé.",
+    "back": "Tu es honteux.",
     "example": "",
     "audio": "/audio/0132/0g_cliche.m4a"
   },
@@ -139,7 +139,7 @@
   },
   {
     "front": "私は途方に暮れてます。",
-    "back": "Je suis perdu.",
+    "back": "Je me sens perdu.",
     "example": "",
     "audio": "/audio/0132/oo_cliche.m4a"
   }
