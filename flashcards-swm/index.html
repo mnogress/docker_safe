@@ -10,33 +10,30 @@
     body { font-family: sans-serif; text-align: center; margin: 40px; }
     .card { border: 2px solid #333; padding: 40px; border-radius: 10px; font-size: 1.5em; }
     button { margin-top: 20px; padding: 10px 20px; font-size: 1em; }
+    .card-animate {
+  transition: transform 0.25s ease-out;
+}
+.swipe-left {
+  transform: translateX(-80px);
+}
+.swipe-right {
+  transform: translateX(80px);
+}
+.swipe-up {
+  transform: translateY(-80px);
+}
+.swipe-down {
+  transform: translateY(80px);
+}
   </style>
 </head>
 <body>
-  <div class="card" id="card">Loading...</div>
-  <button id="next">Next</button>
+<div id="card" class="card-animate">Loading...</div>
+    <button id="next">Next</button>
 </body>
 </html>
 
 <style>
-.card-animate {
-  transition: transform 0.25s ease-out;
-}
 
-.swipe-left {
-  transform: translateX(-80px);
-}
-
-.swipe-right {
-  transform: translateX(80px);
-}
-
-.swipe-up {
-  transform: translateY(-80px);
-}
-
-.swipe-down {
-  transform: translateY(80px);
-}
 
 </style>

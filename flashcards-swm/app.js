@@ -50,14 +50,22 @@ function handleSwipe() {
 
     // 右スワイプ → 裏面
     if (diffX > 50 && showingFront) {
-      showingFront = false;
-      showCard();
+      cardElement.classList.add('swipe-right');
+      setTimeout(() => {
+        showingFront = false;
+        showCard();
+        cardElement.classList.remove('swipe-right');
+      }, 200);
     }
 
     // 左スワイプ → 表面
     if (diffX < -50 && !showingFront) {
-      showingFront = true;
-      showCard();
+      cardElement.classList.add('swipe-left');
+      setTimeout(() => {
+        showingFront = true;
+        showCard();
+        cardElement.classList.remove('swipe-left');
+      }, 200);
     }
 
   } else {
@@ -65,15 +73,24 @@ function handleSwipe() {
 
     // 上スワイプ → 次のカード
     if (diffY < -50) {
-      nextCard();
+      cardElement.classList.add('swipe-up');
+      setTimeout(() => {
+        nextCard();
+        cardElement.classList.remove('swipe-up');
+      }, 200);
     }
 
     // 下スワイプ → 前のカード
     if (diffY > 50) {
-      prevCard();
+      cardElement.classList.add('swipe-down');
+      setTimeout(() => {
+        prevCard();
+        cardElement.classList.remove('swipe-down');
+      }, 200);
     }
   }
 }
+
 
 // カード表示
 function showCard() {
