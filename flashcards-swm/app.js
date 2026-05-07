@@ -11,9 +11,18 @@ fetch('cards.json')
 
 function showCard() {
   const card = cards[index];
-  document.getElementById('card').textContent =
-    showingFront ? card.front : card.back;
+  const text = showingFront ? card.front : card.back;
+  document.getElementById('card').textContent = text;
+
+  // 表面はフランス語、裏面は日本語
+  if (showingFront) {
+    speak(text, 'fr-FR');
+  } else {
+    speak(text, 'ja-JP');
+  }
 }
+
+
 
 // カードをタップすると裏返る
 document.getElementById('card').addEventListener('click', () => {
