@@ -3,144 +3,144 @@
     "front": "その通り",
     "back": "C'est vrai.",
     "example": "",
-    "/audio": "/audio/0132/01_cliche.m4a"
+    "audio": "/audio/0132/01_cliche.m4a"
   },
   {
     "front": "そう、よかった。",
     "back": "Tu as dit oui ? Tant mieux.",
     "example": "",
-    "/audio": "/audio/0132/02_cliche.m4a"
+    "audio": "/audio/0132/02_cliche.m4a"
   },
   {
     "front": "それは違います。",
     "back": "Ce n'est pas ça.",
     "example": "",
-    "/audio": "/audio/0132/03_cliche.m4a"
+    "audio": "/audio/0132/03_cliche.m4a"
   },
   {
     "front": "やあ、調子どう？",
     "back": "Salut, ça va ?",
     "example": "",
-    "/audio": "/audio/0132/04_cliche.m4a"
+    "audio": "/audio/0132/04_cliche.m4a"
   },
   {
     "front": "お元気ですか？",
     "back": "Vous allez bien ?",
     "example": "",
-    "/audio": "/audio/0132/05_cliche.m4a"
+    "audio": "/audio/0132/05_cliche.m4a"
   },
   {
     "front": "どうぞ、どうぞお先に",
     "back": "Après vous.",
     "example": "",
-    "/audio": "/audio/0132/06_cliche.m4a"
+    "audio": "/audio/0132/06_cliche.m4a"
   },
   {
     "front": "何の話ですか？",
     "back": "De quoi parles‑tu ?",
     "example": "",
-    "/audio": "/audio/0132/07_cliche.m4a"
+    "audio": "/audio/0132/07_cliche.m4a"
   },
   {
     "front": "いつでも電話してね、いい？",
     "back": "Appelle-moi quand tu veux, d'accord ?",
     "example": "",
-    "/audio": "/audio/0132/08_cliche.m4a"
+    "audio": "/audio/0132/08_cliche.m4a"
   },
   {
     "front": "会いたい時に電話しますね",
     "back": "Je t'appellerai quand je veux te voir.",
     "example": "",
-    "/audio": "/audio/0132/09_cliche.m4a"
+    "audio": "/audio/0132/09_cliche.m4a"
   },
   {
     "front": "またすぐにお会いしましょう！",
     "back": "À très bientôt !",
     "example": "",
-    "/audio": "/audio/0132/10_cliche.m4a"
+    "audio": "/audio/0132/10_cliche.m4a"
   },
   {
     "front": "またすぐ会いましょう。",
     "back": "On se voit bientôt.",
     "example": "",
-    "/audio": "/audio/0132/11_cliche.m4a"
+    "audio": "/audio/0132/11_cliche.m4a"
   },
   {
     "front": "じゃあね！",
     "back": "À plus !",
     "example": "",
-    "/audio": "/audio/0132/12_cliche.m4a"
+    "audio": "/audio/0132/12_cliche.m4a"
   },
   {
     "front": "それが見えますか？",
     "back": "Tu vois ça ?",
     "example": "",
-    "/audio": "/audio/0132/13_cliche.m4a"
+    "audio": "/audio/0132/13_cliche.m4a"
   },
   {
     "front": "問題ないです。",
     "back": "Pas de problème.",
     "example": "",
-    "/audio": "/audio/0132/14_cliche.m4a"
+    "audio": "/audio/0132/14_cliche.m4a"
   },
   {
     "front": "君を誇りに思うよ。",
     "back": "Je suis fier de toi.",
     "example": "",
-    "/audio": "/audio/0132/15_cliche.m4a"
+    "audio": "/audio/0132/15_cliche.m4a"
   },
   {
     "front": "あなたは恥をかいた。",
     "back": "Tu t'es ridiculisé.",
     "example": "",
-    "/audio": "/audio/0132/16_cliche.m4a"
+    "audio": "/audio/0132/16_cliche.m4a"
   },
   {
     "front": "私は忙しいです。",
     "back": "Je suis occupé.",
     "example": "",
-    "/audio": "/audio/0132/17_cliche.m4a"
+    "audio": "/audio/0132/17_cliche.m4a"
   },
   {
     "front": "それは理にかなっている。",
     "back": "Ça a du sens.",
     "example": "",
-    "/audio": "/audio/0132/18_cliche.m4a"
+    "audio": "/audio/0132/18_cliche.m4a"
   },
   {
     "front": "その家は売りに出されています。",
     "back": "La maison est à vendre.",
     "example": "",
-    "/audio": "/audio/0132/19_cliche.m4a"
+    "audio": "/audio/0132/19_cliche.m4a"
   },
   {
     "front": "どうしたの？",
     "back": "Qu'est‑ce qu'il y a ?",
     "example": "",
-    "/audio": "/audio/0132/20_cliche.m4a"
+    "audio": "/audio/0132/20_cliche.m4a"
   },
   {
     "front": "急いで！",
     "back": "Dépêche‑toi !",
     "example": "",
-    "/audio": "/audio/0132/21_cliche.m4a"
+    "audio": "/audio/0132/21_cliche.m4a"
   },
   {
     "front": "わかりましたか？",
     "back": "Tu as compris ?",
     "example": "",
-    "/audio": "/audio/0132/22_cliche.m4a"
+    "audio": "/audio/0132/22_cliche.m4a"
   },
   {
     "front": "私は最善を尽くしています。",
     "back": "Je fais de mon mieux.",
     "example": "",
-    "/audio": "/audio/0132/23_cliche.m4a"
+    "audio": "/audio/0132/23_cliche.m4a"
   },
   {
     "front": "私は途方に暮れてます。",
     "back": "Je suis perdu.",
     "example": "",
-    "/audio": "/audio/0132/24_cliche.m4a"
+    "audio": "/audio/0132/24_cliche.m4a"
   }
 ]
