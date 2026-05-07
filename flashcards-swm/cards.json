@@ -1,14 +1,14 @@
 [
   {
-    "front": "体、団体、死体",
-    "back": "le corps, les corps, Le corps électoral,La police a retrouvé le corps dans la forêt.",
-    "example": "心身ともに健全である,選挙民，有権者,警察は森で遺体を発見した。",
-    "audio": "/audio/0218/91_body.m4a"
+    "front": "その通り",
+    "back": "C'est vrai.",
+    "example": "That's right",
+    "audio": "audio/0132/01_cliche.m4a"
   },
   {
-    "front": "la tête",
-    "back": "頭",
-    "example": "J'ai mal à la tête.",
-    "audio": "/audio/0218/92_head.m4a"
+    "front": "そう、よかった。",
+    "back": "Tu as dit oui ?　Tant mieux.",
+    "example": "You said Yes?　That's good.",
+    "audio": "audio/0132/02_cliche.m4a"
   }
 ]
