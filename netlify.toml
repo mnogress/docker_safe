@@ -6,7 +6,6 @@
   RUBY_VERSION = "3.2.2"
   BUNDLE_PATH = "vendor/bundle"
 
-[[headers]]
-  for = "/flashcards-swm/*"
-  [headers.values]
-    Basic-Auth = "n779223:edklsdd45"
+[[edge_functions]]
+  path = "/flashcards-swm/*"
+  function = "basic-auth"
