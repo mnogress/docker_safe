@@ -1,6 +1,20 @@
 let cards = [];
 let index = 0;
 let showingFront = true;
+let startX = 0;
+let endX = 0;
+
+const cardElement = document.getElementById('card');
+
+cardElement.addEventListener('touchstart', (e) => {
+  startX = e.changedTouches[0].screenX;
+});
+
+cardElement.addEventListener('touchend', (e) => {
+  endX = e.changedTouches[0].screenX;
+  handleSwipe();
+});
+
 
 fetch('cards.json')
   .then(res => res.json())
@@ -8,6 +22,27 @@ fetch('cards.json')
     cards = data;
     showCard();
   });
+
+function handleSwipe() {
+  const diff = endX - startX;
+
+  // 右スワイプ（裏面へ）
+  if (diff > 50) {
+    if (showingFront) {
+      showingFront = false;
+      showCard();
+    }
+  }
+
+  // 左スワイプ（表面へ）
+  if (diff < -50) {
+    if (!showingFront) {
+      showingFront = true;
+      showCard();
+    }
+  }
+}
+
 
 function showCard() {
   const card = cards[index];
@@ -39,12 +74,6 @@ function showCard() {
 
 
 
-
-// カードをタップすると裏返る
-document.getElementById('card').addEventListener('click', () => {
-  showingFront = !showingFront;
-  showCard();
-});
 
 // Next ボタンで次のカードへ
 document.getElementById('next').addEventListener('click', () => {
