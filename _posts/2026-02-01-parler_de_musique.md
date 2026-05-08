@@ -190,7 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
     <summary><span class="petit">どうぞ、どうぞお先に</span></summary>
 <div class="chat-container">
 <div class="speech-bubble left-align bottom">
-<span class="bleu">allez-y</span><br>
+<span class="bleu">Allez-y</span><br>
 <span class="green">アレジィ</span><br>
 「どうぞ」「どうぞお先に」<br>
 <span class="gold">go ahead.</span><br>

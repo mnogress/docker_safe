@@ -19,19 +19,19 @@
   },
   {
     "front": "やあ、調子どう？",
-    "back": "Salut, ça va ?",
+    "back": "Salut, quoi de neuf?",
     "example": "",
     "audio": "/audio/0132/04_cliche.m4a"
   },
   {
     "front": "お元気ですか？",
-    "back": "Vous allez bien ?",
+    "back": "Comment vas-tu ?",
     "example": "",
     "audio": "/audio/0132/05_cliche.m4a"
   },
   {
     "front": "どうぞ、どうぞお先に",
-    "back": "Après vous.",
+    "back": "Allez-y",
     "example": "",
     "audio": "/audio/0132/06_cliche.m4a"
   },
