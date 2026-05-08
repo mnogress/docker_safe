@@ -104,13 +104,24 @@ function showCard() {
   } else {
 // 裏面：フランス語 → カタカナ → 例文 → 音声ボタン
 cardElement.innerHTML = `
-  <div style="font-size:1.6rem;">${card.back}</div>
+  <div style="font-size:1.6rem; text-align:center;">
+    ${card.back}
+  </div>
 
-  <div style="margin-top:6px; font-size:1.2rem; color:#666;">
+  <div style="
+    margin-top:8px;
+    padding:6px 0;
+    font-size:1.1rem;
+    color:#557;
+    text-align:center;
+    font-family: 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif;
+    border-top:1px solid #ddd;
+    border-bottom:1px solid #ddd;
+  ">
     ${card.kana || ""}
   </div>
 
-  <div style="margin-top:10px; font-size:0.9rem;">
+  <div style="margin-top:12px; font-size:0.9rem; text-align:center;">
     ${card.example || ""}
   </div>
 
@@ -118,6 +129,7 @@ cardElement.innerHTML = `
     🔊 音声を再生
   </button>
 `;
+
 
 
     // 音声ボタン
