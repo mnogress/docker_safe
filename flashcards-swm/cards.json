@@ -2,144 +2,167 @@
   {
     "front": "その通り",
     "back": "C'est vrai.",
+    "kana": "セ・ヴレ",
     "example": "",
     "audio": "/audio/0132/01_cliche.m4a"
   },
   {
     "front": "そう、よかった。",
     "back": "Tu as dit oui ? Tant mieux.",
+    "kana": "テュ・ア・ディ・ウィ？　タン・ミュー",
     "example": "",
     "audio": "/audio/0132/02_cliche.m4a"
   },
   {
     "front": "それは違います。",
     "back": "Ce n'est pas correct.",
+    "kana": "スネパ・コレクト",
     "example": "",
     "audio": "/audio/0132/03_cliche.m4a"
   },
   {
     "front": "やあ、調子どう？",
     "back": "Salut, quoi de neuf?",
+    "kana": "サルー コワ・ドゥ・ナフ？",
     "example": "",
     "audio": "/audio/0132/04_cliche.m4a"
   },
   {
     "front": "お元気ですか？",
     "back": "Comment vas-tu ?",
+    "kana": "コモ・ヴァ・テュ？",
     "example": "",
     "audio": "/audio/0132/05_cliche.m4a"
   },
   {
     "front": "どうぞ、どうぞお先に",
     "back": "Allez-y",
+    "kana": "アレジィ",
     "example": "",
     "audio": "/audio/0132/06_cliche.m4a"
   },
   {
     "front": "何の話ですか？",
     "back": "De quoi parles‑vous ?",
+    "kana": "ドゥコア・パルレ・ヴ？",
     "example": "",
     "audio": "/audio/0132/07_cliche.m4a"
   },
   {
     "front": "いつでも電話してね、いい？",
     "back": "Appelle-moi quand tu veux, d'accord ?",
+    "kana": "アペル・モァ・カンテュ・ヴゥ、ダコール？",
     "example": "",
     "audio": "/audio/0132/08_cliche.m4a"
   },
   {
     "front": "会いたい時に電話しますね",
     "back": "Je t'appellerai quand je veux te voir.",
+    "kana": "ジュ・タペル・カン・ジュ・ヴゥ",
     "example": "",
     "audio": "/audio/0132/09_cliche.m4a"
   },
   {
     "front": "またすぐにお会いしましょう！",
     "back": "À très vite!",
-    "example": "",
+    "example": "ア・トレ・ヴィッㇳ！",
     "audio": "/audio/0132/0a_cliche.m4a"
   },
   {
     "front": "またすぐ会いましょう。",
     "back": "On se voit bientôt.",
+    "kana": "オン・ス・ヴォワ・ビエントゥト",
     "example": "",
     "audio": "/audio/0132/0b_cliche.m4a"
   },
   {
     "front": "じゃあね！",
     "back": "À plus trad!",
+    "kana": "ア・プル・タール！",
     "example": "",
     "audio": "/audio/0132/0c_cliche.m4a"
   },
   {
     "front": "それが見えますか？",
     "back": "Est-ce que vous le voyez?",
+    "kana": "エスク・ヴ・ル・ヴォワイエ？",
     "example": "",
     "audio": "/audio/0132/0d_cliche.m4a"
   },
   {
     "front": "問題ないです。",
     "back": "Pas de souci.",
+    "kana": "パ・ドゥ・スシ",
     "example": "",
     "audio": "/audio/0132/0e_cliche.m4a"
   },
   {
     "front": "君を誇りに思うよ。",
     "back": "Je suis fier de toi.",
+    "kana": "ジュ・スイ・フィエール・ドゥ・トワ",
     "example": "",
     "audio": "/audio/0132/0f_cliche.m4a"
   },
   {
     "front": "あなたは恥をかいた。",
     "back": "Tu es honteux.",
+    "kana": "テュ・エ・ オントゥー",
     "example": "",
     "audio": "/audio/0132/0g_cliche.m4a"
   },
   {
     "front": "私は忙しいです。",
     "back": "Je suis occupé.",
+    "kana": "ジュ・スイゾキュペ",
     "example": "",
     "audio": "/audio/0132/0h_cliche.m4a"
   },
   {
     "front": "それは理にかなっている。",
     "back": "Ça a du sens.",
+    "kana": "サ・ア・ドュ・サーンス",
     "example": "",
     "audio": "/audio/0132/0i_cliche.m4a"
   },
   {
     "front": "その家は売りに出されています。",
     "back": "La maison est à vendre.",
+    "kana": "ラ・メゾン・エ・ア・ヴァーンドル",
     "example": "",
     "audio": "/audio/0132/0j_cliche.m4a"
   },
   {
     "front": "どうしたの？",
     "back": "Que se passe-t-il ?",
+    "kana": "ケス・パスティル？",
     "example": "",
     "audio": "/audio/0132/0k_cliche.m4a"
   },
   {
     "front": "急いで！",
     "back": "Dépêche‑vous !",
+    "kana": "デペシェ・ヴ！",
     "example": "",
     "audio": "/audio/0132/0l_cliche.m4a"
   },
   {
     "front": "わかりましたか？",
     "back": "C'est clair?",
+    "kana": "セ・クレール？",
     "example": "",
     "audio": "/audio/0132/0m_cliche.m4a"
   },
   {
     "front": "私は最善を尽くしています。",
     "back": "Je fais de mon mieux.",
+    "kana": "ジュ・フェ・ドゥ・モン・ミュー",
     "example": "",
     "audio": "/audio/0132/on_cliche.m4a"
   },
   {
     "front": "私は途方に暮れてます。",
     "back": "Je me sens perdu.",
+    "kana": "ジュ・ム・サンース・ペルドゥ",
     "example": "",
     "audio": "/audio/0132/oo_cliche.m4a"
   }

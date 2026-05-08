@@ -102,14 +102,23 @@ function showCard() {
       <div>${card.front}</div>
     `;
   } else {
-    // 裏面（音声ボタン付き）
-    cardElement.innerHTML = `
-      <div>${card.back}</div>
-      <div style="margin-top:10px; font-size:0.9em;">${card.example || ""}</div>
-      <button id="play-audio" style="margin-top:15px; padding:8px 16px; font-size:1em;">
-        🔊 音声を再生
-      </button>
-    `;
+// 裏面：フランス語 → カタカナ → 例文 → 音声ボタン
+cardElement.innerHTML = `
+  <div style="font-size:1.6rem;">${card.back}</div>
+
+  <div style="margin-top:6px; font-size:1.2rem; color:#666;">
+    ${card.kana || ""}
+  </div>
+
+  <div style="margin-top:10px; font-size:0.9rem;">
+    ${card.example || ""}
+  </div>
+
+  <button id="play-audio" style="margin-top:15px; padding:8px 16px; font-size:1em;">
+    🔊 音声を再生
+  </button>
+`;
+
 
     // 音声ボタン
     document.getElementById('play-audio').addEventListener('click', () => {
