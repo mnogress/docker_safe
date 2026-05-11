@@ -22,8 +22,8 @@ title: "Flashcards SWM"
 </footer>
 
 <script src="app.js"></script>
-  <style>
-    body { font-family: sans-serif; text-align: center; margin: 40px; }
+ <style>
+    body { font-family: sans-serif; text-align: center; margin: 0; }
     .card { border: 2px solid #333; padding: 40px; border-radius: 10px; font-size: 1.5em; }
     button { margin-top: 20px; padding: 10px 20px; font-size: 1em; }
     .card-animate {
