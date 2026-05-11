@@ -88,7 +88,7 @@ title: "Flashcards SWM"
   color: #444;
   display: block !important;
   position: relative;
-  z-index: 10;
+  z-index: 1000;
   margin-top: 40px !important;
   margin-bottom: 120px !important; /* フッターと重ならない */
 }
