@@ -4,7 +4,7 @@ title: "Flashcards SWM"
 ---
 
 <div id="card" class="card-animate">Loading...</div>
-<button id="next">Next</button>
+<button id="next">Next!</button>
 
 <div id="flashcards-guide">
   <h3>📘 操作方法</h3>
