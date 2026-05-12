@@ -163,7 +163,6 @@ document.getElementById('next').addEventListener('click', nextCard);
 function shuffleCards() {
   cards = shuffleArray(cards);
 }
-
 document.getElementById("shuffleBtn").addEventListener("click", () => {
   shuffleCards();
   index = 0;
