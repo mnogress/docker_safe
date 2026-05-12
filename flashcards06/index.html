@@ -1,0 +1,148 @@
+---
+layout: none
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards 06</title>
+
+  <link rel="manifest" href="manifest.json">
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('service-worker.js');
+    }
+  </script>
+
+  <style>
+    /* ← ここにあなたの CSS をそのまま貼る */
+    /* ← ここに今の CSS を全部貼る（そのままでOK） */
+    body { font-family: sans-serif; text-align: center; margin: 0; }
+    .card { border: 2px solid #333; padding: 40px; border-radius: 10px; font-size: 1.5em; }
+    button { margin-top: 20px; padding: 10px 20px; font-size: 1em; }
+    .card-animate {
+  transition: transform 0.25s ease-out;
+}
+.swipe-left {
+  transform: translateX(-80px);
+}
+.swipe-right {
+  transform: translateX(80px);
+}
+.swipe-up {
+  transform: translateY(-80px);
+}
+.swipe-down {
+  transform: translateY(80px);
+}
+#card {
+  border: 2px solid #a9c2ee;
+  border-radius: 12px;
+  padding: 40px;
+  font-size: 1.6rem;
+  background: #d5dfef;
+  width: 80%;
+  margin: 0 auto;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+#flash-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f8f8f8;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #333;
+  z-index: 999;
+}
+
+#flash-footer a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+#flash-footer a:hover {
+  text-decoration: underline;
+}
+#flashcards-guide {
+  margin: 40px auto 20px;
+  padding: 18px 20px;
+  max-width: 420px;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+  display: block !important;
+  position: relative;
+  z-index: 1000;
+  margin-top: 40px !important;
+  margin-bottom: 120px !important; /* フッターと重ならない */
+}
+
+#flashcards-guide h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #333;
+}
+
+#flashcards-guide ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+#flashcards-guide li {
+  margin-bottom: 6px;
+}
+.shuffle-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.shuffle-button:hover {
+  background-color: #45a049;
+}
+
+  </style>
+</head>
+
+<body>
+  <div id="card" class="card-animate">Loading...</div>
+  <button id="next">Next!</button>
+
+  <div id="flashcards-guide">
+    <h3>📘 操作方法</h3>
+    <ul>
+      <li><strong>左右スワイプ：</strong>カードの表裏を切り替えます</li>
+      <li><strong>上スワイプ：</strong>次のカードへ進みます</li>
+      <li><strong>下スワイプ：</strong>前のカードに戻ります</li>
+      <li><strong>🔊 音声ボタン：</strong>フランス語の音声を再生します</li>
+      <li><strong>Shuffle：</strong>カードの順番をランダムに並べ替えます</li>
+    </ul>
+  </div>
+
+  <footer id="flash-footer">
+     <button id="shuffleBtn" class="shuffle-button">Shuffle</button>
+    © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
+  </footer>
+
+<script src="app.js?v=3"></script>
+</body>
+</html>
