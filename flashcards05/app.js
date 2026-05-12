@@ -39,6 +39,15 @@ function shuffleArray(array) {
   }
   return array;
 }
+function shuffleCards() {
+  cards = shuffleArray(cards);
+}
+
+document.getElementById("shuffleBtn").addEventListener("click", () => {
+  shuffleCards();
+  index = 0;
+  showCard();
+});
 
 // スワイプ処理
 function handleSwipe() {
@@ -159,8 +168,3 @@ function prevCard() {
 // Next ボタン（任意）
 document.getElementById('next').addEventListener('click', nextCard);
 
-document.getElementById("shuffleBtn").addEventListener("click", () => {
-  shuffleCards();
-  index = 0;
-  showCard();
-});
