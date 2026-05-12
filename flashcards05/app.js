@@ -163,8 +163,10 @@ document.getElementById('next').addEventListener('click', nextCard);
 function shuffleCards() {
   cards = shuffleArray(cards);
 }
+
 document.getElementById("shuffleBtn").addEventListener("click", () => {
-  shuffleCards();
-  index = 0;
-  showCard();
+  shuffleCards();   // カード配列をシャッフル
+  index = 0;        // 先頭カードに移動
+  showCard();       // 新しいカードを表示
 });
+
