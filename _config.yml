@@ -138,7 +138,7 @@ include:
   - .htaccess
   - _pages
   - français
-  - flashcards05
+  - _flashcards05
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
