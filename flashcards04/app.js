@@ -1,3 +1,4 @@
+console.log('app.js loaded');
 let cards = [];
 let index = 0;
 let showingFront = true;
