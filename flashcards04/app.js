@@ -45,11 +45,11 @@ function handleSwipe() {
   const diffX = endX - startX;
   const diffY = endY - startY;
 
-  // 横スワイプ（カード移動）
-  if (Math.abs(diffX) > Math.abs(diffY)) {
+  // まず横スワイプを優先判定する
+  if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY)) {
 
     // 右スワイプ → 前のカード
-    if (diffX > 50) {
+    if (diffX > 0) {
       cardElement.classList.add('swipe-right');
       setTimeout(() => {
         prevCard();
@@ -58,7 +58,7 @@ function handleSwipe() {
     }
 
     // 左スワイプ → 次のカード
-    if (diffX < -50) {
+    if (diffX < 0) {
       cardElement.classList.add('swipe-left');
       setTimeout(() => {
         nextCard();
@@ -66,11 +66,14 @@ function handleSwipe() {
       }, 200);
     }
 
-  } else {
-    // 縦スワイプ（表裏）
+    return; // ← 横スワイプが成立したらここで終了
+  }
+
+  // 次に縦スワイプを判定する
+  if (Math.abs(diffY) > 40) {
 
     // 上スワイプ → 裏面へ
-    if (diffY < -50 && showingFront) {
+    if (diffY < 0 && showingFront) {
       cardElement.classList.add('swipe-up');
       setTimeout(() => {
         showingFront = false;
@@ -80,7 +83,7 @@ function handleSwipe() {
     }
 
     // 下スワイプ → 表面へ
-    if (diffY > 50 && !showingFront) {
+    if (diffY > 0 && !showingFront) {
       cardElement.classList.add('swipe-down');
       setTimeout(() => {
         showingFront = true;
