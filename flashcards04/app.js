@@ -45,32 +45,8 @@ function handleSwipe() {
   const diffX = endX - startX;
   const diffY = endY - startY;
 
-  // 横スワイプ（カード移動）
-  if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY)) {
-
-    // 右スワイプ → 前のカード
-    if (diffX > 0) {
-      cardElement.classList.add('swipe-right');
-      setTimeout(() => {
-        prevCard();
-        cardElement.classList.remove('swipe-right');
-      }, 200);
-    }
-
-    // 左スワイプ → 次のカード
-    if (diffX < 0) {
-      cardElement.classList.add('swipe-left');
-      setTimeout(() => {
-        nextCard();
-        cardElement.classList.remove('swipe-left');
-      }, 200);
-    }
-
-    return; // 横スワイプが成立したら終了
-  }
-
-  // 縦スワイプ（表裏）
-  if (Math.abs(diffY) > 40) {
+  // ① まず縦スワイプを優先判定する（上下の誤判定を防ぐ）
+  if (Math.abs(diffY) > 50) {
 
     // 上スワイプ → 裏面
     if (diffY < 0 && showingFront) {
@@ -91,8 +67,33 @@ function handleSwipe() {
         cardElement.classList.remove('swipe-down');
       }, 200);
     }
+
+    return; // ← 縦スワイプが成立したら終了
+  }
+
+  // ② 横スワイプ（カード移動）
+  if (Math.abs(diffX) > 40) {
+
+    // 右スワイプ → 前のカード
+    if (diffX > 0) {
+      cardElement.classList.add('swipe-right');
+      setTimeout(() => {
+        prevCard();
+        cardElement.classList.remove('swipe-right');
+      }, 200);
+    }
+
+    // 左スワイプ → 次のカード
+    if (diffX < 0) {
+      cardElement.classList.add('swipe-left');
+      setTimeout(() => {
+        nextCard();
+        cardElement.classList.remove('swipe-left');
+      }, 200);
+    }
   }
 }
+
 
 // カード表示
 function showCard() {
