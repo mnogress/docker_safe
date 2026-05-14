@@ -40,13 +40,12 @@ function shuffleArray(array) {
   return array;
 }
 
-// ★★★ 正しい handleSwipe（これだけ残す） ★★★
 function handleSwipe() {
   const diffX = endX - startX;
   const diffY = endY - startY;
 
-  // ① 縦スワイプを優先（閾値を下げる & diffX を許容）
-  if (Math.abs(diffY) > 30 && Math.abs(diffY) > Math.abs(diffX) * 0.7) {
+  // ① 縦スワイプを最優先（かなり緩める）
+  if (Math.abs(diffY) > 20 && Math.abs(diffY) > Math.abs(diffX) * 0.5) {
 
     // 上スワイプ → 裏面
     if (diffY < 0 && showingFront) {
@@ -72,7 +71,7 @@ function handleSwipe() {
   }
 
   // ② 横スワイプ（カード移動）
-  if (Math.abs(diffX) > 30) {
+  if (Math.abs(diffX) > 20) {
 
     // 右スワイプ → 前のカード
     if (diffX > 0) {
