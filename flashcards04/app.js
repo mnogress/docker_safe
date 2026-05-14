@@ -93,52 +93,59 @@ function handleSwipe() {
 
 
 // カード表示
-function showCard() {
-  const card = cards[index];
+function handleSwipe() {
+  const diffX = endX - startX;
+  const diffY = endY - startY;
 
-  if (showingFront) {
-    // 表面
-    cardElement.innerHTML = `
-      <div>${card.front}</div>
-    `;
-  } else {
-    // 裏面
-    cardElement.innerHTML = `
-      <div style="font-size:1.6rem; text-align:center;">
-        ${card.back}
-      </div>
+  // まず横スワイプを優先判定する
+  if (Math.abs(diffX) > 40 && Math.abs(diffX) > Math.abs(diffY)) {
 
-      <div style="
-        margin-top:8px;
-        padding:6px 0;
-        font-size:1.1rem;
-        color:#557;
-        text-align:center;
-        font-family: 'Hiragino Maru Gothic ProN', 'Yu Gothic', sans-serif;
-        border-top:1px solid #ddd;
-        border-bottom:1px solid #ddd;
-      ">
-        ${card.kana || ""}
-      </div>
+    // 右スワイプ → 前のカード
+    if (diffX > 0) {
+      cardElement.classList.add('swipe-right');
+      setTimeout(() => {
+        prevCard();
+        cardElement.classList.remove('swipe-right');
+      }, 200);
+    }
 
-      <div style="margin-top:12px; font-size:0.9rem; text-align:center;">
-        ${card.example || ""}
-      </div>
+    // 左スワイプ → 次のカード
+    if (diffX < 0) {
+      cardElement.classList.add('swipe-left');
+      setTimeout(() => {
+        nextCard();
+        cardElement.classList.remove('swipe-left');
+      }, 200);
+    }
 
-      <button id="play-audio" style="margin-top:15px; padding:8px 16px; font-size:1em;">
-        🔊 音声を再生
-      </button>
-    `;
+    return; // ← 横スワイプが成立したらここで終了
+  }
 
-    // 音声ボタン
-    document.getElementById('play-audio').addEventListener('click', () => {
-      if (card.audio) {
-        const audio = new Audio(card.audio);
-        audio.play();
-      }
-    });
+  // 次に縦スワイプを判定する
+  if (Math.abs(diffY) > 40) {
+
+    // 上スワイプ → 裏面へ
+    if (diffY < 0 && showingFront) {
+      cardElement.classList.add('swipe-up');
+      setTimeout(() => {
+        showingFront = false;
+        showCard();
+        cardElement.classList.remove('swipe-up');
+      }, 200);
+    }
+
+    // 下スワイプ → 表面へ
+    if (diffY > 0 && !showingFront) {
+      cardElement.classList.add('swipe-down');
+      setTimeout(() => {
+        showingFront = true;
+        showCard();
+        cardElement.classList.remove('swipe-down');
+      }, 200);
+    }
   }
 }
+
 
 // 次のカード
 function nextCard() {
