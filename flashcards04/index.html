@@ -107,13 +107,30 @@
 .shuffle-button:hover {
   background-color: #45a049;
 }
+.flip-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  transition: transform 0.15s ease;
+}
+
+.flip-btn:active {
+  transform: scale(0.92);
+}
+
 
   </style>
 </head>
 
 <body>
   <div id="card" class="card-animate">Loading...</div>
-  <button id="turnBtn">裏返す</button>
+<button id="turnBtn" class="flip-btn">🔄 裏返す</button>
 
 
 <div id="flashcards-guide">
@@ -132,6 +149,6 @@
     © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
   </footer>
 
-<script src="app.js?v=23"></script>
+<script src="app.js?v=24"></script>
 </body>
 </html>
