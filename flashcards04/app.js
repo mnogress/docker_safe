@@ -43,10 +43,8 @@ function shuffleArray(array) {
 function handleSwipe() {
   const diffX = endX - startX;
 
-  // 横スワイプのみ判定
   if (Math.abs(diffX) > 25) {
 
-    // 右スワイプ → 前のカード
     if (diffX > 0) {
       cardElement.classList.add('swipe-right');
       setTimeout(() => {
@@ -55,7 +53,6 @@ function handleSwipe() {
       }, 200);
     }
 
-    // 左スワイプ → 次のカード
     if (diffX < 0) {
       cardElement.classList.add('swipe-left');
       setTimeout(() => {
@@ -135,6 +132,9 @@ function prevCard() {
 
 // turn-over ボタン
 
+document.getElementById('next').addEventListener('click', nextCard);
+
+
 document.getElementById("turnBtn").addEventListener("click", () => {
   showingFront = !showingFront;
   showCard();
@@ -152,3 +152,4 @@ document.getElementById("shuffleBtn").addEventListener("click", () => {
   showingFront = true;
   showCard();
 });
+
