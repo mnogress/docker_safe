@@ -45,10 +45,6 @@ function handleSwipe() {
   const diffX = endX - startX;
   const diffY = endY - startY;
 
-function handleSwipe() {
-  const diffX = endX - startX;
-  const diffY = endY - startY;
-
   // ① 縦スワイプを優先（閾値を下げる & diffX を許容）
   if (Math.abs(diffY) > 30 && Math.abs(diffY) > Math.abs(diffX) * 0.7) {
 
@@ -97,7 +93,7 @@ function handleSwipe() {
     }
   }
 }
-}
+
 
 // カード表示
 function showCard() {
