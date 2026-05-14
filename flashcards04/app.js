@@ -42,33 +42,29 @@ function shuffleArray(array) {
 
 function handleSwipe() {
   const diffX = endX - startX;
-  const diffY = endY - startY;
 
-  // ① 縦スワイプを最優先（かなり緩める）
-  if (Math.abs(diffY) > 20 && Math.abs(diffY) > Math.abs(diffX) * 0.5) {
+  // 横スワイプのみ判定
+  if (Math.abs(diffX) > 25) {
 
-    // 上スワイプ → 裏面
-    if (diffY < 0 && showingFront) {
-      cardElement.classList.add('swipe-up');
+    // 右スワイプ → 前のカード
+    if (diffX > 0) {
+      cardElement.classList.add('swipe-right');
       setTimeout(() => {
-        showingFront = false;
-        showCard();
-        cardElement.classList.remove('swipe-up');
+        prevCard();
+        cardElement.classList.remove('swipe-right');
       }, 200);
     }
 
-    // 下スワイプ → 表面
-    if (diffY > 0 && !showingFront) {
-      cardElement.classList.add('swipe-down');
+    // 左スワイプ → 次のカード
+    if (diffX < 0) {
+      cardElement.classList.add('swipe-left');
       setTimeout(() => {
-        showingFront = true;
-        showCard();
-        cardElement.classList.remove('swipe-down');
+        nextCard();
+        cardElement.classList.remove('swipe-left');
       }, 200);
     }
-
-    return;
   }
+}
 
   // ② 横スワイプ（カード移動）
   if (Math.abs(diffX) > 20) {
@@ -91,7 +87,7 @@ function handleSwipe() {
       }, 200);
     }
   }
-}
+
 
 
 // カード表示
@@ -137,8 +133,13 @@ function prevCard() {
   showCard();
 }
 
-// Next ボタン
-document.getElementById('next').addEventListener('click', nextCard);
+// turn-over ボタン
+
+document.getElementById("turnBtn").addEventListener("click", () => {
+  showingFront = !showingFront;
+  showCard();
+});
+
 
 // シャッフルボタン
 function shuffleCards() {
