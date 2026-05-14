@@ -97,7 +97,7 @@ function handleSwipe() {
     }
   }
 }
-
+}
 
 // カード表示
 function showCard() {
