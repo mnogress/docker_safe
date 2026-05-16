@@ -122,11 +122,17 @@
 
 .flip-btn:active {
   transform: scale(0.92);
+.ad-thin {
+  width: 100%;
+  max-width: 420px;   /* スマホに最適 */
+  height: 60px;       /* ★ 高さを薄くするポイント */
+  margin: 10px auto;
 }
-.ad-container {
-  max-width: 320px;   /* ← スマホ向けに最適な幅 */
-  margin: 10px auto;  /* 中央寄せ */
+
+.ad-thin ins.adsbygoogle {
+  height: 60px !important;   /* ★ 強制的に薄くする */
 }
+
 
 
   </style>
@@ -148,7 +154,7 @@
 
   <footer id="flash-footer">
      <button id="shuffleBtn" class="shuffle-button">Shuffle</button>
-    <div class="ad-container">
+    <div class="class="ad-thin">
       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8046608827018069"
           crossorigin="anonymous"></script>
       <!-- flashcards -->
@@ -165,6 +171,6 @@
     © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
   </footer>
 
-<script src="app.js?v=26"></script>
+<script src="app.js?v=27"></script>
 </body>
 </html>
