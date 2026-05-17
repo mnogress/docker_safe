@@ -1,224 +1,123 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Flashcards 04</title>
-  <style>
-    /* ← ここにあなたの CSS をそのまま貼る */
-    /* ← ここに今の CSS を全部貼る（そのままでOK） */
-    body { font-family: sans-serif; text-align: center; margin: 0; }
-    .card { border: 2px solid #333; padding: 40px; border-radius: 10px; font-size: 1.5em; }
-    button { margin-top: 20px; padding: 10px 20px; font-size: 1em; }
-    .card-animate {
-  transition: transform 0.25s ease-out;
-}
-.swipe-left {
-  transform: translateX(-80px);
-}
-.swipe-right {
-  transform: translateX(80px);
-}
-.swipe-up {
-  transform: translateY(-80px);
-}
-.swipe-down {
-  transform: translateY(80px);
-}
+let cards = [];
+let index = 0;
 
-#card {
-  position: relative;
-  perspective: 1000px;
-  width: 80%;
-  margin: 0 auto;
-  height: 260px;          /* ★ 高さを固定（重要） */
-  border: 2px solid #a9c2ee;
-  border-radius: 12px;
-  background: #d5dfef;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-}
+// カードを表示（常に表の内容を描画）
+function showCard() {
+  const card = cards[index];
 
-.card-inner {
-  width: 100%;
-  height: 100%;
-  transition: transform 0.6s, box-shadow 0.6s ease;
-  transform-style: preserve-3d;
-  position: relative;
-  box-shadow: -12px 6px 20px rgba(0,0,0,0.20);
-  transform: rotateY(0deg);
-}
+  const front = document.querySelector('.card-front');
+  const back = document.querySelector('.card-back');
 
-.card-inner.is-flipped {
-  transform: rotateY(180deg);
-  box-shadow: 12px 6px 20px rgba(0,0,0,0.28);
-}
+  // 表面
+  front.innerHTML = `<div>${card.front}</div>`;
 
-
-
-.card-inner.float {
-  transform: translateY(-18px) scale(1.06);
-  box-shadow: 0 18px 28px rgba(0,0,0,0.30);
-}
-
-
-
-
-
-.card-front, .card-back {
-  font-size: 1.6rem;   /* ★ 元の大きさに戻す */
-  line-height: 1.6;    /* 読みやすさ向上 */
-  position: absolute;
-  width: 100%;
-  height: 100%;           /* ★ front/back の高さを揃える */
-  padding: 20px;          /* ★ 元の40pxだと上下が狭くなるので調整 */
-  box-sizing: border-box;
-  backface-visibility: hidden;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.card-back {
-  transform: rotateY(180deg);
-}
-
-
-#flash-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: #f8f8f8;
-  border-top: 1px solid #ccc;
-  text-align: center;
-  padding: 10px 0;
-  font-size: 0.9rem;
-  color: #333;
-  z-index: 999;
-}
-
-#flash-footer a {
-  color: #007acc;
-  text-decoration: none;
-}
-
-#flash-footer a:hover {
-  text-decoration: underline;
-}
-#flashcards-guide {
-  margin: 40px auto 20px;
-  padding: 18px 20px;
-  max-width: 420px;
-  background: #fafafa;
-  border: 1px solid #e5e5e5;
-  border-radius: 10px;
-  font-size: 0.95rem;
-  line-height: 1.6;
-  color: #444;
-  display: block !important;
-  position: relative;
-  z-index: 1000;
-  margin-top: 40px !important;
-  margin-bottom: 120px !important; /* フッターと重ならない */
-}
-
-#flashcards-guide h3 {
-  margin-top: 0;
-  font-size: 1.1rem;
-  text-align: center;
-  color: #333;
-}
-
-#flashcards-guide ul {
-  padding-left: 20px;
-  margin: 0;
-}
-
-#flashcards-guide li {
-  margin-bottom: 6px;
-}
-.shuffle-button {
-  padding: 10px 20px;
-  font-size: 18px;
-  border-radius: 8px;
-  border: none;
-  background-color: #4CAF50;
-  color: white;
-  cursor: pointer;
-  margin-top: 10px;
-}
-.shuffle-button:hover {
-  background-color: #45a049;
-}
-.flip-btn {
-  margin-top: 20px;
-  padding: 12px 24px;
-  font-size: 1.1rem;
-  border-radius: 30px;
-  border: none;
-  background: #4a90e2;
-  color: white;
-  cursor: pointer;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
-  transition: transform 0.15s ease;
-}
-
-.flip-btn:active {
-  transform: scale(0.92);
-.ad-thin {
-  width: 100%;
-  max-width: 420px;   /* スマホに最適 */
-  height: 60px;       /* ★ 高さを薄くするポイント */
-  margin: 10px auto;
-}
-}
-
-.ad-thin ins.adsbygoogle {
-  height: 60px !important;   /* ★ 強制的に薄くする */
-}
-
-
-
-  </style>
-</head>
-
-<body>
-    <div id="card" class="card-animate">
-      <div class="card-inner">
-        <div class="card-front"></div>
-        <div class="card-back"></div>
-      </div>
+  // 裏面
+  back.innerHTML = `
+    <div style="font-size:1.6rem; text-align:center;">${card.back}</div>
+    <div style="margin-top:8px; padding:6px 0; font-size:1.1rem; color:#557;
+      text-align:center; border-top:1px solid #ddd; border-bottom:1px solid #ddd;">
+      ${card.kana || ""}
     </div>
-  <button id="turnBtn" class="flip-btn">🔄 裏返す</button>
-
-
-<div id="flashcards-guide">
-  <h3>📘 操作方法</h3>
-  <ul>
-    <li><strong>左右スワイプ：</strong>カードを移動します（左＝次、右＝前）</li>
-    <li><strong>🔊 音声ボタン：</strong>フランス語の音声を再生します</li>
-    <li><strong>Shuffle：</strong>カードの順番をランダムに並べ替えます</li>
-  </ul>
-</div>
-
-  <footer id="flash-footer">
-     <button id="shuffleBtn" class="shuffle-button">Shuffle</button>
-    <div class="class="ad-thin">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8046608827018069"
-        crossorigin="anonymous"></script>
-    <!-- flashcards2 -->
-    <ins class="adsbygoogle"
-        style="display:inline-block;width:320px;height:50px"
-        data-ad-client="ca-pub-8046608827018069"
-        data-ad-slot="5251654808"></ins>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    <div style="margin-top:12px; font-size:0.9rem; text-align:center;">
+      ${card.example || ""}
     </div>
-    © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
-  </footer>
+    ${card.audio ? `<button id="play-audio" style="margin-top:15px; padding:8px 16px;">🔊 音声を再生</button>` : ""}
+  `;
 
-<script src="app.js?v=40"></script>
-</body>
-</html>
+  if (card.audio) {
+    document.getElementById('play-audio').addEventListener('click', () => {
+      new Audio(card.audio).play();
+    });
+  }
+}
+
+// flip 状態を完全リセット（スワイプ・シャッフル時に必須）
+function resetFlip() {
+  const inner = document.querySelector('.card-inner');
+  inner.classList.remove('is-flipped');
+}
+
+// 次のカード
+function nextCard() {
+  index = (index + 1) % cards.length;
+  resetFlip();   // ★ flip を必ずリセット
+  showCard();    // ★ 表の内容を描画
+}
+
+// 前のカード
+function prevCard() {
+  index = (index - 1 + cards.length) % cards.length;
+  resetFlip();
+  showCard();
+}
+
+// シャッフル
+function shuffleCards() {
+  for (let i = cards.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [cards[i], cards[j]] = [cards[j], cards[i]];
+  }
+}
+
+document.getElementById("shuffleBtn").addEventListener("click", () => {
+  shuffleCards();
+  index = 0;
+  resetFlip();
+  showCard();
+});
+
+// 裏返すボタン
+document.getElementById("turnBtn").addEventListener("click", () => {
+  const inner = document.querySelector('.card-inner');
+
+  // 浮くアニメーション
+  inner.classList.add('float');
+  setTimeout(() => inner.classList.remove('float'), 250);
+
+  // 裏返す
+  inner.classList.toggle('is-flipped');
+});
+
+// スワイプ処理
+let startX = 0;
+let startY = 0;
+
+document.getElementById("card").addEventListener("touchstart", (e) => {
+  startX = e.touches[0].clientX;
+  startY = e.touches[0].clientY;
+});
+
+document.getElementById("card").addEventListener("touchend", (e) => {
+  const endX = e.changedTouches[0].clientX;
+  const endY = e.changedTouches[0].clientY;
+
+  const diffX = endX - startX;
+  const diffY = endY - startY;
+
+  const inner = document.querySelector('.card-inner');
+
+  // 浮くアニメーション
+  inner.classList.add('float');
+  setTimeout(() => inner.classList.remove('float'), 250);
+
+  // 上下スワイプ → 裏返す
+  if (Math.abs(diffY) > Math.abs(diffX) && Math.abs(diffY) > 40) {
+    inner.classList.toggle('is-flipped');
+    return;
+  }
+
+  // 左右スワイプ → カード移動
+  if (diffX > 40) {
+    prevCard();
+  } else if (diffX < -40) {
+    nextCard();
+  }
+});
+
+// JSON 読み込み
+fetch("cards.json")
+  .then(response => response.json())
+  .then(data => {
+    cards = data;
+    showCard();
+  });

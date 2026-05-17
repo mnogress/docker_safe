@@ -1,7 +1,7 @@
 let cards = [];
 let index = 0;
 
-// カードを表示
+// カードを表示（常に表の内容を描画）
 function showCard() {
   const card = cards[index];
 
@@ -31,7 +31,7 @@ function showCard() {
   }
 }
 
-// フリップ状態をリセット（スワイプ・シャッフル時に必須）
+// flip 状態を完全リセット（スワイプ・シャッフル時に必須）
 function resetFlip() {
   const inner = document.querySelector('.card-inner');
   inner.classList.remove('is-flipped');
@@ -40,8 +40,8 @@ function resetFlip() {
 // 次のカード
 function nextCard() {
   index = (index + 1) % cards.length;
-  resetFlip();
-  showCard();
+  resetFlip();   // ★ flip を必ずリセット
+  showCard();    // ★ 表の内容を描画
 }
 
 // 前のカード
