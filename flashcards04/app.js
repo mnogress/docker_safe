@@ -1,7 +1,7 @@
 let cards = [];
 let index = 0;
 
-// カード表示（常に表の内容を描画）
+// カードを表示（常に表の内容を描画）
 function showCard() {
   const card = cards[index];
 
@@ -71,6 +71,16 @@ document.getElementById("turnBtn").addEventListener("click", () => {
   setTimeout(() => inner.classList.remove('float'), 250);
 
   inner.classList.toggle('is-flipped');
+});
+
+// ← ボタン
+document.getElementById("prevBtn").addEventListener("click", () => {
+  prevCard();
+});
+
+// → ボタン
+document.getElementById("nextBtn").addEventListener("click", () => {
+  nextCard();
 });
 
 // スワイプ（左右のみ）
