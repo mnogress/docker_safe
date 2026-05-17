@@ -22,11 +22,13 @@ function showCard() {
     ${card.audio ? `<button id="play-audio" style="margin-top:15px; padding:8px 16px;">🔊 音声を再生</button>` : ""}
   `;
 
-  if (card.audio) {
-    document.getElementById('play-audio').addEventListener('click', () => {
-      new Audio(card.audio).play();
-    });
-  }
+if (card.audio) {
+  document.getElementById('play-audio').addEventListener('click', (event) => {
+    event.stopPropagation();   // ★ これが重要（裏返しを防ぐ）
+    new Audio(card.audio).play();
+  });
+}
+
 }
 
 // flip を完全リセット
