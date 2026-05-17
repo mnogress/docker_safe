@@ -107,19 +107,26 @@ function showCard() {
 }
 
 
-// 次のカード
 function nextCard() {
   index = (index + 1) % cards.length;
   showingFront = true;
+
+  const inner = document.querySelector('.card-inner');
+  inner.classList.remove('is-flipped');   // ★ flip をリセット
+
   showCard();
 }
 
-// 前のカード
 function prevCard() {
   index = (index - 1 + cards.length) % cards.length;
   showingFront = true;
+
+  const inner = document.querySelector('.card-inner');
+  inner.classList.remove('is-flipped');   // ★ flip をリセット
+
   showCard();
 }
+
 
 // turn-over ボタン
 document.getElementById("turnBtn").addEventListener("click", () => {
