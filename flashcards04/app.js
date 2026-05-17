@@ -109,23 +109,27 @@ function showCard() {
 
 function nextCard() {
   index = (index + 1) % cards.length;
-  showingFront = true;
 
   const inner = document.querySelector('.card-inner');
-  inner.classList.remove('is-flipped');   // ★ flip をリセット
+  inner.classList.remove('is-flipped');
+  inner.style.setProperty('--flip-angle', '0deg');  // ★ これが重要
 
+  showingFront = true;
   showCard();
 }
+
 
 function prevCard() {
   index = (index - 1 + cards.length) % cards.length;
-  showingFront = true;
 
   const inner = document.querySelector('.card-inner');
-  inner.classList.remove('is-flipped');   // ★ flip をリセット
+  inner.classList.remove('is-flipped');
+  inner.style.setProperty('--flip-angle', '0deg');  // ★ これが重要
 
+  showingFront = true;
   showCard();
 }
+
 
 
 // turn-over ボタン
@@ -153,6 +157,11 @@ function shuffleCards() {
 document.getElementById("shuffleBtn").addEventListener("click", () => {
   shuffleCards();
   index = 0;
+
+  const inner = document.querySelector('.card-inner');
+  inner.classList.remove('is-flipped');
+  inner.style.setProperty('--flip-angle', '0deg');  // ★ これが重要
+
   showingFront = true;
   showCard();
 });
