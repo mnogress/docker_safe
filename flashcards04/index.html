@@ -26,20 +26,41 @@
   transform: translateY(80px);
 }
 #card {
-  border: 2px solid #a9c2ee;
-  border-radius: 12px;
-  padding: 40px;
-  font-size: 1.6rem;
-  background: #d5dfef;
-  width: 80%;
-  margin: 0 auto;
-  min-height: 200px;
+  perspective: 1000px; /* ← 3D効果の奥行き */
+}
+
+.card-inner {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.card-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden; /* 裏面を隠す */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
+
+.card-front {
+  background: #d5dfef;
+}
+
+.card-back {
+  background: #d5dfef;
+  transform: rotateY(180deg);
+}
+
 #flash-footer {
   position: fixed;
   bottom: 0;
@@ -139,8 +160,13 @@
 </head>
 
 <body>
-  <div id="card" class="card-animate">Loading...</div>
-<button id="turnBtn" class="flip-btn">🔄 裏返す</button>
+    <div id="card" class="card-animate">
+      <div class="card-inner">
+        <div class="card-front"></div>
+        <div class="card-back"></div>
+      </div>
+    </div>
+  <button id="turnBtn" class="flip-btn">🔄 裏返す</button>
 
 
 <div id="flashcards-guide">
@@ -169,6 +195,6 @@
     © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
   </footer>
 
-<script src="app.js?v=28"></script>
+<script src="app.js?v=29"></script>
 </body>
 </html>
