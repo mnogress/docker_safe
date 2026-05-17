@@ -49,6 +49,12 @@
 .card-inner.is-flipped {
   transform: rotateY(180deg);
 }
+/* カードが浮くアニメーション */
+.card-inner.float {
+  transform: translateY(-8px) scale(1.02) rotateY(var(--flip-angle, 0deg));
+  transition: transform 0.25s ease;
+}
+
 
 .card-front, .card-back {
   font-size: 1.6rem;   /* ★ 元の大きさに戻す */
@@ -205,6 +211,6 @@
     © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
   </footer>
 
-<script src="app.js?v=33"></script>
+<script src="app.js?v=34"></script>
 </body>
 </html>

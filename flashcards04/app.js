@@ -123,6 +123,17 @@ function prevCard() {
 
 // turn-over ボタン
 document.getElementById("turnBtn").addEventListener("click", () => {
+  const inner = document.querySelector('.card-inner');
+
+  // 浮く
+  inner.classList.add('float');
+
+  // 200ms 後に元に戻す
+  setTimeout(() => {
+    inner.classList.remove('float');
+  }, 250);
+
+  // 裏返し処理
   showingFront = !showingFront;
   showCard();
 });
