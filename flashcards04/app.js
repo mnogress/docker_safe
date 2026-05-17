@@ -22,21 +22,19 @@ function showCard() {
     ${card.audio ? `<button id="play-audio" style="margin-top:15px; padding:8px 16px;">🔊 音声を再生</button>` : ""}
   `;
 
-if (card.audio) {
-  const btn = document.getElementById('play-audio');
+  if (card.audio) {
+    const btn = document.getElementById('play-audio');
 
-  // ★ すべてのイベント伝播を止める（スマホ対応）
-  ["click", "touchstart", "touchend"].forEach(ev => {
-    btn.addEventListener(ev, (event) => {
-      event.stopPropagation();
+    ["click", "touchstart", "touchend"].forEach(ev => {
+      btn.addEventListener(ev, (event) => {
+        event.stopPropagation();
+      });
     });
-  });
 
-  btn.addEventListener("click", () => {
-    new Audio(card.audio).play();
-  });
-}
-
+    btn.addEventListener("click", () => {
+      new Audio(card.audio).play();
+    });
+  }
 }
 
 // flip を完全リセット
@@ -93,25 +91,32 @@ document.getElementById("nextBtn").addEventListener("click", () => {
   nextCard();
 });
 
-// スワイプ（左右のみ）
+// ★★★ スワイプ（touchend を使わない → 二重発火ゼロ） ★★★
 let startX = 0;
+let moved = false;
 
-document.getElementById("card").addEventListener("touchstart", (e) => {
+const card = document.getElementById("card");
+
+card.addEventListener("touchstart", (e) => {
   startX = e.touches[0].clientX;
+  moved = false;
 });
 
-document.getElementById("card").addEventListener("touchend", (e) => {
-  const endX = e.changedTouches[0].clientX;
-  const diffX = endX - startX;
+card.addEventListener("touchmove", (e) => {
+  const diffX = e.touches[0].clientX - startX;
 
-  const inner = document.querySelector('.card-inner');
-  inner.classList.add('float');
-  setTimeout(() => inner.classList.remove('float'), 250);
+  if (Math.abs(diffX) > 40 && !moved) {
+    moved = true;
 
-  if (diffX > 40) {
-    prevCard();
-  } else if (diffX < -40) {
-    nextCard();
+    const inner = document.querySelector('.card-inner');
+    inner.classList.add('float');
+    setTimeout(() => inner.classList.remove('float'), 250);
+
+    if (diffX > 40) {
+      prevCard();
+    } else {
+      nextCard();
+    }
   }
 });
 
