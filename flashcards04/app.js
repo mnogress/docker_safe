@@ -1,17 +1,15 @@
 let cards = [];
 let index = 0;
 
-// カードを表示（常に表の内容を描画）
+// カード表示（常に表の内容を描画）
 function showCard() {
   const card = cards[index];
 
   const front = document.querySelector('.card-front');
   const back = document.querySelector('.card-back');
 
-  // 表面
   front.innerHTML = `<div>${card.front}</div>`;
 
-  // 裏面
   back.innerHTML = `
     <div style="font-size:1.6rem; text-align:center;">${card.back}</div>
     <div style="margin-top:8px; padding:6px 0; font-size:1.1rem; color:#557;
@@ -31,20 +29,19 @@ function showCard() {
   }
 }
 
-// flip 状態を完全リセット（スワイプ・シャッフル時に必須）
+// flip を完全リセット
 function resetFlip() {
-  const inner = document.querySelector('.card-inner');
-  inner.classList.remove('is-flipped');
+  document.querySelector('.card-inner').classList.remove('is-flipped');
 }
 
-// 次のカード
+// 次へ
 function nextCard() {
   index = (index + 1) % cards.length;
-  resetFlip();   // ★ flip を必ずリセット
-  showCard();    // ★ 表の内容を描画
+  resetFlip();
+  showCard();
 }
 
-// 前のカード
+// 前へ
 function prevCard() {
   index = (index - 1 + cards.length) % cards.length;
   resetFlip();
@@ -70,43 +67,27 @@ document.getElementById("shuffleBtn").addEventListener("click", () => {
 document.getElementById("turnBtn").addEventListener("click", () => {
   const inner = document.querySelector('.card-inner');
 
-  // 浮くアニメーション
   inner.classList.add('float');
   setTimeout(() => inner.classList.remove('float'), 250);
 
-  // 裏返す
   inner.classList.toggle('is-flipped');
 });
 
-// スワイプ処理
+// スワイプ（左右のみ）
 let startX = 0;
-let startY = 0;
 
 document.getElementById("card").addEventListener("touchstart", (e) => {
   startX = e.touches[0].clientX;
-  startY = e.touches[0].clientY;
 });
 
 document.getElementById("card").addEventListener("touchend", (e) => {
   const endX = e.changedTouches[0].clientX;
-  const endY = e.changedTouches[0].clientY;
-
   const diffX = endX - startX;
-  const diffY = endY - startY;
 
   const inner = document.querySelector('.card-inner');
-
-  // 浮くアニメーション
   inner.classList.add('float');
   setTimeout(() => inner.classList.remove('float'), 250);
 
-  // 上下スワイプ → 裏返す
-  if (Math.abs(diffY) > Math.abs(diffX) && Math.abs(diffY) > 40) {
-    inner.classList.toggle('is-flipped');
-    return;
-  }
-
-  // 左右スワイプ → カード移動
   if (diffX > 40) {
     prevCard();
   } else if (diffX < -40) {
