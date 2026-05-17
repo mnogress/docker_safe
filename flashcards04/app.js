@@ -23,8 +23,16 @@ function showCard() {
   `;
 
 if (card.audio) {
-  document.getElementById('play-audio').addEventListener('click', (event) => {
-    event.stopPropagation();   // ★ これが重要（裏返しを防ぐ）
+  const btn = document.getElementById('play-audio');
+
+  // ★ すべてのイベント伝播を止める（スマホ対応）
+  ["click", "touchstart", "touchend"].forEach(ev => {
+    btn.addEventListener(ev, (event) => {
+      event.stopPropagation();
+    });
+  });
+
+  btn.addEventListener("click", () => {
     new Audio(card.audio).play();
   });
 }
