@@ -27,11 +27,13 @@
 }
 #card {
   perspective: 1000px; /* ← 3D効果の奥行き */
+  position: relative;   /* ★ これが必須 */
+  min-height: 240px;    /* ★ 少し余裕を持たせる */
 }
 
 .card-inner {
   width: 100%;
-  height: 100%;
+  height: 100%;      
   transition: transform 0.6s;
   transform-style: preserve-3d;
   position: relative;
@@ -43,6 +45,8 @@
 
 .card-front, .card-back {
   position: absolute;
+  padding: 40px;         /* ★ 元のカードの余白を復元 */
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   backface-visibility: hidden; /* 裏面を隠す */
@@ -149,6 +153,7 @@
   height: 60px;       /* ★ 高さを薄くするポイント */
   margin: 10px auto;
 }
+}
 
 .ad-thin ins.adsbygoogle {
   height: 60px !important;   /* ★ 強制的に薄くする */
@@ -195,6 +200,6 @@
     © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
   </footer>
 
-<script src="app.js?v=29"></script>
+<script src="app.js?v=30"></script>
 </body>
 </html>
