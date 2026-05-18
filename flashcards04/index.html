@@ -15,6 +15,27 @@
 }
 
 /* カード全体 */
+/* カード全体を包む */
+#card-wrapper {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 左上の穴（パンチ穴） */
+.ring {
+  position: absolute;
+  top: -12px;
+  left: 18px;
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: 50%;
+  border: 3px solid #999;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  z-index: 10;
+}
+
 #card {
   position: relative;
   width: 80%;
@@ -209,6 +230,16 @@
 </head>
 
 <body>
+<div id="card-wrapper">
+  <div class="ring"></div>
+  <div id="card">
+    <div class="card-inner">
+      <div class="card-front"></div>
+      <div class="card-back"></div>
+    </div>
+  </div>
+</div>
+
  <div id="card" class="card-animate">
   <div class="card-inner">
     <div class="card-front"></div>
@@ -247,6 +278,6 @@
     © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
   </footer>
 
-<script src="app.js?v=58"></script>
+<script src="app.js?v=59"></script>
 </body>
 </html>
