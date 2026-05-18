@@ -47,7 +47,31 @@
 }
 
 /* 表と裏の共通設定 */
-.card-front,
+
+.card-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;   /* ★ 表も縦方向 */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background: #d5dfef;
+  border-radius: 12px;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+
 .card-back {
   position: absolute;
   top: 0;
@@ -59,17 +83,20 @@
   box-sizing: border-box;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;   /* ★ 縦に並べる */
+  justify-content: center;  /* ★ 中央寄せ */
+  align-items: center;      /* ★ 中央寄せ */
   text-align: center;
 
   background: #d5dfef;
   border-radius: 12px;
 
-  /* ★ 裏返し時の反転文字を防ぐ */
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
+
+  transform: rotateY(180deg);
 }
+
 
 /* 裏面は 180° 回転しておく（正しい裏面の作り方） */
 .card-back {
