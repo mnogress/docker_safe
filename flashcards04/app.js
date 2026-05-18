@@ -101,3 +101,5 @@ fetch("cards.json")
     cards = data;
     showCard();
   });
+
+document.getElementById("card").style.touchAction = "none";
