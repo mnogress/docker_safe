@@ -14,15 +14,20 @@
   transition: transform 0.25s ease-out;
 }
 
+/* カード全体 */
 #card {
   position: relative;
   width: 80%;
   height: 260px;
   margin: 0 auto;
   perspective: 1000px;
+  background: #d5dfef;
+  border-radius: 12px;
+  border: 2px solid #a9c2ee;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
 }
 
-
+/* 回転する箱 */
 .card-inner {
   width: 100%;
   height: 100%;
@@ -30,52 +35,53 @@
 
   transform-style: preserve-3d;
   transition: transform 0.6s ease;
+  transform: rotateY(0deg);
 
-  /* ★ 右上寄りにするが、飛ばない位置 */
-  transform-origin: 80% 20%;
+  /* ★ まずは中央軸に戻す（正常化のため） */
+  transform-origin: center center;
 }
 
-
-
-/* 裏返しアニメーション */
+/* 裏返し状態 */
 .card-inner.is-flipped {
-  transform: rotateY(180deg) rotateX(-4deg);
+  transform: rotateY(180deg);
 }
 
-
+/* 表と裏の共通設定 */
 .card-front,
 .card-back {
-  position: absolute;   /* ★ 中央固定のため絶対配置 */
+  position: absolute;
   top: 0;
   left: 0;
 
   width: 100%;
   height: 100%;
   padding: 30px;
+  box-sizing: border-box;
 
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 
-  backface-visibility: hidden; /* ★ 裏返し時の反転文字を防ぐ */
+  background: #d5dfef;
+  border-radius: 12px;
+
+  /* ★ 裏返し時の反転文字を防ぐ */
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
 }
 
-
-.card-front {
-  font-size: 1.6rem;
-}
-
+/* 裏面は 180° 回転しておく（正しい裏面の作り方） */
 .card-back {
   transform: rotateY(180deg);
 }
 
-/* 浮くアニメーション */
+/* 浮くアニメーション（あなたの元の仕様を維持） */
 .card-inner.float {
-  transform: translateY(-18px) scale(1.06) rotateY(0deg);
+  transform: translateY(-12px) scale(1.05);
   box-shadow: 0 18px 28px rgba(0,0,0,0.30);
 }
+
 
 
 
