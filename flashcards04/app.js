@@ -25,6 +25,7 @@ function showCard() {
   if (card.audio) {
     const btn = document.getElementById('play-audio');
 
+    // 音声ボタンがカード操作に干渉しないようにする
     ["click", "touchstart", "touchend"].forEach(ev => {
       btn.addEventListener(ev, (event) => {
         event.stopPropagation();
@@ -91,34 +92,7 @@ document.getElementById("nextBtn").addEventListener("click", () => {
   nextCard();
 });
 
-// ★★★ スワイプ（touchend を使わない → 二重発火ゼロ） ★★★
-let startX = 0;
-let moved = false;
-
-const card = document.getElementById("card");
-
-card.addEventListener("touchstart", (e) => {
-  startX = e.touches[0].clientX;
-  moved = false;
-});
-
-card.addEventListener("touchmove", (e) => {
-  const diffX = e.touches[0].clientX - startX;
-
-  if (Math.abs(diffX) > 40 && !moved) {
-    moved = true;
-
-    const inner = document.querySelector('.card-inner');
-    inner.classList.add('float');
-    setTimeout(() => inner.classList.remove('float'), 250);
-
-    if (diffX > 40) {
-      prevCard();
-    } else {
-      nextCard();
-    }
-  }
-});
+// ★ スワイプ関連コードは完全に削除 ★
 
 // JSON 読み込み
 fetch("cards.json")
