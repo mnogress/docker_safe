@@ -80,6 +80,11 @@ bing_site_verification   :
 yandex_site_verification :
 naver_site_verification  :
 
+notice:
+  type: primary # primary, info, warning, danger から色を選択
+  dismissable: true
+  excerpt: "【新着】フランス語復習用フラッシュカード（ベータ版）を公開しました！[こちらからチェック](https://southwiseman.blog/flashcards04/?v=100)"
+
 # Social Sharing
 twitter:
   username               :
