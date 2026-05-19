@@ -56,6 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
+{% include top-news.html %} 
 
 
 ### 聞き返し・確認の表現

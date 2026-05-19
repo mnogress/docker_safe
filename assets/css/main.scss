@@ -392,4 +392,19 @@ th {
   margin-bottom: 20px;
   border-radius: 6px;
 }
-
+.news-ticker {
+  background: #ebacc9;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+  border-bottom: 2px solid #ebacc9;
+}
+.ticker-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: ticker 20s linear infinite;
+}
+@keyframes ticker {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
