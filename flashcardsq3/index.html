@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flashcards 04</title>
+  <style>
+    /* ← ここにあなたの CSS をそのまま貼る */
+    /* ← ここに今の CSS を全部貼る（そのままでOK） */
+    body { font-family: sans-serif; text-align: center; margin: 0; }
+    .card { border: 2px solid #333; padding: 40px; border-radius: 10px; font-size: 1.5em; }
+    button { margin-top: 20px; padding: 10px 20px; font-size: 1em; }
+    .card-animate {
+  transition: transform 0.25s ease-out;
+}
+
+/* カード全体 */
+/* カード全体を包む */
+#card-wrapper {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* 左上の穴（パンチ穴） */
+.ring {
+  position: absolute;
+  top: 12px;
+  left: 16px;
+  width: 22px;
+  height: 22px;
+  background: #fff;
+  border-radius: 50%;
+  border: 2px solid #3a5ae7;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.25);
+  z-index: 10;
+}
+
+#card {
+  position: relative;
+  width: 100%;
+  height: 260px;   /* ★ これが絶対に必要 */
+  margin: 0 auto;
+  perspective: 1000px;
+  background: #d5dfef;
+  border-radius: 12px;
+  border: 2px solid #3a5ae7;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+}
+
+#card-wrapper {
+  position: relative;
+  width: 80%;
+  max-width: 420px;   /* ★ カードの横幅を固定 */
+  margin: 0 auto;
+}
+
+/* 回転する箱 */
+.card-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease;
+  transform: rotateY(0deg);
+
+  /* ★ まずは中央軸に戻す（正常化のため） */
+  transform-origin: center center;
+}
+
+/* 裏返し状態 */
+.card-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+/* 表と裏の共通設定 */
+
+.card-front {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;   /* ★ 表も縦方向 */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+  background: #d5dfef;
+  border-radius: 12px;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 100%;
+  padding: 30px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;   /* ★ 縦に並べる */
+  justify-content: center;  /* ★ 中央寄せ */
+  align-items: center;      /* ★ 中央寄せ */
+  text-align: center;
+
+  background: #d5dfef;
+  border-radius: 12px;
+
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+
+  transform: rotateY(180deg);
+}
+
+/* 浮くアニメーション（あなたの元の仕様を維持） */
+.card-inner.float {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 18px 28px rgba(0,0,0,0.30);
+}
+
+#flash-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #f8f8f8;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  color: #333;
+  z-index: 999;
+}
+
+#flash-footer a {
+  color: #007acc;
+  text-decoration: none;
+}
+
+#flash-footer a:hover {
+  text-decoration: underline;
+}
+#flashcards-guide {
+  margin: 40px auto 20px;
+  padding: 18px 20px;
+  max-width: 420px;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #444;
+  display: block !important;
+  position: relative;
+  z-index: 1000;
+  margin-top: 40px !important;
+  margin-bottom: 120px !important; /* フッターと重ならない */
+}
+
+#flashcards-guide h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  text-align: center;
+  color: #333;
+}
+
+#flashcards-guide ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+#flashcards-guide li {
+  margin-bottom: 6px;
+}
+.shuffle-button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.shuffle-button:hover {
+  background-color: #45a049;
+}
+.flip-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  transition: transform 0.15s ease;
+}
+
+.flip-btn:active {
+  transform: scale(0.92);
+.ad-thin {
+  width: 100%;
+  max-width: 420px;   /* スマホに最適 */
+  height: 60px;       /* ★ 高さを薄くするポイント */
+  margin: 10px auto;
+}
+}
+
+.ad-thin ins.adsbygoogle {
+  height: 60px !important;   /* ★ 強制的に薄くする */
+}
+.card-front div {
+  font-size: 1.8rem;   /* ★ 好きな大きさに調整できる */
+  line-height: 1.4;
+}
+  </style>
+</head>
+
+<body>
+<div id="card-wrapper">
+  <div class="ring"></div>
+
+  <div id="card" class="card-animate">
+    <div class="card-inner">
+      <div class="card-front"></div>
+      <div class="card-back"></div>
+    </div>
+  </div>
+</div>
+
+
+<div class="buttons">
+  <button id="prevBtn">←</button>
+  <button id="turnBtn">裏返す</button>
+  <button id="nextBtn">→</button>
+  <button id="shuffleBtn">Shuffle</button>
+</div>
+
+<div id="flashcards-guide">
+  <h3>📘 操作方法</h3>
+  <ul>
+    <li><strong>🔊 音声ボタン：</strong>フランス語の音声を再生します</li>
+    <li><strong>Shuffle：</strong>カードの順番をランダムに並べ替えます</li>
+  </ul>
+</div>
+
+  <footer id="flash-footer">
+    <div class="ad-thin">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8046608827018069"
+        crossorigin="anonymous"></script>
+    <!-- flashcards2 -->
+    <ins class="adsbygoogle"
+        style="display:inline-block;width:320px;height:50px"
+        data-ad-client="ca-pub-8046608827018069"
+        data-ad-slot="5251654808"></ins>
+    <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+    </div>
+    © 2026 <a href="https://southwiseman.blog" target="_blank">SouthWiseMan</a>
+  </footer>
+
+<script src="app.js?v=62"></script>
+</body>
+</html>
