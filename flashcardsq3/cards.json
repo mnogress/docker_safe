@@ -1,6 +1,12 @@
 [
-  {"front": "Ça m’interesse.", "back": "それ、興味ある！, 面白そうだね！", "kana": "サ・マンテレス", "example": "「それいいね！」と相槌を打ちたいときにぴったり", "audio": "/audio/0132/03_cliche.m4a"},
-  {"front": "Ça m’interesse.1", "back": "それ、興味ある！, 面白そうだね！4", "kana": "サ・マンテレス", "example": "「それいいね！」と相槌を打ちたいときにぴったり", "audio": "/audio/0132/03_cliche.m5a"},
-  {"front": "Ça m’interesse.2", "back": "それ、興味ある！, 面白そうだね！5", "kana": "サ・マンテレス", "example": "「それいいね！」と相槌を打ちたいときにぴったり", "audio": "/audio/0132/03_cliche.m6a"},
-  {"front": "Ça m’interesse.2", "back": "それ、興味ある！, 面白そうだね！6", "kana": "サ・マンテレス", "example": "「それいいね！」と相槌を打ちたいときにぴったり", "audio": "/audio/0132/03_cliche.m7a"}
+  {"front": "Ça m’interesse.", "back": "それ、興味ある！, 面白そうだね！", "kana": "サ・マンテレス", "example": "「それいいね！」と相槌を打ちたいときにぴったり", "audio": "/audio/0522/01_flcsq.m4a"},
+  {"front": "Pourriez-vous m’aider ?", "back": "手伝っていただけますか？", "kana": "プリエ・ヴ・メデ ？", "example": "英語でいう “Could you help me?” にあたる表現", "audio": "/audio/0522/02_flcsq.m4a"},
+  {"front": "Je m’assois ici.", "back": "ここに座ります", "kana": "ジュ・マソワ・イシ？", "example": "カフェの空席や、友達の隣の席を指して..", "audio": "/audio/0522/03_flcsq.m4a"},
+  {"front": "Il se moque de moi.", "back": "彼は私をバカにしている", "kana": "イル・ス・モック・ドゥ・モワ", "example": "He is making fun of me. がぴったり当てはまるフレーズ", "audio": "/audio/0522/04_flcsq.m4a"},
+  {"front": "Ils se sont parle comme des adultes.", "back": "彼らは大人として（冷静に）話し合いました", "kana": "イル・ス・ソン・パルレ・コム・デザデュルトゥ", "example": "お互いに感情的にならず、理性的・建設的にコミュニケーションを取った", "audio": "/audio/0522/05_flcsq.m4a"},
+  {"front": "Va te changer, tu vas te salir.", "back": "着替えてきなさい、汚れるよ", "kana": "ヴァ・トゥ・シャンジェ、テュ・ヴァ・トゥ・サリール", "example": "", "audio": "/audio/0522/06_flcsq.m4a"},
+  {"front": "Peut-etre vont-ils se revoir.", "back": "ひょっとすると、彼らは再会するかもしれない", "kana": "プテートル・ヴォンティル・ス・ルヴワール", "example": "文頭に Peut-etre（たぶん）を置くと、その後の「主語と動詞」がひっくり返る", "audio": "/audio/0522/07_flcsq.m4a"},
+  {"front": "Vous désirez ?", "back": "何になさいますか？", "kana": "ヴ・デジレ？", "example": "ファストフード・カジュアルなお店（レジに並ぶタイプ）", "audio": "/audio/0522/08_flcsq.m4a"},
+  {"front": "Vous avez choisi ?", "back": "お決まりですか？", "kana": "ヴザヴェ ショワジ？", "example": "レストラン・カフェ（席に座って注文するタイプ）", "audio": "/audio/0522/09_flcsq.m4a"},
+  {"front": "Je vous écoute.", "back": "（ご注文を）どうぞ。", "kana": "ジュ・ヴゼクートゥ", "example": "レストラン・カフェ（席に座って注文するタイプ）", "audio": "/audio/0522/10_flcsq.m4a"}
 ]
