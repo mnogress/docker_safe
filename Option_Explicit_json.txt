@@ -1,0 +1,103 @@
+Option Explicit
+
+'  シート上の表を JSON（front ～ audio）に変換してテキストファイルに出力する例
+'  想定レイアウト：
+'    1行目：A列=front, B列=..., …, F列=audio（見出し）
+'    2行目以降：データ行（front が空になったら終了）
+
+Sub ExportFlashcardsJson()
+
+    Dim ws As Worksheet
+    Dim lastRow As Long
+    Dim startCol As Long, endCol As Long
+    Dim r As Long, c As Long
+    Dim json As String
+    Dim rowJson As String
+    Dim keyName As String, valueText As String
+    Dim filePath As Variant
+    Dim fnum As Integer
+    
+    Set ws = ThisWorkbook.Worksheets(1)  ' 必要に応じて変更
+    
+    ' 見出し行から "front" ～ "audio" の列位置を取得
+    startCol = 0
+    endCol = 0
+    
+    For c = 1 To ws.Cells(1, Columns.Count).End(xlToLeft).Column
+        If LCase(ws.Cells(1, c).Value) = "front" Then
+            startCol = c
+        End If
+        If LCase(ws.Cells(1, c).Value) = "audio" Then
+            endCol = c
+        End If
+    Next c
+    
+    If startCol = 0 Or endCol = 0 Or endCol < startCol Then
+        MsgBox "見出し行に 'front' から 'audio' までの列が見つかりません。", vbExclamation
+        Exit Sub
+    End If
+    
+    ' データの最終行（front 列を基準）
+    lastRow = ws.Cells(ws.Rows.Count, startCol).End(xlUp).Row
+    If lastRow < 2 Then
+        MsgBox "データ行がありません。", vbExclamation
+        Exit Sub
+    End If
+    
+    ' JSON 配列開始
+    json = "[" & vbCrLf
+    
+    For r = 2 To lastRow
+        ' front が空ならそこで終了（任意）
+        If Trim(ws.Cells(r, startCol).Value) = "" Then Exit For
+        
+        rowJson = "  {"
+        
+        For c = startCol To endCol
+            keyName = CStr(ws.Cells(1, c).Value)
+            valueText = CStr(ws.Cells(r, c).Value)
+            
+            ' JSON 用にエスケープ
+            valueText = Replace(valueText, "\", "\\")
+            valueText = Replace(valueText, """", "\""")
+            valueText = Replace(valueText, vbCrLf, "\n")
+            valueText = Replace(valueText, vbLf, "\n")
+            valueText = Replace(valueText, vbCr, "\n")
+            
+            rowJson = rowJson & """" & keyName & """: """ & valueText & """"
+            
+            If c < endCol Then
+                rowJson = rowJson & ", "
+            End If
+        Next c
+        
+        rowJson = rowJson & "}"
+        
+        ' 最終行でなければカンマを付ける
+        If r < lastRow And Trim(ws.Cells(r + 1, startCol).Value) <> "" Then
+            json = json & rowJson & "," & vbCrLf
+        Else
+            json = json & rowJson & vbCrLf
+        End If
+    Next r
+    
+    json = json & "]"
+    
+    ' 保存先を選択
+    filePath = Application.GetSaveAsFilename( _
+                InitialFileName:="flashcards.json", _
+                FileFilter:="JSON Files (*.json), *.json")
+    
+    If filePath = False Then
+        MsgBox "保存がキャンセルされました。", vbInformation
+        Exit Sub
+    End If
+    
+    fnum = FreeFile
+    Open CStr(filePath) For Output As #fnum
+    Print #fnum, json
+    Close #fnum
+    
+    MsgBox "JSON を出力しました。" & vbCrLf & CStr(filePath), vbInformation
+
+End Sub
