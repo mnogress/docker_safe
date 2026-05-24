@@ -4,6 +4,7 @@ title: そのまま覚えるフランス語の文例 ～ devoir ～
 header:
   overlay_image: images/header_fr50_1280by336.png
   overlay_filter: rgba(228, 29, 39, 0.34)
+  cta_label: "faire のフラッシュカードを見る"
   cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
 toc: True
 toc_label: "目次"

@@ -4,6 +4,8 @@ title: そのまま覚えるフランス語の文例 ～ faire ～
 header:
   overlay_image: images/header_fr42_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.33)
+  cta_label: "faire のフラッシュカードを見る"
+  cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
