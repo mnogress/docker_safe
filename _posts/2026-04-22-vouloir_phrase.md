@@ -4,6 +4,9 @@ title: そのまま覚えるフランス語の文例 ～ vouloir ～
 header:
   overlay_image: images/header_fr47_1280by336.png
   overlay_filter: rgba(228, 29, 39, 0.13)
+  cta_label: "vouloir を含んだフラッシュカードを試す"
+  cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
+toc: True
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
@@ -109,7 +112,7 @@ excerpt: >
         <td rowspan="2"><span class="noir">もっともよく使われる「お願い」の表現です。末尾の「s」は発音せず、<strong>「ヴドレ」</strong>と短く切るイメージです。</span></td>
     </tr>
     <tr>
-        <td>Je <span class="bleu">voudrais </span> un verre de vin rouge, s'il vous plait.<br><span class="gris_p"> (ジュ ヴドレ アン ヴェール ドゥ ヴァン ルージュ シル ヴ プレ)</span></td>
+        <td>Je <span class="bleu">voudrais </span> un verre de vin rouge, s'il vous plaît.<br><span class="gris_p"> (ジュ ヴドレ アン ヴェール ドゥ ヴァン ルージュ シル ヴ プレ)</span></td>
         <td><span class="noir">赤ワインを一杯お願いします。</span></td>
     </tr>
    <tr>
@@ -168,7 +171,7 @@ excerpt: >
     </thead>
 <tbody>
     <tr>
-        <td><span class="bleu">Veuillez </span>patienter, s'il vous plait.<br><span class="gris_p"> (ヴイエ パシアンテ シル ヴ プレ)</span></td>
+        <td><span class="bleu">Veuillez </span>patienter, s'il vous plaît.<br><span class="gris_p"> (ヴイエ パシアンテ シル ヴ プレ)</span></td>
         <td ><span class="noir">少々お待ちください。</span></td>
             <td rowspan="3"><span class="noir"></span>
               <div class="player">
