@@ -390,7 +390,7 @@ aller は不規則動詞で、語幹が <span class="bleu">vais–</span> / <spa
         <td><span class="noir">気をつけて、転ぶよ！</span></td>
     </tr>
     <tr>
-        <td>Je <span class="bleu">vais </span>y reflechir.<br><span class="gris_p"> (ジュ・ヴェ・イ・レフレシール)</span></td>
+        <td>Je <span class="bleu">vais </span>y réfléchir.<br><span class="gris_p"> (ジュ・ヴェ・イ・レフレシール)</span></td>
         <td><span class="noir">（それについて）考えておきます。</span></td>
     </tr>
     <tr>
