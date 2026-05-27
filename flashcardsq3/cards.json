@@ -41,7 +41,7 @@
   {"front": "またすぐにお会いしましょう！", "back": "À très vite!", "kana": "ア・トレ・ヴィッㇳ！", "example": "英語の See you very soon! にぴったり対応", "audio": "/audio/0132/0a_cliche.m4a"},
   {"front": "またすぐ会いましょう。", "back": "On se voit bientôt.", "kana": "オン・ス・ヴォワ・ビエントゥト", "example": "英語の See you soon. や We’ll see each other soon. にぴったり対応", "audio": "/audio/0132/0b_cliche.m4a"},
   {"front": "じゃあね！", "back": "À plus tard!", "kana": "ア・プル・タール！", "example": "英語の See you later! や Catch you later! にぴったり対応", "audio": "/audio/0132/0c_cliche.m4a"},
-  {"front": "それが見えますか？", "back": "Est-ce que vous le voyez?", "kana": "エスク・ヴ・ル・ヴォワイエ？", "example": "英語の Do you see it/him? にぴったり対応", "audio": "/audio/0132/0d_cliche.m4a"},
+  {"front": "それが見えますか？", "back": "Est-ce que vous le voyez?", "kana": "お", "example": "英語の Do you see it/him? にぴったり対応", "audio": "/audio/0132/0d_cliche.m4a"},
   {"front": "問題ないです。", "back": "Pas de souci.", "kana": "パ・ドゥ・スシ", "example": "英語の No problem や No worries と全く同じ感覚", "audio": "/audio/0132/0e_cliche.m4a"},
   {"front": "君を誇りに思うよ。", "back": "Je suis fier de toi.", "kana": "ジュ・スイ・フィエール・ドゥ・トワ", "example": "英語の “I am proud of you.” に完全に一致", "audio": "/audio/0132/0f_cliche.m4a"},
   {"front": "恥を知れ！", "back": "Tu es honteux.", "kana": "テュ・エ・ オントゥー", "example": "「人格そのもの」を否定するような重い響き", "audio": "/audio/0132/0g_cliche.m4a"},
@@ -52,5 +52,11 @@
   {"front": "急いで！", "back": "Dépêche‑vous !", "kana": "デペシェ・ヴ！", "example": "s’il vous plaît（お願いします）を後に付けるとよい", "audio": "/audio/0132/0l_cliche.m4a"},
   {"front": "わかりましたか？", "back": "C'est clair?", "kana": "セ・クレール？", "example": "英語の Is that clear? に完全に一致", "audio": "/audio/0132/0m_cliche.m4a"},
   {"front": "私は最善を尽くしています。", "back": "Je fais de mon mieux.", "kana": "ジュ・フェ・ドゥ・モン・ミュー", "example": "faire de son mieux ＝ 最善を尽くす「do one's best」 と同じ構造", "audio": "/audio/0132/0n_cliche.m4a"},
-  {"front": "私は途方に暮れてます。", "back": "Je me sens perdu.", "kana": "ジュ・ム・サンース・ペルドゥ", "example": "自分の心の内を素直に吐露する、少しデリケートな表現", "audio": "/audio/0132/0o_cliche.m4a"}
+  {"front": "私は途方に暮れてます。", "back": "Je me sens perdu.", "kana": "ジュ・ム・サンース・ペルドゥ", "example": "自分の心の内を素直に吐露する、少しデリケートな表現", "audio": "/audio/0132/0o_cliche.m4a"},
+  {"front": "何ヶ月もかかるようなら、それはキャンセルして。", "back": "Si ça prend des mois, annule-le.", "kana": "シ・サ・プラン・デムア、アニュル・ル", "example": "ça prend：prendre（時間がかかる）des mois：何ヶ月もと強調する", "audio": "/audio/0522/54_flcsq.m4a"},
+  {"front": "きっと上手くいくよ／絶対に上手くいくと確信しているよ", "back": "Je suis sûr que ça va marcher.", "kana": "ジュ・スィ・シュール・ク・サ・ヴァ・マルシェ", "example": "話しているのが男性 Je suis suûr /女性 suûre  発音同じ", "audio": "/audio/0522/55_flcsq.m4a"},
+  {"front": "私たちは私のお気に入りのレストランに行く予定です", "back": "Nous allons aller dans mon restaurant préféré.", "kana": "ヌ・ザロン・ザレ・ダン・モン・レストラン・プレフェレ", "example": "近接未来 Nous allons ＝ 私たちは～するつもりだ（aller の活用= be going to)", "audio": "/audio/0522/56_flcsq.m4a"},
+  {"front": "（それについて）考えておきます。", "back": "Je vais y réfléchir.", "kana": "ジュ・ヴェイ・レフレシール", "example": "y ＝ à ＋ スケジュールや提案など（モノ・事）近接未来 va 動詞原形", "audio": "/audio/0522/57_flcsq.m4a"},
+  {"front": "（そこへ）どうやって行く？ / 何で行く？（交通手段やルートを尋ねる）", "back": "Comment on y va ?", "kana": "コモントニヴァ", "example": "ひとつの単語のような音に変化", "audio": "/audio/0522/58_flcsq.m4a"},
+  {"front": "地下鉄で行こう　電車で行きます。", "back": "On y va en metro.", "kana": "オニヴァォン・メトロ", "example": "歩いて行こう：On y va a pied. 　オニヴァ・ア・ピエ　", "audio": "/audio/0522/59_flcsq.m4a"}
 ]
