@@ -67,7 +67,7 @@
   {"front": "もっと良い <> 前ほど良くない", "back": "C'est mieux. <> C'est moins bien.", "kana": "セ・ミュ <> セ・モワン・ビエン", "example": "Plus bienとは言いません。", "audio": "/audio/0522/65_flcsq.m4a"},
   {"front": "もっと高い <> もっと安い", "back": "C'est plus cher. <> C'est moins cher.", "kana": "セ・プリュ・シェール <> セ・モワン・シェール", "example": "Moins を使うと「以前の状態と比較して」というニュアンスが出る", "audio": "/audio/0522/66_flcsq.m4a"},
   {"front": "より重要だ <> 重要度は下がる", "back": "C'est plus important. <> C'est moins important.", "kana": "セ・プリュ・ザンポルタン <> セ・モワン・ザンポルタン", "example": "ザンポルタン とリエゾンして「ｚ」の音のになる", "audio": "/audio/0522/67_flcsq.m4a"},
-  {"front": "こっちでは自転車中の音楽はもうダメ、禁止なんだ。フランスと同じく、", "back": "Plus de musique a velo ici, c'est interdit comme en France !", "kana": "プリュ・ドゥ・ミュジック・ア・ヴェロ・イシ、セ・タンテルディ・コム・アン・フランス！", "example": "Plus de + 名詞 で「もう～はない、～は終わり」という否定のニュアンス", "audio": "/audio/0522/68_flcsq.m4a"},
+  {"front": "こっちでは自転車中の音楽はもうダメ、禁止なんだ。フランスと同じく、", "back": "Plus de musique a velo ici, c'est interdit comme en France !", "kana": "プリュドゥ ミュジックアヴェロイシ、セタンテルディ コム アンフランス！", "example": "Plus de + 名詞 で「もう～はない、～は終わり」という否定のニュアンス", "audio": "/audio/0522/68_flcsq.m4a"},
   {"front": "了解！ / 聞こえた", "back": "Entendu", "kana": "アントンデュ", "example": "Entendu（原形：entendre）は、日常会話の「了解！」（C'est entendu !）", "audio": "/audio/0522/69_flcsq.m4a"},
   {"front": "了解しました / 承知いたしました / 確かに聞き及びました", "back": "C'est noté. ", "kana": "セ ノテ", "example": "（言われた内容を）頭（またはノート）にしっかり書き留めました", "audio": "/audio/0522/70_flcsq.m4a"},
   {"front": "了解！ / オッケー！ / 分かった！ / 同意するよ", "back": "D'accord", "kana": "ダコール", "example": "一番カジュアルで、日常会話の定番。", "audio": "/audio/0522/71_flcsq.m4a"},
