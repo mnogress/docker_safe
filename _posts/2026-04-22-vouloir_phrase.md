@@ -4,7 +4,7 @@ title: そのまま覚えるフランス語の文例 ～ vouloir ～
 header:
   overlay_image: images/header_fr47_1280by336.png
   overlay_filter: rgba(228, 29, 39, 0.13)
-  cta_label: "vouloir を含んだフラッシュカードを試す"
+  cta_label: "vouloir を含んだフラッシュカード(音声・読み方付き）を試す"
   cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
 toc: True
 toc: True
