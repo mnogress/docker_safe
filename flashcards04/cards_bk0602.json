@@ -82,12 +82,5 @@
   {"front": "この日 <> あの日（過去の特定の日）", "back": "ce jour <> ce jour-là", "kana": "ス・ジュール <> ス・ジュルラ", "example": "Ce jour-làになると、後ろの la に引っ張られてテンポが早くなり、「ジュール」「ジュル」に変化", "audio": "/audio/0522/80_flcsq.m4a"},
   {"front": "シルクのパジャマは（他と比べて）もっと値段が高い。", "back": "Le pyjama en soie côute plus cher.", "kana": "ル・ピジャマ・アンスワ・クートゥ・プリュ・シェール", "example": "en soie（アンスワ）：「シルク製の」en coton（アンコトン）＝ 綿（コットン）", "audio": "/audio/0522/81_flcsq.m4a"},
   {"front": "最近、私の身に奇妙なこと（変なこと）が起きている。", "back": "Il m'arrive des choses bizarres en ce moment.", "kana": "イル・マリーヴ・デ・ショーズ・ビザール・アン・ス・モマン", "example": "Il m'arrive [物事] : 「私の身に[物事]が起きる、降りかかる」という、日常会話でよく使う非人称表現", "audio": "/audio/0522/82_flcsq.m4a"},
-  {"front": "冷たい水が入った水筒 / マイボトル", "back": "une gourde d'eau fraîche", "kana": "ユヌ・グルドゥ・ドー・フレッシュ", "example": "une gourde： 水筒、マイボトルのこと　fraîche の î （アクサン・シルフリックス）を忘れずに！", "audio": "/audio/0522/83_flcsq.m4a"},
-  {"front": "（それは）良い経験になったね / 素敵な体験をしたんだね", "back": "Tu as eu une belle expériece.", "kana": "テュ・アユ・ユヌ・ベル・エクスぺリヤンス", "example": "as eu（ア・ユ）: 動詞 avoir（持つ、経験する） の複合過去形", "audio": "/audio/0522/84_flcsq.m4a"},
-  {"front": "湖は見たの？", "back": "Tu as vu le lac ?", "kana": "テュ・ア・ヴル・ラク？", "example": "as vu（ア・ヴ）: 動詞 voir（見る） の複合過去形", "audio": "/audio/0522/85_flcsq.m4a"},
-  {"front": "ジュネーヴはそれで有名（知られて）です", "back": "Genève est connue pour ça", "kana": "ジュネーヴ・エ・コニュ・プール・サ", "example": "connue（コニュ）: 「知られている、有名な」の形容詞（connaitre の過去分詞から派生", "audio": "/audio/0522/86_flcsq.m4a"},
-  {"front": "ねえ、ちょっと聞いてよ！", "back": "Tu sais quoi?", "kana": "テュ・セ・クワ？", "example": "日常会話では決まり文句（イディオム）として機能", "audio": "/audio/0522/87_flcsq.m4a"},
-  {"front": "あぁ、そのようだね（聞いたところによると）", "back": "Oui , il paraît . ", "kana": "ウィ、イル・パレ", "example": "il paraît（イル パレ）: 動詞 paraiîre（～のように見える、現れる） の3人称単数現在形", "audio": "/audio/0522/88_flcsq.m4a"},
-  {"front": "私は先月ジュネーヴに行きました", "back": "Je suis allée à Genève le mois dernier.", "kana": "ジュ・スイ・ザレ・ア・ジュネーヴ・ル・ムワ・デルニエ", "example": "suis allée（スイ・ザレ）: 動詞 allér（行く） の複合過去形", "audio": "/audio/0522/89_flcsq.m4a"},
-  {"front": "まさにその通りです / 確かに", "back": "En effet ", "kana": "アン・ネフェ", "example": "強い同意や納得を示した相づち表現", "audio": "/audio/0522/90_flcsq.m4a"}
+  {"front": "冷たい水が入った水筒 / マイボトル", "back": "une gourde d'eau fraîche", "kana": "ユヌ・グルドゥ・ドー・フレッシュ", "example": "une gourde： 水筒、マイボトルのこと　fraîche の î （アクサン・シルフリックス）を忘れずに！", "audio": "/audio/0522/83_flcsq.m4a"}
 ]
