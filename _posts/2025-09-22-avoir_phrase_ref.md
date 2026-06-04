@@ -4,6 +4,8 @@ title: そのまま覚えるフランス語の文例 ～ avoir ～
 header:
   overlay_image: images/header_fr43_1280by336.png
   overlay_filter: rgba(139, 87, 38, 0.33)
+  cta_label: "🚀 復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+  cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 

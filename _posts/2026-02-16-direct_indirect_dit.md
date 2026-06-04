@@ -4,6 +4,8 @@ title: フランス語基本文法｜直接・間接話法（音声付き）
 header:
   overlay_image: images/header_fr35_1280by336.png
   overlay_filter: rgba(97, 230, 228, 0.2)
+  cta_label: "🚀 復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+  cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 

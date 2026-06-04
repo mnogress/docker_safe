@@ -4,7 +4,7 @@ title: そのまま覚えるフランス語の文例 ～ être ～
 header:
   overlay_image: images/header_fr44_1280by336.png
   overlay_filter: rgba(136, 59, 65, 0.33)
-  cta_label: "🍎 復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+  cta_label: "🚀 復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
   cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
 toc: True
 toc_label: "目次"
