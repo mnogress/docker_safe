@@ -15,7 +15,7 @@ classes:
 - dark-theme
 - wide
 sidebar:
-  nav: "docs"7
+  nav: "docs"
 tag: ["French", "フランス語学習"]
 categories: [français, prononciation]
 date: 2025-08-17
