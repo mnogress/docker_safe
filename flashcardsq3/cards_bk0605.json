@@ -89,5 +89,7 @@
   {"front": "ねえ、ちょっと聞いてよ！", "back": "Tu sais quoi?", "kana": "テュ・セ・クワ？", "example": "日常会話では決まり文句（イディオム）として機能", "audio": "/audio/0522/87_flcsq.m4a"},
   {"front": "あぁ、そのようだね（聞いたところによると）", "back": "Oui , il paraît . ", "kana": "ウィ、イル・パレ", "example": "il paraît（イル パレ）: 動詞 paraiîre（～のように見える、現れる） の3人称単数現在形", "audio": "/audio/0522/88_flcsq.m4a"},
   {"front": "私は先月ジュネーヴに行きました", "back": "Je suis allée à Genève le mois dernier.", "kana": "ジュ・スイ・ザレ・ア・ジュネーヴ・ル・ムワ・デルニエ", "example": "suis allée（スイ・ザレ）: 動詞 allér（行く） の複合過去形", "audio": "/audio/0522/89_flcsq.m4a"},
-  {"front": "まさにその通りです / 確かに", "back": "En effet ", "kana": "アン・ネフェ", "example": "強い同意や納得を示した相づち表現", "audio": "/audio/0522/90_flcsq.m4a"}
+  {"front": "まさにその通りです / 確かに", "back": "En effet ", "kana": "アン・ネフェ", "example": "強い同意や納得を示した相づち表現", "audio": "/audio/0522/90_flcsq.m4a"},
+  {"front": "どうだった？ / いかがでしたか？", "back": "C'était comment ?", "kana": "セテ・コマン？", "example": "C'était：代名詞 ce（それ） ＋ 動詞 être（～である）の半過去形", "audio": "/audio/0522/91_flcsq.m4a"},
+  {"front": "観光客もたくさんいました。", "back": "Il y avait aussi beaucoup de touristes.", "kana": "イル・イ・アヴェ・オシ・ボクー・ドゥ・トゥリストゥ", "example": "Il y a の半過去形。「（過去に）～がいた、あった」当時の状況・背景を説明", "audio": "/audio/0522/92_flcsq.m4a"}
 ]
