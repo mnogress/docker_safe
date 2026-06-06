@@ -1,44 +1,37 @@
 let cards = [];
 let index = 0;
 
-// カードを表示（常に表の内容を描画）
+// カードを表示
 function showCard() {
   const card = cards[index];
 
   const front = document.querySelector('.card-front');
   const back = document.querySelector('.card-back');
 
+  // 表
   front.innerHTML = `<div>${card.front}</div>`;
 
+  // 裏（クラス化）
   back.innerHTML = `
-    <div style="font-size:1.6rem; text-align:center;">${card.back}</div>
-    <div style="margin-top:8px; padding:6px 0; font-size:1.1rem; color:#557;
-      text-align:center; border-top:1px solid #ddd; border-bottom:1px solid #ddd;">
-      ${card.kana || ""}
-    </div>
-    <div style="margin-top:12px; font-size:0.9rem; text-align:center;">
-      ${card.example || ""}
-    </div>
-    ${card.audio ? `<button id="play-audio" style="margin-top:15px; padding:8px 16px;">🔊 音声を再生</button>` : ""}
+    <div class="back-fr">${card.back}</div>
+    <div class="kana-text">${card.kana || ""}</div>
+    <div class="jp-text">${card.example || ""}</div>
+    ${card.audio ? `<button id="play-audio" class="audio-btn">🔊 音声を再生</button>` : ""}
   `;
 
+  // 音声ボタン
   if (card.audio) {
     const btn = document.getElementById('play-audio');
 
-    // 音声ボタンがカード操作に干渉しないようにする
-    ["click", "touchstart", "touchend"].forEach(ev => {
-      btn.addEventListener(ev, (event) => {
-        event.stopPropagation();
-      });
+    ["click","touchstart","touchend"].forEach(ev => {
+      btn.addEventListener(ev, e => e.stopPropagation());
     });
 
-    btn.addEventListener("click", () => {
-      new Audio(card.audio).play();
-    });
+    btn.addEventListener("click", () => new Audio(card.audio).play());
   }
 }
 
-// flip を完全リセット
+// 裏返しリセット
 function resetFlip() {
   document.querySelector('.card-inner').classList.remove('is-flipped');
 }
@@ -72,7 +65,7 @@ document.getElementById("shuffleBtn").addEventListener("click", () => {
   showCard();
 });
 
-// 裏返すボタン
+// 裏返す
 document.getElementById("turnBtn").addEventListener("click", () => {
   const inner = document.querySelector('.card-inner');
 
@@ -82,17 +75,11 @@ document.getElementById("turnBtn").addEventListener("click", () => {
   inner.classList.toggle('is-flipped');
 });
 
-// ← ボタン
-document.getElementById("prevBtn").addEventListener("click", () => {
-  prevCard();
-});
+// ←
+document.getElementById("prevBtn").addEventListener("click", prevCard);
 
-// → ボタン
-document.getElementById("nextBtn").addEventListener("click", () => {
-  nextCard();
-});
-
-// ★ スワイプ関連コードは完全に削除 ★
+// →
+document.getElementById("nextBtn").addEventListener("click", nextCard);
 
 // JSON 読み込み
 fetch("cards.json")
