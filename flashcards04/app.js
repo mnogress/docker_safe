@@ -10,17 +10,13 @@ function showCard() {
 
   front.innerHTML = `<div>${card.front}</div>`;
 
-  back.innerHTML = `
-    <div style="font-size:1.6rem; text-align:center;">${card.back}</div>
-    <div style="margin-top:8px; padding:6px 0; font-size:1.1rem; color:#557;
-      text-align:center; border-top:1px solid #ddd; border-bottom:1px solid #ddd;">
-      ${card.kana || ""}
-    </div>
-    <div style="margin-top:12px; font-size:0.9rem; text-align:center;">
-      ${card.example || ""}
-    </div>
-    ${card.audio ? `<button id="play-audio" style="margin-top:15px; padding:8px 16px;">🔊 音声を再生</button>` : ""}
-  `;
+back.innerHTML = `
+  <div class="back-fr">${card.back}</div>
+  <div class="kana-text">${card.kana || ""}</div>
+  <div class="jp-text">${card.example || ""}</div>
+  ${card.audio ? `<button id="play-audio" class="audio-btn">🔊 音声を再生</button>` : ""}
+`;
+
 
   if (card.audio) {
     const btn = document.getElementById('play-audio');
