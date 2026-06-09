@@ -107,5 +107,11 @@
   {"front": "先月 <> 昨年 / 去年", "back": "le mois dernier <> l'année dernière", "kana": "ル・モワ・デルニエ <> ラネ・デルニエール", "example": "le mois dernier 今から数えて一つ前の月", "audio": "/audio/0522/105_flcsq.m4a"},
   {"front": "昨日 / 前日 <> 先週", "back": "le jour dernier <> la semaine dernière", "kana": "ル・ジュール・デルニエ <> ラ・スメン・デルニエール", "example": "「昨日」と言いたい時は hier（イエール） という1語を使うことが圧倒的に多い", "audio": "/audio/0522/106_flcsq.m4a"},
   {"front": "それをプレゼントしてもらったんだけど、もう持っていたんだ。", "back": "On me l'a offert mais je l'avais déjà.", "kana": "オン・ム・ラ・オフェール・メ・ジュ・ラヴェ・デジャ", "example": "On me l'a offert（プレゼントしてもらった）je l'avais déjà（もう持っていた）", "audio": "/audio/0522/107_flcsq.m4a"},
-  {"front": "タイミングがいいね！<> タイミングが悪いね。（都合が悪い）", "back": "Ça tombe bien <> Ça tombe mal", "kana": "サ・トンブ・ビアン <> サ・トンブ・マル", "example": "tomber は本来「落ちる」「転ぶ」から（偶然の）タイミングだ」という意味", "audio": "/audio/0522/108_flcsq.m4a"}
+  {"front": "タイミングがいいね！<> タイミングが悪いね。（都合が悪い）", "back": "Ça tombe bien <> Ça tombe mal", "kana": "サ・トンブ・ビアン <> サ・トンブ・マル", "example": "tomber は本来「落ちる」「転ぶ」から（偶然の）タイミングだ」という意味", "audio": "/audio/0522/108_flcsq.m4a"},
+  {"front": "それは良いニュースですね。", "back": "C'est une bonne nouvelle.", "kana": "セテュヌ・ボンヌ・ヌヴェル", "example": "相手から嬉しい報告に「よかったね！」「いい話だね！」と相槌を打つための定番フレーズ", "audio": "/audio/0522/109_flcsq.m4a"},
+  {"front": "「それで？」 / 「だから何？」 / 「それがどうしたの？」", "back": "Et alors ?", "kana": "エタロール？", "example": "映画やドラマでも、肩をすくめながら「エタロール？」と言うシーンがよく見られます。", "audio": "/audio/0522/110_flcsq.m4a"},
+  {"front": "ストレスが溜まっているでしょう。 / プレッシャーを感じているよね。", "back": "Tu dois être stressé.", "kana": "テュ・ドワゼートル・ストレセ", "example": "「dois（～に違いない）」が入ることで、「きっと君、ストレスが溜まってるよね…」", "audio": "/audio/0522/111_flcsq.m4a"},
+  {"front": "ホッとされたことでしょう。 / 安心なさったに違いありませんね。", "back": "Vous devez être soulagée.", "kana": "ヴ・ドゥヴェゼートル・スラジェ", "example": " soulagée（スラジェ）：ホッとした、安心した、救われた（動詞 soulager の過去分詞・女性形）", "audio": "/audio/0522/112_flcsq.m4a"},
+  {"front": "そのことを、とても嬉しく思っています。 / それには大満足です。", "back": "J'en suis très content.", "kana": "ジャン・スュイ・トレ・コンタン", "example": "「Je suis content.」と言うよりも、「en（そのことについて）」が入ることで、「先ほどあなたが言ったこと」をしっかりと指し示す", "audio": "/audio/0522/113_flcsq.m4a"},
+  {"front": "彼は私（の言ったこと）を理解してくれました。 / 彼に話が通じました。", "back": "Il m'a compris.", "kana": "イル・マ・コンプリ", "example": "a + compris で複合過去形（～した）になります。「m'（私を）」と「a（動詞 avoir）」がエリジョン", "audio": "/audio/0522/114_flcsq.m4a"}
 ]

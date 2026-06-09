@@ -91,5 +91,14 @@
   {"front": "私は先月ジュネーヴに行きました", "back": "Je suis allée à Genève le mois dernier.", "kana": "ジュ・スイ・ザレ・ア・ジュネーヴ・ル・ムワ・デルニエ", "example": "suis allée（スイ・ザレ）: 動詞 allér（行く） の複合過去形", "audio": "/audio/0522/89_flcsq.m4a"},
   {"front": "まさにその通りです / 確かに", "back": "En effet ", "kana": "アン・ネフェ", "example": "強い同意や納得を示した相づち表現", "audio": "/audio/0522/90_flcsq.m4a"},
   {"front": "どうだった？ / いかがでしたか？", "back": "C'était comment ?", "kana": "セテ・コマン？", "example": "C'était：代名詞 ce（それ） ＋ 動詞 être（～である）の半過去形", "audio": "/audio/0522/91_flcsq.m4a"},
-  {"front": "観光客もたくさんいました。", "back": "Il y avait aussi beaucoup de touristes.", "kana": "イル・イ・アヴェ・オシ・ボクー・ドゥ・トゥリストゥ", "example": "Il y a の半過去形。「（過去に）～がいた、あった」当時の状況・背景を説明", "audio": "/audio/0522/92_flcsq.m4a"}
+  {"front": "観光客もたくさんいました。", "back": "Il y avait aussi beaucoup de touristes.", "kana": "イル・イ・アヴェ・オシ・ボクー・ドゥ・トゥリストゥ", "example": "Il y a の半過去形。「（過去に）～がいた、あった」当時の状況・背景を説明", "audio": "/audio/0522/92_flcsq.m4a"},
+  {"front": "田舎に行くのは好きですか？", "back": "Est-ce que vous aimez aller à la campagne ?", "kana": "エスク・ヴゼメ・アレ・アラ・カンパーニュ？", "example": "vous aimez + [動詞の原形]： 「あなたは～するのが好きですか？」", "audio": "/audio/0522/93_flcsq.m4a"},
+  {"front": "これ（それ）を翻訳できますか？", "back": "Vous savez traduire ça ?", "kana": "ヴ・サヴェ・トラデュイール・サ？", "example": "Vous savez + [動詞の原形]...？： 「～のやり方を知っていますか？」から転じて、「（能力的に）～できますか？」", "audio": "/audio/0522/94_flcsq.m4a"},
+  {"front": "リラックスできます。", "back": "Ça me détend.", "kana": "サ・ムデタン", "example": "détend： 動詞 détendre（リラックスさせる、緩める）の三人称単数形", "audio": "/audio/0522/95_flcsq.m4a"},
+  {"front": "たとえ難しくても、やってみなければならない。", "back": "Même si c'est difficile, il faut essayer.", "kana": "メム・シセ・ディフィシル、イル・フォテセィエ", "example": "Même si...： 「たとえ?だとしても」という、条件や譲歩を表す重要な接続詞のフレーズ", "audio": "/audio/0522/96_flcsq.m4a"},
+  {"front": "とても寒いですが、それでも私は出かけます。やっぱり。", "back": "Il fait trés froid, mais je vais sortir quand même.", "kana": "イル・フェ・トレ・フルワ、メ・ジュ・ヴェ・ソルティール・カン・メム", "example": "quand même： 「それでもやはり」「何があっても」という意味の、日常会話での非常に重要な熟語です。", "audio": "/audio/0522/97_flcsq.m4a"},
+  {"front": "早く出発したほうがいいよ、あそこはよく行列ができるから。", "back": "Il vaut mieux partir tôt, il y a souvent la queue là-bas.", "kana": "イル・ヴォ・ミュー・パルティール・ト、イリヤ・スヴァン・ラ・クー・ラバ", "example": "Il vaut mieux + [動詞の原形]： 「～したほうがよい」「～するのが賢明だ」", "audio": "/audio/0522/98_flcsq.m4a"},
+  {"front": "彼に電話する必要はありません、彼はもう知っていますから。", "back": "Ce n'est pas la peine de l'appeler, il est déjà au courant.", "kana": "スネ・パ・ラ・ペーヌ・ドゥラプレ、イレ・デジャ・オ・クーラン", "example": "Ce n'est pas la peine de + [動詞の原形]： 「～する必要はない」「～するには及ばない」", "audio": "/audio/0522/99_flcsq.m4a"},
+  {"front": "この本は読む価値があります", "back": "Ça vaut la peine de lire ce livre.", "kana": "サ・ヴォ・ラ・ペーヌ・ドゥリール・ス・リーヴル", "example": "Ça vaut la peine de + [動詞の原形]： 「～する価値がある」「わざわざ～するに値する」動Ç valoir（価値がある）の三人称単数形（vaut）", "audio": "/audio/0522/100_flcsq.m4a"},
+  {"front": "～の苦労、～の手間、～するだけの価値", "back": "la peine de", "kana": "ラ・ペーヌ・ドゥ", "example": "Ça vaut la peine de...（～する価値がある）Ce n'est pas la peine de...（～する必要はない・わざわざしなくていい）", "audio": "/audio/0522/101_flcsq.m4a"}
 ]
