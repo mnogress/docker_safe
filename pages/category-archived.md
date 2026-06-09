@@ -11,4 +11,3 @@ author_profile: true
 sidebar:
   nav: "docs"
 ---
-{% include top-news.html %} 
