@@ -113,5 +113,11 @@
   {"front": "ストレスが溜まっているでしょう。 / プレッシャーを感じているよね。", "back": "Tu dois être stressé.", "kana": "テュ・ドワゼートル・ストレセ", "example": "「dois（～に違いない）」が入ることで、「きっと君、ストレスが溜まってるよね…」", "audio": "/audio/0522/111_flcsq.m4a"},
   {"front": "ホッとされたことでしょう。 / 安心なさったに違いありませんね。", "back": "Vous devez être soulagée.", "kana": "ヴ・ドゥヴェゼートル・スラジェ", "example": " soulagée（スラジェ）：ホッとした、安心した、救われた（動詞 soulager の過去分詞・女性形）", "audio": "/audio/0522/112_flcsq.m4a"},
   {"front": "そのことを、とても嬉しく思っています。 / それには大満足です。", "back": "J'en suis très content.", "kana": "ジャン・スュイ・トレ・コンタン", "example": "「Je suis content.」と言うよりも、「en（そのことについて）」が入ることで、「先ほどあなたが言ったこと」をしっかりと指し示す", "audio": "/audio/0522/113_flcsq.m4a"},
-  {"front": "彼は私（の言ったこと）を理解してくれました。 / 彼に話が通じました。", "back": "Il m'a compris.", "kana": "イル・マ・コンプリ", "example": "a + compris で複合過去形（～した）になります。「m'（私を）」と「a（動詞 avoir）」がエリジョン", "audio": "/audio/0522/114_flcsq.m4a"}
+  {"front": "彼は私（の言ったこと）を理解してくれました。 / 彼に話が通じました。", "back": "Il m'a compris.", "kana": "イル・マ・コンプリ", "example": "a + compris で複合過去形（～した）になります。「m'（私を）」と「a（動詞 avoir）」がエリジョン", "audio": "/audio/0522/114_flcsq.m4a"},
+  {"front": "あなたはその映画について話しているのですか？ はい、よくその話をします。", "back": "Vous parlez de ce film ?  Oui, j'en parle souvent.", "kana": "ヴ・パるレ・ドゥ・ス・フィルム？  ウィ、ジャン・パるる・スーヴァン", "example": "parler de ～　(～について話す）の「de + 物・事」を置き換えて、動詞の直前に en を置く", "audio": "/audio/0610/115_flcsq.m4a"},
+  {"front": "私の助けが必要なの？　うん、必要なんだ。", "back": "Tu as besoin de mon aide ?　Oui, j'en ai besoin.", "kana": "テュ・ア・ブゾワン・ドゥ・モネードゥ？　ウィ、ジャネ・ブゾワン", "example": "avoir besoin de ～（～が必要だ）　モネードゥ（mon aide）ジャネ（j'en ai）", "audio": "/audio/0610/116_flcsq.m4a"},
+  {"front": "私の助けが必要なの？　ううん、必要ないよ。", "back": "Tu as besoin de mon aide ?　Non, je n'en ai pas besoin.", "kana": "テュ・ア・ブゾワン・ドゥ・モネードゥ？　ノン、ジュ・ナンネ・パ・ブゾワン", "example": "ナンネ（n'en ai）と一気に繋がります（リエゾン）", "audio": "/audio/0610/117_flcsq.m4a"},
+  {"front": "あんたにはもううんざり！ / もうあなたには愛想が尽きたよ！", "back": "J'en ai marre de toi !", "kana": "ジャネ・マール・ドゥ・トワ！", "example": "avoir marre de ～（～にうんざりしている）en　はうんざりするような事柄すべて", "audio": "/audio/0610/118_flcsq.m4a"},
+  {"front": "（それを）いくつお望みですか？ /（それを）2ついただきます。", "back": "Combien en voulez-vous ?　J'en prendrai deux.", "kana": "コンビアン・ヌ・ヴレ・ヴ？　ジャン・プらンドゥレ・ドゥ", "example": "コンビアン・ヌ（Combien en）その場で意思を決めるとき、単純未来形、近接未来形を使う", "audio": "/audio/0610/119_flcsq.m4a"},
+  {"front": "怖がらないでください！ / 大丈夫ですよ！", "back": "N'ayez pas peur !", "kana": "ネイエ・パ・プール！", "example": "ne が ayez と合体して n'ayez （ネイエ）となっています。", "audio": "/audio/0610/120_flcsq.m4a"}
 ]
