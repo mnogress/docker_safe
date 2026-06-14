@@ -73,6 +73,12 @@ document.getElementById("turnBtn").addEventListener("click", () => {
   setTimeout(() => inner.classList.remove('float'), 250);
 
   inner.classList.toggle('is-flipped');
+
+  // ★ 裏返した瞬間に音声を自動再生（ユーザー操作内なのでOK）
+  const card = cards[index];
+  if (inner.classList.contains("is-flipped") && card.audio) {
+    new Audio(card.audio).play();
+  }
 });
 
 // ←
