@@ -120,5 +120,7 @@
   {"front": "あんたにはもううんざり！ / もうあなたには愛想が尽きたよ！", "back": "J'en ai marre de toi !", "kana": "ジャネ・マール・ドゥ・トワ！", "example": "avoir marre de ～（～にうんざりしている）en　はうんざりするような事柄すべて", "audio": "/audio/0610/118_flcsq.m4a"},
   {"front": "（それを）いくつお望みですか？ /（それを）2ついただきます。", "back": "Combien en voulez-vous ?　J'en prendrai deux.", "kana": "コンビアン・ヌ・ヴレ・ヴ？　ジャン・プらンドゥレ・ドゥ", "example": "コンビアン・ヌ（Combien en）その場で意思を決めるとき、単純未来形、近接未来形を使う", "audio": "/audio/0610/119_flcsq.m4a"},
   {"front": "怖がらないでください！ / 大丈夫ですよ！", "back": "N'ayez pas peur !", "kana": "ネイエ・パ・プール！", "example": "ne が ayez と合体して n'ayez （ネイエ）となっています。", "audio": "/audio/0610/120_flcsq.m4a"},
-  {"front": "それは知らなかった。/ 知りませんでした。", "back": "Je ne savais pas ça.", "kana": "ジュ・ヌ・サヴェ・パ・サ", "example": "半過去を使います。「知らなかった（状態だった）けれど、今それを聞いて初めて知った」というニュアンスになります。", "audio": "/audio/0610/121_flcsq.m4a"}
+  {"front": "それは知らなかった。/ 知りませんでした。", "back": "Je ne savais pas ça.", "kana": "ジュ・ヌ・サヴェ・パ・サ", "example": "半過去を使います。「知らなかった（状態だった）けれど、今それを聞いて初めて知った」というニュアンスになります。", "audio": "/audio/0610/121_flcsq.m4a"},
+  {"front": "ちょっと見てみますね/確認しておきます", "back": "Je vais regarder. ", "kana": " ジュ・ヴェ・ルガルデ", "example": "店員が商品を探す際の「ちょっと見て参ります」「チェックします」というニュアンス", "audio": "/audio/0610/122_flcsq.m4a"},
+  {"front": "次はうまくいくよ / 次は大丈夫だよ", "back": "Ça va aller la prochaine fois", "kana": "サ・ヴァ・アレ・ラ・プロシェン・フォワ", "example": "相手を励ますときに使うフレーズ。　Ça va allerそ：それはうまくいく", "audio": "/audio/0610/123_flcsq.m4a"}
 ]
