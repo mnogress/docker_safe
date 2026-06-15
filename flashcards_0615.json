@@ -63,7 +63,7 @@
   {"front": "毎朝、簡単な朝ご飯を自分で作っています", "back": "Chaque matin, je fais un petit-déjeuner simple moi-même.", "kana": "シャック・マタン、ジュ・フェ・アン・プティデジュネ・サンプル・モワメーム", "example": "moi-mêmeを文末につけ、（他の誰でもなく）自分自身という意味を強調", "audio": "/audio/0522/61_flcsq.m4a"},
   {"front": "毎朝、簡単な朝ご飯を自分で作っています", "back": "Chaque matin, je me prépare un petit-dejeuner simple.", "kana": "シャック・マタン、ジュ・ム・プレパール・アン・プティデジュネ・サンプル", "example": "se preparer（自分のために用意する）で自分で作って食べているというニュアンス", "audio": "/audio/0522/62_flcsq.m4a"},
   {"front": "もっと簡単だ　<> 簡単じゃなくなった／難しい", "back": "C'est plus facile. <>C'est moins facile.", "kana": "セ・プリュ・ファシル <> セ・モワン・ファシル", "example": "Moins を使うと「以前の状態と比較して」というニュアンスが出る", "audio": "/audio/0522/63_flcsq.m4a"},
-  {"front": "もっと混んでいる <> 空いている", "back": "C'est plus bondé. <> C'est moins bondEé", "kana": "セ・プリュ・ボンデ ＜＞セ・モワン・ボンデ", "example": "Moins を使うと表現がぐっとネイティブらしく（そして柔らかく）", "audio": "/audio/0522/64_flcsq.m4a"},
+  {"front": "もっと混んでいる <> 空いている", "back": "C'est plus bondé. <> C'est moins bondée", "kana": "セ・プリュ・ボンデ ＜＞セ・モワン・ボンデ", "example": "Moins を使うと表現がぐっとネイティブらしく（そして柔らかく）", "audio": "/audio/0522/64_flcsq.m4a"},
   {"front": "もっと良い <> 前ほど良くない", "back": "C'est mieux. <> C'est moins bien.", "kana": "セ・ミュ <> セ・モワン・ビエン", "example": "Plus bienとは言いません。", "audio": "/audio/0522/65_flcsq.m4a"},
   {"front": "もっと高い <> もっと安い", "back": "C'est plus cher. <> C'est moins cher.", "kana": "セ・プリュ・シェール <> セ・モワン・シェール", "example": "Moins を使うと「以前の状態と比較して」というニュアンスが出る", "audio": "/audio/0522/66_flcsq.m4a"},
   {"front": "より重要だ <> 重要度は下がる", "back": "C'est plus important. <> C'est moins important.", "kana": "セ・プリュ・ザンポルタン <> セ・モワン・ザンポルタン", "example": "ザンポルタン とリエゾンして「ｚ」の音のになる", "audio": "/audio/0522/67_flcsq.m4a"},
@@ -87,7 +87,7 @@
   {"front": "湖は見たの？", "back": "Tu as vu le lac ?", "kana": "テュ・ア・ヴル・ラク？", "example": "as vu（ア・ヴ）: 動詞 voir（見る） の複合過去形", "audio": "/audio/0522/85_flcsq.m4a"},
   {"front": "ジュネーヴはそれで有名（知られて）です", "back": "Genève est connue pour ça", "kana": "ジュネーヴ・エ・コニュ・プール・サ", "example": "connue（コニュ）: 「知られている、有名な」の形容詞（connaitre の過去分詞から派生", "audio": "/audio/0522/86_flcsq.m4a"},
   {"front": "ねえ、ちょっと聞いてよ！", "back": "Tu sais quoi?", "kana": "テュ・セ・クワ？", "example": "日常会話では決まり文句（イディオム）として機能", "audio": "/audio/0522/87_flcsq.m4a"},
-  {"front": "あぁ、そのようだね（聞いたところによると）", "back": "Oui , il paraît . ", "kana": "ウィ、イル・パレ", "example": "il paraît（イル パレ）: 動詞 paraiîre（～のように見える、現れる） の3人称単数現在形", "audio": "/audio/0522/88_flcsq.m4a"},
+  {"front": "あぁ、そのようだね（聞いたところによると）", "back": "Oui , il paraît . ", "kana": "ウィ、イル・パレ", "example": "il paraît（イル パレ）: 動詞 paraîre（～のように見える、現れる） の3人称単数現在形", "audio": "/audio/0522/88_flcsq.m4a"},
   {"front": "私は先月ジュネーヴに行きました", "back": "Je suis allée à Genève le mois dernier.", "kana": "ジュ・スイ・ザレ・ア・ジュネーヴ・ル・ムワ・デルニエ", "example": "suis allée（スイ・ザレ）: 動詞 allér（行く） の複合過去形", "audio": "/audio/0522/89_flcsq.m4a"},
   {"front": "まさにその通りです / 確かに", "back": "En effet ", "kana": "アン・ネフェ", "example": "強い同意や納得を示した相づち表現", "audio": "/audio/0522/90_flcsq.m4a"},
   {"front": "どうだった？ / いかがでしたか？", "back": "C'était comment ?", "kana": "セテ・コマン？", "example": "C'était：代名詞 ce（それ） ＋ 動詞 être（～である）の半過去形", "audio": "/audio/0522/91_flcsq.m4a"},
@@ -113,5 +113,12 @@
   {"front": "ストレスが溜まっているでしょう。 / プレッシャーを感じているよね。", "back": "Tu dois être stressé.", "kana": "テュ・ドワゼートル・ストレセ", "example": "「dois（～に違いない）」が入ることで、「きっと君、ストレスが溜まってるよね…」", "audio": "/audio/0522/111_flcsq.m4a"},
   {"front": "ホッとされたことでしょう。 / 安心なさったに違いありませんね。", "back": "Vous devez être soulagée.", "kana": "ヴ・ドゥヴェゼートル・スラジェ", "example": " soulagée（スラジェ）：ホッとした、安心した、救われた（動詞 soulager の過去分詞・女性形）", "audio": "/audio/0522/112_flcsq.m4a"},
   {"front": "そのことを、とても嬉しく思っています。 / それには大満足です。", "back": "J'en suis très content.", "kana": "ジャン・スュイ・トレ・コンタン", "example": "「Je suis content.」と言うよりも、「en（そのことについて）」が入ることで、「先ほどあなたが言ったこと」をしっかりと指し示す", "audio": "/audio/0522/113_flcsq.m4a"},
-  {"front": "彼は私（の言ったこと）を理解してくれました。 / 彼に話が通じました。", "back": "Il m'a compris.", "kana": "イル・マ・コンプリ", "example": "a + compris で複合過去形（～した）になります。「m'（私を）」と「a（動詞 avoir）」がエリジョン", "audio": "/audio/0522/114_flcsq.m4a"}
+  {"front": "彼は私（の言ったこと）を理解してくれました。 / 彼に話が通じました。", "back": "Il m'a compris.", "kana": "イル・マ・コンプリ", "example": "a + compris で複合過去形（～した）になります。「m'（私を）」と「a（動詞 avoir）」がエリジョン", "audio": "/audio/0522/114_flcsq.m4a"},
+  {"front": "あなたはその映画について話しているのですか？ はい、よくその話をします。", "back": "Vous parlez de ce film ?  Oui, j'en parle souvent.", "kana": "ヴ・パるレ・ドゥ・ス・フィルム？  ウィ、ジャン・パるる・スーヴァン", "example": "parler de ～　(～について話す）の「de + 物・事」を置き換えて、動詞の直前に en を置く", "audio": "/audio/0610/115_flcsq.m4a"},
+  {"front": "私の助けが必要なの？　うん、必要なんだ。", "back": "Tu as besoin de mon aide ?　Oui, j'en ai besoin.", "kana": "テュ・ア・ブゾワン・ドゥ・モネードゥ？　ウィ、ジャネ・ブゾワン", "example": "avoir besoin de ～（～が必要だ）　モネードゥ（mon aide）ジャネ（j'en ai）", "audio": "/audio/0610/116_flcsq.m4a"},
+  {"front": "私の助けが必要なの？　ううん、必要ないよ。", "back": "Tu as besoin de mon aide ?　Non, je n'en ai pas besoin.", "kana": "テュ・ア・ブゾワン・ドゥ・モネードゥ？　ノン、ジュ・ナンネ・パ・ブゾワン", "example": "ナンネ（n'en ai）と一気に繋がります（リエゾン）", "audio": "/audio/0610/117_flcsq.m4a"},
+  {"front": "あんたにはもううんざり！ / もうあなたには愛想が尽きたよ！", "back": "J'en ai marre de toi !", "kana": "ジャネ・マール・ドゥ・トワ！", "example": "avoir marre de ～（～にうんざりしている）en　はうんざりするような事柄すべて", "audio": "/audio/0610/118_flcsq.m4a"},
+  {"front": "（それを）いくつお望みですか？ /（それを）2ついただきます。", "back": "Combien en voulez-vous ?　J'en prendrai deux.", "kana": "コンビアン・ヌ・ヴレ・ヴ？　ジャン・プらンドゥレ・ドゥ", "example": "コンビアン・ヌ（Combien en）その場で意思を決めるとき、単純未来形、近接未来形を使う", "audio": "/audio/0610/119_flcsq.m4a"},
+  {"front": "怖がらないでください！ / 大丈夫ですよ！", "back": "N'ayez pas peur !", "kana": "ネイエ・パ・プール！", "example": "ne が ayez と合体して n'ayez （ネイエ）となっています。", "audio": "/audio/0610/120_flcsq.m4a"},
+  {"front": "それは知らなかった。/ 知りませんでした。", "back": "Je ne savais pas ça.", "kana": "ジュ・ヌ・サヴェ・パ・サ", "example": "半過去を使います。「知らなかった（状態だった）けれど、今それを聞いて初めて知った」というニュアンスになります。", "audio": "/audio/0610/121_flcsq.m4a"}
 ]
