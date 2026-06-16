@@ -122,11 +122,5 @@
   {"front": "怖がらないでください！ / 大丈夫ですよ！", "back": "N'ayez pas peur !", "kana": "ネイエ・パ・プール！", "example": "ne が ayez と合体して n'ayez （ネイエ）となっています。", "audio": "/audio/0610/120_flcsq.m4a"},
   {"front": "それは知らなかった。/ 知りませんでした。", "back": "Je ne savais pas ça.", "kana": "ジュ・ヌ・サヴェ・パ・サ", "example": "半過去を使います。「知らなかった（状態だった）けれど、今それを聞いて初めて知った」というニュアンスになります。", "audio": "/audio/0610/121_flcsq.m4a"},
   {"front": "ちょっと見てみますね/確認しておきます", "back": "Je vais regarder. ", "kana": " ジュ・ヴェ・ルガルデ", "example": "店員が商品を探す際の「ちょっと見て参ります」「チェックします」というニュアンス", "audio": "/audio/0610/122_flcsq.m4a"},
-  {"front": "次はうまくいくよ / 次は大丈夫だよ", "back": "Ça va aller la prochaine fois", "kana": "サ・ヴァ・アレ・ラ・プロシェン・フォワ", "example": "相手を励ますときに使うフレーズ。　Ça va allerそ：それはうまくいく", "audio": "/audio/0610/123_flcsq.m4a"},
-  {"front": "これから何するの？  この後どうする?", "back": "Qu'est-ce que tu vas faire maintenant ?", "kana": "ケス・ク・テュ・ヴァ・フェール・マントゥナン？", "example": "話をしている時点で極めて近い時の行為を表す　近接未来（aller ＋ 動詞の原形）", "audio": "/audio/0610/124_flcsq.m4a"},
-  {"front": "雨が降りそうです", "back": "Il va pleuvoir.", "kana": "イル・ヴァ・プルヴワール", "example": "これから雨が降るという近い未来の予定や兆候を表す。近接未来（aller ＋ 動詞の原形）", "audio": "/audio/0610/125_flcsq.m4a"},
-  {"front": "（今）雨が降っています <> （今）雨が降っています", "back": "Il pleut. <> Il va pleuvoir.", "kana": "イル・プルー <> イル・ヴァ・プルヴワール", "example": "現在進行形　<> 近接未来　の使い分け", "audio": "/audio/0610/126_flcsq.m4a"},
-  {"front": "え、何？ / 一体全体なにごと？", "back": "Quoi donc ?", "kana": "クワ・ドン？", "example": "donc の \"c\" は発音することが多いが、Quoi doncやDis donc(ディ・ドン ちょっとあなた)　では発音しない", "audio": "/audio/0610/127_flcsq.m4a"},
-  {"front": "そんなの誰にでもあることだ", "back": "Ça arrive à tout le monde.", "kana": "サ・アリーヴ・ア・トゥ・ル・モンド", "example": "arrive は動詞 arriver（起こる）の三人称単数　相手を慰めるときに使う、とても優しい言い方", "audio": "/audio/0610/128_flcsq.m4a"},
-  {"front": "あっ、しまった / うわ、やっちゃった / あー、残念  ", "back": "Ah, mince", "kana": "ア・マンス", "example": "mince は本来「細い」「薄い」という形容詞だが、そこから転じて 軽い罵り・驚きの感嘆詞として使われる", "audio": "/audio/0610/129_flcsq.m4a"}
+  {"front": "次はうまくいくよ / 次は大丈夫だよ", "back": "Ça va aller la prochaine fois", "kana": "サ・ヴァ・アレ・ラ・プロシェン・フォワ", "example": "相手を励ますときに使うフレーズ。　Ça va allerそ：それはうまくいく", "audio": "/audio/0610/123_flcsq.m4a"}
 ]
