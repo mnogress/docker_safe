@@ -128,5 +128,14 @@
   {"front": "（今）雨が降っています <> （今）雨が降っています", "back": "Il pleut. <> Il va pleuvoir.", "kana": "イル・プルー <> イル・ヴァ・プルヴワール", "example": "現在進行形　<> 近接未来　の使い分け", "audio": "/audio/0610/126_flcsq.m4a"},
   {"front": "え、何？ / 一体全体なにごと？", "back": "Quoi donc ?", "kana": "クワ・ドン？", "example": "donc の \"c\" は発音することが多いが、Quoi doncやDis donc(ディ・ドン ちょっとあなた)　では発音しない", "audio": "/audio/0610/127_flcsq.m4a"},
   {"front": "そんなの誰にでもあることだ", "back": "Ça arrive à tout le monde.", "kana": "サ・アリーヴ・ア・トゥ・ル・モンド", "example": "arrive は動詞 arriver（起こる）の三人称単数　相手を慰めるときに使う、とても優しい言い方", "audio": "/audio/0610/128_flcsq.m4a"},
-  {"front": "あっ、しまった / うわ、やっちゃった / あー、残念  ", "back": "Ah, mince", "kana": "ア・マンス", "example": "mince は本来「細い」「薄い」という形容詞だが、そこから転じて 軽い罵り・驚きの感嘆詞として使われる", "audio": "/audio/0610/129_flcsq.m4a"}
+  {"front": "あっ、しまった / うわ、やっちゃった / あー、残念  ", "back": "Ah, mince", "kana": "ア・マンス", "example": "mince は本来「細い」「薄い」という形容詞だが、そこから転じて 軽い罵り・驚きの感嘆詞として使われる", "audio": "/audio/0610/129_flcsq.m4a"},
+  {"front": "朝食をとったあと、私は出発する。", "back": "Après avoir pris le petit déjeuner, je pars.  ", "kana": "アプレ・ザヴォワール・プリ・ル・プティ・デジュネ、ジュ・パール", "example": "主語が同じで、主節より前に起きた動作 を不定法で表す。　avoir / etre の不定法 ＋ 過去分詞  で、～した後で", "audio": "/audio/0610/130_flcsq.m4a"},
+  {"front": "パリに着いたあと、両親に電話した。", "back": "Après être arrivé a Paris, j’ai appelé mes parents.", "kana": "アプレ・エートル・アリヴェ・ア・パリ、ジェ・アペレ・メ・パラン", "example": "主語が同じで、主節より前に起きた動作 を不定法で表す。　移動なので、être　を使う", "audio": "/audio/0610/131_flcsq.m4a"},
+  {"front": "食事をする前に、私は手を洗う。", "back": "Avant de manger, je me lave les mains.  ", "kana": "アヴァン・ドゥ・モンジェ、ジュ・ム・ラヴ・レ・マン", "example": "avant de + 動詞の不定法（動詞の原形）  → 「～する前に」", "audio": "/audio/0610/132_flcsq.m4a"},
+  {"front": "どうやってやったの？  ", "back": "Comment tu as fait ?  ", "kana": "コマン・テュ・ア・フェ", "example": "tu as fait = faire の複合過去　「え、マジで、どうやったの？」軽い感じ", "audio": "/audio/0610/133_flcsq.m4a"},
+  {"front": "天気予報を見ておくべきだった。", "back": "J’aurais dû regarder la météo.  ", "kana": "ジョレ・デュ・ルガルデ・ラ・メテオ", "example": "j’aurais dû は条件法過去で、「～すべきだった」 を表す定型表現（後悔を表す典型表現）", "audio": "/audio/0610/134_flcsq.m4a"},
+  {"front": "君の言うことを聞くべきだった。", "back": "J’aurais du t’ecouter.", "kana": "ジョレ・デュ・テクテ", "example": "j’aurais dû は条件法過去で、「～すべきだった」 を表す定型表現（後悔を表す典型表現）", "audio": "/audio/0610/135_flcsq.m4a"},
+  {"front": "びしょ濡れで帰ってきた。", "back": "Je suis rentrée toute mouillée.  ", "kana": "ジュ・スイ・ホントレ・トゥート・ムイエ", "example": "rentrer（帰る）の複合過去：être を使う　toute mouillée = すっかり濡れた（女性形）", "audio": "/audio/0610/136_flcsq.m4a"},
+  {"front": "もっと早く来るべきでした。 /  もっと早く来ればよかったのに。", "back": "Vous auriez dû venir plus tôt.  ", "kana": "ヴ・ゾレ・デュ・ヴニール・プリュ・トー", "example": "auriez dû = devoir の条件法過去　avoir（条件法）＋ dû（過去分詞）", "audio": "/audio/0610/137_flcsq.m4a"},
+  {"front": "それについて、あなたはどう思いますか。 ", "back": "Qu’en pensez-vous ?  ", "kana": "カン・ポンゼ・ヴ", "example": "penser à：～のことを考える <> penser de：～についてどう思う（意見を尋ねる）", "audio": "/audio/0610/138_flcsq.m4a"}
 ]

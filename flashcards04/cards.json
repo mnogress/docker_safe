@@ -137,5 +137,12 @@
   {"front": "君の言うことを聞くべきだった。", "back": "J’aurais du t’ecouter.", "kana": "ジョレ・デュ・テクテ", "example": "j’aurais dû は条件法過去で、「～すべきだった」 を表す定型表現（後悔を表す典型表現）", "audio": "/audio/0610/135_flcsq.m4a"},
   {"front": "びしょ濡れで帰ってきた。", "back": "Je suis rentrée toute mouillée.  ", "kana": "ジュ・スイ・ホントレ・トゥート・ムイエ", "example": "rentrer（帰る）の複合過去：être を使う　toute mouillée = すっかり濡れた（女性形）", "audio": "/audio/0610/136_flcsq.m4a"},
   {"front": "もっと早く来るべきでした。 /  もっと早く来ればよかったのに。", "back": "Vous auriez dû venir plus tôt.  ", "kana": "ヴ・ゾレ・デュ・ヴニール・プリュ・トー", "example": "auriez dû = devoir の条件法過去　avoir（条件法）＋ dû（過去分詞）", "audio": "/audio/0610/137_flcsq.m4a"},
-  {"front": "それについて、あなたはどう思いますか。 ", "back": "Qu’en pensez-vous ?  ", "kana": "カン・ポンゼ・ヴ", "example": "penser à：～のことを考える <> penser de：～についてどう思う（意見を尋ねる）", "audio": "/audio/0610/138_flcsq.m4a"}
+  {"front": "それについて、あなたはどう思いますか。 ", "back": "Qu’en pensez-vous ?  ", "kana": "カン・ポンゼ・ヴ", "example": "penser à：～のことを考える <> penser de：～についてどう思う（意見を尋ねる）", "audio": "/audio/0610/138_flcsq.m4a"},
+  {"front": "しまった、行きたかった（そうしたかった）んだけど、予定があるんだ。", "back": "Mince, j’aurais bien voulu mais, j'ai un rendez-vous.  ", "kana": "マンス、ジョレ・ビヤン ヴリュ・メ、ジェ・アン・ランデヴー", "example": "j’aurais bien voulu条件法過去（conditionnel passe）～したかったのに（できなかった）」という後悔", "audio": "/audio/0610/139_flcsq.m4a"},
+  {"front": "全部は理解できないかもしれないのが心配です。", "back": "J'ai peur de ne pas tout comprendre. ", "kana": "ジェ・プール・ドゥ・ヌ・パ・トゥ・コンプローンドル", "example": "J'ai peur de ～　de + 動詞の不定形 を続けて「～するのが不安」", "audio": "/audio/0610/140_flcsq.m4a"},
+  {"front": "「うまくいってる？」「順調？」", "back": "Tout se passe bien ?  ", "kana": "トゥ・ス・パス・ビヤン", "example": "se passer（代名動詞）　物事が進む・起こる", "audio": "/audio/0610/141_flcsq.m4a"},
+  {"front": "彼らはみんな来た。　全員来たよ。", "back": "Ils sont tous venus.  ", "kana": "イル・ソン・トゥ・ヴニュ", "example": "venir（来る）の複合過去　venir は 助動詞 être を使う動詞", "audio": "/audio/0610/142_flcsq.m4a"},
+  {"front": "「ハンカチ」<>「ティッシュ」", "back": "un mouchoir <> une serviette", "kana": "アン・ムショワール <> ユヌ・セルヴィエット", "example": "un mouchoir：鼻をかむ小さな布・紙 「ハンカチ／ティッシュ」<>une serviette：体を拭くタオル、食事のナプキン", "audio": "/audio/0610/143_flcsq.m4a"},
+  {"front": "皿拭き、台拭き <> 掃除用の雑巾", "back": "un torchon <> un chiffon", "kana": "アン・トルション <> アン・シフォン", "example": "torchon はキッチン、chiffon は古布・掃除・素材", "audio": "/audio/0610/144_flcsq.m4a"},
+  {"front": "彼らは君と同じくらいの数の漫画（BD）を持っている。", "back": "Ils ont autant de BD que toi. ", "kana": "イルゾン・オトン・ドゥ・ベーデー・クトワ", "example": "autant de A que B 「B と同じくらいの A」  BD（bande dessinée）漫画、コミック", "audio": "/audio/0610/145_flcsq.m4a"}
 ]
