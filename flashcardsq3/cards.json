@@ -144,5 +144,16 @@
   {"front": "彼らはみんな来た。　全員来たよ。", "back": "Ils sont tous venus.  ", "kana": "イル・ソン・トゥ・ヴニュ", "example": "venir（来る）の複合過去　venir は 助動詞 être を使う動詞", "audio": "/audio/0610/142_flcsq.m4a"},
   {"front": "「ハンカチ」<>「ティッシュ」", "back": "un mouchoir <> une serviette", "kana": "アン・ムショワール <> ユヌ・セルヴィエット", "example": "un mouchoir：鼻をかむ小さな布・紙 「ハンカチ／ティッシュ」<>une serviette：体を拭くタオル、食事のナプキン", "audio": "/audio/0610/143_flcsq.m4a"},
   {"front": "皿拭き、台拭き <> 掃除用の雑巾", "back": "un torchon <> un chiffon", "kana": "アン・トルション <> アン・シフォン", "example": "torchon はキッチン、chiffon は古布・掃除・素材", "audio": "/audio/0610/144_flcsq.m4a"},
-  {"front": "彼らは君と同じくらいの数の漫画（BD）を持っている。", "back": "Ils ont autant de BD que toi. ", "kana": "イルゾン・オトン・ドゥ・ベーデー・クトワ", "example": "autant de A que B 「B と同じくらいの A」  BD（bande dessinée）漫画、コミック", "audio": "/audio/0610/145_flcsq.m4a"}
+  {"front": "彼らは君と同じくらいの数の漫画（BD）を持っている。", "back": "Ils ont autant de BD que toi. ", "kana": "イルゾン・オトン・ドゥ・ベーデー・クトワ", "example": "autant de A que B 「B と同じくらいの A」  BD（bande dessinée）漫画、コミック", "audio": "/audio/0610/145_flcsq.m4a"},
+  {"front": "これは誰のですか?  私のです ", "back": "C’est à qui ?　C’est à moi.  ", "kana": "セタ・キ　セタ・モワ", "example": "Ce n’est pas à moi.（スネパ・ア・モワ：私のじゃありません）セタ のように聞こえるのがポイント", "audio": "/audio/0610/146_flcsq.m4a"},
+  {"front": "がんばって！、勇気を出して！", "back": "Courage !　", "kana": "クラージュ", "example": "英語の “You can do it!” “Hang in there!” に近い。", "audio": "/audio/0610/147_flcsq.m4a"},
+  {"front": "授業はうまくいってる？", "back": "Tes cours se passent bien ?", "kana": "テ・クール・ス・パス・ビヤン", "example": "se passent は「（物事が）進む・うまくいく」という意味　（再帰動詞）", "audio": "/audio/0610/148_flcsq.m4a"},
+  {"front": "駅へ行く道を尋ねたいのですが。", "back": "Je voudrais demander mon chemin pour aller à la gare.  ", "kana": "ジュ・ヴドレ・ドゥマンデ・モン・シュマン・プル・アレ・ア・ラ・ガール", "example": "demander son chemin（道を尋ねる）", "audio": "/audio/0610/149_flcsq.m4a"},
+  {"front": "ちょっと考えがあるんだ  実は思うところがあってね", "back": "Je pense à quelque chose. ", "kana": "ジュ・パンス・ア・コッシュ", "example": "penser à + 名詞  → 「～について考える」「～を思う」", "audio": "/audio/0610/150_flcsq.m4a"},
+  {"front": "日付を変えていた（かもしれない）変わったらしい", "back": "On aurait changé la date", "kana": "オン・ノレ・シャンジェ・ラ・ダット", "example": "avoir（条件法現在）＋ 過去分詞→ aurait changé（変えていた／変えたはずだ／変えたかもしれない）", "audio": "/audio/0610/151_flcsq.m4a"},
+  {"front": "新聞によると、試合は中止になったようだ。  ", "back": "Selon le journal, on aurait annulé le match. ", "kana": "スロン・ル・ジュルナル・オン・ノレ・アニュレ・ル・マッチ", "example": "Selon ～ = 「～によれば」　Selon la radio（ラジオによれば）　aurait = avoir（条件法現在）", "audio": "/audio/0610/152_flcsq.m4a"},
+  {"front": "当然だよ。 当たり前のことだよ", "back": "C’est tout naturel.  ", "kana": "セ・トゥ・ナチュレル", "example": "nature (ナチュレル)l = 「自然な」「当然の」", "audio": "/audio/0610/153_flcsq.m4a"},
+  {"front": "この鳥 <> この男", "back": "cet oiseau <> cet homme ", "kana": "セ・トワゾー <> セ・トム", "example": "この cet ->男性名詞で 母音・無音 h 始まり  cette voiture -> 女性名詞", "audio": "/audio/0610/154_flcsq.m4a"},
+  {"front": "この学校 <> この車 ", "back": "cette école <> cette voiture", "kana": "セット・エコール <> セット・ヴォワチュール", "example": "この cette -> 女性名詞  cette amie  → 女性名詞なので cette 母音始まりでも女性なら cet にはならない", "audio": "/audio/0610/155_flcsq.m4a"},
+  {"front": "これらの子どもたち <> これらの考え", "back": "ces enfants <> ces idées", "kana": "セ・ザンファン <> セ・ズィデ ", "example": "これらの ces 	-> 複数（男女共通）", "audio": "/audio/0610/156_flcsq.m4a"}
 ]
