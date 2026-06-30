@@ -69,6 +69,16 @@ excerpt: >
 | ils / elles	| <span class="bleu">prenn</span>ent	| プレンヌ |
 
 
+#### venir: (単数の語幹) vien- (複数の語幹) ven- / vienn-
+
+| 主語 | 活用形 | 読み方 | 
+| -- | -- | ----- | 
+| je	| <span class="bleu">vien</span>s |	ヴィアン |
+| tu	| <span class="bleu">vien</span>s |	ヴィアン |
+| il / elle / on	| <span class="bleu">vien</span>t |	ヴィアン |
+| nous |	<span class="bleu">ven</span>ons	| ヴノン |
+| vous |	<span class="bleu">ven</span>ez	| ヴネ　|
+| ils / elles |	<span class="bleu">vienn</span>ent	| ヴィエンヌ |
 
 ### 不規則動詞の直接法現在形｜（音声付き）
 
