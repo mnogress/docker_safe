@@ -153,7 +153,7 @@
   {"front": "日付を変えていた（かもしれない）変わったらしい", "back": "On aurait changé la date", "kana": "オン・ノレ・シャンジェ・ラ・ダット", "example": "avoir（条件法現在）＋ 過去分詞→ aurait changé（変えていた／変えたはずだ／変えたかもしれない）", "audio": "/audio/0610/151_flcsq.m4a"},
   {"front": "新聞によると、試合は中止になったようだ。  ", "back": "Selon le journal, on aurait annulé le match. ", "kana": "スロン・ル・ジュルナル・オン・ノレ・アニュレ・ル・マッチ", "example": "Selon ～ = 「～によれば」　Selon la radio（ラジオによれば）　aurait = avoir（条件法現在）", "audio": "/audio/0610/152_flcsq.m4a"},
   {"front": "当然だよ。 当たり前のことだよ", "back": "C’est tout naturel.  ", "kana": "セ・トゥ・ナチュレル", "example": "nature (ナチュレル)l = 「自然な」「当然の」", "audio": "/audio/0610/153_flcsq.m4a"},
-  {"front": "この鳥 <> この男", "back": "cet oiseau <> cet homme ", "kana": "セ・トワゾー <> セ・トム", "example": "この cet ->男性名詞で 母音・無音 h 始まり  cette voiture -> 女性名詞", "audio": "/audio/0610/154_flcsq.m4a"},
-  {"front": "この学校 <> この車 ", "back": "cette école <> cette voiture", "kana": "セット・エコール <> セット・ヴォワチュール", "example": "この cette -> 女性名詞  cette amie  → 女性名詞なので cette 母音始まりでも女性なら cet にはならない", "audio": "/audio/0610/155_flcsq.m4a"},
-  {"front": "これらの子どもたち <> これらの考え", "back": "ces enfants <> ces idées", "kana": "セ・ザンファン <> セ・ズィデ ", "example": "これらの ces -> 複数（男女共通）", "audio": "/audio/0610/156_flcsq.m4a"}
+  {"front": "この鳥 <> この男", "back": "cet oiseau <> cet homme ", "kana": "セ・トワゾー <> セ・トム", "example": "この cet→男性名詞で 母音・無音 h 始まり  cette voiture→ 女性名詞", "audio": "/audio/0610/154_flcsq.m4a"},
+  {"front": "この学校 <> この車 ", "back": "cette école <> cette voiture", "kana": "セット・エコール <> セット・ヴォワチュール", "example": "この cette→ 女性名詞  cette amie  → 女性名詞なので cette 母音始まりでも女性なら cet にはならない", "audio": "/audio/0610/155_flcsq.m4a"},
+  {"front": "これらの子どもたち <> これらの考え", "back": "ces enfants <> ces idées", "kana": "セ・ザンファン <> セ・ズィデ ", "example": "これらの ces → 複数（男女共通）", "audio": "/audio/0610/156_flcsq.m4a"}
 ]

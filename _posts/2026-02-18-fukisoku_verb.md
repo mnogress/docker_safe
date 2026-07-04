@@ -57,6 +57,28 @@ excerpt: >
 | **意味が広い動詞** | 用法が多く混乱しやすい | **mettre:** 置く、着る、入れる、始める、つける、時間がかかる<br>**tenir:** 持つ、守る、維持する、似ている、大切にする |
 
 
+#### prendre: (単数の語幹) prend- (複数の語幹) pren- / prenn-
+
+| 主語 | 活用形 | 読み方 | 
+| :-----  | :----       | :-----       |
+| je	| <span class="bleu">prend</span>s	| プラン（※鼻母音）|
+| tu	| <span class="bleu">prend</span>s	| プラン |
+| il / elle / on	| <span class="bleu">prend</span>	| プラン |
+| nous	| <span class="bleu">pren</span>ons	| プルノン |
+| vous	| <span class="bleu">pren</span>ez	| プルネ | 
+| ils / elles	| <span class="bleu">prenn</span>ent	| プレンヌ |
+
+
+#### venir: (単数の語幹) vien- (複数の語幹) ven- / vienn-
+
+| 主語 | 活用形 | 読み方 | 
+| -- | -- | ----- | 
+| je	| <span class="bleu">vien</span>s |	ヴィアン |
+| tu	| <span class="bleu">vien</span>s |	ヴィアン |
+| il / elle / on	| <span class="bleu">vien</span>t |	ヴィアン |
+| nous |	<span class="bleu">ven</span>ons	| ヴノン |
+| vous |	<span class="bleu">ven</span>ez	| ヴネ　|
+| ils / elles |	<span class="bleu">vienn</span>ent	| ヴィエンヌ |
 
 ### 不規則動詞の直接法現在形｜（音声付き）
 

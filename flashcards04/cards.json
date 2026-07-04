@@ -155,5 +155,12 @@
   {"front": "当然だよ。 当たり前のことだよ", "back": "C’est tout naturel.  ", "kana": "セ・トゥ・ナチュレル", "example": "nature (ナチュレル)l = 「自然な」「当然の」", "audio": "/audio/0610/153_flcsq.m4a"},
   {"front": "この鳥 <> この男", "back": "cet oiseau <> cet homme ", "kana": "セ・トワゾー <> セ・トム", "example": "この cet→男性名詞で 母音・無音 h 始まり  cette voiture→ 女性名詞", "audio": "/audio/0610/154_flcsq.m4a"},
   {"front": "この学校 <> この車 ", "back": "cette école <> cette voiture", "kana": "セット・エコール <> セット・ヴォワチュール", "example": "この cette→ 女性名詞  cette amie  → 女性名詞なので cette 母音始まりでも女性なら cet にはならない", "audio": "/audio/0610/155_flcsq.m4a"},
-  {"front": "これらの子どもたち <> これらの考え", "back": "ces enfants <> ces idées", "kana": "セ・ザンファン <> セ・ズィデ ", "example": "これらの ces → 複数（男女共通）", "audio": "/audio/0610/156_flcsq.m4a"}
+  {"front": "これらの子どもたち <> これらの考え", "back": "ces enfants <> ces idées", "kana": "セ・ザンファン <> セ・ズィデ ", "example": "これらの ces → 複数（男女共通）", "audio": "/audio/0610/156_flcsq.m4a"},
+  {"front": "「雪がちらついている」「雪が舞っている」", "back": "Il y a des flocons de neige. ", "kana": "イル・ヤ・デ・フロコン・ドゥ・ネージュ", "example": "もっと強い雪なら Il neige.（雪が降っている イル・ネージュ）", "audio": "/audio/0610/157_flcsq.m4a"},
+  {"front": "私は日曜日に自分の部屋で休みます。ゆっくり休む", "back": "Je me repose le dimanche dans ma chambre.", "kana": "ジュ・ム・ルポーズ・ル・ディマンシュ・ダン・マ・シャンブル", "example": "再帰動詞 se reposer（休む）「自分自身を休ませる」＝「休む」le dimanche = 毎週日曜日に", "audio": "/audio/0610/158_flcsq.m4a"},
+  {"front": "君はいつも僕（私）に負ける。", "back": "Tu perds toujours contre moi. ", "kana": "テュ・ペール・トゥジュール・コントル・モワ", "example": "Tu perds：動詞 perdre（失う／負ける）の二人称単数　語尾 -ds は発音しない", "audio": "/audio/0610/159_flcsq.m4a"},
+  {"front": "これらのスプーンを洗わなければならない。", "back": "Il faut laver ces cuillères.  ", "kana": "イル・フォ・ラヴェ・セ・キエール", "example": "cuilleres：cuillère（スプーン：発音は「キエール」）の複数形　ll が「イ」系の音になるのがポイント", "audio": "/audio/0610/160_flcsq.m4a"},
+  {"front": "ニースの天気はどうですか。 ", "back": "Quel temps fait-il à Nice ?  ", "kana": "ケル・タン・フェ・ティル・ア・ニース", "example": "Quel temps fait-il ?（天気を尋ねる定型表現）", "audio": "/audio/0610/161_flcsq.m4a"},
+  {"front": "もっと高いと思っていました。", "back": "Je croyais que c’etait plus cher.  ", "kana": "ジュ・クロワイ・ク・セテ・プリュ・シェール", "example": "Je croyais：未完了過去で「ジュ・クロワイ」　私は～と思っていた　c’etait は c’est の未完了過去", "audio": "/audio/0610/162_flcsq.m4a"},
+  {"front": "それを買うとき、少し迷いました。", "back": "J’ai douté un peu en l’achetant. ", "kana": "ジェ・ドゥテ・アン・プ・アン・ラシュトン", "example": "J’ai douté（迷った／疑った）複合過去　en l’achetant：それを買うときに　ジェロンディフ", "audio": "/audio/0610/163_flcsq.m4a"}
 ]
