@@ -162,5 +162,17 @@
   {"front": "これらのスプーンを洗わなければならない。", "back": "Il faut laver ces cuillères.  ", "kana": "イル・フォ・ラヴェ・セ・キエール", "example": "cuilleres：cuillère（スプーン：発音は「キエール」）の複数形　ll が「イ」系の音になるのがポイント", "audio": "/audio/0610/160_flcsq.m4a"},
   {"front": "ニースの天気はどうですか。 ", "back": "Quel temps fait-il à Nice ?  ", "kana": "ケル・タン・フェ・ティル・ア・ニース", "example": "Quel temps fait-il ?（天気を尋ねる定型表現）", "audio": "/audio/0610/161_flcsq.m4a"},
   {"front": "もっと高いと思っていました。", "back": "Je croyais que c’etait plus cher.  ", "kana": "ジュ・クロワイ・ク・セテ・プリュ・シェール", "example": "Je croyais：未完了過去で「ジュ・クロワイ」　私は～と思っていた　c’etait は c’est の未完了過去", "audio": "/audio/0610/162_flcsq.m4a"},
-  {"front": "それを買うとき、少し迷いました。", "back": "J’ai douté un peu en l’achetant. ", "kana": "ジェ・ドゥテ・アン・プ・アン・ラシュトン", "example": "J’ai douté（迷った／疑った）複合過去　en l’achetant：それを買うときに　ジェロンディフ", "audio": "/audio/0610/163_flcsq.m4a"}
+  {"front": "それを買うとき、少し迷いました。", "back": "J’ai douté un peu en l’achetant. ", "kana": "ジェ・ドゥテ・アン・プ・アン・ラシュトン", "example": "J’ai douté（迷った／疑った）複合過去　en l’achetant：それを買うときに　ジェロンディフ", "audio": "/audio/0610/163_flcsq.m4a"},
+  {"front": "ご安心ください／落ち着いてください", "back": "Soyez tranquille.", "kana": "ソワイエ・トランキーる", "example": "être の命令形（vous）＋ 形容詞の組み合わせ  　tu Sois ソワ  vous Soyez ソワイエ  nous Soyons ソワヨン", "audio": "/audio/0610/164_flcsq.m4a"},
+  {"front": "自信を持とう！／信頼しよう！／信じていこう！", "back": "Ayons confiance !  ", "kana": "エヨン・コンフィヤンス", "example": "avoir の命令形（nous）＋ 名詞 confiance の組み合わせ  tu Aie エ  vous Ayez エイエ   nous Ayons エヨン", "audio": "/audio/0610/165_flcsq.m4a"},
+  {"front": "君は諦めてはいけない／諦めちゃダメだよ", "back": "Tu ne dois pas abandonner.", "kana": "テュ・ヌ・ドゥア・パ・ザバンドネ", "example": "devoir（～しなければならない）を否定すると「～してはいけない」 になる", "audio": "/audio/0610/166_flcsq.m4a"},
+  {"front": "むかつく。／腹が立つ。", "back": "Ça m’agace. ", "kana": "サ・マガス", "example": "Ça（それ）＋ me（私を）＋ agacer（イライラさせる）", "audio": "/audio/0610/167_flcsq.m4a"},
+  {"front": "イライラする。／腹が立つ。／ムカつく。", "back": "Ça m’enerve.", "kana": "サ・メネルヴ", "example": "agacer より強めで、感情が高ぶっているニュアンス。", "audio": "/audio/0610/168_flcsq.m4a"},
+  {"front": "困る。／気まずい。／恥ずかしい。／迷惑だ。", "back": "Ça me gêne. ", "kana": "サ・ム・ジェンヌ", "example": "gêner = 困らせる／気まずくさせる／迷惑をかける", "audio": "/audio/0610/169_flcsq.m4a"},
+  {"front": "気になる。／迷惑だ。／困る。／邪魔だ。", "back": "Ça me dérange", "kana": "サ・ム・デランジュ", "example": "それは私を困らせる／邪魔する」というニュアンスで、不快感はあるけれど強すぎない、日常的に使える表現です。", "audio": "/audio/0610/170_flcsq.m4a"},
+  {"front": "心にしみる。／感動する。／胸を打たれる。／うれしい。", "back": "Ça me touche", "kana": "サ・ム・トゥシュ", "example": "toucher = 触れる／心を動かす　英語の to touch (emotionally) に近い意味。", "audio": "/audio/0610/171_flcsq.m4a"},
+  {"front": "面倒だ／悩ましい／うんざりする", "back": "Ça m’embete", "kana": "サ・マンベット", "example": "embeter = 困らせる／悩ませる／うんざりさせる　英語の to bother / to annoy (lightly) に近い意味。", "audio": "/audio/0610/172_flcsq.m4a"},
+  {"front": "安心する／ほっとする", "back": "Ça me rassure", "kana": "サ・ム・ラスュール", "example": "rassurer = 安心させる／落ち着かせる　英語の to reassure に近い意味。", "audio": "/audio/0610/173_flcsq.m4a"},
+  {"front": "驚く。／意外だ。／びっくりする。", "back": "Ça me surprend", "kana": "サ・ム・シュルプラン", "example": "surprendre = 驚かせる　英語の to surprise とほぼ同じ。", "audio": "/audio/0610/174_flcsq.m4a"},
+  {"front": "心配だ。／不安だ。／気がかりだ。", "back": "Ça m’inquiète", "kana": "サ・マンキエット", "example": "inquieter = 心配させる／不安にさせる　英語の to worry / to make someone anxious に近い意味", "audio": "/audio/0610/175_flcsq.m4a"}
 ]
