@@ -174,5 +174,10 @@
   {"front": "面倒だ／悩ましい／うんざりする", "back": "Ça m’embete", "kana": "サ・マンベット", "example": "embeter = 困らせる／悩ませる／うんざりさせる　英語の to bother / to annoy (lightly) に近い意味。", "audio": "/audio/0610/172_flcsq.m4a"},
   {"front": "安心する／ほっとする", "back": "Ça me rassure", "kana": "サ・ム・ラスュール", "example": "rassurer = 安心させる／落ち着かせる　英語の to reassure に近い意味。", "audio": "/audio/0610/173_flcsq.m4a"},
   {"front": "驚く。／意外だ。／びっくりする。", "back": "Ça me surprend", "kana": "サ・ム・シュルプラン", "example": "surprendre = 驚かせる　英語の to surprise とほぼ同じ。", "audio": "/audio/0610/174_flcsq.m4a"},
-  {"front": "心配だ。／不安だ。／気がかりだ。", "back": "Ça m’inquiète", "kana": "サ・マンキエット", "example": "inquieter = 心配させる／不安にさせる　英語の to worry / to make someone anxious に近い意味", "audio": "/audio/0610/175_flcsq.m4a"}
+  {"front": "心配だ。／不安だ。／気がかりだ。", "back": "Ça m’inquiète", "kana": "サ・マンキエット", "example": "inquieter = 心配させる／不安にさせる　英語の to worry / to make someone anxious に近い意味", "audio": "/audio/0610/175_flcsq.m4a"},
+  {"front": "理解するのに時間がかかった", "back": "J’ai mis du temps à comprendre.", "kana": "ジェ・ミ・デュ・タン・ア・コンプローンドル", "example": "mettre du temps à ~  　～するのに時間がかかる", "audio": "/audio/0610/176_flcsq.m4a"},
+  {"front": " 雨が降り始める", "back": "Il se met à pleuvoir.", "kana": "イル・ス・メ・ア・プルヴォワール:", "example": "se mettre à + 不定詞 = ～し始める", "audio": "/audio/0610/177_flcsq.m4a"},
+  {"front": "ここに来るのにどれだけ時間がかかりますか？", "back": "Vous mettez combien de temps pour venir ici ?", "kana": "ヴ・メテ・コンビアン・ドゥ・タン・プール・ヴニール・イシ？", "example": "mettre du temps = 時間がかかる　　pour + 不定詞 = ～するために", "audio": "/audio/0610/178_flcsq.m4a"},
+  {"front": "彼女は背筋を伸ばして立っている。  ", "back": "Elle se tient droite.  ", "kana": "エル・ス・ティヤン・ドロワット", "example": "se tenir = 姿勢・位置・振る舞いを保つ（代名動詞）", "audio": "/audio/0610/179_flcsq.m4a"},
+  {"front": "めっちゃ笑った / 爆笑", "back": "Mdr = Mort de rire", "kana": "エム・デー・エール  モール・ドゥ・リール", "example": "感嘆詞的に単独で使う Mdr j’en peux plus.（笑、もう無理）", "audio": "/audio/0610/180_flcsq.m4a"}
 ]
