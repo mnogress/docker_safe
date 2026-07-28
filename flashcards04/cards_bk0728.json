@@ -179,5 +179,15 @@
   {"front": " 雨が降り始める", "back": "Il se met à pleuvoir.", "kana": "イル・ス・メ・ア・プルヴォワール:", "example": "se mettre à + 不定詞 = ～し始める", "audio": "/audio/0610/177_flcsq.m4a"},
   {"front": "ここに来るのにどれだけ時間がかかりますか？", "back": "Vous mettez combien de temps pour venir ici ?", "kana": "ヴ・メテ・コンビアン・ドゥ・タン・プール・ヴニール・イシ？", "example": "mettre du temps = 時間がかかる　　pour + 不定詞 = ～するために", "audio": "/audio/0610/178_flcsq.m4a"},
   {"front": "彼女は背筋を伸ばして立っている。  ", "back": "Elle se tient droite.  ", "kana": "エル・ス・ティヤン・ドロワット", "example": "se tenir = 姿勢・位置・振る舞いを保つ（代名動詞）", "audio": "/audio/0610/179_flcsq.m4a"},
-  {"front": "めっちゃ笑った / 爆笑", "back": "Mdr = Mort de rire", "kana": "エム・デー・エール  モール・ドゥ・リール", "example": "感嘆詞的に単独で使う Mdr j’en peux plus.（笑、もう無理）", "audio": "/audio/0610/180_flcsq.m4a"}
+  {"front": "めっちゃ笑った / 爆笑", "back": "Mdr = Mort de rire", "kana": "エム・デー・エール  モール・ドゥ・リール", "example": "感嘆詞的に単独で使う Mdr j’en peux plus.（笑、もう無理）", "audio": "/audio/0610/180_flcsq.m4a"},
+  {"front": "あなたはますます気分が良くなっています。", "back": "Vous vous sentez de mieux en mieux. ", "kana": "ヴ・ヴ・ソンテ・ドゥ・ミュー・ザン・ミュー", "example": "Vous vous sentez （自分が～と感じる） の 二人称複数・丁寧形", "audio": "/audio/0610/181_flcsq.m4a"},
+  {"front": "誰も私の荷物がどこにあるのか知らない。", "back": "Personne ne sait où sont mes bagages. ", "kana": "ペルソン・ヌ・セ・トゥ・ソン・メ・バガージュ", "example": "Personne ne sait = 誰も知らない　　Nobody knows where my luggage is.  と同じ構造。", "audio": "/audio/0610/182_flcsq.m4a"},
+  {"front": "これは典型的なフランス料理です。", "back": "C’est un plat typiquement français.  ", "kana": "セ・タン・プラ・ティピクモン・フランセ", "example": "français = フランスの / フランス人の / フランス語の", "audio": "/audio/0610/183_flcsq.m4a"},
+  {"front": "皿に盛られた一品 / 食事（行為) / 料理 ・台所", "back": "le plat / le repas / la cuisine", "kana": "ル・プラ / ル・ルパ / ラ・キュイジーヌ", "example": "un plat principal（メイン料理) / un repas léger（軽い食事) / une recette de cuisine（料理レシピ）", "audio": "/audio/0610/184_flcsq.m4a"},
+  {"front": "雨が降っている。それなのに、彼らは走っている。", "back": "Il pleut. Pourtant, ils courent.  ", "kana": "イル・プル・プルタン・イル・クーラン", "example": "Pourtant（それにもかかわらず: プルタン）文頭に置いて逆接を表す英語の however / yet / nevertheless に近い", "audio": "/audio/0610/185_flcsq.m4a"},
+  {"front": "雨にもかかわらず、彼らは走っている。", "back": "Ils courent malgré la pluie.", "kana": "イル・クーラン・マルグレ・ラ・プルイ", "example": "malgré：名詞を伴う前置詞 →「～にもかかわらず」", "audio": "/audio/0610/186_flcsq.m4a"},
+  {"front": "で、どの電車に乗る？", "back": "De coup, on prend quel train ?", "kana": "ドゥク・オン・プラン・ケルトラン", "example": "De coup 「じゃあ」「でさ」「それで」 のような軽いつなぎ言葉", "audio": "/audio/0610/187_flcsq.m4a"},
+  {"front": "突然、彼は走り出した。", "back": "Tout a coup, il à commence a courir.  ", "kana": "トゥ・タク・イル・ア・コマンセ・ア・クリール", "example": "Tout a coup（トゥ・タク）　副詞句で「突然」「不意に」文頭・文中どちらにも置ける", "audio": "/audio/0610/188_flcsq.m4a"},
+  {"front": "それについて、あなたはどう思いますか。", "back": "Vous en pensez quoi ?", "kana": "ヴ・ザン・パンセ・クワ", "example": "「de＋名詞」を置き換える  例：Vous pensez de ce film quoi ? → Vous en pensez quoi ?", "audio": "/audio/0610/189_flcsq.m4a"},
+  {"front": "それについてどう思いますか", "back": "Tu en penses quoi ?", "kana": "チュ・アン・パンセ・クワ", "example": "親しい相手  疑問語（quoi）を最後に置くカジュアルな語順がよく使われます。", "audio": "/audio/0610/190_flcsq.m4a"}
 ]

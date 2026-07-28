@@ -187,7 +187,16 @@
   {"front": "雨が降っている。それなのに、彼らは走っている。", "back": "Il pleut. Pourtant, ils courent.  ", "kana": "イル・プル・プルタン・イル・クーラン", "example": "Pourtant（それにもかかわらず: プルタン）文頭に置いて逆接を表す英語の however / yet / nevertheless に近い", "audio": "/audio/0610/185_flcsq.m4a"},
   {"front": "雨にもかかわらず、彼らは走っている。", "back": "Ils courent malgré la pluie.", "kana": "イル・クーラン・マルグレ・ラ・プルイ", "example": "malgré：名詞を伴う前置詞 →「～にもかかわらず」", "audio": "/audio/0610/186_flcsq.m4a"},
   {"front": "で、どの電車に乗る？", "back": "De coup, on prend quel train ?", "kana": "ドゥク・オン・プラン・ケルトラン", "example": "De coup 「じゃあ」「でさ」「それで」 のような軽いつなぎ言葉", "audio": "/audio/0610/187_flcsq.m4a"},
-  {"front": "突然、彼は走り出した。", "back": "Tout a coup, il à commence a courir.  ", "kana": "トゥ・タク・イル・ア・コマンセ・ア・クリール", "example": "Tout a coup（トゥ・タク）　副詞句で「突然」「不意に」文頭・文中どちらにも置ける", "audio": "/audio/0610/188_flcsq.m4a"},
+  {"front": "突然、彼は走り出した。", "back": "Tout à coup, il a commencé à courir.  ", "kana": "トゥ・タク・イル・ア・コマンセ・ア・クリール", "example": "Tout à coup（トゥ・タク）　副詞句で「突然」「不意に」文頭・文中どちらにも置ける", "audio": "/audio/0610/188_flcsq.m4a"},
   {"front": "それについて、あなたはどう思いますか。", "back": "Vous en pensez quoi ?", "kana": "ヴ・ザン・パンセ・クワ", "example": "「de＋名詞」を置き換える  例：Vous pensez de ce film quoi ? → Vous en pensez quoi ?", "audio": "/audio/0610/189_flcsq.m4a"},
-  {"front": "それについてどう思いますか", "back": "Tu en penses quoi ?", "kana": "チュ・アン・パンセ・クワ", "example": "親しい相手  疑問語（quoi）を最後に置くカジュアルな語順がよく使われます。", "audio": "/audio/0610/190_flcsq.m4a"}
+  {"front": "それについてどう思いますか", "back": "Tu en penses quoi ?", "kana": "チュ・アン・パンセ・クワ", "example": "親しい相手  疑問語（quoi）を最後に置くカジュアルな語順がよく使われます。", "audio": "/audio/0610/190_flcsq.m4a"},
+  {"front": "私はもっと働きたい気持ちがある／前よりもっと働きたい。", "back": "J'ai encore plus envie de travailler.", "kana": "ジェ・アンコル・プリュ・ザンヴィ・ドゥ・トラヴァイエ", "example": "avoir envie de + 動詞  ＝「～したい気持ちがある」「～したくなる」encore plus で「さらにもっと」", "audio": "/audio/0610/191_flcsq.m4a"},
+  {"front": "彼はダイエットしている／食事制限をしている。", "back": "Il fait un régime.  ", "kana": "イル・フェ・アン・レジーム", "example": "un régime（レジーム）食事制限、ダイエット、減量のための食事法　　政治体制という意味もある。", "audio": "/audio/0610/192_flcsq.m4a"},
+  {"front": "毎週火曜日、私は競技場で練習していた。", "back": "Tous les mardis, je m'entrainais au stade.", "kana": "トゥ・レ・マルディ・ジュ・モントレネ・オ・スタッド", "example": "s’entrainer（練習する） の半過去形（imparfait）半過去は「習慣」「繰り返し」「継続」を表す。", "audio": "/audio/0610/193_flcsq.m4a"},
+  {"front": "仕事で何度かニースに行ったことがある。", "back": "Je suis allé plusieurs fois à Nice pour le travail. ", "kana": "ジュ・スイ・ザレ・プリュズール・フォワ・ア・ニース・プール・ル・トラヴァイユ", "example": "je suis allé（私は行った）　plusieurs fois（何度か）", "audio": "/audio/0610/194_flcsq.m4a"},
+  {"front": "私はよく泳ぎに行っていた／泳ぎに行くのが習慣だった。", "back": "J’avais l’habitude d’aller nager. ", "kana": "ジャヴェ・ラビチュード・ダレ・ナジェ", "example": "avoir l’habitude de + 不定詞  ＝～する習慣がある／～するのが常だった　avais は半過去（imparfait）\n→ 過去の習慣・繰り返しを表す", "audio": "/audio/0610/195_flcsq.m4a"},
+  {"front": "私はヨガをします。健康に良いからです。", "back": "Je pratique le yoga parce que c’est bon pour la santé.", "kana": "ジュプラティク・ルヨガ・パルスク・セボン・ボン・プールラ・サンテ", "example": "c’est bon pour ～（～に良い）", "audio": "/audio/0610/196_flcsq.m4a"},
+  {"front": "いい（良い）ものもあるよ。", "back": "Il y en a des bons.", "kana": "イルイナ・デボン", "example": "Tu connais des restaurants ? → Il y en a des bons. 「レストラン知ってる？」→「いいのがあるよ。」", "audio": "/audio/0610/197_flcsq.m4a"},
+  {"front": "私はまだいくつかの書類が足りない。", "back": "Il me manque encore plusieurs documents.  ", "kana": "イルムマンク・アンコール・プリュズィヨールドキュマン", "example": "Il me manque ～（私には～が不足している）", "audio": "/audio/0610/198_flcsq.m4a"},
+  {"front": "はい、そのとおりです。 ", "back": "Oui, c’est ça.", "kana": "ウィ・セッ・サ", "example": "相手の理解や答えが正しいときに使う", "audio": "/audio/0610/199_flcsq.m4a"}
 ]
