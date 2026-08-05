@@ -194,12 +194,21 @@
   {"front": "彼はダイエットしている／食事制限をしている。", "back": "Il fait un régime.  ", "kana": "イル・フェ・アン・レジーム", "example": "un régime（レジーム）食事制限、ダイエット、減量のための食事法　　政治体制という意味もある。", "audio": "/audio/0610/192_flcsq.m4a"},
   {"front": "毎週火曜日、私は競技場で練習していた。", "back": "Tous les mardis, je m'entrainais au stade.", "kana": "トゥ・レ・マルディ・ジュ・モントレネ・オ・スタッド", "example": "s’entrainer（練習する） の半過去形（imparfait）半過去は「習慣」「繰り返し」「継続」を表す。", "audio": "/audio/0610/193_flcsq.m4a"},
   {"front": "仕事で何度かニースに行ったことがある。", "back": "Je suis allé plusieurs fois à Nice pour le travail. ", "kana": "ジュ・スイ・ザレ・プリュズール・フォワ・ア・ニース・プール・ル・トラヴァイユ", "example": "je suis allé（私は行った）　plusieurs fois（何度か）", "audio": "/audio/0610/194_flcsq.m4a"},
-  {"front": "私はよく泳ぎに行っていた／泳ぎに行くのが習慣だった。", "back": "J’avais l’habitude d’aller nager. ", "kana": "ジャヴェ・ラビチュード・ダレ・ナジェ", "example": "avoir l’habitude de + 不定詞  ＝～する習慣がある／～するのが常だった　avais は半過去（imparfait）\n→ 過去の習慣・繰り返しを表す", "audio": "/audio/0610/195_flcsq.m4a"},
+  {"front": "私はよく泳ぎに行っていた／泳ぎに行くのが習慣だった。", "back": "J’avais l’habitude d’aller nager. ", "kana": "ジャヴェ・ラビチュード・ダレ・ナジェ", "example": "avoir l’habitude de + 不定詞  ＝～する習慣がある／～するのが常だった　avais は半過去（imparfait）→ 過去の習慣・繰り返しを表す", "audio": "/audio/0610/195_flcsq.m4a"},
   {"front": "私はヨガをします。健康に良いからです。", "back": "Je pratique le yoga parce que c’est bon pour la santé.", "kana": "ジュプラティク・ルヨガ・パルスク・セボン・ボン・プールラ・サンテ", "example": "c’est bon pour ～（～に良い）", "audio": "/audio/0610/196_flcsq.m4a"},
   {"front": "いい（良い）ものもあるよ。", "back": "Il y en a des bons.", "kana": "イルイナ・デボン", "example": "Tu connais des restaurants ? → Il y en a des bons. 「レストラン知ってる？」→「いいのがあるよ。」", "audio": "/audio/0610/197_flcsq.m4a"},
   {"front": "私はまだいくつかの書類が足りない。", "back": "Il me manque encore plusieurs documents.  ", "kana": "イルムマンク・アンコール・プリュズィヨールドキュマン", "example": "Il me manque ～（私には～が不足している）", "audio": "/audio/0610/198_flcsq.m4a"},
   {"front": "はい、そのとおりです。 ", "back": "Oui, c’est ça.", "kana": "ウィ・セッ・サ", "example": "相手の理解や答えが正しいときに使う", "audio": "/audio/0610/199_flcsq.m4a"},
   {"front": "日付を知らせてください", "back": "Veuillez me faire savoir la date.", "kana": "ヴェイユ・ミ・フェール・サヴワール・ラ・ダット", "example": "me faire savoir＝「私に知らせる」", "audio": "/audio/0610/200_flcsq.m4a"},
   {"front": "友人・同僚向けの「知らせてね」", "back": "Fais-moi savoir.", "kana": "フェ・モワ・サヴワール", "example": "カジュアルに言いたい場合", "audio": "/audio/0610/201_flcsq.m4a"},
-  {"front": "じゃあ、決まりだ。/　それじゃ、決定だね。", "back": "Alors, c’est décidé.", "kana": "アロール・セ・デシデ", "example": "c’est + 過去分詞 「～が決まった」という状態を表す決まり表現　C’est fini.　終わった", "audio": "/audio/0610/202_flcsq.m4a"}
+  {"front": "じゃあ、決まりだ。/　それじゃ、決定だね。", "back": "Alors, c’est décidé.", "kana": "アロール・セ・デシデ", "example": "c’est + 過去分詞 「～が決まった」という状態を表す決まり表現　C’est fini.　終わった", "audio": "/audio/0610/202_flcsq.m4a"},
+  {"front": "私は腕時計をなくしました。どこにも見つかりません。", "back": "J’ai perdu ma montre. Je ne la trouve nulle part.  ", "kana": "ジェ・ペルデュ・マ・モントル ジュ・ヌ・ラ・トルーヴ・ニュル・パール", "example": "ne … nulle part  →「どこにも～ない」ne … pas の「場所版」の否定。", "audio": "/audio/0610/203_flcsq.m4a"},
+  {"front": "今、私は以前よりもっと働いています。", "back": "Maintenant, je travaille encore plus qu'avant. ", "kana": "マン・トゥノン・ジュ・トラヴァイユ・アンコール・プリュス・カヴォン", "example": "encore plus  →「さらにもっと」 qu'avant  →「以前より", "audio": "/audio/0610/204_flcsq.m4a"},
+  {"front": "登録しなければなりません。", "back": "Il faut s’enregistrer.", "kana": "イル・フォ・ソンレジストレ", "example": "s’enregistrer  →「登録する」「記録する」再帰代名詞 se（s’） がつくことで「自分を登録する」という意味", "audio": "/audio/0610/205_flcsq.m4a"},
+  {"front": "そのうちわかるよ、全部うまくいくよ。", "back": "Tu vas voir, tout va s’arranger.", "kana": "テュ・ヴァ・ヴォワール・トゥ・ヴァ・サランジェ", "example": "s’arranger  →「うまくいく」「収まる」「解決する」再帰代名詞 se（s’） がついて「物事が自然に整う」という意味", "audio": "/audio/0610/206_flcsq.m4a"},
+  {"front": "辛抱強くしていなさい、いつかすべてが変わるよ。", "back": "Sois patient, un jour tout changera.  ", "kana": "ソワ・パシアン・アン・ジュール・トゥ・シャンジュラ", "example": "Sois は être（～である）の 2人称単数の命令形  →「～でいなさい」", "audio": "/audio/0610/207_flcsq.m4a"},
+  {"front": "彼は、もう来るなと言っている。", "back": "Il dit de ne plus venir.  ", "kana": "イル・ディ・ドゥ・ヌ・プリュ・ヴニール", "example": "Il dit de 不定詞 →「彼は～するように言う」　ne … plus  →「もう～しない」", "audio": "/audio/0610/208_flcsq.m4a"},
+  {"front": "あなたはメダルを狙っていますか？", "back": "Est-ce que vous visez une médaille ?", "kana": "ス・ク・ヴ・ヴィゼ・ユヌ・メダイユ", "example": "visez：動詞 viser（狙う）の直説法現在・2人称複数", "audio": "/audio/0610/209_flcsq.m4a"},
+  {"front": "彼らは自分たちを信じています／彼らは自信があります", "back": "Ils ont confiance en eux. ", "kana": "イル・ゾン・コンフィアンス・アン・ヌー", "example": "ont：動詞 avoir（持つ）の三人称複数→「彼らは～を持っている」", "audio": "/audio/0610/210_flcsq.m4a"},
+  {"front": "彼はうまくやりました／彼は成功しました", "back": "Il a bien réussi.", "kana": "イル・ア・ビヤン・レウスィ", "example": "réussi（成功した）　動詞 réussir の 複合過去（過去分詞）  →「成功した」「うまくいった」", "audio": "/audio/0610/211_flcsq.m4a"}
 ]
