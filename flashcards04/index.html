@@ -239,6 +239,15 @@ button {
   text-align: left;
 }
   </style>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js', {
+      scope: '/flashcards04/'
+    });
+  }
+</script>
+
 </head>
 
 <body>
