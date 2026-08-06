@@ -1,0 +1,1 @@
+const CACHE_VERSION = 'v3'; // ← ここを変えるだけで更新される
