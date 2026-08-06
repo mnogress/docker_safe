@@ -1,1 +1,1 @@
-const CACHE_VERSION = 'v3'; // ← ここを変えるだけで更新される
+const CACHE_VERSION = 'v4'; // ← ここを変えるだけで更新される
