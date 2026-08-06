@@ -3,12 +3,12 @@
   "short_name": "Flashcards",
   "icons": [
     {
-      "src": "flashcards04/icons/flash_192.png",
+      "src": "/flashcards04/icons/flash_192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "flashcards04/icons/flash_512.png",
+      "src": "/flashcards04/icons/flash_512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
