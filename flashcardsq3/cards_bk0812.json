@@ -210,5 +210,12 @@
   {"front": "彼は、もう来るなと言っている。", "back": "Il dit de ne plus venir.  ", "kana": "イル・ディ・ドゥ・ヌ・プリュ・ヴニール", "example": "Il dit de 不定詞 →「彼は～するように言う」　ne … plus  →「もう～しない」", "audio": "/audio/0610/208_flcsq.m4a"},
   {"front": "あなたはメダルを狙っていますか？", "back": "Est-ce que vous visez une médaille ?", "kana": "ス・ク・ヴ・ヴィゼ・ユヌ・メダイユ", "example": "visez：動詞 viser（狙う）の直説法現在・2人称複数", "audio": "/audio/0610/209_flcsq.m4a"},
   {"front": "彼らは自分たちを信じています／彼らは自信があります", "back": "Ils ont confiance en eux. ", "kana": "イル・ゾン・コンフィアンス・アン・ヌー", "example": "ont：動詞 avoir（持つ）の三人称複数→「彼らは～を持っている」", "audio": "/audio/0610/210_flcsq.m4a"},
-  {"front": "彼はうまくやりました／彼は成功しました", "back": "Il a bien réussi.", "kana": "イル・ア・ビヤン・レウスィ", "example": "réussi（成功した）　動詞 réussir の 複合過去（過去分詞）  →「成功した」「うまくいった」", "audio": "/audio/0610/211_flcsq.m4a"}
+  {"front": "彼はうまくやりました／彼は成功しました", "back": "Il a bien réussi.", "kana": "イル・ア・ビヤン・レウスィ", "example": "réussi（成功した）　動詞 réussir の 複合過去（過去分詞）  →「成功した」「うまくいった」", "audio": "/audio/0610/211_flcsq.m4a"},
+  {"front": "やりすぎるな！／張り切りすぎないで！", "back": "N'en fais pas trop ! ", "kana": "ノン・アン・フェ・パ・トロ", "example": "N'en fais pas  → ne … pas：否定, en：量・内容を「それ」と受ける代名詞 fais：faire（する）の命令形（tu に対する）", "audio": "/audio/0610/212_flcsq.m4a"},
+  {"front": "今日はゆっくり休んでね", "back": "Repose-toi bien aujourd'hui.", "kana": "ルポズ・トワ・ビヤン・オジュルデュイ", "example": "reposer（休む） の tu に対する命令形  代名詞 toi が後ろにつくことで「自分を休ませる＝休む」の意味になる", "audio": "/audio/0610/213_flcsq.m4a"},
+  {"front": "今日はゆっくりお休みください／今日はしっかり休んでください", "back": "Reposez-vous bien aujourd'hui.", "kana": "ルポゼ・ヴ・ビヤン・オジュルデュイ", "example": "reposez-vous bien で「しっかり休んでください」という優しいニュアンス", "audio": "/audio/0610/214_flcsq.m4a"},
+  {"front": "自分を大事にしてね、体に気をつけてね", "back": "Prends soin de toi.  ", "kana": "プラン・ソワン・ドゥ・トワ", "example": "prendre soin de ～  →「～を大事にする」「～のケアをする」という定型表現。Take care に近いニュアンス", "audio": "/audio/0610/215_flcsq.m4a"},
+  {"front": "お体を大切にしてください／ご自愛ください", "back": "Prenez soin de vous", "kana": "プルネ・ソワン・ドゥ・ヴ", "example": "prendre soin de ～  →「～を大事にする」「～のケアをする」という定型表現。Take care of yourself（丁寧版）に近い", "audio": "/audio/0610/216_flcsq.m4a"},
+  {"front": "しっかり治してね！／お大事にね！", "back": "Soigne-toi bien !", "kana": "ソワニュ・トワ・ビヤン", "example": "se soigner 健康に気を付ける、養生する　英語の Get well soonに近い", "audio": "/audio/0610/217_flcsq.m4a"},
+  {"front": "どうぞお大事になさってください／しっかり治してください", "back": "Soignez-vous bien !", "kana": "ソワニェ・ヴ・ビヤン", "example": "se soigner 健康に気を付ける、養生する　英語の Please take good care of yourself ", "audio": "/audio/0610/218_flcsq.m4a"}
 ]
