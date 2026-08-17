@@ -5,7 +5,7 @@ header:
   overlay_image: images/header_fr50_1280by336.png
   overlay_filter: rgba(228, 29, 39, 0.34)
   cta_label: "devoir を含んだフラッシュカード(音声・読み方付き)を試す"
-  cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
+  cta_url: "https://southwiseman.blog/flashcards04/?v=100"
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 

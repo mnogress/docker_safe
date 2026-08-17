@@ -5,7 +5,7 @@ header:
   overlay_image: images/header_a5_1280by336.png
   overlay_filter: rgba(124, 211, 84, 0.20)
   cta_label: "🚀 復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
-  cta_url: "https://southwiseman.blog/flashcardsq3/?v=100"
+  cta_url: "https://southwiseman.blog/flashcards04/?v=100"
 toc: True
 toc_label: "目次"
 toc_icon: "heart" 
