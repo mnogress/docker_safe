@@ -5,11 +5,18 @@ permalink: /français/vocabulaire/
 header:
   overlay_image: "/images/header_fr51_1280by336.png"
   overlay_filter: rgba(12, 99, 100, 0.20) 
+  cta_label: "🍎復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+  cta_url: "https://southwiseman.blog/flashcards04/?v=100"
 toc: false
 author_profile: true
 toc: false
 sidebar:
   nav: "docs"
+excerpt_separator: <!--more-->
+excerpt: >
+
+  このカテゴリでは、初心者がまず覚えるべき基本語彙をテーマ別に整理しています。**食べ物から、形容詞全般、ちょっとマニアックな単語**など、日常でよく使う単語を例文と音声とともに学べます。
+
 ---
 
 ## 🍎 語彙（Vocabulaire）

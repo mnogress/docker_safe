@@ -2,7 +2,16 @@
 layout: single
 title: フランス語カテゴリー一覧
 permalink: /français/
+cta_label: "🍎復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+cta_url: "https://southwiseman.blog/flashcards04/?v=100"
 toc: false
+
+excerpt_separator: <!--more-->
+excerpt: >
+
+  このページでは、SouthWiseMan’s Blog のフランス語学習コンテンツを  
+  カテゴリ別にまとめています。
+
 ---
 
 ## フランス語カテゴリー一覧

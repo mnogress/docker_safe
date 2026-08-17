@@ -5,12 +5,21 @@ permalink: /français/grammaire/
 header:
   overlay_image: "/images/header_fr30_1280by336.png"
   overlay_filter: rgba(12, 99, 100, 0.20) 
+  cta_label: "🍎復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+  cta_url: "https://southwiseman.blog/flashcards04/?v=100"
 toc: false
 author_profile: true
 toc: false
 sidebar:
   nav: "docs"
+excerpt_separator: <!--more-->
+excerpt: >
+
+  このカテゴリでは、フランス語の基本文法を**日本語話者向けにわかりやすく整理**しています。
+  代名動詞・前置詞・文の構造など、初心者が混乱しやすいポイントを例文とともに、繰り返し聞いて学べるよう音声も加えて、丁寧に解説します。
+
 ---
+<!--more-->
 
 ## 🧩 文法（Grammaire）
 

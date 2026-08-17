@@ -4,11 +4,19 @@ title: 発音（Prononciation）
 permalink: /français/prononciation/
 header:
   overlay_image: "/images/header_fr29_1280by336.png"
-  overlay_filter: rgba(12, 99, 100, 0.20)  
+  overlay_filter: rgba(12, 99, 100, 0.20) 
+  cta_label: "🍎復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+  cta_url: "https://southwiseman.blog/flashcards04/?v=100" 
 author_profile: true
 toc: false
 sidebar:
   nav: "docs"
+excerpt_separator: <!--more-->
+excerpt: >
+
+  このカテゴリでは、日本語話者が特につまずきやすいフランス語の発音を、
+  **音声つきで体系的に学べます。** 鼻母音・リエゾン・子音の読み方など、独学では理解しにくいポイントをやさしく解説しています。
+
 ---
 
 ## 🔤 発音（Prononciation）

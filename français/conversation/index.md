@@ -5,11 +5,18 @@ permalink: /français/conversation/
 header:
   overlay_image: "/images/header_fr50_1280by336.png"
   overlay_filter: rgba(12, 99, 100, 0.20) 
+  cta_label: "🍎復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+  cta_url: "https://southwiseman.blog/flashcards04/?v=100"
 toc: false
 author_profile: true
 toc: false
 sidebar:
   nav: "docs"
+excerpt_separator: <!--more-->
+excerpt: >
+
+  このカテゴリでは、日常でそのまま使えるフランス語の会話表現を、**音声つき、読み方つき** で状況別にわかりやすく紹介しています。挨拶・誘い・断り方など、自然なコミュニケーションに役立つフレーズを学べます。
+
 ---
 
 ## 🗣️ 会話（Conversation）

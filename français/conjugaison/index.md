@@ -5,11 +5,18 @@ permalink: /français/conjugaison/
 header:
   overlay_image: "/images/header_fr49_1280by336.png"
   overlay_filter: rgba(12, 99, 100, 0.20) 
+  cta_label: "🍎復習にピッタリ フラッシュカード(音声・読み方付き)を試す"
+  cta_url: "https://southwiseman.blog/flashcards04/?v=100"
 toc: false
 author_profile: true
 toc: false
 sidebar:
   nav: "docs"
+excerpt_separator: <!--more-->
+excerpt: >
+
+  このカテゴリでは、**-er / -ir / -re 動詞**から**不規則動詞**まで、フランス語の動詞活用を体系的に学べます。音声つきの例文を通して、「読める・言える・使える」活用力を身につけることを目指します。
+
 ---
 
 ## 🔁 動詞活用（Conjugaison）
