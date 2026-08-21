@@ -38,11 +38,11 @@
   {"front": "何の話ですか？", "back": "De quoi parles‑vous ?", "kana": "ドゥコア・パルレ・ヴ？", "example": "英語の What are you talking about? と全く同じイメージ", "audio": "/audio/0132/07_cliche.m4a"},
   {"front": "いつでも電話してね、いい？", "back": "Appelle-moi quand tu veux, d'accord ?", "kana": "アペル・モァ・カンテュ・ヴゥ、ダコール？", "example": "Envoie-moi un message quand tu veux.いつでも好きなときにメッセージ送って", "audio": "/audio/0132/08_cliche.m4a"},
   {"front": "私の気が向いたときに（いつでも）連絡するね", "back": "Je t'appellerai quand je veux.", "kana": "ジュ・タペル・カン・ジュ・ヴゥ", "example": "「私が電話したいときに電話する」＝「すべては私の気分（都合）次第」", "audio": "/audio/0132/09_cliche.m4a"},
-  {"front": "またすぐにお会いしましょう！", "back": "À très vite!", "kana": "ア・トレ・ヴィッㇳ！", "example": "英語の See you very soon! にぴったり対応", "audio": "/audio/0132/0a_cliche.m4a"},
+  {"front": "またすぐにお会いしましょう！", "back": "À très vite!", "kana": "ア・トレ・ヴィッㇳ！", "example": "とても早い時期に（会いましょう）という慣用的な挨拶表現", "audio": "/audio/0132/0a_cliche.m4a"},
   {"front": "またすぐ会いましょう。", "back": "On se voit bientôt.", "kana": "オン・ス・ヴォワ・ビエントゥト", "example": "英語の See you soon. や We’ll see each other soon. にぴったり対応", "audio": "/audio/0132/0b_cliche.m4a"},
   {"front": "じゃあね！", "back": "À plus tard!", "kana": "ア・プル・タール！", "example": "英語の See you later! や Catch you later! にぴったり対応", "audio": "/audio/0132/0c_cliche.m4a"},
-  {"front": "それが見えますか？", "back": "Est-ce que vous le voyez?", "kana": "エッス・ク・ヴ・ル・ヴォワイエ？", "example": "英語の Do you see it/him? にぴったり対応", "audio": "/audio/0132/0d_cliche.m4a"},
-  {"front": "問題ないです。", "back": "Pas de souci.", "kana": "パ・ドゥ・スシ", "example": "英語の No problem や No worries と全く同じ感覚", "audio": "/audio/0132/0e_cliche.m4a"},
+  {"front": "それが見えますか？", "back": "Est-ce que vous le voyez?", "kana": "エッス・ク・ヴ・ル・ヴォワイエ？", "example": "voyez（ヴォワイエ）  voir の二人称複数（vous）に対応する活用形", "audio": "/audio/0132/0d_cliche.m4a"},
+  {"front": "問題ないです。", "back": "Pas de souci.", "kana": "パ・ドゥ・スシ", "example": "souci（心配、気がかり）が 否定されて  → 心配がない → 心配いらない", "audio": "/audio/0132/0e_cliche.m4a"},
   {"front": "君を誇りに思うよ。", "back": "Je suis fier de toi.", "kana": "ジュ・スイ・フィエール・ドゥ・トワ", "example": "英語の “I am proud of you.” に完全に一致", "audio": "/audio/0132/0f_cliche.m4a"},
   {"front": "恥を知れ！", "back": "Tu es honteux.", "kana": "テュ・エ・ オントゥー", "example": "「人格そのもの」を否定するような重い響き", "audio": "/audio/0132/0g_cliche.m4a"},
   {"front": "私は忙しいです。", "back": "Je suis occupé.", "kana": "ジュ・スイゾキュペ", "example": "Ecris-moi quand tu veux.（いつでもメッセージしてね）も覚えるといい", "audio": "/audio/0132/0h_cliche.m4a"},
@@ -230,5 +230,9 @@
   {"front": "私は犬が好きです（犬のほうを好みます）、なぜなら彼らは忠実だからです。", "back": "Je prèfère les chiens parce qu'ils sont fidèles.", "kana": "ジュ・プレフェール・レ・シヤン・パルスキル・ソン・フィデル", "example": "parce qu'　なぜなら～だから後ろに理由を導く節が続く。ils sont fidèles", "audio": "/audio/0610/228_flcsq.m4a"},
   {"front": "彼は当時ここで練習していた。", "back": "Il s'entraînait ici à cette époque.", "kana": "イル・サントレネ・ティスィ・ア・セッタポック", "example": "Il s'entrainait　s’entraîner（再帰動詞）＝練習する、訓練するの半過去", "audio": "/audio/0610/229_flcsq.m4a"},
   {"front": "以前、私たちは決して勝つことがなかった。", "back": "Avant, nous ne gagnions jamais. ", "kana": "アヴァン・ヌ・ネガニヨン・ジャメ", "example": "nous ne gagnions（ヌ・ネガニヨン）gagner（勝つ） の imparfait（半過去）", "audio": "/audio/0610/230_flcsq.m4a"},
-  {"front": "あなたたちはそれに慣れていた。", "back": "Vous en aviez l’habitude.  ", "kana": "ヴ・ザナヴィエ・ラビチュード", "example": "aviez＝avoir の imparfait（半過去）avoir l’habitude de ～＝「～に慣れている」", "audio": "/audio/0610/231_flcsq.m4a"}
+  {"front": "あなたたちはそれに慣れていた。", "back": "Vous en aviez l’habitude.  ", "kana": "ヴ・ザナヴィエ・ラビチュード", "example": "aviez＝avoir の imparfait（半過去）avoir l’habitude de ～＝「～に慣れている」", "audio": "/audio/0610/231_flcsq.m4a"},
+  {"front": "雨が降ると思う？", "back": "Tu penses qu'il pleuvra ?", "kana": "テュ・パンス・キル・プルヴラ", "example": "qu’il pleuvra(キル・プルヴラ) は「雨が降るだろう」という未来の予測。", "audio": "/audio/0610/232_flcsq.m4a"},
+  {"front": "駅はどこにありますか？", "back": "Où se trouve la gare ?", "kana": "ウ・ス・トルーヴ・ラ・ガール", "example": "Où + se trouve + 名詞 ～ →　～はどこにありますか？　定例文", "audio": "/audio/0610/233_flcsq.m4a"},
+  {"front": "私たちは鳥を見るために隠れる", "back": "On se cache pour regarder les oiseaux", "kana": "オン・ス・キャシュ・プール・ルガルデ・レ・オワゾー", "example": "On se cache＝ 私たちは隠れる  les oiseaux は「レ・オワゾー」リエゾンしない", "audio": "/audio/0610/234_flcsq.m4a"},
+  {"front": "私たちは環境を守るのが難しい（苦手だ／うまくできない）。", "back": "Nous avons du mal à protéger l’environnement", "kana": "ヌ・ザヴォン・デュ・マル・ア・プロテジェ・ランヴィロヌモン", "example": "avoir du mal à ～  ＝～するのが難しい/～に苦労する　l’environnement → ランヴィロヌモン", "audio": "/audio/0610/235_flcsq.m4a"}
 ]
