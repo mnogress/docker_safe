@@ -246,5 +246,13 @@
   {"front": "<ナプキン> / <テーブルクロス>", "back": "une serviette / une nappe", "kana": "ユヌ・セルヴィエット / ユヌ・ナップ", "example": "Peux-tu mettre la nappe sur la table ?  プチュ・メットル・ラ・ナップ・スュル・ラ・ターブル", "audio": "/audio/0610/244_flcsq.m4a"},
   {"front": "彼は熱があるので、気分が悪い。", "back": "Il a de la fièvre donc il se sent mal.", "kana": "イル・ア・ドゥ・ラ・フィエーヴル・ドンク・イル・ス・ソン・マル", "example": "熱がある＝ avoir de la fièvre   se sentir（自分が～と感じる） il se sent = 彼は～と感じる", "audio": "/audio/0610/245_flcsq.m4a"},
   {"front": "いつから熱がありますか。", "back": "Vous avez de la fièvre depuis quand ?", "kana": "ヴ・ザヴェ・ドゥ・ラ・フィエーヴル・ドゥピ・カン", "example": "depuis quand　「いつから？」という意味の定番表現　会話では文末が自然", "audio": "/audio/0610/246_flcsq.m4a"},
-  {"front": "上の方ですか、それとも下の方ですか。", "back": "Vers le haut ou vers le bas ?", "kana": "ヴェール・ル・オー・ウ・ヴェール・ル・バ", "example": "痛みの場所、地図、位置説明など方向を尋ねるとき", "audio": "/audio/0610/247_flcsq.m4a"}
+  {"front": "上の方ですか、それとも下の方ですか。", "back": "Vers le haut ou vers le bas ?", "kana": "ヴェール・ル・オー・ウ・ヴェール・ル・バ", "example": "痛みの場所、地図、位置説明など方向を尋ねるとき", "audio": "/audio/0610/247_flcsq.m4a"},
+  {"front": "<掃除全般; 家事> / <対象をきれいにする>", "back": "faire le ménage /  nettoyer ", "kana": "フェール・ル・メナージュ / ネトワイエ", "example": "Je dois faire le menage aujourd’hui. 今日は掃除しないといけない Il faut nettoyer la salle de bain.浴室をきれいにしないといけない", "audio": "/audio/0610/248_flcsq.m4a"},
+  {"front": "後戻りしなければならない／元に戻る必要がある", "back": "Il faut revenir en arrière", "kana": "イルフォ・ルヴニル・アンナリエール", "example": "revenir(ルヴニル)「戻る」「帰る」「引き返す」、en arriere(アンナリエール)「後ろへ」「後方へ」「後戻りして」", "audio": "/audio/0610/249_flcsq.m4a"},
+  {"front": "椅子がないので立っていなければならない", "back": "Il n’y a pas de chaises alors il faut rester debout.", "kana": "イルニアパドゥ・シェーズ・アロール・イルフォ・レステ・ドゥブ", "example": "alors（だから／それで） rester debout（立っている）", "audio": "/audio/0610/250_flcsq.m4a"},
+  {"front": "私は自由に生きたい", "back": "Je veux vivre libre", "kana": "ジュヴ・ヴィーヴル・リーブル", "example": "vivre  「生きる」「暮らす」; je vis / tu vis / il vit / nous vivons / vous vivez / ils vivent", "audio": "/audio/0610/251_flcsq.m4a"},
+  {"front": "ヨガのおかげで、以前より体が柔らかい", "back": "Grâce au yoga, je suis plus souple qu’avant.", "kana": "グラスオ・ヨガ・ジュスイ・プリュ・スープル・カヴァン", "example": "Grâce a ～（～のおかげで）ポジティブな原因　souple（柔らかい／柔軟な）　qu’avant（以前より）", "audio": "/audio/0610/252_flcsq.m4a"},
+  {"front": "体を伸ばすために、腕を空に向かって上げて", "back": "Pour t’étirer, lève les bras vers le ciel", "kana": "プール・テティレ・レヴ・レ・ブラ・ヴェール・ル・シエル", "example": "s’etirer（体を伸ばす／ストレッチする）lève（上げて）vers le ciel（空に向かって）", "audio": "/audio/0610/253_flcsq.m4a"},
+  {"front": "それはおそらく虫刺されです。", "back": "Ce sont sans doute piqûres d’insectes.", "kana": "スソン・サンドゥート・ピキュール・ダンセクト", "example": "Ce sont ans doute ～　それはおそらく～である　piqûre（ピキュール）＝「刺し傷」「注射」「虫刺され」", "audio": "/audio/0610/254_flcsq.m4a"},
+  {"front": "誰も私の荷物がどこにあるのか知らない。", "back": "Personne ne sait où sont mes bagages. ", "kana": "ペルソンヌ・ヌ・セ・ウソン・メ・バガージュ", "example": "Personne ne sait.（誰も知らない）où sont mes bagages（私の荷物がどこにあるのか）", "audio": "/audio/0610/255_flcsq.m4a"}
 ]

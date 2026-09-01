@@ -253,6 +253,11 @@
   {"front": "私は自由に生きたい", "back": "Je veux vivre libre", "kana": "ジュヴ・ヴィーヴル・リーブル", "example": "vivre  「生きる」「暮らす」; je vis / tu vis / il vit / nous vivons / vous vivez / ils vivent", "audio": "/audio/0610/251_flcsq.m4a"},
   {"front": "ヨガのおかげで、以前より体が柔らかい", "back": "Grâce au yoga, je suis plus souple qu’avant.", "kana": "グラスオ・ヨガ・ジュスイ・プリュ・スープル・カヴァン", "example": "Grâce a ～（～のおかげで）ポジティブな原因　souple（柔らかい／柔軟な）　qu’avant（以前より）", "audio": "/audio/0610/252_flcsq.m4a"},
   {"front": "体を伸ばすために、腕を空に向かって上げて", "back": "Pour t’étirer, lève les bras vers le ciel", "kana": "プール・テティレ・レヴ・レ・ブラ・ヴェール・ル・シエル", "example": "s’etirer（体を伸ばす／ストレッチする）lève（上げて）vers le ciel（空に向かって）", "audio": "/audio/0610/253_flcsq.m4a"},
-  {"front": "それはおそらく虫刺されです。", "back": "Ce sont sans doute piqûres d’insectes.", "kana": "スソン・サンドゥート・ピキュール・ダンセクト", "example": "Ce sont ans doute ～　それはおそらく～である　piqûre（ピキュール）＝「刺し傷」「注射」「虫刺され」", "audio": "/audio/0610/254_flcsq.m4a"},
-  {"front": "誰も私の荷物がどこにあるのか知らない。", "back": "Personne ne sait où sont mes bagages. ", "kana": "ペルソンヌ・ヌ・セ・ウソン・メ・バガージュ", "example": "Personne ne sait.（誰も知らない）où sont mes bagages（私の荷物がどこにあるのか）", "audio": "/audio/0610/255_flcsq.m4a"}
+  {"front": "それはおそらく虫刺されです。", "back": "Ce sont sans doute piqûres d’insectes.", "kana": "スソン・サンドゥート・ピキュール・ダンセクト", "example": "Ce sont sans doute ～　それはおそらく～である　piqûre（ピキュール）＝「刺し傷」「注射」「虫刺され」", "audio": "/audio/0610/254_flcsq.m4a"},
+  {"front": "誰も私の荷物がどこにあるのか知らない。", "back": "Personne ne sait où sont mes bagages. ", "kana": "ペルソンヌ・ヌ・セ・ウソン・メ・バガージュ", "example": "Personne ne sait.（誰も知らない）où sont mes bagages（私の荷物がどこにあるのか）", "audio": "/audio/0610/255_flcsq.m4a"},
+  {"front": "私はフランスのワインに興味があります", "back": "Je m'intéresse au vin français.", "kana": "ジュ・マンテレッス・オ・ヴァンフランセ", "example": "s'interesser a は「～に興味を持つ」という再帰動詞  à + le = au に縮約", "audio": "/audio/0610/256_flcsq.m4a"},
+  {"front": "私は作業場（アトリエ）に入ってもいいですか。", "back": "Est-ce que je peux entrer dans l’atelier ?  ", "kana": "エス・ク・ジュ・ペ・アン・トレ・ダン・ラトリエ", "example": "Est-ce que peux ～　～していいですか　許可を求める", "audio": "/audio/0610/257_flcsq.m4a"},
+  {"front": " 「喜んで」「もちろんです」「どういたしまして」", "back": "Avec plaisir  ", "kana": "アヴェク・プレジール", "example": "Avec の語末 c は「ク」とはっきり発音  plaisir の s は濁って「ズ」", "audio": "/audio/0610/258_flcsq.m4a"},
+  {"front": "毎朝、起きたらテレビでニュースを見ます。", "back": "Chaque matin, quand je me réveille, je regarde les infos à la télévision.", "kana": "シャク・マタン、カン・ジュ・ム・レヴェイユ、ジュ・ルガルド・レ・ザンフ・ア・ラ・テレヴィズィオン", "example": "quand je me réveille(カン・ジュ・ム・レヴェイユ)　私が目覚めるとき／起きたら", "audio": "/audio/0610/259_flcsq.m4a"},
+  {"front": "もしあなたがご都合よければ、明日お会いしたいです。", "back": "Si vous etes disponible, j'aimerais vous voir demain. ", "kana": "スィ・ヴ・ゼット・ディスポニーブル、ジャメレ・ヴ・ヴワール・ドゥマン", "example": "j’aimerais(ジャメレ)：私は～したいのですが（控えめで丁寧）条件法現在", "audio": "/audio/0610/260_flcsq.m4a"}
 ]
