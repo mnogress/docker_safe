@@ -258,6 +258,6 @@
   {"front": "私はフランスのワインに興味があります", "back": "Je m'intéresse au vin français.", "kana": "ジュ・マンテレッス・オ・ヴァンフランセ", "example": "s'interesser a は「～に興味を持つ」という再帰動詞  à + le = au に縮約", "audio": "/audio/0610/256_flcsq.m4a"},
   {"front": "私は作業場（アトリエ）に入ってもいいですか。", "back": "Est-ce que je peux entrer dans l’atelier ?  ", "kana": "エス・ク・ジュ・ペ・アン・トレ・ダン・ラトリエ", "example": "Est-ce que peux ～　～していいですか　許可を求める", "audio": "/audio/0610/257_flcsq.m4a"},
   {"front": " 「喜んで」「もちろんです」「どういたしまして」", "back": "Avec plaisir  ", "kana": "アヴェク・プレジール", "example": "Avec の語末 c は「ク」とはっきり発音  plaisir の s は濁って「ズ」", "audio": "/audio/0610/258_flcsq.m4a"},
-  {"front": "毎朝、起きたらテレビでニュースを見ます。", "back": "Chaque matin, quand je me réveille, je regarde les infos à la télévision.", "kana": "シャク・マタン、カン・ジュ・ム・レヴェイユ、ジュ・ルガルド・レ・ザンフ・ア・ラ・テレヴィズィオン", "example": "quand je me réveille(カン・ジュ・ム・レヴェイユ)　私が目覚めるとき／起きたら", "audio": "/audio/0610/259_flcsq.m4a"},
-  {"front": "もしあなたがご都合よければ、明日お会いしたいです。", "back": "Si vous etes disponible, j'aimerais vous voir demain. ", "kana": "スィ・ヴ・ゼット・ディスポニーブル、ジャメレ・ヴ・ヴワール・ドゥマン", "example": "j’aimerais(ジャメレ)：私は～したいのですが（控えめで丁寧）条件法現在", "audio": "/audio/0610/260_flcsq.m4a"}
+  {"front": "毎朝、起きたらテレビでニュースを見ます。", "back": "Chaque matin, quand je me réveille, je regarde les infos à la télé.", "kana": "シャク・マタン・カン・ジュ・ム・レヴェイユ・ジュ・ルガルド・レ・ザンフ・ア・ラ・テレ", "example": "quand je me réveille　私が目覚めるとき", "audio": "/audio/0610/259_flcsq.m4a"},
+  {"front": "もしあなたがご都合よければ、明日お会いしたいです。", "back": "Si vous êtes disponible, j'aimerais vous voir demain. ", "kana": "スィ・ヴ・ゼット・ディスポニーブル、ジャメレ・ヴ・ヴワール・ドゥマン", "example": "j’aimerais(ジャメレ)：私は～したいのですが（控えめで丁寧）条件法現在", "audio": "/audio/0610/260_flcsq.m4a"}
 ]
