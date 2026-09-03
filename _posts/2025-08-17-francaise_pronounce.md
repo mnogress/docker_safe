@@ -74,93 +74,93 @@ excerpt: >
 <tr>
 <td><span class="noir4">au</span></td>
 <td><span class="bleu">オ</span> </td>
-<td><span class="rouge_1">au</span> revoir 「オー・ルヴォワール」(さようなら)<br>m<span class="rouge_1">au</span>vais「モヴェ」 (悪い)<br>
-g<span class="rouge_1">au</span>che「ゴーシュ」 (左)</td>
+<td><span class="rouge_1">au</span> revoir (オー・ルヴォワール)「さようなら」<br>m<span class="rouge_1">au</span>vais (モヴェ) 「悪い」<br>
+g<span class="rouge_1">au</span>che (ゴーシュ) 「左」</td>
 </tr>
 <tr>
 <td><span class="noir4">eau</span></td>
 <td><span class="bleu">オ</span> </td>
-<td> b<span class="rouge_1">eau</span>coup 「ボクー」(たくさんの)<br> b<span class="rouge_1">eau</span> / b<span class="rouge_1">eau</span>x「ボ」(美しい㊚ 単/複)</td>
+<td> b<span class="rouge_1">eau</span>coup (ボクー)「たくさんの」<br> b<span class="rouge_1">eau</span> / b<span class="rouge_1">eau</span>x (ボ)「美しい㊚ 単/複」</td>
 </tr>
 <tr>
 <td><span class="noir4">ou</span></td>
 <td><span class="bleu">ウ</span> </td>
-<td>beauc<span class="rouge_1">ou</span>p 「ボクー」(たくさんの)<br> bonj<span class="rouge_1">ou</span>r「ボンジュール」(こんにちは)<br>
-n<span class="rouge_1">ou</span>veau / n<span class="rouge_1">ou</span>velle「ヌーボー㊚ / ヌーベル㊛」(新しい)</td>
+<td>beauc<span class="rouge_1">ou</span>p (ボクー)「たくさんの」<br> bonj<span class="rouge_1">ou</span>r (ボンジュール)「こんにちは」<br>
+n<span class="rouge_1">ou</span>veau / n<span class="rouge_1">ou</span>velle (ヌーボー㊚ / ヌーベル㊛)「新しい」</td>
 </tr>
 <tr>
 <td><span class="noir4">oi</span></td>
 <td><span class="bleu">ワ</span> </td>
-<td>v<span class="rouge_1">oi</span>là「ヴォワラ」(ほら)<br> au rev<span class="rouge_1">oi</span>r「オー・ルヴォワール」(さようなら)<br>
-fr<span class="rouge_1">oi</span>d / fr<span class="rouge_1">oi</span>de「フロワ㊚ / フロワド㊛」(寒い)
+<td>v<span class="rouge_1">oi</span>là (ヴォワラ)「ほら」<br> au rev<span class="rouge_1">oi</span>r (オー・ルヴォワール)「さようなら」<br>
+fr<span class="rouge_1">oi</span>d / fr<span class="rouge_1">oi</span>de (フロワ㊚ / フロワド㊛)「寒い」
 </td>
 </tr>
 <tr>
 <td><span class="noir4">ei</span></td>
 <td><span class="bleu">エ</span> </td>
-<td>la m<span class="rouge_1">ei</span>rie「ラ・メリ」(市役所)<br> la n<span class="rouge_1">ei</span>ge「ラ・ネージェ」(雪)</td>
+<td>la m<span class="rouge_1">ei</span>rie (ラ・メリ)「市役所」<br> la n<span class="rouge_1">ei</span>ge (ラ・ネージェ)「雪」</td>
 </tr>
 <tr>
 <td><span class="noir4">in</span></td>
 <td><span class="bleu">アン</span> </td>
-<td>le v<span class="rouge_1">in</span>「ル・ヴァン」(ワイン)<br>le mat<span class="rouge_1">in</span>「ル・マタン」(朝)<br>
-l<span class="rouge_1">in</span>ge à laver「ラーンジェ・ア・ラヴェ」(洗濯物)</td>
+<td>le v<span class="rouge_1">in</span> (ル・ヴァン)「ワイン」<br>le mat<span class="rouge_1">in</span> (ル・マタン)「朝」<br>
+l<span class="rouge_1">in</span>ge à laver (ラーンジェ・ア・ラヴェ)「洗濯物」</td>
 </tr>
 <tr>
 <td><span class="noir4">im</span></td>
 <td><span class="bleu">アン</span> </td>
-<td>s<span class="rouge_1">im</span>ple「サンプール」(簡単な)<br> <span class="rouge_1">im</span>possible「アンポスィブル」(不可能な)</td>
+<td>s<span class="rouge_1">im</span>ple (サンプール)「簡単な」<br> <span class="rouge_1">im</span>possible (アンポスィブル)「不可能な」</td>
 </tr>
 <tr>
 <td><span class="noir4">ain</span></td>
 <td><span class="bleu">アン</span> </td>
-<td>la p<span class="rouge_1">ain</span>「ラ・パン」(パン)<br>le tr<span class="rouge_1">ain</span>「ル・トラン」(電車)</td>
+<td>la p<span class="rouge_1">ain</span> (ラ・パン)「パン」<br>le tr<span class="rouge_1">ain</span> (ル・トラン)「電車」</td>
 </tr>
 <tr>
 <td><span class="noir4">aim</span></td>
 <td><span class="bleu">アン</span> </td>
-<td>avoir f<span class="rouge_1">aim</span>「アヴォワ　ファン」(お腹が空いている)</td>
+<td>avoir f<span class="rouge_1">aim</span> (アヴォワ　ファン)「お腹が空いている」</td>
 </tr>
 <tr>
 <td><span class="noir4">ein</span></td>
 <td><span class="bleu">アン</span> </td>
-<td>le p<span class="rouge_1">ein</span>tre「ル・パントゥル」(画家)<br>pl<span class="rouge_1">ein</span>「プラン㊚」(いっぱいの)</td>
+<td>le p<span class="rouge_1">ein</span>tre (ル・パントゥル)「画家」<br>pl<span class="rouge_1">ein</span> (プラン㊚)「いっぱいの」</td>
 </tr>
 <tr>
 <td><span class="noir4">om</span></td>
 <td><span class="bleu">オン</span> </td>
-<td>c<span class="rouge_1">om</span>bien「コンビヤン」(いくら)<br>c<span class="rouge_1">om</span>prendre「コンプラーンドル」(理解する)<br>
-t<span class="rouge_1">om</span>ber「トンベ」(倒れる)
+<td>c<span class="rouge_1">om</span>bien (コンビヤン)「いくら」<br>c<span class="rouge_1">om</span>prendre (コンプラーンドル)「理解する」<br>
+t<span class="rouge_1">om</span>ber (トンベ)「倒れる」
 </td>
 </tr>
 <tr>
 <td><span class="noir4">il</span></td>
 <td><span class="bleu">イユ</span> </td>
-<td>la f<span class="rouge_1">il</span>le「ラ・フィーユ」(娘)<br>la feu<span class="rouge_1">il</span>le「ラ・フイユ」(葉)</td>
+<td>la f<span class="rouge_1">il</span>le (ラ・フィーユ)「娘」<br>la feu<span class="rouge_1">il</span>le (ラ・フイユ)「葉」</td>
 </tr>
 <tr>
 <td><span class="noir4">ail</span></td>
 <td><span class="bleu">アユ</span> </td>
-<td>le trav<span class="rouge_1">ail</span>le「ル・トラバユ」(仕事)<br>le m<span class="rouge_1">ail</span>lot「ル・マヨ」(ジャージ、水着)<br>
-la t<span class="rouge_1">ail</span>le「ラ・タユ」(サイズ)<br>
-la méd<span class="rouge_1">ail</span>le「ラ・メダイユ」(メダル)
+<td>le trav<span class="rouge_1">ail</span>le (ル・トラバユ)「仕事」<br>le m<span class="rouge_1">ail</span>lot (ル・マヨ)「ジャージ、水着」<br>
+la t<span class="rouge_1">ail</span>le (ラ・タユ)「サイズ」<br>
+la méd<span class="rouge_1">ail</span>le (ラ・メダイユ)「メダル」
 </td>
 </tr>
 <tr>
 <td><span class="noir4">eil</span></td>
 <td><span class="bleu">エイユ</span> </td>
-<td>la bout<span class="rouge_1">ei</span>lle「ラ・ブティユ」(ボトル)<br>par<span class="rouge_1">eil</span>「パレイユ」(同様な)<br>
-somm<span class="rouge_1">eil</span>「ソメイユ」(眠り)
+<td>la bout<span class="rouge_1">ei</span>lle (ラ・ブティユ)「ボトル」<br>par<span class="rouge_1">eil</span> (パレイユ)「同様な」<br>
+somm<span class="rouge_1">eil</span> (ソメイユ)「眠り」
 </td>
 </tr>
 <tr>
 <td><span class="noir4">ai</span></td>
 <td><span class="bleu">エ</span> </td>
-<td>J'<span class="rouge_1">ai</span>「ジェ」(私は持っている)<br>
-japon<span class="rouge_1">ai</span>s「ジャポネ」(日本の、日本語)<br>
-c'et<span class="rouge_1">ai</span>t「セテ」(～だった)<br>
-vr<span class="rouge_1">ai</span>「ヴレ」(本当の)<br>je s<span class="rouge_1">ai</span>s「ジュセ」(私は知っている)<br>
-parf<span class="rouge_1">ai</span>t「パフェ」(完全の)
+<td>J'<span class="rouge_1">ai</span> (ジェ)「私は持っている」<br>
+japon<span class="rouge_1">ai</span>s (ジャポネ)「日本の、日本語」<br>
+c'et<span class="rouge_1">ai</span>t (セテ)「～だった」<br>
+vr<span class="rouge_1">ai</span> (ヴレ)「本当の」<br>je s<span class="rouge_1">ai</span>s (ジュセ)「私は知っている」<br>
+parf<span class="rouge_1">ai</span>t (パフェ)「完全の」
 </td>
 </tr>
 </tbody>
