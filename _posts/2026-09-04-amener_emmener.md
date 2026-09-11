@@ -1,6 +1,6 @@
 ---
 layout: single
-title: amener と emmener の徹底整理
+title: amener と emmener 徹底整理
 header:
   overlay_image: images/header_fr58_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.33)
@@ -46,7 +46,7 @@ excerpt: >
             <audio id="imperatif_91" preload="auto">
                 <source src="\audio\0610\01_amener_emmener.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="imperatif_01">
+                <button type="button" data-audio-id="imperatif_91">
                     <span class="label">📢</span>
                 </button>
 </div></ul>
@@ -177,7 +177,7 @@ excerpt: >
             <audio id="imperatif_92" preload="auto">
                 <source src="\audio\0610\02_amener_emmener.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="imperatif_02">
+                <button type="button" data-audio-id="imperatif_92">
                     <span class="label">📢</span>
                 </button>
 </div></ul>
