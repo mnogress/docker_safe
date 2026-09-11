@@ -174,10 +174,10 @@ excerpt: >
 <ul>
 <li>音声</li>
 <div class="player">
-            <audio id="imperatif_01" preload="auto">
+            <audio id="imperatif_02" preload="auto">
                 <source src="\audio\0610\02_amener_emmener.m4a" type="audio/mp4">
             </audio>
-                <button type="button" data-audio-id="imperatif_01">
+                <button type="button" data-audio-id="imperatif_02">
                     <span class="label">📢</span>
                 </button>
 </div></ul>
