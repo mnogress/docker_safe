@@ -183,6 +183,17 @@ excerpt: >
 </div></ul>
 
 ---
+<ul>
+<li>音声</li>
+<div class="player">
+            <audio id="imperatif_01" preload="auto">
+                <source src="\audio\0610\01_imperatif.m4a" type="audio/mp4">
+            </audio>
+                <button type="button" data-audio-id="imperatif_01">
+                    <span class="label">📢</span>
+                </button>
+</div></ul>
+---
 
 ### **混同しないコツ（まとめ）**
 
