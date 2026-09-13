@@ -183,17 +183,7 @@ excerpt: >
 </div></ul>
 
 ---
-<ul>
-<li>音声</li>
-<div class="player">
-            <audio id="imperatif_01" preload="auto">
-                <source src="\audio\0610\01_imperatif.m4a" type="audio/mp4">
-            </audio>
-                <button type="button" data-audio-id="imperatif_01">
-                    <span class="label">📢</span>
-                </button>
-</div></ul>
----
+
 
 ### **混同しないコツ（まとめ）**
 
@@ -205,3 +195,33 @@ excerpt: >
 > **自分も行くなら “emmener”  
 > 自分は行かないなら “amener”**
 
+<style type="text/css"></style>
+
+<script defer>
+document.addEventListener('DOMContentLoaded', () => {
+  document.querySelectorAll('.player').forEach((wrap, idx) => {
+    const audioEl = wrap.querySelector('audio');
+    const btn = wrap.querySelector('button');
+
+    console.log(`player #${idx+1}`, { audioEl, btn });
+
+    if (!audioEl || !btn) {
+      console.warn(`player #${idx+1} に audio または button が見つかりません`);
+      return;
+    }
+    btn.addEventListener('click', () => {
+      if (audioEl.paused) audioEl.play().catch(err => console.error('再生失敗:', err));
+      else audioEl.pause();
+    });
+
+    audioEl.addEventListener('ended', () => updateLabel(btn, false));
+    audioEl.addEventListener('play',  () => updateLabel(btn, true));
+    audioEl.addEventListener('pause', () => updateLabel(btn, false));
+  });
+
+  function updateLabel(button, playing) {
+    const label = button.querySelector('.label');
+    if (label) label.textContent = playing ? '停止' : '🔄';
+  }
+});
+</script>
