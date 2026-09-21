@@ -19,7 +19,7 @@ sidebar:
 tag: ["French", "フランス語学習"]
 categories: [français, grammaire]
 date: 2026-09-04
-last_modified_at : 2026-09-04 09:00:00
+last_modified_at : 2026-09-21 09:00:00
 excerpt: >
   「amener と emmener が混同する」という悩みは、フランス語学習者の“定番”です。
   でも、意味の違いはとてもシンプルで、「どこまで一緒に行くか」だけで整理できます。
