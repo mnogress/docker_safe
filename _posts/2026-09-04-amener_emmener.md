@@ -1,6 +1,6 @@
 ---
 layout: single
-title: amener と emmener 徹底整理
+title: そのまま覚える amener と emmener 徹底整理
 header:
   overlay_image: images/header_fr58_1280by336.png
   overlay_filter: rgba(107, 74, 43, 0.33)
