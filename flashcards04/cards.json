@@ -258,6 +258,12 @@
   {"front": "私はフランスのワインに興味があります", "back": "Je m'intéresse au vin français.", "kana": "ジュ・マンテレッス・オ・ヴァンフランセ", "example": "s'interesser a は「～に興味を持つ」という再帰動詞  à + le = au に縮約", "audio": "/audio/0610/256_flcsq.m4a"},
   {"front": "私は作業場（アトリエ）に入ってもいいですか。", "back": "Est-ce que je peux entrer dans l’atelier ?  ", "kana": "エス・ク・ジュ・ペ・アン・トレ・ダン・ラトリエ", "example": "Est-ce que peux ～　～していいですか　許可を求める", "audio": "/audio/0610/257_flcsq.m4a"},
   {"front": " 「喜んで」「もちろんです」「どういたしまして」", "back": "Avec plaisir  ", "kana": "アヴェク・プレジール", "example": "Avec の語末 c は「ク」とはっきり発音  plaisir の s は濁って「ズ」", "audio": "/audio/0610/258_flcsq.m4a"},
-  {"front": "毎朝、起きたらテレビでニュースを見ます。", "back": "Chaque matin, quand je me réveille, je regarde les infos à la télé.", "kana": "シャク・マタン・カン・ジュ・ム・レヴェイユ・ジュ・ルガルド・レ・ザンフ・ア・ラ・テレ", "example": "quand je me réveille　私が目覚めるとき", "audio": "/audio/0610/259_flcsq.m4a"},
-  {"front": "もしあなたがご都合よければ、明日お会いしたいです。", "back": "Si vous êtes disponible, j'aimerais vous voir demain. ", "kana": "スィ・ヴ・ゼット・ディスポニーブル、ジャメレ・ヴ・ヴワール・ドゥマン", "example": "j’aimerais(ジャメレ)：私は～したいのですが（控えめで丁寧）条件法現在", "audio": "/audio/0610/260_flcsq.m4a"}
+  {"front": "毎朝、起きたらテレビでニュースを見ます。", "back": "Chaque matin, quand je me réveille, je regarde les infos à la télévision.", "kana": "シャク・マタン・カン・ジュ・ム・レヴェイユ・ジュ・ルガルド・レ・ザンフ・ア・ラ・テレ", "example": "quand je me réveille　私が目覚めるとき", "audio": "/audio/0610/259_flcsq.m4a"},
+  {"front": "もしあなたがご都合よければ、明日お会いしたいです。", "back": "Si vous êtes disponible, j'aimerais vous voir demain. ", "kana": "スィ・ヴ・ゼット・ディスポニーブル、ジャメレ・ヴ・ヴワール・ドゥマン", "example": "j’aimerais(ジャメレ)：私は～したいのですが（控えめで丁寧）条件法現在", "audio": "/audio/0610/260_flcsq.m4a"},
+  {"front": "牛肉の代わりに豚肉で作った炒め物が思いのほか、おいしかった", "back": "J’ai fait un sauté de porc à la place du bœuf, et c’etait étonnamment bon.  ", "kana": "ジェ・フェ・アン・ソテ・ドゥ・ポルク・ア・ラ・プラス・デュ・ブフ・エ・セテ・ゼトナマン・ボン", "example": "à la place de ～ = 「～の代わりに」étonnamment = 「思いのほか／驚くほど」", "audio": "/audio/0610/261_flcsq.m4a"},
+  {"front": "何が起こったのかわからない」", "back": "Je ne sais pas ce qui est arrivé.  ", "kana": "ジュ・ヌ・セ・パ・ス・キ・エ・ザリヴェ", "example": "ce qui est arrivé　何が起こった　est arrivé 複合過去", "audio": "/audio/0610/262_flcsq.m4a"},
+  {"front": "私たちは彼（彼女）を信頼している。", "back": "On lui fait confiance.", "kana": "オン・リュイ・フェ・コンフィヤンス", "example": "faire confiance a ～ = 「～を信頼する」", "audio": "/audio/0610/263_flcsq.m4a"},
+  {"front": "本当に信じられない。／本当にすごい。", "back": "C’est vraiment incroyable.", "kana": "セ・ヴレマン・アン・クレヤブル", "example": "incroyable アン・クレヤブル 形容詞「信じられない」「すごい」「驚くべき」", "audio": "/audio/0610/264_flcsq.m4a"},
+  {"front": "この写真は私に良い思い出を思い出させた。", "back": "Cette photo me rappelait de bons souvenirs.", "kana": "セット・フォト・ム・ラプレ・デ・ボン・スヴニール", "example": "me rappelait 半過去（imparfait）→「思い出させていた」「思い出させた（継続的な感じ）」", "audio": "/audio/0610/265_flcsq.m4a"},
+  {"front": "彼女は私に会おうとしない。", "back": "Elle refuse de me voir.", "kana": "エル・ルフズ・ドゥ・ム・ヴワール", "example": "refuser de + 動詞の原形  →「～することを拒む」", "audio": "/audio/0610/266_flcsq.m4a"}
 ]
