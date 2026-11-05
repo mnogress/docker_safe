@@ -424,3 +424,13 @@ th {
   0% { transform: translate(0, 0); }
   100% { transform: translate(-100%, 0); }
 }
+
+.pink_r3-table th:nth-child(3),
+.pink_r3-table td:nth-child(3) {
+  background-color: #f4c3d3;
+}
+
+.pink_r4-table th:nth-child(4),
+.pink_r4-table td:nth-child(4) {
+  background-color: #f4c3d3;
+}
