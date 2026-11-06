@@ -20,7 +20,7 @@ sidebar:
 category: [français, vocabulaire]
 tag: ["French", "フランス語学習"]
 date: 2025-10-11
-last_modified_at : 2025-11-27 10:30:00
+last_modified_at : 2026-11-2 10:30:00
 excerpt: >
   フランス語の faux-amis（フォザミ／紛らわしい単語）を日本語話者向けに整理した一覧です。
   actuel, librairie, éventuellement, sensible など、見た目が日本語や英語と似ていて誤解しやすい語の意味と使い方を解説。
