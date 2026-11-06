@@ -80,7 +80,7 @@ faux-amis とは、英語や日本語とつづりが似ているために
 
 {: .pink_r3-table}
 | フランス語 |読み方   | 日本語訳 |　英語（訳） |
-| :-----         | :----         | :-----         | :-----        | 
+| :-----         | :-----         | :-----         | :-----        | 
 | <span class="bleu15">actuellement</span>  | <span class="noir07">アクチュエルマン</span> |現在、今 | actually (実際に)  |
 | <span class="bleu15">assister</span>      | <span class="noir07">アシステ</span>        |出席する    | to assist (助ける)  |
 | <span class="bleu15">attendre</span>      | <span class="noir07">アターンドル</span>     |待つ  | to attend (参加する) |
