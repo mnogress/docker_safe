@@ -137,7 +137,7 @@ faux-amis とは、英語や日本語とつづりが似ているために
 | <span class="bleu15">villain</span>       | <span class="noir07">ヴィラン</span>|いたずらっ子、ブサイク|villain(悪役)*4|
 | <span class="bleu15">visage</span>        | <span class="noir07">ヴィザージュ</span>|顔 ㊚|visage (顔立ち)*5|
 | <span class="bleu15">voler</span>         | <span class="noir07">ヴォレ</span>|盗む、飛ぶ|volunteer (ボランティア)|
-| <span class="bleu15">wagon-lit</span>     | <span class="noir07">ヴァゴン・リ</span>|寝台車 ㊚|wagon-lit (寝台車)*6 |仏:ヴァ、英:ワ|
+| <span class="bleu15">wagon-lit</span>     | <span class="noir07">ヴァゴン・リ</span>|寝台車 ㊚|wagon-lit (寝台車)*6 |
 | <span class="bleu15">habit</span>         | <span class="noir07">アビ</span>|衣服 ㊚|habit (癖)|
 | <span class="bleu15">injonction</span>    | <span class="noir07">アンジョンクシオン</span>|命令 ㊛|injunction (差し止め命令)|
 
