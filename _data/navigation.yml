@@ -14,6 +14,8 @@ main:
 docs:
   - title: 🔥よく読まれている記事
     children: 
+      - title: "🎧そのまま覚えるフランス語の文例 ～ avoir ～"
+        url: /français/conjugaison/avoir_phrase_ref/ 
       - title: "🆕 文法から覚えるフランス語の文例 ～ 代名動詞 ～"
         url: /français/grammaire/verbe_pronominal/
       - title: "🍎フランス語学習者のための「空に言葉 (faux-amis)」"

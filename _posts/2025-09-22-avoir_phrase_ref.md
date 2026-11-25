@@ -19,8 +19,8 @@ sidebar:
   nav: "docs"
 category: [français, conjugaison]
 tag: ["French", "フランス語学習"]
-date: 2026-03-08
-last_modified_at : 2026-03-08 11:20:00
+date: 2026-11-23
+last_modified_at : 2026-11-23 11:20:00
 excerpt: >
   フランス語の動詞 avoir を使った日常フレーズをまとめたページです。
   avoir faim, avoir soif, avoir besoin de, avoir envie de など、意味が直訳しにくい表現を例文とニュアンス付きで解説。
@@ -71,8 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
 フランス語のavoir（アヴォワール）は、主に「持つ」「所有する」という意味を持つ基本的な動詞で、英語の"have"に相当します。
 物理的な所有以外にも、年齢、感情、体調などさまざまな状態や状況を表すために用いられます。英語では be動詞を使うような表現も avoir を使います。
 
-複合過去を作る助動詞としても非常に重要で、動詞の過去分詞とともに「～した」という過去の行為を表します
-以下が活用表です。ここでは、不定詞・直接法現在・単純未来・半過去・複合過去の活用を紹介します。　ポイントは以下になります。
+**複合過去を作る助動詞としても非常に重要**で、動詞の過去分詞とともに「～した」という過去の行為を表します。
+活用表では、不定詞・直接法現在・単純未来・半過去・複合過去の活用を紹介します。　
+
+### 活用表のポイント
 
 <main class="page-ul-fix">
 <ul>
@@ -89,6 +91,8 @@ document.addEventListener('DOMContentLoaded', () => {
 </main>
 
 <span class="rouge">英語の"be動詞"にあたる être とともに、**avoir** は、フランス語の基本的な文を理解するために不可欠な動詞です。</span><br>
+
+### avoirの活用表
 
 <table class="resp_table">
 <caption>avoirの活用表</caption>
